@@ -1,5 +1,5 @@
 {
-  "version": "1.5", 
+  "version": "1.6", 
   "products": [
     {
       "product": "Digital Life RMS 1.8.1.1; Cisco Broadband Access Center Telco Wireless 3.8.1", 
@@ -125,6 +125,11 @@
       "product": "Cisco Prime Access Registrar", 
       "fix": null, 
       "bug": "CSCux34955"
+    }, 
+    {
+      "product": "Cisco Prime Central for SPs", 
+      "fix": null, 
+      "bug": "CSCux34667"
     }, 
     {
       "product": "Cisco Prime Collaboration Provisioning", 
