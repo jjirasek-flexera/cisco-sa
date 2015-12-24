@@ -2,479 +2,929 @@
   "version": "1.6", 
   "products": [
     {
+      "bug_id": "CSCux34660", 
       "product": "Digital Life RMS 1.8.1.1; Cisco Broadband Access Center Telco Wireless 3.8.1", 
       "fix": null, 
-      "bug": "CSCux34660"
+      "bug_data": {
+        "affected_releases": "1.8(1.1) 1.8(1.2)", 
+        "fixed_releases": "None", 
+        "status": "Terminated", 
+        "product_name": "Cisco Broadband Access Center for Telco and Wireless"
+      }
     }, 
     {
+      "bug_id": "CSCux34833", 
       "product": "Cisco SocialMiner", 
       "fix": null, 
-      "bug": "CSCux34833"
+      "bug_data": {
+        "affected_releases": "11.5(1)", 
+        "fixed_releases": "None", 
+        "status": "Open", 
+        "product_name": "Cisco SocialMiner"
+      }
     }, 
     {
+      "bug_id": "CSCux34612", 
       "product": "Cisco WebEx Meetings Server versions 1.x", 
       "fix": null, 
-      "bug": "CSCux34612"
+      "bug_data": {
+        "affected_releases": "2.5 2.6", 
+        "fixed_releases": "2.5.1.6183 2.6.1.45", 
+        "status": "Fixed", 
+        "product_name": "Cisco WebEx Meeting Center"
+      }
     }, 
     {
+      "bug_id": "CSCux34612", 
       "product": "Cisco WebEx Meetings Server versions 2.x", 
       "fix": null, 
-      "bug": "CSCux34612"
+      "bug_data": {
+        "affected_releases": "2.5 2.6", 
+        "fixed_releases": "2.5.1.6183 2.6.1.45", 
+        "status": "Fixed", 
+        "product_name": "Cisco WebEx Meeting Center"
+      }
     }, 
     {
+      "bug_id": "CSCux35102", 
       "product": "Cisco NAC Agent for Windows", 
       "fix": null, 
-      "bug": "CSCux35102"
+      "bug_data": "Restricted"
     }, 
     {
+      "bug_id": "CSCux35041", 
       "product": "Cisco InTracer", 
       "fix": null, 
-      "bug": "CSCux35041"
+      "bug_data": {
+        "affected_releases": "16.4.a5", 
+        "fixed_releases": "None", 
+        "status": "Terminated", 
+        "product_name": "Cisco ASR 5000 Series"
+      }
     }, 
     {
+      "bug_id": "CSCux35101", 
       "product": "Cisco Network Admission Control (NAC)", 
       "fix": null, 
-      "bug": "CSCux35101"
+      "bug_data": {
+        "affected_releases": "4.9(5)", 
+        "fixed_releases": "None", 
+        "status": "Open", 
+        "product_name": "Cisco NAC Appliance (Clean Access)"
+      }
     }, 
     {
+      "bug_id": "CSCux34725", 
       "product": "Cisco Visual Quality Experience Server", 
       "fix": null, 
-      "bug": "CSCux34725"
+      "bug_data": {
+        "affected_releases": "3.10(0.5) 3.10(5) 3.9(4)", 
+        "fixed_releases": "None", 
+        "status": "Open", 
+        "product_name": "Cisco Content Delivery Engine Series"
+      }
     }, 
     {
+      "bug_id": "CSCux34725", 
       "product": "Cisco Visual Quality Experience Tools Server", 
       "fix": null, 
-      "bug": "CSCux34725"
+      "bug_data": {
+        "affected_releases": "3.10(0.5) 3.10(5) 3.9(4)", 
+        "fixed_releases": "None", 
+        "status": "Open", 
+        "product_name": "Cisco Content Delivery Engine Series"
+      }
     }, 
     {
+      "bug_id": "CSCux34742", 
       "product": "Cisco ASA CX and Cisco Prime Security Manager", 
       "fix": null, 
-      "bug": "CSCux34742"
+      "bug_data": {
+        "affected_releases": "100.6(0.0.140)", 
+        "fixed_releases": "None", 
+        "status": "Open", 
+        "product_name": "Cisco ASA Next-Generation Firewall Services"
+      }
     }, 
     {
+      "bug_id": "CSCux34736", 
       "product": "Cisco ASA Content Security and Control (CSC) Security Services Module", 
       "fix": null, 
-      "bug": "CSCux34736"
+      "bug_data": "Restricted"
     }, 
     {
+      "bug_id": "CSCux34981", 
       "product": "Cisco Clean Access Manager", 
       "fix": null, 
-      "bug": "CSCux34981"
+      "bug_data": {
+        "affected_releases": "4.9(5)", 
+        "fixed_releases": "None", 
+        "status": "Open", 
+        "product_name": "Cisco NAC Appliance (Clean Access)"
+      }
     }, 
     {
+      "bug_id": "CSCux35048", 
       "product": "Cisco Email Security Appliance (ESA)", 
       "fix": null, 
-      "bug": "CSCux35048"
+      "bug_data": "Restricted"
     }, 
     {
+      "bug_id": "CSCux34754", 
       "product": "Cisco Identity Services Engine (ISE)", 
       "fix": null, 
-      "bug": "CSCux34754"
+      "bug_data": "Restricted"
     }, 
     {
+      "bug_id": "CSCux34982", 
       "product": "Cisco NAC Appliance (Clean Access Server)", 
       "fix": null, 
-      "bug": "CSCux34982"
+      "bug_data": {
+        "affected_releases": "4.9(5)", 
+        "fixed_releases": "None", 
+        "status": "Open", 
+        "product_name": "Cisco NAC Appliance (Clean Access)"
+      }
     }, 
     {
+      "bug_id": "CSCux34984", 
       "product": "Cisco NAC Guest Server", 
       "fix": null, 
-      "bug": "CSCux34984"
+      "bug_data": "Restricted"
     }, 
     {
+      "bug_id": "CSCux34983", 
       "product": "Cisco NAC Server", 
       "fix": null, 
-      "bug": "CSCux34983"
+      "bug_data": {
+        "affected_releases": "4.9(5)", 
+        "fixed_releases": "None", 
+        "status": "Open", 
+        "product_name": "Cisco NAC Appliance (Clean Access)"
+      }
     }, 
     {
+      "bug_id": "CSCux34781", 
       "product": "Cisco Secure Access Control System (ACS)", 
       "fix": null, 
-      "bug": "CSCux34781"
+      "bug_data": {
+        "affected_releases": "5.5(0.46.10) 5.6(0.22.4) 5.7(0.15) 5.8(0.32)", 
+        "fixed_releases": "None", 
+        "status": "Fixed", 
+        "product_name": "Cisco Secure Access Control Server Solution Engine"
+      }
     }, 
     {
+      "bug_id": "CSCux34652", 
       "product": "Cisco Access Registrar Appliance", 
       "fix": null, 
-      "bug": "CSCux34652"
+      "bug_data": {
+        "affected_releases": "6.1", 
+        "fixed_releases": "None", 
+        "status": "Fixed", 
+        "product_name": "Cisco Access Registrar"
+      }
     }, 
     {
+      "bug_id": "CSCux35070", 
       "product": "Cisco Cloupia Unified Infrastructure Controller", 
       "fix": null, 
-      "bug": "CSCux35070"
+      "bug_data": {
+        "affected_releases": "5.4(0.0)", 
+        "fixed_releases": "None", 
+        "status": "Fixed", 
+        "product_name": "Cisco UCS Director"
+      }
     }, 
     {
+      "bug_id": "CSCux35040", 
       "product": "Cisco Configuration Professional", 
       "fix": null, 
-      "bug": "CSCux35040"
+      "bug_data": {
+        "affected_releases": "2.8", 
+        "fixed_releases": "None", 
+        "status": "Open", 
+        "product_name": "Cisco Configuration Professional"
+      }
     }, 
     {
+      "bug_id": "CSCux34692", 
       "product": "Cisco Digital Media Manager", 
       "fix": null, 
-      "bug": "CSCux34692"
+      "bug_data": {
+        "affected_releases": "5.4(1)RB1 5.4.1", 
+        "fixed_releases": "None", 
+        "status": "Fixed", 
+        "product_name": "Cisco Digital Media Manager"
+      }
     }, 
     {
+      "bug_id": "CSCux34694", 
       "product": "Cisco Insight Reporter", 
       "fix": null, 
-      "bug": "CSCux34694"
+      "bug_data": {
+        "affected_releases": "3.0.0 4.0.0 5.0.0", 
+        "fixed_releases": "None", 
+        "status": "Open", 
+        "product_name": "Cisco SCE 8000 Series Service Control Engine"
+      }
     }, 
     {
+      "bug_id": "CSCux34652", 
       "product": "Cisco Prime Access Registrar Appliance", 
       "fix": null, 
-      "bug": "CSCux34652"
+      "bug_data": {
+        "affected_releases": "6.1", 
+        "fixed_releases": "None", 
+        "status": "Fixed", 
+        "product_name": "Cisco Access Registrar"
+      }
     }, 
     {
+      "bug_id": "CSCux34955", 
       "product": "Cisco Prime Access Registrar", 
       "fix": null, 
-      "bug": "CSCux34955"
+      "bug_data": {
+        "affected_releases": "7.0", 
+        "fixed_releases": "None", 
+        "status": "Open", 
+        "product_name": "Cisco Access Registrar"
+      }
     }, 
     {
+      "bug_id": "CSCux34667", 
       "product": "Cisco Prime Central for SPs", 
       "fix": null, 
-      "bug": "CSCux34667"
+      "bug_data": "Restricted"
     }, 
     {
+      "bug_id": "CSCux34669", 
       "product": "Cisco Prime Collaboration Provisioning", 
       "fix": null, 
-      "bug": "CSCux34669"
+      "bug_data": {
+        "affected_releases": "11.0", 
+        "fixed_releases": "None", 
+        "status": "Open", 
+        "product_name": "Cisco Prime Collaboration"
+      }
     }, 
     {
+      "bug_id": "CSCux34668", 
       "product": "Cisco Prime Home", 
       "fix": null, 
-      "bug": "CSCux34668"
+      "bug_data": {
+        "affected_releases": "5.1(2.1) 5.1(2.3) 5.2 5.2(0.1) 5.2(1.0)", 
+        "fixed_releases": "None", 
+        "status": "Fixed", 
+        "product_name": "Cisco Prime Home"
+      }
     }, 
     {
+      "bug_id": "CSCux34647", 
       "product": "Cisco Prime LAN Management Solution (LMS - Solaris)", 
       "fix": null, 
-      "bug": "CSCux34647"
+      "bug_data": {
+        "affected_releases": "4.2(5)", 
+        "fixed_releases": "None", 
+        "status": "Open", 
+        "product_name": "CiscoWorks Common Services Software"
+      }
     }, 
     {
+      "bug_id": "CSCux34705", 
       "product": "Cisco Prime License Manager", 
       "fix": null, 
-      "bug": "CSCux34705"
+      "bug_data": "Restricted"
     }, 
     {
+      "bug_id": "CSCux34672", 
       "product": "Cisco Prime Network Services Controller", 
       "fix": null, 
-      "bug": "CSCux34672"
+      "bug_data": {
+        "affected_releases": "3.4", 
+        "fixed_releases": "None", 
+        "status": "Fixed", 
+        "product_name": "Cisco Virtual Network Management Center"
+      }
     }, 
     {
+      "bug_id": "CSCux34656", 
       "product": "Cisco Prime Optical for SPs", 
       "fix": null, 
-      "bug": "CSCux34656"
+      "bug_data": {
+        "affected_releases": "10.0(0.1) 10.0(2.1) 10.3(4.1) 10.5(0) 10.5(2) 9.8(0.3)", 
+        "fixed_releases": "None", 
+        "status": "Open", 
+        "product_name": "Cisco Prime Optical"
+      }
     }, 
     {
+      "bug_id": "CSCux34953", 
       "product": "Cisco Prime Performance Manager", 
       "fix": null, 
-      "bug": "CSCux34953"
+      "bug_data": {
+        "affected_releases": "1.7(0.3)", 
+        "fixed_releases": "None", 
+        "status": "Open", 
+        "product_name": "Cisco Prime Performance Manager"
+      }
     }, 
     {
+      "bug_id": "CSCux34664", 
       "product": "Cisco Prime Provisioning for SPs", 
       "fix": null, 
-      "bug": "CSCux34664"
+      "bug_data": "Restricted"
     }, 
     {
+      "bug_id": "CSCux35084", 
       "product": "Cisco Prime Provisioning", 
       "fix": null, 
-      "bug": "CSCux35084"
+      "bug_data": "Restricted"
     }, 
     {
+      "bug_id": "CSCux34715", 
       "product": "Cisco Prime Service Catalog Virtual Appliance", 
       "fix": null, 
-      "bug": "CSCux34715"
+      "bug_data": {
+        "affected_releases": "10.0_R2_tanggula 10.0_tanggula 10.1_tanggula 11.0 11.1 9.4.1_R2_vortex 9.4.1_vortex", 
+        "fixed_releases": "None", 
+        "status": "Open", 
+        "product_name": "Cisco Prime Service Catalog"
+      }
     }, 
     {
+      "bug_id": "CSCux34671", 
       "product": "Cisco Security Manager", 
       "fix": null, 
-      "bug": "CSCux34671"
+      "bug_data": {
+        "affected_releases": "4.10(0.187)", 
+        "fixed_releases": "None", 
+        "status": "Open", 
+        "product_name": "Cisco Security Manager"
+      }
     }, 
     {
+      "bug_id": "CSCux34575", 
       "product": "Data Center Analytics Framework (DCAF)", 
       "fix": null, 
-      "bug": "CSCux34575"
+      "bug_data": "Restricted"
     }, 
     {
+      "bug_id": "CSCux34812", 
       "product": "Local Collector Appliance (LCA)", 
       "fix": null, 
-      "bug": "CSCux34812"
+      "bug_data": "Restricted"
     }, 
     {
+      "bug_id": "CSCux34584", 
       "product": "Unified Communications Deployment Tools", 
       "fix": null, 
-      "bug": "CSCux34584"
+      "bug_data": "Restricted"
     }, 
     {
+      "bug_id": "CSCux34645", 
       "product": "Cisco Broadband Access Center Telco Wireless", 
       "fix": null, 
-      "bug": "CSCux34645"
+      "bug_data": {
+        "affected_releases": "3.10(1)", 
+        "fixed_releases": "None", 
+        "status": "Open", 
+        "product_name": "Cisco Broadband Access Center for Telco and Wireless"
+      }
     }, 
     {
+      "bug_id": "CSCux35113", 
       "product": "Cisco Unified Computing System (Management software)", 
       "fix": null, 
-      "bug": "CSCux35113"
+      "bug_data": "Restricted"
     }, 
     {
+      "bug_id": "CSCux34589", 
       "product": "Cisco Computer Telephony Integration Object Server (CTIOS)", 
       "fix": null, 
-      "bug": "CSCux34589"
+      "bug_data": {
+        "affected_releases": "11.0(1) 11.5(1)", 
+        "fixed_releases": "None", 
+        "status": "Fixed", 
+        "product_name": "Cisco Unified Contact Center Enterprise"
+      }
     }, 
     {
+      "bug_id": "CSCux34852", 
       "product": "Cisco Emergency Responder", 
       "fix": null, 
-      "bug": "CSCux34852"
+      "bug_data": {
+        "affected_releases": "11.5(0.98000.29)", 
+        "fixed_releases": "None", 
+        "status": "Open", 
+        "product_name": "Cisco Emergency Responder"
+      }
     }, 
     {
+      "bug_id": "CSCux34859", 
       "product": "Cisco Hosted Collaboration Mediation Fulfillment", 
       "fix": null, 
-      "bug": "CSCux34859"
+      "bug_data": {
+        "affected_releases": "11.5(1)", 
+        "fixed_releases": "None", 
+        "status": "Open", 
+        "product_name": "Cisco Hosted Collaboration Solution (HCS)"
+      }
     }, 
     {
+      "bug_id": "CSCux34855", 
       "product": "Cisco IM and Presence Service (CUPS)", 
       "fix": null, 
-      "bug": "CSCux34855"
+      "bug_data": {
+        "affected_releases": "11.5(1)", 
+        "fixed_releases": "None", 
+        "status": "Open", 
+        "product_name": "Cisco Unified Communications Manager IM & Presence Service"
+      }
     }, 
     {
+      "bug_id": "CSCux34720", 
       "product": "Cisco IP Interoperability and Collaboration System (IPICS)", 
       "fix": null, 
-      "bug": "CSCux34720"
+      "bug_data": "Restricted"
     }, 
     {
+      "bug_id": "CSCux35009", 
       "product": "Cisco Management Heartbeat Server", 
       "fix": null, 
-      "bug": "CSCux35009"
+      "bug_data": {
+        "affected_releases": "4.1.0 5.1.0 SR10.0.0", 
+        "fixed_releases": "None", 
+        "status": "Open", 
+        "product_name": "Cisco Universal Small Cell RAN Management System"
+      }
     }, 
     {
+      "bug_id": "CSCux34874", 
       "product": "Cisco MediaSense", 
       "fix": "11.0, 10.5 (March 2016), 11.5 (June 2016)", 
-      "bug": "CSCux34874"
+      "bug_data": {
+        "affected_releases": "10.5(1)ES5 11.0(1)ES1 11.5(1)", 
+        "fixed_releases": "None", 
+        "status": "Fixed", 
+        "product_name": "Cisco MediaSense"
+      }
     }, 
     {
+      "bug_id": "CSCux35147", 
       "product": "Cisco MeetingPlace", 
       "fix": null, 
-      "bug": "CSCux35147"
+      "bug_data": {
+        "affected_releases": "8.6(1.19)", 
+        "fixed_releases": "None", 
+        "status": "Open", 
+        "product_name": "Cisco Unified MeetingPlace"
+      }
     }, 
     {
+      "bug_id": "CSCux34827", 
       "product": "Cisco Unified Attendant Console Advanced", 
       "fix": null, 
-      "bug": "CSCux34827"
+      "bug_data": {
+        "affected_releases": "10.0(1) 10.5 10.5(2) 10.6(1) 11.0(1) 8.6 9.0 9.1", 
+        "fixed_releases": "None", 
+        "status": "Fixed", 
+        "product_name": "Cisco Unified Attendant Consoles"
+      }
     }, 
     {
+      "bug_id": "CSCux34827", 
       "product": "Cisco Unified Attendant Console Business Edition", 
       "fix": null, 
-      "bug": "CSCux34827"
+      "bug_data": {
+        "affected_releases": "10.0(1) 10.5 10.5(2) 10.6(1) 11.0(1) 8.6 9.0 9.1", 
+        "fixed_releases": "None", 
+        "status": "Fixed", 
+        "product_name": "Cisco Unified Attendant Consoles"
+      }
     }, 
     {
+      "bug_id": "CSCux34827", 
       "product": "Cisco Unified Attendant Console Department Edition", 
       "fix": null, 
-      "bug": "CSCux34827"
+      "bug_data": {
+        "affected_releases": "10.0(1) 10.5 10.5(2) 10.6(1) 11.0(1) 8.6 9.0 9.1", 
+        "fixed_releases": "None", 
+        "status": "Fixed", 
+        "product_name": "Cisco Unified Attendant Consoles"
+      }
     }, 
     {
+      "bug_id": "CSCux34827", 
       "product": "Cisco Unified Attendant Console Enterprise Edition", 
       "fix": null, 
-      "bug": "CSCux34827"
+      "bug_data": {
+        "affected_releases": "10.0(1) 10.5 10.5(2) 10.6(1) 11.0(1) 8.6 9.0 9.1", 
+        "fixed_releases": "None", 
+        "status": "Fixed", 
+        "product_name": "Cisco Unified Attendant Consoles"
+      }
     }, 
     {
+      "bug_id": "CSCux34827", 
       "product": "Cisco Unified Attendant Console Premium Edition", 
       "fix": null, 
-      "bug": "CSCux34827"
+      "bug_data": {
+        "affected_releases": "10.0(1) 10.5 10.5(2) 10.6(1) 11.0(1) 8.6 9.0 9.1", 
+        "fixed_releases": "None", 
+        "status": "Fixed", 
+        "product_name": "Cisco Unified Attendant Consoles"
+      }
     }, 
     {
+      "bug_id": "CSCux34835", 
       "product": "Cisco Unified Communications Manager (UCM)", 
       "fix": null, 
-      "bug": "CSCux34835"
+      "bug_data": {
+        "affected_releases": "11.5(1.99000.9)", 
+        "fixed_releases": "None", 
+        "status": "Open", 
+        "product_name": "Cisco Unified Communications Manager (CallManager)"
+      }
     }, 
     {
+      "bug_id": "CSCux34835", 
       "product": "Cisco Unified Communications Manager Session Management Edition (SME)", 
       "fix": null, 
-      "bug": "CSCux34835"
+      "bug_data": {
+        "affected_releases": "11.5(1.99000.9)", 
+        "fixed_releases": "None", 
+        "status": "Open", 
+        "product_name": "Cisco Unified Communications Manager (CallManager)"
+      }
     }, 
     {
+      "bug_id": "CSCux34589", 
       "product": "Cisco Unified Contact Center Enterprise", 
       "fix": null, 
-      "bug": "CSCux34589"
+      "bug_data": {
+        "affected_releases": "11.0(1) 11.5(1)", 
+        "fixed_releases": "None", 
+        "status": "Fixed", 
+        "product_name": "Cisco Unified Contact Center Enterprise"
+      }
     }, 
     {
+      "bug_id": "CSCux34853", 
       "product": "Cisco Unified E-Mail Interaction Manager", 
       "fix": null, 
-      "bug": "CSCux34853"
+      "bug_data": {
+        "affected_releases": "11.0(1)", 
+        "fixed_releases": "None", 
+        "status": "Open", 
+        "product_name": "Cisco Unified E-Mail Interaction Manager"
+      }
     }, 
     {
+      "bug_id": "CSCux34844", 
       "product": "Cisco Unified Intelligence Center", 
       "fix": null, 
-      "bug": "CSCux34844"
+      "bug_data": {
+        "affected_releases": "11.5(1)", 
+        "fixed_releases": "None", 
+        "status": "Open", 
+        "product_name": "Cisco Unified Contact Center Express"
+      }
     }, 
     {
+      "bug_id": "CSCux34589", 
       "product": "Cisco Unified Intelligent Contact Management Enterprise", 
       "fix": null, 
-      "bug": "CSCux34589"
+      "bug_data": {
+        "affected_releases": "11.0(1) 11.5(1)", 
+        "fixed_releases": "None", 
+        "status": "Fixed", 
+        "product_name": "Cisco Unified Contact Center Enterprise"
+      }
     }, 
     {
+      "bug_id": "CSCux34567", 
       "product": "Cisco Unified Sip Proxy", 
       "fix": null, 
-      "bug": "CSCux34567"
+      "bug_data": "Restricted"
     }, 
     {
+      "bug_id": "CSCux34853", 
       "product": "Cisco Unified Web Interaction Manager", 
       "fix": null, 
-      "bug": "CSCux34853"
+      "bug_data": {
+        "affected_releases": "11.0(1)", 
+        "fixed_releases": "None", 
+        "status": "Open", 
+        "product_name": "Cisco Unified E-Mail Interaction Manager"
+      }
     }, 
     {
+      "bug_id": "CSCux34922", 
       "product": "Cisco Unity Express", 
       "fix": null, 
-      "bug": "CSCux34922"
+      "bug_data": "Restricted"
     }, 
     {
+      "bug_id": "CSCux34796", 
       "product": "Cisco Digital Transport Adapter Control System (DTACS)", 
       "fix": null, 
-      "bug": "CSCux34796"
+      "bug_data": {
+        "affected_releases": "dtacs-5.0.2", 
+        "fixed_releases": "None", 
+        "status": "Open", 
+        "product_name": "Cisco DTA Control System (DTACS)"
+      }
     }, 
     {
+      "bug_id": "CSCux34968", 
       "product": "Cisco Media Experience Engines (MXE)", 
       "fix": null, 
-      "bug": "CSCux34968"
+      "bug_data": {
+        "affected_releases": "3.3.0 3.3.1 3.3.2 3.5", 
+        "fixed_releases": "None", 
+        "status": "Fixed", 
+        "product_name": "Cisco MXE 3000 Series (Media Experience Engines)"
+      }
     }, 
     {
+      "bug_id": "CSCux34708", 
       "product": "Cisco Show and Share", 
       "fix": null, 
-      "bug": "CSCux34708"
+      "bug_data": {
+        "affected_releases": "5.6.1", 
+        "fixed_releases": "None", 
+        "status": "Open", 
+        "product_name": "Cisco Digital Media Manager"
+      }
     }, 
     {
+      "bug_id": "CSCux34690", 
       "product": "Cisco TelePresence Exchange System (CTX)", 
       "fix": null, 
-      "bug": "CSCux34690"
+      "bug_data": {
+        "affected_releases": "1.3.0.4.4.0", 
+        "fixed_releases": "None", 
+        "status": "Open", 
+        "product_name": "Cisco TelePresence Exchange System"
+      }
     }, 
     {
+      "bug_id": "CSCux34804", 
       "product": "Cisco VDS Service Broker", 
       "fix": null, 
-      "bug": "CSCux34804"
+      "bug_data": {
+        "affected_releases": "1.3", 
+        "fixed_releases": "None", 
+        "status": "Terminated", 
+        "product_name": "Cisco Videoscape Distribution Suite Service Broker"
+      }
     }, 
     {
+      "bug_id": "CSCux34724", 
       "product": "Cisco Video Distribution Suite for Internet Streaming (VDS-IS/CDS-IS)", 
       "fix": null, 
-      "bug": "CSCux34724"
+      "bug_data": {
+        "affected_releases": "4.2(1) 4.3(0)", 
+        "fixed_releases": "None", 
+        "status": "Open", 
+        "product_name": "Cisco Content Delivery Engine Series"
+      }
     }, 
     {
+      "bug_id": "CSCux34792", 
       "product": "Cisco Videoscape Conductor", 
       "fix": null, 
-      "bug": "CSCux34792"
+      "bug_data": {
+        "affected_releases": "vcs-3.5.3", 
+        "fixed_releases": "None", 
+        "status": "Open", 
+        "product_name": "Cisco Conductor"
+      }
     }, 
     {
+      "bug_id": "CSCux34974", 
       "product": "Cisco Videoscape Control Suite", 
       "fix": null, 
-      "bug": "CSCux34974"
+      "bug_data": {
+        "affected_releases": "4.0", 
+        "fixed_releases": "None", 
+        "status": "Open", 
+        "product_name": "Cisco Conductor"
+      }
     }, 
     {
+      "bug_id": "CSCux34795", 
       "product": "Explorer Controller (EC) system", 
       "fix": null, 
-      "bug": "CSCux34795"
+      "bug_data": {
+        "affected_releases": "dncs-6.0.0.22 dncs-7.0.0.16 esn-8.0.3-1", 
+        "fixed_releases": "None", 
+        "status": "Open", 
+        "product_name": "Headend System Releases"
+      }
     }, 
     {
+      "bug_id": "CSCux34722", 
       "product": "VDS-Recorder", 
       "fix": null, 
-      "bug": "CSCux34722"
+      "bug_data": {
+        "affected_releases": "3.11(0)", 
+        "fixed_releases": "None", 
+        "status": "Open", 
+        "product_name": "Cisco Videoscape Distribution Suite for Television"
+      }
     }, 
     {
+      "bug_id": "CSCux34722", 
       "product": "VDS-TV Caching GW", 
       "fix": null, 
-      "bug": "CSCux34722"
+      "bug_data": {
+        "affected_releases": "3.11(0)", 
+        "fixed_releases": "None", 
+        "status": "Open", 
+        "product_name": "Cisco Videoscape Distribution Suite for Television"
+      }
     }, 
     {
+      "bug_id": "CSCux34722", 
       "product": "VDS-TV Streamer", 
       "fix": null, 
-      "bug": "CSCux34722"
+      "bug_data": {
+        "affected_releases": "3.11(0)", 
+        "fixed_releases": "None", 
+        "status": "Open", 
+        "product_name": "Cisco Videoscape Distribution Suite for Television"
+      }
     }, 
     {
+      "bug_id": "CSCux34722", 
       "product": "VDS-TV Vault", 
       "fix": null, 
-      "bug": "CSCux34722"
+      "bug_data": {
+        "affected_releases": "3.11(0)", 
+        "fixed_releases": "None", 
+        "status": "Open", 
+        "product_name": "Cisco Videoscape Distribution Suite for Television"
+      }
     }, 
     {
+      "bug_id": "CSCux34572", 
       "product": "Business Video Services Automation Software (BV)", 
       "fix": null, 
-      "bug": "CSCux34572"
+      "bug_data": "Restricted"
     }, 
     {
+      "bug_id": "CSCux34593", 
       "product": "Cisco Cloud Email Security", 
       "fix": null, 
-      "bug": "CSCux34593"
+      "bug_data": {
+        "affected_releases": "3.4.1-05", 
+        "fixed_releases": "None", 
+        "status": "Open", 
+        "product_name": "Cisco Cloud Email Security"
+      }
     }, 
     {
+      "bug_id": "CSCux35002", 
       "product": "Cisco Cloud Web Security", 
       "fix": null, 
-      "bug": "CSCux35002"
+      "bug_data": {
+        "affected_releases": "5.2(0)", 
+        "fixed_releases": "None", 
+        "status": "Open", 
+        "product_name": "Cisco Cloud Web Security"
+      }
     }, 
     {
+      "bug_id": "CSCux34926", 
       "product": "Cisco Cloud and Systems Management", 
       "fix": null, 
-      "bug": "CSCux34926"
+      "bug_data": "Restricted"
     }, 
     {
+      "bug_id": "CSCux34582", 
       "product": "Cisco Proactive Network Operations Center", 
       "fix": null, 
-      "bug": "CSCux34582"
+      "bug_data": {
+        "affected_releases": "SM3.0", 
+        "fixed_releases": "None", 
+        "status": "Open", 
+        "product_name": "Network Level Service"
+      }
     }, 
     {
+      "bug_id": "CSCux34591", 
       "product": "Cisco Registered Envelope Service (CRES)", 
       "fix": null, 
-      "bug": "CSCux34591"
+      "bug_data": {
+        "affected_releases": "4.5.0-107", 
+        "fixed_releases": "None", 
+        "status": "Open", 
+        "product_name": "Cisco Email Encryption"
+      }
     }, 
     {
+      "bug_id": "CSCux34885", 
       "product": "Cisco Services Provisioning Platform (SPP)", 
       "fix": "3.2.2 (Jan 2016)", 
-      "bug": "CSCux34885"
+      "bug_data": "Restricted"
     }, 
     {
+      "bug_id": "CSCux34779", 
       "product": "Cisco Unified Services Delivery Platform (CUSDP)", 
       "fix": null, 
-      "bug": "CSCux34779"
+      "bug_data": "Restricted"
     }, 
     {
+      "bug_id": "CSCux34881", 
       "product": "Communication/Collaboration Sizing Tool, Virtue Machine Placement Tool, Cisco Unified Communications Upgrade Readiness Assessment", 
       "fix": null, 
-      "bug": "CSCux34881"
+      "bug_data": {
+        "affected_releases": "9.0(1) 9.0(2) 9.0(3)", 
+        "fixed_releases": "None", 
+        "status": "Fixed", 
+        "product_name": "Cisco Collaboration Systems Release"
+      }
     }, 
     {
+      "bug_id": "CSCux34924", 
       "product": "DCAF UCS Collector", 
       "fix": null, 
-      "bug": "CSCux34924"
+      "bug_data": "Restricted"
     }, 
     {
+      "bug_id": "CSCux34927", 
       "product": "Life Cycle Management Agent Manager (LCM)", 
       "fix": null, 
-      "bug": "CSCux34927"
+      "bug_data": "Restricted"
     }, 
     {
+      "bug_id": "CSCux34580", 
       "product": "Network Change and Configuration Management", 
       "fix": null, 
-      "bug": "CSCux34580"
+      "bug_data": "Restricted"
     }, 
     {
+      "bug_id": "CSCux34739", 
       "product": "Partner Supporting Service (PSS) 1.x", 
       "fix": null, 
-      "bug": "CSCux34739"
+      "bug_data": {
+        "affected_releases": "2.7(0.1.11)", 
+        "fixed_releases": "None", 
+        "status": "Fixed", 
+        "product_name": "Cisco Smart Collector"
+      }
     }, 
     {
+      "bug_id": "CSCux34738", 
       "product": "SI component of Partner Supporting Service", 
       "fix": null, 
-      "bug": "CSCux34738"
+      "bug_data": {
+        "affected_releases": "3.302", 
+        "fixed_releases": "None", 
+        "status": "Fixed", 
+        "product_name": "Network Level Service"
+      }
     }, 
     {
+      "bug_id": "CSCux34991", 
       "product": "Serial Number Assessment Service (SNAS)", 
       "fix": null, 
-      "bug": "CSCux34991"
+      "bug_data": {
+        "affected_releases": "1.3(16)", 
+        "fixed_releases": "None", 
+        "status": "Fixed", 
+        "product_name": "Cisco Aironet 700 Series"
+      }
     }, 
     {
+      "bug_id": "CSCux35043", 
       "product": "Services Analytic Platform", 
       "fix": null, 
-      "bug": "CSCux35043"
+      "bug_data": "Restricted"
     }, 
     {
+      "bug_id": "CSCux34987", 
       "product": "Smart Net Total Care (SNTC)", 
       "fix": null, 
-      "bug": "CSCux34987"
+      "bug_data": {
+        "affected_releases": "3.400", 
+        "fixed_releases": "None", 
+        "status": "Fixed", 
+        "product_name": "Network Level Service"
+      }
     }, 
     {
+      "bug_id": "CSCux34730", 
       "product": "Smart Net Total Care", 
       "fix": null, 
-      "bug": "CSCux34730"
+      "bug_data": {
+        "affected_releases": "2.26(2)", 
+        "fixed_releases": "None", 
+        "status": "Fixed", 
+        "product_name": "Network Level Service"
+      }
     }
   ]
 }
