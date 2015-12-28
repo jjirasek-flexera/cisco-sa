@@ -31,8 +31,7 @@
       "bug_id": "CSCuw84862", 
       "product": "Cisco Application and Content Networking System (ACNS)", 
       "fix": [
-        "5.5.41", 
-        "(15-Dec-2015)"
+        "5.5.41 (15-Dec-2015)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -49,8 +48,7 @@
       "bug_id": "CSCuw84852", 
       "product": "Cisco Visual Quality Experience Server", 
       "fix": [
-        "3.10.5", 
-        "(9-Nov-2015)"
+        "3.10.5 (9-Nov-2015)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -65,8 +63,7 @@
       "bug_id": "CSCuw84852", 
       "product": "Cisco Visual Quality Experience Tools Server", 
       "fix": [
-        "3.10.5", 
-        "(9-Nov-2015)"
+        "3.10.5 (9-Nov-2015)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -116,12 +113,8 @@
       "bug_id": "CSCuw84972", 
       "product": "Cisco Intrusion Prevention System Solutions (IPS)", 
       "fix": [
-        "7.1(12)", 
-        "(May", 
-        "2016)", 
-        "7.3(05)", 
-        "(March", 
-        "2016)"
+        "7.1(12) (May 2016)", 
+        "7.3(05) (March 2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -193,8 +186,7 @@
       "bug_id": "CSCuw84704", 
       "product": "Cisco Prime Data Center Network Manager  (.ova and .iso installers)", 
       "fix": [
-        "7.2.2", 
-        "(30-Dec-2015)"
+        "7.2.2 (30-Dec-2015)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -226,10 +218,8 @@
       "bug_id": "CSCuw84810", 
       "product": "Cisco Prime License Manager", 
       "fix": [
-        "10.5(2)su3", 
-        "(31-Jan-2016)", 
-        "11.0(1)su2", 
-        "(31-Mar-2016)"
+        "10.5(2)su3 (31-Jan-2016)", 
+        "11.0(1)su2 (31-Mar-2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -257,9 +247,7 @@
       "bug_id": "CSCuw85824", 
       "product": "Cisco Quantum Policy Suite (QPS)", 
       "fix": [
-        "9.0", 
-        "(March", 
-        "2016)"
+        "9.0 (March 2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -281,8 +269,7 @@
       "bug_id": "CSCuw84719", 
       "product": "Cisco UCS Central", 
       "fix": [
-        "1.4(1a)", 
-        "(18-Dec-2015)"
+        "1.4(1a) (18-Dec-2015)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -299,8 +286,7 @@
       "bug_id": "CSCuw84765", 
       "product": "Cisco Virtual Topology\nSystem (formally Virtual Systems Operations Center)", 
       "fix": [
-        "2.0.1", 
-        "(30-Dec-2015)"
+        "2.0.1 (30-Dec-2015)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -315,8 +301,7 @@
       "bug_id": "CSCuw84705", 
       "product": "Cisco Application Policy Infrastructure Controller (APIC)", 
       "fix": [
-        "1.2(1)", 
-        "(4-Dec-2015)"
+        "1.2(1) (4-Dec-2015)"
       ], 
       "bug_data": null
     }, 
@@ -336,16 +321,8 @@
       "bug_id": "CSCuw85826", 
       "product": "Cisco IOS and Cisco IOS XE Software", 
       "fix": [
-        "For", 
-        "Cisco", 
-        "IOS", 
-        "please", 
-        "consult", 
-        "<a", 
-        "href=\"http://tools.cisco.com/security/center/selectIOSVersion.x\">Cisco", 
-        "IOS", 
-        "Software", 
-        "Checker</a>."
+        "For Cisco IOS", 
+        "please consult <a href=\"http://tools.cisco.com/security/center/selectIOSVersion.x\">Cisco IOS Software Checker</a>."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -475,8 +452,7 @@
       "bug_id": "CSCuw84644", 
       "product": "Cisco Common Services Platform Collector", 
       "fix": [
-        "1.8", 
-        "(24-Nov-2015)"
+        "1.8 (24-Nov-2015)"
       ], 
       "bug_data": null
     }, 
@@ -484,10 +460,7 @@
       "bug_id": "CSCuw84720", 
       "product": "Cisco Standalone rack server CIMC", 
       "fix": [
-        "EPMR8", 
-        "2.0", 
-        "(9x)", 
-        "(15-Jan-2016)"
+        "EPMR8 2.0 (9x) (15-Jan-2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -502,9 +475,7 @@
       "bug_id": "CSCuw84703", 
       "product": "Cisco UCS Director", 
       "fix": [
-        "5.5", 
-        "(March", 
-        "2016)"
+        "5.5 (March 2016)"
       ], 
       "bug_data": null
     }, 
@@ -512,14 +483,7 @@
       "bug_id": "CSCuw84706", 
       "product": "Cisco UCS Invicta Series", 
       "fix": [
-        "A", 
-        "patch", 
-        "file", 
-        "will", 
-        "be", 
-        "available", 
-        "by", 
-        "4-Dec-2015."
+        "A patch file will be available by 4-Dec-2015."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -544,8 +508,7 @@
       "bug_id": "CSCuw84642", 
       "product": "Cisco ASR5X00 Series", 
       "fix": [
-        "19.3", 
-        "(12-Feb-2016)"
+        "19.3 (12-Feb-2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -560,8 +523,7 @@
       "bug_id": "CSCuw85099", 
       "product": "Cisco Emergency Responder", 
       "fix": [
-        "11.5", 
-        "(14-Jun-2016)"
+        "11.5 (14-Jun-2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -591,8 +553,7 @@
       "bug_id": "CSCuw85108", 
       "product": "Cisco Hosted Collaboration Mediation Fulfillment", 
       "fix": [
-        "10.6.3", 
-        "(Available)"
+        "10.6.3 (Available)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -642,10 +603,8 @@
       "bug_id": "CSCuw85139", 
       "product": "Cisco MediaSense", 
       "fix": [
-        "11.0(1)", 
-        "(17-Dec-2015)", 
-        "11.5(1)", 
-        "(31-Mar-2016)"
+        "11.0(1) (17-Dec-2015)", 
+        "11.5(1) (31-Mar-2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -661,8 +620,7 @@
       "bug_id": "CSCuw84642", 
       "product": "Cisco Quantum Virtualized Packet Core", 
       "fix": [
-        "19.3", 
-        "(12-Feb-2016)"
+        "19.3 (12-Feb-2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -690,8 +648,7 @@
       "bug_id": "CSCuw85074", 
       "product": "Cisco Unified Communications Manager (UCM)", 
       "fix": [
-        "10.5(2)su3", 
-        "(30-Dec-2015)"
+        "10.5(2)su3 (30-Dec-2015)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -713,8 +670,7 @@
       "bug_id": "CSCuw85074", 
       "product": "Cisco Unified Communications Manager Session Management Edition (SME)", 
       "fix": [
-        "10.5(2)su3", 
-        "(30-Dec-2015)"
+        "10.5(2)su3 (30-Dec-2015)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -749,9 +705,7 @@
       "bug_id": "CSCuw84641", 
       "product": "Cisco Unified Sip Proxy", 
       "fix": [
-        "10.0", 
-        "(June", 
-        "2016)"
+        "10.0 (June 2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -784,8 +738,7 @@
       "bug_id": "CSCuw84638", 
       "product": "Cisco Unity Express", 
       "fix": [
-        "10.0", 
-        "(2-Jan-2017)"
+        "10.0 (2-Jan-2017)"
       ], 
       "bug_data": null
     }, 
@@ -806,8 +759,7 @@
       "bug_id": "CSCuw84981", 
       "product": "Cisco 910 Industrial Router", 
       "fix": [
-        "1.2.1RB3", 
-        "(30-Nov-2015)"
+        "1.2.1RB3 (30-Nov-2015)"
       ], 
       "bug_data": null
     }, 
@@ -829,8 +781,7 @@
       "bug_id": "CSCuw84983", 
       "product": "Cisco Edge 300 Digital Media Player", 
       "fix": [
-        "1.6RB4_2", 
-        "(20-Nov-2015)"
+        "1.6RB4_2 (20-Nov-2015)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -845,8 +796,7 @@
       "bug_id": "CSCuw84987", 
       "product": "Cisco Edge 340 Digital Media Player", 
       "fix": [
-        "1.2.0.16", 
-        "(30-Nov-2016)"
+        "1.2.0.16 (30-Nov-2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -861,8 +811,7 @@
       "bug_id": "CSCuw84791", 
       "product": "Cisco Enterprise Content Delivery System (ECDS)", 
       "fix": [
-        "2.6.6", 
-        "(31-Dec-2015)"
+        "2.6.6 (31-Dec-2015)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -877,8 +826,7 @@
       "bug_id": "CSCuw84833", 
       "product": "Cisco Expressway Series", 
       "fix": [
-        "X8.7", 
-        "(13-Nov-2015)"
+        "X8.7 (13-Nov-2015)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -895,8 +843,7 @@
       "bug_id": "CSCuw84808", 
       "product": "Cisco Media Experience Engines (MXE)", 
       "fix": [
-        "3.5", 
-        "(Available)"
+        "3.5 (Available)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -918,8 +865,7 @@
       "bug_id": "CSCuw84782", 
       "product": "Cisco TelePresence Conductor", 
       "fix": [
-        "XC4.1", 
-        "(8-Dec-2015)"
+        "XC4.1 (8-Dec-2015)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -934,9 +880,7 @@
       "bug_id": "CSCuw84818", 
       "product": "Cisco TelePresence EX Series", 
       "fix": [
-        "TC7.3.5", 
-        "(February", 
-        "2016)"
+        "TC7.3.5 (February 2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -951,8 +895,7 @@
       "bug_id": "CSCuw84797", 
       "product": "Cisco TelePresence ISDN Link", 
       "fix": [
-        "IL1.1.6", 
-        "(15-Dec-2015)"
+        "IL1.1.6 (15-Dec-2015)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -967,9 +910,7 @@
       "bug_id": "CSCuw84818", 
       "product": "Cisco TelePresence MX Series", 
       "fix": [
-        "TC7.3.5", 
-        "(February", 
-        "2016)"
+        "TC7.3.5 (February 2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -984,9 +925,7 @@
       "bug_id": "CSCuw84818", 
       "product": "Cisco TelePresence Profile Series", 
       "fix": [
-        "TC7.3.5", 
-        "(February", 
-        "2016)"
+        "TC7.3.5 (February 2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1001,9 +940,7 @@
       "bug_id": "CSCuw84818", 
       "product": "Cisco TelePresence SX Series", 
       "fix": [
-        "TC7.3.5", 
-        "(February", 
-        "2016)"
+        "TC7.3.5 (February 2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1060,8 +997,7 @@
       "bug_id": "CSCuw84833", 
       "product": "Cisco TelePresence Video Communication Server (VCS)", 
       "fix": [
-        "X8.7", 
-        "(13-Nov-2015)"
+        "X8.7 (13-Nov-2015)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1078,9 +1014,7 @@
       "bug_id": "CSCuw84818", 
       "product": "Cisco Telepresence Integrator C Series", 
       "fix": [
-        "TC7.3.5", 
-        "(February", 
-        "2016)"
+        "TC7.3.5 (February 2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1095,10 +1029,7 @@
       "bug_id": "CSCuw85022", 
       "product": "Cisco VDS Service Broker", 
       "fix": [
-        "No", 
-        "further", 
-        "releases", 
-        "planned."
+        "No further releases planned."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1113,9 +1044,7 @@
       "bug_id": "CSCuw84847", 
       "product": "Cisco Video Delivery System Recorder", 
       "fix": [
-        "No", 
-        "updates", 
-        "planned."
+        "No updates planned."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1130,8 +1059,7 @@
       "bug_id": "CSCuw84849", 
       "product": "Cisco Video Distribution Suite for Internet Streaming (VDS-IS/CDS-IS)", 
       "fix": [
-        "4.3.1", 
-        "(31-Jan-2016)"
+        "4.3.1 (31-Jan-2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1148,9 +1076,7 @@
       "bug_id": "CSCuw84912", 
       "product": "Cisco Video Surveillance Media Server", 
       "fix": [
-        "7.8", 
-        "(March", 
-        "2016)"
+        "7.8 (March 2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1178,12 +1104,9 @@
       "bug_id": "CSCuw84845", 
       "product": "Cloud Object Store (COS)", 
       "fix": [
-        "2.1.2", 
-        "(10-Nov-2015)", 
-        "3.0.1", 
-        "(10-Nov-2015)", 
-        "3.5.0", 
-        "(10-Nov-2015)"
+        "2.1.2 (10-Nov-2015)", 
+        "3.0.1 (10-Nov-2015)", 
+        "3.5.0 (10-Nov-2015)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1229,11 +1152,7 @@
       "bug_id": "CSCuw84780", 
       "product": "Cisco Cloud Services", 
       "fix": [
-        "Affected", 
-        "systems", 
-        "have", 
-        "been", 
-        "patched."
+        "Affected systems have been patched."
       ], 
       "bug_data": null
     }, 
@@ -1254,8 +1173,7 @@
       "bug_id": "CSCuw84837", 
       "product": "Cisco Intelligent Automation for Cloud", 
       "fix": [
-        "4.3.1", 
-        "(30-Dec-2015)"
+        "4.3.1 (30-Dec-2015)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1271,10 +1189,8 @@
       "bug_id": "CSCuw84995", 
       "product": "Cisco Universal Small Cell 5000 Series running V3.4.2.x software", 
       "fix": [
-        "BV3.4.2.34", 
-        "(31-Dec-2015)", 
-        "BV3.5.12.16", 
-        "(31-Jan-2016)"
+        "BV3.4.2.34 (31-Dec-2015)", 
+        "BV3.5.12.16 (31-Jan-2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1289,10 +1205,8 @@
       "bug_id": "CSCuw84995", 
       "product": "Cisco Universal Small Cell 7000 Series running V3.4.2.x software", 
       "fix": [
-        "BV3.4.2.34", 
-        "(31-Dec-2015)", 
-        "BV3.5.12.16", 
-        "(31-Jan-2016)"
+        "BV3.4.2.34 (31-Dec-2015)", 
+        "BV3.5.12.16 (31-Jan-2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1307,11 +1221,7 @@
       "bug_id": "CSCuw84990", 
       "product": "Cisco Universal Small Cell CloudBase", 
       "fix": [
-        "Affected", 
-        "systems", 
-        "have", 
-        "been", 
-        "patched."
+        "Affected systems have been patched."
       ], 
       "bug_data": null
     }, 
