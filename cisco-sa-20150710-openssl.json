@@ -4,16 +4,22 @@
     {
       "bug_id": "CSCuv26844", 
       "product": "Cisco SocialMiner", 
-      "fix": "11.5.1 (1-May-2016)", 
-      "bug_data": "Restricted"
+      "fix": [
+        "11.5.1 (1-May-2016)"
+      ], 
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCuv26109", 
       "product": "Cisco WebEx Node for MCS", 
-      "fix": null, 
+      "fix": [
+        ""
+      ], 
       "bug_data": {
-        "affected_releases": "Eureka3.12.9.1", 
-        "fixed_releases": "None", 
+        "affected_releases": [
+          "Eureka3.12.9.1"
+        ], 
+        "fixed_releases": [], 
         "status": "Fixed", 
         "product_name": "Cisco WebEx Meeting Center"
       }
@@ -21,10 +27,14 @@
     {
       "bug_id": "CSCuv26243", 
       "product": "Cisco Agent for OpenFlow", 
-      "fix": "Patch file available for affected releases.", 
+      "fix": [
+        "Patch file available for affected releases."
+      ], 
       "bug_data": {
-        "affected_releases": "1.1(0.87)", 
-        "fixed_releases": "None", 
+        "affected_releases": [
+          "1.1(0.87)"
+        ], 
+        "fixed_releases": [], 
         "status": "Fixed", 
         "product_name": "Cisco Plug-in for OpenFlow"
       }
@@ -32,16 +42,25 @@
     {
       "bug_id": "CSCuv26303", 
       "product": "Cisco Jabber Software Development Kit", 
-      "fix": "11.0(0) (26-Aug-2015)", 
-      "bug_data": "Restricted"
+      "fix": [
+        "11.0(0) (26-Aug-2015)"
+      ], 
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCuv26213", 
       "product": "Cisco ASA CX and Cisco Prime Security Manager", 
-      "fix": "9.3.3.4 (MR6) (Sep 2015)", 
+      "fix": [
+        "9.3.3.4 (MR6) (Sep 2015)"
+      ], 
       "bug_data": {
-        "affected_releases": "100.100(100.100.4)", 
-        "fixed_releases": "100.6(0.0.96) 9.3(4.2.7)", 
+        "affected_releases": [
+          "100.100(100.100.4)"
+        ], 
+        "fixed_releases": [
+          "100.6(0.0.96)", 
+          "9.3(4.2.7)"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco ASA Next-Generation Firewall Services"
       }
@@ -49,10 +68,16 @@
     {
       "bug_id": "CSCuv26137", 
       "product": "Cisco Virtual Security Gateway for Microsoft Hyper-V", 
-      "fix": "5.2(1)VSG2(1.4) (31-Oct-2015)", 
+      "fix": [
+        "5.2(1)VSG2(1.4) (31-Oct-2015)"
+      ], 
       "bug_data": {
-        "affected_releases": "5.2(1)VSG2(1.1) 5.2(1)VSG2(1.1b) 5.2(1)VSG2(1.3)", 
-        "fixed_releases": "None", 
+        "affected_releases": [
+          "5.2(1)VSG2(1.1)", 
+          "5.2(1)VSG2(1.1b)", 
+          "5.2(1)VSG2(1.3)"
+        ], 
+        "fixed_releases": [], 
         "status": "Fixed", 
         "product_name": "Cisco Virtual Security Gateway for Nexus 1000V Series Switch"
       }
@@ -60,10 +85,14 @@
     {
       "bug_id": "CSCuv26183", 
       "product": "Cisco Packet Tracer", 
-      "fix": "7.0 (18-Dec-2015)", 
+      "fix": [
+        "7.0 (18-Dec-2015)"
+      ], 
       "bug_data": {
-        "affected_releases": "6.2", 
-        "fixed_releases": "None", 
+        "affected_releases": [
+          "6.2"
+        ], 
+        "fixed_releases": [], 
         "status": "Fixed", 
         "product_name": "Cisco Support Tools"
       }
@@ -71,10 +100,16 @@
     {
       "bug_id": "CSCuv26150", 
       "product": "Cisco Prime Access Registrar", 
-      "fix": "7.0.1 (Oct 2015), 6.1.3  (Oct 2015)", 
+      "fix": [
+        "7.0.1 (Oct 2015)", 
+        "6.1.3  (Oct 2015)"
+      ], 
       "bug_data": {
-        "affected_releases": "6.1(2.4) 6.1(3)", 
-        "fixed_releases": "None", 
+        "affected_releases": [
+          "6.1(2.4)", 
+          "6.1(3)"
+        ], 
+        "fixed_releases": [], 
         "status": "Fixed", 
         "product_name": "Cisco Access Registrar"
       }
@@ -82,10 +117,16 @@
     {
       "bug_id": "CSCuv26283", 
       "product": "Cisco Prime Collaboration Deployment", 
-      "fix": "11.5.1 (Mar 2016)", 
+      "fix": [
+        "11.5.1 (Mar 2016)"
+      ], 
       "bug_data": {
-        "affected_releases": "11.5(0.98000.22)", 
-        "fixed_releases": "11.5(0.98000.56)", 
+        "affected_releases": [
+          "11.5(0.98000.22)"
+        ], 
+        "fixed_releases": [
+          "11.5(0.98000.56)"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Unified Communications Manager (CallManager)"
       }
@@ -93,10 +134,20 @@
     {
       "bug_id": "CSCuv26164", 
       "product": "Cisco Prime Collaboration Provisioning", 
-      "fix": "10.6 (31-Jul-2015), 10.5.1 (31-Jul-2015), 10.0 (31-Jul-2015), 9.5 (31-Jul-2015)", 
+      "fix": [
+        "10.6 (31-Jul-2015)", 
+        "10.5.1 (31-Jul-2015)", 
+        "10.0 (31-Jul-2015)", 
+        "9.5 (31-Jul-2015)"
+      ], 
       "bug_data": {
-        "affected_releases": "10.6", 
-        "fixed_releases": "11.0(0.804) 11.0(0.836)", 
+        "affected_releases": [
+          "10.6"
+        ], 
+        "fixed_releases": [
+          "11.0(0.804)", 
+          "11.0(0.836)"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Prime Collaboration"
       }
@@ -104,16 +155,25 @@
     {
       "bug_id": "CSCuv26185", 
       "product": "Cisco Prime License Manager", 
-      "fix": "11.0.1 (Oct 2015), 10.5.2 (Dec 2015)", 
-      "bug_data": "Restricted"
+      "fix": [
+        "11.0.1 (Oct 2015)", 
+        "10.5.2 (Dec 2015)"
+      ], 
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCuv26168", 
       "product": "Cisco Prime Network Services Controller", 
-      "fix": "3.4.1c (20-Aug-2015)", 
+      "fix": [
+        "3.4.1c (20-Aug-2015)"
+      ], 
       "bug_data": {
-        "affected_releases": "3.4", 
-        "fixed_releases": "3.4(1c)", 
+        "affected_releases": [
+          "3.4"
+        ], 
+        "fixed_releases": [
+          "3.4(1c)"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Intercloud Fabric"
       }
@@ -121,10 +181,17 @@
     {
       "bug_id": "CSCuv26209", 
       "product": "Cisco Prime Security Manager", 
-      "fix": "9.3.4.2-4 (29-Aug-2015)", 
+      "fix": [
+        "9.3.4.2-4 (29-Aug-2015)"
+      ], 
       "bug_data": {
-        "affected_releases": "100.100(100.100.4)", 
-        "fixed_releases": "100.6(0.0.96) 9.3(4.2.7)", 
+        "affected_releases": [
+          "100.100(100.100.4)"
+        ], 
+        "fixed_releases": [
+          "100.6(0.0.96)", 
+          "9.3(4.2.7)"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco ASA Next-Generation Firewall Services"
       }
@@ -132,10 +199,17 @@
     {
       "bug_id": "CSCuv26167", 
       "product": "Cisco Security Manager", 
-      "fix": "4.8 SP1 (31-Jul-2015), 4.9 (31-Aug-2015)", 
+      "fix": [
+        "4.8 SP1 (31-Jul-2015)", 
+        "4.9 (31-Aug-2015)"
+      ], 
       "bug_data": {
-        "affected_releases": "4.9(0.323)", 
-        "fixed_releases": "4.9(0.336)", 
+        "affected_releases": [
+          "4.9(0.323)"
+        ], 
+        "fixed_releases": [
+          "4.9(0.336)"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Security Manager"
       }
@@ -143,22 +217,50 @@
     {
       "bug_id": "CSCuv26267", 
       "product": "Local Collector Appliance (LCA)", 
-      "fix": "2.2.10 (7-Aug-2015)", 
-      "bug_data": "Restricted"
+      "fix": [
+        "2.2.10 (7-Aug-2015)"
+      ], 
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCuv26253", 
       "product": "Cisco 910 Industrial Router", 
-      "fix": "1.2.1RB3 (20-Aug-2015)", 
-      "bug_data": "Restricted"
+      "fix": [
+        "1.2.1RB3 (20-Aug-2015)"
+      ], 
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCuu82763", 
       "product": "Cisco IOS-XE (WebUI feature only)", 
-      "fix": "XE3.13, 14, 15, 16 (Available), XE3.11, 13 (Next Release)", 
+      "fix": [
+        "XE3.13", 
+        "14", 
+        "15", 
+        "16 (Available)", 
+        "XE3.11", 
+        "13 (Next Release)"
+      ], 
       "bug_data": {
-        "affected_releases": "15.4(1)S 15.4(2)S 15.4(3)S 15.5(1)S 15.5(2)S 15.5(3)S", 
-        "fixed_releases": "15.4(2)S4 15.4(3)S4 15.5(2)S2 15.5(3)S1 15.5(3)S1a 15.6(1)S 16.1.1 16.2(0.170) Denali-16.1.1", 
+        "affected_releases": [
+          "15.4(1)S", 
+          "15.4(2)S", 
+          "15.4(3)S", 
+          "15.5(1)S", 
+          "15.5(2)S", 
+          "15.5(3)S"
+        ], 
+        "fixed_releases": [
+          "15.4(2)S4", 
+          "15.4(3)S4", 
+          "15.5(2)S2", 
+          "15.5(3)S1", 
+          "15.5(3)S1a", 
+          "15.6(1)S", 
+          "16.1.1", 
+          "16.2(0.170)", 
+          "Denali-16.1.1"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco IOS"
       }
@@ -166,10 +268,16 @@
     {
       "bug_id": "CSCuv26128", 
       "product": "Cisco Nexus 9000 (ACI/Fabric Switch)", 
-      "fix": "11.1.2 (Aug 2015)", 
+      "fix": [
+        "11.1.2 (Aug 2015)"
+      ], 
       "bug_data": {
-        "affected_releases": "11.0(0.839)", 
-        "fixed_releases": "11.1(1.280)", 
+        "affected_releases": [
+          "11.0(0.839)"
+        ], 
+        "fixed_releases": [
+          "11.1(1.280)"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Nexus 9000 Series Switches"
       }
@@ -177,10 +285,14 @@
     {
       "bug_id": "CSCuv26136", 
       "product": "Cisco Virtual Security Gateway", 
-      "fix": "5.2(1)VSG2(1.3a) (30-Dec-2015)", 
+      "fix": [
+        "5.2(1)VSG2(1.3a) (30-Dec-2015)"
+      ], 
       "bug_data": {
-        "affected_releases": "5.2(1)VSG2(1.3)", 
-        "fixed_releases": "None", 
+        "affected_releases": [
+          "5.2(1)VSG2(1.3)"
+        ], 
+        "fixed_releases": [], 
         "status": "Fixed", 
         "product_name": "Cisco Virtual Security Gateway for Nexus 1000V Series Switch"
       }
@@ -188,10 +300,23 @@
     {
       "bug_id": "CSCuv26293", 
       "product": "Cisco Emergency Responder", 
-      "fix": "11.5 (Feb 2016)", 
+      "fix": [
+        "11.5 (Feb 2016)"
+      ], 
       "bug_data": {
-        "affected_releases": "10.0 10.5(1.10000.9) 11.0(1.99000.99) 8.5(1) 8.6(2) 9.0(2)", 
-        "fixed_releases": "11.5(0.92500.4) 11.5(0.98000.22) 11.5(0.98000.25)", 
+        "affected_releases": [
+          "10.0", 
+          "10.5(1.10000.9)", 
+          "11.0(1.99000.99)", 
+          "8.5(1)", 
+          "8.6(2)", 
+          "9.0(2)"
+        ], 
+        "fixed_releases": [
+          "11.5(0.92500.4)", 
+          "11.5(0.98000.22)", 
+          "11.5(0.98000.25)"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Emergency Responder"
       }
@@ -199,10 +324,17 @@
     {
       "bug_id": "CSCuv26296", 
       "product": "Cisco IM and Presence Service (CUPS)", 
-      "fix": null, 
+      "fix": [
+        ""
+      ], 
       "bug_data": {
-        "affected_releases": "11.5(1)", 
-        "fixed_releases": "11.0(1.11000.3) 11.5(0.98000.245)", 
+        "affected_releases": [
+          "11.5(1)"
+        ], 
+        "fixed_releases": [
+          "11.0(1.11000.3)", 
+          "11.5(0.98000.245)"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Unified Communications Manager IM & Presence Service"
       }
@@ -210,22 +342,35 @@
     {
       "bug_id": "CSCuv26316", 
       "product": "Cisco MediaSense", 
-      "fix": "11.5 (20-Oct-2015), 11.0 (20-Oct-2015), 10.5 (20-Oct-2015)", 
-      "bug_data": "Restricted"
+      "fix": [
+        "11.5 (20-Oct-2015)", 
+        "11.0 (20-Oct-2015)", 
+        "10.5 (20-Oct-2015)"
+      ], 
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCuv26279", 
       "product": "Cisco Unified Attendant Console Standard", 
-      "fix": "11.0(2) (30-Sept-2015)", 
-      "bug_data": "Restricted"
+      "fix": [
+        "11.0(2) (30-Sept-2015)"
+      ], 
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCuv26173", 
       "product": "Cisco Digital Media Players (DMP) 4300 Series", 
-      "fix": "5.4(1)RB(2P4), 5.3(6)RB(2P3)", 
+      "fix": [
+        "5.4(1)RB(2P4)", 
+        "5.3(6)RB(2P3)"
+      ], 
       "bug_data": {
-        "affected_releases": "5.3(6)RB(2P) 5.4(1)RB(2P) 5.4.1(RB)(2P)", 
-        "fixed_releases": "None", 
+        "affected_releases": [
+          "5.3(6)RB(2P)", 
+          "5.4(1)RB(2P)", 
+          "5.4.1(RB)(2P)"
+        ], 
+        "fixed_releases": [], 
         "status": "Fixed", 
         "product_name": "Cisco Digital Media Manager"
       }
@@ -233,10 +378,17 @@
     {
       "bug_id": "CSCuv26173", 
       "product": "Cisco Digital Media Players (DMP) 4400 Series", 
-      "fix": "5.4(1)RB(2P4), 5.3(6)RB(2P3)", 
+      "fix": [
+        "5.4(1)RB(2P4)", 
+        "5.3(6)RB(2P3)"
+      ], 
       "bug_data": {
-        "affected_releases": "5.3(6)RB(2P) 5.4(1)RB(2P) 5.4.1(RB)(2P)", 
-        "fixed_releases": "None", 
+        "affected_releases": [
+          "5.3(6)RB(2P)", 
+          "5.4(1)RB(2P)", 
+          "5.4.1(RB)(2P)"
+        ], 
+        "fixed_releases": [], 
         "status": "Fixed", 
         "product_name": "Cisco Digital Media Manager"
       }
@@ -244,10 +396,15 @@
     {
       "bug_id": "CSCuv46148", 
       "product": "Cisco Digital Media Players", 
-      "fix": "5.4(1)RB(2P4), 5.3(6)RB(2P3)", 
+      "fix": [
+        "5.4(1)RB(2P4)", 
+        "5.3(6)RB(2P3)"
+      ], 
       "bug_data": {
-        "affected_releases": "5.4(1)RB(2P)", 
-        "fixed_releases": "None", 
+        "affected_releases": [
+          "5.4(1)RB(2P)"
+        ], 
+        "fixed_releases": [], 
         "status": "Fixed", 
         "product_name": "Cisco Digital Media Manager"
       }
@@ -255,10 +412,14 @@
     {
       "bug_id": "CSCuv26259", 
       "product": "Cisco Model D9485 DAVIC QPSK", 
-      "fix": "1.2.19 (31-Jul-2015)", 
+      "fix": [
+        "1.2.19 (31-Jul-2015)"
+      ], 
       "bug_data": {
-        "affected_releases": "qpsk2-1.2.18", 
-        "fixed_releases": "None", 
+        "affected_releases": [
+          "qpsk2-1.2.18"
+        ], 
+        "fixed_releases": [], 
         "status": "Fixed", 
         "product_name": "Headend System Releases"
       }
@@ -266,10 +427,14 @@
     {
       "bug_id": "CSCuv26172", 
       "product": "Cisco TelePresence Conductor", 
-      "fix": "XC4.0 (29-Jul-2015)", 
+      "fix": [
+        "XC4.0 (29-Jul-2015)"
+      ], 
       "bug_data": {
-        "affected_releases": "XC4.0RC2", 
-        "fixed_releases": "None", 
+        "affected_releases": [
+          "XC4.0RC2"
+        ], 
+        "fixed_releases": [], 
         "status": "Fixed", 
         "product_name": "Cisco TelePresence Conductor"
       }
@@ -277,10 +442,19 @@
     {
       "bug_id": "CSCuv33644", 
       "product": "Cisco Videoscape Control Suite", 
-      "fix": "Patch file available for affected releases (20-Jul-2015)", 
+      "fix": [
+        "Patch file available for affected releases (20-Jul-2015)"
+      ], 
       "bug_data": {
-        "affected_releases": "2.100 2.500 3.100 3.500", 
-        "fixed_releases": "openssl-1.0.1p-1", 
+        "affected_releases": [
+          "2.100", 
+          "2.500", 
+          "3.100", 
+          "3.500"
+        ], 
+        "fixed_releases": [
+          "openssl-1.0.1p-1"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Conductor"
       }
@@ -288,10 +462,14 @@
     {
       "bug_id": "CSCuv26099", 
       "product": "Cisco Registered Envelope Service (CRES)", 
-      "fix": "4.4.1 (1-Aug-2015)", 
+      "fix": [
+        "4.4.1 (1-Aug-2015)"
+      ], 
       "bug_data": {
-        "affected_releases": "4.4.1-05", 
-        "fixed_releases": "None", 
+        "affected_releases": [
+          "4.4.1-05"
+        ], 
+        "fixed_releases": [], 
         "status": "Fixed", 
         "product_name": "Cisco Email Encryption"
       }
@@ -299,10 +477,14 @@
     {
       "bug_id": "CSCuv26256", 
       "product": "Cisco Universal Small Cell 5000 Series running V3.4.2.x software", 
-      "fix": "BV3.4.4.8", 
+      "fix": [
+        "BV3.4.4.8"
+      ], 
       "bug_data": {
-        "affected_releases": "BV3.4.4.6", 
-        "fixed_releases": "None", 
+        "affected_releases": [
+          "BV3.4.4.6"
+        ], 
+        "fixed_releases": [], 
         "status": "Fixed", 
         "product_name": "Cisco Universal Small Cell 3000 Series"
       }
@@ -310,10 +492,14 @@
     {
       "bug_id": "CSCuv26256", 
       "product": "Cisco Universal Small Cell 7000 Series running V3.4.2.x software", 
-      "fix": "BV3.4.4.8", 
+      "fix": [
+        "BV3.4.4.8"
+      ], 
       "bug_data": {
-        "affected_releases": "BV3.4.4.6", 
-        "fixed_releases": "None", 
+        "affected_releases": [
+          "BV3.4.4.6"
+        ], 
+        "fixed_releases": [], 
         "status": "Fixed", 
         "product_name": "Cisco Universal Small Cell 3000 Series"
       }
@@ -321,10 +507,14 @@
     {
       "bug_id": "CSCuv26116", 
       "product": "Cisco WebEx Messenger Service", 
-      "fix": "7.9.9 EP1 (Available)", 
+      "fix": [
+        "7.9.9 EP1 (Available)"
+      ], 
       "bug_data": {
-        "affected_releases": "7.9.8", 
-        "fixed_releases": "None", 
+        "affected_releases": [
+          "7.9.8"
+        ], 
+        "fixed_releases": [], 
         "status": "Fixed", 
         "product_name": "Cisco WebEx Connect IM"
       }
@@ -332,16 +522,22 @@
     {
       "bug_id": "CSCuv26268", 
       "product": "Network Performance Analytics (NPA)", 
-      "fix": "1.11.3 (30-Sept-2015)", 
-      "bug_data": "Restricted"
+      "fix": [
+        "1.11.3 (30-Sept-2015)"
+      ], 
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCuv26208", 
       "product": "Partner Supporting Service (PSS) 1.x", 
-      "fix": null, 
+      "fix": [
+        ""
+      ], 
       "bug_data": {
-        "affected_releases": "3.0(0.0.4)", 
-        "fixed_releases": "None", 
+        "affected_releases": [
+          "3.0(0.0.4)"
+        ], 
+        "fixed_releases": [], 
         "status": "Fixed", 
         "product_name": "Cisco Smart Collector"
       }
@@ -349,8 +545,10 @@
     {
       "bug_id": "CSCuv26091", 
       "product": "Services Analytic Platform", 
-      "fix": "Patch file available for affected release.", 
-      "bug_data": "Restricted"
+      "fix": [
+        "Patch file available for affected release."
+      ], 
+      "bug_data": null
     }
   ]
 }
