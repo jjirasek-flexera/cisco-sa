@@ -3,11 +3,11 @@
   "products": [
     {
       "bug_id": "CSCux34660", 
-      "product": "Digital Life RMS 1.8.1.1; Cisco Broadband Access Center Telco Wireless 3.8.1", 
+      "product": "Digital Life RMS 1.8.1.1\nCisco Broadband Access Center Telco Wireless 3.8.1", 
       "fix": null, 
       "bug_data": {
         "affected_releases": "1.8(1.1) 1.8(1.2)", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Terminated", 
         "product_name": "Cisco Broadband Access Center for Telco and Wireless"
       }
@@ -18,7 +18,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "11.5(1)", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Open", 
         "product_name": "Cisco SocialMiner"
       }
@@ -57,7 +57,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "16.4.a5", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Terminated", 
         "product_name": "Cisco ASR 5000 Series"
       }
@@ -68,7 +68,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "4.9(5)", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Open", 
         "product_name": "Cisco NAC Appliance (Clean Access)"
       }
@@ -79,7 +79,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "3.10(0.5) 3.10(5) 3.9(4)", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Open", 
         "product_name": "Cisco Content Delivery Engine Series"
       }
@@ -90,7 +90,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "3.10(0.5) 3.10(5) 3.9(4)", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Open", 
         "product_name": "Cisco Content Delivery Engine Series"
       }
@@ -101,7 +101,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "100.6(0.0.140)", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Open", 
         "product_name": "Cisco ASA Next-Generation Firewall Services"
       }
@@ -118,7 +118,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "4.9(5)", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Open", 
         "product_name": "Cisco NAC Appliance (Clean Access)"
       }
@@ -141,7 +141,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "4.9(5)", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Open", 
         "product_name": "Cisco NAC Appliance (Clean Access)"
       }
@@ -158,7 +158,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "4.9(5)", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Open", 
         "product_name": "Cisco NAC Appliance (Clean Access)"
       }
@@ -169,7 +169,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "5.5(0.46.10) 5.6(0.22.4) 5.7(0.15) 5.8(0.32)", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Fixed", 
         "product_name": "Cisco Secure Access Control Server Solution Engine"
       }
@@ -180,7 +180,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "6.1", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Fixed", 
         "product_name": "Cisco Access Registrar"
       }
@@ -191,7 +191,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "5.4(0.0)", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Fixed", 
         "product_name": "Cisco UCS Director"
       }
@@ -202,7 +202,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "2.8", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Open", 
         "product_name": "Cisco Configuration Professional"
       }
@@ -213,7 +213,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "5.4(1)RB1 5.4.1", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Fixed", 
         "product_name": "Cisco Digital Media Manager"
       }
@@ -224,7 +224,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "3.0.0 4.0.0 5.0.0", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Open", 
         "product_name": "Cisco SCE 8000 Series Service Control Engine"
       }
@@ -235,7 +235,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "6.1", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Fixed", 
         "product_name": "Cisco Access Registrar"
       }
@@ -246,7 +246,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "7.0", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Open", 
         "product_name": "Cisco Access Registrar"
       }
@@ -263,7 +263,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "11.0", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Open", 
         "product_name": "Cisco Prime Collaboration"
       }
@@ -274,7 +274,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "5.1(2.1) 5.1(2.3) 5.2 5.2(0.1) 5.2(1.0)", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Fixed", 
         "product_name": "Cisco Prime Home"
       }
@@ -285,7 +285,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "4.2(5)", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Open", 
         "product_name": "CiscoWorks Common Services Software"
       }
@@ -302,7 +302,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "3.4", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Fixed", 
         "product_name": "Cisco Virtual Network Management Center"
       }
@@ -313,7 +313,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "10.0(0.1) 10.0(2.1) 10.3(4.1) 10.5(0) 10.5(2) 9.8(0.3)", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Open", 
         "product_name": "Cisco Prime Optical"
       }
@@ -324,7 +324,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "1.7(0.3)", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Open", 
         "product_name": "Cisco Prime Performance Manager"
       }
@@ -347,7 +347,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "10.0_R2_tanggula 10.0_tanggula 10.1_tanggula 11.0 11.1 9.4.1_R2_vortex 9.4.1_vortex", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Open", 
         "product_name": "Cisco Prime Service Catalog"
       }
@@ -358,7 +358,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "4.10(0.187)", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Open", 
         "product_name": "Cisco Security Manager"
       }
@@ -387,7 +387,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "3.10(1)", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Open", 
         "product_name": "Cisco Broadband Access Center for Telco and Wireless"
       }
@@ -404,7 +404,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "11.0(1) 11.5(1)", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Fixed", 
         "product_name": "Cisco Unified Contact Center Enterprise"
       }
@@ -415,7 +415,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "11.5(0.98000.29)", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Open", 
         "product_name": "Cisco Emergency Responder"
       }
@@ -426,7 +426,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "11.5(1)", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Open", 
         "product_name": "Cisco Hosted Collaboration Solution (HCS)"
       }
@@ -437,7 +437,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "11.5(1)", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Open", 
         "product_name": "Cisco Unified Communications Manager IM & Presence Service"
       }
@@ -454,7 +454,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "4.1.0 5.1.0 SR10.0.0", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Open", 
         "product_name": "Cisco Universal Small Cell RAN Management System"
       }
@@ -462,10 +462,10 @@
     {
       "bug_id": "CSCux34874", 
       "product": "Cisco MediaSense", 
-      "fix": "11.0, 10.5 (March 2016), 11.5 (June 2016)", 
+      "fix": "11.0\n10.5 (March 2016)\n11.5 (June 2016)", 
       "bug_data": {
         "affected_releases": "10.5(1)ES5 11.0(1)ES1 11.5(1)", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Fixed", 
         "product_name": "Cisco MediaSense"
       }
@@ -476,7 +476,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "8.6(1.19)", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Open", 
         "product_name": "Cisco Unified MeetingPlace"
       }
@@ -487,7 +487,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "10.0(1) 10.5 10.5(2) 10.6(1) 11.0(1) 8.6 9.0 9.1", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Fixed", 
         "product_name": "Cisco Unified Attendant Consoles"
       }
@@ -498,7 +498,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "10.0(1) 10.5 10.5(2) 10.6(1) 11.0(1) 8.6 9.0 9.1", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Fixed", 
         "product_name": "Cisco Unified Attendant Consoles"
       }
@@ -509,7 +509,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "10.0(1) 10.5 10.5(2) 10.6(1) 11.0(1) 8.6 9.0 9.1", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Fixed", 
         "product_name": "Cisco Unified Attendant Consoles"
       }
@@ -520,7 +520,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "10.0(1) 10.5 10.5(2) 10.6(1) 11.0(1) 8.6 9.0 9.1", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Fixed", 
         "product_name": "Cisco Unified Attendant Consoles"
       }
@@ -531,7 +531,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "10.0(1) 10.5 10.5(2) 10.6(1) 11.0(1) 8.6 9.0 9.1", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Fixed", 
         "product_name": "Cisco Unified Attendant Consoles"
       }
@@ -542,7 +542,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "11.5(1.99000.9)", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Open", 
         "product_name": "Cisco Unified Communications Manager (CallManager)"
       }
@@ -553,7 +553,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "11.5(1.99000.9)", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Open", 
         "product_name": "Cisco Unified Communications Manager (CallManager)"
       }
@@ -564,7 +564,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "11.0(1) 11.5(1)", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Fixed", 
         "product_name": "Cisco Unified Contact Center Enterprise"
       }
@@ -575,7 +575,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "11.0(1)", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Open", 
         "product_name": "Cisco Unified E-Mail Interaction Manager"
       }
@@ -586,7 +586,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "11.5(1)", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Open", 
         "product_name": "Cisco Unified Contact Center Express"
       }
@@ -597,7 +597,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "11.0(1) 11.5(1)", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Fixed", 
         "product_name": "Cisco Unified Contact Center Enterprise"
       }
@@ -614,7 +614,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "11.0(1)", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Open", 
         "product_name": "Cisco Unified E-Mail Interaction Manager"
       }
@@ -631,7 +631,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "dtacs-5.0.2", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Open", 
         "product_name": "Cisco DTA Control System (DTACS)"
       }
@@ -642,7 +642,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "3.3.0 3.3.1 3.3.2 3.5", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Fixed", 
         "product_name": "Cisco MXE 3000 Series (Media Experience Engines)"
       }
@@ -653,7 +653,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "5.6.1", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Open", 
         "product_name": "Cisco Digital Media Manager"
       }
@@ -664,7 +664,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "1.3.0.4.4.0", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Open", 
         "product_name": "Cisco TelePresence Exchange System"
       }
@@ -675,7 +675,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "1.3", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Terminated", 
         "product_name": "Cisco Videoscape Distribution Suite Service Broker"
       }
@@ -686,7 +686,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "4.2(1) 4.3(0)", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Open", 
         "product_name": "Cisco Content Delivery Engine Series"
       }
@@ -697,7 +697,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "vcs-3.5.3", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Open", 
         "product_name": "Cisco Conductor"
       }
@@ -708,7 +708,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "4.0", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Open", 
         "product_name": "Cisco Conductor"
       }
@@ -719,7 +719,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "dncs-6.0.0.22 dncs-7.0.0.16 esn-8.0.3-1", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Open", 
         "product_name": "Headend System Releases"
       }
@@ -728,45 +728,25 @@
       "bug_id": "CSCux34722", 
       "product": "VDS-Recorder", 
       "fix": null, 
-      "bug_data": {
-        "affected_releases": "3.11(0)", 
-        "fixed_releases": "None", 
-        "status": "Open", 
-        "product_name": "Cisco Videoscape Distribution Suite for Television"
-      }
+      "bug_data": "Restricted"
     }, 
     {
       "bug_id": "CSCux34722", 
       "product": "VDS-TV Caching GW", 
       "fix": null, 
-      "bug_data": {
-        "affected_releases": "3.11(0)", 
-        "fixed_releases": "None", 
-        "status": "Open", 
-        "product_name": "Cisco Videoscape Distribution Suite for Television"
-      }
+      "bug_data": "Restricted"
     }, 
     {
       "bug_id": "CSCux34722", 
       "product": "VDS-TV Streamer", 
       "fix": null, 
-      "bug_data": {
-        "affected_releases": "3.11(0)", 
-        "fixed_releases": "None", 
-        "status": "Open", 
-        "product_name": "Cisco Videoscape Distribution Suite for Television"
-      }
+      "bug_data": "Restricted"
     }, 
     {
       "bug_id": "CSCux34722", 
       "product": "VDS-TV Vault", 
       "fix": null, 
-      "bug_data": {
-        "affected_releases": "3.11(0)", 
-        "fixed_releases": "None", 
-        "status": "Open", 
-        "product_name": "Cisco Videoscape Distribution Suite for Television"
-      }
+      "bug_data": "Restricted"
     }, 
     {
       "bug_id": "CSCux34572", 
@@ -780,7 +760,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "3.4.1-05", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Open", 
         "product_name": "Cisco Cloud Email Security"
       }
@@ -791,7 +771,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "5.2(0)", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Open", 
         "product_name": "Cisco Cloud Web Security"
       }
@@ -808,7 +788,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "SM3.0", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Open", 
         "product_name": "Network Level Service"
       }
@@ -819,7 +799,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "4.5.0-107", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Open", 
         "product_name": "Cisco Email Encryption"
       }
@@ -842,7 +822,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "9.0(1) 9.0(2) 9.0(3)", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Fixed", 
         "product_name": "Cisco Collaboration Systems Release"
       }
@@ -871,7 +851,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "2.7(0.1.11)", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Fixed", 
         "product_name": "Cisco Smart Collector"
       }
@@ -882,7 +862,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "3.302", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Fixed", 
         "product_name": "Network Level Service"
       }
@@ -893,7 +873,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "1.3(16)", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Fixed", 
         "product_name": "Cisco Aironet 700 Series"
       }
@@ -910,7 +890,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "3.400", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Fixed", 
         "product_name": "Network Level Service"
       }
@@ -921,7 +901,7 @@
       "fix": null, 
       "bug_data": {
         "affected_releases": "2.26(2)", 
-        "fixed_releases": "None", 
+        "fixed_releases": null, 
         "status": "Fixed", 
         "product_name": "Network Level Service"
       }
