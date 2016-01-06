@@ -1133,7 +1133,14 @@
       "fix": [
         ""
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "3.4.1-05"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Cloud Email Security"
+      }
     }, 
     {
       "bug_id": "CSCux34688", 
@@ -1149,7 +1156,14 @@
       "fix": [
         ""
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "5.2(0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Cloud Web Security"
+      }
     }, 
     {
       "bug_id": "CSCux34926", 
@@ -1165,7 +1179,14 @@
       "fix": [
         ""
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "SM3.0"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Network Level Service"
+      }
     }, 
     {
       "bug_id": "CSCux34591", 
@@ -1173,7 +1194,14 @@
       "fix": [
         ""
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "4.5.0-107"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Email Encryption"
+      }
     }, 
     {
       "bug_id": "CSCux34885", 
@@ -1189,7 +1217,14 @@
       "fix": [
         ""
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "1.16(0.0)ITH"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Smart Care Service"
+      }
     }, 
     {
       "bug_id": "CSCux34779", 
@@ -1205,7 +1240,16 @@
       "fix": [
         ""
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "9.0(1)", 
+          "9.0(2)", 
+          "9.0(3)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Collaboration Systems Release"
+      }
     }, 
     {
       "bug_id": "CSCux34924", 
@@ -1237,7 +1281,14 @@
       "fix": [
         ""
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "2.7(0.1.11)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Smart Collector"
+      }
     }, 
     {
       "bug_id": "CSCux34738", 
@@ -1245,7 +1296,14 @@
       "fix": [
         ""
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "3.302"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Network Level Service"
+      }
     }, 
     {
       "bug_id": "CSCux34991", 
@@ -1253,7 +1311,14 @@
       "fix": [
         ""
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "1.3(16)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Aironet 700 Series"
+      }
     }, 
     {
       "bug_id": "CSCux35043", 
@@ -1269,7 +1334,14 @@
       "fix": [
         ""
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "3.400"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Network Level Service"
+      }
     }, 
     {
       "bug_id": "CSCux34730", 
@@ -1277,7 +1349,14 @@
       "fix": [
         ""
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "2.26(2)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Network Level Service"
+      }
     }
   ]
 }
