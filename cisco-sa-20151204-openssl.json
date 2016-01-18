@@ -1,5 +1,5 @@
 {
-  "version": "1.6", 
+  "version": "1.7", 
   "products": [
     {
       "bug_id": "CSCux41444", 
@@ -472,6 +472,7 @@
           "6.2(1)"
         ], 
         "fixed_releases": [
+          "6.1(1.15)", 
           "6.2(0.25)"
         ], 
         "status": "Fixed", 
@@ -515,12 +516,16 @@
     {
       "bug_id": "CSCux41145", 
       "product": "Cisco Adaptive Security Appliance (ASA)", 
-      "fix": [], 
+      "fix": [
+        "9.1.7 (Jan 2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "8.0"
         ], 
         "fixed_releases": [
+          "100.13(0.124)", 
+          "100.16(0.19)", 
           "9.1(6.114)"
         ], 
         "status": "Fixed", 
@@ -695,7 +700,6 @@
           "5.3(0.40.10)", 
           "5.4(0.46.10)", 
           "5.5(0.46.10)", 
-          "5.6(0.22)", 
           "5.7(0.15.2)", 
           "5.8(1.1)"
         ], 
@@ -876,7 +880,7 @@
           "3.1(0.0)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Network Level Service"
       }
     }, 
@@ -1578,7 +1582,7 @@
       "bug_id": "CSCux41465", 
       "product": "Cisco Unified 8831 series IP Conference Phone", 
       "fix": [
-        "10.3.1SR3 (Available)"
+        "10.3.1SR3 (TBD)"
       ], 
       "bug_data": {
         "affected_releases": [
