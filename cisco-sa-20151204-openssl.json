@@ -1,5 +1,5 @@
 {
-  "version": "1.8", 
+  "version": "1.9", 
   "products": [
     {
       "bug_id": "CSCux41444", 
@@ -26,7 +26,8 @@
           "2.6"
         ], 
         "fixed_releases": [
-          "2.5.1.6183"
+          "2.5.1.6183", 
+          "2.6.1.1099"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco WebEx Meeting Center"
@@ -44,7 +45,8 @@
           "2.6"
         ], 
         "fixed_releases": [
-          "2.5.1.6183"
+          "2.5.1.6183", 
+          "2.6.1.1099"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco WebEx Meeting Center"
@@ -265,8 +267,10 @@
         "affected_releases": [
           "11.5(0)"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "11.5(1.228884)"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Mobile Communicator"
       }
     }, 
@@ -293,7 +297,16 @@
         "10.6.7 (26-Jan-2016)", 
         "11.5.1 (9-Feb-2016"
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "11.5(0)"
+        ], 
+        "fixed_releases": [
+          "11.5(1.29337)"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco Jabber for Windows"
+      }
     }, 
     {
       "bug_id": "CSCux41457", 
@@ -335,7 +348,9 @@
         "affected_releases": [
           "2.6"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "2.6.1.1099"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco WebEx Meeting Center"
       }
@@ -382,7 +397,8 @@
           "2.6"
         ], 
         "fixed_releases": [
-          "2.5.1.6183"
+          "2.5.1.6183", 
+          "2.6.1.1099"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco WebEx Meeting Center"
@@ -526,6 +542,7 @@
           "8.0"
         ], 
         "fixed_releases": [
+          "100.12(0.156)", 
           "100.13(0.124)", 
           "100.15(0.109)", 
           "100.16(0.19)", 
@@ -536,12 +553,6 @@
         "status": "Fixed", 
         "product_name": "Cisco ASA 5500-X Series Firewalls"
       }
-    }, 
-    {
-      "bug_id": "CSCux59623", 
-      "product": "Cisco Adaptive Security Appliance (ASA)", 
-      "fix": [], 
-      "bug_data": null
     }, 
     {
       "bug_id": "CSCux41388", 
@@ -818,7 +829,7 @@
           "11.5(0.98000.180)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Communications Manager (CallManager)"
       }
     }, 
@@ -1048,7 +1059,7 @@
       "bug_id": "CSCux41322", 
       "product": "Cisco Application Policy Infrastructure Controller (APIC)", 
       "fix": [
-        "Maintenance Release (1.2(2) (Feb 2016)"
+        "Maintenance Release 1.2(2) (Feb 2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1127,14 +1138,7 @@
       "fix": [
         "4.1(2)E1(1q) (Jun 2016)"
       ], 
-      "bug_data": {
-        "affected_releases": [
-          "4.1(2)E1(1a)"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Nexus 4000 Series Switches"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCux41326", 
@@ -1206,14 +1210,7 @@
       "bug_id": "CSCux41323", 
       "product": "Cisco Nexus 9000 (ACI/Fabric Switch)", 
       "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "11.2(1.173)"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Nexus 9000 Series Switches"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCux41327", 
@@ -1228,6 +1225,8 @@
         ], 
         "fixed_releases": [
           "/bin/sh:", 
+          "7.0(3)I2(2.84)", 
+          "7.0(3)I2(3)", 
           "7.0(3)I3(0.182)", 
           "7.0(3)I3(1)", 
           "7.0(3)IAB3(0)", 
@@ -1271,7 +1270,7 @@
       "product": "Cisco Sx220 switches", 
       "fix": [
         "Version TBD", 
-        "maintenance release scheduled Mar 2016"
+        "Maintenance release scheduled for Mar 2016"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1402,7 +1401,7 @@
       "bug_id": "CSCux41554", 
       "product": "Cisco Finesse", 
       "fix": [
-        "11.5.1 (Release Date TBD)"
+        "11.5.1 (Release date TBD)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1465,7 +1464,7 @@
           "4.9(2)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco IPICS Server Software"
       }
     }, 
@@ -1495,7 +1494,7 @@
           "8.6(2.10)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Unified MeetingPlace"
       }
     }, 
@@ -1875,8 +1874,8 @@
       "bug_id": "CSCux41357", 
       "product": "Cisco Digital Media Players (DMP) 4300 Series", 
       "fix": [
-        "5.3(6)RB(2P4) 10-Jan-2016", 
-        "5.4(1)RB(2P6) 10-Jan-2016"
+        "5.3(6)RB(2P4) (10-Jan-2016)", 
+        "5.4(1)RB(2P6) (10-Jan-2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1891,8 +1890,8 @@
       "bug_id": "CSCux41357", 
       "product": "Cisco Digital Media Players (DMP) 4400 Series", 
       "fix": [
-        "5.3(6)RB(2P4) 10-Jan-2016", 
-        "5.4(1)RB(2P6) 10-Jan-2016"
+        "5.3(6)RB(2P4) (10-Jan-2016)", 
+        "5.4(1)RB(2P6) (10-Jan-2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1922,7 +1921,7 @@
       "bug_id": "CSCux41426", 
       "product": "Cisco Edge 340 Digital Media Player", 
       "fix": [
-        "A patch file will be available by 18-Jan-2016."
+        "A patch file will be available by 18 Jan 2016."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1980,7 +1979,7 @@
       "bug_id": "CSCux41365", 
       "product": "Cisco Media Experience Engines (MXE)", 
       "fix": [
-        "A patch file will be available for 3.5 by 18-Dec-2015."
+        "A patch file will be available for 3.5 by 18 Dec 2015."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1998,7 +1997,7 @@
       "bug_id": "CSCux41429", 
       "product": "Cisco Model D9485 DAVIC QPSK", 
       "fix": [
-        "Update scheduled for 27-Feb-2016"
+        "Update scheduled for 27 Feb 2016"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -2013,7 +2012,7 @@
       "bug_id": "CSCux41438", 
       "product": "Cisco TelePresence 1310", 
       "fix": [
-        "Next Fixed Release (Jan 2016)"
+        "Next fixed release (Jan 2016)"
       ], 
       "bug_data": null
     }, 
@@ -2044,7 +2043,7 @@
           "XC4.1RC2"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco TelePresence Conductor"
       }
     }, 
@@ -2277,7 +2276,7 @@
       "bug_id": "CSCux41438", 
       "product": "Cisco TelePresence System 1000", 
       "fix": [
-        "Next Fixed Release (Jan 2016)"
+        "Next fixed release (Jan 2016)"
       ], 
       "bug_data": null
     }, 
@@ -2285,7 +2284,7 @@
       "bug_id": "CSCux41438", 
       "product": "Cisco TelePresence System 1100", 
       "fix": [
-        "Next Fixed Release (Jan 2016)"
+        "Next fixed release (Jan 2016)"
       ], 
       "bug_data": null
     }, 
@@ -2293,7 +2292,7 @@
       "bug_id": "CSCux41438", 
       "product": "Cisco TelePresence System 1300", 
       "fix": [
-        "Next Fixed Release (Jan 2016)"
+        "Next fixed release (Jan 2016)"
       ], 
       "bug_data": null
     }, 
@@ -2301,7 +2300,7 @@
       "bug_id": "CSCux41438", 
       "product": "Cisco TelePresence System 3000 Series", 
       "fix": [
-        "Next Fixed Release (Jan 2016)"
+        "Next fixed release (Jan 2016)"
       ], 
       "bug_data": null
     }, 
@@ -2309,7 +2308,7 @@
       "bug_id": "CSCux41438", 
       "product": "Cisco TelePresence System 500-32", 
       "fix": [
-        "Next Fixed Release (Jan 2016)"
+        "Next fixed release (Jan 2016)"
       ], 
       "bug_data": null
     }, 
@@ -2317,7 +2316,7 @@
       "bug_id": "CSCux41438", 
       "product": "Cisco TelePresence System 500-37", 
       "fix": [
-        "Next Fixed Release (Jan 2016)"
+        "Next fixed release (Jan 2016)"
       ], 
       "bug_data": null
     }, 
@@ -2325,7 +2324,7 @@
       "bug_id": "CSCux41438", 
       "product": "Cisco TelePresence TX 9000 Series", 
       "fix": [
-        "Next Fixed Release (Jan 2016)"
+        "Next fixed release (Jan 2016)"
       ], 
       "bug_data": null
     }, 
@@ -2632,7 +2631,7 @@
       "bug_id": "CSCux41551", 
       "product": "Cisco Cloud Web Security", 
       "fix": [
-        "Update available June 2016."
+        "Update available June 2016"
       ], 
       "bug_data": {
         "affected_releases": [
