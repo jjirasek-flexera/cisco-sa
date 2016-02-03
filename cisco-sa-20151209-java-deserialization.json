@@ -1,5 +1,5 @@
 {
-  "version": "1.8", 
+  "version": "1.9", 
   "products": [
     {
       "bug_id": "CSCux17638", 
@@ -12,6 +12,7 @@
         ], 
         "fixed_releases": [
           "2.5.1.6183", 
+          "2.6.1.1099", 
           "2.6.1.45"
         ], 
         "status": "Fixed", 
@@ -29,6 +30,7 @@
         ], 
         "fixed_releases": [
           "2.5.1.6183", 
+          "2.6.1.1099", 
           "2.6.1.45"
         ], 
         "status": "Fixed", 
@@ -119,10 +121,21 @@
       }
     }, 
     {
-      "bug_id": "CSCux34993", 
+      "bug_id": "CSCux34742", 
       "product": "Cisco ASA CX and Cisco Prime Security Manager", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "100.10(6.0.40)", 
+          "100.6(0.0.128)", 
+          "100.6(0.0.140)"
+        ], 
+        "fixed_releases": [
+          "100.6(0.0.154)"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco ASA Next-Generation Firewall Services"
+      }
     }, 
     {
       "bug_id": "CSCux34981", 
@@ -138,7 +151,7 @@
       }
     }, 
     {
-      "bug_id": "CSCux34754", 
+      "bug_id": "CSCux35116", 
       "product": "Cisco Identity Services Engine (ISE)", 
       "fix": [], 
       "bug_data": null
@@ -302,15 +315,7 @@
       "bug_id": "CSCux34666", 
       "product": "Cisco Prime Home", 
       "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "6.4(0.1)", 
-          "6.4(1)"
-        ], 
-        "fixed_releases": [], 
-        "status": "Fixed", 
-        "product_name": "Cisco Prime Home"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCux34665", 
@@ -395,7 +400,7 @@
           "1.7(0.3)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Prime Performance Manager"
       }
     }, 
@@ -410,6 +415,23 @@
       "product": "Cisco Prime Provisioning", 
       "fix": [], 
       "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCux35106", 
+      "product": "Cisco Prime Security Manager", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "100.10(6.0.40)", 
+          "100.6(0.0.128)", 
+          "100.6(0.0.140)"
+        ], 
+        "fixed_releases": [
+          "100.6(0.0.154)"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco ASA Next-Generation Firewall Services"
+      }
     }, 
     {
       "bug_id": "CSCux34715", 
@@ -439,8 +461,21 @@
           "4.10(0.187)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Security Manager"
+      }
+    }, 
+    {
+      "bug_id": "CSCux35044", 
+      "product": "Cisco Unified Intelligent Center", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.0(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Intelligence Center"
       }
     }, 
     {
@@ -486,12 +521,6 @@
         "status": "Fixed", 
         "product_name": "Cisco UCS Director"
       }
-    }, 
-    {
-      "bug_id": "CSCux35113", 
-      "product": "Cisco Unified Computing System (Management software)", 
-      "fix": [], 
-      "bug_data": null
     }, 
     {
       "bug_id": "CSCux34589", 
@@ -542,7 +571,7 @@
           "11.5(1)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Communications Manager IM & Presence Service"
       }
     }, 
@@ -595,9 +624,15 @@
           "8.6(1.19)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Unified MeetingPlace"
       }
+    }, 
+    {
+      "bug_id": "CSCux35125", 
+      "product": "Cisco USC8088", 
+      "fix": [], 
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCux34827", 
@@ -758,6 +793,24 @@
       }
     }, 
     {
+      "bug_id": "CSCux34844", 
+      "product": "Cisco Unified Contact Center Express", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "10.0(1)SU2", 
+          "10.5(1)SU2", 
+          "10.6(1)SU2", 
+          "11.0(1)", 
+          "11.5(1)", 
+          "9.0(1)SU1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Contact Center Express"
+      }
+    }, 
+    {
       "bug_id": "CSCux34853", 
       "product": "Cisco Unified E-Mail Interaction Manager", 
       "fix": [], 
@@ -766,21 +819,8 @@
           "11.0(1)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Unified E-Mail Interaction Manager"
-      }
-    }, 
-    {
-      "bug_id": "CSCux34844", 
-      "product": "Cisco Unified Intelligence Center", 
-      "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "11.5(1)"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Unified Contact Center Express"
       }
     }, 
     {
@@ -812,7 +852,7 @@
           "11.0(1)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Unified E-Mail Interaction Manager"
       }
     }, 
@@ -820,7 +860,14 @@
       "bug_id": "CSCux35135", 
       "product": "Cisco Unity Connection (UC)", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "11.5(0.185)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unity Connection"
+      }
     }, 
     {
       "bug_id": "CSCux34796", 
@@ -946,6 +993,19 @@
       }
     }, 
     {
+      "bug_id": "CSCux35085", 
+      "product": "Cisco Mobility Services Engine (MSE)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "8.0(130.3)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Mobility Services Engine"
+      }
+    }, 
+    {
       "bug_id": "CSCux34572", 
       "product": "Business Video Services Automation Software (BV)", 
       "fix": [], 
@@ -1027,14 +1087,7 @@
       "bug_id": "CSCux34985", 
       "product": "Cisco Smart Care", 
       "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "1.16(0.0)ITH"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Smart Care Service"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCux34779", 
