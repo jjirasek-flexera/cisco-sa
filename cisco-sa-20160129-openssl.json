@@ -1,5 +1,5 @@
 {
-  "version": "1.1", 
+  "version": "1.2", 
   "products": [
     {
       "bug_id": "CSCuy07329", 
@@ -15,6 +15,19 @@
       }
     }, 
     {
+      "bug_id": "CSCuy07355", 
+      "product": "Cisco Prime License Manager", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.5.0.98000-183"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Communications Licensing"
+      }
+    }, 
+    {
       "bug_id": "CSCuy07316", 
       "product": "Cisco Prime Optical for SPs", 
       "fix": [], 
@@ -24,7 +37,7 @@
           "10.6(0.0.1)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Prime Optical"
       }
     }, 
@@ -93,6 +106,20 @@
       "bug_data": null
     }, 
     {
+      "bug_id": "CSCuy07492", 
+      "product": "Cisco Emergency Responder", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.5(0.98000.52)", 
+          "11.5(0.99833.5)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Emergency Responder"
+      }
+    }, 
+    {
       "bug_id": "CSCuy07527", 
       "product": "Cisco Unified 7800 Series IP Phones", 
       "fix": [], 
@@ -103,6 +130,32 @@
       "product": "Cisco Unified 8945 IP Phone", 
       "fix": [], 
       "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuy07473", 
+      "product": "Cisco Unified Communications Manager (UCM)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.5(1.99000.8)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Communications Manager (CallManager)"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy07473", 
+      "product": "Cisco Unified Communications Manager Session Management Edition (SME)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.5(1.99000.8)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Communications Manager (CallManager)"
+      }
     }, 
     {
       "bug_id": "CSCuy07225", 
@@ -127,6 +180,71 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco Edge 300 Series Digital Media Player"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy07363", 
+      "product": "Cisco Expressway Series", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "X8.8PreAlpha5"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco TelePresence Video Communication Server (VCS)"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy07362", 
+      "product": "Cisco TelePresence Server 8710, 7010", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "4.2Maintenance1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco TelePresence Server"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy07362", 
+      "product": "Cisco TelePresence Server on Multiparty Media 310, 320", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "4.2Maintenance1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco TelePresence Server"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy07362", 
+      "product": "Cisco TelePresence Server on Virtual Machine", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "4.2Maintenance1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco TelePresence Server"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy07363", 
+      "product": "Cisco TelePresence Video Communication Server (VCS)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "X8.8PreAlpha5"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco TelePresence Video Communication Server (VCS)"
       }
     }, 
     {
