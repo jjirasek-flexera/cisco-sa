@@ -1,6 +1,19 @@
 {
-  "version": "1.2", 
+  "version": "1.3", 
   "products": [
+    {
+      "bug_id": "CSCuy07476", 
+      "product": "Cisco Prime Collaboration Deployment", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.5(0.98000.238)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Communications Manager (CallManager)"
+      }
+    }, 
     {
       "bug_id": "CSCuy07329", 
       "product": "Cisco Prime Collaboration Provisioning", 
@@ -103,7 +116,14 @@
       "bug_id": "CSCuy07225", 
       "product": "Cisco Computer Telephony Integration Object Server (CTIOS)", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "11.5(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Contact Center Enterprise"
+      }
     }, 
     {
       "bug_id": "CSCuy07492", 
@@ -120,6 +140,19 @@
       }
     }, 
     {
+      "bug_id": "CSCuy07520", 
+      "product": "Cisco MediaSense", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.5(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco MediaSense"
+      }
+    }, 
+    {
       "bug_id": "CSCuy07527", 
       "product": "Cisco Unified 7800 Series IP Phones", 
       "fix": [], 
@@ -129,7 +162,14 @@
       "bug_id": "CSCuy07517", 
       "product": "Cisco Unified 8945 IP Phone", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "9.4(2)SR2"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified IP Phone 6900 Series"
+      }
     }, 
     {
       "bug_id": "CSCuy07473", 
@@ -161,13 +201,40 @@
       "bug_id": "CSCuy07225", 
       "product": "Cisco Unified Contact Center Enterprise", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "11.5(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Contact Center Enterprise"
+      }
     }, 
     {
       "bug_id": "CSCuy07225", 
       "product": "Cisco Unified Intelligent Contact Management Enterprise", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "11.5(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Contact Center Enterprise"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy07478", 
+      "product": "Cisco Unity Connection (UC)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.0"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unity Connection"
+      }
     }, 
     {
       "bug_id": "CSCuy07442", 
