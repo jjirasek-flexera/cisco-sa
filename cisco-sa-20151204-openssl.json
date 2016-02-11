@@ -1,5 +1,5 @@
 {
-  "version": "1.9", 
+  "version": "1.10", 
   "products": [
     {
       "bug_id": "CSCux41444", 
@@ -280,14 +280,7 @@
       "fix": [
         "11.5.1 (Feb 2016)"
       ], 
-      "bug_data": {
-        "affected_releases": [
-          "11.5(0)"
-        ], 
-        "fixed_releases": [], 
-        "status": "Fixed", 
-        "product_name": "Cisco Jabber for Mac"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCux41461", 
@@ -302,6 +295,7 @@
           "11.5(0)"
         ], 
         "fixed_releases": [
+          "11.1(3.29417)", 
           "11.5(1.29337)"
         ], 
         "status": "Fixed", 
@@ -524,6 +518,7 @@
           "99.1(4.868)"
         ], 
         "fixed_releases": [
+          "92.1(1.59)", 
           "99.1(4.983)", 
           "99.1(4.984)"
         ], 
@@ -546,7 +541,11 @@
           "100.13(0.124)", 
           "100.15(0.109)", 
           "100.16(0.19)", 
+          "8.4(7.31)", 
+          "9.0(4.39)", 
           "9.1(6.114)", 
+          "9.1(7)", 
+          "9.2(4.6)", 
           "96.1(1.52)", 
           "96.2(1.103)"
         ], 
@@ -822,7 +821,7 @@
       "bug_id": "CSCux41446", 
       "product": "Cisco Prime Collaboration Deployment", 
       "fix": [
-        "11.5.0 (Mar 2016)"
+        "11.5.0 (June 2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -888,7 +887,7 @@
       "bug_id": "CSCux41367", 
       "product": "Cisco Prime License Manager", 
       "fix": [
-        "11.5.0 (23-Dec-2015)"
+        "11.5.0 (June 2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1059,7 +1058,7 @@
       "bug_id": "CSCux41322", 
       "product": "Cisco Application Policy Infrastructure Controller (APIC)", 
       "fix": [
-        "Maintenance Release 1.2(2) (Feb 2016)"
+        "Maintenance Release (1.2(2) (Feb 2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1138,7 +1137,14 @@
       "fix": [
         "4.1(2)E1(1q) (Jun 2016)"
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "4.1(2)E1(1a)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Nexus 4000 Series Switches"
+      }
     }, 
     {
       "bug_id": "CSCux41326", 
@@ -1226,11 +1232,14 @@
         "fixed_releases": [
           "/bin/sh:", 
           "7.0(3)I2(2.84)", 
+          "7.0(3)I2(2b)", 
           "7.0(3)I2(3)", 
           "7.0(3)I3(0.182)", 
           "7.0(3)I3(1)", 
           "7.0(3)IAB3(0)", 
           "7.0(3)IAB3(0.53)", 
+          "7.0(3)ITI2(1)", 
+          "7.0(3)ITI2(1.100)", 
           "command", 
           "convert_version.pl:", 
           "found", 
@@ -1270,7 +1279,7 @@
       "product": "Cisco Sx220 switches", 
       "fix": [
         "Version TBD", 
-        "Maintenance release scheduled for Mar 2016"
+        "maintenance release scheduled Mar 2016"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1401,7 +1410,7 @@
       "bug_id": "CSCux41554", 
       "product": "Cisco Finesse", 
       "fix": [
-        "11.5.1 (Release date TBD)"
+        "11.5.1 (Release Date TBD)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1493,7 +1502,9 @@
         "affected_releases": [
           "8.6(2.10)"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "8.6(2.35)"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Unified MeetingPlace"
       }
@@ -1733,7 +1744,7 @@
       "bug_id": "CSCux41445", 
       "product": "Cisco Unified Communications Manager (UCM)", 
       "fix": [
-        "11.5.0 (23-Dec-2015)"
+        "11.5.0 (June 2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1743,9 +1754,10 @@
           "11.5(0.98000.150)", 
           "11.5(0.98000.206)", 
           "11.5(0.98000.458)", 
-          "11.5(0.98000.656)"
+          "11.5(0.98000.656)", 
+          "9.1(2.15900.3)"
         ], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Communications Manager (CallManager)"
       }
     }, 
@@ -1753,7 +1765,7 @@
       "bug_id": "CSCux41445", 
       "product": "Cisco Unified Communications Manager Session Management Edition (SME)", 
       "fix": [
-        "11.5.0 (23-Dec-2015)"
+        "11.5.0 (June 2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1763,9 +1775,10 @@
           "11.5(0.98000.150)", 
           "11.5(0.98000.206)", 
           "11.5(0.98000.458)", 
-          "11.5(0.98000.656)"
+          "11.5(0.98000.656)", 
+          "9.1(2.15900.3)"
         ], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Communications Manager (CallManager)"
       }
     }, 
@@ -1824,7 +1837,7 @@
       "bug_id": "CSCux41447", 
       "product": "Cisco Unity Connection", 
       "fix": [
-        "11.5.0 (25-Dec-2015)"
+        "11.5.0 (June 2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1850,7 +1863,9 @@
         "affected_releases": [
           "11.5(0)"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "11.5(1)"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Virtualization Experience Media Edition"
       }
@@ -1874,8 +1889,8 @@
       "bug_id": "CSCux41357", 
       "product": "Cisco Digital Media Players (DMP) 4300 Series", 
       "fix": [
-        "5.3(6)RB(2P4) (10-Jan-2016)", 
-        "5.4(1)RB(2P6) (10-Jan-2016)"
+        "5.3(6)RB(2P4) 10-Jan-2016", 
+        "5.4(1)RB(2P6) 10-Jan-2016"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1890,8 +1905,8 @@
       "bug_id": "CSCux41357", 
       "product": "Cisco Digital Media Players (DMP) 4400 Series", 
       "fix": [
-        "5.3(6)RB(2P4) (10-Jan-2016)", 
-        "5.4(1)RB(2P6) (10-Jan-2016)"
+        "5.3(6)RB(2P4) 10-Jan-2016", 
+        "5.4(1)RB(2P6) 10-Jan-2016"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1921,7 +1936,7 @@
       "bug_id": "CSCux41426", 
       "product": "Cisco Edge 340 Digital Media Player", 
       "fix": [
-        "A patch file will be available by 18 Jan 2016."
+        "A patch file will be available by 18-Jan-2016."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1979,7 +1994,7 @@
       "bug_id": "CSCux41365", 
       "product": "Cisco Media Experience Engines (MXE)", 
       "fix": [
-        "A patch file will be available for 3.5 by 18 Dec 2015."
+        "A patch file will be available for 3.5 by 18-Dec-2015."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1997,7 +2012,7 @@
       "bug_id": "CSCux41429", 
       "product": "Cisco Model D9485 DAVIC QPSK", 
       "fix": [
-        "Update scheduled for 27 Feb 2016"
+        "Update scheduled for 27-Feb-2016"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -2012,9 +2027,48 @@
       "bug_id": "CSCux41438", 
       "product": "Cisco TelePresence 1310", 
       "fix": [
-        "Next fixed release (Jan 2016)"
+        "Next Fixed Release (Jan 2016)"
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "1.10.3", 
+          "1.10.4", 
+          "1.10.6", 
+          "1.10.8", 
+          "1.8.0", 
+          "1.8.1", 
+          "1.8.2", 
+          "1.8.3", 
+          "1.8.4", 
+          "1.9.0", 
+          "1.9.1", 
+          "1.9.2", 
+          "1.9.3", 
+          "1.9.4", 
+          "1.9.5", 
+          "1.9.6", 
+          "6.0.1", 
+          "6.0.2", 
+          "6.0.3", 
+          "6.0.4", 
+          "6.0.5", 
+          "6.1.0", 
+          "6.1.1", 
+          "6.1.2", 
+          "6.1.3", 
+          "6.1.4", 
+          "6.1.5", 
+          "6.1.6", 
+          "6.1.7", 
+          "6.1.8"
+        ], 
+        "fixed_releases": [
+          "1.10.14:5", 
+          "6.1.11:7"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco TelePresence TX9000 Series"
+      }
     }, 
     {
       "bug_id": "CSCux41355", 
@@ -2223,7 +2277,7 @@
           "4.2Maintenance1"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco TelePresence Server"
       }
     }, 
@@ -2238,7 +2292,7 @@
           "4.2Maintenance1"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco TelePresence Server"
       }
     }, 
@@ -2253,7 +2307,7 @@
           "4.2Maintenance1"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco TelePresence Server"
       }
     }, 
@@ -2276,57 +2330,330 @@
       "bug_id": "CSCux41438", 
       "product": "Cisco TelePresence System 1000", 
       "fix": [
-        "Next fixed release (Jan 2016)"
+        "Next Fixed Release (Jan 2016)"
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "1.10.3", 
+          "1.10.4", 
+          "1.10.6", 
+          "1.10.8", 
+          "1.8.0", 
+          "1.8.1", 
+          "1.8.2", 
+          "1.8.3", 
+          "1.8.4", 
+          "1.9.0", 
+          "1.9.1", 
+          "1.9.2", 
+          "1.9.3", 
+          "1.9.4", 
+          "1.9.5", 
+          "1.9.6", 
+          "6.0.1", 
+          "6.0.2", 
+          "6.0.3", 
+          "6.0.4", 
+          "6.0.5", 
+          "6.1.0", 
+          "6.1.1", 
+          "6.1.2", 
+          "6.1.3", 
+          "6.1.4", 
+          "6.1.5", 
+          "6.1.6", 
+          "6.1.7", 
+          "6.1.8"
+        ], 
+        "fixed_releases": [
+          "1.10.14:5", 
+          "6.1.11:7"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco TelePresence TX9000 Series"
+      }
     }, 
     {
       "bug_id": "CSCux41438", 
       "product": "Cisco TelePresence System 1100", 
       "fix": [
-        "Next fixed release (Jan 2016)"
+        "Next Fixed Release (Jan 2016)"
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "1.10.3", 
+          "1.10.4", 
+          "1.10.6", 
+          "1.10.8", 
+          "1.8.0", 
+          "1.8.1", 
+          "1.8.2", 
+          "1.8.3", 
+          "1.8.4", 
+          "1.9.0", 
+          "1.9.1", 
+          "1.9.2", 
+          "1.9.3", 
+          "1.9.4", 
+          "1.9.5", 
+          "1.9.6", 
+          "6.0.1", 
+          "6.0.2", 
+          "6.0.3", 
+          "6.0.4", 
+          "6.0.5", 
+          "6.1.0", 
+          "6.1.1", 
+          "6.1.2", 
+          "6.1.3", 
+          "6.1.4", 
+          "6.1.5", 
+          "6.1.6", 
+          "6.1.7", 
+          "6.1.8"
+        ], 
+        "fixed_releases": [
+          "1.10.14:5", 
+          "6.1.11:7"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco TelePresence TX9000 Series"
+      }
     }, 
     {
       "bug_id": "CSCux41438", 
       "product": "Cisco TelePresence System 1300", 
       "fix": [
-        "Next fixed release (Jan 2016)"
+        "Next Fixed Release (Jan 2016)"
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "1.10.3", 
+          "1.10.4", 
+          "1.10.6", 
+          "1.10.8", 
+          "1.8.0", 
+          "1.8.1", 
+          "1.8.2", 
+          "1.8.3", 
+          "1.8.4", 
+          "1.9.0", 
+          "1.9.1", 
+          "1.9.2", 
+          "1.9.3", 
+          "1.9.4", 
+          "1.9.5", 
+          "1.9.6", 
+          "6.0.1", 
+          "6.0.2", 
+          "6.0.3", 
+          "6.0.4", 
+          "6.0.5", 
+          "6.1.0", 
+          "6.1.1", 
+          "6.1.2", 
+          "6.1.3", 
+          "6.1.4", 
+          "6.1.5", 
+          "6.1.6", 
+          "6.1.7", 
+          "6.1.8"
+        ], 
+        "fixed_releases": [
+          "1.10.14:5", 
+          "6.1.11:7"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco TelePresence TX9000 Series"
+      }
     }, 
     {
       "bug_id": "CSCux41438", 
       "product": "Cisco TelePresence System 3000 Series", 
       "fix": [
-        "Next fixed release (Jan 2016)"
+        "Next Fixed Release (Jan 2016)"
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "1.10.3", 
+          "1.10.4", 
+          "1.10.6", 
+          "1.10.8", 
+          "1.8.0", 
+          "1.8.1", 
+          "1.8.2", 
+          "1.8.3", 
+          "1.8.4", 
+          "1.9.0", 
+          "1.9.1", 
+          "1.9.2", 
+          "1.9.3", 
+          "1.9.4", 
+          "1.9.5", 
+          "1.9.6", 
+          "6.0.1", 
+          "6.0.2", 
+          "6.0.3", 
+          "6.0.4", 
+          "6.0.5", 
+          "6.1.0", 
+          "6.1.1", 
+          "6.1.2", 
+          "6.1.3", 
+          "6.1.4", 
+          "6.1.5", 
+          "6.1.6", 
+          "6.1.7", 
+          "6.1.8"
+        ], 
+        "fixed_releases": [
+          "1.10.14:5", 
+          "6.1.11:7"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco TelePresence TX9000 Series"
+      }
     }, 
     {
       "bug_id": "CSCux41438", 
       "product": "Cisco TelePresence System 500-32", 
       "fix": [
-        "Next fixed release (Jan 2016)"
+        "Next Fixed Release (Jan 2016)"
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "1.10.3", 
+          "1.10.4", 
+          "1.10.6", 
+          "1.10.8", 
+          "1.8.0", 
+          "1.8.1", 
+          "1.8.2", 
+          "1.8.3", 
+          "1.8.4", 
+          "1.9.0", 
+          "1.9.1", 
+          "1.9.2", 
+          "1.9.3", 
+          "1.9.4", 
+          "1.9.5", 
+          "1.9.6", 
+          "6.0.1", 
+          "6.0.2", 
+          "6.0.3", 
+          "6.0.4", 
+          "6.0.5", 
+          "6.1.0", 
+          "6.1.1", 
+          "6.1.2", 
+          "6.1.3", 
+          "6.1.4", 
+          "6.1.5", 
+          "6.1.6", 
+          "6.1.7", 
+          "6.1.8"
+        ], 
+        "fixed_releases": [
+          "1.10.14:5", 
+          "6.1.11:7"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco TelePresence TX9000 Series"
+      }
     }, 
     {
       "bug_id": "CSCux41438", 
       "product": "Cisco TelePresence System 500-37", 
       "fix": [
-        "Next fixed release (Jan 2016)"
+        "Next Fixed Release (Jan 2016)"
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "1.10.3", 
+          "1.10.4", 
+          "1.10.6", 
+          "1.10.8", 
+          "1.8.0", 
+          "1.8.1", 
+          "1.8.2", 
+          "1.8.3", 
+          "1.8.4", 
+          "1.9.0", 
+          "1.9.1", 
+          "1.9.2", 
+          "1.9.3", 
+          "1.9.4", 
+          "1.9.5", 
+          "1.9.6", 
+          "6.0.1", 
+          "6.0.2", 
+          "6.0.3", 
+          "6.0.4", 
+          "6.0.5", 
+          "6.1.0", 
+          "6.1.1", 
+          "6.1.2", 
+          "6.1.3", 
+          "6.1.4", 
+          "6.1.5", 
+          "6.1.6", 
+          "6.1.7", 
+          "6.1.8"
+        ], 
+        "fixed_releases": [
+          "1.10.14:5", 
+          "6.1.11:7"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco TelePresence TX9000 Series"
+      }
     }, 
     {
       "bug_id": "CSCux41438", 
       "product": "Cisco TelePresence TX 9000 Series", 
       "fix": [
-        "Next fixed release (Jan 2016)"
+        "Next Fixed Release (Jan 2016)"
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "1.10.3", 
+          "1.10.4", 
+          "1.10.6", 
+          "1.10.8", 
+          "1.8.0", 
+          "1.8.1", 
+          "1.8.2", 
+          "1.8.3", 
+          "1.8.4", 
+          "1.9.0", 
+          "1.9.1", 
+          "1.9.2", 
+          "1.9.3", 
+          "1.9.4", 
+          "1.9.5", 
+          "1.9.6", 
+          "6.0.1", 
+          "6.0.2", 
+          "6.0.3", 
+          "6.0.4", 
+          "6.0.5", 
+          "6.1.0", 
+          "6.1.1", 
+          "6.1.2", 
+          "6.1.3", 
+          "6.1.4", 
+          "6.1.5", 
+          "6.1.6", 
+          "6.1.7", 
+          "6.1.8"
+        ], 
+        "fixed_releases": [
+          "1.10.14:5", 
+          "6.1.11:7"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco TelePresence TX9000 Series"
+      }
     }, 
     {
       "bug_id": "CSCux41206", 
@@ -2631,7 +2958,7 @@
       "bug_id": "CSCux41551", 
       "product": "Cisco Cloud Web Security", 
       "fix": [
-        "Update available June 2016"
+        "Update available June 2016."
       ], 
       "bug_data": {
         "affected_releases": [
