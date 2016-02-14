@@ -1,5 +1,5 @@
 {
-  "version": "1.7", 
+  "version": "1.8", 
   "products": [
     {
       "bug_id": "CSCuy07247", 
@@ -32,6 +32,12 @@
     {
       "bug_id": "CSCuy07508", 
       "product": "Cisco Jabber for Windows", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuy07231", 
+      "product": "Cisco Email Security Appliance (ESA)", 
       "fix": [], 
       "bug_data": null
     }, 
@@ -186,6 +192,12 @@
       }
     }, 
     {
+      "bug_id": "CSCuy07294", 
+      "product": "Cisco Unified Computing System B-Series (Blade) Servers", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCuy07524", 
       "product": "Cisco 8800 Series IP Phones - VPN Feature", 
       "fix": [
@@ -240,6 +252,14 @@
       }
     }, 
     {
+      "bug_id": "CSCuy07496", 
+      "product": "Cisco IM and Presence Service (CUPS)", 
+      "fix": [
+        "11.5 (Jun 2016)"
+      ], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCuy07520", 
       "product": "Cisco MediaSense", 
       "fix": [
@@ -247,7 +267,6 @@
       ], 
       "bug_data": {
         "affected_releases": [
-          "10.5(1)ES6", 
           "11.0(1)ES1", 
           "11.5(1)"
         ], 
@@ -282,7 +301,9 @@
     {
       "bug_id": "CSCuy07469", 
       "product": "Cisco Unified Attendant Console Advanced", 
-      "fix": [], 
+      "fix": [
+        "Patch will be available Sept 2016"
+      ], 
       "bug_data": {
         "affected_releases": [
           "10.0(1)", 
@@ -302,7 +323,9 @@
     {
       "bug_id": "CSCuy07469", 
       "product": "Cisco Unified Attendant Console Business Edition", 
-      "fix": [], 
+      "fix": [
+        "Patch will be available Sept 2016"
+      ], 
       "bug_data": {
         "affected_releases": [
           "10.0(1)", 
@@ -322,7 +345,9 @@
     {
       "bug_id": "CSCuy07469", 
       "product": "Cisco Unified Attendant Console Department Edition", 
-      "fix": [], 
+      "fix": [
+        "Patch will be available Sept 2016"
+      ], 
       "bug_data": {
         "affected_releases": [
           "10.0(1)", 
@@ -342,7 +367,9 @@
     {
       "bug_id": "CSCuy07469", 
       "product": "Cisco Unified Attendant Console Enterprise Edition", 
-      "fix": [], 
+      "fix": [
+        "Patch will be available Sept 2016"
+      ], 
       "bug_data": {
         "affected_releases": [
           "10.0(1)", 
@@ -362,7 +389,9 @@
     {
       "bug_id": "CSCuy07469", 
       "product": "Cisco Unified Attendant Console Premium Edition", 
-      "fix": [], 
+      "fix": [
+        "Patch will be available Sept 2016"
+      ], 
       "bug_data": {
         "affected_releases": [
           "10.0(1)", 
@@ -382,7 +411,9 @@
     {
       "bug_id": "CSCuy07470", 
       "product": "Cisco Unified Attendant Console Standard", 
-      "fix": [], 
+      "fix": [
+        "Patch file is currently available. Please see CDET"
+      ], 
       "bug_data": {
         "affected_releases": [
           "10.0", 
