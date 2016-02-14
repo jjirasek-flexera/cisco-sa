@@ -1,5 +1,5 @@
 {
-  "version": "1.10", 
+  "version": "1.11", 
   "products": [
     {
       "bug_id": "CSCux41444", 
@@ -1075,7 +1075,7 @@
       "bug_id": "CSCux41326", 
       "product": "Cisco MDS 9000 Series Multilayer Switches", 
       "fix": [
-        "7.3 9 (Jan 2016)"
+        "7.3 MR"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1150,7 +1150,7 @@
       "bug_id": "CSCux41326", 
       "product": "Cisco Nexus 5000 Series Switches", 
       "fix": [
-        "7.3 9 (Jan 2016)"
+        "7.3 MR"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1182,7 +1182,7 @@
       "bug_id": "CSCux41326", 
       "product": "Cisco Nexus 6000 Series Switches", 
       "fix": [
-        "7.3 9 (Jan 2016)"
+        "7.3 MR"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1199,7 +1199,7 @@
       "bug_id": "CSCux41326", 
       "product": "Cisco Nexus 7000 Series Switches", 
       "fix": [
-        "7.3 9 (Jan 2016)"
+        "7.3 MR"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1485,10 +1485,10 @@
       ], 
       "bug_data": {
         "affected_releases": [
-          "11.5(1)"
+          "10.5(1)ES6"
         ], 
         "fixed_releases": [], 
-        "status": "Terminated", 
+        "status": "Open", 
         "product_name": "Cisco MediaSense"
       }
     }, 
@@ -2947,6 +2947,7 @@
         ], 
         "fixed_releases": [
           "8.0(122.29)", 
+          "8.2(102.34)", 
           "8.3(15.22)", 
           "8.3(15.3)"
         ], 
