@@ -1,5 +1,5 @@
 {
-  "version": "1.8", 
+  "version": "1.9", 
   "products": [
     {
       "bug_id": "CSCuy07247", 
@@ -7,7 +7,10 @@
       "fix": [], 
       "bug_data": {
         "affected_releases": [
+          "2.5.0.948", 
+          "2.5MR6", 
           "2.6", 
+          "2.6.0.8", 
           "2.7"
         ], 
         "fixed_releases": [], 
@@ -21,7 +24,10 @@
       "fix": [], 
       "bug_data": {
         "affected_releases": [
+          "2.5.0.948", 
+          "2.5MR6", 
           "2.6", 
+          "2.6.0.8", 
           "2.7"
         ], 
         "fixed_releases": [], 
@@ -32,7 +38,9 @@
     {
       "bug_id": "CSCuy07508", 
       "product": "Cisco Jabber for Windows", 
-      "fix": [], 
+      "fix": [
+        "11.6 (Apr-6 2016)"
+      ], 
       "bug_data": null
     }, 
     {
@@ -53,7 +61,7 @@
           "7.1(11)S"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco IPS 4200 Series Sensors"
       }
     }, 
@@ -117,6 +125,19 @@
         "fixed_releases": [], 
         "status": "Fixed", 
         "product_name": "Cisco Prime Optical"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy07305", 
+      "product": "Cisco Prime Performance Manager", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "1.7(0.2)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Prime Performance Manager"
       }
     }, 
     {
