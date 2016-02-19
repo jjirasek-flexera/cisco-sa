@@ -1,0 +1,47 @@
+{
+  "version": "1.0", 
+  "products": [
+    {
+      "bug_id": "CSCuy35276", 
+      "product": "Cisco Visual Quality Experience Server", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuy35276", 
+      "product": "Cisco Visual Quality Experience Tools Server", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuy32284", 
+      "product": "Cisco FireSIGHT System Software", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "5.3.0", 
+          "5.3.1", 
+          "5.4.0", 
+          "5.4.1", 
+          "6.0.0", 
+          "6.0.1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Firepower Management Center"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy34700", 
+      "product": "Cisco Identity Services Engine (ISE)", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuy35299", 
+      "product": "Cisco Edge 340 Digital Media Player", 
+      "fix": [], 
+      "bug_data": null
+    }
+  ]
+}
