@@ -1,5 +1,5 @@
 {
-  "version": "1.2", 
+  "version": "1.3", 
   "products": [
     {
       "bug_id": "CSCux95226", 
@@ -37,21 +37,6 @@
       "bug_data": null
     }, 
     {
-      "bug_id": "CSCux95159", 
-      "product": "Cisco Application and Content Networking System (ACNS)", 
-      "fix": [
-        "5.5.41 (29-Feb-2016)"
-      ], 
-      "bug_data": {
-        "affected_releases": [
-          "5.5(39)"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Enterprise CDN Software"
-      }
-    }, 
-    {
       "bug_id": "CSCux95155", 
       "product": "Cisco Visual Quality Experience Server", 
       "fix": [], 
@@ -63,7 +48,7 @@
         "fixed_releases": [
           "3.11(0.24)"
         ], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Content Delivery Engine Series"
       }
     }, 
@@ -79,7 +64,7 @@
         "fixed_releases": [
           "3.11(0.24)"
         ], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Content Delivery Engine Series"
       }
     }, 
@@ -111,14 +96,14 @@
       "bug_id": "CSCux95160", 
       "product": "Cisco Clean Access Manager", 
       "fix": [
-        "4.9.5 (19-Feb-2016)"
+        "No fixed releases planned."
       ], 
       "bug_data": {
         "affected_releases": [
           "4.9(5)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Terminated", 
         "product_name": "Cisco NAC Appliance (Clean Access)"
       }
     }, 
@@ -159,7 +144,7 @@
           "7.1(11)S"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco IPS 4200 Series Sensors"
       }
     }, 
@@ -167,14 +152,14 @@
       "bug_id": "CSCux95162", 
       "product": "Cisco NAC Guest Server", 
       "fix": [
-        "2.1.0 (19-Feb-2016)"
+        "No fixed releases planned."
       ], 
       "bug_data": {
         "affected_releases": [
           "2.1(0)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Terminated", 
         "product_name": "Cisco NAC Appliance 3300 Series"
       }
     }, 
@@ -182,16 +167,22 @@
       "bug_id": "CSCux95161", 
       "product": "Cisco NAC Server", 
       "fix": [
-        "4.9.5 (19-Feb-2016)"
+        "No fixed releases planned."
       ], 
       "bug_data": {
         "affected_releases": [
           "4.9(5)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Terminated", 
         "product_name": "Cisco NAC Appliance (Clean Access)"
       }
+    }, 
+    {
+      "bug_id": "CSCux95178", 
+      "product": "Cisco Physical Access Manager", 
+      "fix": [], 
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCux95189", 
@@ -227,8 +218,23 @@
           "6.2"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco NAM 2000 Series Appliances"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy20663", 
+      "product": "Cisco Policy Suite (CPS)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "6.1.1", 
+          "7.5.0", 
+          "8.0.0"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Policy Suite for Mobile"
       }
     }, 
     {
@@ -252,30 +258,40 @@
     {
       "bug_id": "CSCux95095", 
       "product": "Cisco Prime Data Center Network Manager  (.ova and .iso installers)", 
-      "fix": [], 
+      "fix": [
+        "7.2(3) (9-Feb-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "7.0(1)", 
           "7.0(2)", 
           "7.1(1)"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "7.2(3)S7", 
+          "7.2(3.14)S0"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco Prime Data Center Network Manager"
       }
     }, 
     {
       "bug_id": "CSCux95096", 
       "product": "Cisco Prime Data Center Network Manager (.ova and .iso installers)", 
-      "fix": [], 
+      "fix": [
+        "7.2(3) (9-Feb-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "7.0(1)", 
           "7.0(2)", 
           "7.1(1)"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "7.2(3)S7", 
+          "7.2(3.14)S0"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco Prime Data Center Network Manager"
       }
     }, 
@@ -294,9 +310,24 @@
       "bug_data": null
     }, 
     {
+      "bug_id": "CSCux95140", 
+      "product": "Cisco Prime License Manager", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.5(1.99000.9)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Unified Communications Licensing"
+      }
+    }, 
+    {
       "bug_id": "CSCux95146", 
       "product": "Cisco Prime Service Catalog Virtual Appliance", 
-      "fix": [], 
+      "fix": [
+        "Update via admin shell."
+      ], 
       "bug_data": {
         "affected_releases": [
           "11.1"
@@ -317,7 +348,7 @@
           "1.4(1a)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco UCS Central Software"
       }
     }, 
@@ -339,24 +370,38 @@
     {
       "bug_id": "CSCux95082", 
       "product": "Unified Communications Deployment Tools", 
-      "fix": [], 
+      "fix": [
+        "11.0 (15-Jun-2016)"
+      ], 
       "bug_data": null
     }, 
     {
       "bug_id": "CSCux95192", 
       "product": "Cisco 910 Industrial Router", 
-      "fix": [], 
+      "fix": [
+        "A patch file will be available for affected releases (12-Feb-2016)."
+      ], 
       "bug_data": null
     }, 
     {
       "bug_id": "CSCux95097", 
       "product": "Cisco Application Policy Infrastructure Controller (APIC)", 
-      "fix": [], 
+      "fix": [
+        "2.0(1) (30-Jun-2016)"
+      ], 
       "bug_data": null
     }, 
     {
       "bug_id": "CSCux95157", 
       "product": "Cisco Connected Grid Router", 
+      "fix": [
+        "15.6(3)M (Available)"
+      ], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCux95126", 
+      "product": "Cisco IOS XR Software", 
       "fix": [], 
       "bug_data": null
     }, 
@@ -404,6 +449,19 @@
       }
     }, 
     {
+      "bug_id": "CSCux95103", 
+      "product": "Cisco Nexus 1000V Series Switches", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "5.2(1)SV3(1.0.119)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Nexus 1000V Switch for VMware vSphere"
+      }
+    }, 
+    {
       "bug_id": "CSCux95101", 
       "product": "Cisco Nexus 3000 Series Switches", 
       "fix": [
@@ -421,7 +479,9 @@
     {
       "bug_id": "CSCux95102", 
       "product": "Cisco Nexus 3000 Series Switches", 
-      "fix": [], 
+      "fix": [
+        "7.3 (29-Feb-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "7.3(0.99)"
@@ -434,7 +494,9 @@
     {
       "bug_id": "CSCux95105", 
       "product": "Cisco Nexus 3500 Series Switches", 
-      "fix": [], 
+      "fix": [
+        "7.3 (29-Feb-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "6.0(2)A7(1)"
@@ -507,7 +569,9 @@
     {
       "bug_id": "CSCux95102", 
       "product": "Cisco Nexus 9000 Series Switches", 
-      "fix": [], 
+      "fix": [
+        "7.3 (29-Feb-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "7.3(0.99)"
@@ -532,8 +596,10 @@
     }, 
     {
       "bug_id": "CSCux95128", 
-      "product": "IOS XR for Cisco Network Convergence System (NCS) 6000", 
-      "fix": [], 
+      "product": "IOS-XR for Cisco Network Convergence System (NCS) 6000", 
+      "fix": [
+        "6.1.1 (29-Feb-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "6.0.0.BASE"
@@ -546,7 +612,9 @@
     {
       "bug_id": "CSCux95077", 
       "product": "Cisco Common Services Platform Collector", 
-      "fix": [], 
+      "fix": [
+        "1.9 (15-Feb-2016)"
+      ], 
       "bug_data": null
     }, 
     {
@@ -565,9 +633,18 @@
       }
     }, 
     {
+      "bug_id": "CSCux95093", 
+      "product": "Cisco UCS Director", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCux95098", 
       "product": "Cisco UCS Invicta Series", 
-      "fix": [], 
+      "fix": [
+        "5.0.1.2d (31-Mar-2016)", 
+        "5.0.1.3c (31-Apr-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "5.0(1.2c)"
@@ -580,7 +657,9 @@
     {
       "bug_id": "CSCux95107", 
       "product": "Cisco UCS Manager", 
-      "fix": [], 
+      "fix": [
+        "3.1.2 (22-Jun-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "2.2(1h)A"
@@ -642,8 +721,23 @@
     {
       "bug_id": "CSCux95224", 
       "product": "Cisco Hosted Collaboration Mediation Fulfillment", 
-      "fix": [], 
+      "fix": [
+        "11.5.0.98000-33 (23-Feb-2016)"
+      ], 
       "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCux95223", 
+      "product": "Cisco IM and Presence Service (CUPS)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.5(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Unified Communications Manager IM & Presence Service"
+      }
     }, 
     {
       "bug_id": "CSCux95148", 
@@ -676,9 +770,12 @@
     {
       "bug_id": "CSCux95229", 
       "product": "Cisco MediaSense", 
-      "fix": [], 
+      "fix": [
+        "No fixed releases planned."
+      ], 
       "bug_data": {
         "affected_releases": [
+          "11.0(1)ES1", 
           "11.5(1)"
         ], 
         "fixed_releases": [], 
@@ -694,6 +791,7 @@
       ], 
       "bug_data": {
         "affected_releases": [
+          "15.0(1)", 
           "20.0.0"
         ], 
         "fixed_releases": [], 
@@ -705,14 +803,19 @@
       "bug_id": "CSCux95217", 
       "product": "Cisco Unified Communications Manager (UCM)", 
       "fix": [
-        "No fixed release planned"
+        "No fixed release planned."
       ], 
       "bug_data": {
         "affected_releases": [
           "11.5(1.99000.8)"
         ], 
-        "fixed_releases": [], 
-        "status": "Terminated", 
+        "fixed_releases": [
+          "11.5(0.98000.200)", 
+          "11.5(0.98000.258)", 
+          "11.5(0.98000.561)", 
+          "11.5(0.98000.800)"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Communications Manager (CallManager)"
       }
     }, 
@@ -720,20 +823,31 @@
       "bug_id": "CSCux95217", 
       "product": "Cisco Unified Communications Manager Session Management Edition (SME)", 
       "fix": [
-        "No fixed release planned"
+        "No fixed release planned."
       ], 
       "bug_data": {
         "affected_releases": [
           "11.5(1.99000.8)"
         ], 
-        "fixed_releases": [], 
-        "status": "Terminated", 
+        "fixed_releases": [
+          "11.5(0.98000.200)", 
+          "11.5(0.98000.258)", 
+          "11.5(0.98000.561)", 
+          "11.5(0.98000.800)"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Communications Manager (CallManager)"
       }
     }, 
     {
       "bug_id": "CSCux95075", 
-      "product": "Cisco Unified SIP Proxy", 
+      "product": "Cisco Unified Sip Proxy", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCux95218", 
+      "product": "Cisco Unity Connection (UC)", 
       "fix": [], 
       "bug_data": null
     }, 
@@ -755,28 +869,31 @@
     {
       "bug_id": "CSCux95141", 
       "product": "Cisco Digital Media Manager (DMM)", 
-      "fix": [], 
+      "fix": [
+        "No fixes planned."
+      ], 
       "bug_data": {
         "affected_releases": [
           "5.6.1"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Terminated", 
         "product_name": "Cisco Digital Media Manager"
       }
     }, 
     {
       "bug_id": "CSCux95133", 
       "product": "Cisco Digital Media Manager", 
-      "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "5.4(1)RB(2P4)"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Digital Media Manager"
-      }
+      "fix": [
+        "5.3.6 (7-Mar-2016)", 
+        "5.3.6(RB1) (7-Mar-2016)", 
+        "5.3.6(RB2) (7-Mar-2016)", 
+        "5.4.0 (7-Mar-2016", 
+        "5.4.1 (7-Mar-2016)", 
+        "5.4.1(RB1) (7-Mar-2016)", 
+        "5.4.1(RB2) (7-Mar-2016)"
+      ], 
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCux95193", 
@@ -796,7 +913,9 @@
     {
       "bug_id": "CSCux95195", 
       "product": "Cisco Edge 340 Digital Media Player", 
-      "fix": [], 
+      "fix": [
+        "0.18RC  (21-Mar-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "1.2(0.14)"
@@ -837,6 +956,19 @@
       }
     }, 
     {
+      "bug_id": "CSCux95204", 
+      "product": "Cisco International Digital Network Control System (iDNCS)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "dncs-i4.4.1.5"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Headend System Releases"
+      }
+    }, 
+    {
       "bug_id": "CSCux95139", 
       "product": "Cisco Media Experience Engines (MXE)", 
       "fix": [
@@ -851,6 +983,12 @@
         "status": "Fixed", 
         "product_name": "Cisco MXE 3000 Series (Media Experience Engines)"
       }
+    }, 
+    {
+      "bug_id": "CSCux95216", 
+      "product": "Cisco TelePresence 1310", 
+      "fix": [], 
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCux95130", 
@@ -870,7 +1008,10 @@
     {
       "bug_id": "CSCux95143", 
       "product": "Cisco TelePresence EX Series", 
-      "fix": [], 
+      "fix": [
+        "7.3.6 (31-Mar-2016)", 
+        "8.1 (31-Mar-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "8.1.0Alpha3"
@@ -881,9 +1022,27 @@
       }
     }, 
     {
+      "bug_id": "CSCux95136", 
+      "product": "Cisco TelePresence ISDN Link", 
+      "fix": [
+        "1.1.6 (31-Mar-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "1.1.5"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco TelePresence ISDN Link"
+      }
+    }, 
+    {
       "bug_id": "CSCux95143", 
       "product": "Cisco TelePresence MX Series", 
-      "fix": [], 
+      "fix": [
+        "7.3.6 (31-Mar-2016)", 
+        "8.1 (31-Mar-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "8.1.0Alpha3"
@@ -896,7 +1055,10 @@
     {
       "bug_id": "CSCux95143", 
       "product": "Cisco TelePresence Profile Series", 
-      "fix": [], 
+      "fix": [
+        "7.3.6 (31-Mar-2016)", 
+        "8.1 (31-Mar-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "8.1.0Alpha3"
@@ -909,7 +1071,10 @@
     {
       "bug_id": "CSCux95143", 
       "product": "Cisco TelePresence SX Series", 
-      "fix": [], 
+      "fix": [
+        "7.3.6 (31-Mar-2016)", 
+        "8.1 (31-Mar-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "8.1.0Alpha3"
@@ -918,6 +1083,48 @@
         "status": "Open", 
         "product_name": "Cisco Telepresence Integrator C Series"
       }
+    }, 
+    {
+      "bug_id": "CSCux95216", 
+      "product": "Cisco TelePresence System 1000", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCux95216", 
+      "product": "Cisco TelePresence System 1100", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCux95216", 
+      "product": "Cisco TelePresence System 1300", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCux95216", 
+      "product": "Cisco TelePresence System 3000 Series", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCux95216", 
+      "product": "Cisco TelePresence System 500-32", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCux95216", 
+      "product": "Cisco TelePresence System 500-37", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCux95216", 
+      "product": "Cisco TelePresence TX 9000 Series", 
+      "fix": [], 
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCux95145", 
@@ -936,8 +1143,11 @@
     }, 
     {
       "bug_id": "CSCux95143", 
-      "product": "Cisco TelePresence Integrator C Series", 
-      "fix": [], 
+      "product": "Cisco Telepresence Integrator C Series", 
+      "fix": [
+        "7.3.6 (31-Mar-2016)", 
+        "8.1 (31-Mar-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "8.1.0Alpha3"
@@ -953,14 +1163,7 @@
       "fix": [
         "A patch file will be available for affected releases on 30-Apr-2016."
       ], 
-      "bug_data": {
-        "affected_releases": [
-          "4.1(4)"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Content Delivery Engine Series"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCux95154", 
@@ -1112,7 +1315,10 @@
     {
       "bug_id": "CSCux95080", 
       "product": "Network Change and Configuration Management", 
-      "fix": [], 
+      "fix": [
+        "2.10 (15-Mar-2016)", 
+        "2.11 (15-Jul-2016)"
+      ], 
       "bug_data": null
     }
   ]
