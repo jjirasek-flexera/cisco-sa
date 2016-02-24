@@ -1,5 +1,5 @@
 {
-  "version": "1.1", 
+  "version": "1.3", 
   "products": [
     {
       "bug_id": "CSCuy36539", 
@@ -10,7 +10,7 @@
           "2.6.0.69"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco WebEx Meeting Center"
       }
     }, 
@@ -23,8 +23,40 @@
           "2.6.0.69"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco WebEx Meeting Center"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy36613", 
+      "product": "Cisco Jabber Guest 10.0(2)", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuy36549", 
+      "product": "Cisco Intercloud Fabric", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.3(1b)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Intercloud Fabric"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy36549", 
+      "product": "Cisco Prime Network Service Controller (PNSC)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.3(1b)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Intercloud Fabric"
       }
     }, 
     {
@@ -38,6 +70,24 @@
       "product": "Cisco Visual Quality Experience Tools Server", 
       "fix": [], 
       "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuy32284", 
+      "product": "Cisco FireSIGHT IPS Sensors", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "5.3.0", 
+          "5.3.1", 
+          "5.4.0", 
+          "5.4.1", 
+          "6.0.0", 
+          "6.0.1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Firepower Management Center"
+      }
     }, 
     {
       "bug_id": "CSCuy32284", 
@@ -75,6 +125,31 @@
       }
     }, 
     {
+      "bug_id": "CSCuy36585", 
+      "product": "Cisco Secure ACS 5.x", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "5.7(0.15)", 
+          "5.8(0.32)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Secure Access Control Server Solution Engine"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy36447", 
+      "product": "Cisco Prime Analytics", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Connected Streaming Analytics"
+      }
+    }, 
+    {
       "bug_id": "CSCuy36602", 
       "product": "Cisco Prime Collaboration Deployment", 
       "fix": [], 
@@ -108,11 +183,24 @@
       "fix": [], 
       "bug_data": {
         "affected_releases": [
-          "11.5(0.98000.688)"
+          "11.5.0.98000-183"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
-        "product_name": "Cisco Unified Communications Manager (CallManager)"
+        "product_name": "Cisco Unified Communications Licensing"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy34875", 
+      "product": "Cisco Prime Service Catalog Virtual Appliance", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.1.1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Prime Service Catalog"
       }
     }, 
     {
@@ -126,6 +214,26 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco ASR 5000 Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy36548", 
+      "product": "Cisco Nexus 1000V InterCloud", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuy36619", 
+      "product": "Cisco MediaSense", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.0(1)ES1", 
+          "11.5(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco MediaSense"
       }
     }, 
     {
@@ -159,6 +267,19 @@
       }
     }, 
     {
+      "bug_id": "CSCuy36620", 
+      "product": "Cisco Unified 7800 series IP Phones", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.5(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco IP Phone 7800 Series"
+      }
+    }, 
+    {
       "bug_id": "CSCuy32014", 
       "product": "Cisco Unified Communications Manager (UCM)", 
       "fix": [], 
@@ -185,6 +306,32 @@
       }
     }, 
     {
+      "bug_id": "CSCuy36600", 
+      "product": "Cisco Unified IP Conference Phone 8831 for\nThird-Party Call Control", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "9.3(5)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Small Business IP Phones"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy36603", 
+      "product": "Cisco Unity Connection (UC)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.5(0.223)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unity Connection"
+      }
+    }, 
+    {
       "bug_id": "CSCuy35251", 
       "product": "Cisco DCM Series 9900-Digital Content Manager", 
       "fix": [], 
@@ -200,7 +347,9 @@
     {
       "bug_id": "CSCuy35298", 
       "product": "Cisco Edge 300 Digital Media Player", 
-      "fix": [], 
+      "fix": [
+        "1.6RB4_5(18-Mar-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "1.6RB4(2)"
@@ -213,7 +362,9 @@
     {
       "bug_id": "CSCuy35299", 
       "product": "Cisco Edge 340 Digital Media Player", 
-      "fix": [], 
+      "fix": [
+        "1.2.0.19 (31-Mar-2016)"
+      ], 
       "bug_data": null
     }, 
     {
@@ -222,11 +373,38 @@
       "fix": [], 
       "bug_data": {
         "affected_releases": [
-          "X8.8PreAlpha6"
+          "X7.x", 
+          "X8.x"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco TelePresence Video Communication Server (VCS)"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy37232", 
+      "product": "Cisco Powerkey Encryption Server (PKES)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "pkesInstaller-1.2.1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Headend System Releases"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy35262", 
+      "product": "Cisco TelePresence Conductor", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "XC4.2RC2"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco TelePresence Conductor"
       }
     }, 
     {
@@ -274,11 +452,82 @@
       "fix": [], 
       "bug_data": {
         "affected_releases": [
-          "X8.8PreAlpha6"
+          "X7.x", 
+          "X8.x"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco TelePresence Video Communication Server (VCS)"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy38927", 
+      "product": "Cisco Video Surveillance Media Server", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "7.2", 
+          "7.5", 
+          "7.6", 
+          "7.7"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Video Surveillance Manager"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy36572", 
+      "product": "Cisco Wireless LAN Controller (WLC) 5520 running 8.1 and later", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "8.0(121.0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco 5500 Series Wireless Controllers"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy36572", 
+      "product": "Cisco Wireless LAN Controller (WLC) 7500 running 8.1 and later", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "8.0(121.0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco 5500 Series Wireless Controllers"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy36572", 
+      "product": "Cisco Wireless LAN Controller (WLC) 8500 running 8.1 and later", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "8.0(121.0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco 5500 Series Wireless Controllers"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy36463", 
+      "product": "Cisco Partner Supporting Service", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "PI2.3"
+        ], 
+        "fixed_releases": [
+          "1.2(0.1044)"
+        ], 
+        "status": "Open", 
+        "product_name": "Network Level Service"
       }
     }, 
     {
@@ -293,6 +542,38 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco WebEx Connect IM"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy35219", 
+      "product": "Network Change and Configuration Management", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuy36461", 
+      "product": "Smart Net Total Care (SNTC)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "PI2.3"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Network Level Service"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy36454", 
+      "product": "Smart Net Total Care", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.26(2)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Network Level Service"
       }
     }
   ]
