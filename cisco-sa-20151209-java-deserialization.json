@@ -1,5 +1,5 @@
 {
-  "version": "1.9", 
+  "version": "1.10", 
   "products": [
     {
       "bug_id": "CSCux17638", 
@@ -65,6 +65,19 @@
       }
     }, 
     {
+      "bug_id": "CSCux21425", 
+      "product": "Cisco WebEx Meetings", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "TBD"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Conference Director Series"
+      }
+    }, 
+    {
       "bug_id": "CSCux35041", 
       "product": "Cisco InTracer", 
       "fix": [], 
@@ -86,7 +99,7 @@
           "4.9(5)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco NAC Appliance (Clean Access)"
       }
     }, 
@@ -131,7 +144,8 @@
           "100.6(0.0.140)"
         ], 
         "fixed_releases": [
-          "100.6(0.0.154)"
+          "100.6(0.0.154)", 
+          "9.3(4.4.2)"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco ASA Next-Generation Firewall Services"
@@ -146,7 +160,7 @@
           "4.9(5)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco NAC Appliance (Clean Access)"
       }
     }, 
@@ -165,7 +179,7 @@
           "4.9(5)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco NAC Appliance (Clean Access)"
       }
     }, 
@@ -178,7 +192,7 @@
           "4.9(5)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco NAC Appliance (Clean Access)"
       }
     }, 
@@ -228,14 +242,7 @@
       "bug_id": "CSCux35040", 
       "product": "Cisco Configuration Professional", 
       "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "2.8"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Configuration Professional"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCux34692", 
@@ -356,7 +363,7 @@
           "11.5(0.98000.141)", 
           "11.5(0.98000.445)"
         ], 
-        "status": "Fixed", 
+        "status": "Open", 
         "product_name": "Cisco Unified Communications Licensing"
       }
     }, 
@@ -427,7 +434,8 @@
           "100.6(0.0.140)"
         ], 
         "fixed_releases": [
-          "100.6(0.0.154)"
+          "100.6(0.0.154)", 
+          "9.3(4.4.2)"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco ASA Next-Generation Firewall Services"
@@ -479,12 +487,6 @@
       }
     }, 
     {
-      "bug_id": "CSCux34575", 
-      "product": "Data Center Analytics Framework (DCAF)", 
-      "fix": [], 
-      "bug_data": null
-    }, 
-    {
       "bug_id": "CSCux34812", 
       "product": "Local Collector Appliance (LCA)", 
       "fix": [], 
@@ -525,7 +527,10 @@
     {
       "bug_id": "CSCux34589", 
       "product": "Cisco Computer Telephony Integration Object Server (CTIOS)", 
-      "fix": [], 
+      "fix": [
+        "A fix will be available May 6", 
+        "2016"
+      ], 
       "bug_data": {
         "affected_releases": [
           "11.0(1)", 
@@ -544,8 +549,10 @@
         "affected_releases": [
           "11.5(0.98000.29)"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "11.5(0.98000.61)"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco Emergency Responder"
       }
     }, 
@@ -623,7 +630,9 @@
         "affected_releases": [
           "8.6(1.19)"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "8.6(2.35)"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Unified MeetingPlace"
       }
@@ -746,14 +755,22 @@
       "fix": [], 
       "bug_data": {
         "affected_releases": [
-          "11.5(1.99000.9)"
+          "10.0(1.10000.27)", 
+          "10.5(2.10000.1)", 
+          "11.0(1.10000.1)", 
+          "11.5(1.99000.9)", 
+          "8.6(1.10000.1)", 
+          "8.6(2.10000.1)", 
+          "9.1(1.10000.1)", 
+          "9.1(2.10000.1)"
         ], 
         "fixed_releases": [
           "11.5(0.98000.157)", 
           "11.5(0.98000.214)", 
           "11.5(0.98000.472)", 
           "11.5(0.98000.473)", 
-          "11.5(0.98000.678)"
+          "11.5(0.98000.678)", 
+          "9.1(2.15900.4)"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco Unified Communications Manager (CallManager)"
@@ -765,14 +782,22 @@
       "fix": [], 
       "bug_data": {
         "affected_releases": [
-          "11.5(1.99000.9)"
+          "10.0(1.10000.27)", 
+          "10.5(2.10000.1)", 
+          "11.0(1.10000.1)", 
+          "11.5(1.99000.9)", 
+          "8.6(1.10000.1)", 
+          "8.6(2.10000.1)", 
+          "9.1(1.10000.1)", 
+          "9.1(2.10000.1)"
         ], 
         "fixed_releases": [
           "11.5(0.98000.157)", 
           "11.5(0.98000.214)", 
           "11.5(0.98000.472)", 
           "11.5(0.98000.473)", 
-          "11.5(0.98000.678)"
+          "11.5(0.98000.678)", 
+          "9.1(2.15900.4)"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco Unified Communications Manager (CallManager)"
@@ -781,7 +806,10 @@
     {
       "bug_id": "CSCux34589", 
       "product": "Cisco Unified Contact Center Enterprise", 
-      "fix": [], 
+      "fix": [
+        "A fix will be available May 6", 
+        "2016"
+      ], 
       "bug_data": {
         "affected_releases": [
           "11.0(1)", 
@@ -826,7 +854,10 @@
     {
       "bug_id": "CSCux34589", 
       "product": "Cisco Unified Intelligent Contact Management Enterprise", 
-      "fix": [], 
+      "fix": [
+        "A fix will be available May 6", 
+        "2016"
+      ], 
       "bug_data": {
         "affected_releases": [
           "11.0(1)", 
@@ -864,10 +895,30 @@
         "affected_releases": [
           "11.5(0.185)"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "10.5(2)ES68", 
+          "10.5(2.14059.1)", 
+          "11.0(0)ES28", 
+          "11.0(1.22032.1)", 
+          "11.5(0.209)", 
+          "11.5(0.214)", 
+          "11.5(0.98000.188)", 
+          "11.5(0.98000.194)", 
+          "11.5(0.98000.245)", 
+          "11.5(0.98000.250)", 
+          "11.5(0.98000.535)", 
+          "11.5(0.98000.547)", 
+          "11.5(0.98000.780)"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco Unity Connection"
       }
+    }, 
+    {
+      "bug_id": "CSCux35046", 
+      "product": "Cisco Voice Portal (CVP)", 
+      "fix": [], 
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCux34796", 
@@ -1000,8 +1051,10 @@
         "affected_releases": [
           "8.0(130.3)"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "8.0(130.9)"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco Mobility Services Engine"
       }
     }, 
@@ -1020,7 +1073,7 @@
           "3.4.1-05"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Cloud Email Security"
       }
     }, 
@@ -1113,6 +1166,12 @@
     {
       "bug_id": "CSCux34924", 
       "product": "DCAF UCS Collector", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCux34575", 
+      "product": "Data Center Analytics Framework (DCAF)", 
       "fix": [], 
       "bug_data": null
     }, 
