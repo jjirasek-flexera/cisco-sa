@@ -1,5 +1,5 @@
 {
-  "version": "1.4", 
+  "version": "1.5", 
   "products": [
     {
       "bug_id": "CSCuy36539", 
@@ -69,13 +69,29 @@
       "bug_id": "CSCuy35276", 
       "product": "Cisco Visual Quality Experience Server", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "3.10(5)", 
+          "3.11(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Content Delivery Engine Series"
+      }
     }, 
     {
       "bug_id": "CSCuy35276", 
       "product": "Cisco Visual Quality Experience Tools Server", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "3.10(5)", 
+          "3.11(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Content Delivery Engine Series"
+      }
     }, 
     {
       "bug_id": "CSCuy32284", 
@@ -140,7 +156,7 @@
           "5.8(0.32)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Secure Access Control Server Solution Engine"
       }
     }, 
@@ -192,7 +208,7 @@
           "1.5(1.0)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Network Level Service"
       }
     }, 
@@ -252,7 +268,7 @@
           "8.3(3)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Network Registrar"
       }
     }, 
@@ -272,7 +288,11 @@
     {
       "bug_id": "CSCuy36531", 
       "product": "Cisco ASR 5000 Series", 
-      "fix": [], 
+      "fix": [
+        "18.6.0 (7-March-2016)", 
+        "19.4.0(7-March-2016)", 
+        "20.0.0(7-March-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "19.0.0"
@@ -325,7 +345,9 @@
         "affected_releases": [
           "7.0(3)IDP3(1.131)"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "7.0(3)I2(2b)"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Nexus 9000 Series Switches"
       }
@@ -338,7 +360,9 @@
         "affected_releases": [
           "7.0(3)IDP3(1.131)"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "7.0(3)I2(2b)"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Nexus 9000 Series Switches"
       }
@@ -614,6 +638,21 @@
       }
     }, 
     {
+      "bug_id": "CSCuy35275", 
+      "product": "Cisco Video Distribution Suite for Internet Streaming (VDS-IS/CDS-IS)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "4.3(1)"
+        ], 
+        "fixed_releases": [
+          "4.3(1.11)"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco Content Delivery Engine Series"
+      }
+    }, 
+    {
       "bug_id": "CSCuy38927", 
       "product": "Cisco Video Surveillance Media Server", 
       "fix": [], 
@@ -630,12 +669,18 @@
       }
     }, 
     {
+      "bug_id": "CSCuy34925", 
+      "product": "Cisco 3G Femtocell  Wireless", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCuy36572", 
       "product": "Cisco Wireless LAN Controller (WLC) 5520 running 8.1 and later", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
-          "8.0(121.0)"
+          "8.1(131.0)"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
@@ -648,7 +693,7 @@
       "fix": [], 
       "bug_data": {
         "affected_releases": [
-          "8.0(121.0)"
+          "8.1(131.0)"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
@@ -661,7 +706,7 @@
       "fix": [], 
       "bug_data": {
         "affected_releases": [
-          "8.0(121.0)"
+          "8.1(131.0)"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
@@ -687,6 +732,19 @@
         ], 
         "status": "Open", 
         "product_name": "Network Level Service"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy36545", 
+      "product": "Cisco UCS Invicta Series Autosupport Portal", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "1.0_beta"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco UCS Invicta Series Solid State Systems"
       }
     }, 
     {
