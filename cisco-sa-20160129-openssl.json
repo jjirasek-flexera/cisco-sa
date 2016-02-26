@@ -1,5 +1,5 @@
 {
-  "version": "1.11", 
+  "version": "1.12", 
   "products": [
     {
       "bug_id": "CSCuy07247", 
@@ -90,6 +90,12 @@
       }
     }, 
     {
+      "bug_id": "CSCuy07267", 
+      "product": "Cisco Cloupia Unified Infrastructure Controller", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCuy07476", 
       "product": "Cisco Prime Collaboration Deployment", 
       "fix": [
@@ -139,7 +145,7 @@
       "product": "Cisco Prime Optical for SPs", 
       "fix": [
         "10.6 (May 2016)", 
-        "10.5.0.2(Feb 2016)"
+        "10.5.0.2 Patch Release(Feb 2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -288,7 +294,9 @@
     {
       "bug_id": "CSCuy07408", 
       "product": "Cisco ONS 15454 Series Multiservice Provisioning Platforms", 
-      "fix": [], 
+      "fix": [
+        "10.6 (May 2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "10.30", 
@@ -565,7 +573,12 @@
         "affected_releases": [
           "11.5(1.99000.8)"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "11.5(0.98000.208)", 
+          "11.5(0.98000.267)", 
+          "11.5(0.98000.580)", 
+          "11.5(0.98000.824)"
+        ], 
         "status": "Open", 
         "product_name": "Cisco Unified Communications Manager (CallManager)"
       }
@@ -580,7 +593,12 @@
         "affected_releases": [
           "11.5(1.99000.8)"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "11.5(0.98000.208)", 
+          "11.5(0.98000.267)", 
+          "11.5(0.98000.580)", 
+          "11.5(0.98000.824)"
+        ], 
         "status": "Open", 
         "product_name": "Cisco Unified Communications Manager (CallManager)"
       }
@@ -603,7 +621,9 @@
     {
       "bug_id": "CSCuy16304", 
       "product": "Cisco Unified Contact Center Express", 
-      "fix": [], 
+      "fix": [
+        "11.5(1) (June 2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "11.0(1)"
@@ -684,7 +704,7 @@
           "X8.8PreAlpha5"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco TelePresence Video Communication Server (VCS)"
       }
     }, 
@@ -825,7 +845,7 @@
           "X8.8PreAlpha5"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco TelePresence Video Communication Server (VCS)"
       }
     }, 
@@ -847,7 +867,9 @@
     {
       "bug_id": "CSCuy07216", 
       "product": "Cisco Proactive Network Operations Center", 
-      "fix": [], 
+      "fix": [
+        "A fix will be available (4-March 2016)"
+      ], 
       "bug_data": null
     }, 
     {
