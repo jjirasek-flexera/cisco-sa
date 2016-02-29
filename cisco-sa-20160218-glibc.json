@@ -1,5 +1,5 @@
 {
-  "version": "1.5", 
+  "version": "1.6", 
   "products": [
     {
       "bug_id": "CSCuy36539", 
@@ -339,21 +339,6 @@
     }, 
     {
       "bug_id": "CSCuy36553", 
-      "product": "Cisco Nexus 3000 Series Switches (NX-OS 6.0(2) and later)", 
-      "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "7.0(3)IDP3(1.131)"
-        ], 
-        "fixed_releases": [
-          "7.0(3)I2(2b)"
-        ], 
-        "status": "Fixed", 
-        "product_name": "Cisco Nexus 9000 Series Switches"
-      }
-    }, 
-    {
-      "bug_id": "CSCuy36553", 
       "product": "Cisco Nexus 9000 Series (standalone, running NxOS)", 
       "fix": [], 
       "bug_data": {
@@ -372,6 +357,22 @@
       "product": "Cisco UCS ADA", 
       "fix": [], 
       "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuy36550", 
+      "product": "Cisco UCS Invicta Series", 
+      "fix": [
+        "Appliance 5.0.1.2d (30-April-2016)", 
+        "Scaling 5.0.1.3c (30-May-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "5.0(1.2c)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco UCS Invicta Series Solid State Systems"
+      }
     }, 
     {
       "bug_id": "CSCuy36606", 
@@ -716,6 +717,12 @@
     {
       "bug_id": "CSCuy38924", 
       "product": "Cisco Cloud Services", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuy35212", 
+      "product": "Cisco Common Services Platform Collector", 
       "fix": [], 
       "bug_data": null
     }, 
