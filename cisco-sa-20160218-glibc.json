@@ -1,11 +1,11 @@
 {
-  "version": "1.6", 
+  "version": "1.7", 
   "products": [
     {
       "bug_id": "CSCuy36539", 
       "product": "Cisco WebEx Meetings Server versions 1.x", 
       "fix": [
-        "2.6.1.2xx. (14-April-2016)"
+        "2.6.1.2xx (14-April-2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -20,7 +20,7 @@
       "bug_id": "CSCuy36539", 
       "product": "Cisco WebEx Meetings Server versions 2.x", 
       "fix": [
-        "2.6.1.2xx. (14-April-2016)"
+        "2.6.1.2xx (14-April-2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -74,7 +74,9 @@
           "3.10(5)", 
           "3.11(1)"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "3.10(5.31)"
+        ], 
         "status": "Open", 
         "product_name": "Cisco Content Delivery Engine Series"
       }
@@ -88,7 +90,9 @@
           "3.10(5)", 
           "3.11(1)"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "3.10(5.31)"
+        ], 
         "status": "Open", 
         "product_name": "Cisco Content Delivery Engine Series"
       }
@@ -132,7 +136,9 @@
     {
       "bug_id": "CSCuy34700", 
       "product": "Cisco Identity Services Engine (ISE)", 
-      "fix": [], 
+      "fix": [
+        "2.0 P3 (April 2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "1.3(0.877)", 
@@ -163,7 +169,9 @@
     {
       "bug_id": "CSCuy36565", 
       "product": "Cisco Access Registrar Appliance", 
-      "fix": [], 
+      "fix": [
+        "7.1 (15-Apr-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "7.0"
@@ -174,9 +182,19 @@
       }
     }, 
     {
+      "bug_id": "CSCuy37090", 
+      "product": "Cisco Application Policy Infrastructure\nController Enterprise Module (APIC-EM)", 
+      "fix": [
+        "1.1 (March 2016)"
+      ], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCuy36565", 
       "product": "Cisco Prime Access Registrar Appliance", 
-      "fix": [], 
+      "fix": [
+        "7.1 (15-Apr-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "7.0"
@@ -245,6 +263,19 @@
       }
     }, 
     {
+      "bug_id": "CSCuy36566", 
+      "product": "Cisco Prime IP Express", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "8.2(0.5)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco Network Registrar"
+      }
+    }, 
+    {
       "bug_id": "CSCuy35265", 
       "product": "Cisco Prime License Manager", 
       "fix": [], 
@@ -273,6 +304,12 @@
       }
     }, 
     {
+      "bug_id": "CSCuy36427", 
+      "product": "Cisco Prime Network Registrar IP Address Manager (IPAM)", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCuy34875", 
       "product": "Cisco Prime Service Catalog Virtual Appliance", 
       "fix": [], 
@@ -290,8 +327,8 @@
       "product": "Cisco ASR 5000 Series", 
       "fix": [
         "18.6.0 (7-March-2016)", 
-        "19.4.0(7-March-2016)", 
-        "20.0.0(7-March-2016)"
+        "19.4.0 (7-March-2016)", 
+        "20.0.0 (7-March-2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -317,7 +354,7 @@
     }, 
     {
       "bug_id": "CSCuy36597", 
-      "product": "Cisco IOS-XE for Catalyst 3k, 4k, AIR-CT5760, and Cisco RF Gateway 10 (RFGW-10)", 
+      "product": "Cisco IOS XE for Catalyst 3000, 4000, AIR-CT5760, and Cisco RF Gateway 10 (RFGW-10)", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
@@ -339,7 +376,7 @@
     }, 
     {
       "bug_id": "CSCuy36553", 
-      "product": "Cisco Nexus 9000 Series (standalone, running NxOS)", 
+      "product": "Cisco Nexus 3100 Series Switches", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
@@ -348,8 +385,65 @@
         "fixed_releases": [
           "7.0(3)I2(2b)"
         ], 
-        "status": "Fixed", 
+        "status": "Open", 
         "product_name": "Cisco Nexus 9000 Series Switches"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy36553", 
+      "product": "Cisco Nexus 3200 Series Switches", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "7.0(3)IDP3(1.131)"
+        ], 
+        "fixed_releases": [
+          "7.0(3)I2(2b)"
+        ], 
+        "status": "Open", 
+        "product_name": "Cisco Nexus 9000 Series Switches"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy36553", 
+      "product": "Cisco Nexus 9000 Series Switches (standalone, running NX-OS)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "7.0(3)IDP3(1.131)"
+        ], 
+        "fixed_releases": [
+          "7.0(3)I2(2b)"
+        ], 
+        "status": "Open", 
+        "product_name": "Cisco Nexus 9000 Series Switches"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy36547", 
+      "product": "Cisco Prime Data Center Network Manager", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "1.2(1.214)", 
+          "1.2(1m)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Nexus 9000 Series Switches"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy38943", 
+      "product": "IOS XE 16.2.x", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "16.2(0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco IOS"
       }
     }, 
     {
@@ -375,6 +469,22 @@
       }
     }, 
     {
+      "bug_id": "CSCuy47726", 
+      "product": "Cisco 8800 Series IP Phones - VPN Feature", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "10.2(1)", 
+          "10.2(2)", 
+          "10.3(1)", 
+          "11.0(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco IP Phone 8800 Series"
+      }
+    }, 
+    {
       "bug_id": "CSCuy36606", 
       "product": "Cisco Emergency Responder", 
       "fix": [], 
@@ -383,8 +493,21 @@
           "11.5(0.98000.61)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Emergency Responder"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy36610", 
+      "product": "Cisco Hosted Collaboration Mediation Fulfillment", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.5(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Hosted Collaboration Solution (HCS)"
       }
     }, 
     {
@@ -406,7 +529,7 @@
     }, 
     {
       "bug_id": "CSCuy36612", 
-      "product": "Cisco Paging Server (Informacast)", 
+      "product": "Cisco Paging Server (InformaCast)", 
       "fix": [
         "11.5.1 (June 2016)"
       ], 
@@ -436,8 +559,10 @@
     }, 
     {
       "bug_id": "CSCuy36620", 
-      "product": "Cisco Unified 7800 series IP Phones", 
-      "fix": [], 
+      "product": "Cisco Unified 7800 Series IP Phones", 
+      "fix": [
+        "11.5(1) (April 2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "11.5(1)"
@@ -448,6 +573,19 @@
       }
     }, 
     {
+      "bug_id": "CSCuy36513", 
+      "product": "Cisco Unified Communications Domain Manager", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "8.1(7)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Hosted Collaboration Solution (HCS)"
+      }
+    }, 
+    {
       "bug_id": "CSCuy32014", 
       "product": "Cisco Unified Communications Manager (UCM)", 
       "fix": [], 
@@ -455,8 +593,12 @@
         "affected_releases": [
           "11.5(0.98000.688)"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "11.5(0.98000.210)", 
+          "11.5(0.98000.268)", 
+          "11.5(0.98000.829)"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Communications Manager (CallManager)"
       }
     }, 
@@ -468,8 +610,12 @@
         "affected_releases": [
           "11.5(0.98000.688)"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "11.5(0.98000.210)", 
+          "11.5(0.98000.268)", 
+          "11.5(0.98000.829)"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Communications Manager (CallManager)"
       }
     }, 
@@ -516,7 +662,7 @@
       "bug_id": "CSCuy35298", 
       "product": "Cisco Edge 300 Digital Media Player", 
       "fix": [
-        "1.6RB4_5(18-Mar-2016)"
+        "1.6RB4_5 (18-Mar-2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -553,13 +699,13 @@
     }, 
     {
       "bug_id": "CSCuy36591", 
-      "product": "Cisco Powerkey CAS Gateway (PCG)", 
+      "product": "Cisco PowerKEY CAS Gateway (PCG)", 
       "fix": [], 
       "bug_data": null
     }, 
     {
       "bug_id": "CSCuy37232", 
-      "product": "Cisco Powerkey Encryption Server (PKES)", 
+      "product": "Cisco PowerKEY Encryption Server (PKES)", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
@@ -676,8 +822,21 @@
       "bug_data": null
     }, 
     {
+      "bug_id": "CSCuy36568", 
+      "product": "Cisco Mobility Services Engine (MSE)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "8.0(130.0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Mobility Services Engine"
+      }
+    }, 
+    {
       "bug_id": "CSCuy36572", 
-      "product": "Cisco Wireless LAN Controller (WLC) 5520 running 8.1 and later", 
+      "product": "Cisco Wireless LAN Controller (WLC) 5520 running 8.1 or later", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
@@ -690,7 +849,7 @@
     }, 
     {
       "bug_id": "CSCuy36572", 
-      "product": "Cisco Wireless LAN Controller (WLC) 7500 running 8.1 and later", 
+      "product": "Cisco Wireless LAN Controller (WLC) 7500 running 8.1 or later", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
@@ -703,7 +862,7 @@
     }, 
     {
       "bug_id": "CSCuy36572", 
-      "product": "Cisco Wireless LAN Controller (WLC) 8500 running 8.1 and later", 
+      "product": "Cisco Wireless LAN Controller (WLC) 8500 running 8.1 or later", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
@@ -719,6 +878,19 @@
       "product": "Cisco Cloud Services", 
       "fix": [], 
       "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuy36588", 
+      "product": "Cisco Cloud Web Security", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "5.2(0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Cloud Web Security"
+      }
     }, 
     {
       "bug_id": "CSCuy35212", 
