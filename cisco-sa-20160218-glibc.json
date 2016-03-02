@@ -1,11 +1,11 @@
 {
-  "version": "1.7", 
+  "version": "1.8", 
   "products": [
     {
       "bug_id": "CSCuy36539", 
       "product": "Cisco WebEx Meetings Server versions 1.x", 
       "fix": [
-        "2.6.1.2xx (14-April-2016)"
+        "2.6.1.2xx. (14-April-2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -20,7 +20,7 @@
       "bug_id": "CSCuy36539", 
       "product": "Cisco WebEx Meetings Server versions 2.x", 
       "fix": [
-        "2.6.1.2xx (14-April-2016)"
+        "2.6.1.2xx. (14-April-2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -241,7 +241,7 @@
           "11.5(0.98000.259)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Communications Manager (CallManager)"
       }
     }, 
@@ -354,7 +354,7 @@
     }, 
     {
       "bug_id": "CSCuy36597", 
-      "product": "Cisco IOS XE for Catalyst 3000, 4000, AIR-CT5760, and Cisco RF Gateway 10 (RFGW-10)", 
+      "product": "Cisco IOS XE for Catalyst 3K, 4K, AIR-CT5760, and Cisco RF Gateway 10 (RFGW-10)", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
@@ -405,6 +405,19 @@
       }
     }, 
     {
+      "bug_id": "CSCuy37040", 
+      "product": "Cisco Nexus 9000 (ACI/Fabric Switch)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.2(2.212)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Nexus 9000 Series Switches"
+      }
+    }, 
+    {
       "bug_id": "CSCuy36553", 
       "product": "Cisco Nexus 9000 Series Switches (standalone, running NX-OS)", 
       "fix": [], 
@@ -435,7 +448,7 @@
     }, 
     {
       "bug_id": "CSCuy38943", 
-      "product": "IOS XE 16.2.x", 
+      "product": "IOS-XE 16.2.x", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
@@ -453,10 +466,16 @@
       "bug_data": null
     }, 
     {
+      "bug_id": "CSCuy36413", 
+      "product": "Cisco UCS Director", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCuy36550", 
       "product": "Cisco UCS Invicta Series", 
       "fix": [
-        "Appliance 5.0.1.2d (30-April-2016)", 
+        "Appliance&nbsp;5.0.1.2d&nbsp;(30-April-2016)", 
         "Scaling 5.0.1.3c (30-May-2016)"
       ], 
       "bug_data": {
@@ -492,7 +511,9 @@
         "affected_releases": [
           "11.5(0.98000.61)"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "11.5(0.98000.72)"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Emergency Responder"
       }
@@ -508,6 +529,19 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco Hosted Collaboration Solution (HCS)"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy36608", 
+      "product": "Cisco IM and Presence Service (CUPS)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.5(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Unified Communications Manager IM & Presence Service"
       }
     }, 
     {
@@ -559,7 +593,7 @@
     }, 
     {
       "bug_id": "CSCuy36620", 
-      "product": "Cisco Unified 7800 Series IP Phones", 
+      "product": "Cisco Unified 7800 series IP Phones", 
       "fix": [
         "11.5(1) (April 2016)"
       ], 
@@ -573,15 +607,15 @@
       }
     }, 
     {
-      "bug_id": "CSCuy36513", 
+      "bug_id": "CSCuy36605", 
       "product": "Cisco Unified Communications Domain Manager", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
-          "8.1(7)"
+          "10.6(2)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Hosted Collaboration Solution (HCS)"
       }
     }, 
@@ -596,6 +630,7 @@
         "fixed_releases": [
           "11.5(0.98000.210)", 
           "11.5(0.98000.268)", 
+          "11.5(0.98000.591)", 
           "11.5(0.98000.829)"
         ], 
         "status": "Fixed", 
@@ -613,6 +648,7 @@
         "fixed_releases": [
           "11.5(0.98000.210)", 
           "11.5(0.98000.268)", 
+          "11.5(0.98000.591)", 
           "11.5(0.98000.829)"
         ], 
         "status": "Fixed", 
@@ -699,13 +735,13 @@
     }, 
     {
       "bug_id": "CSCuy36591", 
-      "product": "Cisco PowerKEY CAS Gateway (PCG)", 
+      "product": "Cisco Powerkey CAS Gateway (PCG)", 
       "fix": [], 
       "bug_data": null
     }, 
     {
       "bug_id": "CSCuy37232", 
-      "product": "Cisco PowerKEY Encryption Server (PKES)", 
+      "product": "Cisco Powerkey Encryption Server (PKES)", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
@@ -816,6 +852,19 @@
       }
     }, 
     {
+      "bug_id": "CSCuy36594", 
+      "product": "Cisco Videoscape Distribution Suite Transparent Caching", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "5.7.3"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Videoscape Distribution Suite Transparent Caching"
+      }
+    }, 
+    {
       "bug_id": "CSCuy34925", 
       "product": "Cisco 3G Femtocell  Wireless", 
       "fix": [], 
@@ -909,7 +958,7 @@
         "fixed_releases": [
           "1.2(0.1044)"
         ], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Network Level Service"
       }
     }, 
@@ -957,7 +1006,7 @@
           "PI2.3"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Network Level Service"
       }
     }, 
