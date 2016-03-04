@@ -1,10 +1,12 @@
 {
-  "version": "1.0", 
+  "version": "1.1", 
   "products": [
     {
       "bug_id": "CSCuy54463", 
       "product": "Cisco WebEx Meetings Server versions 1.<em>x</em>", 
-      "fix": [], 
+      "fix": [
+        "2.6.2 (15-Apr-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "2.6"
@@ -17,7 +19,9 @@
     {
       "bug_id": "CSCuy54463", 
       "product": "Cisco WebEx Meetings Server versions 2.<em>x</em>", 
-      "fix": [], 
+      "fix": [
+        "2.6.2 (15-Apr-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "2.6"
@@ -25,6 +29,32 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco WebEx Meeting Center"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54595", 
+      "product": "Cisco Agent for OpenFlow", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.0(0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Plug-in for OpenFlow"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54659", 
+      "product": "Cisco Jabber Guest 10.0(2)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "10.6(10)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Jabber Guest"
       }
     }, 
     {
@@ -69,7 +99,9 @@
     {
       "bug_id": "CSCuy54464", 
       "product": "WebEx Meetings Server - SSL Gateway", 
-      "fix": [], 
+      "fix": [
+        "2.6.2 (15-Apr-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "2.6"
@@ -80,20 +112,45 @@
       }
     }, 
     {
+      "bug_id": "CSCuy54435", 
+      "product": "Cisco InTracer", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCuy54575", 
       "product": "Cisco ASA CX and Cisco Prime Security Manager", 
-      "fix": [], 
+      "fix": [
+        "9.3.4.5 (30-May-2016)"
+      ], 
       "bug_data": {
-        "affected_releases": [], 
+        "affected_releases": [
+          "100.10(6.0.41)"
+        ], 
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco ASA Next-Generation Firewall Services"
       }
     }, 
     {
+      "bug_id": "CSCuy54567", 
+      "product": "Cisco Adaptive Security Appliance (ASA)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "8.0"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco ASA 5500-X Series Firewalls"
+      }
+    }, 
+    {
       "bug_id": "CSCuy54478", 
       "product": "Cisco Cloupia Unified Infrastructure Controller", 
-      "fix": [], 
+      "fix": [
+        "Affected versions will be updated with the 5.5 release."
+      ], 
       "bug_data": {
         "affected_releases": [
           "5.4(0.0)"
@@ -104,9 +161,23 @@
       }
     }, 
     {
+      "bug_id": "CSCuy54523", 
+      "product": "Cisco Mobile Wireless Transport Manager", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuy54509", 
+      "product": "Cisco Multicast Manager", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCuy54539", 
       "product": "Cisco Packet Tracer", 
-      "fix": [], 
+      "fix": [
+        "7.0 (29-Jul-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "6.2"
@@ -133,12 +204,46 @@
       "bug_id": "CSCuy54520", 
       "product": "Cisco Prime Home", 
       "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "6.4(2)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Prime Home"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54517", 
+      "product": "Cisco Prime Infrastructure Standalone Plug and Play Gateway", 
+      "fix": [], 
       "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuy54508", 
+      "product": "Cisco Prime LAN Management Solution (LMS - Solaris)", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuy54513", 
+      "product": "Cisco Prime Optical for SPs", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "10.6(0.0.54)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Prime Optical"
+      }
     }, 
     {
       "bug_id": "CSCuy54569", 
       "product": "Cisco Prime Security Manager", 
-      "fix": [], 
+      "fix": [
+        "9.3.4.5 (30-May-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "100.10(6.0.41)"
@@ -166,7 +271,11 @@
       "product": "Cisco Show and Share (SnS)", 
       "fix": [], 
       "bug_data": {
-        "affected_releases": [], 
+        "affected_releases": [
+          "5.5", 
+          "5.6", 
+          "5.6.1"
+        ], 
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco Digital Media Manager"
@@ -199,8 +308,44 @@
       }
     }, 
     {
+      "bug_id": null, 
+      "product": "StealthWatch FlowCollector NetFlow", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": null, 
+      "product": "StealthWatch FlowCollector sFlow", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": null, 
+      "product": "StealthWatch IDentity", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": null, 
+      "product": "StealthWatch Management Console (SMC)", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": null, 
+      "product": "StealthWatch UDP Director (formerly Flow Replicator)", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuy54697", 
+      "product": "Cisco 910 Industrial Router", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCuy54696", 
-      "product": "Cisco ONS 15454 Series Multiservice Provisioning Platforms", 
+      "product": "Cisco ONS 15454 Series Multiservice Provisioning Platforms*<br />", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
@@ -241,10 +386,34 @@
       "bug_data": null
     }, 
     {
+      "bug_id": "CSCuy54645", 
+      "product": "Cisco Finesse", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "10.0(1)", 
+          "10.5(1)", 
+          "10.6(1)", 
+          "11.0(1)", 
+          "11.5(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Finesse"
+      }
+    }, 
+    {
       "bug_id": "CSCuy54652", 
       "product": "Cisco Hosted Collaboration Mediation Fulfillment", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "11.5(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Hosted Collaboration Solution (HCS)"
+      }
     }, 
     {
       "bug_id": "CSCuy54649", 
@@ -257,6 +426,24 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco Unified Communications Manager IM & Presence Service"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54655", 
+      "product": "Cisco Jabber for iOS", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.5(0)", 
+          "11.5(1)", 
+          "11.5(2)", 
+          "11.5(5)", 
+          "11.6(0)", 
+          "11.7(0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Jabber for iPhone"
       }
     }, 
     {
@@ -363,16 +550,43 @@
       "bug_data": null
     }, 
     {
+      "bug_id": "CSCuy54672", 
+      "product": "Cisco Unified 7800 Series IP Phones", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.0(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco IP Phone 7800 Series"
+      }
+    }, 
+    {
       "bug_id": "CSCuy54634", 
       "product": "Cisco Unified Communications Manager (UCM)", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "11.5(1.99000.9)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Communications Manager (CallManager)"
+      }
     }, 
     {
       "bug_id": "CSCuy54634", 
       "product": "Cisco Unified Communications Manager Session Management Edition (SME)", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "11.5(1.99000.9)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Communications Manager (CallManager)"
+      }
     }, 
     {
       "bug_id": "CSCuy54641", 
@@ -406,6 +620,17 @@
       "bug_data": null
     }, 
     {
+      "bug_id": "CSCuy54637", 
+      "product": "Cisco Unity Connection (UC)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unity Connection"
+      }
+    }, 
+    {
       "bug_id": "CSCuy54616", 
       "product": "Cisco AnyRes Live (CAL)", 
       "fix": [], 
@@ -416,6 +641,33 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco AS Series Media Processor Software"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54502", 
+      "product": "Cisco DCM Series 9900-Digital Content Manager", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "all_versions"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Digital Content Manager (DCM) Software"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54538", 
+      "product": "Cisco Media Experience Engines (MXE)*<br />", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "3.3.2", 
+          "3.5"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco MXE 3000 Series (Media Experience Engines)"
       }
     }, 
     {
@@ -542,6 +794,116 @@
       }
     }, 
     {
+      "bug_id": "CSCuy54550", 
+      "product": "Cisco VEN501 Wireless Access Point", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuy54583", 
+      "product": "Cisco Video Surveillance 3000 Series IP Cameras", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.8(920.221)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Video Surveillance 6000 Series IP Cameras"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54584", 
+      "product": "Cisco Video Surveillance 3000 Series IP Cameras", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.8(920.221)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Video Surveillance 6000 Series IP Cameras"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54580", 
+      "product": "Cisco Video Surveillance 4000 Series High-Definition IP Cameras", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "4.8(0.0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Video Surveillance 4000 Series IP Cameras"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54581", 
+      "product": "Cisco Video Surveillance 4300E/4500E High-Definition IP Cameras", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "3.2(7.237)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Video Surveillance 4000 Series IP Cameras"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54583", 
+      "product": "Cisco Video Surveillance 6000 Series IP Cameras", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.8(920.221)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Video Surveillance 6000 Series IP Cameras"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54584", 
+      "product": "Cisco Video Surveillance 6000 Series IP Cameras", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.8(920.221)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Video Surveillance 6000 Series IP Cameras"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54583", 
+      "product": "Cisco Video Surveillance 7000 Series IP Cameras", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.8(920.221)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Video Surveillance 6000 Series IP Cameras"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54584", 
+      "product": "Cisco Video Surveillance 7000 Series IP Cameras", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.8(920.221)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Video Surveillance 6000 Series IP Cameras"
+      }
+    }, 
+    {
       "bug_id": "CSCuy54585", 
       "product": "Cisco Video Surveillance Media Server", 
       "fix": [], 
@@ -552,6 +914,45 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco Video Surveillance Manager"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54583", 
+      "product": "Cisco Video Surveillance PTZ IP Cameras", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.8(920.221)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Video Surveillance 6000 Series IP Cameras"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54584", 
+      "product": "Cisco Video Surveillance PTZ IP Cameras", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.8(920.221)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Video Surveillance 6000 Series IP Cameras"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54441", 
+      "product": "Cisco Proactive Network Operations Center", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "SM3.0"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Network Level Service"
       }
     }, 
     {
@@ -571,13 +972,41 @@
       "bug_id": "CSCuy54610", 
       "product": "Cisco Universal Small Cell 5000 Series running V3.4.2.<em>x</em> software", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "BV3.5.12.18"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Universal Small Cell 3000 Series"
+      }
     }, 
     {
       "bug_id": "CSCuy54610", 
       "product": "Cisco Universal Small Cell 7000 Series running V3.4.2.<em>x</em> software", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "BV3.5.12.18"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Universal Small Cell 3000 Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54473", 
+      "product": "Cisco WebEx Meeting Center", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "Webex11-V1.2-SP12", 
+          "Webex11-V1.3.5"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco WebEx Meetings"
+      }
     }, 
     {
       "bug_id": "CSCuy54466", 
@@ -597,6 +1026,19 @@
       "product": "Serial Number Assessment Service (SNAS)", 
       "fix": [], 
       "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuy54445", 
+      "product": "Services Analytic Platform", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "1.500"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "None"
+      }
     }
   ]
 }
