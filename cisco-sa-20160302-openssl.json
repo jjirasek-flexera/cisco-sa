@@ -1,9 +1,9 @@
 {
-  "version": "1.1", 
+  "version": "1.2", 
   "products": [
     {
       "bug_id": "CSCuy54463", 
-      "product": "Cisco WebEx Meetings Server versions 1.<em>x</em>", 
+      "product": "Cisco WebEx Meetings Server version 1.<em>x</em>", 
       "fix": [
         "2.6.2 (15-Apr-2016)"
       ], 
@@ -18,13 +18,28 @@
     }, 
     {
       "bug_id": "CSCuy54463", 
-      "product": "Cisco WebEx Meetings Server versions 2.<em>x</em>", 
+      "product": "Cisco WebEx Meetings Server version 2.<em>x</em>", 
       "fix": [
         "2.6.2 (15-Apr-2016)"
       ], 
       "bug_data": {
         "affected_releases": [
           "2.6"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco WebEx Meeting Center"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54457", 
+      "product": "Cisco WebEx Node for MCS", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "T29EP1", 
+          "T30", 
+          "T31"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
@@ -71,6 +86,32 @@
       }
     }, 
     {
+      "bug_id": "CSCuy54470", 
+      "product": "Cisco MMP server", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "T31R2"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco WebEx Meetings"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54468", 
+      "product": "Cisco WebEx Meetings Client - Hosted", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "T31"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco WebEx Meetings"
+      }
+    }, 
+    {
       "bug_id": "CSCuy54458", 
       "product": "Cisco WebEx Meetings for Android", 
       "fix": [], 
@@ -112,10 +153,50 @@
       }
     }, 
     {
+      "bug_id": "CSCuy54467", 
+      "product": "WebEx Recording Playback Client", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "T31"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco WebEx Meetings"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54474", 
+      "product": "Cisco ACE 30 Application Control Engine Module", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuy54474", 
+      "product": "Cisco ACE 4710 Application Control Engine (A5)", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCuy54435", 
       "product": "Cisco InTracer", 
       "fix": [], 
       "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuy54561", 
+      "product": "Cisco Network Admission Control (NAC)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "4.9(3)", 
+          "4.9(4)", 
+          "4.9(5)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco NAC Appliance (Clean Access)"
+      }
     }, 
     {
       "bug_id": "CSCuy54575", 
@@ -138,7 +219,8 @@
       "fix": [], 
       "bug_data": {
         "affected_releases": [
-          "8.0"
+          "8.0", 
+          "9.4(1)"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
@@ -146,10 +228,65 @@
       }
     }, 
     {
+      "bug_id": "CSCuy54562", 
+      "product": "Cisco Clean Access Manager", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "4.9(3)", 
+          "4.9(4)", 
+          "4.9(5)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco NAC Appliance (Clean Access)"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy53654", 
+      "product": "Cisco Email Security Appliance (ESA)", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuy53710", 
+      "product": "Cisco IronPort Web Security Appliance (WSA)", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuy54564", 
+      "product": "Cisco NAC Guest Server", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.1(0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco NAC Appliance 3300 Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54563", 
+      "product": "Cisco NAC Server", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "4.9(3)", 
+          "4.9(4)", 
+          "4.9(5)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco NAC Appliance (Clean Access)"
+      }
+    }, 
+    {
       "bug_id": "CSCuy54478", 
       "product": "Cisco Cloupia Unified Infrastructure Controller", 
       "fix": [
-        "Affected versions will be updated with the 5.5 release."
+        "Affected versions will be updated with a 5.5 release."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -344,6 +481,32 @@
       "bug_data": null
     }, 
     {
+      "bug_id": "CSCuy54623", 
+      "product": "Cisco IOS Software and Cisco IOS XE Software", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "Denlai-16.3.1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco IOS"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54496", 
+      "product": "Cisco Nexus 5000 Series Switches", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "7.3(0)ZN(0.102)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Nexus 5000 Series Switches"
+      }
+    }, 
+    {
       "bug_id": "CSCuy54696", 
       "product": "Cisco ONS 15454 Series Multiservice Provisioning Platforms*<br />", 
       "fix": [], 
@@ -359,6 +522,48 @@
         "status": "Open", 
         "product_name": "Cisco ONS 15454 Series Multiservice Provisioning Platforms"
       }
+    }, 
+    {
+      "bug_id": "CSCuy54577", 
+      "product": "Cisco OnePK All-in-One VM", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "1.0(0)", 
+          "1.1(0)", 
+          "1.2(0)", 
+          "1.2(1)", 
+          "1.3(0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Support Tools"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54627", 
+      "product": "Cisco Service Control Operating System", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "12.4(5.2)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco SCE 8000 Series Service Control Engine"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54576", 
+      "product": "Cisco Unified Computing System (Management software)", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuy54497", 
+      "product": "Cisco Virtual Security Gateway", 
+      "fix": [], 
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCuy54633", 
@@ -429,6 +634,19 @@
       }
     }, 
     {
+      "bug_id": "CSCuy54549", 
+      "product": "Cisco IP Interoperability and Collaboration System (IPICS)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "4.10(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco IPICS Server Software"
+      }
+    }, 
+    {
       "bug_id": "CSCuy54655", 
       "product": "Cisco Jabber for iOS", 
       "fix": [], 
@@ -444,6 +662,21 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco Jabber for iPhone"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54668", 
+      "product": "Cisco MediaSense", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "10.5(1)ES6", 
+          "11.0(1)ES1", 
+          "11.5(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco MediaSense"
       }
     }, 
     {
@@ -616,7 +849,9 @@
     {
       "bug_id": "CSCuy54681", 
       "product": "Cisco Unified Wireless IP Phone", 
-      "fix": [], 
+      "fix": [
+        "SSLv2 is disabled."
+      ], 
       "bug_data": null
     }, 
     {
@@ -624,7 +859,9 @@
       "product": "Cisco Unity Connection (UC)", 
       "fix": [], 
       "bug_data": {
-        "affected_releases": [], 
+        "affected_releases": [
+          "11.5(0.229)"
+        ], 
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco Unity Connection"
@@ -657,13 +894,81 @@
       }
     }, 
     {
+      "bug_id": "CSCuy54533", 
+      "product": "Cisco Enterprise Content Delivery System (ECDS)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.6"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Content Delivery Engine Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54547", 
+      "product": "Cisco Expressway Series*<br />", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "X7.x", 
+          "X8.x"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco TelePresence Video Communication Server (VCS)"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54611", 
+      "product": "Cisco Headend System Release*<br />", 
+      "fix": [
+        "1.06 (1-May-2016)", 
+        "1.1.3 (1-May-2016)", 
+        "2.0.10 (1-May-2016)", 
+        "2.1.2 (1-May-2016)", 
+        "3.0.4 (1-May-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "CSCOlxplat-2.1.1", 
+          "CSCOlxplat-2.1.2", 
+          "CSCOlxplat-3.0.0-1.0", 
+          "CSCOlxplat-3.0.1", 
+          "CSCOlxplat-3.0.1-1.0", 
+          "CSCOlxplat-3.0.2", 
+          "CSCOlxplat-3.0.3", 
+          "CSCOlxplat-3.0.3-1.0", 
+          "SAIlxplat-1.1.2", 
+          "SAIlxplat-2.0.1", 
+          "SAIlxplat-2.0.2", 
+          "SAIlxplat-2.0.3", 
+          "SAIlxplat-2.0.4", 
+          "SAIlxplat-2.0.5", 
+          "SAIlxplat-2.0.6", 
+          "SAIlxplat-2.0.7", 
+          "SAIlxplat-2.0.7.1", 
+          "SAIlxplat-2.0.8", 
+          "SAIlxplat-2.0.9", 
+          "SAIlxplat-2.1.0", 
+          "SAIlxplat_1.1.0", 
+          "SAIlxplat_1.1.1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Headend System Releases"
+      }
+    }, 
+    {
       "bug_id": "CSCuy54538", 
       "product": "Cisco Media Experience Engines (MXE)*<br />", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
           "3.3.2", 
-          "3.5"
+          "3.5", 
+          "3.5.1"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
@@ -690,6 +995,32 @@
       }
     }, 
     {
+      "bug_id": "CSCuy54534", 
+      "product": "Cisco TelePresence ISDN GW 3241", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.2(1.106)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco TelePresence ISDN Gateway"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54534", 
+      "product": "Cisco TelePresence ISDN GW MSE 8321", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.2(1.106)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco TelePresence ISDN Gateway"
+      }
+    }, 
+    {
       "bug_id": "CSCuy54535", 
       "product": "Cisco TelePresence ISDN Link", 
       "fix": [], 
@@ -700,6 +1031,19 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco TelePresence ISDN Link"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54536", 
+      "product": "Cisco TelePresence MCU (8510, 8420, 4200, 4500 and 5300)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "4.5Maintenance2"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco TelePresence MCU 4500 Series"
       }
     }, 
     {
@@ -742,6 +1086,19 @@
       }
     }, 
     {
+      "bug_id": "CSCuy54541", 
+      "product": "Cisco TelePresence Serial Gateway Series", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "1.0(1.42)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco TelePresence Serial Gateway Series"
+      }
+    }, 
+    {
       "bug_id": "CSCuy54546", 
       "product": "Cisco TelePresence Server 8710, 7010", 
       "fix": [], 
@@ -781,6 +1138,33 @@
       }
     }, 
     {
+      "bug_id": "CSCuy54537", 
+      "product": "Cisco TelePresence Supervisor MSE 8050", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.3(1.38)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco TelePresence MSE 8000 Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54547", 
+      "product": "Cisco TelePresence Video Communication Server (VCS)*<br />", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "X7.x", 
+          "X8.x"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco TelePresence Video Communication Server (VCS)"
+      }
+    }, 
+    {
       "bug_id": "CSCuy54543", 
       "product": "Cisco TelePresence Integrator C Series", 
       "fix": [], 
@@ -795,9 +1179,22 @@
     }, 
     {
       "bug_id": "CSCuy54550", 
-      "product": "Cisco VEN501 Wireless Access Point", 
+      "product": "Cisco VEN501 Wireless Access Points", 
       "fix": [], 
       "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuy54553", 
+      "product": "Cisco Video Distribution Suite for Internet Streaming (VDS-IS/CDS-IS)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "4.2(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Content Delivery Engine Series"
+      }
     }, 
     {
       "bug_id": "CSCuy54583", 
@@ -906,7 +1303,9 @@
     {
       "bug_id": "CSCuy54585", 
       "product": "Cisco Video Surveillance Media Server", 
-      "fix": [], 
+      "fix": [
+        "7.8 (1-Jul-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "7.7"
@@ -943,6 +1342,40 @@
       }
     }, 
     {
+      "bug_id": "CSCuy54551", 
+      "product": "Cisco Videoscape Control Suite", 
+      "fix": [
+        "3.6.0 (30-Apr-2016)"
+      ], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuy54534", 
+      "product": "Tandberg Codian ISDN GW 3210/3220/3240", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.2(1.106)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco TelePresence ISDN Gateway"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54534", 
+      "product": "Tandberg Codian MSE 8320 Model", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.2(1.106)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco TelePresence ISDN Gateway"
+      }
+    }, 
+    {
       "bug_id": "CSCuy54441", 
       "product": "Cisco Proactive Network Operations Center", 
       "fix": [], 
@@ -966,6 +1399,25 @@
         "fixed_releases": [], 
         "status": "Fixed", 
         "product_name": "Cisco Email Encryption"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54682", 
+      "product": "Cisco Services Provisioning Platform (SPP)", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuy54565", 
+      "product": "Cisco Smart Care", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "1.16(0.1)ITH"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Smart Care Service"
       }
     }, 
     {
