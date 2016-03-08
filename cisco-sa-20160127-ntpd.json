@@ -1,5 +1,5 @@
 {
-  "version": "1.4", 
+  "version": "1.5", 
   "products": [
     {
       "bug_id": "CSCux95226", 
@@ -34,7 +34,7 @@
     }, 
     {
       "bug_id": "CSCux95091", 
-      "product": "Cisco Application Control Engine (ACE30/ACE 4710)", 
+      "product": "Cisco Application Control Engine (ACE30/ ACE 4710)", 
       "fix": [], 
       "bug_data": null
     }, 
@@ -119,6 +119,9 @@
       ], 
       "bug_data": {
         "affected_releases": [
+          "4.10.0", 
+          "5.2.0", 
+          "5.3.0", 
           "5.4.0", 
           "5.4.1", 
           "6.0.0"
@@ -183,6 +186,12 @@
       }
     }, 
     {
+      "bug_id": "CSCux95177", 
+      "product": "Cisco Physical Access Control Gateway", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCux95178", 
       "product": "Cisco Physical Access Manager", 
       "fix": [], 
@@ -192,7 +201,7 @@
       "bug_id": "CSCux95189", 
       "product": "Cisco Secure Access Control Server (ACS)", 
       "fix": [
-        "5.8 Patch 2 (June 2016)"
+        "5.8 patch 2 (June 2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -334,7 +343,7 @@
       "bug_id": "CSCux95146", 
       "product": "Cisco Prime Service Catalog Virtual Appliance", 
       "fix": [
-        "Update via the admin shell."
+        "Update via admin shell."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -362,7 +371,7 @@
     }, 
     {
       "bug_id": "CSCux95125", 
-      "product": "Cisco Virtual Topology\nSystem (formerly Virtual Systems Operations Center)", 
+      "product": "Cisco Virtual Topology\nSystem (formally Virtual Systems Operations Center)", 
       "fix": [
         "2.2 (31-Mar-2016)"
       ], 
@@ -387,7 +396,7 @@
       "bug_id": "CSCux95192", 
       "product": "Cisco 910 Industrial Router", 
       "fix": [
-        "A patch file will be available for affected releases on 12-Feb-2016."
+        "A patch file will be available for affected releases (12-Feb-2016)."
       ], 
       "bug_data": null
     }, 
@@ -605,17 +614,16 @@
       }
     }, 
     {
-      "bug_id": "CSCux95128", 
-      "product": "IOS XR for Cisco Network Convergence System (NCS) 6000", 
-      "fix": [
-        "6.1.1 (29-Feb-2016)"
-      ], 
+      "bug_id": "CSCux90105", 
+      "product": "IOS-XR for Cisco Network Convergence System (NCS) 6000", 
+      "fix": [], 
       "bug_data": {
         "affected_releases": [
+          "5.2.5.BASE", 
           "6.0.0.BASE"
         ], 
         "fixed_releases": [], 
-        "status": "Other", 
+        "status": "Open", 
         "product_name": "Cisco Network Convergence System 6000 Series Routers"
       }
     }, 
@@ -693,7 +701,7 @@
         ], 
         "fixed_releases": [], 
         "status": "Open", 
-        "product_name": "Cisco UCS Express"
+        "product_name": "Cisco UCS E-Series Software"
       }
     }, 
     {
@@ -763,7 +771,9 @@
     {
       "bug_id": "CSCux95148", 
       "product": "Cisco IP Interoperability and Collaboration System (IPICS)", 
-      "fix": [], 
+      "fix": [
+        "4.10(2) (31-Mar-2015)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "4.10(1)"
@@ -862,7 +872,7 @@
     }, 
     {
       "bug_id": "CSCux95075", 
-      "product": "Cisco Unified SIP Proxy", 
+      "product": "Cisco Unified Sip Proxy", 
       "fix": [
         "10.0 (September 2016)"
       ], 
@@ -967,7 +977,7 @@
       "bug_id": "CSCux95145", 
       "product": "Cisco Expressway Series", 
       "fix": [
-        "8.7.1 (22-Feb-2016)"
+        "8.7.1(22-Feb-2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1146,7 +1156,7 @@
       "bug_id": "CSCux95145", 
       "product": "Cisco TelePresence Video Communication Server (VCS)", 
       "fix": [
-        "8.7.1 (22-Feb-2016)"
+        "8.7.1(22-Feb-2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1159,7 +1169,7 @@
     }, 
     {
       "bug_id": "CSCux95143", 
-      "product": "Cisco TelePresence Integrator C Series", 
+      "product": "Cisco Telepresence Integrator C Series", 
       "fix": [
         "7.3.6 (31-Mar-2016)", 
         "8.1 (31-Mar-2016)"
@@ -1297,7 +1307,7 @@
     }, 
     {
       "bug_id": "CSCux95182", 
-      "product": "Cisco WAP371 Wireless Access Points", 
+      "product": "Cisco WAP371 wireless access point", 
       "fix": [
         "1.2.2.1 (14-Oct-2016)"
       ], 
@@ -1335,13 +1345,13 @@
     }, 
     {
       "bug_id": "CSCux95198", 
-      "product": "Cisco Universal Small Cell 5000 Series running V3.4.2.<em>x</em> software", 
+      "product": "Cisco Universal Small Cell 5000 Series running V3.4.2.x software", 
       "fix": [], 
       "bug_data": null
     }, 
     {
       "bug_id": "CSCux95198", 
-      "product": "Cisco Universal Small Cell 7000 Series running V3.4.2.<em>x</em> software", 
+      "product": "Cisco Universal Small Cell 7000 Series running V3.4.2.x software", 
       "fix": [], 
       "bug_data": null
     }, 
