@@ -1,5 +1,5 @@
 {
-  "version": "1.3", 
+  "version": "1.4", 
   "products": [
     {
       "bug_id": "CSCuy54660", 
@@ -197,6 +197,30 @@
       }
     }, 
     {
+      "bug_id": "CSCuy57863", 
+      "product": "Cisco Jabber for iOS", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.0", 
+          "11.0(0)", 
+          "11.0(1)", 
+          "11.0(2)", 
+          "11.1", 
+          "11.1(0)", 
+          "11.1(1)", 
+          "11.5(0)", 
+          "11.5(1)", 
+          "11.5(2)", 
+          "11.5(5)", 
+          "11.6(0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Jabber for iPhone"
+      }
+    }, 
+    {
       "bug_id": "CSCuy54470", 
       "product": "Cisco MMP server", 
       "fix": [], 
@@ -248,7 +272,7 @@
           "Android-9.0"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco WebEx Meeting Center"
       }
     }, 
@@ -352,7 +376,7 @@
           "3.10(5.38)", 
           "3.11(1.13)"
         ], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Content Delivery Engine Series"
       }
     }, 
@@ -369,7 +393,7 @@
           "3.10(5.38)", 
           "3.11(1.13)"
         ], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Content Delivery Engine Series"
       }
     }, 
@@ -389,8 +413,10 @@
         "affected_releases": [
           "100.10(6.0.41)"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "100.6(0.0.172)"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco ASA Next-Generation Firewall Services"
       }
     }, 
@@ -424,11 +450,29 @@
       }
     }, 
     {
+      "bug_id": "CSCuy54455", 
+      "product": "Cisco Content Security Appliance Updater Servers", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuy53668", 
+      "product": "Cisco Content Security Management Appliance (SMA)", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCuy53654", 
       "product": "Cisco Email Security Appliance (ESA)", 
       "fix": [
         "9.8.5 (Available)"
       ], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuy54453", 
+      "product": "Cisco FireSIGHT System Software", 
+      "fix": [], 
       "bug_data": null
     }, 
     {
@@ -457,6 +501,19 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco Identity Services Engine (ISE) 3300 Series Appliances"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54452", 
+      "product": "Cisco IronPort Encryption Appliance (IEA)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "6.5.6.1-01"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco Email Encryption"
       }
     }, 
     {
@@ -496,6 +553,38 @@
       }
     }, 
     {
+      "bug_id": "CSCuy54579", 
+      "product": "Cisco Physical Access Control Gateway", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "1.5(3.0.3.9)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Physical Access Gateways"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54597", 
+      "product": "Cisco Secure Access Control Server (ACS)", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuy54498", 
+      "product": "Cisco Virtual Security Gateway for Microsoft Hyper-V", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "5.2(1)VSG2(1.4)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Virtual Security Gateway for Nexus 1000V Series Switch"
+      }
+    }, 
+    {
       "bug_id": "CSCuy54456", 
       "product": "Cisco Web Security Appliance (WSA)", 
       "fix": [], 
@@ -504,7 +593,7 @@
           "WSA_Future-000"
         ], 
         "fixed_releases": [], 
-        "status": "Terminated", 
+        "status": "Open", 
         "product_name": "Cisco Web Security Appliance"
       }
     }, 
@@ -670,6 +759,33 @@
       }
     }, 
     {
+      "bug_id": "CSCuy54512", 
+      "product": "Cisco Prime Access Registrar", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "6.1(3)", 
+          "7.0(1.5)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Access Registrar"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54522", 
+      "product": "Cisco Prime Collaboration Assurance", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.5(0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Prime Collaboration"
+      }
+    }, 
+    {
       "bug_id": "CSCuy54636", 
       "product": "Cisco Prime Collaboration Deployment", 
       "fix": [], 
@@ -816,8 +932,10 @@
         "affected_releases": [
           "100.10(6.0.41)"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "100.6(0.0.172)"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco ASA Next-Generation Firewall Services"
       }
     }, 
@@ -911,10 +1029,11 @@
       "bug_data": {
         "affected_releases": [
           "18.7.0", 
-          "18.7.M0.private"
+          "18.7.M0.private", 
+          "19.4.0"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco ASR 5000 Series"
       }
     }, 
@@ -958,6 +1077,66 @@
       }
     }, 
     {
+      "bug_id": "CSCuy54488", 
+      "product": "Cisco MDS 9000 Series Multilayer Switches", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "6.2(15)S9", 
+          "6.2(16)S9", 
+          "7.3(1)D1(0.11)", 
+          "8.3(0)CV(0.320)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Nexus 7000 Series Switches"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54492", 
+      "product": "Cisco Nexus 1000V Series Switches (ESX)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "5.2(1)SV3(1.10)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Nexus 1000V Switch for VMware vSphere"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54603", 
+      "product": "Cisco Nexus 4000 Series Blade Switches", 
+      "fix": [
+        "4.1(2)E1(1q) (30-Jun-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "4.1(2)E1(1a)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Nexus 4000 Series Switches"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54488", 
+      "product": "Cisco Nexus 5000 Series Switches", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "6.2(15)S9", 
+          "6.2(16)S9", 
+          "7.3(1)D1(0.11)", 
+          "8.3(0)CV(0.320)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Nexus 7000 Series Switches"
+      }
+    }, 
+    {
       "bug_id": "CSCuy54496", 
       "product": "Cisco Nexus 5000 Series Switches", 
       "fix": [], 
@@ -968,6 +1147,38 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco Nexus 5000 Series Switches"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54488", 
+      "product": "Cisco Nexus 6000 Series Switches", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "6.2(15)S9", 
+          "6.2(16)S9", 
+          "7.3(1)D1(0.11)", 
+          "8.3(0)CV(0.320)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Nexus 7000 Series Switches"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54488", 
+      "product": "Cisco Nexus 7000 Series Switches", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "6.2(15)S9", 
+          "6.2(16)S9", 
+          "7.3(1)D1(0.11)", 
+          "8.3(0)CV(0.320)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Nexus 7000 Series Switches"
       }
     }, 
     {
@@ -1041,6 +1252,45 @@
       }
     }, 
     {
+      "bug_id": "CSCuy54591", 
+      "product": "Cisco Sx220 switches", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "1.4.2.4"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Small Business 200 Series Smart Switches"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54592", 
+      "product": "Cisco Sx300 switches", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "1.4.2.4"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Small Business 300 Series Managed Switches"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54593", 
+      "product": "Cisco Sx500 switches", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "1.4.2.4"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Small Business 500 Series Stackable Managed Switches"
+      }
+    }, 
+    {
       "bug_id": "CSCuy54501", 
       "product": "Cisco Standalone rack server CIMC", 
       "fix": [], 
@@ -1108,6 +1358,19 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco Unified IP Phone 6900 Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54688", 
+      "product": "Cisco Computer Telephony Integration Object Server (CTIOS)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.0(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Contact Center Enterprise"
       }
     }, 
     {
@@ -1193,24 +1456,6 @@
       }
     }, 
     {
-      "bug_id": "CSCuy54655", 
-      "product": "Cisco Jabber for iOS", 
-      "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "11.5(0)", 
-          "11.5(1)", 
-          "11.5(2)", 
-          "11.5(5)", 
-          "11.6(0)", 
-          "11.7(0)"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Jabber for iPhone"
-      }
-    }, 
-    {
       "bug_id": "CSCuy54668", 
       "product": "Cisco MediaSense", 
       "fix": [], 
@@ -1223,6 +1468,32 @@
         "fixed_releases": [], 
         "status": "Terminated", 
         "product_name": "Cisco MediaSense"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54654", 
+      "product": "Cisco Paging Server (Informacast)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.0(2)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Paging Server"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54654", 
+      "product": "Cisco Paging Server", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.0(2)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Paging Server"
       }
     }, 
     {
@@ -1367,6 +1638,126 @@
       }
     }, 
     {
+      "bug_id": "CSCuy54630", 
+      "product": "Cisco Unified Attendant Console Advanced", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "10.0(1)", 
+          "10.5", 
+          "10.5(2)", 
+          "10.6(1)", 
+          "11.0(1)", 
+          "8.6", 
+          "9.0", 
+          "9.1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Attendant Consoles"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54630", 
+      "product": "Cisco Unified Attendant Console Business Edition", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "10.0(1)", 
+          "10.5", 
+          "10.5(2)", 
+          "10.6(1)", 
+          "11.0(1)", 
+          "8.6", 
+          "9.0", 
+          "9.1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Attendant Consoles"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54630", 
+      "product": "Cisco Unified Attendant Console Department Edition", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "10.0(1)", 
+          "10.5", 
+          "10.5(2)", 
+          "10.6(1)", 
+          "11.0(1)", 
+          "8.6", 
+          "9.0", 
+          "9.1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Attendant Consoles"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54630", 
+      "product": "Cisco Unified Attendant Console Enterprise Edition", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "10.0(1)", 
+          "10.5", 
+          "10.5(2)", 
+          "10.6(1)", 
+          "11.0(1)", 
+          "8.6", 
+          "9.0", 
+          "9.1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Attendant Consoles"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54630", 
+      "product": "Cisco Unified Attendant Console Premium Edition", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "10.0(1)", 
+          "10.5", 
+          "10.5(2)", 
+          "10.6(1)", 
+          "11.0(1)", 
+          "8.6", 
+          "9.0", 
+          "9.1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Attendant Consoles"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54631", 
+      "product": "Cisco Unified Attendant Console Standard", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "10.0", 
+          "10.0(1)", 
+          "10.5", 
+          "10.5(2)", 
+          "10.6(1)", 
+          "10.6(2)", 
+          "11.0(1)", 
+          "11.0(2)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Attendant Consoles"
+      }
+    }, 
+    {
       "bug_id": "CSCuy54634", 
       "product": "Cisco Unified Communications Manager (UCM)", 
       "fix": [], 
@@ -1406,6 +1797,19 @@
       }
     }, 
     {
+      "bug_id": "CSCuy54688", 
+      "product": "Cisco Unified Contact Center Enterprise", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.0(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Contact Center Enterprise"
+      }
+    }, 
+    {
       "bug_id": "CSCuy54629", 
       "product": "Cisco Unified IP Conference Phone 8831 for\nThird-Party Call Control", 
       "fix": [], 
@@ -1432,12 +1836,42 @@
       }
     }, 
     {
+      "bug_id": "CSCuy54688", 
+      "product": "Cisco Unified Intelligent Contact Management Enterprise", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.0(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Contact Center Enterprise"
+      }
+    }, 
+    {
       "bug_id": "CSCuy54681", 
       "product": "Cisco Unified Wireless IP Phone", 
       "fix": [
         "SSLV2 is disabled."
       ], 
       "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuy54680", 
+      "product": "Cisco Unified Workforce Optimization", 
+      "fix": [
+        "WFO 10.5 (31-Mar-2016)", 
+        "WFO 11.0 (15-April-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "10.5(1)", 
+          "11.0(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Workforce Optimization"
+      }
     }, 
     {
       "bug_id": "CSCuy54637", 
@@ -1558,7 +1992,7 @@
     }, 
     {
       "bug_id": "CSCuy54547", 
-      "product": "Cisco Expressway Series", 
+      "product": "Cisco Expressway Series (*)<br />", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
@@ -1661,14 +2095,7 @@
       "bug_id": "CSCuy54545", 
       "product": "Cisco TelePresence Content Server (TCS)", 
       "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "7.0"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco TelePresence Content Server"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCuy54534", 
@@ -1789,7 +2216,7 @@
     }, 
     {
       "bug_id": "CSCuy54547", 
-      "product": "Cisco TelePresence Video Communication Server (VCS) (*)<br />", 
+      "product": "Cisco TelePresence Video Communication Server (VCS)", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
@@ -2020,6 +2447,19 @@
       }
     }, 
     {
+      "bug_id": "CSCuy58090", 
+      "product": "Cisco Mobility Services Engine (MSE)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "8.0(130.10)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Mobility Services Engine"
+      }
+    }, 
+    {
       "bug_id": "CSCuy58091", 
       "product": "Cisco Wireless LAN Controller (WLC) (*)<br />", 
       "fix": [], 
@@ -2170,6 +2610,12 @@
     {
       "bug_id": "CSCuy54445", 
       "product": "Services Analytic Platform", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuy54607", 
+      "product": "Small Cell factory recovery root filesystem V2.99.4 or later", 
       "fix": [], 
       "bug_data": null
     }
