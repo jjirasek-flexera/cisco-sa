@@ -1,5 +1,5 @@
 {
-  "version": "1.4", 
+  "version": "1.5", 
   "products": [
     {
       "bug_id": "CSCuy54660", 
@@ -48,16 +48,7 @@
       "bug_id": "CSCuy54457", 
       "product": "Cisco WebEx Node for MCS", 
       "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "T29EP1", 
-          "T30", 
-          "T31"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco WebEx Meeting Center"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCuy54595", 
@@ -164,6 +155,20 @@
       }
     }, 
     {
+      "bug_id": "CSCuy54657", 
+      "product": "Cisco Jabber Software Development Kit", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.0(0)", 
+          "11.0(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Jabber Software Development Kit"
+      }
+    }, 
+    {
       "bug_id": "CSCuy54676", 
       "product": "Cisco Jabber for Android", 
       "fix": [], 
@@ -224,14 +229,7 @@
       "bug_id": "CSCuy54470", 
       "product": "Cisco MMP server", 
       "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "T31R2"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco WebEx Meetings"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCuy54468", 
@@ -418,6 +416,19 @@
         ], 
         "status": "Fixed", 
         "product_name": "Cisco ASA Next-Generation Firewall Services"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54572", 
+      "product": "Cisco ASA Next-Generation Firewall Services", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "92.0(1.1144)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Firepower 9000 Series"
       }
     }, 
     {
@@ -897,6 +908,21 @@
       }
     }, 
     {
+      "bug_id": "CSCuy54504", 
+      "product": "Cisco Prime Network", 
+      "fix": [
+        "4.3 (July 2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "4.3(0.999)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Prime Network"
+      }
+    }, 
+    {
       "bug_id": "CSCuy54513", 
       "product": "Cisco Prime Optical for SPs", 
       "fix": [], 
@@ -905,7 +931,7 @@
           "10.6(0.0.54)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Prime Optical"
       }
     }, 
@@ -1032,7 +1058,9 @@
           "18.7.M0.private", 
           "19.4.0"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "19.4.M0.63322"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco ASR 5000 Series"
       }
@@ -1084,12 +1112,26 @@
         "affected_releases": [
           "6.2(15)S9", 
           "6.2(16)S9", 
+          "7.3(0)ZN(0.102)", 
           "7.3(1)D1(0.11)", 
           "8.3(0)CV(0.320)"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco Nexus 7000 Series Switches"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54485", 
+      "product": "Cisco Nexus 1000V InterCloud (*)<br />", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "3.1(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Intercloud Fabric"
       }
     }, 
     {
@@ -1128,25 +1170,13 @@
         "affected_releases": [
           "6.2(15)S9", 
           "6.2(16)S9", 
+          "7.3(0)ZN(0.102)", 
           "7.3(1)D1(0.11)", 
           "8.3(0)CV(0.320)"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco Nexus 7000 Series Switches"
-      }
-    }, 
-    {
-      "bug_id": "CSCuy54496", 
-      "product": "Cisco Nexus 5000 Series Switches", 
-      "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "7.3(0)ZN(0.102)"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Nexus 5000 Series Switches"
       }
     }, 
     {
@@ -1157,6 +1187,7 @@
         "affected_releases": [
           "6.2(15)S9", 
           "6.2(16)S9", 
+          "7.3(0)ZN(0.102)", 
           "7.3(1)D1(0.11)", 
           "8.3(0)CV(0.320)"
         ], 
@@ -1173,6 +1204,7 @@
         "affected_releases": [
           "6.2(15)S9", 
           "6.2(16)S9", 
+          "7.3(0)ZN(0.102)", 
           "7.3(1)D1(0.11)", 
           "8.3(0)CV(0.320)"
         ], 
@@ -1291,6 +1323,12 @@
       }
     }, 
     {
+      "bug_id": "CSCuy54437", 
+      "product": "Cisco Common Services Platform Collector", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCuy54501", 
       "product": "Cisco Standalone rack server CIMC", 
       "fix": [], 
@@ -1325,14 +1363,7 @@
       "bug_id": "CSCuy54633", 
       "product": "Cisco 190 ATA Series Analog Terminal Adaptor", 
       "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "1.2(1.6)"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Small Business Voice Gateways and ATAs"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCuy54671", 
@@ -1351,14 +1382,7 @@
       "bug_id": "CSCuy54665", 
       "product": "Cisco ATA 187 Analog Telephone Adaptor", 
       "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "9.3(2)"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Unified IP Phone 6900 Series"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCuy54688", 
@@ -1468,6 +1492,19 @@
         "fixed_releases": [], 
         "status": "Terminated", 
         "product_name": "Cisco MediaSense"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54689", 
+      "product": "Cisco Packaged Contact Center Enterprise", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.0(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Contact Center Enterprise"
       }
     }, 
     {
@@ -1758,6 +1795,21 @@
       }
     }, 
     {
+      "bug_id": "CSCuy54640", 
+      "product": "Cisco Unified Communications Domain Manager", 
+      "fix": [
+        "11.5.1 (Aug. 2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "10.6(3)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Hosted Collaboration Solution (HCS)"
+      }
+    }, 
+    {
       "bug_id": "CSCuy54634", 
       "product": "Cisco Unified Communications Manager (UCM)", 
       "fix": [], 
@@ -1992,7 +2044,7 @@
     }, 
     {
       "bug_id": "CSCuy54547", 
-      "product": "Cisco Expressway Series (*)<br />", 
+      "product": "Cisco Expressway Series", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
@@ -2216,7 +2268,7 @@
     }, 
     {
       "bug_id": "CSCuy54547", 
-      "product": "Cisco TelePresence Video Communication Server (VCS)", 
+      "product": "Cisco TelePresence Video Communication Server (VCS) (*)<br />", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
