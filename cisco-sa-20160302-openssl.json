@@ -1,5 +1,5 @@
 {
-  "version": "1.5", 
+  "version": "1.6", 
   "products": [
     {
       "bug_id": "CSCuy54660", 
@@ -177,7 +177,7 @@
           "11.5(1)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Mobile Communicator"
       }
     }, 
@@ -202,30 +202,6 @@
       }
     }, 
     {
-      "bug_id": "CSCuy57863", 
-      "product": "Cisco Jabber for iOS", 
-      "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "11.0", 
-          "11.0(0)", 
-          "11.0(1)", 
-          "11.0(2)", 
-          "11.1", 
-          "11.1(0)", 
-          "11.1(1)", 
-          "11.5(0)", 
-          "11.5(1)", 
-          "11.5(2)", 
-          "11.5(5)", 
-          "11.6(0)"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Jabber for iPhone"
-      }
-    }, 
-    {
       "bug_id": "CSCuy54470", 
       "product": "Cisco MMP server", 
       "fix": [], 
@@ -235,14 +211,7 @@
       "bug_id": "CSCuy54468", 
       "product": "Cisco WebEx Meetings Client - Hosted", 
       "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "T31"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco WebEx Meetings"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCuy54461", 
@@ -312,26 +281,33 @@
       "bug_id": "CSCuy54467", 
       "product": "WebEx Recording Playback Client", 
       "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "T31"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco WebEx Meetings"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCuy54474", 
       "product": "Cisco ACE 30 Application Control Engine Module", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "3.0(0)A5(3.4)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco ACE 4700 Series Application Control Engine Appliances"
+      }
     }, 
     {
       "bug_id": "CSCuy54474", 
       "product": "Cisco ACE 4710 Application Control Engine (A5)", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "3.0(0)A5(3.4)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco ACE 4700 Series Application Control Engine Appliances"
+      }
     }, 
     {
       "bug_id": "CSCuy54435", 
@@ -533,7 +509,14 @@
       "fix": [
         "9.5.0 (Available)"
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "WSA_Future-000"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Web Security Appliance"
+      }
     }, 
     {
       "bug_id": "CSCuy54564", 
@@ -580,7 +563,12 @@
       "bug_id": "CSCuy54597", 
       "product": "Cisco Secure Access Control Server (ACS)", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Secure Access Control Server Solution Engine"
+      }
     }, 
     {
       "bug_id": "CSCuy54498", 
@@ -787,14 +775,7 @@
       "bug_id": "CSCuy54522", 
       "product": "Cisco Prime Collaboration Assurance", 
       "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "11.5(0)"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Prime Collaboration"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCuy54636", 
@@ -875,7 +856,7 @@
           "11.5(0.98000.211)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Communications Licensing"
       }
     }, 
@@ -944,7 +925,7 @@
           "1.7(0.3)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Prime Performance Manager"
       }
     }, 
@@ -1059,7 +1040,12 @@
           "19.4.0"
         ], 
         "fixed_releases": [
-          "19.4.M0.63322"
+          "19.4.A0.63339", 
+          "19.4.M0.63322", 
+          "19.4.T0.63330", 
+          "20.1.M0.63329", 
+          "20.2.A0.63349", 
+          "21.0.M0.63342"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco ASR 5000 Series"
@@ -1332,7 +1318,14 @@
       "bug_id": "CSCuy54501", 
       "product": "Cisco Standalone rack server CIMC", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "2.0(9d)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Computing System"
+      }
     }, 
     {
       "bug_id": "CSCuy54576", 
@@ -1366,19 +1359,6 @@
       "bug_data": null
     }, 
     {
-      "bug_id": "CSCuy54671", 
-      "product": "Cisco 8800 Series IP Phones - VPN Feature", 
-      "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "11.0(1)"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco IP Phone 8800 Series"
-      }
-    }, 
-    {
       "bug_id": "CSCuy54665", 
       "product": "Cisco ATA 187 Analog Telephone Adaptor", 
       "fix": [], 
@@ -1395,19 +1375,6 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco Unified Contact Center Enterprise"
-      }
-    }, 
-    {
-      "bug_id": "CSCuy54670", 
-      "product": "Cisco DX Series IP Phones", 
-      "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "10.2(5)"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco DX Series"
       }
     }, 
     {
@@ -1475,8 +1442,26 @@
           "4.10(1)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco IPICS Server Software"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54655", 
+      "product": "Cisco Jabber for iOS", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.5(0)", 
+          "11.5(1)", 
+          "11.5(2)", 
+          "11.5(5)", 
+          "11.6(0)", 
+          "11.7(0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Jabber for iPhone"
       }
     }, 
     {
@@ -1485,7 +1470,6 @@
       "fix": [], 
       "bug_data": {
         "affected_releases": [
-          "10.5(1)ES6", 
           "11.0(1)ES1", 
           "11.5(1)"
         ], 
@@ -1537,40 +1521,19 @@
       "bug_id": "CSCuy54587", 
       "product": "Cisco SPA112 2-Port Phone Adapter", 
       "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "1.4.1(3)"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Small Business Voice Gateways and ATAs"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCuy54587", 
       "product": "Cisco SPA122 ATA with Router", 
       "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "1.4.1(3)"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Small Business Voice Gateways and ATAs"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCuy54587", 
       "product": "Cisco SPA232D Multi-Line DECT ATA", 
       "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "1.4.1(3)"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Small Business Voice Gateways and ATAs"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCuy54590", 
@@ -1665,13 +1628,45 @@
       "bug_id": "CSCuy54662", 
       "product": "Cisco Unified 8945 IP Phone", 
       "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuy54651", 
+      "product": "Cisco Unified 8961 IP Phone", 
+      "fix": [], 
       "bug_data": {
         "affected_releases": [
-          "9.4(2)SR2"
+          "9.4(2)"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
-        "product_name": "Cisco Unified IP Phone 6900 Series"
+        "product_name": "Cisco Unified IP Phones 9900 Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54651", 
+      "product": "Cisco Unified 9951 IP Phone", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "9.4(2)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified IP Phones 9900 Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54651", 
+      "product": "Cisco Unified 9971 IP Phone", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "9.4(2)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified IP Phones 9900 Series"
       }
     }, 
     {
@@ -1817,7 +1812,13 @@
         "affected_releases": [
           "11.5(1.99000.9)"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "11.5(0.98000.220)", 
+          "11.5(0.98000.283)", 
+          "11.5(0.98000.623)", 
+          "11.5(0.98000.875)", 
+          "11.5(0.98000.876)"
+        ], 
         "status": "Open", 
         "product_name": "Cisco Unified Communications Manager (CallManager)"
       }
@@ -1830,7 +1831,13 @@
         "affected_releases": [
           "11.5(1.99000.9)"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "11.5(0.98000.220)", 
+          "11.5(0.98000.283)", 
+          "11.5(0.98000.623)", 
+          "11.5(0.98000.875)", 
+          "11.5(0.98000.876)"
+        ], 
         "status": "Open", 
         "product_name": "Cisco Unified Communications Manager (CallManager)"
       }
@@ -2044,17 +2051,9 @@
     }, 
     {
       "bug_id": "CSCuy54547", 
-      "product": "Cisco Expressway Series", 
+      "product": "Cisco Expressway Series (*)<br />", 
       "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "X7.x", 
-          "X8.x"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco TelePresence Video Communication Server (VCS)"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCuy54611", 
@@ -2268,17 +2267,9 @@
     }, 
     {
       "bug_id": "CSCuy54547", 
-      "product": "Cisco TelePresence Video Communication Server (VCS) (*)<br />", 
+      "product": "Cisco TelePresence Video Communication Server (VCS)", 
       "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "X7.x", 
-          "X8.x"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco TelePresence Video Communication Server (VCS)"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCuy54550", 
@@ -2499,6 +2490,12 @@
       }
     }, 
     {
+      "bug_id": "CSCuy54506", 
+      "product": "Cisco Aironet 2700 Series Access Point", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCuy58090", 
       "product": "Cisco Mobility Services Engine (MSE)", 
       "fix": [], 
@@ -2522,6 +2519,19 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco 5500 Series Wireless Controllers"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54548", 
+      "product": "Cisco Intelligent Automation for Cloud", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "4.3.1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Intelligent Automation for Cloud"
       }
     }, 
     {
