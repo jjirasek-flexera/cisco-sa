@@ -1,5 +1,5 @@
 {
-  "version": "1.12", 
+  "version": "1.13", 
   "products": [
     {
       "bug_id": "CSCuy36539", 
@@ -42,7 +42,9 @@
     {
       "bug_id": "CSCuy36542", 
       "product": "Cisco MMP server", 
-      "fix": [], 
+      "fix": [
+        "Affected systems have been updated."
+      ], 
       "bug_data": {
         "affected_releases": [
           "T29", 
@@ -59,7 +61,9 @@
     {
       "bug_id": "CSCuy36549", 
       "product": "Cisco Intercloud Fabric", 
-      "fix": [], 
+      "fix": [
+        "Customers may upgrade via Red Hat, which  provides the 2.12-166 patch release to cover this vulnerability"
+      ], 
       "bug_data": {
         "affected_releases": [
           "2.3(1b)"
@@ -72,7 +76,9 @@
     {
       "bug_id": "CSCuy36549", 
       "product": "Cisco Prime Network Service Controller (PNSC)", 
-      "fix": [], 
+      "fix": [
+        "Customers may upgrade via Red Hat, which  provides the 2.12-166 patch release to cover this vulnerability"
+      ], 
       "bug_data": {
         "affected_releases": [
           "2.3(1b)"
@@ -85,7 +91,9 @@
     {
       "bug_id": "CSCuy35276", 
       "product": "Cisco Visual Quality Experience Server", 
-      "fix": [], 
+      "fix": [
+        "Affected systems have been upgraded"
+      ], 
       "bug_data": {
         "affected_releases": [
           "3.10(5)", 
@@ -102,7 +110,9 @@
     {
       "bug_id": "CSCuy35276", 
       "product": "Cisco Visual Quality Experience Tools Server", 
-      "fix": [], 
+      "fix": [
+        "Affected systems have been upgraded"
+      ], 
       "bug_data": {
         "affected_releases": [
           "3.10(5)", 
@@ -237,12 +247,6 @@
       "bug_data": null
     }, 
     {
-      "bug_id": "CSCuy50764", 
-      "product": "Cisco Common Services Platform Collector", 
-      "fix": [], 
-      "bug_data": null
-    }, 
-    {
       "bug_id": "CSCuy51595", 
       "product": "Cisco Policy Suite (CPS)", 
       "fix": [
@@ -275,7 +279,9 @@
     {
       "bug_id": "CSCuy36447", 
       "product": "Cisco Prime Analytics", 
-      "fix": [], 
+      "fix": [
+        "Please upgrade to Red Hat 6.5 for OS."
+      ], 
       "bug_data": {
         "affected_releases": [
           "1.1(1)"
@@ -288,7 +294,9 @@
     {
       "bug_id": "CSCuy36443", 
       "product": "Cisco Prime Central for SPs", 
-      "fix": [], 
+      "fix": [
+        "1.5.1 (30-March-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "1.5(1.0)"
@@ -326,15 +334,19 @@
           "7.2(2a)", 
           "7.2(3)"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "7.3(0.292)S0"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco Prime Data Center Network Manager"
       }
     }, 
     {
       "bug_id": "CSCuy36566", 
       "product": "Cisco Prime IP Express", 
-      "fix": [], 
+      "fix": [
+        "Customers may upgrade the <em>glibc </em>library on affected devices using the Red Hat <strong>yum </strong>utility. Devices will need to be restarted after the package upgrade."
+      ], 
       "bug_data": {
         "affected_releases": [
           "8.2(0.5)"
@@ -362,7 +374,9 @@
     {
       "bug_id": "CSCuy36564", 
       "product": "Cisco Prime Network Registrar (CPNR) virtual appliance", 
-      "fix": [], 
+      "fix": [
+        "Affected systems have been updated."
+      ], 
       "bug_data": {
         "affected_releases": [
           "8.1(3.3)", 
@@ -379,20 +393,36 @@
     {
       "bug_id": "CSCuy36427", 
       "product": "Cisco Prime Network Registrar IP Address Manager (IPAM)", 
-      "fix": [], 
-      "bug_data": null
+      "fix": [
+        "8.3 (30-Nov-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "8.1(3)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Prime Network Registrar"
+      }
     }, 
     {
       "bug_id": "CSCuy36433", 
       "product": "Cisco Prime Optical for SPs", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "9.8(0.4)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Prime Optical"
+      }
     }, 
     {
       "bug_id": "CSCuy34875", 
       "product": "Cisco Prime Service Catalog Virtual Appliance", 
       "fix": [
-        "Customers may upgrade the glibc library on affected devices utilizing the RedHat yum utility.  Devices will need to be restarted after the package upgrade"
+        "Customers may upgrade the <em>glibc </em>library on affected devices using the Red Hat <strong>yum </strong>utility.  Devices will need to be restarted after the package upgrade."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -401,6 +431,19 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco Prime Service Catalog"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy74698", 
+      "product": "Cisco Unified Intelligence Center", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.5(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Intelligence Center"
       }
     }, 
     {
@@ -442,10 +485,16 @@
           "20.0.R0.63294", 
           "20.0.R0.63316", 
           "20.0.V0.63298", 
+          "20.0.VG0.63323", 
           "20.1.M0.63255", 
           "20.1.M0.63317", 
+          "20.1.M0.63329", 
           "20.2.A0.63265", 
-          "21.0.M0.63272"
+          "20.2.A0.63327", 
+          "20.2.A0.63349", 
+          "21.0.M0.63272", 
+          "21.0.M0.63331", 
+          "21.0.M0.63342"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco ASR 5000 Series"
@@ -467,7 +516,17 @@
     {
       "bug_id": "CSCuy36597", 
       "product": "Cisco IOS-XE for Catalyst 3k, 4k, AIR-CT5760, ,Cisco RF Gateway 10 (RFGW-10), Cisco Converged Broadband Routers Series 8", 
-      "fix": [], 
+      "fix": [
+        "15", 
+        "1(1)SG (No further releases are planned)", 
+        "15.1(2)SG (30-Nov-2016)", 
+        "15.2(1)E (No further releases are planned)", 
+        "15.2.(2)E (30-June-2016)", 
+        "15.2(3)E (31-May-2016)", 
+        "15.2(4)E (30-June-2016)", 
+        "15.0(1)EZ (No further releases are planned)", 
+        "15.0(1)EX (No further releases are planned)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "15.2(2)E", 
@@ -475,7 +534,7 @@
           "15.2(4)E"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco IOS"
       }
     }, 
@@ -509,14 +568,14 @@
       "bug_id": "CSCuy36553", 
       "product": "Cisco Nexus 31128PQ Switch<sup>1</sup>", 
       "fix": [
-        "7.0(3)I2(3) (March 2016)"
+        "7.0(3)I2(2a) (March 2016)", 
+        "7.0(3)I2(2b) (March 2016)"
       ], 
       "bug_data": {
         "affected_releases": [
           "7.0(3)IDP3(1.131)"
         ], 
         "fixed_releases": [
-          "7.0(3)I2(2b)", 
           "7.0(3)I2(3)", 
           "7.0(3)I3(2)", 
           "7.0(3)I4(1)", 
@@ -536,14 +595,14 @@
       "bug_id": "CSCuy36553", 
       "product": "Cisco Nexus 3164Q Switch", 
       "fix": [
-        "7.0(3)I2(3) (March 2016)"
+        "7.0(3)I2(2a) (March 2016)", 
+        "7.0(3)I2(2b) (March 2016)"
       ], 
       "bug_data": {
         "affected_releases": [
           "7.0(3)IDP3(1.131)"
         ], 
         "fixed_releases": [
-          "7.0(3)I2(2b)", 
           "7.0(3)I2(3)", 
           "7.0(3)I3(2)", 
           "7.0(3)I4(1)", 
@@ -563,14 +622,14 @@
       "bug_id": "CSCuy36553", 
       "product": "Cisco Nexus 3232C Switch<sup>1</sup>", 
       "fix": [
-        "7.0(3)I2(3) (March 2016)"
+        "7.0(3)I2(2a) (March 2016)", 
+        "7.0(3)I2(2b) (March 2016)"
       ], 
       "bug_data": {
         "affected_releases": [
           "7.0(3)IDP3(1.131)"
         ], 
         "fixed_releases": [
-          "7.0(3)I2(2b)", 
           "7.0(3)I2(3)", 
           "7.0(3)I3(2)", 
           "7.0(3)I4(1)", 
@@ -584,14 +643,14 @@
       "bug_id": "CSCuy36553", 
       "product": "Cisco Nexus 3264Q Switch<sup>1</sup>", 
       "fix": [
-        "7.0(3)I2(3) (March 2016)"
+        "7.0(3)I2(2a) (March 2016)", 
+        "7.0(3)I2(2b) (March 2016)"
       ], 
       "bug_data": {
         "affected_releases": [
           "7.0(3)IDP3(1.131)"
         ], 
         "fixed_releases": [
-          "7.0(3)I2(2b)", 
           "7.0(3)I2(3)", 
           "7.0(3)I3(2)", 
           "7.0(3)I4(1)", 
@@ -611,8 +670,10 @@
         "affected_releases": [
           "11.2(2.212)"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "11.2(2.226)"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco Nexus 9000 Series Switches"
       }
     }, 
@@ -620,14 +681,14 @@
       "bug_id": "CSCuy36553", 
       "product": "Cisco Nexus 9000 Series Switches (standalone, running NxOS)<sup>1</sup>", 
       "fix": [
-        "7.0(3)I2(3) (March 2016)"
+        "7.0(3)I2(2a) (March 2016)", 
+        "7.0(3)I2(2b) (March 2016)"
       ], 
       "bug_data": {
         "affected_releases": [
           "7.0(3)IDP3(1.131)"
         ], 
         "fixed_releases": [
-          "7.0(3)I2(2b)", 
           "7.0(3)I2(3)", 
           "7.0(3)I3(2)", 
           "7.0(3)I4(1)", 
@@ -640,13 +701,17 @@
     {
       "bug_id": "CSCuy36547", 
       "product": "Cisco Prime Data Center Network Manager", 
-      "fix": [], 
+      "fix": [
+        "1.2(3x) (May 2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "1.2(1.214)", 
           "1.2(1m)"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "1.2(2.66)"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Nexus 9000 Series Switches"
       }
@@ -706,7 +771,7 @@
     }, 
     {
       "bug_id": "CSCuy47726", 
-      "product": "Cisco 8800 Series IP Phones - VPN Feature", 
+      "product": "Cisco 8800 Series IP Phones", 
       "fix": [
         "11.5(0) (March 31", 
         "2016)"
@@ -718,7 +783,9 @@
           "10.3(1)", 
           "11.0(1)"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "11.5(1)MN205"
+        ], 
         "status": "Open", 
         "product_name": "Cisco IP Phone 8800 Series"
       }
@@ -831,7 +898,9 @@
     {
       "bug_id": "CSCuy36605", 
       "product": "Cisco Unified Communications Domain Manager", 
-      "fix": [], 
+      "fix": [
+        "11.5.1 (May 2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "10.6(2)"
@@ -895,7 +964,9 @@
     {
       "bug_id": "CSCuy36603", 
       "product": "Cisco Unity Connection (UC)", 
-      "fix": [], 
+      "fix": [
+        "11.5 (3-Mar-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "11.5(0.223)"
@@ -941,7 +1012,14 @@
       "fix": [
         "1.2.0.19 (31-Mar-2016)"
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "1.2(0.16)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco E340 Series Digital Media Player"
+      }
     }, 
     {
       "bug_id": "CSCuy35269", 
@@ -954,16 +1032,12 @@
           "X7.x", 
           "X8.x"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "X8.7.2"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco TelePresence Video Communication Server (VCS)"
       }
-    }, 
-    {
-      "bug_id": "CSCuy36591", 
-      "product": "Cisco Powerkey CAS Gateway (PCG)", 
-      "fix": [], 
-      "bug_data": null
     }, 
     {
       "bug_id": "CSCuy37232", 
@@ -990,7 +1064,7 @@
           "XC4.1"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco TelePresence Conductor"
       }
     }, 
@@ -1077,15 +1151,19 @@
           "X7.x", 
           "X8.x"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "X8.7.2"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco TelePresence Video Communication Server (VCS)"
       }
     }, 
     {
       "bug_id": "CSCuy35274", 
       "product": "Cisco Video Delivery System Recorder", 
-      "fix": [], 
+      "fix": [
+        "Affected systems have been updated."
+      ], 
       "bug_data": {
         "affected_releases": [
           "3.6(2)"
@@ -1118,7 +1196,9 @@
     {
       "bug_id": "CSCuy38927", 
       "product": "Cisco Video Surveillance Media Server", 
-      "fix": [], 
+      "fix": [
+        "7.8 (June 2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "7.2", 
@@ -1147,7 +1227,9 @@
     {
       "bug_id": "CSCuy35273", 
       "product": "Cloud Object Store (COS)", 
-      "fix": [], 
+      "fix": [
+        "Affected systems have been updated."
+      ], 
       "bug_data": {
         "affected_releases": [
           "3.5(101)"
@@ -1162,12 +1244,6 @@
       }
     }, 
     {
-      "bug_id": "CSCuy34925", 
-      "product": "Cisco 3G Femtocell  Wireless", 
-      "fix": [], 
-      "bug_data": null
-    }, 
-    {
       "bug_id": "CSCuy36568", 
       "product": "Cisco Mobility Services Engine (MSE)", 
       "fix": [
@@ -1177,7 +1253,9 @@
         "affected_releases": [
           "8.0(130.0)"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "8.0(130.11)"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Mobility Services Engine"
       }
@@ -1231,7 +1309,14 @@
       "bug_id": "CSCuy38924", 
       "product": "Cisco Cloud Services", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "1.5.1.5"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Collaboration Meeting Rooms (CMR)"
+      }
     }, 
     {
       "bug_id": "CSCuy36588", 
@@ -1247,9 +1332,19 @@
       }
     }, 
     {
+      "bug_id": "CSCuy35212", 
+      "product": "Cisco Common Services Platform Collector", 
+      "fix": [
+        "Customers can upgrade to the latest version of glibc."
+      ], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCuy36463", 
       "product": "Cisco Partner Supporting Service", 
-      "fix": [], 
+      "fix": [
+        "Affected systems have been updated."
+      ], 
       "bug_data": {
         "affected_releases": [
           "PI2.3"
@@ -1291,6 +1386,12 @@
       }
     }, 
     {
+      "bug_id": "CSCuy35218", 
+      "product": "Feature Analytics Service", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCuy35219", 
       "product": "Network Change and Configuration Management", 
       "fix": [
@@ -1301,7 +1402,9 @@
     {
       "bug_id": "CSCuy36461", 
       "product": "Smart Net Total Care (SNTC)", 
-      "fix": [], 
+      "fix": [
+        "Affected systems have been updated."
+      ], 
       "bug_data": {
         "affected_releases": [
           "PI2.3"
@@ -1320,7 +1423,7 @@
           "2.26(2)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Network Level Service"
       }
     }
