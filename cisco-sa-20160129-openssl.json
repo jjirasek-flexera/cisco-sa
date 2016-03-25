@@ -1,9 +1,9 @@
 {
-  "version": "1.13", 
+  "version": "1.14", 
   "products": [
     {
       "bug_id": "CSCuy07247", 
-      "product": "Cisco WebEx Meetings Server versions 1.<em>x</em>", 
+      "product": "Cisco WebEx Meetings Server versions 1.x", 
       "fix": [
         "2.6 (April 2016)"
       ], 
@@ -22,7 +22,7 @@
     }, 
     {
       "bug_id": "CSCuy07247", 
-      "product": "Cisco WebEx Meetings Server versions 2.<em>x</em>", 
+      "product": "Cisco WebEx Meetings Server versions 2.x", 
       "fix": [
         "2.6 (April 2016)"
       ], 
@@ -43,9 +43,16 @@
       "bug_id": "CSCuy07508", 
       "product": "Cisco Jabber for Windows", 
       "fix": [
-        "11.6 (Apr-6-2016)"
+        "11.6 (Apr-6 2016)"
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "9.0(2)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Jabber for Windows"
+      }
     }, 
     {
       "bug_id": "CSCuy07392", 
@@ -69,7 +76,7 @@
           "9.7.0-125"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Terminated", 
         "product_name": "Cisco Email Security Appliance"
       }
     }, 
@@ -78,11 +85,12 @@
       "product": "Cisco IPS", 
       "fix": [
         "7.1(11) (March 2016)", 
-        "7.3(05) (April 2016)"
+        "7.3(05) (Apr 2016)"
       ], 
       "bug_data": {
         "affected_releases": [
-          "7.1(11)S"
+          "7.1(11)S", 
+          "7.3(4)C9"
         ], 
         "fixed_releases": [], 
         "status": "Fixed", 
@@ -93,7 +101,7 @@
       "bug_id": "CSCuy07267", 
       "product": "Cisco Cloupia Unified Infrastructure Controller", 
       "fix": [
-        "5.4.0.3 (31-Mar-2016)"
+        "5.4.0.3 (31-March-2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -123,7 +131,7 @@
       "bug_id": "CSCuy07329", 
       "product": "Cisco Prime Collaboration Provisioning", 
       "fix": [
-        "11.5 (June 2016)"
+        "11.5 (Jun 2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -145,7 +153,7 @@
           "11.5.0.98000-183"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Communications Licensing"
       }
     }, 
@@ -177,7 +185,7 @@
           "1.7(0.2)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Prime Performance Manager"
       }
     }, 
@@ -185,7 +193,7 @@
       "bug_id": "CSCuy07280", 
       "product": "Cisco MDS 9000 Series Multilayer Switches", 
       "fix": [
-        "7.3 (May 2016)"
+        "7.3 (May2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -206,7 +214,7 @@
       "bug_id": "CSCuy07288", 
       "product": "Cisco Nexus 3000 Series Switches", 
       "fix": [
-        "Fix will be available in April 2016."
+        "A fix will be available (April 2016)"
       ], 
       "bug_data": null
     }, 
@@ -214,7 +222,7 @@
       "bug_id": "CSCuy07289", 
       "product": "Cisco Nexus 3X00 Series Switches", 
       "fix": [
-        "Fix will be available in April 2016."
+        "A fix will be available April 2016"
       ], 
       "bug_data": null
     }, 
@@ -222,7 +230,7 @@
       "bug_id": "CSCuy07280", 
       "product": "Cisco Nexus 5000 Series Switches", 
       "fix": [
-        "7.3 (May 2016)"
+        "7.3 (May2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -243,7 +251,7 @@
       "bug_id": "CSCuy07280", 
       "product": "Cisco Nexus 6000 Series Switches", 
       "fix": [
-        "7.3 (May 2016)"
+        "7.3 (May2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -264,7 +272,7 @@
       "bug_id": "CSCuy07280", 
       "product": "Cisco Nexus 7000 Series Switches", 
       "fix": [
-        "7.3 (May 2016)"
+        "7.3 (May2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -330,15 +338,30 @@
       "fix": [
         "2.2.(3d) (Feb 2016)"
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "2.2(3a)B"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco Unified Computing System"
+      }
     }, 
     {
       "bug_id": "CSCuy07524", 
       "product": "Cisco 8800 Series IP Phones - VPN Feature", 
       "fix": [
-        "11.5.0 (Apr 2016)"
+        "11.5.0(Apr 2016)"
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "11.0(1)", 
+          "11.5(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco IP Phone 8800 Series"
+      }
     }, 
     {
       "bug_id": "CSCuy07221", 
@@ -381,7 +404,9 @@
           "11.5(0.98000.52)", 
           "11.5(0.99833.5)"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "11.5(0.98000.74)"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Emergency Responder"
       }
@@ -390,7 +415,7 @@
       "bug_id": "CSCuy07496", 
       "product": "Cisco IM and Presence Service (CUPS)", 
       "fix": [
-        "11.5 (June 2016)"
+        "11.5 (Jun 2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -398,8 +423,11 @@
           "8.6(4)", 
           "8.6(4.1)"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "10.5(2.23000.8)", 
+          "11.5(0.98000.840)"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Communications Manager IM & Presence Service"
       }
     }, 
@@ -407,7 +435,7 @@
       "bug_id": "CSCuy07520", 
       "product": "Cisco MediaSense", 
       "fix": [
-        "11.5 (15-Jun-2016)"
+        "11.5 (15-Jun 2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -420,18 +448,10 @@
       }
     }, 
     {
-      "bug_id": "CSCuy07527", 
-      "product": "Cisco Unified 7800 Series IP Phones", 
-      "fix": [
-        "11.5.0 (April 2016)"
-      ], 
-      "bug_data": null
-    }, 
-    {
       "bug_id": "CSCuy07517", 
-      "product": "Cisco Unified 8945 IP Phones", 
+      "product": "Cisco Unified 8945 IP Phone", 
       "fix": [
-        "Patch file will be available for affected releases in June 2016."
+        "A patch file will be available for affected releases June 2016"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -446,7 +466,7 @@
       "bug_id": "CSCuy07469", 
       "product": "Cisco Unified Attendant Console Advanced", 
       "fix": [
-        "Patch will be available in Sept 2016."
+        "Patch will be available Sept 2016"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -460,7 +480,7 @@
           "9.1"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Attendant Consoles"
       }
     }, 
@@ -468,7 +488,7 @@
       "bug_id": "CSCuy07469", 
       "product": "Cisco Unified Attendant Console Business Edition", 
       "fix": [
-        "Patch will be available in Sept 2016."
+        "Patch will be available Sept 2016"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -482,7 +502,7 @@
           "9.1"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Attendant Consoles"
       }
     }, 
@@ -490,7 +510,7 @@
       "bug_id": "CSCuy07469", 
       "product": "Cisco Unified Attendant Console Department Edition", 
       "fix": [
-        "Patch will be available in Sept 2016."
+        "Patch will be available Sept 2016"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -504,7 +524,7 @@
           "9.1"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Attendant Consoles"
       }
     }, 
@@ -512,7 +532,7 @@
       "bug_id": "CSCuy07469", 
       "product": "Cisco Unified Attendant Console Enterprise Edition", 
       "fix": [
-        "Patch will be available in Sept 2016."
+        "Patch will be available Sept 2016"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -526,7 +546,7 @@
           "9.1"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Attendant Consoles"
       }
     }, 
@@ -534,7 +554,7 @@
       "bug_id": "CSCuy07469", 
       "product": "Cisco Unified Attendant Console Premium Edition", 
       "fix": [
-        "Patch will be available in Sept 2016."
+        "Patch will be available Sept 2016"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -548,7 +568,7 @@
           "9.1"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Attendant Consoles"
       }
     }, 
@@ -556,7 +576,7 @@
       "bug_id": "CSCuy07470", 
       "product": "Cisco Unified Attendant Console Standard", 
       "fix": [
-        "Patch file is available. See CDET."
+        "Patch file is currently available. Please see CDETS"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -570,7 +590,7 @@
           "11.0(2)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Attendant Consoles"
       }
     }, 
@@ -578,7 +598,7 @@
       "bug_id": "CSCuy07473", 
       "product": "Cisco Unified Communications Manager (UCM)", 
       "fix": [
-        "11.5 (June 2016)"
+        "11.5 (Jun 2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -598,7 +618,7 @@
       "bug_id": "CSCuy07473", 
       "product": "Cisco Unified Communications Manager Session Management Edition (SME)", 
       "fix": [
-        "11.5 (June 2016)"
+        "11.5 (Jun 2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -663,7 +683,7 @@
       "bug_id": "CSCuy07478", 
       "product": "Cisco Unity Connection (UC)", 
       "fix": [
-        "11.5 (29-Feb-2016)"
+        "11.5 (29-Feb 2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -678,7 +698,7 @@
       "bug_id": "CSCuy07452", 
       "product": "Cisco AnyRes Live (CAL)", 
       "fix": [
-        "9.6.3 (11-Feb-2016)"
+        "9.6.3 (11-Feb 2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -700,7 +720,7 @@
           "1.6RB(4.1)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Edge 300 Series Digital Media Player"
       }
     }, 
@@ -712,7 +732,8 @@
       ], 
       "bug_data": {
         "affected_releases": [
-          "X8.8PreAlpha5"
+          "X7.x", 
+          "X8.x"
         ], 
         "fixed_releases": [], 
         "status": "Fixed", 
@@ -723,7 +744,7 @@
       "bug_id": "CSCuy07467", 
       "product": "Cisco TelePresence 1310", 
       "fix": [
-        "Fix will be available in July 2016."
+        "A fix will be available July 2016"
       ], 
       "bug_data": null
     }, 
@@ -745,55 +766,10 @@
       }
     }, 
     {
-      "bug_id": "CSCuy07362", 
-      "product": "Cisco TelePresence Server 8710, 7010", 
-      "fix": [
-        "4.3 (22-Mar-2016)"
-      ], 
-      "bug_data": {
-        "affected_releases": [
-          "4.2Maintenance1"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco TelePresence Server"
-      }
-    }, 
-    {
-      "bug_id": "CSCuy07362", 
-      "product": "Cisco TelePresence Server on Multiparty Media 310, 320", 
-      "fix": [
-        "4.3 (22-Mar-2016)"
-      ], 
-      "bug_data": {
-        "affected_releases": [
-          "4.2Maintenance1"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco TelePresence Server"
-      }
-    }, 
-    {
-      "bug_id": "CSCuy07362", 
-      "product": "Cisco TelePresence Server on Virtual Machine", 
-      "fix": [
-        "4.3 (22-Mar-2016)"
-      ], 
-      "bug_data": {
-        "affected_releases": [
-          "4.2Maintenance1"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco TelePresence Server"
-      }
-    }, 
-    {
       "bug_id": "CSCuy07467", 
       "product": "Cisco TelePresence System 1000", 
       "fix": [
-        "Fix will be available in July 2016."
+        "A fix will be available July 2016"
       ], 
       "bug_data": null
     }, 
@@ -801,7 +777,7 @@
       "bug_id": "CSCuy07467", 
       "product": "Cisco TelePresence System 1100", 
       "fix": [
-        "Fix will be available in July 2016."
+        "A fix will be available July 2016"
       ], 
       "bug_data": null
     }, 
@@ -809,7 +785,7 @@
       "bug_id": "CSCuy07467", 
       "product": "Cisco TelePresence System 1300", 
       "fix": [
-        "Fix will be available in July 2016."
+        "A fix will be available July 2016"
       ], 
       "bug_data": null
     }, 
@@ -817,7 +793,7 @@
       "bug_id": "CSCuy07467", 
       "product": "Cisco TelePresence System 3000 Series", 
       "fix": [
-        "Fix will be available in July 2016."
+        "A fix will be available July 2016"
       ], 
       "bug_data": null
     }, 
@@ -825,7 +801,7 @@
       "bug_id": "CSCuy07467", 
       "product": "Cisco TelePresence System 500-32", 
       "fix": [
-        "Fix will be available in July 2016."
+        "A fix will be available July 2016"
       ], 
       "bug_data": null
     }, 
@@ -833,7 +809,7 @@
       "bug_id": "CSCuy07467", 
       "product": "Cisco TelePresence System 500-37", 
       "fix": [
-        "Fix will be available in July 2016."
+        "A fix will be available July 2016"
       ], 
       "bug_data": null
     }, 
@@ -841,7 +817,7 @@
       "bug_id": "CSCuy07467", 
       "product": "Cisco TelePresence TX 9000 Series", 
       "fix": [
-        "Fix will be available in July 2016."
+        "A fix will be available July 2016"
       ], 
       "bug_data": null
     }, 
@@ -853,7 +829,8 @@
       ], 
       "bug_data": {
         "affected_releases": [
-          "X8.8PreAlpha5"
+          "X7.x", 
+          "X8.x"
         ], 
         "fixed_releases": [], 
         "status": "Fixed", 
@@ -864,7 +841,7 @@
       "bug_id": "CSCuy07372", 
       "product": "Cisco Videoscape Control Suite", 
       "fix": [
-        "3.5.3 (29-Feb-2016)"
+        "3.5.3 (29-Feb 2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -879,14 +856,16 @@
       "bug_id": "CSCuy07319", 
       "product": "Cisco Mobility Services Engine (MSE)", 
       "fix": [
-        "8.0.140.0. (31-Mar-2016)"
+        "8.0.140.0. (31-March-2016)"
       ], 
       "bug_data": {
         "affected_releases": [
           "8.0(130.10)"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "8.0(130.11)"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco Mobility Services Engine"
       }
     }, 
@@ -894,7 +873,7 @@
       "bug_id": "CSCuy07216", 
       "product": "Cisco Proactive Network Operations Center", 
       "fix": [
-        "Fix will be available 4-Mar-2016."
+        "A fix will be available (4-March 2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -928,8 +907,7 @@
       ], 
       "bug_data": {
         "affected_releases": [
-          "7.14.2", 
-          "7.15.0"
+          "7.14.2"
         ], 
         "fixed_releases": [], 
         "status": "Fixed", 
