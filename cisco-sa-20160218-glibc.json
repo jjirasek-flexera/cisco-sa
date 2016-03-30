@@ -1,5 +1,5 @@
 {
-  "version": "1.13", 
+  "version": "1.14", 
   "products": [
     {
       "bug_id": "CSCuy36539", 
@@ -62,7 +62,7 @@
       "bug_id": "CSCuy36549", 
       "product": "Cisco Intercloud Fabric", 
       "fix": [
-        "Customers may upgrade via Red Hat, which  provides the 2.12-166 patch release to cover this vulnerability"
+        "Customers may upgrade via Redhat which  provides 2.12-166 patch release to cover this vulnerability"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -77,7 +77,7 @@
       "bug_id": "CSCuy36549", 
       "product": "Cisco Prime Network Service Controller (PNSC)", 
       "fix": [
-        "Customers may upgrade via Red Hat, which  provides the 2.12-166 patch release to cover this vulnerability"
+        "Customers may upgrade via Redhat which  provides 2.12-166 patch release to cover this vulnerability"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -196,7 +196,9 @@
     {
       "bug_id": "CSCuy35286", 
       "product": "Cisco Physical Access Manager", 
-      "fix": [], 
+      "fix": [
+        "Affected versions will be update (15-Apr-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "1.5(3.0.3.6)"
@@ -280,7 +282,7 @@
       "bug_id": "CSCuy36447", 
       "product": "Cisco Prime Analytics", 
       "fix": [
-        "Please upgrade to Red Hat 6.5 for OS."
+        "Please upgrade to Redhat 6.5 for OS."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -345,7 +347,7 @@
       "bug_id": "CSCuy36566", 
       "product": "Cisco Prime IP Express", 
       "fix": [
-        "Customers may upgrade the <em>glibc </em>library on affected devices using the Red Hat <strong>yum </strong>utility. Devices will need to be restarted after the package upgrade."
+        "Customers may upgrade the glibc library on affected devices utilizing the RedHat yum utility. Devices will need to be restarted after the package upgrade"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -408,7 +410,9 @@
     {
       "bug_id": "CSCuy36433", 
       "product": "Cisco Prime Optical for SPs", 
-      "fix": [], 
+      "fix": [
+        "10.006 (31-July-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "9.8(0.4)"
@@ -422,7 +426,7 @@
       "bug_id": "CSCuy34875", 
       "product": "Cisco Prime Service Catalog Virtual Appliance", 
       "fix": [
-        "Customers may upgrade the <em>glibc </em>library on affected devices using the Red Hat <strong>yum </strong>utility.  Devices will need to be restarted after the package upgrade."
+        "Customers may upgrade the glibc library on affected devices utilizing the RedHat yum utility.  Devices will need to be restarted after the package upgrade"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -449,7 +453,9 @@
     {
       "bug_id": "CSCuy35261", 
       "product": "Cisco Videoscape Distribution Suite Service Manager", 
-      "fix": [], 
+      "fix": [
+        "Affected systems have been updated."
+      ], 
       "bug_data": {
         "affected_releases": [
           "3.2", 
@@ -474,27 +480,41 @@
           "19.0.0"
         ], 
         "fixed_releases": [
+          "18.3.6", 
+          "18.6.0", 
           "18.6.0.63290", 
           "18.6.M0.63240", 
+          "18.6.v0", 
+          "18.6.v0.63433", 
+          "18.7.M0.63454", 
           "19.3.V0.63260", 
           "19.3.VS0.63262", 
           "19.4.A0.63268", 
+          "19.4.A0.63480", 
           "19.4.M0.63257", 
+          "19.4.M0.63472", 
           "19.4.T0.63270", 
+          "19.4.T0.63495", 
           "20.0.0.63284", 
           "20.0.R0.63294", 
           "20.0.R0.63316", 
           "20.0.V0.63298", 
+          "20.0.V0.63476", 
           "20.0.VG0.63323", 
+          "20.0.VG0.63508", 
+          "20.0.vg0.63522", 
           "20.1.M0.63255", 
           "20.1.M0.63317", 
           "20.1.M0.63329", 
+          "20.1.M0.63493", 
           "20.2.A0.63265", 
           "20.2.A0.63327", 
           "20.2.A0.63349", 
+          "20.2.A0.63491", 
           "21.0.M0.63272", 
           "21.0.M0.63331", 
-          "21.0.M0.63342"
+          "21.0.M0.63342", 
+          "21.0.M0.63506"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco ASR 5000 Series"
@@ -503,13 +523,15 @@
     {
       "bug_id": "CSCuy36412", 
       "product": "Cisco Connected Grid Routers (CGR)", 
-      "fix": [], 
+      "fix": [
+        "Affected versions will be update (25-Mar-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "7.3(0)ZN(0.239)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco 1000 Series Connected Grid Routers"
       }
     }, 
@@ -549,27 +571,75 @@
     {
       "bug_id": "CSCuy38921", 
       "product": "Cisco Nexus 3016 Switch<sup>2</sup>", 
-      "fix": [], 
-      "bug_data": null
+      "fix": [
+        "Patches are available:", 
+        "http://www.cisco.com/c/en/us/td/docs/switches/datacenter/nexus9000/sw/7-x/r", 
+        "elease/notes/70322a_patch_nxos_rn.html", 
+        "http://www.cisco.com/c/en/us/td/docs/switches/datacenter/nexus9000/sw/7-x/r", 
+        "elease/notes/70322b_patch_nxos_rn.html"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "7.0(3)I2(2a)", 
+          "7.0(3)I2(2b)", 
+          "7.0(3)I3(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Nexus 3000 Series Switches"
+      }
     }, 
     {
       "bug_id": "CSCuy38921", 
       "product": "Cisco Nexus 3048 Switch<sup>2</sup>", 
-      "fix": [], 
-      "bug_data": null
+      "fix": [
+        "Patches are available:", 
+        "http://www.cisco.com/c/en/us/td/docs/switches/datacenter/nexus9000/sw/7-x/r", 
+        "elease/notes/70322a_patch_nxos_rn.html", 
+        "http://www.cisco.com/c/en/us/td/docs/switches/datacenter/nexus9000/sw/7-x/r", 
+        "elease/notes/70322b_patch_nxos_rn.html"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "7.0(3)I2(2a)", 
+          "7.0(3)I2(2b)", 
+          "7.0(3)I3(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Nexus 3000 Series Switches"
+      }
     }, 
     {
       "bug_id": "CSCuy38921", 
       "product": "Cisco Nexus 3064 Series Switches<sup>2</sup>", 
-      "fix": [], 
-      "bug_data": null
+      "fix": [
+        "Patches are available:", 
+        "http://www.cisco.com/c/en/us/td/docs/switches/datacenter/nexus9000/sw/7-x/r", 
+        "elease/notes/70322a_patch_nxos_rn.html", 
+        "http://www.cisco.com/c/en/us/td/docs/switches/datacenter/nexus9000/sw/7-x/r", 
+        "elease/notes/70322b_patch_nxos_rn.html"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "7.0(3)I2(2a)", 
+          "7.0(3)I2(2b)", 
+          "7.0(3)I3(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Nexus 3000 Series Switches"
+      }
     }, 
     {
       "bug_id": "CSCuy36553", 
       "product": "Cisco Nexus 31128PQ Switch<sup>1</sup>", 
       "fix": [
-        "7.0(3)I2(2a) (March 2016)", 
-        "7.0(3)I2(2b) (March 2016)"
+        "Patches are available:", 
+        "http://www.cisco.com/c/en/us/td/docs/switches/datacenter/nexus9000/sw/7-x/r", 
+        "elease/notes/70322a_patch_nxos_rn.html", 
+        "http://www.cisco.com/c/en/us/td/docs/switches/datacenter/nexus9000/sw/7-x/r", 
+        "elease/notes/70322b_patch_nxos_rn.html"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -588,15 +658,33 @@
     {
       "bug_id": "CSCuy38921", 
       "product": "Cisco Nexus 3132 Series Switches<sup>2</sup>", 
-      "fix": [], 
-      "bug_data": null
+      "fix": [
+        "Patches are available:", 
+        "http://www.cisco.com/c/en/us/td/docs/switches/datacenter/nexus9000/sw/7-x/r", 
+        "elease/notes/70322a_patch_nxos_rn.html", 
+        "http://www.cisco.com/c/en/us/td/docs/switches/datacenter/nexus9000/sw/7-x/r", 
+        "elease/notes/70322b_patch_nxos_rn.html"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "7.0(3)I2(2a)", 
+          "7.0(3)I2(2b)", 
+          "7.0(3)I3(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Nexus 3000 Series Switches"
+      }
     }, 
     {
       "bug_id": "CSCuy36553", 
       "product": "Cisco Nexus 3164Q Switch", 
       "fix": [
-        "7.0(3)I2(2a) (March 2016)", 
-        "7.0(3)I2(2b) (March 2016)"
+        "Patches are available:", 
+        "http://www.cisco.com/c/en/us/td/docs/switches/datacenter/nexus9000/sw/7-x/r", 
+        "elease/notes/70322a_patch_nxos_rn.html", 
+        "http://www.cisco.com/c/en/us/td/docs/switches/datacenter/nexus9000/sw/7-x/r", 
+        "elease/notes/70322b_patch_nxos_rn.html"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -615,15 +703,33 @@
     {
       "bug_id": "CSCuy38921", 
       "product": "Cisco Nexus 3172 Series Switches<sup>2</sup>", 
-      "fix": [], 
-      "bug_data": null
+      "fix": [
+        "Patches are available:", 
+        "http://www.cisco.com/c/en/us/td/docs/switches/datacenter/nexus9000/sw/7-x/r", 
+        "elease/notes/70322a_patch_nxos_rn.html", 
+        "http://www.cisco.com/c/en/us/td/docs/switches/datacenter/nexus9000/sw/7-x/r", 
+        "elease/notes/70322b_patch_nxos_rn.html"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "7.0(3)I2(2a)", 
+          "7.0(3)I2(2b)", 
+          "7.0(3)I3(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Nexus 3000 Series Switches"
+      }
     }, 
     {
       "bug_id": "CSCuy36553", 
       "product": "Cisco Nexus 3232C Switch<sup>1</sup>", 
       "fix": [
-        "7.0(3)I2(2a) (March 2016)", 
-        "7.0(3)I2(2b) (March 2016)"
+        "Patches are available:", 
+        "http://www.cisco.com/c/en/us/td/docs/switches/datacenter/nexus9000/sw/7-x/r", 
+        "elease/notes/70322a_patch_nxos_rn.html", 
+        "http://www.cisco.com/c/en/us/td/docs/switches/datacenter/nexus9000/sw/7-x/r", 
+        "elease/notes/70322b_patch_nxos_rn.html"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -643,8 +749,11 @@
       "bug_id": "CSCuy36553", 
       "product": "Cisco Nexus 3264Q Switch<sup>1</sup>", 
       "fix": [
-        "7.0(3)I2(2a) (March 2016)", 
-        "7.0(3)I2(2b) (March 2016)"
+        "Patches are available:", 
+        "http://www.cisco.com/c/en/us/td/docs/switches/datacenter/nexus9000/sw/7-x/r", 
+        "elease/notes/70322a_patch_nxos_rn.html", 
+        "http://www.cisco.com/c/en/us/td/docs/switches/datacenter/nexus9000/sw/7-x/r", 
+        "elease/notes/70322b_patch_nxos_rn.html"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -681,8 +790,11 @@
       "bug_id": "CSCuy36553", 
       "product": "Cisco Nexus 9000 Series Switches (standalone, running NxOS)<sup>1</sup>", 
       "fix": [
-        "7.0(3)I2(2a) (March 2016)", 
-        "7.0(3)I2(2b) (March 2016)"
+        "Patches are available:", 
+        "http://www.cisco.com/c/en/us/td/docs/switches/datacenter/nexus9000/sw/7-x/r", 
+        "elease/notes/70322a_patch_nxos_rn.html", 
+        "http://www.cisco.com/c/en/us/td/docs/switches/datacenter/nexus9000/sw/7-x/r", 
+        "elease/notes/70322b_patch_nxos_rn.html"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -710,7 +822,9 @@
           "1.2(1m)"
         ], 
         "fixed_releases": [
-          "1.2(2.66)"
+          "1.2(3a)", 
+          "1.3(0.66)", 
+          "2.0(0.222)"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco Nexus 9000 Series Switches"
@@ -751,7 +865,14 @@
       "bug_id": "CSCuy36413", 
       "product": "Cisco UCS Director", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "5.4(0.0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco UCS Director"
+      }
     }, 
     {
       "bug_id": "CSCuy36550", 
@@ -786,7 +907,7 @@
         "fixed_releases": [
           "11.5(1)MN205"
         ], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco IP Phone 8800 Series"
       }
     }, 
@@ -808,6 +929,20 @@
       }
     }, 
     {
+      "bug_id": "CSCuy74706", 
+      "product": "Cisco Finesse", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.0(1)", 
+          "11.5(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Finesse"
+      }
+    }, 
+    {
       "bug_id": "CSCuy36610", 
       "product": "Cisco Hosted Collaboration Mediation Fulfillment", 
       "fix": [], 
@@ -823,7 +958,9 @@
     {
       "bug_id": "CSCuy36608", 
       "product": "Cisco IM and Presence Service (CUPS)", 
-      "fix": [], 
+      "fix": [
+        "Affected systems have been updated."
+      ], 
       "bug_data": {
         "affected_releases": [
           "11.5(1)"
@@ -920,6 +1057,9 @@
           "11.0(1.10000.10)"
         ], 
         "fixed_releases": [
+          "10.5(2.14062.1)", 
+          "11.0(1.22035.1)", 
+          "11.0(1.22900.3)", 
           "11.5(0.98000.210)", 
           "11.5(0.98000.268)", 
           "11.5(0.98000.591)", 
@@ -939,6 +1079,9 @@
           "11.0(1.10000.10)"
         ], 
         "fixed_releases": [
+          "10.5(2.14062.1)", 
+          "11.0(1.22035.1)", 
+          "11.0(1.22900.3)", 
           "11.5(0.98000.210)", 
           "11.5(0.98000.268)", 
           "11.5(0.98000.591)", 
@@ -1335,7 +1478,7 @@
       "bug_id": "CSCuy35212", 
       "product": "Cisco Common Services Platform Collector", 
       "fix": [
-        "Customers can upgrade to the latest version of glibc."
+        "Customers can upgrade to the latest version of <em>glibc</em>."
       ], 
       "bug_data": null
     }, 
@@ -1417,7 +1560,9 @@
     {
       "bug_id": "CSCuy36454", 
       "product": "Smart Net Total Care", 
-      "fix": [], 
+      "fix": [
+        "Affected systems have been updated."
+      ], 
       "bug_data": {
         "affected_releases": [
           "2.26(2)"
