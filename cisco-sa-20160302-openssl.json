@@ -1,5 +1,5 @@
 {
-  "version": "1.7", 
+  "version": "1.8", 
   "products": [
     {
       "bug_id": "CSCuy54660", 
@@ -39,9 +39,11 @@
         ], 
         "fixed_releases": [
           "2.0.1.950", 
-          "2.0.1.951"
+          "2.0.1.951", 
+          "2.0.1.954", 
+          "2.0.1.956"
         ], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco WebEx Meeting Center"
       }
     }, 
@@ -57,9 +59,11 @@
         ], 
         "fixed_releases": [
           "2.0.1.950", 
-          "2.0.1.951"
+          "2.0.1.951", 
+          "2.0.1.954", 
+          "2.0.1.956"
         ], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco WebEx Meeting Center"
       }
     }, 
@@ -201,7 +205,7 @@
       }
     }, 
     {
-      "bug_id": "CSCuy54656", 
+      "bug_id": "CSCuy59818", 
       "product": "Cisco Jabber for Mac", 
       "fix": [], 
       "bug_data": {
@@ -216,7 +220,7 @@
           "11.7(0)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Jabber for Mac"
       }
     }, 
@@ -304,8 +308,10 @@
         "affected_releases": [
           "2.6"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "2.0.1.956"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco WebEx Meeting Center"
       }
     }, 
@@ -339,6 +345,21 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco ACE 4700 Series Application Control Engine Appliances"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54560", 
+      "product": "Cisco Application and Content Networking System (ACNS) (*)<br />", 
+      "fix": [
+        "5.5.41 (15-Apr-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "5.5(39.5)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Enterprise CDN Software"
       }
     }, 
     {
@@ -420,7 +441,9 @@
           "100.10(6.0.41)"
         ], 
         "fixed_releases": [
-          "100.6(0.0.172)"
+          "100.6(0.0.172)", 
+          "100.6(0.0.174)", 
+          "9.3(4.5.3)"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco ASA Next-Generation Firewall Services"
@@ -478,7 +501,16 @@
       "bug_id": "CSCuy53668", 
       "product": "Cisco Content Security Management Appliance (SMA)", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "8.3.6-039", 
+          "9.1.1-005", 
+          "9.6.0-051"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Content Security Management Appliance"
+      }
     }, 
     {
       "bug_id": "CSCuy53654", 
@@ -486,7 +518,20 @@
       "fix": [
         "9.8.5 (Available)"
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "8.0.1-023", 
+          "8.5.6-106", 
+          "8.5.7-043", 
+          "9.1.0-032", 
+          "9.6.0-051", 
+          "9.7.0-125", 
+          "9.7.1-066"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco Email Security Appliance"
+      }
     }, 
     {
       "bug_id": "CSCuy54453", 
@@ -496,7 +541,7 @@
     }, 
     {
       "bug_id": "CSCuy54601", 
-      "product": "Cisco IPS (*)", 
+      "product": "Cisco IPS (*)<br />", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
@@ -504,7 +549,7 @@
           "7.3(5)C"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco IPS 4200 Series Sensors"
       }
     }, 
@@ -660,7 +705,7 @@
     }, 
     {
       "bug_id": "CSCuy54532", 
-      "product": "Cisco Digital Media Manager (*)", 
+      "product": "Cisco Digital Media Manager (*)<br />", 
       "fix": [], 
       "bug_data": null
     }, 
@@ -714,8 +759,10 @@
     }, 
     {
       "bug_id": "CSCuy54443", 
-      "product": "Cisco Management Appliance (MAP) (*)", 
-      "fix": [], 
+      "product": "Cisco Management Appliance (MAP) (*)<br />", 
+      "fix": [
+        "Affected systems will be updated (8 April 2016)"
+      ], 
       "bug_data": null
     }, 
     {
@@ -815,7 +862,7 @@
           "11.5(0.98000.270)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Communications Manager (CallManager)"
       }
     }, 
@@ -853,7 +900,7 @@
     }, 
     {
       "bug_id": "CSCuy54514", 
-      "product": "Cisco Prime IP Express (*)", 
+      "product": "Cisco Prime IP Express (*)<br />", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
@@ -904,7 +951,7 @@
     }, 
     {
       "bug_id": "CSCuy54510", 
-      "product": "Cisco Prime Network Registrar (CPNR) (*)", 
+      "product": "Cisco Prime Network Registrar (CPNR) (*)<br />", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
@@ -919,14 +966,14 @@
     }, 
     {
       "bug_id": "CSCuy54525", 
-      "product": "Cisco Prime Network Services Controller (*)", 
+      "product": "Cisco Prime Network Services Controller (*)<br />", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
           "3.4(2)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Virtual Network Management Center"
       }
     }, 
@@ -966,7 +1013,9 @@
         "affected_releases": [
           "1.7(0.3)"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "1.7(0.4)"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Prime Performance Manager"
       }
@@ -982,7 +1031,9 @@
           "100.10(6.0.41)"
         ], 
         "fixed_releases": [
-          "100.6(0.0.172)"
+          "100.6(0.0.172)", 
+          "100.6(0.0.174)", 
+          "9.3(4.5.3)"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco ASA Next-Generation Firewall Services"
@@ -1015,11 +1066,25 @@
       "fix": [], 
       "bug_data": {
         "affected_releases": [
+          "1.4(1a)", 
           "1.4(1b)"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco UCS Central Software"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy74294", 
+      "product": "Cisco Unified Intelligence Center (CUIC)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.5(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Intelligence Center"
       }
     }, 
     {
@@ -1075,27 +1140,11 @@
       "bug_id": "CSCuy54436", 
       "product": "Cisco ASR 5000 Series", 
       "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "18.7.0", 
-          "18.7.M0.private", 
-          "19.4.0"
-        ], 
-        "fixed_releases": [
-          "19.4.A0.63339", 
-          "19.4.M0.63322", 
-          "19.4.T0.63330", 
-          "20.1.M0.63329", 
-          "20.2.A0.63349", 
-          "21.0.M0.63342"
-        ], 
-        "status": "Fixed", 
-        "product_name": "Cisco ASR 5000 Series"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCuy54477", 
-      "product": "Cisco Connected Grid Router - CGOS (*)", 
+      "product": "Cisco Connected Grid Router - CGOS (*)<br />", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
@@ -1125,6 +1174,9 @@
       "fix": [], 
       "bug_data": {
         "affected_releases": [
+          "15.2(4)E1", 
+          "15.5(3)M", 
+          "15.5(3)S", 
           "Denlai-16.3.1"
         ], 
         "fixed_releases": [
@@ -1140,6 +1192,7 @@
       "fix": [], 
       "bug_data": {
         "affected_releases": [
+          "6.0.1.12i.BASE", 
           "6.2.0.K9SEC"
         ], 
         "fixed_releases": [], 
@@ -1166,7 +1219,7 @@
     }, 
     {
       "bug_id": "CSCuy54485", 
-      "product": "Cisco Nexus 1000V InterCloud (*)", 
+      "product": "Cisco Nexus 1000V InterCloud (*)<br />", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
@@ -1257,6 +1310,21 @@
       }
     }, 
     {
+      "bug_id": "CSCuy54484", 
+      "product": "Cisco Nexus 9000 (ACI/Fabric Switch)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.2(2.219)"
+        ], 
+        "fixed_releases": [
+          "11.2(2.226)"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco Nexus 9000 Series Switches"
+      }
+    }, 
+    {
       "bug_id": "CSCuy57853", 
       "product": "Cisco Nexus 9000 Series (standalone, running NxOS)", 
       "fix": [], 
@@ -1264,14 +1332,17 @@
         "affected_releases": [
           "7.0(3)I4(1)"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "7.0(3)I4(0.42)", 
+          "7.0(3)I4(1)"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco Nexus 9000 Series Switches"
       }
     }, 
     {
       "bug_id": "CSCuy54696", 
-      "product": "Cisco ONS 15454 Series Multiservice Provisioning Platforms (*)", 
+      "product": "Cisco ONS 15454 Series Multiservice Provisioning Platforms (*)<br />", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
@@ -1392,7 +1463,7 @@
     }, 
     {
       "bug_id": "CSCuy54499", 
-      "product": "Cisco Unified Computing System B-Series (Blade) Servers (*)", 
+      "product": "Cisco Unified Computing System B-Series (Blade) Servers (*)<br />", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
@@ -1420,6 +1491,19 @@
       "product": "Cisco ATA 187 Analog Telephone Adaptor", 
       "fix": [], 
       "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuy54639", 
+      "product": "Cisco Agent Desktop for Cisco Unified Contact Center Express", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "10.6(1)SU2"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Contact Center Express"
+      }
     }, 
     {
       "bug_id": "CSCuy54687", 
@@ -1455,8 +1539,10 @@
         "affected_releases": [
           "11.5(0.98000.74)"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "11.5(0.98000.88)"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco Emergency Responder"
       }
     }, 
@@ -1681,14 +1767,7 @@
       "bug_id": "CSCuy54672", 
       "product": "Cisco Unified 7800 Series IP Phones", 
       "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "11.0(1)"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco IP Phone 7800 Series"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCuy54663", 
@@ -1706,40 +1785,19 @@
       "bug_id": "CSCuy54651", 
       "product": "Cisco Unified 8961 IP Phone", 
       "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "9.4(2)"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Unified IP Phones 9900 Series"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCuy54651", 
       "product": "Cisco Unified 9951 IP Phone", 
       "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "9.4(2)"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Unified IP Phones 9900 Series"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCuy54651", 
       "product": "Cisco Unified 9971 IP Phone", 
       "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "9.4(2)"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Unified IP Phones 9900 Series"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCuy54630", 
@@ -1872,7 +1930,7 @@
           "10.6(3)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Hosted Collaboration Solution (HCS)"
       }
     }, 
@@ -1882,16 +1940,21 @@
       "fix": [], 
       "bug_data": {
         "affected_releases": [
-          "11.5(1.99000.9)"
+          "10.5(2.10000.5)", 
+          "11.0(1.10000.10)"
         ], 
         "fixed_releases": [
           "11.5(0.98000.220)", 
+          "11.5(0.98000.227)", 
           "11.5(0.98000.283)", 
+          "11.5(0.98000.289)", 
           "11.5(0.98000.623)", 
+          "11.5(0.98000.639)", 
           "11.5(0.98000.875)", 
-          "11.5(0.98000.876)"
+          "11.5(0.98000.876)", 
+          "11.5(0.98000.900)"
         ], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Communications Manager (CallManager)"
       }
     }, 
@@ -1901,16 +1964,21 @@
       "fix": [], 
       "bug_data": {
         "affected_releases": [
-          "11.5(1.99000.9)"
+          "10.5(2.10000.5)", 
+          "11.0(1.10000.10)"
         ], 
         "fixed_releases": [
           "11.5(0.98000.220)", 
+          "11.5(0.98000.227)", 
           "11.5(0.98000.283)", 
+          "11.5(0.98000.289)", 
           "11.5(0.98000.623)", 
+          "11.5(0.98000.639)", 
           "11.5(0.98000.875)", 
-          "11.5(0.98000.876)"
+          "11.5(0.98000.876)", 
+          "11.5(0.98000.900)"
         ], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Communications Manager (CallManager)"
       }
     }, 
@@ -1998,7 +2066,14 @@
       "fix": [
         "SSLV2 is disabled."
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "1.4(8.4)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco Unified IP Phone 7900 Series"
+      }
     }, 
     {
       "bug_id": "CSCuy54680", 
@@ -2025,8 +2100,10 @@
         "affected_releases": [
           "11.5(0.229)"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "11.5(0.98000.644)"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco Unity Connection"
       }
     }, 
@@ -2039,7 +2116,7 @@
           "11.5(1)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Virtualization Experience Media Edition"
       }
     }, 
@@ -2130,7 +2207,7 @@
           "2.6"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Content Delivery Engine Series"
       }
     }, 
@@ -2142,7 +2219,7 @@
     }, 
     {
       "bug_id": "CSCuy54611", 
-      "product": "Cisco Headend System Release (*)", 
+      "product": "Cisco Headend System Release (*)<br />", 
       "fix": [
         "1.06 (1-May-2016)", 
         "1.1.3 (1-May-2016)", 
@@ -2182,7 +2259,7 @@
     }, 
     {
       "bug_id": "CSCuy54538", 
-      "product": "Cisco Media Experience Engines (MXE) (*)", 
+      "product": "Cisco Media Experience Engines (MXE) (*)<br />", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
@@ -2203,7 +2280,7 @@
     }, 
     {
       "bug_id": "CSCuy54612", 
-      "product": "Cisco Model D9485 DAVIC QPSK (*)", 
+      "product": "Cisco Model D9485 DAVIC QPSK (*)<br />", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
@@ -2212,6 +2289,23 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Headend System Releases"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54628", 
+      "product": "Cisco TelePresence 1310", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "6.1.1"
+        ], 
+        "fixed_releases": [
+          "1.10.15:3", 
+          "1.9.11:2", 
+          "6.1.12:3"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco TelePresence TX9000 Series"
       }
     }, 
     {
@@ -2280,8 +2374,10 @@
         "affected_releases": [
           "4.5Maintenance2"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "4.5(1.85)"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco TelePresence MCU 4500 Series"
       }
     }, 
@@ -2351,8 +2447,127 @@
       }
     }, 
     {
+      "bug_id": "CSCuy54628", 
+      "product": "Cisco TelePresence System 1000 &nbsp;(*)<br />", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "6.1.1"
+        ], 
+        "fixed_releases": [
+          "1.10.15:3", 
+          "1.9.11:2", 
+          "6.1.12:3"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco TelePresence TX9000 Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54628", 
+      "product": "Cisco TelePresence System 1100&nbsp;(*)<br />", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "6.1.1"
+        ], 
+        "fixed_releases": [
+          "1.10.15:3", 
+          "1.9.11:2", 
+          "6.1.12:3"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco TelePresence TX9000 Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54628", 
+      "product": "Cisco TelePresence System 1300&nbsp;(*)<br />", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "6.1.1"
+        ], 
+        "fixed_releases": [
+          "1.10.15:3", 
+          "1.9.11:2", 
+          "6.1.12:3"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco TelePresence TX9000 Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54628", 
+      "product": "Cisco TelePresence System 3000 Series&nbsp;(*)<br />", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "6.1.1"
+        ], 
+        "fixed_releases": [
+          "1.10.15:3", 
+          "1.9.11:2", 
+          "6.1.12:3"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco TelePresence TX9000 Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54628", 
+      "product": "Cisco TelePresence System 500-32&nbsp;(*)<br />", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "6.1.1"
+        ], 
+        "fixed_releases": [
+          "1.10.15:3", 
+          "1.9.11:2", 
+          "6.1.12:3"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco TelePresence TX9000 Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54628", 
+      "product": "Cisco TelePresence System 500-37&nbsp;(*)<br />", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "6.1.1"
+        ], 
+        "fixed_releases": [
+          "1.10.15:3", 
+          "1.9.11:2", 
+          "6.1.12:3"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco TelePresence TX9000 Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCuy54628", 
+      "product": "Cisco TelePresence TX 9000 Series&nbsp;(*)<br />", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "6.1.1"
+        ], 
+        "fixed_releases": [
+          "1.10.15:3", 
+          "1.9.11:2", 
+          "6.1.12:3"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco TelePresence TX9000 Series"
+      }
+    }, 
+    {
       "bug_id": "CSCuy54547", 
-      "product": "Cisco TelePresence Video Communication Server (VCS) (*)", 
+      "product": "Cisco TelePresence Video Communication Server (VCS) (*)<br />", 
       "fix": [], 
       "bug_data": null
     }, 
@@ -2370,7 +2585,10 @@
         "affected_releases": [
           "4.2(1)"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "3.3(1.125)", 
+          "3.3(1.126)"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Content Delivery Engine Series"
       }
@@ -2537,13 +2755,20 @@
     }, 
     {
       "bug_id": "CSCuy54552", 
-      "product": "Cloud Object Store (COS) (*)", 
+      "product": "Cloud Object Store (COS) (*)<br />", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
           "3.7(0)"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "ccdms-03.13(0.143)", 
+          "ccdss-03.13(0.143)", 
+          "cde-03.13(0.143)", 
+          "cos-03.7(0.266)", 
+          "cos-03.9(0.78)", 
+          "recorder-04.3(0.184)"
+        ], 
         "status": "Open", 
         "product_name": "Cisco Content Delivery Engine Series"
       }
@@ -2588,14 +2813,16 @@
         "affected_releases": [
           "8.0(130.10)"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "8.0(130.12)"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Mobility Services Engine"
       }
     }, 
     {
       "bug_id": "CSCuy58091", 
-      "product": "Cisco Wireless LAN Controller (WLC) (*)", 
+      "product": "Cisco Wireless LAN Controller (WLC) (*)<br />", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
@@ -2713,7 +2940,16 @@
       "bug_id": "CSCuy54472", 
       "product": "Cisco WebEx Meetings (Meeting Center, Training Center, Event Center, Support Center)", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "T29", 
+          "T30", 
+          "T31SP3"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco WebEx Meetings"
+      }
     }, 
     {
       "bug_id": "CSCuy54466", 
