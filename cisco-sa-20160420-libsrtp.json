@@ -1,0 +1,377 @@
+{
+  "version": "1.0", 
+  "products": [
+    {
+      "bug_id": "CSCux00729", 
+      "product": "Cisco WebEx Meetings Server versions 1.x", 
+      "fix": [
+        "&nbsp;"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "2.6"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco WebEx Meeting Center"
+      }
+    }, 
+    {
+      "bug_id": "CSCux00729", 
+      "product": "Cisco WebEx Meetings Server versions 2.x", 
+      "fix": [
+        "2.6.1 and 2.7 (June 2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "2.6"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco WebEx Meeting Center"
+      }
+    }, 
+    {
+      "bug_id": "CSCux00711", 
+      "product": "Cisco Jabber", 
+      "fix": [
+        "11.6"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "2.99(0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Unified Communications 500 Series for Small Business (UC500)"
+      }
+    }, 
+    {
+      "bug_id": "CSCux00686", 
+      "product": "Cisco Adaptive Security Appliance (ASA) Software<a href=\"#1\"><sup>1</sup></a><br />", 
+      "fix": [
+        "8.4.7.31", 
+        "9.1.7", 
+        "9.2.4.6", 
+        "9.3.3.8"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "8.1(0.104)"
+        ], 
+        "fixed_releases": [
+          "100.11(0.66)", 
+          "100.12(0.155)", 
+          "100.13(0.121)", 
+          "100.15(0.103)", 
+          "100.16(0.14)", 
+          "100.16(1.70)", 
+          "100.16(14.1)", 
+          "100.7(6.149)", 
+          "100.8(40.109)", 
+          "8.4(7.31)", 
+          "9.0(4.39)", 
+          "9.1(6.113)", 
+          "9.1(7)", 
+          "9.2(4.6)", 
+          "9.3(3.171)", 
+          "9.3(3.8)", 
+          "9.4(2.5)", 
+          "9.4(2.99)", 
+          "9.5(2.6)", 
+          "9.6(0.99)", 
+          "96.1(1.14)", 
+          "96.1(5.4)", 
+          "96.1(6.1)", 
+          "99.2(2.31)"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco ASA 5500-X Series Firewalls"
+      }
+    }, 
+    {
+      "bug_id": "CSCux04317", 
+      "product": "Cisco IOS XE Software<a href=\"#2\"><sup>2</sup></a><br />", 
+      "fix": [
+        "3.14.3S", 
+        "3.13.5S", 
+        "3.16.2S", 
+        "3.10.7S", 
+        "3.17.1S", 
+        "3.15.3S"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "37.3(4)DSP"
+        ], 
+        "fixed_releases": [
+          "15.3(3)S7", 
+          "15.4(3)S5", 
+          "15.5(1)S3", 
+          "15.5(2)S3", 
+          "15.5(3)S2", 
+          "15.5(3)S2a", 
+          "15.6(1)S1", 
+          "15.6(2)S", 
+          "16.2(1)"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco IOS"
+      }
+    }, 
+    {
+      "bug_id": "CSCux00708", 
+      "product": "Cisco IP Phone 88x1 Series", 
+      "fix": [
+        "11.0(1)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "10.3(2)"
+        ], 
+        "fixed_releases": [
+          "11.0(1.7)", 
+          "11.5(1)MN12"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco IP Phone 8800 Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCux00697", 
+      "product": "Cisco DX Series IP Phones", 
+      "fix": [
+        "10.2(5)&nbsp;"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "9.3(2)"
+        ], 
+        "fixed_releases": [
+          "10.2(5.54)", 
+          "10.2(5.60)"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco DX Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCux00748", 
+      "product": "Cisco IP Phone 88x5 Series", 
+      "fix": [
+        "11.0(1)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "11.0(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco IP Phone 8800 Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCux00742", 
+      "product": "Cisco Unified 7800 Series IP Phones", 
+      "fix": [
+        "11.0(1)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "10.3(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco IP Phone 7800 Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCux01782", 
+      "product": "Cisco Unified 8831 Series IP Conference Phone", 
+      "fix": [
+        "&nbsp;"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "9.3(2)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Unified IP Phone 6900 Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCux00707", 
+      "product": "Cisco Unified 8961 IP Phone", 
+      "fix": [
+        "9.4(2)SR3 (August 2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "9.9(9)ST1.9"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified IP Phones 9900 Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCux00707", 
+      "product": "Cisco Unified 9951 IP Phone", 
+      "fix": [
+        "9.4(2)SR3 (August 2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "9.9(9)ST1.9"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified IP Phones 9900 Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCux00707", 
+      "product": "Cisco Unified 9971 IP Phone", 
+      "fix": [
+        "9.4(2)SR3 (August 2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "9.9(9)ST1.9"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified IP Phones 9900 Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCux00716", 
+      "product": "Cisco Unified Communications Manager (UCM)", 
+      "fix": [
+        "10.5(2)SU3"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "10.5(2.10000.5)", 
+          "11.0(1.10000.10)", 
+          "9.1(2.10000.28)"
+        ], 
+        "fixed_releases": [
+          "10.5(2.13053.1)", 
+          "10.5(2.13900.12)", 
+          "10.5(2.13900.9)", 
+          "11.0(1.22027.1)", 
+          "11.5(0.98000.118)", 
+          "11.5(0.98000.172)", 
+          "11.5(0.98000.386)", 
+          "11.5(0.98000.554)", 
+          "9.1(2.15128.1)"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco Unified Communications Manager (CallManager)"
+      }
+    }, 
+    {
+      "bug_id": "CSCux00716", 
+      "product": "Cisco Unified Communications Manager Session Management Edition (SME)", 
+      "fix": [
+        "10.5(2)SU3"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "10.5(2.10000.5)", 
+          "11.0(1.10000.10)", 
+          "9.1(2.10000.28)"
+        ], 
+        "fixed_releases": [
+          "10.5(2.13053.1)", 
+          "10.5(2.13900.12)", 
+          "10.5(2.13900.9)", 
+          "11.0(1.22027.1)", 
+          "11.5(0.98000.118)", 
+          "11.5(0.98000.172)", 
+          "11.5(0.98000.386)", 
+          "11.5(0.98000.554)", 
+          "9.1(2.15128.1)"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco Unified Communications Manager (CallManager)"
+      }
+    }, 
+    {
+      "bug_id": "CSCux00745", 
+      "product": "Cisco Unified IP Phone 7900 Series", 
+      "fix": [
+        "9.4(2)SR2"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "9.9(9.99001.1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Unified IP Phone 7900 Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCux01786", 
+      "product": "Cisco Unified IP Phone 8941 and 8945 (SIP)", 
+      "fix": [
+        "&nbsp;"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "9.3(2)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified IP Phone 6900 Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCux37802", 
+      "product": "Cisco Unified Wireless IP Phone", 
+      "fix": [
+        "1.4.8.4"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "1.4(7)"
+        ], 
+        "fixed_releases": [
+          "1.4(8.2)"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco Unified IP Phone 7900 Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCux35568", 
+      "product": "Cisco Unity Connection (UC)", 
+      "fix": [
+        "10.5(2)SU3"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "9.5(0.8)"
+        ], 
+        "fixed_releases": [
+          "10.5(2.13900.11)", 
+          "10.5(2.13900.12)", 
+          "10.5(2.756)", 
+          "11.0(0)ES22", 
+          "11.0(1.22023.1)", 
+          "11.5(0.150)", 
+          "11.5(0.98000.130)", 
+          "11.5(0.98000.185)", 
+          "11.5(0.98000.410)", 
+          "9.1(2.15116.1)", 
+          "9.1(2.802)"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco Unity Connection"
+      }
+    }
+  ]
+}
