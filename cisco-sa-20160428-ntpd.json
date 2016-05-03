@@ -1,0 +1,472 @@
+{
+  "version": "1.2", 
+  "products": [
+    {
+      "bug_id": "CSCuz44394", 
+      "product": "Cisco MeetingPlace", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "8.6(2.10)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified MeetingPlace"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz44257", 
+      "product": "Cisco Visual Quality Experience Server", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "3.11(2)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Content Delivery Engine Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz44257", 
+      "product": "Cisco Visual Quality Experience Tools Server", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "3.11(2)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Content Delivery Engine Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz44289", 
+      "product": "Cisco ASA CX and Cisco Prime Security Manager", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "100.10(6.0.40)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco ASA Next-Generation Firewall Services"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz44116", 
+      "product": "Cisco Content Security Appliance Updater Servers", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz44153", 
+      "product": "Cisco Virtual Security Gateway for Microsoft Hyper-V", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz44196", 
+      "product": "Cisco Prime Collaboration Assurance", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.5(0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Prime Collaboration"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz44232", 
+      "product": "Cisco Prime License Manager", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.5(1.98500.1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Communications Licensing"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz44158", 
+      "product": "Cisco UCS Central", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "1.4(1b)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco UCS Central Software"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz44258", 
+      "product": "Cisco Connected Grid Router", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz44140", 
+      "product": "Cisco Connected Grid Routers (CGR)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "7.3(0)ZN(0.180)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco 1000 Series Connected Grid Routers"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz44148", 
+      "product": "Cisco Nexus 9000 Series Switches", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "7.0(3)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Nexus 9000 Series Switches"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz44290", 
+      "product": "Cisco OnePK All-in-One VM", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz44367", 
+      "product": "Cisco Service Control Operating System", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "12.4(5.2)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco SCE 8000 Series Service Control Engine"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz44089", 
+      "product": "Cisco Common Services Platform Collector", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz44159", 
+      "product": "Cisco Standalone rack server CIMC", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.0(9f)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Computing System"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz44142", 
+      "product": "Cisco UCS Director", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "5.5(0.0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco UCS Director"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz44403", 
+      "product": "Cisco MediaSense", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.5(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco MediaSense"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz44377", 
+      "product": "Cisco Unified Communications Manager (UCM)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.5(1.98500.1)", 
+          "8.6"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Communications Manager (CallManager)"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz44377", 
+      "product": "Cisco Unified Communications Manager Session Management Edition (SME)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.5(1.98500.1)", 
+          "8.6"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Communications Manager (CallManager)"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz44082", 
+      "product": "Cisco Unity Express", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz44336", 
+      "product": "Cisco 910 Industrial Router", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz44160", 
+      "product": "Cisco DCM Series 9900-Digital Content Manager", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "all_versions"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Digital Content Manager (DCM) Software"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz44223", 
+      "product": "Cisco Digital Media Manager", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "5.3", 
+          "5.3.(6)RB2", 
+          "5.3.6", 
+          "5.3.6(RB1)", 
+          "5.4", 
+          "5.4(1)RB1", 
+          "5.4.(1)RB2", 
+          "5.4.1", 
+          "5.4.1(RB1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Digital Media Manager"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz44337", 
+      "product": "Cisco Edge 300 Digital Media Player", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "1.6RB4(2)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Edge 300 Series Digital Media Player"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz44338", 
+      "product": "Cisco Edge 340 Digital Media Player", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz44225", 
+      "product": "Cisco Enterprise Content Delivery System (ECDS)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.6"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Content Delivery Engine Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz44245", 
+      "product": "Cisco Expressway Series", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "X8.9PreAlpha0"
+        ], 
+        "fixed_releases": [], 
+        "status": "Other", 
+        "product_name": "Cisco TelePresence Video Communication Server (VCS)"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz44236", 
+      "product": "Cisco Show and Share", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "5.6.1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Digital Media Manager"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz44222", 
+      "product": "Cisco TelePresence Exchange System (CTX)", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz44245", 
+      "product": "Cisco TelePresence Video Communication Server (VCS)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "X8.9PreAlpha0"
+        ], 
+        "fixed_releases": [], 
+        "status": "Other", 
+        "product_name": "Cisco TelePresence Video Communication Server (VCS)"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz44255", 
+      "product": "Cisco Video Delivery System Recorder", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "4.1(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Content Delivery Engine Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz44256", 
+      "product": "Cisco Video Distribution Suite for Internet Streaming (VDS-IS/CDS-IS)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "4.3(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Content Delivery Engine Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz44253", 
+      "product": "Cisco Videoscape Control Suite", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "3.600"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Conductor"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz44254", 
+      "product": "Cloud Object Store (COS)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "3.1(0)", 
+          "3.5(101)", 
+          "3.7(0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Content Delivery Engine Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz44112", 
+      "product": "Cisco Cloud Email Security", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "3.4.0-015"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Cloud Email Security"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz44273", 
+      "product": "Cisco Smart Care", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "1.16(0.1)ITH"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Smart Care Service"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz44343", 
+      "product": "Cisco Universal Small Cell 5000 Series running V3.4.2.x software", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz44343", 
+      "product": "Cisco Universal Small Cell 7000 Series running V3.4.2.x software", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz44096", 
+      "product": "Network Change and Configuration Management", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz44097", 
+      "product": "Network Device Security Assessment", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz44101", 
+      "product": "Sentinel", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.5"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Cloud Portal"
+      }
+    }
+  ]
+}
