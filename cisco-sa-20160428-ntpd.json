@@ -1,5 +1,5 @@
 {
-  "version": "1.5", 
+  "version": "1.6", 
   "products": [
     {
       "bug_id": "CSCuz44342", 
@@ -77,7 +77,7 @@
       "bug_id": "CSCuz44257", 
       "product": "Cisco Visual Quality Experience Server", 
       "fix": [
-        "TBD based on Red Hat"
+        "TBD based on Redhat"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -92,7 +92,7 @@
       "bug_id": "CSCuz44257", 
       "product": "Cisco Visual Quality Experience Tools Server", 
       "fix": [
-        "TBD based on Red Hat"
+        "TBD based on Redhat"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -104,17 +104,19 @@
       }
     }, 
     {
-      "bug_id": "CSCuz44288", 
+      "bug_id": "CSCuz44289", 
       "product": "Cisco ASA CX and Cisco Prime Security Manager", 
       "fix": [
         "9.3.4.4 (1-Aug-2016)"
       ], 
       "bug_data": {
         "affected_releases": [
-          "100.10(6.0.41)"
+          "100.10(6.0.40)"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "100.6(0.0.176)"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco ASA Next-Generation Firewall Services"
       }
     }, 
@@ -180,7 +182,9 @@
     {
       "bug_id": "CSCuz44113", 
       "product": "Cisco IronPort Encryption Appliance (IEA)", 
-      "fix": [], 
+      "fix": [
+        "No fix is expected as product is EOL"
+      ], 
       "bug_data": {
         "affected_releases": [
           "6.5.6.1-01"
@@ -265,7 +269,7 @@
       "bug_id": "CSCuz44331", 
       "product": "Cisco Secure Access Control Server (ACS)", 
       "fix": [
-        "TBD from Red Hat"
+        "TBD from Redhat"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -292,7 +296,9 @@
     {
       "bug_id": "CSCuz44137", 
       "product": "Cisco Application Networking Manager", 
-      "fix": [], 
+      "fix": [
+        "5.2.9 (3-Aug-2016)"
+      ], 
       "bug_data": null
     }, 
     {
@@ -352,7 +358,7 @@
       "bug_id": "CSCuz44185", 
       "product": "Cisco Prime Infrastructure Standalone Plug and Play Gateway", 
       "fix": [
-        "TBD by Red Hat"
+        "TBD by Redhat"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -394,7 +400,7 @@
       "bug_id": "CSCuz44232", 
       "product": "Cisco Prime License Manager", 
       "fix": [
-        "TBD based on Red Hat"
+        "TBD based on Redhat"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -409,7 +415,7 @@
       "bug_id": "CSCuz44246", 
       "product": "Cisco Prime Service Catalog Virtual Appliance", 
       "fix": [
-        "TBD based on Red Hat"
+        "TBD based on Redhat"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -483,8 +489,28 @@
           "7.3(0)ZN(0.99)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Terminated", 
         "product_name": "Cisco 1000 Series Connected Grid Routers"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz44356", 
+      "product": "Cisco IOS and Cisco IOS XE Software", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz44146", 
+      "product": "Cisco MDS 9000 Series Multilayer Switches", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "7.0(3)I3(1)", 
+          "7.0(99.1)ZD"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Nexus 7000 Series Switches"
       }
     }, 
     {
@@ -514,6 +540,20 @@
       }
     }, 
     {
+      "bug_id": "CSCuz44151", 
+      "product": "Cisco Nexus 3000 Series Switches", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "7.0(3)I3(1)", 
+          "7.0(99.1)ZD"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Nexus 7000 Series Switches"
+      }
+    }, 
+    {
       "bug_id": "CSCuz44334", 
       "product": "Cisco Nexus 4000 Series", 
       "fix": [
@@ -531,7 +571,12 @@
     {
       "bug_id": "CSCuz44147", 
       "product": "Cisco Nexus 7000 Series Switches", 
-      "fix": [], 
+      "fix": [
+        "7.3.1.DX   (August 2016)", 
+        "6.2.17 (June 2016)", 
+        "7.3.1.NX (August 2016)", 
+        "8.3 (Nov 2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "7.0(3)I3(1)", 
@@ -545,7 +590,12 @@
     {
       "bug_id": "CSCuz44148", 
       "product": "Cisco Nexus 9000 Series Switches", 
-      "fix": [], 
+      "fix": [
+        "7.3.1.DX (August 2016)", 
+        "6.2.17 (June 2016)", 
+        "7.3.1.NX (August 2016)", 
+        "8.3 (Nov 2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "7.0(3)I3(1)", 
@@ -568,7 +618,7 @@
       "bug_id": "CSCuz44367", 
       "product": "Cisco Service Control Operating System", 
       "fix": [
-        "TBD waiting on release from Red Hat"
+        "TBD waiting on release from Redhat"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -671,7 +721,7 @@
       "bug_id": "CSCuz44383", 
       "product": "Cisco Emergency Responder", 
       "fix": [
-        "TBD based on Red Hat"
+        "TBD based on Redhat"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -686,7 +736,7 @@
       "bug_id": "CSCuz44388", 
       "product": "Cisco Hosted Collaboration Mediation Fulfillment", 
       "fix": [
-        "TBD based on Red Hat"
+        "TBD based on Redhat"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -702,7 +752,7 @@
       "bug_id": "CSCuz44385", 
       "product": "Cisco IM and Presence Service (CUPS)", 
       "fix": [
-        "TBD based on Red Hat"
+        "TBD based on Redhat"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -716,7 +766,9 @@
     {
       "bug_id": "CSCuz44250", 
       "product": "Cisco IP Interoperability and Collaboration System (IPICS)", 
-      "fix": [], 
+      "fix": [
+        "Waiting on fix from Redhat"
+      ], 
       "bug_data": {
         "affected_releases": [
           "4.10(1)"
@@ -755,6 +807,32 @@
       }
     }, 
     {
+      "bug_id": "CSCuz44390", 
+      "product": "Cisco Paging Server (Informacast)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.0(5)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Paging Server"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz44390", 
+      "product": "Cisco Paging Server", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.0(5)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Paging Server"
+      }
+    }, 
+    {
       "bug_id": "CSCuz44086", 
       "product": "Cisco Quantum Virtualized Packet Core", 
       "fix": [
@@ -786,7 +864,7 @@
       "bug_id": "CSCuz44377", 
       "product": "Cisco Unified Communications Manager (UCM)", 
       "fix": [
-        "TBD based on Red Hat"
+        "TBD based on Redhat"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -802,7 +880,7 @@
       "bug_id": "CSCuz44377", 
       "product": "Cisco Unified Communications Manager Session Management Edition (SME)", 
       "fix": [
-        "TBD based on Red Hat"
+        "TBD based on Redhat"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -871,7 +949,7 @@
       "bug_id": "CSCuz44235", 
       "product": "Cisco Digital Media Manager (DMM)", 
       "fix": [
-        "TBD based on fix from Red Hat"
+        "TBD based on fix from Redhat"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -892,7 +970,14 @@
       "bug_id": "CSCuz44223", 
       "product": "Cisco Digital Media Manager", 
       "fix": [
-        "5.3.0 (1-Jun-2016)"
+        "5.3.0 (1-Jun-2016)", 
+        "5.3.6 (1-Jun-2016)", 
+        "5.3.6 RB1(1-Jun-2016)", 
+        "5.3.6RB2 (1-Jun-2016)", 
+        "5.4.0 (1 June 2016)", 
+        "5.4.1 (1 June 2016)", 
+        "5.4.1-RB1 (1-June-2016)", 
+        "5.4.1-RB2 (1-June-2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -922,7 +1007,7 @@
           "1.6RB4(2)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Edge 300 Series Digital Media Player"
       }
     }, 
@@ -997,7 +1082,7 @@
       "bug_id": "CSCuz44236", 
       "product": "Cisco Show and Share", 
       "fix": [
-        "TBD based on Red Hat"
+        "TBD based on Redhat"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1006,6 +1091,23 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco Digital Media Manager"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz44368", 
+      "product": "Cisco TelePresence 1310", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "1.10.14.1", 
+          "6.1.11.1"
+        ], 
+        "fixed_releases": [
+          "1.10.15:4", 
+          "6.1.12:4"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco TelePresence TX9000 Series"
       }
     }, 
     {
@@ -1113,6 +1215,125 @@
       }
     }, 
     {
+      "bug_id": "CSCuz44368", 
+      "product": "Cisco TelePresence System 1000", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "1.10.14.1", 
+          "6.1.11.1"
+        ], 
+        "fixed_releases": [
+          "1.10.15:4", 
+          "6.1.12:4"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco TelePresence TX9000 Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz44368", 
+      "product": "Cisco TelePresence System 1100", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "1.10.14.1", 
+          "6.1.11.1"
+        ], 
+        "fixed_releases": [
+          "1.10.15:4", 
+          "6.1.12:4"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco TelePresence TX9000 Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz44368", 
+      "product": "Cisco TelePresence System 1300", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "1.10.14.1", 
+          "6.1.11.1"
+        ], 
+        "fixed_releases": [
+          "1.10.15:4", 
+          "6.1.12:4"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco TelePresence TX9000 Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz44368", 
+      "product": "Cisco TelePresence System 3000 Series", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "1.10.14.1", 
+          "6.1.11.1"
+        ], 
+        "fixed_releases": [
+          "1.10.15:4", 
+          "6.1.12:4"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco TelePresence TX9000 Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz44368", 
+      "product": "Cisco TelePresence System 500-32", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "1.10.14.1", 
+          "6.1.11.1"
+        ], 
+        "fixed_releases": [
+          "1.10.15:4", 
+          "6.1.12:4"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco TelePresence TX9000 Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz44368", 
+      "product": "Cisco TelePresence System 500-37", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "1.10.14.1", 
+          "6.1.11.1"
+        ], 
+        "fixed_releases": [
+          "1.10.15:4", 
+          "6.1.12:4"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco TelePresence TX9000 Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz44368", 
+      "product": "Cisco TelePresence TX 9000 Series", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "1.10.14.1", 
+          "6.1.11.1"
+        ], 
+        "fixed_releases": [
+          "1.10.15:4", 
+          "6.1.12:4"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco TelePresence TX9000 Series"
+      }
+    }, 
+    {
       "bug_id": "CSCuz46598", 
       "product": "Cisco TelePresence Video Communication Server (VCS)", 
       "fix": [
@@ -1176,8 +1397,17 @@
     {
       "bug_id": "CSCuz44297", 
       "product": "Cisco Video Surveillance Media Server", 
-      "fix": [], 
-      "bug_data": null
+      "fix": [
+        "7.9 (Dec. 2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "7.9"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Video Surveillance Manager"
+      }
     }, 
     {
       "bug_id": "CSCuz44253", 
@@ -1310,7 +1540,9 @@
     {
       "bug_id": "CSCuz44249", 
       "product": "Cisco Intelligent Automation for Cloud", 
-      "fix": [], 
+      "fix": [
+        "5.0 (Oct. 2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "4.3.2"
@@ -1329,7 +1561,9 @@
     {
       "bug_id": "CSCuz44110", 
       "product": "Cisco Registered Envelope Service (CRES)", 
-      "fix": [], 
+      "fix": [
+        "Affected systems will be updated by (30-June-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "4.7.0-123"
@@ -1367,12 +1601,6 @@
     {
       "bug_id": "CSCuz44343", 
       "product": "Cisco Universal Small Cell 7000 Series running V3.4.2.x software", 
-      "fix": [], 
-      "bug_data": null
-    }, 
-    {
-      "bug_id": "CSCuz44134", 
-      "product": "Cisco WebEx Meeting Center", 
       "fix": [], 
       "bug_data": null
     }, 
