@@ -1,5 +1,5 @@
 {
-  "version": "1.6", 
+  "version": "1.7", 
   "products": [
     {
       "bug_id": "CSCuz44342", 
@@ -104,6 +104,12 @@
       }
     }, 
     {
+      "bug_id": "CSCuz44439", 
+      "product": "Cisco Wide Area Application Services (WAAS)", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCuz44289", 
       "product": "Cisco ASA CX and Cisco Prime Security Manager", 
       "fix": [
@@ -111,7 +117,8 @@
       ], 
       "bug_data": {
         "affected_releases": [
-          "100.10(6.0.40)"
+          "100.10(6.0.40)", 
+          "100.10(6.0.41)"
         ], 
         "fixed_releases": [
           "100.6(0.0.176)"
@@ -412,6 +419,19 @@
       }
     }, 
     {
+      "bug_id": "CSCuz44201", 
+      "product": "Cisco Prime Network Services Controller", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "3.4"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Virtual Network Management Center"
+      }
+    }, 
+    {
       "bug_id": "CSCuz44246", 
       "product": "Cisco Prime Service Catalog Virtual Appliance", 
       "fix": [
@@ -471,10 +491,10 @@
       "bug_data": null
     }, 
     {
-      "bug_id": "CSCuz44258", 
+      "bug_id": "CSCuz44259", 
       "product": "Cisco Connected Grid Router", 
       "fix": [
-        "Affected systems will be updated (1-Jun-2016)"
+        "15.6.3M (1-June-2016)"
       ], 
       "bug_data": null
     }, 
@@ -679,6 +699,19 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco Unified Computing System"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz44104", 
+      "product": "Cisco UCS ADA", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "3.0"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco UCS 6200 Series Fabric Interconnects"
       }
     }, 
     {
@@ -1425,6 +1458,19 @@
       }
     }, 
     {
+      "bug_id": "CSCuz44348", 
+      "product": "Cisco Videoscape Distribution Suite Transparent Caching", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "5.7.3"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Videoscape Distribution Suite Transparent Caching"
+      }
+    }, 
+    {
       "bug_id": "CSCuz44254", 
       "product": "Cloud Object Store (COS)", 
       "fix": [
@@ -1535,6 +1581,19 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco Collaboration Meeting Rooms (CMR)"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz44333", 
+      "product": "Cisco Cloud Web Security", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "5.2(0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Cloud Web Security"
       }
     }, 
     {
@@ -1657,6 +1716,19 @@
       }
     }, 
     {
+      "bug_id": "CSCuz44277", 
+      "product": "Smart Net Total Care (SNTC)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "PI2.3"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Network Level Service"
+      }
+    }, 
+    {
       "bug_id": "CSCuz44262", 
       "product": "Smart Net Total Care", 
       "fix": [], 
@@ -1668,12 +1740,6 @@
         "status": "Open", 
         "product_name": "Network Level Service"
       }
-    }, 
-    {
-      "bug_id": "CSCuz44090", 
-      "product": "Support Central", 
-      "fix": [], 
-      "bug_data": null
     }
   ]
 }
