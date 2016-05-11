@@ -1,5 +1,5 @@
 {
-  "version": "1.7", 
+  "version": "1.8", 
   "products": [
     {
       "bug_id": "CSCuz44342", 
@@ -104,7 +104,7 @@
       }
     }, 
     {
-      "bug_id": "CSCuz44439", 
+      "bug_id": "CSCuz44287", 
       "product": "Cisco Wide Area Application Services (WAAS)", 
       "fix": [], 
       "bug_data": null
@@ -121,7 +121,8 @@
           "100.10(6.0.41)"
         ], 
         "fixed_releases": [
-          "100.6(0.0.176)"
+          "100.6(0.0.176)", 
+          "9.3(4.5.4)"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco ASA Next-Generation Firewall Services"
@@ -926,6 +927,12 @@
       }
     }, 
     {
+      "bug_id": "CSCuz44085", 
+      "product": "Cisco Unified Sip Proxy", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCuz44380", 
       "product": "Cisco Unity Connection (UC)", 
       "fix": [
@@ -1090,8 +1097,10 @@
           "X8.9PreAlpha0", 
           "X8.x"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "X8.8"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco TelePresence Video Communication Server (VCS)"
       }
     }, 
@@ -1109,6 +1118,19 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco MXE 3000 Series (Media Experience Engines)"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz57725", 
+      "product": "Cisco PowerVu D9190 Conditional Access Manager (PCAM)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "V1.1.0"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "PowerVu Network Centre Management"
       }
     }, 
     {
@@ -1377,8 +1399,10 @@
           "X8.9PreAlpha0", 
           "X8.x"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "X8.8"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco TelePresence Video Communication Server (VCS)"
       }
     }, 
