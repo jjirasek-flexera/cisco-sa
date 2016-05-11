@@ -1,5 +1,5 @@
 {
-  "version": "1.0", 
+  "version": "1.1", 
   "products": [
     {
       "bug_id": "CSCux00729", 
@@ -13,7 +13,7 @@
         ], 
         "fixed_releases": [], 
         "status": "Fixed", 
-        "product_name": "Cisco WebEx Meeting Center"
+        "product_name": "Cisco WebEx Meetings Server"
       }
     }, 
     {
@@ -28,22 +28,90 @@
         ], 
         "fixed_releases": [], 
         "status": "Fixed", 
-        "product_name": "Cisco WebEx Meeting Center"
+        "product_name": "Cisco WebEx Meetings Server"
       }
     }, 
     {
-      "bug_id": "CSCux00711", 
-      "product": "Cisco Jabber", 
+      "bug_id": "CSCuz52891", 
+      "product": "Cisco Jabber Guest", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "10.6(10)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Jabber Guest"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz52906", 
+      "product": "Cisco Jabber&nbsp;for Android<br />", 
+      "fix": [
+        "11.6&nbsp;"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "11.5(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Mobile Communicator"
+      }
+    }, 
+    {
+      "bug_id": "CSCux82920", 
+      "product": "Cisco Jabber&nbsp;for Apple iOS<br />", 
       "fix": [
         "11.6"
       ], 
       "bug_data": {
         "affected_releases": [
-          "2.99(0)"
+          "11.1(0)", 
+          "11.1(1)", 
+          "11.5(0)", 
+          "11.5(1)"
         ], 
         "fixed_releases": [], 
         "status": "Fixed", 
-        "product_name": "Cisco Unified Communications 500 Series for Small Business (UC500)"
+        "product_name": "Cisco Jabber for iPhone"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz52915", 
+      "product": "Cisco Jabber for Mac", 
+      "fix": [
+        "11.6"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "11.0(0)", 
+          "11.0(1)", 
+          "11.1(0)", 
+          "11.1(1)", 
+          "11.5(0)", 
+          "11.5(1)", 
+          "11.6(0)", 
+          "11.7(0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Jabber for Mac"
+      }
+    }, 
+    {
+      "bug_id": "CSCux80499", 
+      "product": "Cisco Jabber&nbsp;for Windows<br />", 
+      "fix": [
+        "11.6"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "11.5(0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Jabber for Windows"
       }
     }, 
     {
@@ -78,6 +146,7 @@
           "9.3(3.8)", 
           "9.4(2.5)", 
           "9.4(2.99)", 
+          "9.4(3)", 
           "9.5(2.6)", 
           "9.6(0.99)", 
           "96.1(1.14)", 
@@ -131,7 +200,8 @@
         ], 
         "fixed_releases": [
           "11.0(1.7)", 
-          "11.5(1)MN12"
+          "11.5(1)MN12", 
+          "11.5(1)SGN1"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco IP Phone 8800 Series"
@@ -300,6 +370,21 @@
       }
     }, 
     {
+      "bug_id": "CSCuz52971", 
+      "product": "Cisco Unified Communications for Microsoft Lync<br />", 
+      "fix": [
+        "11.6 (Summer 2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "11.6(0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco UC Integration(TM) for Microsoft Lync"
+      }
+    }, 
+    {
       "bug_id": "CSCux00745", 
       "product": "Cisco Unified IP Phone 7900 Series", 
       "fix": [
@@ -354,7 +439,9 @@
       ], 
       "bug_data": {
         "affected_releases": [
-          "9.5(0.8)"
+          "10.5(2)", 
+          "11.0", 
+          "9.0"
         ], 
         "fixed_releases": [
           "10.5(2.13900.11)", 
@@ -366,11 +453,27 @@
           "11.5(0.98000.130)", 
           "11.5(0.98000.185)", 
           "11.5(0.98000.410)", 
+          "9.1(1)ES123", 
           "9.1(2.15116.1)", 
           "9.1(2.802)"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco Unity Connection"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz52961", 
+      "product": "Cisco Virtualization Experience Media Engine&nbsp;", 
+      "fix": [
+        "11.7 (September 2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "11.5(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Virtualization Experience Media Edition"
       }
     }
   ]
