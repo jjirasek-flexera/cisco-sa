@@ -1,5 +1,5 @@
 {
-  "version": "1.3", 
+  "version": "1.4", 
   "products": [
     {
       "bug_id": "CSCuz52556", 
@@ -40,7 +40,9 @@
     {
       "bug_id": "CSCuz52370", 
       "product": "Cisco WebEx Node for MCS", 
-      "fix": [], 
+      "fix": [
+        "3.12.9.8 (27-MAY-2016)"
+      ], 
       "bug_data": null
     }, 
     {
@@ -103,6 +105,14 @@
     {
       "bug_id": "CSCuz52552", 
       "product": "Cisco Jabber Software Development Kit", 
+      "fix": [
+        "11.7 (28-JUL-2016)"
+      ], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz52551", 
+      "product": "Cisco Jabber for Mac", 
       "fix": [], 
       "bug_data": null
     }, 
@@ -110,6 +120,7 @@
       "bug_id": "CSCuz52380", 
       "product": "Cisco MMP server", 
       "fix": [
+        "3.10 (30-MAY-2016)", 
         "3.9.0.5 (25-MAY-2016)", 
         "3.9.1 (25-MAY-2016)"
       ], 
@@ -119,22 +130,28 @@
           "mmp3.9.1"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco WebEx Meetings"
       }
     }, 
     {
       "bug_id": "CSCuz52379", 
       "product": "Cisco WebEx Meetings Client - Hosted", 
-      "fix": [], 
+      "fix": [
+        "T31R1SP6 (15-JUL-2016)"
+      ], 
       "bug_data": null
     }, 
     {
       "bug_id": "CSCuz52374", 
       "product": "Cisco WebEx Meetings Client - On Premises", 
-      "fix": [], 
+      "fix": [
+        "2.7 (31-MAY-2016)"
+      ], 
       "bug_data": {
-        "affected_releases": [], 
+        "affected_releases": [
+          "2.5.0.952"
+        ], 
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco WebEx Meetings Server"
@@ -165,14 +182,17 @@
       "bug_id": "CSCuz52373", 
       "product": "Cisco WebEx Meetings for WP8", 
       "fix": [
-        "83.0 (Available)"
+        "2.6.1 (01-AUG-2016)", 
+        "3.0 (Available)"
       ], 
       "bug_data": null
     }, 
     {
       "bug_id": "CSCuz52376", 
       "product": "WebEx Meetings Server - SSL Gateway", 
-      "fix": [], 
+      "fix": [
+        "2.7 (JUN-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "2.7"
@@ -185,7 +205,9 @@
     {
       "bug_id": "CSCuz52378", 
       "product": "WebEx Recording Playback Client", 
-      "fix": [], 
+      "fix": [
+        "T31R1SP6 (15-JUL-2016)"
+      ], 
       "bug_data": null
     }, 
     {
@@ -202,6 +224,12 @@
         "status": "Open", 
         "product_name": "Cisco Enterprise CDN Software"
       }
+    }, 
+    {
+      "bug_id": "CSCuz52350", 
+      "product": "Cisco InTracer", 
+      "fix": [], 
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCuz52469", 
@@ -245,8 +273,11 @@
         "affected_releases": [
           "100.10(6.0.41)"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "100.6(0.0.178)", 
+          "9.3(4.5.4)"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco ASA Next-Generation Firewall Services"
       }
     }, 
@@ -272,6 +303,24 @@
     {
       "bug_id": "CSCuz52470", 
       "product": "Cisco Clean Access Manager", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz52367", 
+      "product": "Cisco Content Security Management Appliance (SMA)", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz52364", 
+      "product": "Cisco Email Security Appliance (ESA)", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz52363", 
+      "product": "Cisco IronPort Email Security Appliance", 
       "fix": [], 
       "bug_data": null
     }, 
@@ -317,6 +366,15 @@
     {
       "bug_id": "CSCuz52403", 
       "product": "Cisco Virtual Security Gateway for Microsoft Hyper-V", 
+      "fix": [
+        "5.2(1) (20-AUG-2016)", 
+        "VSG2(1.4) (20-AUG-2016)"
+      ], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz52369", 
+      "product": "Cisco Web Security Appliance (WSA)", 
       "fix": [], 
       "bug_data": null
     }, 
@@ -406,6 +464,12 @@
       "bug_data": null
     }, 
     {
+      "bug_id": "CSCuz52414", 
+      "product": "Cisco Multicast Manager", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCuz52426", 
       "product": "Cisco NetFlow Generation Appliance", 
       "fix": [
@@ -484,6 +548,12 @@
       }
     }, 
     {
+      "bug_id": "CSCuz52430", 
+      "product": "Cisco Prime Collaboration Assurance", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCuz52537", 
       "product": "Cisco Prime Collaboration Deployment", 
       "fix": [
@@ -499,6 +569,20 @@
       }
     }, 
     {
+      "bug_id": "CSCuz52429", 
+      "product": "Cisco Prime Collaboration Provisioning", 
+      "fix": [
+        "11.2 (05-JUN-2016)"
+      ], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz52421", 
+      "product": "Cisco Prime IP Express", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCuz52424", 
       "product": "Cisco Prime Infrastructure Standalone Plug and Play Gateway", 
       "fix": [], 
@@ -510,6 +594,12 @@
         "status": "Open", 
         "product_name": "Network Level Service"
       }
+    }, 
+    {
+      "bug_id": "CSCuz52413", 
+      "product": "Cisco Prime LAN Management Solution (LMS - Solaris)", 
+      "fix": [], 
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCuz52452", 
@@ -525,6 +615,18 @@
         "status": "Open", 
         "product_name": "Cisco Unified Communications Licensing"
       }
+    }, 
+    {
+      "bug_id": "CSCuz52415", 
+      "product": "Cisco Prime Network Registrar (CPNR)", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz52433", 
+      "product": "Cisco Prime Network Services Controller", 
+      "fix": [], 
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCuz52408", 
@@ -580,7 +682,8 @@
           "100.10(6.0.41)"
         ], 
         "fixed_releases": [
-          "100.6(0.0.178)"
+          "100.6(0.0.178)", 
+          "9.3(4.5.4)"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco ASA Next-Generation Firewall Services"
@@ -589,7 +692,9 @@
     {
       "bug_id": "CSCuz52432", 
       "product": "Cisco Security Manager", 
-      "fix": [], 
+      "fix": [
+        "4.12 (26-JUL-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "4.11(0.209)"
@@ -746,6 +851,18 @@
       }
     }, 
     {
+      "bug_id": "CSCuz52400", 
+      "product": "Cisco Nexus 3X00 Series Switches", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz52512", 
+      "product": "Cisco Nexus 4000 Series Blade Switches", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCuz52395", 
       "product": "Cisco Nexus 5000 Series Switches", 
       "fix": [
@@ -811,6 +928,12 @@
       }
     }, 
     {
+      "bug_id": "CSCuz52391", 
+      "product": "Cisco Nexus 9000 (ACI/Fabric Switch)", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCuz52396", 
       "product": "Cisco Nexus 9000 Series (standalone, running NxOS)", 
       "fix": [], 
@@ -869,14 +992,23 @@
           "2.0(9f)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Computing System"
       }
     }, 
     {
+      "bug_id": "CSCuz52483", 
+      "product": "Cisco Unified Computing System (Management software)", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCuz52402", 
       "product": "Cisco Virtual Security Gateway", 
-      "fix": [], 
+      "fix": [
+        "5.2(1) (20-AUG-2016)", 
+        "VSG2(1.4) (20-AUG-2016)"
+      ], 
       "bug_data": null
     }, 
     {
@@ -912,7 +1044,9 @@
     {
       "bug_id": "CSCuz52560", 
       "product": "Cisco ATA 187 Analog Telephone Adaptor", 
-      "fix": [], 
+      "fix": [
+        "9.2.5 (05-APR-2017)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "9.4(2)"
@@ -925,7 +1059,9 @@
     {
       "bug_id": "CSCuz52360", 
       "product": "Cisco Computer Telephony Integration Object Server (CTIOS)", 
-      "fix": [], 
+      "fix": [
+        "11.51 (31-AUG-16)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "10.0(1)", 
@@ -986,6 +1122,12 @@
         "status": "Open", 
         "product_name": "Cisco Unified Communications Manager IM & Presence Service"
       }
+    }, 
+    {
+      "bug_id": "CSCuz52461", 
+      "product": "Cisco IP Interoperability and Collaboration System (IPICS)", 
+      "fix": [], 
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCuz52562", 
@@ -1136,7 +1278,9 @@
     {
       "bug_id": "CSCuz52566", 
       "product": "Cisco Unified 7800 Series IP Phones", 
-      "fix": [], 
+      "fix": [
+        "11.5.2 (12-DEC-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "11.5(1)"
@@ -1162,7 +1306,9 @@
     {
       "bug_id": "CSCuz52558", 
       "product": "Cisco Unified 8945 IP Phone", 
-      "fix": [], 
+      "fix": [
+        "9.4.2SR3 (AUG-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "9.4(2)SR2"
@@ -1205,13 +1351,18 @@
     {
       "bug_id": "CSCuz52541", 
       "product": "Cisco Unified Communications for Microsoft Lync", 
-      "fix": [], 
+      "fix": [
+        "10.6.7 (Available)", 
+        "11.6.0 (16-JUN-2016)"
+      ], 
       "bug_data": null
     }, 
     {
       "bug_id": "CSCuz52360", 
       "product": "Cisco Unified Contact Center Enterprise", 
-      "fix": [], 
+      "fix": [
+        "11.51 (31-AUG-16)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "10.0(1)", 
@@ -1246,7 +1397,9 @@
     {
       "bug_id": "CSCuz52360", 
       "product": "Cisco Unified Intelligent Contact Management Enterprise", 
-      "fix": [], 
+      "fix": [
+        "11.51 (31-AUG-16)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "10.0(1)", 
@@ -1260,15 +1413,37 @@
       }
     }, 
     {
+      "bug_id": "CSCuz52349", 
+      "product": "Cisco Unified Sip Proxy", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCuz52573", 
       "product": "Cisco Unified Wireless IP Phone", 
+      "fix": [
+        "1.5.1 (05-APR-2017)"
+      ], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz52538", 
+      "product": "Cisco Unity Connection (UC)", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz52570", 
+      "product": "Cisco Virtualization Experience Media Engine", 
       "fix": [], 
       "bug_data": null
     }, 
     {
       "bug_id": "CSCuz52522", 
       "product": "Cisco AnyRes Live (CAL)", 
-      "fix": [], 
+      "fix": [
+        "9.4.5 (30-JUN-2016)"
+      ], 
       "bug_data": null
     }, 
     {
@@ -1347,6 +1522,12 @@
       }
     }, 
     {
+      "bug_id": "CSCuz52442", 
+      "product": "Cisco Enterprise Content Delivery System (ECDS)", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCuz55590", 
       "product": "Cisco Expressway Series", 
       "fix": [
@@ -1391,8 +1572,64 @@
       "bug_data": null
     }, 
     {
+      "bug_id": "CSCuz52456", 
+      "product": "Cisco TelePresence Content Server (TCS)", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz52455", 
+      "product": "Cisco TelePresence EX Series", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz52444", 
+      "product": "Cisco TelePresence ISDN GW 3241", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz52444", 
+      "product": "Cisco TelePresence ISDN GW MSE 8321", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCuz52446", 
       "product": "Cisco TelePresence ISDN Link", 
+      "fix": [
+        "1.1.6 (30-MAY-2016)"
+      ], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz52447", 
+      "product": "Cisco TelePresence MCU (8510, 8420, 4200, 4500 and 5300)", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz52455", 
+      "product": "Cisco TelePresence MX Series", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz52455", 
+      "product": "Cisco TelePresence Profile Series", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz52455", 
+      "product": "Cisco TelePresence SX Series", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz52453", 
+      "product": "Cisco TelePresence Serial Gateway Series", 
       "fix": [], 
       "bug_data": null
     }, 
@@ -1475,6 +1712,12 @@
       }
     }, 
     {
+      "bug_id": "CSCuz52448", 
+      "product": "Cisco TelePresence Supervisor MSE 8050", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCuz55590", 
       "product": "Cisco TelePresence Video Communication Server (VCS)", 
       "fix": [
@@ -1488,6 +1731,18 @@
         "status": "Open", 
         "product_name": "Cisco TelePresence Video Communication Server (VCS)"
       }
+    }, 
+    {
+      "bug_id": "CSCuz52455", 
+      "product": "Cisco Telepresence Integrator C Series", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz52464", 
+      "product": "Cisco Video Distribution Suite for Internet Streaming (VDS-IS/CDS-IS)", 
+      "fix": [], 
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCuz52490", 
@@ -1522,13 +1777,17 @@
     {
       "bug_id": "CSCuz52488", 
       "product": "Cisco Video Surveillance 4000 Series High-Definition IP Cameras", 
-      "fix": [], 
+      "fix": [
+        "2.4.7 (MAY-2016)"
+      ], 
       "bug_data": null
     }, 
     {
       "bug_id": "CSCuz52489", 
       "product": "Cisco Video Surveillance 4300E/4500E High-Definition IP Cameras", 
-      "fix": [], 
+      "fix": [
+        "3.2.8 (MAY-2016)"
+      ], 
       "bug_data": null
     }, 
     {
@@ -1654,6 +1913,26 @@
     {
       "bug_id": "CSCuz52463", 
       "product": "Cloud Object Store (COS)", 
+      "fix": [
+        "3.8 (30-MAY-2016)"
+      ], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz52444", 
+      "product": "Tandberg Codian ISDN GW 3210/3220/3240", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz52444", 
+      "product": "Tandberg Codian MSE 8320 model", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz52460", 
+      "product": "Cisco Intelligent Automation for Cloud", 
       "fix": [], 
       "bug_data": null
     }, 
@@ -1684,6 +1963,12 @@
         "status": "Open", 
         "product_name": "Cisco Email Encryption"
       }
+    }, 
+    {
+      "bug_id": "CSCuz52473", 
+      "product": "Cisco Smart Care", 
+      "fix": [], 
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCuz52520", 
