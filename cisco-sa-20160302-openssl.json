@@ -1,5 +1,5 @@
 {
-  "version": "2.0", 
+  "version": "2.1", 
   "products": [
     {
       "bug_id": "CSCuy54660", 
@@ -334,7 +334,7 @@
           "T31"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco WebEx Meetings"
       }
     }, 
@@ -467,9 +467,8 @@
           "100.10(6.0.41)"
         ], 
         "fixed_releases": [
-          "100.6(0.0.172)", 
-          "100.6(0.0.174)", 
-          "9.3(4.5.3)"
+          "100.6(0.0.178)", 
+          "9.3(4.5.4)"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco ASA Next-Generation Firewall Services"
@@ -490,7 +489,9 @@
           "92.0(1.1259)", 
           "92.0(1.1261)", 
           "92.0(1.1262)", 
-          "92.0(1.1263)"
+          "92.0(1.1263)", 
+          "92.0(1.1272)", 
+          "92.0(1.1277)"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco Firepower 9000 Series"
@@ -1136,9 +1137,8 @@
           "100.10(6.0.41)"
         ], 
         "fixed_releases": [
-          "100.6(0.0.172)", 
-          "100.6(0.0.174)", 
-          "9.3(4.5.3)"
+          "100.6(0.0.178)", 
+          "9.3(4.5.4)"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco ASA Next-Generation Firewall Services"
@@ -1148,18 +1148,7 @@
       "bug_id": "CSCuy54524", 
       "product": "Cisco Security Manager", 
       "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "4.11(0.131)"
-        ], 
-        "fixed_releases": [
-          "4.10(0.253)", 
-          "4.11(0.203)", 
-          "4.12(0.64)"
-        ], 
-        "status": "Fixed", 
-        "product_name": "Cisco Security Manager"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCuy54542", 
@@ -1207,14 +1196,7 @@
       "bug_id": "CSCuy54701", 
       "product": "Local Collector Appliance (LCA)", 
       "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "2.2.11"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "None"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": null, 
@@ -1266,6 +1248,7 @@
           "19.4.A0.63339", 
           "19.4.M0.63322", 
           "19.4.T0.63330", 
+          "20.1.0.63959", 
           "20.1.M0.63329", 
           "20.1.T0.63569", 
           "20.2.A0.63349", 
@@ -1295,7 +1278,9 @@
     {
       "bug_id": "CSCuy54626", 
       "product": "Cisco Connected Grid Router", 
-      "fix": [], 
+      "fix": [
+        "Affected systems have been upgraded"
+      ], 
       "bug_data": {
         "affected_releases": [
           "7.3(0)ZN(0.153)"
@@ -1322,6 +1307,10 @@
           "15.2(5.1.83i)E", 
           "15.3(1)IE101.349", 
           "15.4(1)IA1.33", 
+          "15.5(0)IA1.1", 
+          "15.5(3)M2.1", 
+          "15.5(3)S2.11", 
+          "15.6(0.22)S6", 
           "15.6(2.8)T", 
           "16.3(0.128)"
         ], 
@@ -1346,7 +1335,13 @@
     {
       "bug_id": "CSCuy54488", 
       "product": "Cisco MDS 9000 Series Multilayer Switches", 
-      "fix": [], 
+      "fix": [
+        "7.3.1.DX  (August 2016)", 
+        "6.2.17 (June 2016)", 
+        "(7.3.1.NX)  ( August 2016)", 
+        "7.0.3.I3 (May 2016)", 
+        "8.3(Nov 2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "6.2(15)S9", 
@@ -1382,7 +1377,9 @@
     {
       "bug_id": "CSCuy54492", 
       "product": "Cisco Nexus 1000V Series Switches (ESX)", 
-      "fix": [], 
+      "fix": [
+        "5.2(1)SV3(2.0.200)  (5-Apr-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "5.2(1)SV3(1.10)"
@@ -1395,7 +1392,13 @@
     {
       "bug_id": "CSCuy54488", 
       "product": "Cisco Nexus 3000 Series Switches", 
-      "fix": [], 
+      "fix": [
+        "7.3.1.DX  (August 2016)", 
+        "6.2.17 (June 2016)", 
+        "(7.3.1.NX)  ( August 2016)", 
+        "7.0.3.I3 (May 2016)", 
+        "8.3(Nov 2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "6.2(15)S9", 
@@ -1430,7 +1433,13 @@
     {
       "bug_id": "CSCuy54488", 
       "product": "Cisco Nexus 5000 Series Switches", 
-      "fix": [], 
+      "fix": [
+        "7.3.1.DX  (August 2016)", 
+        "6.2.17 (June 2016)", 
+        "(7.3.1.NX)  ( August 2016)", 
+        "7.0.3.I3 (May 2016)", 
+        "8.3(Nov 2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "6.2(15)S9", 
@@ -1450,7 +1459,13 @@
     {
       "bug_id": "CSCuy54488", 
       "product": "Cisco Nexus 6000 Series Switches", 
-      "fix": [], 
+      "fix": [
+        "7.3.1.DX  (August 2016)", 
+        "6.2.17 (June 2016)", 
+        "(7.3.1.NX)  ( August 2016)", 
+        "7.0.3.I3 (May 2016)", 
+        "8.3(Nov 2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "6.2(15)S9", 
@@ -1470,7 +1485,13 @@
     {
       "bug_id": "CSCuy54488", 
       "product": "Cisco Nexus 7000 Series Switches", 
-      "fix": [], 
+      "fix": [
+        "7.3.1.DX  (August 2016)", 
+        "6.2.17 (June 2016)", 
+        "(7.3.1.NX)  ( August 2016)", 
+        "7.0.3.I3 (May 2016)", 
+        "8.3(Nov 2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "6.2(15)S9", 
@@ -1507,7 +1528,10 @@
     {
       "bug_id": "CSCuy57853", 
       "product": "Cisco Nexus 9000 Series (standalone, running NxOS)", 
-      "fix": [], 
+      "fix": [
+        "7.0(3)I4(1)(25-Mar-2016)", 
+        "7.0(3)I4(0.42)  (25-Mar-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "7.0(3)I4(1)"
@@ -2179,6 +2203,7 @@
           "11.0(1.10000.10)"
         ], 
         "fixed_releases": [
+          "11.0(1.22042.1)", 
           "11.0(1.22900.7)", 
           "11.5(0.98000.220)", 
           "11.5(0.98000.227)", 
@@ -2204,6 +2229,7 @@
           "11.0(1.10000.10)"
         ], 
         "fixed_releases": [
+          "11.0(1.22042.1)", 
           "11.0(1.22900.7)", 
           "11.5(0.98000.220)", 
           "11.5(0.98000.227)", 
@@ -2390,7 +2416,9 @@
     {
       "bug_id": "CSCuy54531", 
       "product": "Cisco Digital Media Players (DMP) 4300 Series", 
-      "fix": [], 
+      "fix": [
+        "5.4(1) (10-Apr-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "5.4(1)RB(2P7)"
@@ -2403,7 +2431,9 @@
     {
       "bug_id": "CSCuy54531", 
       "product": "Cisco Digital Media Players (DMP) 4400 Series", 
-      "fix": [], 
+      "fix": [
+        "5.4(1) (10-Apr-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "5.4(1)RB(2P7)"
@@ -2446,7 +2476,9 @@
     {
       "bug_id": "CSCuy54533", 
       "product": "Cisco Enterprise Content Delivery System (ECDS)", 
-      "fix": [], 
+      "fix": [
+        "2.6.7 (15-Apr-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "2.6"
