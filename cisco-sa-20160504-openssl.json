@@ -1,13 +1,28 @@
 {
-  "version": "1.5", 
+  "version": "1.6", 
   "products": [
     {
       "bug_id": "CSCuz52556", 
       "product": "Cisco MeetingPlace", 
       "fix": [
-        "CWMS 2.7 (June 2016)"
+        "CWMS 2.7 (JUN-2016)"
       ], 
       "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz63938", 
+      "product": "Cisco SocialMiner", 
+      "fix": [
+        "11.5.1 (09-AUG-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "11.5(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco SocialMiner"
+      }
     }, 
     {
       "bug_id": "CSCuz52375", 
@@ -266,6 +281,20 @@
       }
     }, 
     {
+      "bug_id": "CSCuz60563", 
+      "product": "Cisco Jabber for Windows", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.6(0)", 
+          "11.7(0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Jabber for Windows"
+      }
+    }, 
+    {
       "bug_id": "CSCuz52380", 
       "product": "Cisco MMP server", 
       "fix": [
@@ -324,7 +353,9 @@
     {
       "bug_id": "CSCuz52372", 
       "product": "Cisco WebEx Meetings for BlackBerry", 
-      "fix": [], 
+      "fix": [
+        "No fix available"
+      ], 
       "bug_data": null
     }, 
     {
@@ -369,13 +400,17 @@
     {
       "bug_id": "CSCuz52383", 
       "product": "Cisco ACE 30 Application Control Engine Module", 
-      "fix": [], 
+      "fix": [
+        "No fix available"
+      ], 
       "bug_data": null
     }, 
     {
       "bug_id": "CSCuz52383", 
       "product": "Cisco ACE 4710 Application Control Engine (A5)", 
-      "fix": [], 
+      "fix": [
+        "No fix available"
+      ], 
       "bug_data": null
     }, 
     {
@@ -396,13 +431,17 @@
     {
       "bug_id": "CSCuz52350", 
       "product": "Cisco InTracer", 
-      "fix": [], 
+      "fix": [
+        "No fix available"
+      ], 
       "bug_data": null
     }, 
     {
       "bug_id": "CSCuz52469", 
       "product": "Cisco Network Admission Control (NAC)", 
-      "fix": [], 
+      "fix": [
+        "No fix available"
+      ], 
       "bug_data": {
         "affected_releases": [
           "4.9(5)"
@@ -415,7 +454,9 @@
     {
       "bug_id": "CSCuz52466", 
       "product": "Cisco Visual Quality Experience Server", 
-      "fix": [], 
+      "fix": [
+        "No fix available"
+      ], 
       "bug_data": {
         "affected_releases": [
           "3.11(2)"
@@ -428,7 +469,9 @@
     {
       "bug_id": "CSCuz52466", 
       "product": "Cisco Visual Quality Experience Tools Server", 
-      "fix": [], 
+      "fix": [
+        "No fix available"
+      ], 
       "bug_data": {
         "affected_releases": [
           "3.11(2)"
@@ -501,7 +544,9 @@
     {
       "bug_id": "CSCuz52470", 
       "product": "Cisco Clean Access Manager", 
-      "fix": [], 
+      "fix": [
+        "No fix available"
+      ], 
       "bug_data": {
         "affected_releases": [
           "4.9(5)"
@@ -533,7 +578,9 @@
     {
       "bug_id": "CSCuz52364", 
       "product": "Cisco Email Security Appliance (ESA)", 
-      "fix": [], 
+      "fix": [
+        "10.5 (01-DEC-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "8.0.1-023", 
@@ -559,7 +606,9 @@
     {
       "bug_id": "CSCuz52508", 
       "product": "Cisco IPS", 
-      "fix": [], 
+      "fix": [
+        "Not available"
+      ], 
       "bug_data": {
         "affected_releases": [
           "7.1(11)SP"
@@ -573,7 +622,7 @@
       "bug_id": "CSCuz52493", 
       "product": "Cisco Identity Services Engine (ISE)", 
       "fix": [
-        "2.2.1 (Dec. 2016)"
+        "2.2.1 (DEC-2016)"
       ], 
       "bug_data": null
     }, 
@@ -615,7 +664,9 @@
     {
       "bug_id": "CSCuz52472", 
       "product": "Cisco NAC Guest Server", 
-      "fix": [], 
+      "fix": [
+        "No fix available"
+      ], 
       "bug_data": {
         "affected_releases": [
           "2.1(0)"
@@ -628,7 +679,9 @@
     {
       "bug_id": "CSCuz52471", 
       "product": "Cisco NAC Server", 
-      "fix": [], 
+      "fix": [
+        "No fix available"
+      ], 
       "bug_data": {
         "affected_releases": [
           "4.9(5)"
@@ -690,16 +743,73 @@
       }
     }, 
     {
+      "bug_id": null, 
+      "product": "Lancope Stealthwatch SMC<br />", 
+      "fix": [
+        "6.7.3&nbsp;&nbsp; End of May 2016", 
+        "6.8.0&nbsp;&nbsp; End of May 2016", 
+        "6.8.1&nbsp;&nbsp; June 2016", 
+        "6.8.2&nbsp;&nbsp; End of Jun 2016"
+      ], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": null, 
+      "product": "Lancope Stealthwatch FlowCollector NetFlow<br />", 
+      "fix": [
+        "6.7.3&nbsp;&nbsp; End of May 2016", 
+        "6.8.0&nbsp;&nbsp; End of May 2016", 
+        "6.8.1&nbsp;&nbsp; June 2016", 
+        "6.8.2&nbsp;&nbsp; End of Jun 2016"
+      ], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": null, 
+      "product": "Lancope Stealthwatch FlowCollector sFlow<br />", 
+      "fix": [
+        "6.7.3&nbsp;&nbsp; End of May 2016", 
+        "6.8.0&nbsp;&nbsp; End of May 2016", 
+        "6.8.1&nbsp;&nbsp; June 2016", 
+        "6.8.2&nbsp;&nbsp; End of Jun 2016"
+      ], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": null, 
+      "product": "Lancope Stealthwatch FlowSensor<br />", 
+      "fix": [
+        "6.7.3&nbsp;&nbsp; End of May 2016", 
+        "6.8.0&nbsp;&nbsp; End of May 2016", 
+        "6.8.1&nbsp;&nbsp; June 2016", 
+        "6.8.2&nbsp;&nbsp; End of Jun 2016"
+      ], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": null, 
+      "product": "Lancope Stealthwatch UDP Director<br />", 
+      "fix": [
+        "6.7.3&nbsp;&nbsp; End of May 2016", 
+        "6.8.0&nbsp;&nbsp; End of May 2016", 
+        "6.8.1&nbsp;&nbsp; June 2016", 
+        "6.8.2&nbsp;&nbsp; End of Jun 2016"
+      ], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCuz52384", 
       "product": "Cisco Application Networking Manager", 
-      "fix": [], 
+      "fix": [
+        "No fix available"
+      ], 
       "bug_data": null
     }, 
     {
       "bug_id": "CSCuz52389", 
       "product": "Cisco Application Policy Infrastructure Controller (APIC)", 
       "fix": [
-        "2.0(0.400)(31-May-2016)"
+        "2.0(0.400) (31-May-2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -813,7 +923,7 @@
       "bug_id": "CSCuz52426", 
       "product": "Cisco NetFlow Generation Appliance", 
       "fix": [
-        "Affected systems will be updated (01-AUG-2016)"
+        "Affected systems will be updated 01-AUG-2016"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -934,7 +1044,9 @@
     {
       "bug_id": "CSCuz52387", 
       "product": "Cisco Prime Data Center Network Manager (DCNM)", 
-      "fix": [], 
+      "fix": [
+        "No fix available"
+      ], 
       "bug_data": {
         "affected_releases": [
           "7.2(3)"
@@ -973,7 +1085,9 @@
     {
       "bug_id": "CSCuz52413", 
       "product": "Cisco Prime LAN Management Solution (LMS - Solaris)", 
-      "fix": [], 
+      "fix": [
+        "No fix available"
+      ], 
       "bug_data": null
     }, 
     {
@@ -1021,7 +1135,7 @@
       "bug_id": "CSCuz52408", 
       "product": "Cisco Prime Network", 
       "fix": [
-        "Affected systems will be updated (30-Jun-2016)"
+        "Affected systems will be updated 30-Jun-2016"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1099,7 +1213,7 @@
       "bug_id": "CSCuz52454", 
       "product": "Cisco Show and Share (SnS)", 
       "fix": [
-        "No fixes are expected."
+        "No fixes are expected"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1129,6 +1243,21 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco UCS Central Software"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz63935", 
+      "product": "Cisco Unified Intelligence Center (CUIC)", 
+      "fix": [
+        "11.5.1 (28-JUL-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "11.5(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Intelligence Center"
       }
     }, 
     {
@@ -1177,7 +1306,7 @@
     }, 
     {
       "bug_id": "CSCuz52528", 
-      "product": "Cisco IOS Software and Cisco IOS-XE Software", 
+      "product": "Cisco IOS Software and Cisco IOS XE Software", 
       "fix": [
         "16.3.1 (16-MAY-2016)"
       ], 
@@ -1239,6 +1368,21 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco Intercloud Fabric"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz52399", 
+      "product": "Cisco Nexus 1000V Series Switches (ESX)", 
+      "fix": [
+        "5.2(1)SV3(2.1) (30-JUN-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "5.2(1)SV3(2.0.248)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Nexus 1000V Switch for VMware vSphere"
       }
     }, 
     {
@@ -1415,7 +1559,9 @@
     {
       "bug_id": "CSCuz52485", 
       "product": "Cisco OnePK All-in-One VM", 
-      "fix": [], 
+      "fix": [
+        "No fix available"
+      ], 
       "bug_data": {
         "affected_releases": [
           "1.0(0)", 
@@ -1432,7 +1578,9 @@
     {
       "bug_id": "CSCuz52530", 
       "product": "Cisco Service Control Operating System", 
-      "fix": [], 
+      "fix": [
+        "Not available"
+      ], 
       "bug_data": {
         "affected_releases": [
           "12.4(5.2)"
@@ -1628,6 +1776,22 @@
       }
     }, 
     {
+      "bug_id": "CSCuz52550", 
+      "product": "Cisco Jabber for Apple iOS", 
+      "fix": [
+        "11.6.2 (Available)", 
+        "11.7.0 (Available)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "11.6(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Jabber for iPhone"
+      }
+    }, 
+    {
       "bug_id": "CSCuz52562", 
       "product": "Cisco MediaSense", 
       "fix": [
@@ -1645,7 +1809,9 @@
     {
       "bug_id": "CSCuz52548", 
       "product": "Cisco Paging Server (Informacast)", 
-      "fix": [], 
+      "fix": [
+        "11.5.1 (JUN-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "11.0(5)"
@@ -1658,7 +1824,9 @@
     {
       "bug_id": "CSCuz52548", 
       "product": "Cisco Paging Server", 
-      "fix": [], 
+      "fix": [
+        "11.5.1 (JUN-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "11.0(5)"
@@ -1791,7 +1959,9 @@
     {
       "bug_id": "CSCuz52561", 
       "product": "Cisco Unified 6945 IP Phones", 
-      "fix": [], 
+      "fix": [
+        "Not available"
+      ], 
       "bug_data": {
         "affected_releases": [
           "9.4(2)SR2"
@@ -2088,6 +2258,21 @@
       }
     }, 
     {
+      "bug_id": "CSCuz63939", 
+      "product": "Cisco Unified Contact Center Express", 
+      "fix": [
+        "11.5.1 (09-AUG-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "11.5(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Contact Center Express"
+      }
+    }, 
+    {
       "bug_id": "CSCuz52320", 
       "product": "Cisco Unified IP Conference Phone 8831 for\nThird-Party Call Control", 
       "fix": [], 
@@ -2128,7 +2313,7 @@
       "bug_id": "CSCuz52349", 
       "product": "Cisco Unified Sip Proxy", 
       "fix": [
-        "CUSP 10.0 (Sept. 2016)"
+        "CUSP 10.0 (SEP-2016)"
       ], 
       "bug_data": null
     }, 
@@ -2163,6 +2348,14 @@
       }
     }, 
     {
+      "bug_id": "CSCuz52572", 
+      "product": "Cisco Unified Workforce Optimization", 
+      "fix": [
+        "11.0 SR3 ES5 (06-30-2016)"
+      ], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCuz52538", 
       "product": "Cisco Unity Connection (UC)", 
       "fix": [
@@ -2181,7 +2374,7 @@
       "bug_id": "CSCuz52570", 
       "product": "Cisco Virtualization Experience Media Engine", 
       "fix": [
-        "11.7(0) (July 2016)", 
+        "11.7(0) (JUL-2016)", 
         "11.5.1 (Available)"
       ], 
       "bug_data": {
@@ -2322,7 +2515,7 @@
       "fix": [
         "MXE3500 3.5 (16-MAY-2016)", 
         "MXE3500 3.5.1 (16-MAY-2016)", 
-        "MXE3500 3.2 (Recommendation is to upgrade to 3.5)"
+        "MXE3500 3.2 (Recommend upgrade to 3.5)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -2362,7 +2555,7 @@
       "bug_id": "CSCuz52456", 
       "product": "Cisco TelePresence Content Server (TCS)", 
       "fix": [
-        "7.2 (Oct. 2016)"
+        "7.2 (OCT-2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -2497,7 +2690,9 @@
     {
       "bug_id": "CSCuz52453", 
       "product": "Cisco TelePresence Serial Gateway Series", 
-      "fix": [], 
+      "fix": [
+        "No fix available"
+      ], 
       "bug_data": {
         "affected_releases": [
           "1.0(1.48)"
@@ -2816,7 +3011,7 @@
       "bug_id": "CSCuz52462", 
       "product": "Cisco Videoscape Control Suite", 
       "fix": [
-        "Affected systems will be updated (30-Jun-2016)"
+        "Affected systems will be updated 30-Jun-2016"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -2863,9 +3058,24 @@
       }
     }, 
     {
+      "bug_id": "CSCuz52410", 
+      "product": "Cisco Aironet 2700 Series Access Point", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "Denlai-16.3.1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco IOS"
+      }
+    }, 
+    {
       "bug_id": "CSCuz52422", 
       "product": "Cisco Mobility Services Engine (MSE)", 
-      "fix": [], 
+      "fix": [
+        "8.0 (JUN-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "8.0(130.0)"
@@ -2922,7 +3132,7 @@
       "bug_id": "CSCuz52362", 
       "product": "Cisco Registered Envelope Service (CRES)", 
       "fix": [
-        "5.0.0 (June 2016)"
+        "5.0.0 (JUN-2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -2936,7 +3146,9 @@
     {
       "bug_id": "CSCuz52473", 
       "product": "Cisco Smart Care", 
-      "fix": [], 
+      "fix": [
+        "No fix available"
+      ], 
       "bug_data": {
         "affected_releases": [
           "1.16(0.1)ITH"
@@ -3008,7 +3220,7 @@
       "bug_id": "CSCuz52357", 
       "product": "Services Analytic Platform", 
       "fix": [
-        "Affected versions will be updated (30-Jul-2016)"
+        "Affected versions will be updated 30-Jul-2016"
       ], 
       "bug_data": null
     }
