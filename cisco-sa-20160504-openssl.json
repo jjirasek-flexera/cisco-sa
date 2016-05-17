@@ -1,10 +1,12 @@
 {
-  "version": "1.4", 
+  "version": "1.5", 
   "products": [
     {
       "bug_id": "CSCuz52556", 
       "product": "Cisco MeetingPlace", 
-      "fix": [], 
+      "fix": [
+        "CWMS 2.7 (June 2016)"
+      ], 
       "bug_data": null
     }, 
     {
@@ -18,7 +20,7 @@
           "2.7"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco WebEx Meetings Server"
       }
     }, 
@@ -33,7 +35,7 @@
           "2.7"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco WebEx Meetings Server"
       }
     }, 
@@ -43,49 +45,162 @@
       "fix": [
         "3.12.9.8 (27-MAY-2016)"
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "eureka-3.12.9.8"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco WebEx Meeting Center"
+      }
     }, 
     {
       "bug_id": "CSCuz52503", 
       "product": "Cisco Agent for OpenFlow", 
-      "fix": [], 
-      "bug_data": null
+      "fix": [
+        "2.1.5 (N3K/N9K) (27-MAY-2016)", 
+        "2.0.7 (N7K) (27-MAY-2016)", 
+        "2.0.7 (cat3k/cat4k) (27-MAY-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "2.0(0)", 
+          "2.0(0.0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Plug-in for OpenFlow"
+      }
     }, 
     {
       "bug_id": "CSCuz52506", 
       "product": "Cisco AnyConnect Secure Mobility Client for Android", 
-      "fix": [], 
-      "bug_data": null
+      "fix": [
+        "4.3 for Windows", 
+        "Linux", 
+        "OS X (16-MAY-2016)", 
+        "4.2 for Windows", 
+        "Linux", 
+        "OS X (JUN-2016)", 
+        "4.0 for Android", 
+        "iOS (JUN-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "4.2(2052)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco AnyConnect Secure Mobility Client"
+      }
     }, 
     {
       "bug_id": "CSCuz52507", 
       "product": "Cisco AnyConnect Secure Mobility Client for Android", 
-      "fix": [], 
-      "bug_data": null
+      "fix": [
+        "4.3 for Windows", 
+        "Linux", 
+        "OS X (16-MAY-2016) 4.2 for Windows", 
+        "Linux", 
+        "OS X (JUN-2016) 4.0 for Android", 
+        "iOS (JUN-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "4.0(5038)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco AnyConnect Secure Mobility Client"
+      }
     }, 
     {
       "bug_id": "CSCuz52506", 
       "product": "Cisco AnyConnect Secure Mobility Client for Linux", 
-      "fix": [], 
-      "bug_data": null
+      "fix": [
+        "4.3 for Windows", 
+        "Linux", 
+        "OS X (16-MAY-2016)", 
+        "4.2 for Windows", 
+        "Linux", 
+        "OS X (JUN-2016)", 
+        "4.0 for Android", 
+        "iOS (JUN-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "4.2(2052)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco AnyConnect Secure Mobility Client"
+      }
     }, 
     {
       "bug_id": "CSCuz52506", 
       "product": "Cisco AnyConnect Secure Mobility Client for OS X", 
-      "fix": [], 
-      "bug_data": null
+      "fix": [
+        "4.3 for Windows", 
+        "Linux", 
+        "OS X (16-MAY-2016)", 
+        "4.2 for Windows", 
+        "Linux", 
+        "OS X (JUN-2016)", 
+        "4.0 for Android", 
+        "iOS (JUN-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "4.2(2052)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco AnyConnect Secure Mobility Client"
+      }
     }, 
     {
       "bug_id": "CSCuz52506", 
       "product": "Cisco AnyConnect Secure Mobility Client for Windows", 
-      "fix": [], 
-      "bug_data": null
+      "fix": [
+        "4.3 for Windows", 
+        "Linux", 
+        "OS X (16-MAY-2016)", 
+        "4.2 for Windows", 
+        "Linux", 
+        "OS X (JUN-2016)", 
+        "4.0 for Android", 
+        "iOS (JUN-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "4.2(2052)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco AnyConnect Secure Mobility Client"
+      }
     }, 
     {
       "bug_id": "CSCuz52506", 
       "product": "Cisco AnyConnect Secure Mobility Client for iOS", 
-      "fix": [], 
-      "bug_data": null
+      "fix": [
+        "4.3 for Windows", 
+        "Linux", 
+        "OS X (16-MAY-2016)", 
+        "4.2 for Windows", 
+        "Linux", 
+        "OS X (JUN-2016)", 
+        "4.0 for Android", 
+        "iOS (JUN-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "4.2(2052)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco AnyConnect Secure Mobility Client"
+      }
     }, 
     {
       "bug_id": "CSCuz52554", 
@@ -108,13 +223,47 @@
       "fix": [
         "11.7 (28-JUL-2016)"
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "11.0(0)", 
+          "11.0(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Jabber Software Development Kit"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz52568", 
+      "product": "Cisco Jabber for Android", 
+      "fix": [
+        "11.6 MR (31-MAY-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "11.6(0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Unified Mobile Communicator"
+      }
     }, 
     {
       "bug_id": "CSCuz52551", 
       "product": "Cisco Jabber for Mac", 
-      "fix": [], 
-      "bug_data": null
+      "fix": [
+        "11.7 (27-JUL-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "11.5(2)", 
+          "11.6(0)", 
+          "11.7(0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Jabber for Mac"
+      }
     }, 
     {
       "bug_id": "CSCuz52380", 
@@ -198,7 +347,7 @@
           "2.7"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco WebEx Meetings Server"
       }
     }, 
@@ -208,6 +357,25 @@
       "fix": [
         "T31R1SP6 (15-JUL-2016)"
       ], 
+      "bug_data": {
+        "affected_releases": [
+          "T31"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco WebEx Meetings"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz52383", 
+      "product": "Cisco ACE 30 Application Control Engine Module", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz52383", 
+      "product": "Cisco ACE 4710 Application Control Engine (A5)", 
+      "fix": [], 
       "bug_data": null
     }, 
     {
@@ -235,7 +403,14 @@
       "bug_id": "CSCuz52469", 
       "product": "Cisco Network Admission Control (NAC)", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "4.9(5)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco NAC Appliance (Clean Access)"
+      }
     }, 
     {
       "bug_id": "CSCuz52466", 
@@ -261,6 +436,22 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco Content Delivery Engine Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz52481", 
+      "product": "Cisco Wide Area Application Services (WAAS)", 
+      "fix": [
+        "5.5.7 (30-JUN-2016)", 
+        "6.2.3 (29-JUL-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "6.2(3)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Wide Area Application Services (WAAS) Appliances"
       }
     }, 
     {
@@ -298,11 +489,31 @@
       "bug_id": "CSCuz52474", 
       "product": "Cisco Adaptive Security Appliance (ASA)", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "8.4"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco ASA 5500-X Series Firewalls"
+      }
     }, 
     {
       "bug_id": "CSCuz52470", 
       "product": "Cisco Clean Access Manager", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "4.9(5)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco NAC Appliance (Clean Access)"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz52368", 
+      "product": "Cisco Content Security Appliance Updater Servers", 
       "fix": [], 
       "bug_data": null
     }, 
@@ -310,19 +521,83 @@
       "bug_id": "CSCuz52367", 
       "product": "Cisco Content Security Management Appliance (SMA)", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "9.6.0-051"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Content Security Management Appliance"
+      }
     }, 
     {
       "bug_id": "CSCuz52364", 
       "product": "Cisco Email Security Appliance (ESA)", 
       "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "8.0.1-023", 
+          "8.5.6-106", 
+          "8.5.7-042", 
+          "9.1.0-040", 
+          "9.1.1-023", 
+          "9.7.0-125", 
+          "9.7.1-066", 
+          "9.9.5-001"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Email Security Appliance"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz52366", 
+      "product": "Cisco FireSIGHT System Software", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz52508", 
+      "product": "Cisco IPS", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "7.1(11)SP"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco IPS 4200 Series Sensors"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz52493", 
+      "product": "Cisco Identity Services Engine (ISE)", 
+      "fix": [
+        "2.2.1 (Dec. 2016)"
+      ], 
       "bug_data": null
     }, 
     {
       "bug_id": "CSCuz52363", 
       "product": "Cisco IronPort Email Security Appliance", 
-      "fix": [], 
-      "bug_data": null
+      "fix": [
+        "10.5 (DEC-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "8.0.1-023", 
+          "8.5.6-106", 
+          "8.5.7-042", 
+          "9.1.0-040", 
+          "9.1.1-023", 
+          "9.7.0-125", 
+          "9.7.1-066", 
+          "9.9.5-001"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Email Security Appliance"
+      }
     }, 
     {
       "bug_id": "CSCuz52365", 
@@ -341,13 +616,40 @@
       "bug_id": "CSCuz52472", 
       "product": "Cisco NAC Guest Server", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "2.1(0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco NAC Appliance 3300 Series"
+      }
     }, 
     {
       "bug_id": "CSCuz52471", 
       "product": "Cisco NAC Server", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "4.9(5)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco NAC Appliance (Clean Access)"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz52487", 
+      "product": "Cisco Physical Access Control Gateway", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "1.5(3.0.3.6)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Physical Access Gateways"
+      }
     }, 
     {
       "bug_id": "CSCuz52505", 
@@ -356,7 +658,9 @@
       "bug_data": {
         "affected_releases": [
           "5.7(0.15)", 
-          "5.8(0.32)"
+          "5.7(0.15.2)", 
+          "5.8(0.32)", 
+          "5.8(0.32.2)"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
@@ -376,7 +680,36 @@
       "bug_id": "CSCuz52369", 
       "product": "Cisco Web Security Appliance (WSA)", 
       "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "9.0.1-162"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Web Security Appliance"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz52384", 
+      "product": "Cisco Application Networking Manager", 
+      "fix": [], 
       "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz52389", 
+      "product": "Cisco Application Policy Infrastructure Controller (APIC)", 
+      "fix": [
+        "2.0(0.400)(31-May-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "1.3(1g)", 
+          "2.0(0.269)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Nexus 9000 Series Switches"
+      }
     }, 
     {
       "bug_id": "CSCuz52441", 
@@ -461,7 +794,14 @@
       "bug_id": "CSCuz52431", 
       "product": "Cisco Mobile Wireless Transport Manager", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "6.1(7.2)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Mobile Wireless Transport Manager"
+      }
     }, 
     {
       "bug_id": "CSCuz52414", 
@@ -492,8 +832,7 @@
       ], 
       "bug_data": {
         "affected_releases": [
-          "6.2(1)", 
-          "6.3(0.1)"
+          "6.2(1)"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
@@ -550,8 +889,17 @@
     {
       "bug_id": "CSCuz52430", 
       "product": "Cisco Prime Collaboration Assurance", 
-      "fix": [], 
-      "bug_data": null
+      "fix": [
+        "11.5 SP1 (Aug. 2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "11.5(0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Prime Collaboration"
+      }
     }, 
     {
       "bug_id": "CSCuz52537", 
@@ -564,7 +912,7 @@
           "11.5(0.98000.333)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Communications Manager (CallManager)"
       }
     }, 
@@ -574,13 +922,40 @@
       "fix": [
         "11.2 (05-JUN-2016)"
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "11.2"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Prime Collaboration"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz52387", 
+      "product": "Cisco Prime Data Center Network Manager (DCNM)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "7.2(3)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Data Center Network Manager"
+      }
     }, 
     {
       "bug_id": "CSCuz52421", 
       "product": "Cisco Prime IP Express", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "8.3"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Network Registrar"
+      }
     }, 
     {
       "bug_id": "CSCuz52424", 
@@ -612,7 +987,7 @@
           "11.5(1.99000.9)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Communications Licensing"
       }
     }, 
@@ -620,13 +995,27 @@
       "bug_id": "CSCuz52415", 
       "product": "Cisco Prime Network Registrar (CPNR)", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "8.3(3)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Network Registrar"
+      }
     }, 
     {
       "bug_id": "CSCuz52433", 
       "product": "Cisco Prime Network Services Controller", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "3.4"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Virtual Network Management Center"
+      }
     }, 
     {
       "bug_id": "CSCuz52408", 
@@ -654,7 +1043,7 @@
           "10.6(0.0.114)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Prime Optical"
       }
     }, 
@@ -699,7 +1088,9 @@
         "affected_releases": [
           "4.11(0.209)"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "4.12(0.91)"
+        ], 
         "status": "Open", 
         "product_name": "Cisco Security Manager"
       }
@@ -728,8 +1119,17 @@
     {
       "bug_id": "CSCuz52405", 
       "product": "Cisco UCS Central", 
-      "fix": [], 
-      "bug_data": null
+      "fix": [
+        "1.5(1a) (JUL-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "1.4(1a)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco UCS Central Software"
+      }
     }, 
     {
       "bug_id": "CSCuz52524", 
@@ -743,14 +1143,7 @@
       "bug_id": "CSCuz52351", 
       "product": "Cisco ASR 5000 Series", 
       "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "20.0.0"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco ASR 5000 Series"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCuz52385", 
@@ -836,6 +1229,19 @@
       }
     }, 
     {
+      "bug_id": "CSCuz52393", 
+      "product": "Cisco Nexus 1000V InterCloud", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.3(1b)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Intercloud Fabric"
+      }
+    }, 
+    {
       "bug_id": "CSCuz52397", 
       "product": "Cisco Nexus 1000V Series Switches", 
       "fix": [
@@ -859,8 +1265,17 @@
     {
       "bug_id": "CSCuz52512", 
       "product": "Cisco Nexus 4000 Series Blade Switches", 
-      "fix": [], 
-      "bug_data": null
+      "fix": [
+        "0.9.8zf (AUG-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "4.1(2)E1(1a)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Nexus 4000 Series Switches"
+      }
     }, 
     {
       "bug_id": "CSCuz52395", 
@@ -887,7 +1302,14 @@
       "fix": [
         "7.3.1 (AUG-2016)"
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "7.3(0)ZN(0.258)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Nexus 5000 Series Switches"
+      }
     }, 
     {
       "bug_id": "CSCuz52395", 
@@ -930,14 +1352,65 @@
     {
       "bug_id": "CSCuz52391", 
       "product": "Cisco Nexus 9000 (ACI/Fabric Switch)", 
-      "fix": [], 
+      "fix": [
+        "12.0 (30-JUN-2016)"
+      ], 
       "bug_data": null
     }, 
     {
       "bug_id": "CSCuz52396", 
       "product": "Cisco Nexus 9000 Series (standalone, running NxOS)", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "7.0(3)I4(1)"
+        ], 
+        "fixed_releases": [
+          "7.0(3)I4(0.137)", 
+          "7.0(3)I4(1)"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco Nexus 9000 Series Switches"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz52486", 
+      "product": "Cisco ONS 15454 Series Multiservice Provisioning Platforms", 
+      "fix": [
+        "10.6.1 (30-JUN-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "10.0", 
+          "10.021", 
+          "10.30", 
+          "10.301", 
+          "10.302", 
+          "10.50", 
+          "10.51", 
+          "10.512", 
+          "10.513", 
+          "10.52", 
+          "10.521", 
+          "10.522", 
+          "9.23", 
+          "9.231", 
+          "9.604", 
+          "9.605", 
+          "9.606", 
+          "9.607", 
+          "9.608", 
+          "9.609", 
+          "9.80", 
+          "9.81", 
+          "9.811", 
+          "9.812", 
+          "9.813"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco ONS 15454 Series Multiservice Provisioning Platforms"
+      }
     }, 
     {
       "bug_id": "CSCuz52485", 
@@ -973,7 +1446,14 @@
       "bug_id": "CSCuz52386", 
       "product": "Cisco Cloupia Unified Infrastructure Controller", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "5.4(0.3)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco UCS Director"
+      }
     }, 
     {
       "bug_id": "CSCuz52352", 
@@ -1057,6 +1537,12 @@
       }
     }, 
     {
+      "bug_id": "CSCuz52539", 
+      "product": "Cisco Agent Desktop for Cisco Unified Contact Center Express", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCuz52360", 
       "product": "Cisco Computer Telephony Integration Object Server (CTIOS)", 
       "fix": [
@@ -1098,7 +1584,9 @@
     {
       "bug_id": "CSCuz52547", 
       "product": "Cisco Hosted Collaboration Mediation Fulfillment", 
-      "fix": [], 
+      "fix": [
+        "11.5:20 (May-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "10.6(3)"
@@ -1119,20 +1607,32 @@
           "11.5(1)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Communications Manager IM & Presence Service"
       }
     }, 
     {
       "bug_id": "CSCuz52461", 
       "product": "Cisco IP Interoperability and Collaboration System (IPICS)", 
-      "fix": [], 
-      "bug_data": null
+      "fix": [
+        "5.0 (30-AUG-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "4.10(1)", 
+          "4.10(2)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco IPICS Server Software"
+      }
     }, 
     {
       "bug_id": "CSCuz52562", 
       "product": "Cisco MediaSense", 
-      "fix": [], 
+      "fix": [
+        "11.5.1 (15-Jul-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "11.5(1)"
@@ -1140,6 +1640,32 @@
         "fixed_releases": [], 
         "status": "Terminated", 
         "product_name": "Cisco MediaSense"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz52548", 
+      "product": "Cisco Paging Server (Informacast)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.0(5)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Paging Server"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz52548", 
+      "product": "Cisco Paging Server", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.0(5)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Paging Server"
       }
     }, 
     {
@@ -1319,6 +1845,172 @@
       }
     }, 
     {
+      "bug_id": "CSCuz52546", 
+      "product": "Cisco Unified 8961 IP Phone", 
+      "fix": [
+        "9.4.2SR3 (31-AUG-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "9.4(2)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified IP Phones 9900 Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz52546", 
+      "product": "Cisco Unified 9951 IP Phone", 
+      "fix": [
+        "9.4.2SR3 (31-AUG-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "9.4(2)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified IP Phones 9900 Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz52546", 
+      "product": "Cisco Unified 9971 IP Phone", 
+      "fix": [
+        "9.4.2SR3 (31-AUG-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "9.4(2)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified IP Phones 9900 Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz52532", 
+      "product": "Cisco Unified Attendant Console Advanced", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "10.0(1)", 
+          "10.5", 
+          "10.5(2)", 
+          "10.6(1)", 
+          "11.0(1)", 
+          "8.6", 
+          "9.0", 
+          "9.1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Unified Attendant Consoles"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz52532", 
+      "product": "Cisco Unified Attendant Console Business Edition", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "10.0(1)", 
+          "10.5", 
+          "10.5(2)", 
+          "10.6(1)", 
+          "11.0(1)", 
+          "8.6", 
+          "9.0", 
+          "9.1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Unified Attendant Consoles"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz52532", 
+      "product": "Cisco Unified Attendant Console Department Edition", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "10.0(1)", 
+          "10.5", 
+          "10.5(2)", 
+          "10.6(1)", 
+          "11.0(1)", 
+          "8.6", 
+          "9.0", 
+          "9.1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Unified Attendant Consoles"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz52532", 
+      "product": "Cisco Unified Attendant Console Enterprise Edition", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "10.0(1)", 
+          "10.5", 
+          "10.5(2)", 
+          "10.6(1)", 
+          "11.0(1)", 
+          "8.6", 
+          "9.0", 
+          "9.1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Unified Attendant Consoles"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz52532", 
+      "product": "Cisco Unified Attendant Console Premium Edition", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "10.0(1)", 
+          "10.5", 
+          "10.5(2)", 
+          "10.6(1)", 
+          "11.0(1)", 
+          "8.6", 
+          "9.0", 
+          "9.1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Unified Attendant Consoles"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz52533", 
+      "product": "Cisco Unified Attendant Console Standard", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "10.0", 
+          "10.0(1)", 
+          "10.5", 
+          "10.5(2)", 
+          "10.6(0)", 
+          "10.6(1)", 
+          "10.6(2)", 
+          "11.0(1)", 
+          "11.0(2)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Unified Attendant Consoles"
+      }
+    }, 
+    {
       "bug_id": "CSCuz52535", 
       "product": "Cisco Unified Communications Manager (UCM)", 
       "fix": [
@@ -1326,10 +2018,20 @@
       ], 
       "bug_data": {
         "affected_releases": [
-          "11.5(1.99000.8)"
+          "11.5(1.99000.9)"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "11.5(0.98000.1052)", 
+          "11.5(0.98000.1054)", 
+          "11.5(0.98000.1056)", 
+          "11.5(0.98000.1057)", 
+          "11.5(0.98000.276)", 
+          "11.5(0.98000.277)", 
+          "11.5(0.98000.341)", 
+          "11.5(0.98000.755)", 
+          "11.5(0.98000.757)"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Communications Manager (CallManager)"
       }
     }, 
@@ -1341,10 +2043,20 @@
       ], 
       "bug_data": {
         "affected_releases": [
-          "11.5(1.99000.8)"
+          "11.5(1.99000.9)"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "11.5(0.98000.1052)", 
+          "11.5(0.98000.1054)", 
+          "11.5(0.98000.1056)", 
+          "11.5(0.98000.1057)", 
+          "11.5(0.98000.276)", 
+          "11.5(0.98000.277)", 
+          "11.5(0.98000.341)", 
+          "11.5(0.98000.755)", 
+          "11.5(0.98000.757)"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Communications Manager (CallManager)"
       }
     }, 
@@ -1415,7 +2127,9 @@
     {
       "bug_id": "CSCuz52349", 
       "product": "Cisco Unified Sip Proxy", 
-      "fix": [], 
+      "fix": [
+        "CUSP 10.0 (Sept. 2016)"
+      ], 
       "bug_data": null
     }, 
     {
@@ -1424,19 +2138,61 @@
       "fix": [
         "1.5.1 (05-APR-2017)"
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "1.4(8)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified IP Phone 7900 Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz52571", 
+      "product": "Cisco Unified Workforce Optimization Quality Management", 
+      "fix": [
+        "11.0 SR3 ES5 (30-JUN-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "10.5(1)SR6"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Workforce Optimization"
+      }
     }, 
     {
       "bug_id": "CSCuz52538", 
       "product": "Cisco Unity Connection (UC)", 
-      "fix": [], 
-      "bug_data": null
+      "fix": [
+        "11.5 (20-MAY-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "11.5(1.902)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unity Connection"
+      }
     }, 
     {
       "bug_id": "CSCuz52570", 
       "product": "Cisco Virtualization Experience Media Engine", 
-      "fix": [], 
-      "bug_data": null
+      "fix": [
+        "11.7(0) (July 2016)", 
+        "11.5.1 (Available)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "10.6(0)", 
+          "11.7(0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Virtualization Experience Media Edition"
+      }
     }, 
     {
       "bug_id": "CSCuz52522", 
@@ -1444,7 +2200,14 @@
       "fix": [
         "9.4.5 (30-JUN-2016)"
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "9.6.4"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco AS Series Media Processor Software"
+      }
     }, 
     {
       "bug_id": "CSCuz52407", 
@@ -1524,8 +2287,17 @@
     {
       "bug_id": "CSCuz52442", 
       "product": "Cisco Enterprise Content Delivery System (ECDS)", 
-      "fix": [], 
-      "bug_data": null
+      "fix": [
+        "2.6.8 (JUL-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "2.6"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Content Delivery Engine Series"
+      }
     }, 
     {
       "bug_id": "CSCuz55590", 
@@ -1537,8 +2309,10 @@
         "affected_releases": [
           "X8.x"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "X8.8"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco TelePresence Video Communication Server (VCS)"
       }
     }, 
@@ -1564,36 +2338,83 @@
       }
     }, 
     {
+      "bug_id": "CSCuz52438", 
+      "product": "Cisco Media Services Interface", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCuz52439", 
       "product": "Cisco TelePresence Conductor", 
       "fix": [
         "4.3 (JUL-2016)"
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "XC4.2"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco TelePresence Conductor"
+      }
     }, 
     {
       "bug_id": "CSCuz52456", 
       "product": "Cisco TelePresence Content Server (TCS)", 
-      "fix": [], 
-      "bug_data": null
+      "fix": [
+        "7.2 (Oct. 2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "7.0", 
+          "7.1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco TelePresence Content Server"
+      }
     }, 
     {
       "bug_id": "CSCuz52455", 
       "product": "Cisco TelePresence EX Series", 
-      "fix": [], 
-      "bug_data": null
+      "fix": [
+        "8.1.2 (MAY-2016)", 
+        "7.3.7 (MAY-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "8.2.0PreAlpha3"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Telepresence Integrator C Series"
+      }
     }, 
     {
       "bug_id": "CSCuz52444", 
       "product": "Cisco TelePresence ISDN GW 3241", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "2.2(1.111)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco TelePresence ISDN Gateway"
+      }
     }, 
     {
       "bug_id": "CSCuz52444", 
       "product": "Cisco TelePresence ISDN GW MSE 8321", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "2.2(1.111)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco TelePresence ISDN Gateway"
+      }
     }, 
     {
       "bug_id": "CSCuz52446", 
@@ -1601,37 +2422,90 @@
       "fix": [
         "1.1.6 (30-MAY-2016)"
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "1.1.5"
+        ], 
+        "fixed_releases": [
+          "IL1.1.6"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco TelePresence ISDN Link"
+      }
     }, 
     {
       "bug_id": "CSCuz52447", 
       "product": "Cisco TelePresence MCU (8510, 8420, 4200, 4500 and 5300)", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "4.5(1.85)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco TelePresence MCU 4500 Series"
+      }
     }, 
     {
       "bug_id": "CSCuz52455", 
       "product": "Cisco TelePresence MX Series", 
-      "fix": [], 
-      "bug_data": null
+      "fix": [
+        "8.1.2 (MAY-2016)", 
+        "7.3.7 (MAY-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "8.2.0PreAlpha3"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Telepresence Integrator C Series"
+      }
     }, 
     {
       "bug_id": "CSCuz52455", 
       "product": "Cisco TelePresence Profile Series", 
-      "fix": [], 
-      "bug_data": null
+      "fix": [
+        "8.1.2 (MAY-2016)", 
+        "7.3.7 (MAY-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "8.2.0PreAlpha3"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Telepresence Integrator C Series"
+      }
     }, 
     {
       "bug_id": "CSCuz52455", 
       "product": "Cisco TelePresence SX Series", 
-      "fix": [], 
-      "bug_data": null
+      "fix": [
+        "8.1.2 (MAY-2016)", 
+        "7.3.7 (MAY-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "8.2.0PreAlpha3"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Telepresence Integrator C Series"
+      }
     }, 
     {
       "bug_id": "CSCuz52453", 
       "product": "Cisco TelePresence Serial Gateway Series", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "1.0(1.48)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco TelePresence Serial Gateway Series"
+      }
     }, 
     {
       "bug_id": "CSCuz52458", 
@@ -1715,7 +2589,14 @@
       "bug_id": "CSCuz52448", 
       "product": "Cisco TelePresence Supervisor MSE 8050", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "2.3(1.46)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco TelePresence MSE 8000 Series"
+      }
     }, 
     {
       "bug_id": "CSCuz55590", 
@@ -1727,22 +2608,43 @@
         "affected_releases": [
           "X8.x"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "X8.8"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco TelePresence Video Communication Server (VCS)"
       }
     }, 
     {
       "bug_id": "CSCuz52455", 
       "product": "Cisco Telepresence Integrator C Series", 
-      "fix": [], 
-      "bug_data": null
+      "fix": [
+        "8.1.2 (MAY-2016)", 
+        "7.3.7 (MAY-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "8.2.0PreAlpha3"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Telepresence Integrator C Series"
+      }
     }, 
     {
       "bug_id": "CSCuz52464", 
       "product": "Cisco Video Distribution Suite for Internet Streaming (VDS-IS/CDS-IS)", 
-      "fix": [], 
-      "bug_data": null
+      "fix": [
+        "4.3.2 (JUN-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "4.3(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Content Delivery Engine Series"
+      }
     }, 
     {
       "bug_id": "CSCuz52490", 
@@ -1780,7 +2682,14 @@
       "fix": [
         "2.4.7 (MAY-2016)"
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "6.3(2)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Video Surveillance 4000 Series IP Cameras"
+      }
     }, 
     {
       "bug_id": "CSCuz52489", 
@@ -1788,7 +2697,14 @@
       "fix": [
         "3.2.8 (MAY-2016)"
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "3.2(7.300)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Video Surveillance 4000 Series IP Cameras"
+      }
     }, 
     {
       "bug_id": "CSCuz52490", 
@@ -1899,7 +2815,9 @@
     {
       "bug_id": "CSCuz52462", 
       "product": "Cisco Videoscape Control Suite", 
-      "fix": [], 
+      "fix": [
+        "Affected systems will be updated (30-Jun-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "3.600", 
@@ -1922,19 +2840,70 @@
       "bug_id": "CSCuz52444", 
       "product": "Tandberg Codian ISDN GW 3210/3220/3240", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "2.2(1.111)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco TelePresence ISDN Gateway"
+      }
     }, 
     {
       "bug_id": "CSCuz52444", 
       "product": "Tandberg Codian MSE 8320 model", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "2.2(1.111)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco TelePresence ISDN Gateway"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz52422", 
+      "product": "Cisco Mobility Services Engine (MSE)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "8.0(130.0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Mobility Services Engine"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz52356", 
+      "product": "Cisco Connected Analytics For Collaboration", 
+      "fix": [
+        "1.0.1q  (29-Jul-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "2.100"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Web Collaboration Option"
+      }
     }, 
     {
       "bug_id": "CSCuz52460", 
       "product": "Cisco Intelligent Automation for Cloud", 
-      "fix": [], 
-      "bug_data": null
+      "fix": [
+        "0.9.8 (15-Oct.2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "4.3.2"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Intelligent Automation for Cloud"
+      }
     }, 
     {
       "bug_id": "CSCuz52354", 
@@ -1968,7 +2937,14 @@
       "bug_id": "CSCuz52473", 
       "product": "Cisco Smart Care", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "1.16(0.1)ITH"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Smart Care Service"
+      }
     }, 
     {
       "bug_id": "CSCuz52520", 
@@ -1993,7 +2969,14 @@
         "3.9.0.5 (25-MAY-2016)", 
         "3.9.1 (25-MAY-2016)"
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "Webex11-V1.3.5"
+        ], 
+        "fixed_releases": [], 
+        "status": "Other", 
+        "product_name": "Cisco WebEx Meetings"
+      }
     }, 
     {
       "bug_id": "CSCuz52377", 
@@ -2001,14 +2984,7 @@
       "fix": [
         "7.20.0 (25-May-2016)"
       ], 
-      "bug_data": {
-        "affected_releases": [
-          "7.19.0"
-        ], 
-        "fixed_releases": [], 
-        "status": "Fixed", 
-        "product_name": "Cisco WebEx Connect IM"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCuz52525", 
