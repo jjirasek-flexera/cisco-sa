@@ -1,5 +1,5 @@
 {
-  "version": "2.1", 
+  "version": "2.2", 
   "products": [
     {
       "bug_id": "CSCuy54660", 
@@ -12,7 +12,7 @@
         "fixed_releases": [
           "8.6(2.39)"
         ], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Unified MeetingPlace"
       }
     }, 
@@ -25,7 +25,7 @@
           "11.5(1)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco SocialMiner"
       }
     }, 
@@ -33,7 +33,7 @@
       "bug_id": "CSCuy54463", 
       "product": "Cisco WebEx Meetings Server versions 1.x", 
       "fix": [
-        "2.6.2 (15-April-2016)"
+        "2.6.2 (15-Apr-2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -54,7 +54,7 @@
       "bug_id": "CSCuy54463", 
       "product": "Cisco WebEx Meetings Server versions 2.x", 
       "fix": [
-        "2.6.2 (15-April-2016)"
+        "2.6.2 (15-Apr-2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -83,10 +83,11 @@
       "fix": [], 
       "bug_data": {
         "affected_releases": [
-          "2.0(0)"
+          "2.0(0)", 
+          "2.0(0.0)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Plug-in for OpenFlow"
       }
     }, 
@@ -269,7 +270,7 @@
     }, 
     {
       "bug_id": "CSCuy54461", 
-      "product": "Cisco WebEx Meetings Client - On Premises", 
+      "product": "Cisco WebEx Meetings Client - On-Premises", 
       "fix": [], 
       "bug_data": null
     }, 
@@ -311,7 +312,7 @@
       "bug_id": "CSCuy54464", 
       "product": "WebEx Meetings Server - SSL Gateway", 
       "fix": [
-        "2.6.2 (15-April-2016)"
+        "2.6.2 (15-Apr-2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -450,6 +451,7 @@
           "6.2(1)"
         ], 
         "fixed_releases": [
+          "5.5(7.4)", 
           "6.2(2.2)"
         ], 
         "status": "Fixed", 
@@ -491,7 +493,8 @@
           "92.0(1.1262)", 
           "92.0(1.1263)", 
           "92.0(1.1272)", 
-          "92.0(1.1277)"
+          "92.0(1.1277)", 
+          "92.1(1.151)"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco Firepower 9000 Series"
@@ -515,8 +518,14 @@
           "9.5(2.200)", 
           "9.6(2)"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "100.13(0.140)", 
+          "100.15(0.118)", 
+          "9.4(3.2)", 
+          "97.1(0.17)", 
+          "97.1(1.45)"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco ASA 5500-X Series Firewalls"
       }
     }, 
@@ -560,7 +569,7 @@
       "bug_id": "CSCuy53654", 
       "product": "Cisco Email Security Appliance (ESA)", 
       "fix": [
-        "9.8.5 (Available)"
+        "10.0 (late June 2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -588,7 +597,7 @@
       "product": "Cisco IPS (*)", 
       "fix": [
         "7.1(11) Patch 2 (Aug. 2016)", 
-        "7.3(05) Patch 2 (Nov. 2016)"
+        "7.3(05) Patch 2 (Nov 2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -620,7 +629,9 @@
     {
       "bug_id": "CSCuy54452", 
       "product": "Cisco IronPort Encryption Appliance (IEA)", 
-      "fix": [], 
+      "fix": [
+        "No fix is expected because the product is EoL."
+      ], 
       "bug_data": {
         "affected_releases": [
           "6.5.6.1-01"
@@ -628,21 +639,6 @@
         "fixed_releases": [], 
         "status": "Terminated", 
         "product_name": "Cisco Email Encryption"
-      }
-    }, 
-    {
-      "bug_id": "CSCuy53710", 
-      "product": "Cisco IronPort Web Security Appliance (WSA)", 
-      "fix": [
-        "9.5.0 (Available)"
-      ], 
-      "bug_data": {
-        "affected_releases": [
-          "WSA_Future-000"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Web Security Appliance"
       }
     }, 
     {
@@ -704,20 +700,13 @@
       "bug_id": "CSCuy54498", 
       "product": "Cisco Virtual Security Gateway for Microsoft Hyper-V", 
       "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "5.2(1)VSG2(1.4)"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Virtual Security Gateway for Nexus 1000V Series Switch"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCuy54456", 
       "product": "Cisco Web Security Appliance (WSA)", 
       "fix": [
-        "9.5.0 (Available)"
+        "10.0 (late June 2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -760,13 +749,13 @@
       "product": "Cisco Digital Media Manager", 
       "fix": [
         "5.3 (28-Apr-2016)", 
-        "5.3.6(28-Apr-2016)", 
+        "5.3.6 (28-Apr-2016)", 
         "5.3.6(RB1) (28-Apr-2016)", 
         "5.3.6(RB2) (28-Apr-2016)", 
         "5.4 (28-Apr-2016)", 
-        "5.4.1(28-Apr-2016)", 
+        "5.4.1 (28-Apr-2016)", 
         "5.4.1(RB1) (28-Apr-2016)", 
-        "5.4.1.(RB2) (28-Apr-2016)"
+        "5.4.1(RB2) (28-Apr-2016)"
       ], 
       "bug_data": null
     }, 
@@ -834,7 +823,7 @@
       "bug_id": "CSCuy54443", 
       "product": "Cisco Management Appliance (MAP) (*)", 
       "fix": [
-        "Affected systems will be updated (8 April 2016)"
+        "Affected systems will be updated April 8, 2016."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -912,7 +901,7 @@
           "9.0.0"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Policy Suite for Mobile"
       }
     }, 
@@ -1092,7 +1081,7 @@
           "4.3(0.999)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Prime Network"
       }
     }, 
@@ -1188,7 +1177,7 @@
           "11.5(1)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Intelligence Center"
       }
     }, 
@@ -1231,7 +1220,9 @@
     {
       "bug_id": "CSCuy54697", 
       "product": "Cisco 910 Industrial Router", 
-      "fix": [], 
+      "fix": [
+        "SSLv2 is disabled on IR910."
+      ], 
       "bug_data": null
     }, 
     {
@@ -1248,9 +1239,12 @@
           "19.4.A0.63339", 
           "19.4.M0.63322", 
           "19.4.T0.63330", 
+          "20.1.0", 
           "20.1.0.63959", 
           "20.1.M0.63329", 
           "20.1.T0.63569", 
+          "20.1.a0", 
+          "20.1.a0.64023", 
           "20.2.A0.63349", 
           "21.0.M0.63342"
         ], 
@@ -1262,7 +1256,7 @@
       "bug_id": "CSCuy54477", 
       "product": "Cisco Connected Grid Router - CGOS (*)", 
       "fix": [
-        "\"16.2(00.192) (7-Apr-2016)"
+        "16.2(00.192) (7-Apr-2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1279,7 +1273,7 @@
       "bug_id": "CSCuy54626", 
       "product": "Cisco Connected Grid Router", 
       "fix": [
-        "Affected systems have been upgraded"
+        "Affected systems have been upgraded."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1294,7 +1288,7 @@
     }, 
     {
       "bug_id": "CSCuy54623", 
-      "product": "Cisco IOS Software and Cisco IOS-XE Software", 
+      "product": "Cisco IOS Software and Cisco IOS XE Software", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
@@ -1311,6 +1305,7 @@
           "15.5(3)M2.1", 
           "15.5(3)S2.11", 
           "15.6(0.22)S6", 
+          "15.6(1)T1.1", 
           "15.6(2.8)T", 
           "16.3(0.128)"
         ], 
@@ -1320,7 +1315,7 @@
     }, 
     {
       "bug_id": "CSCuy54527", 
-      "product": "Cisco IOS-XR", 
+      "product": "Cisco IOS XR Software<br />", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
@@ -1328,7 +1323,7 @@
           "6.2.0.K9SEC"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Carrier Routing System"
       }
     }, 
@@ -1338,9 +1333,9 @@
       "fix": [
         "7.3.1.DX  (August 2016)", 
         "6.2.17 (June 2016)", 
-        "(7.3.1.NX)  ( August 2016)", 
+        "7.3.1.NX  ( August 2016)", 
         "7.0.3.I3 (May 2016)", 
-        "8.3(Nov 2016)"
+        "8.3 (November 2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1351,6 +1346,7 @@
           "8.3(0)CV(0.320)"
         ], 
         "fixed_releases": [
+          "7.0(3)I2(2e)", 
           "7.0(3)I4(0.62)", 
           "7.0(3)I4(1)"
         ], 
@@ -1395,9 +1391,9 @@
       "fix": [
         "7.3.1.DX  (August 2016)", 
         "6.2.17 (June 2016)", 
-        "(7.3.1.NX)  ( August 2016)", 
+        "7.3.1.NX  (August 2016)", 
         "7.0.3.I3 (May 2016)", 
-        "8.3(Nov 2016)"
+        "8.3 (November 2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1408,6 +1404,7 @@
           "8.3(0)CV(0.320)"
         ], 
         "fixed_releases": [
+          "7.0(3)I2(2e)", 
           "7.0(3)I4(0.62)", 
           "7.0(3)I4(1)"
         ], 
@@ -1436,9 +1433,9 @@
       "fix": [
         "7.3.1.DX  (August 2016)", 
         "6.2.17 (June 2016)", 
-        "(7.3.1.NX)  ( August 2016)", 
+        "7.3.1.NX  (August 2016)", 
         "7.0.3.I3 (May 2016)", 
-        "8.3(Nov 2016)"
+        "8.3 (November 2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1449,6 +1446,7 @@
           "8.3(0)CV(0.320)"
         ], 
         "fixed_releases": [
+          "7.0(3)I2(2e)", 
           "7.0(3)I4(0.62)", 
           "7.0(3)I4(1)"
         ], 
@@ -1462,9 +1460,9 @@
       "fix": [
         "7.3.1.DX  (August 2016)", 
         "6.2.17 (June 2016)", 
-        "(7.3.1.NX)  ( August 2016)", 
+        "7.3.1.NX  (August 2016)", 
         "7.0.3.I3 (May 2016)", 
-        "8.3(Nov 2016)"
+        "8.3 (November 2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1475,6 +1473,7 @@
           "8.3(0)CV(0.320)"
         ], 
         "fixed_releases": [
+          "7.0(3)I2(2e)", 
           "7.0(3)I4(0.62)", 
           "7.0(3)I4(1)"
         ], 
@@ -1488,9 +1487,9 @@
       "fix": [
         "7.3.1.DX  (August 2016)", 
         "6.2.17 (June 2016)", 
-        "(7.3.1.NX)  ( August 2016)", 
+        "7.3.1.NX  (August 2016)", 
         "7.0.3.I3 (May 2016)", 
-        "8.3(Nov 2016)"
+        "8.3 (November 2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1501,6 +1500,7 @@
           "8.3(0)CV(0.320)"
         ], 
         "fixed_releases": [
+          "7.0(3)I2(2e)", 
           "7.0(3)I4(0.62)", 
           "7.0(3)I4(1)"
         ], 
@@ -1512,7 +1512,7 @@
       "bug_id": "CSCuy54484", 
       "product": "Cisco Nexus 9000 (ACI/Fabric Switch)", 
       "fix": [
-        "\"2.0.1x (June 2016)"
+        "2.0.1x (June 2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1527,9 +1527,9 @@
     }, 
     {
       "bug_id": "CSCuy57853", 
-      "product": "Cisco Nexus 9000 Series (standalone, running NxOS)", 
+      "product": "Cisco Nexus 9000 Series (standalone, running NX-OS)", 
       "fix": [
-        "7.0(3)I4(1)(25-Mar-2016)", 
+        "7.0(3)I4(1) (25-Mar-2016)", 
         "7.0(3)I4(0.42)  (25-Mar-2016)"
       ], 
       "bug_data": {
@@ -1603,7 +1603,7 @@
     }, 
     {
       "bug_id": "CSCuy54591", 
-      "product": "Cisco Sx220 switches", 
+      "product": "Cisco Sx220 Switches", 
       "fix": [
         "1.4.5.1 (May 2016)"
       ], 
@@ -1612,13 +1612,13 @@
           "1.4.2.4"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Small Business 200 Series Smart Switches"
       }
     }, 
     {
       "bug_id": "CSCuy54592", 
-      "product": "Cisco Sx300 switches", 
+      "product": "Cisco Sx300 Switches", 
       "fix": [
         "1.4.5.1 (May 2016)"
       ], 
@@ -1627,13 +1627,13 @@
           "1.4.2.4"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Small Business 300 Series Managed Switches"
       }
     }, 
     {
       "bug_id": "CSCuy54593", 
-      "product": "Cisco Sx500 switches", 
+      "product": "Cisco Sx500 Switches", 
       "fix": [
         "1.4.5.1 (May 2016)"
       ], 
@@ -1642,7 +1642,7 @@
           "1.4.2.4"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Small Business 500 Series Stackable Managed Switches"
       }
     }, 
@@ -1656,7 +1656,7 @@
     }, 
     {
       "bug_id": "CSCuy54501", 
-      "product": "Cisco Standalone rack server CIMC", 
+      "product": "Cisco Standalone Rack Server CIMC", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
@@ -1677,7 +1677,7 @@
       "bug_id": "CSCuy54499", 
       "product": "Cisco Unified Computing System B-Series (Blade) Servers (*)", 
       "fix": [
-        "\"2.2(3d) and later are not vulnerable. Please upgrade to that version or later for B-series.\""
+        "2.2(3d) and later are not affected. Please upgrade to this version or later for B-Series Servers."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1752,6 +1752,7 @@
       "fix": [], 
       "bug_data": {
         "affected_releases": [
+          "10.0(2)", 
           "11.0(1)"
         ], 
         "fixed_releases": [], 
@@ -1787,7 +1788,7 @@
           "11.5(1)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Finesse"
       }
     }, 
@@ -1870,6 +1871,7 @@
       "fix": [], 
       "bug_data": {
         "affected_releases": [
+          "10.0(2)", 
           "11.0(1)"
         ], 
         "fixed_releases": [], 
@@ -1886,7 +1888,7 @@
           "11.0(2)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Paging Server"
       }
     }, 
@@ -1899,7 +1901,7 @@
           "11.0(2)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Paging Server"
       }
     }, 
@@ -2027,7 +2029,7 @@
     }, 
     {
       "bug_id": "CSCuy54663", 
-      "product": "Cisco Unified 8831 series IP Conference Phone", 
+      "product": "Cisco Unified 8831 Series IP Conference Phone", 
       "fix": [], 
       "bug_data": null
     }, 
@@ -2180,18 +2182,9 @@
       "bug_id": "CSCuy54640", 
       "product": "Cisco Unified Communications Domain Manager", 
       "fix": [
-        "11.5.1 (Aug. 2016)"
+        "11.5.1 (Aug 2016)"
       ], 
-      "bug_data": {
-        "affected_releases": [
-          "10.6(3)"
-        ], 
-        "fixed_releases": [
-          "11.5(0.98000.117)"
-        ], 
-        "status": "Fixed", 
-        "product_name": "Cisco Hosted Collaboration Solution (HCS)"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCuy54634", 
@@ -2264,6 +2257,7 @@
       "fix": [], 
       "bug_data": {
         "affected_releases": [
+          "10.0(2)", 
           "11.0(1)"
         ], 
         "fixed_releases": [], 
@@ -2280,7 +2274,7 @@
           "11.5(1)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Contact Center Express"
       }
     }, 
@@ -2316,6 +2310,7 @@
       "fix": [], 
       "bug_data": {
         "affected_releases": [
+          "10.0(2)", 
           "11.0(1)"
         ], 
         "fixed_releases": [], 
@@ -2327,7 +2322,7 @@
       "bug_id": "CSCuy54681", 
       "product": "Cisco Unified Wireless IP Phone", 
       "fix": [
-        "SSLV2 is disabled."
+        "SSLv2 is disabled."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -2343,7 +2338,7 @@
       "product": "Cisco Unified Workforce Optimization", 
       "fix": [
         "WFO 10.5 (31-Mar-2016)", 
-        "WFO 11.0 (15-April-2016)"
+        "WFO 11.0 (15-Apr-2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -2389,7 +2384,7 @@
       "bug_id": "CSCuy54616", 
       "product": "Cisco AnyRes Live (CAL)", 
       "fix": [
-        "9.6.4 (Apr 2016)"
+        "9.6.4 (April 2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -2462,7 +2457,7 @@
       "bug_id": "CSCuy54700", 
       "product": "Cisco Edge 340 Digital Media Player", 
       "fix": [
-        "Affected systems will be updated by (15-Apr-2016)"
+        "Affected systems will be updated by April 15, 2016."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -2590,7 +2585,9 @@
     {
       "bug_id": "CSCuy54529", 
       "product": "Cisco TelePresence Conductor", 
-      "fix": [], 
+      "fix": [
+        "SSLv2 is disabled in software versions XC4.0 and later."
+      ], 
       "bug_data": {
         "affected_releases": [
           "XC4.2RC2"
@@ -2622,7 +2619,7 @@
           "2.2(1.106)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco TelePresence ISDN Gateway"
       }
     }, 
@@ -2635,7 +2632,7 @@
           "2.2(1.106)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco TelePresence ISDN Gateway"
       }
     }, 
@@ -2728,7 +2725,7 @@
           "2.3(1.38)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco TelePresence MSE 8000 Series"
       }
     }, 
@@ -2853,7 +2850,7 @@
     }, 
     {
       "bug_id": "CSCuy54547", 
-      "product": "Cisco TelePresence Video Communication Server (VCS) (*)", 
+      "product": "Cisco TelePresence Video Communication Server (VCS)&nbsp;(*)", 
       "fix": [], 
       "bug_data": null
     }, 
@@ -2897,7 +2894,9 @@
     {
       "bug_id": "CSCuy54584", 
       "product": "Cisco Video Surveillance 3000 Series IP Cameras", 
-      "fix": [], 
+      "fix": [
+        "SSLv2 is not supported."
+      ], 
       "bug_data": {
         "affected_releases": [
           "2.8(920.221)"
@@ -2949,7 +2948,9 @@
     {
       "bug_id": "CSCuy54584", 
       "product": "Cisco Video Surveillance 6000 Series IP Cameras", 
-      "fix": [], 
+      "fix": [
+        "SSLv2 is not supported."
+      ], 
       "bug_data": {
         "affected_releases": [
           "2.8(920.221)"
@@ -2975,7 +2976,9 @@
     {
       "bug_id": "CSCuy54584", 
       "product": "Cisco Video Surveillance 7000 Series IP Cameras", 
-      "fix": [], 
+      "fix": [
+        "SSLv2 is not supported."
+      ], 
       "bug_data": {
         "affected_releases": [
           "2.8(920.221)"
@@ -3016,7 +3019,9 @@
     {
       "bug_id": "CSCuy54584", 
       "product": "Cisco Video Surveillance PTZ IP Cameras", 
-      "fix": [], 
+      "fix": [
+        "SSLv2 is not supported."
+      ], 
       "bug_data": {
         "affected_releases": [
           "2.8(920.221)"
@@ -3072,7 +3077,7 @@
           "2.2(1.106)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco TelePresence ISDN Gateway"
       }
     }, 
@@ -3085,7 +3090,7 @@
           "2.2(1.106)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco TelePresence ISDN Gateway"
       }
     }, 
@@ -3114,7 +3119,7 @@
       "bug_id": "CSCuy58091", 
       "product": "Cisco Wireless LAN Controller (WLC) (*)", 
       "fix": [
-        "8.0 (Apr. 2016)", 
+        "8.0 (April 2016)", 
         "8.3 (May 2016)"
       ], 
       "bug_data": {
@@ -3122,6 +3127,7 @@
           "8.3(15.85)"
         ], 
         "fixed_releases": [
+          "8.0(134.24)", 
           "8.2(102.100)", 
           "8.3(15.125)"
         ], 
