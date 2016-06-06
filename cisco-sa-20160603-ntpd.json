@@ -1,0 +1,404 @@
+{
+  "version": "1.0", 
+  "products": [
+    {
+      "bug_id": "CSCuz92799", 
+      "product": "Cisco Unified MeetingPlace", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "8.6(2.10)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco Unified MeetingPlace"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92797", 
+      "product": "Cisco Jabber Guest 10.0(2)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "10.6(10)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Jabber Guest"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92731", 
+      "product": "Cisco Application and Content Networking System (ACNS)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "5.5(41)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Enterprise CDN Software"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92745", 
+      "product": "Cisco ASA CX and Cisco Prime Security Manager", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "100.6(0.0.122)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco ASA Next-Generation Firewall Services"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92632", 
+      "product": "Cisco FireSIGHT System Software", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz92667", 
+      "product": "Cisco Virtual Security Gateway for Microsoft Hyper-V", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "5.2(1)VSG2(1.4)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Virtual Security Gateway for Nexus 1000V Series Switch"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92682", 
+      "product": "Cisco Network Analysis Module", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "6.2(1b)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Prime Network Analysis Module Software"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92687", 
+      "product": "Cisco Prime Collaboration Assurance", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.6"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Prime Collaboration"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92686", 
+      "product": "Cisco Prime Collaboration Provisioning", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.2"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Prime Collaboration"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92683", 
+      "product": "Cisco Prime Infrastructure Plug and Play Standalone Gateway", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz92684", 
+      "product": "Cisco Prime Infrastructure", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "3.1(0.128)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Network Level Service"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92669", 
+      "product": "Cisco UCS Central Software", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "1.4(1a)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco UCS Central Software"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92766", 
+      "product": "Cisco 910 Industrial Router", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz92699", 
+      "product": "Cisco Digital Media Manager", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "5.3.(6)RB2", 
+          "5.3.6", 
+          "5.3.6(RB1)", 
+          "5.4", 
+          "5.4.(1)RB2", 
+          "5.4.1", 
+          "5.4.1(RB1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Digital Media Manager"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92769", 
+      "product": "Cisco Edge 300 Digital Media Player", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "1.6RB4(2)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Edge 300 Series Digital Media Player"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92771", 
+      "product": "Cisco Edge 340 Digital Media Player", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "1.2(0.19)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco E340 Series Digital Media Player"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92711", 
+      "product": "Cisco Expressway Series", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "X8.7.3"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco TelePresence Video Communication Server (VCS)"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92704", 
+      "product": "Cisco Media Experience Engines (MXE)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "3.3.2", 
+          "3.5", 
+          "3.5.1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco MXE 3000 Series (Media Experience Engines)"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92707", 
+      "product": "Cisco Show and Share", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "5.3.10", 
+          "5.3.11", 
+          "5.3.12", 
+          "5.3.7", 
+          "5.5", 
+          "5.6", 
+          "5.6.1", 
+          "5.6.2"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Digital Media Manager"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92698", 
+      "product": "Cisco TelePresence Exchange System (CTX)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco TelePresence Exchange System"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92709", 
+      "product": "Cisco TelePresence MX Series", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "8.3.x"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Telepresence Integrator C Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92709", 
+      "product": "Cisco TelePresence Profile Series", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "8.3.x"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Telepresence Integrator C Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92709", 
+      "product": "Cisco TelePresence SX Series", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "8.3.x"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Telepresence Integrator C Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92709", 
+      "product": "Cisco TelePresence System EX Series", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "8.3.x"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Telepresence Integrator C Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92711", 
+      "product": "Cisco TelePresence Video Communication Server (VCS)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "X8.7.3"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco TelePresence Video Communication Server (VCS)"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92709", 
+      "product": "Cisco Telepresence Integrator C Series", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "8.3.x"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Telepresence Integrator C Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92741", 
+      "product": "Cisco Partner Support Service 1.x", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz92624", 
+      "product": "Cisco Proactive Network Operations Center", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "SM3.0"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Network Level Service"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92805", 
+      "product": "Cisco Services Provisioning Platform (SPP)", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz92736", 
+      "product": "Cisco Smart Care", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "1.16(1.0)IT1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Smart Care Service"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92798", 
+      "product": "Cisco WebEx Node", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "8.6(2.10)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco Unified MeetingPlace"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92620", 
+      "product": "Network Change and Configuration Management", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz92783", 
+      "product": "Network Health Framework", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz92784", 
+      "product": "Network Performance Analytics (NPA)", 
+      "fix": [], 
+      "bug_data": null
+    }
+  ]
+}
