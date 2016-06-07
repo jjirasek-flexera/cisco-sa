@@ -1,6 +1,12 @@
 {
-  "version": "1.1", 
+  "version": "1.2", 
   "products": [
+    {
+      "bug_id": "CSCuz92777", 
+      "product": "Cisco 3G Femtocell  Wireless", 
+      "fix": [], 
+      "bug_data": null
+    }, 
     {
       "bug_id": "CSCuz92799", 
       "product": "Cisco Unified MeetingPlace", 
@@ -17,6 +23,12 @@
       }
     }, 
     {
+      "bug_id": "CSCuz92637", 
+      "product": "Cisco WebEx Node for MCS", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCuz92797", 
       "product": "Cisco Jabber Guest 10.0(2)", 
       "fix": [
@@ -29,6 +41,19 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco Jabber Guest"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92803", 
+      "product": "Cisco Virtualization Experience Media Engine", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "10.6(0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Virtualization Experience Client 6000 Series"
       }
     }, 
     {
@@ -47,13 +72,17 @@
     {
       "bug_id": "CSCuz92725", 
       "product": "Cisco Visual Quality Experience Server", 
-      "fix": [], 
+      "fix": [
+        "No fix is expected."
+      ], 
       "bug_data": null
     }, 
     {
       "bug_id": "CSCuz92725", 
       "product": "Cisco Visual Quality Experience Tools Server", 
-      "fix": [], 
+      "fix": [
+        "No fix is expected."
+      ], 
       "bug_data": null
     }, 
     {
@@ -87,14 +116,44 @@
     }, 
     {
       "bug_id": "CSCuz92742", 
-      "product": "Cisco Firepower 9000 Cisco Integrated Management Controller (CIMC)", 
+      "product": "Cisco Firepower 9000 Cisco Integrated Management Controller (IMC)", 
       "fix": [], 
       "bug_data": null
     }, 
     {
+      "bug_id": "CSCuz92752", 
+      "product": "Cisco Identity Services Engine (ISE)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.2(0.180)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Identity Services Engine (ISE) 3300 Series Appliances"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92762", 
+      "product": "Cisco Intrusion Prevention System Solutions (IPS)", 
+      "fix": [
+        "No fix is expected.(EOSWM)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "7.1(11)SP"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco IPS 4200 Series Sensors"
+      }
+    }, 
+    {
       "bug_id": "CSCuz92631", 
       "product": "Cisco IronPort Encryption Appliance", 
-      "fix": [], 
+      "fix": [
+        "5.0.0 (30-Jun-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "6.5.6.1-01"
@@ -128,6 +187,20 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco Physical Access Manager"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92761", 
+      "product": "Cisco Secure Access Control Server (ACS)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "5.7(0.15.3)", 
+          "5.8(0.32.3)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Secure Access Control Server Solution Engine"
       }
     }, 
     {
@@ -206,7 +279,9 @@
     {
       "bug_id": "CSCuz92684", 
       "product": "Cisco Prime Infrastructure", 
-      "fix": [], 
+      "fix": [
+        "No fix is expected."
+      ], 
       "bug_data": {
         "affected_releases": [
           "3.1(0.128)"
@@ -219,7 +294,9 @@
     {
       "bug_id": "CSCuz92688", 
       "product": "Cisco Prime Network Services Controller", 
-      "fix": [], 
+      "fix": [
+        "No fix is expected."
+      ], 
       "bug_data": {
         "affected_releases": [
           "3.4"
@@ -246,15 +323,38 @@
       }
     }, 
     {
+      "bug_id": "CSCuz92689", 
+      "product": "Cisco Virtual Topology System (formerly Cisco Virtual Systems Operations Center)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "3.0(0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Virtual Topology System"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92658", 
+      "product": "Cisco Application Policy Infrastructure Controller (APIC)", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCuz92727", 
       "product": "Cisco Connected Grid Router", 
-      "fix": [], 
+      "fix": [
+        "15.6(02)T  (3-Jul-2016)"
+      ], 
       "bug_data": null
     }, 
     {
       "bug_id": "CSCuz92650", 
       "product": "Cisco Connected Grid Routers (CGR)", 
-      "fix": [], 
+      "fix": [
+        "7.3(0)ZN(0.9)  (3-Jul-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "7.3(0)ZN(0.9)"
@@ -265,9 +365,29 @@
       }
     }, 
     {
+      "bug_id": "CSCuz92691", 
+      "product": "Cisco IOS XR Software", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz92785", 
+      "product": "Cisco IOS and Cisco IOS XE Software", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz92663", 
+      "product": "Cisco Nexus 1000V Series Switches", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCuz92764", 
       "product": "Cisco Nexus 4000 Series Blade Switches", 
-      "fix": [], 
+      "fix": [
+        "4.1(2)E1(1q) (Aug. 2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "4.1(2)E1(1)"
@@ -291,9 +411,17 @@
       }
     }, 
     {
+      "bug_id": "CSCuz92670", 
+      "product": "Cisco Standalone rack server Cisco Integrated Management Controller (IMC)<br />", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCuz92668", 
       "product": "Cisco UCS 6200 Series Fabric Interconnects", 
-      "fix": [], 
+      "fix": [
+        "3.1(2) (12-Jul-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "3.1(1.121)A"
@@ -304,9 +432,37 @@
       }
     }, 
     {
+      "bug_id": "CSCuz92628", 
+      "product": "Cisco UCS ADA", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "3.0"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco UCS 6200 Series Fabric Interconnects"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92653", 
+      "product": "Cisco UCS Director", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "5.5(0.0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco UCS Director"
+      }
+    }, 
+    {
       "bug_id": "CSCuz92668", 
       "product": "Cisco UCS Manager", 
-      "fix": [], 
+      "fix": [
+        "3.1(2) (12-Jul-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "3.1(1.121)A"
@@ -319,7 +475,9 @@
     {
       "bug_id": "CSCuz92779", 
       "product": "Cisco Management Heartbeat Server", 
-      "fix": [], 
+      "fix": [
+        "Affected systems will be updated mid-June."
+      ], 
       "bug_data": {
         "affected_releases": [
           "4.1.0", 
@@ -358,6 +516,22 @@
       }
     }, 
     {
+      "bug_id": "CSCuz92610", 
+      "product": "Cisco Quantum Virtualized Packet Core", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "18.0.0.private", 
+          "19.0.0.private", 
+          "20.0.0", 
+          "21.0.0"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco ASR 5000 Series"
+      }
+    }, 
+    {
       "bug_id": "CSCuz92792", 
       "product": "Cisco Unified Communications Domain Manager", 
       "fix": [], 
@@ -366,7 +540,9 @@
     {
       "bug_id": "CSCuz92606", 
       "product": "Cisco Unity Express", 
-      "fix": [], 
+      "fix": [
+        "10.0 (2-Jan-2017)"
+      ], 
       "bug_data": null
     }, 
     {
@@ -376,6 +552,34 @@
         "1.2.1rb4 (12-June-2016)"
       ], 
       "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz96408", 
+      "product": "Cisco D9036 Modular Encoding Platform", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "V2.4.90"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "MPEG-4 Encoders"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92671", 
+      "product": "Cisco DCM Series D9900 Digital Content Manager", 
+      "fix": [
+        "19.0(30-Sept-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "all_versions"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Digital Content Manager (DCM) Software"
+      }
     }, 
     {
       "bug_id": "CSCuz92699", 
@@ -437,7 +641,9 @@
     {
       "bug_id": "CSCuz92700", 
       "product": "Cisco Enterprise Content Delivery System (ECDS)", 
-      "fix": [], 
+      "fix": [
+        "2.6.8 (30-Aug-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "2.6"
@@ -480,6 +686,12 @@
       }
     }, 
     {
+      "bug_id": "CSCuz96410", 
+      "product": "Cisco PowerVu D9190 Conditional Access Manager", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCuz92707", 
       "product": "Cisco Show and Share", 
       "fix": [], 
@@ -497,6 +709,19 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco Digital Media Manager"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92697", 
+      "product": "Cisco TelePresence Conductor", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "XC4.2RC2"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco TelePresence Conductor"
       }
     }, 
     {
@@ -630,7 +855,9 @@
     {
       "bug_id": "CSCuz92724", 
       "product": "Cisco Video Distribution Suite for Internet Streaming (VDS-IS/CDS-IS)", 
-      "fix": [], 
+      "fix": [
+        "4.3.2 (30-Jun-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "4.3(1)"
@@ -649,7 +876,9 @@
     {
       "bug_id": "CSCuz92716", 
       "product": "Cisco Videoscape Control Suite", 
-      "fix": [], 
+      "fix": [
+        "No fix is expected."
+      ], 
       "bug_data": {
         "affected_releases": [
           "4.0"
@@ -660,9 +889,17 @@
       }
     }, 
     {
+      "bug_id": "CSCuz92696", 
+      "product": "Cisco Cloud Services", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCuz92714", 
       "product": "Cisco Intelligent Automation for Cloud", 
-      "fix": [], 
+      "fix": [
+        "IAC MA 5.0 (Oct.2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "4.3.2"
@@ -696,7 +933,9 @@
     {
       "bug_id": "CSCuz92629", 
       "product": "Cisco Registered Envelope Service", 
-      "fix": [], 
+      "fix": [
+        "No fix is expected."
+      ], 
       "bug_data": {
         "affected_releases": [
           "4.7.0-123"
@@ -707,9 +946,24 @@
       }
     }, 
     {
+      "bug_id": "CSCuz92626", 
+      "product": "Cisco Sentinel", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.5"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Cloud Portal"
+      }
+    }, 
+    {
       "bug_id": "CSCuz92805", 
       "product": "Cisco Services Provisioning Platform (SPP)", 
-      "fix": [], 
+      "fix": [
+        "No fix is expected."
+      ], 
       "bug_data": null
     }, 
     {
