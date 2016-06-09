@@ -1,11 +1,18 @@
 {
-  "version": "1.2", 
+  "version": "1.3", 
   "products": [
     {
       "bug_id": "CSCuz92777", 
       "product": "Cisco 3G Femtocell  Wireless", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "8.0"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco 3G Femtocell"
+      }
     }, 
     {
       "bug_id": "CSCuz92799", 
@@ -57,6 +64,19 @@
       }
     }, 
     {
+      "bug_id": "CSCuz92646", 
+      "product": "Cisco Application Control Engine (ACE30/ ACE 4710)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "3.0(0)A5(3.4)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco ACE 4700 Series Application Control Engine Appliances"
+      }
+    }, 
+    {
       "bug_id": "CSCuz92731", 
       "product": "Cisco Application and Content Networking System (ACNS)", 
       "fix": [], 
@@ -75,7 +95,12 @@
       "fix": [
         "No fix is expected."
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Content Delivery Engine Series"
+      }
     }, 
     {
       "bug_id": "CSCuz92725", 
@@ -83,7 +108,12 @@
       "fix": [
         "No fix is expected."
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Content Delivery Engine Series"
+      }
     }, 
     {
       "bug_id": "CSCuz92744", 
@@ -92,18 +122,34 @@
       "bug_data": null
     }, 
     {
-      "bug_id": "CSCuz92745", 
+      "bug_id": "CSCuz92747", 
       "product": "Cisco ASA CX and Cisco Prime Security Manager", 
       "fix": [
         "9.3.4.6 (1-Aug-2016)"
       ], 
       "bug_data": {
         "affected_releases": [
-          "100.6(0.0.122)"
+          "100.6(0.0.122)", 
+          "100.6(0.0.130)"
+        ], 
+        "fixed_releases": [
+          "100.6(0.0.181)"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco ASA Next-Generation Firewall Services"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92732", 
+      "product": "Cisco Clean Access Manager", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "4.9(5)"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
-        "product_name": "Cisco ASA Next-Generation Firewall Services"
+        "product_name": "Cisco NAC Appliance (Clean Access)"
       }
     }, 
     {
@@ -112,11 +158,21 @@
       "fix": [
         "Affected systems will be updated 2nd half of 2016."
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "5.4.0", 
+          "5.4.1", 
+          "6.0.0", 
+          "6.0.1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Firepower Management Center"
+      }
     }, 
     {
       "bug_id": "CSCuz92742", 
-      "product": "Cisco Firepower 9000 Cisco Integrated Management Controller (IMC)", 
+      "product": "Cisco Firepower 9000 Cisco Integrated Management Controller (CIMC)", 
       "fix": [], 
       "bug_data": null
     }, 
@@ -161,6 +217,45 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco Email Encryption"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92733", 
+      "product": "Cisco NAC Appliance - Clean Access Server", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "4.9(5)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco NAC Appliance (Clean Access)"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92735", 
+      "product": "Cisco NAC Guest Server", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.1(0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco NAC Appliance 3300 Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92734", 
+      "product": "Cisco NAC Server", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "4.9(5)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco NAC Appliance (Clean Access)"
       }
     }, 
     {
@@ -219,6 +314,12 @@
       }
     }, 
     {
+      "bug_id": "CSCuz92649", 
+      "product": "Cisco Application Networking Manager", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCuz92682", 
       "product": "Cisco Network Analysis Module", 
       "fix": [
@@ -231,6 +332,20 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco Prime Network Analysis Module Software"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz98063", 
+      "product": "Cisco Policy Suite", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "9.0.0", 
+          "9.1.0"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Policy Suite for Mobile"
       }
     }, 
     {
@@ -323,6 +438,12 @@
       }
     }, 
     {
+      "bug_id": "CSCuz92627", 
+      "product": "Cisco Unified Communications Deployment Tools", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCuz92689", 
       "product": "Cisco Virtual Topology System (formerly Cisco Virtual Systems Operations Center)", 
       "fix": [], 
@@ -336,10 +457,23 @@
       }
     }, 
     {
+      "bug_id": "CSCuz92616", 
+      "product": "Feature Analytics Service", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCuz92658", 
       "product": "Cisco Application Policy Infrastructure Controller (APIC)", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "2.0(0.365)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Nexus 9000 Series Switches"
+      }
     }, 
     {
       "bug_id": "CSCuz92727", 
@@ -360,7 +494,7 @@
           "7.3(0)ZN(0.9)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Terminated", 
         "product_name": "Cisco 1000 Series Connected Grid Routers"
       }
     }, 
@@ -368,19 +502,46 @@
       "bug_id": "CSCuz92691", 
       "product": "Cisco IOS XR Software", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "6.1.1.BASE"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Carrier Routing System"
+      }
     }, 
     {
       "bug_id": "CSCuz92785", 
       "product": "Cisco IOS and Cisco IOS XE Software", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "15.5(3.0i)M"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco IOS"
+      }
     }, 
     {
       "bug_id": "CSCuz92663", 
       "product": "Cisco Nexus 1000V Series Switches", 
       "fix": [], 
       "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz92666", 
+      "product": "Cisco Nexus 3000 Series Switches", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "6.0(2)A8(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Nexus 3000 Series Switches"
+      }
     }, 
     {
       "bug_id": "CSCuz92764", 
@@ -411,10 +572,46 @@
       }
     }, 
     {
-      "bug_id": "CSCuz92670", 
-      "product": "Cisco Standalone rack server Cisco Integrated Management Controller (IMC)<br />", 
+      "bug_id": "CSCuz92748", 
+      "product": "Cisco onePK All-in-One Virtual Machine", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "1.0(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Support Tools"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92773", 
+      "product": "Cisco DPH150 Series MicroCell Solution", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "10.0", 
+          "7.1", 
+          "8.1", 
+          "9.0"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco 3G Femtocell"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92670", 
+      "product": "Cisco Standalone rack server CIMC", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.0(9c)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Computing System"
+      }
     }, 
     {
       "bug_id": "CSCuz92668", 
@@ -447,7 +644,9 @@
     {
       "bug_id": "CSCuz92653", 
       "product": "Cisco UCS Director", 
-      "fix": [], 
+      "fix": [
+        "Fix is dependant on release from NTP.org"
+      ], 
       "bug_data": {
         "affected_releases": [
           "5.5(0.0)"
@@ -470,6 +669,47 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco Unified Computing System"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92793", 
+      "product": "Cisco Emergency Responder", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.5(0.98000.110)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco Emergency Responder"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92795", 
+      "product": "Cisco Hosted Collaboration Mediation Fulfillment", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "10.6(3)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Hosted Collaboration Solution (HCS)"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92715", 
+      "product": "Cisco IP Interoperability and Collaboration System (IPICS)", 
+      "fix": [
+        "5.0 (Aug. 2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "5.0(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco IPICS Server Software"
       }
     }, 
     {
@@ -518,7 +758,9 @@
     {
       "bug_id": "CSCuz92610", 
       "product": "Cisco Quantum Virtualized Packet Core", 
-      "fix": [], 
+      "fix": [
+        "Affected systems will be update (Dec.2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "18.0.0.private", 
@@ -536,6 +778,21 @@
       "product": "Cisco Unified Communications Domain Manager", 
       "fix": [], 
       "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz92794", 
+      "product": "Cisco Unified Communications Manager IM &amp; Presence Service (formerly CUPS)", 
+      "fix": [
+        "No fix is expected."
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "11.5(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco Unified Communications Manager IM & Presence Service"
+      }
     }, 
     {
       "bug_id": "CSCuz92606", 
@@ -661,7 +918,8 @@
       ], 
       "bug_data": {
         "affected_releases": [
-          "X8.7.3"
+          "X7.x", 
+          "X8.x"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
@@ -689,7 +947,14 @@
       "bug_id": "CSCuz96410", 
       "product": "Cisco PowerVu D9190 Conditional Access Manager", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "V1.1.0"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco PowerVu Network Centre Management"
+      }
     }, 
     {
       "bug_id": "CSCuz92707", 
@@ -829,7 +1094,8 @@
       ], 
       "bug_data": {
         "affected_releases": [
-          "X8.7.3"
+          "X7.x", 
+          "X8.x"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
@@ -889,10 +1155,29 @@
       }
     }, 
     {
+      "bug_id": "CSCuz92613", 
+      "product": "Cisco Business Video Services Automation Software", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCuz92696", 
       "product": "Cisco Cloud Services", 
       "fix": [], 
       "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz92625", 
+      "product": "Cisco Connected Analytics For Collaboration", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.100"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Web Collaboration Option"
+      }
     }, 
     {
       "bug_id": "CSCuz92714", 
@@ -948,7 +1233,9 @@
     {
       "bug_id": "CSCuz92626", 
       "product": "Cisco Sentinel", 
-      "fix": [], 
+      "fix": [
+        "3.4.1 (10-Jun-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "2.5"
@@ -988,7 +1275,7 @@
           "2.26(2)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Terminated", 
         "product_name": "Network Level Service"
       }
     }, 
