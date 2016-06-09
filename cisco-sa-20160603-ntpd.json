@@ -1,5 +1,5 @@
 {
-  "version": "1.3", 
+  "version": "1.4", 
   "products": [
     {
       "bug_id": "CSCuz92777", 
@@ -28,6 +28,18 @@
         "status": "Terminated", 
         "product_name": "Cisco Unified MeetingPlace"
       }
+    }, 
+    {
+      "bug_id": "CSCuz92638", 
+      "product": "Cisco WebEx Meetings Server Release 1.x", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz92638", 
+      "product": "Cisco WebEx Meetings Server Release 2.x", 
+      "fix": [], 
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCuz92637", 
@@ -96,7 +108,9 @@
         "No fix is expected."
       ], 
       "bug_data": {
-        "affected_releases": [], 
+        "affected_releases": [
+          "3.11(3)"
+        ], 
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco Content Delivery Engine Series"
@@ -109,7 +123,9 @@
         "No fix is expected."
       ], 
       "bug_data": {
-        "affected_releases": [], 
+        "affected_releases": [
+          "3.11(3)"
+        ], 
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco Content Delivery Engine Series"
@@ -142,7 +158,9 @@
     {
       "bug_id": "CSCuz92732", 
       "product": "Cisco Clean Access Manager", 
-      "fix": [], 
+      "fix": [
+        "Affected systems will be updated by (2-Jul-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "4.9(5)"
@@ -173,7 +191,9 @@
     {
       "bug_id": "CSCuz92742", 
       "product": "Cisco Firepower 9000 Cisco Integrated Management Controller (CIMC)", 
-      "fix": [], 
+      "fix": [
+        "Fix is dependent on Wind River"
+      ], 
       "bug_data": null
     }, 
     {
@@ -222,7 +242,9 @@
     {
       "bug_id": "CSCuz92733", 
       "product": "Cisco NAC Appliance - Clean Access Server", 
-      "fix": [], 
+      "fix": [
+        "Affected systems will be updated by (2-Jul-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "4.9(5)"
@@ -235,7 +257,9 @@
     {
       "bug_id": "CSCuz92735", 
       "product": "Cisco NAC Guest Server", 
-      "fix": [], 
+      "fix": [
+        "Affected systems will be updated by (2-Jul-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "2.1(0)"
@@ -248,7 +272,9 @@
     {
       "bug_id": "CSCuz92734", 
       "product": "Cisco NAC Server", 
-      "fix": [], 
+      "fix": [
+        "Affected systems will be updated by (2-Jul-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "4.9(5)"
@@ -337,7 +363,9 @@
     {
       "bug_id": "CSCuz98063", 
       "product": "Cisco Policy Suite", 
-      "fix": [], 
+      "fix": [
+        "10.0 (9-Jul-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "9.0.0", 
@@ -372,7 +400,7 @@
           "11.2"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Terminated", 
         "product_name": "Cisco Prime Collaboration"
       }
     }, 
@@ -380,7 +408,7 @@
       "bug_id": "CSCuz92683", 
       "product": "Cisco Prime Infrastructure Plug and Play Standalone Gateway", 
       "fix": [
-        "Pending fix from Red Hat"
+        "No fix from Red Hat is expected."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -465,7 +493,9 @@
     {
       "bug_id": "CSCuz92658", 
       "product": "Cisco Application Policy Infrastructure Controller (APIC)", 
-      "fix": [], 
+      "fix": [
+        "Congo 2.0(1) (Aug. 2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "2.0(0.365)"
@@ -525,10 +555,58 @@
       }
     }, 
     {
+      "bug_id": "CSCuz92661", 
+      "product": "Cisco MDS 9000 Series Multilayer Switches", 
+      "fix": [
+        "N7K &amp; MDS (7.3.1.DX) (TBD)", 
+        "MDS 6.2.19 (Sept. 2016)", 
+        "N5K &amp; N6K (7.3.1.NX) (TBD)", 
+        "N3K &amp; N9K (7.0.3.I3) (Aug. 2016)", 
+        "N7K/MDS/N5K (8.0 Atherton) (Nov.2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "6.2(16)S67", 
+          "7.3(1)DX(0.30)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Nexus 7000 Series Switches"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92786", 
+      "product": "Cisco Metro Ethernet 1200 Series Access Devices", 
+      "fix": [
+        "No fix is expected."
+      ], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCuz92663", 
       "product": "Cisco Nexus 1000V Series Switches", 
       "fix": [], 
       "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz92661", 
+      "product": "Cisco Nexus 3000 Series Switches", 
+      "fix": [
+        "N7K &amp; MDS (7.3.1.DX) (TBD)", 
+        "MDS 6.2.19 (Sept. 2016)", 
+        "N5K &amp; N6K (7.3.1.NX) (TBD)", 
+        "N3K &amp; N9K (7.0.3.I3) (Aug. 2016)", 
+        "N7K/MDS/N5K (8.0 Atherton) (Nov.2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "6.2(16)S67", 
+          "7.3(1)DX(0.30)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Nexus 7000 Series Switches"
+      }
     }, 
     {
       "bug_id": "CSCuz92666", 
@@ -556,6 +634,86 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco Nexus 4000 Series Switches"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92661", 
+      "product": "Cisco Nexus 5000 Series Switches", 
+      "fix": [
+        "N7K &amp; MDS (7.3.1.DX) (TBD)", 
+        "MDS 6.2.19 (Sept. 2016)", 
+        "N5K &amp; N6K (7.3.1.NX) (TBD)", 
+        "N3K &amp; N9K (7.0.3.I3) (Aug. 2016)", 
+        "N7K/MDS/N5K (8.0 Atherton) (Nov.2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "6.2(16)S67", 
+          "7.3(1)DX(0.30)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Nexus 7000 Series Switches"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92661", 
+      "product": "Cisco Nexus 6000 Series Switches", 
+      "fix": [
+        "N7K &amp; MDS (7.3.1.DX) (TBD)", 
+        "MDS 6.2.19 (Sept. 2016)", 
+        "N5K &amp; N6K (7.3.1.NX) (TBD)", 
+        "N3K &amp; N9K (7.0.3.I3) (Aug. 2016)", 
+        "N7K/MDS/N5K (8.0 Atherton) (Nov.2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "6.2(16)S67", 
+          "7.3(1)DX(0.30)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Nexus 7000 Series Switches"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92661", 
+      "product": "Cisco Nexus 7000 Series Switches", 
+      "fix": [
+        "N7K &amp; MDS (7.3.1.DX) (TBD)", 
+        "MDS 6.2.19 (Sept. 2016)", 
+        "N5K &amp; N6K (7.3.1.NX) (TBD)", 
+        "N3K &amp; N9K (7.0.3.I3) (Aug. 2016)", 
+        "N7K/MDS/N5K (8.0 Atherton) (Nov.2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "6.2(16)S67", 
+          "7.3(1)DX(0.30)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Nexus 7000 Series Switches"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92661", 
+      "product": "Cisco Nexus 9000 Series Switches", 
+      "fix": [
+        "N7K &amp; MDS (7.3.1.DX) (TBD)", 
+        "MDS 6.2.19 (Sept. 2016)", 
+        "N5K &amp; N6K (7.3.1.NX) (TBD)", 
+        "N3K &amp; N9K (7.0.3.I3) (Aug. 2016)", 
+        "N7K/MDS/N5K (8.0 Atherton) (Nov.2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "6.2(16)S67", 
+          "7.3(1)DX(0.30)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Nexus 7000 Series Switches"
       }
     }, 
     {
@@ -596,7 +754,7 @@
           "9.0"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Terminated", 
         "product_name": "Cisco 3G Femtocell"
       }
     }, 
@@ -631,7 +789,9 @@
     {
       "bug_id": "CSCuz92628", 
       "product": "Cisco UCS ADA", 
-      "fix": [], 
+      "fix": [
+        "No fix is expected"
+      ], 
       "bug_data": {
         "affected_releases": [
           "3.0"
@@ -674,7 +834,9 @@
     {
       "bug_id": "CSCuz92793", 
       "product": "Cisco Emergency Responder", 
-      "fix": [], 
+      "fix": [
+        "No fix is applicable."
+      ], 
       "bug_data": {
         "affected_releases": [
           "11.5(0.98000.110)"
@@ -730,6 +892,19 @@
       }
     }, 
     {
+      "bug_id": "CSCuz92800", 
+      "product": "Cisco MediaSense", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.5(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco MediaSense"
+      }
+    }, 
+    {
       "bug_id": "CSCuz92796", 
       "product": "Cisco Paging Server (InformaCast)", 
       "fix": [], 
@@ -774,10 +949,17 @@
       }
     }, 
     {
-      "bug_id": "CSCuz92792", 
+      "bug_id": "CSCuz92802", 
       "product": "Cisco Unified Communications Domain Manager", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "8.1(7)ER1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Hosted Collaboration Solution (HCS)"
+      }
     }, 
     {
       "bug_id": "CSCuz92794", 
@@ -792,6 +974,45 @@
         "fixed_releases": [], 
         "status": "Terminated", 
         "product_name": "Cisco Unified Communications Manager IM & Presence Service"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92790", 
+      "product": "Cisco Unified Communications Manager Session Management Edition", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.5(1.99000.9)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco Unified Communications Manager (CallManager)"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92790", 
+      "product": "Cisco Unified Communications Manager", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.5(1.99000.9)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco Unified Communications Manager (CallManager)"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92609", 
+      "product": "Cisco Unified SIP Proxy", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "8.5(10)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified SIP Proxy Software"
       }
     }, 
     {
@@ -946,7 +1167,9 @@
     {
       "bug_id": "CSCuz96410", 
       "product": "Cisco PowerVu D9190 Conditional Access Manager", 
-      "fix": [], 
+      "fix": [
+        "R2.0 (July 2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "V1.1.0"
@@ -979,7 +1202,9 @@
     {
       "bug_id": "CSCuz92697", 
       "product": "Cisco TelePresence Conductor", 
-      "fix": [], 
+      "fix": [
+        "Affected systems will be upgraded by (Aug. 2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "XC4.2RC2"
@@ -1002,6 +1227,19 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco TelePresence Exchange System"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92702", 
+      "product": "Cisco TelePresence ISDN Link", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "1.1.5"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco TelePresence ISDN Link"
       }
     }, 
     {
@@ -1155,9 +1393,63 @@
       }
     }, 
     {
+      "bug_id": "CSCuz92759", 
+      "product": "Cisco Small Business 121 Series Wireless Access Points", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "1.0.5.3"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Small Business 300 Series Wireless Access Points"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92759", 
+      "product": "Cisco Small Business 321 Series Wireless Access Points", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "1.0.5.3"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Small Business 300 Series Wireless Access Points"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92756", 
+      "product": "Cisco Small Business 500 Series Wireless Access Points", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "1.2.1.3"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Small Business 500 Series Wireless Access Points"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92753", 
+      "product": "Cisco WAP371 Wireless-AC/N Access Point", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "1.2.1.3"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Small Business 300 Series Wireless Access Points"
+      }
+    }, 
+    {
       "bug_id": "CSCuz92613", 
       "product": "Cisco Business Video Services Automation Software", 
-      "fix": [], 
+      "fix": [
+        "11.x (31-Dec-2016)"
+      ], 
       "bug_data": null
     }, 
     {
@@ -1165,6 +1457,19 @@
       "product": "Cisco Cloud Services", 
       "fix": [], 
       "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz92763", 
+      "product": "Cisco Cloud Web Security", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "5.1(0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Cloud Web Security"
+      }
     }, 
     {
       "bug_id": "CSCuz92625", 
@@ -1193,6 +1498,12 @@
         "status": "Open", 
         "product_name": "Cisco Intelligent Automation for Cloud"
       }
+    }, 
+    {
+      "bug_id": "CSCuz92621", 
+      "product": "Cisco Network Device Security Assessment Service", 
+      "fix": [], 
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCuz92741", 
@@ -1280,6 +1591,32 @@
       }
     }, 
     {
+      "bug_id": "CSCuz92778", 
+      "product": "Cisco Universal Small Cell 5000 Series - Running Software Release 3.4.2.x", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "V3.4.2.8"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Universal Small Cell 3000 Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92778", 
+      "product": "Cisco Universal Small Cell 7000 Series - Running Software Release 3.4.2.x", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "V3.4.2.8"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Universal Small Cell 3000 Series"
+      }
+    }, 
+    {
       "bug_id": "CSCuz92798", 
       "product": "Cisco WebEx Node", 
       "fix": [
@@ -1313,6 +1650,20 @@
       "product": "Network Performance Analytics (NPA)", 
       "fix": [], 
       "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz92775", 
+      "product": "Small Cell factory recovery root filesystem V2.99.4 or later", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "3.17.3", 
+          "V3.8"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco Universal Small Cell 3000 Series"
+      }
     }
   ]
 }
