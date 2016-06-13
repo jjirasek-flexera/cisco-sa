@@ -1,16 +1,18 @@
 {
-  "version": "1.4", 
+  "version": "1.5", 
   "products": [
     {
       "bug_id": "CSCuz92777", 
       "product": "Cisco 3G Femtocell  Wireless", 
-      "fix": [], 
+      "fix": [
+        "Affected systems will be updated (Aug. 2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "8.0"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Terminated", 
         "product_name": "Cisco 3G Femtocell"
       }
     }, 
@@ -65,7 +67,9 @@
     {
       "bug_id": "CSCuz92803", 
       "product": "Cisco Virtualization Experience Media Engine", 
-      "fix": [], 
+      "fix": [
+        "No fix is expected."
+      ], 
       "bug_data": {
         "affected_releases": [
           "10.6(0)"
@@ -135,7 +139,14 @@
       "bug_id": "CSCuz92744", 
       "product": "Cisco Wide Area Application Services (WAAS)", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "6.2(3)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Wide Area Application Services (WAAS) Appliances"
+      }
     }, 
     {
       "bug_id": "CSCuz92747", 
@@ -199,7 +210,9 @@
     {
       "bug_id": "CSCuz92752", 
       "product": "Cisco Identity Services Engine (ISE)", 
-      "fix": [], 
+      "fix": [
+        "Affected systems will be updated (Oct. 2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "2.2(0.180)"
@@ -320,7 +333,7 @@
           "5.8(0.32.3)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Terminated", 
         "product_name": "Cisco Secure Access Control Server Solution Engine"
       }
     }, 
@@ -372,7 +385,7 @@
           "9.1.0"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Terminated", 
         "product_name": "Cisco Policy Suite for Mobile"
       }
     }, 
@@ -435,6 +448,12 @@
       }
     }, 
     {
+      "bug_id": "CSCuz92673", 
+      "product": "Cisco Prime LAN Management Solution - Solaris", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCuz92688", 
       "product": "Cisco Prime Network Services Controller", 
       "fix": [
@@ -468,7 +487,9 @@
     {
       "bug_id": "CSCuz92627", 
       "product": "Cisco Unified Communications Deployment Tools", 
-      "fix": [], 
+      "fix": [
+        "Affected systems will be updated (31-Dec-2016)"
+      ], 
       "bug_data": null
     }, 
     {
@@ -501,7 +522,7 @@
           "2.0(0.365)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Nexus 9000 Series Switches"
       }
     }, 
@@ -555,6 +576,20 @@
       }
     }, 
     {
+      "bug_id": "CSCuz92660", 
+      "product": "Cisco MDS 9000 Series Multilayer Switches", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "6.2(16)S67", 
+          "7.3(1)DX(0.30)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Nexus 7000 Series Switches"
+      }
+    }, 
+    {
       "bug_id": "CSCuz92661", 
       "product": "Cisco MDS 9000 Series Multilayer Switches", 
       "fix": [
@@ -586,7 +621,14 @@
       "bug_id": "CSCuz92663", 
       "product": "Cisco Nexus 1000V Series Switches", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "5.2(1)SV3(2.1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Nexus 1000V Switch for VMware vSphere"
+      }
     }, 
     {
       "bug_id": "CSCuz92661", 
@@ -725,7 +767,7 @@
           "12.4(5.2)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Terminated", 
         "product_name": "Cisco SCE 8000 Series Service Control Engine"
       }
     }, 
@@ -767,7 +809,7 @@
           "2.0(9c)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Computing System"
       }
     }, 
@@ -812,7 +854,7 @@
           "5.5(0.0)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco UCS Director"
       }
     }, 
@@ -855,7 +897,7 @@
           "10.6(3)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Terminated", 
         "product_name": "Cisco Hosted Collaboration Solution (HCS)"
       }
     }, 
@@ -887,7 +929,7 @@
           "5.2.0"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Terminated", 
         "product_name": "Cisco Universal Small Cell RAN Management System"
       }
     }, 
@@ -1005,7 +1047,9 @@
     {
       "bug_id": "CSCuz92609", 
       "product": "Cisco Unified SIP Proxy", 
-      "fix": [], 
+      "fix": [
+        "CUSP 10.X (Sept. 2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "8.5(10)"
@@ -1232,7 +1276,9 @@
     {
       "bug_id": "CSCuz92702", 
       "product": "Cisco TelePresence ISDN Link", 
-      "fix": [], 
+      "fix": [
+        "Affected systems will be updated by (Dec.2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "1.1.5"
@@ -1366,8 +1412,10 @@
         "affected_releases": [
           "4.3(1)"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "3.3(1.132)"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco Content Delivery Engine Series"
       }
     }, 
@@ -1383,19 +1431,14 @@
       "fix": [
         "No fix is expected."
       ], 
-      "bug_data": {
-        "affected_releases": [
-          "4.0"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Conductor"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCuz92759", 
       "product": "Cisco Small Business 121 Series Wireless Access Points", 
-      "fix": [], 
+      "fix": [
+        "Affected systems will be updated by (Nov. 2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "1.0.5.3"
@@ -1408,7 +1451,9 @@
     {
       "bug_id": "CSCuz92759", 
       "product": "Cisco Small Business 321 Series Wireless Access Points", 
-      "fix": [], 
+      "fix": [
+        "Affected systems will be updated by (Nov. 2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "1.0.5.3"
@@ -1421,7 +1466,9 @@
     {
       "bug_id": "CSCuz92756", 
       "product": "Cisco Small Business 500 Series Wireless Access Points", 
-      "fix": [], 
+      "fix": [
+        "Affected systems will be updated by (Dec. 2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "1.2.1.3"
@@ -1434,7 +1481,9 @@
     {
       "bug_id": "CSCuz92753", 
       "product": "Cisco WAP371 Wireless-AC/N Access Point", 
-      "fix": [], 
+      "fix": [
+        "Affected systems will be updated by (Oct. 2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "1.2.1.3"
@@ -1502,8 +1551,17 @@
     {
       "bug_id": "CSCuz92621", 
       "product": "Cisco Network Device Security Assessment Service", 
-      "fix": [], 
-      "bug_data": null
+      "fix": [
+        "Affected systems will be updated (17-Jun-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "7.1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Wide Area Application Services (WAAS) Appliances"
+      }
     }, 
     {
       "bug_id": "CSCuz92741", 
@@ -1593,7 +1651,9 @@
     {
       "bug_id": "CSCuz92778", 
       "product": "Cisco Universal Small Cell 5000 Series - Running Software Release 3.4.2.x", 
-      "fix": [], 
+      "fix": [
+        "3.5.12.21 (30-Jun-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "V3.4.2.8"
@@ -1606,7 +1666,9 @@
     {
       "bug_id": "CSCuz92778", 
       "product": "Cisco Universal Small Cell 7000 Series - Running Software Release 3.4.2.x", 
-      "fix": [], 
+      "fix": [
+        "3.5.12.21 (30-Jun-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "V3.4.2.8"
