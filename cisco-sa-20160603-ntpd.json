@@ -1,5 +1,5 @@
 {
-  "version": "1.7", 
+  "version": "1.8", 
   "products": [
     {
       "bug_id": "CSCuz92777", 
@@ -96,14 +96,7 @@
       "bug_id": "CSCuz92731", 
       "product": "Cisco Application and Content Networking System (ACNS)", 
       "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "5.5(41)"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Enterprise CDN Software"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCuz92725", 
@@ -116,7 +109,7 @@
           "3.11(3)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Terminated", 
         "product_name": "Cisco Content Delivery Engine Series"
       }
     }, 
@@ -131,7 +124,7 @@
           "3.11(3)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Terminated", 
         "product_name": "Cisco Content Delivery Engine Series"
       }
     }, 
@@ -220,7 +213,7 @@
           "2.2(0.180)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Terminated", 
         "product_name": "Cisco Identity Services Engine (ISE) 3300 Series Appliances"
       }
     }, 
@@ -402,7 +395,7 @@
           "11.6"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Terminated", 
         "product_name": "Cisco Prime Collaboration"
       }
     }, 
@@ -430,7 +423,7 @@
           "2.2(0.0.69)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Terminated", 
         "product_name": "Network Level Service"
       }
     }, 
@@ -485,7 +478,7 @@
           "11.1.1"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Terminated", 
         "product_name": "Cisco Prime Service Catalog"
       }
     }, 
@@ -519,10 +512,12 @@
       "fix": [], 
       "bug_data": {
         "affected_releases": [
+          "2.0(0)", 
+          "2.2", 
           "3.0(0)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Terminated", 
         "product_name": "Cisco Virtual Topology System"
       }
     }, 
@@ -543,7 +538,8 @@
           "2.0(0.365)"
         ], 
         "fixed_releases": [
-          "2.0(0.378)"
+          "2.0(0.378)", 
+          "2.0(1m)"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco Nexus 9000 Series Switches"
@@ -586,6 +582,12 @@
       }
     }, 
     {
+      "bug_id": "CSCuz92694", 
+      "product": "Cisco IOS XR for Cisco Network Convergence System (NCS) 6000", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCuz92785", 
       "product": "Cisco IOS and Cisco IOS XE Software", 
       "fix": [], 
@@ -614,8 +616,16 @@
           "6.2(16)S67", 
           "7.3(1)DX(0.30)"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "7.0(3)I2(2v)", 
+          "7.0(3)I4(1.121)", 
+          "7.0(3)I4(1.127)", 
+          "7.0(3)I4(2)", 
+          "7.1(3)ZN(0.343)", 
+          "7.1(4)N1(0.877)", 
+          "7.1(4)N1(1)"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco Nexus 7000 Series Switches"
       }
     }, 
@@ -656,8 +666,16 @@
           "6.2(16)S67", 
           "7.3(1)DX(0.30)"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "7.0(3)I2(2v)", 
+          "7.0(3)I4(1.121)", 
+          "7.0(3)I4(1.127)", 
+          "7.0(3)I4(2)", 
+          "7.1(3)ZN(0.343)", 
+          "7.1(4)N1(0.877)", 
+          "7.1(4)N1(1)"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco Nexus 7000 Series Switches"
       }
     }, 
@@ -670,7 +688,7 @@
           "6.0(2)A8(1)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Terminated", 
         "product_name": "Cisco Nexus 3000 Series Switches"
       }
     }, 
@@ -705,8 +723,16 @@
           "6.2(16)S67", 
           "7.3(1)DX(0.30)"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "7.0(3)I2(2v)", 
+          "7.0(3)I4(1.121)", 
+          "7.0(3)I4(1.127)", 
+          "7.0(3)I4(2)", 
+          "7.1(3)ZN(0.343)", 
+          "7.1(4)N1(0.877)", 
+          "7.1(4)N1(1)"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco Nexus 7000 Series Switches"
       }
     }, 
@@ -726,8 +752,16 @@
           "6.2(16)S67", 
           "7.3(1)DX(0.30)"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "7.0(3)I2(2v)", 
+          "7.0(3)I4(1.121)", 
+          "7.0(3)I4(1.127)", 
+          "7.0(3)I4(2)", 
+          "7.1(3)ZN(0.343)", 
+          "7.1(4)N1(0.877)", 
+          "7.1(4)N1(1)"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco Nexus 7000 Series Switches"
       }
     }, 
@@ -747,8 +781,16 @@
           "6.2(16)S67", 
           "7.3(1)DX(0.30)"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "7.0(3)I2(2v)", 
+          "7.0(3)I4(1.121)", 
+          "7.0(3)I4(1.127)", 
+          "7.0(3)I4(2)", 
+          "7.1(3)ZN(0.343)", 
+          "7.1(4)N1(0.877)", 
+          "7.1(4)N1(1)"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco Nexus 7000 Series Switches"
       }
     }, 
@@ -768,8 +810,16 @@
           "6.2(16)S67", 
           "7.3(1)DX(0.30)"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "7.0(3)I2(2v)", 
+          "7.0(3)I4(1.121)", 
+          "7.0(3)I4(1.127)", 
+          "7.0(3)I4(2)", 
+          "7.1(3)ZN(0.343)", 
+          "7.1(4)N1(0.877)", 
+          "7.1(4)N1(1)"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco Nexus 7000 Series Switches"
       }
     }, 
@@ -797,7 +847,7 @@
           "1.0(1)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Terminated", 
         "product_name": "Cisco Support Tools"
       }
     }, 
@@ -842,7 +892,9 @@
         "affected_releases": [
           "3.1(1.121)A"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "2.2(8a)"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Unified Computing System"
       }
@@ -887,7 +939,9 @@
         "affected_releases": [
           "3.1(1.121)A"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "2.2(8a)"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Unified Computing System"
       }
@@ -974,7 +1028,7 @@
           "11.5(1)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Paging Server"
       }
     }, 
@@ -987,7 +1041,7 @@
           "11.5(1)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Paging Server"
       }
     }, 
@@ -1103,13 +1157,15 @@
     {
       "bug_id": "CSCuz96408", 
       "product": "Cisco D9036 Modular Encoding Platform", 
-      "fix": [], 
+      "fix": [
+        "V02.04.90 (July 2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "V2.4.90"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "MPEG-4 Encoders"
       }
     }, 
@@ -1166,7 +1222,7 @@
           "1.6RB4(2)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Edge 300 Series Digital Media Player"
       }
     }, 
@@ -1181,7 +1237,7 @@
           "1.2(0.19)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco E340 Series Digital Media Player"
       }
     }, 
@@ -1196,7 +1252,7 @@
           "2.6"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Content Delivery Engine Series"
       }
     }, 
@@ -1208,11 +1264,12 @@
       ], 
       "bug_data": {
         "affected_releases": [
-          "X7.x", 
-          "X8.x"
+          "X8.7.3"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "X8.8.1"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco TelePresence Video Communication Server (VCS)"
       }
     }, 
@@ -1229,7 +1286,7 @@
           "3.5.1"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Terminated", 
         "product_name": "Cisco MXE 3000 Series (Media Experience Engines)"
       }
     }, 
@@ -1244,7 +1301,7 @@
           "V1.1.0"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco PowerVu Network Centre Management"
       }
     }, 
@@ -1264,9 +1321,17 @@
           "5.6.2"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Terminated", 
         "product_name": "Cisco Digital Media Manager"
       }
+    }, 
+    {
+      "bug_id": "CSCuz92789", 
+      "product": "Cisco TelePresence 1310", 
+      "fix": [
+        "6.1.14 (31-Dec-2016)"
+      ], 
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCuz92697", 
@@ -1279,7 +1344,7 @@
           "XC4.2RC2"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco TelePresence Conductor"
       }
     }, 
@@ -1308,8 +1373,10 @@
         "affected_releases": [
           "1.1.5"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "IL1.1.7"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco TelePresence ISDN Link"
       }
     }, 
@@ -1325,7 +1392,7 @@
           "8.3.x"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Telepresence Integrator C Series"
       }
     }, 
@@ -1341,7 +1408,7 @@
           "8.3.x"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Telepresence Integrator C Series"
       }
     }, 
@@ -1357,7 +1424,7 @@
           "8.3.x"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Telepresence Integrator C Series"
       }
     }, 
@@ -1380,6 +1447,54 @@
       "bug_data": null
     }, 
     {
+      "bug_id": "CSCuz92789", 
+      "product": "Cisco TelePresence System 1000", 
+      "fix": [
+        "6.1.14 (31-Dec-2016)"
+      ], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz92789", 
+      "product": "Cisco TelePresence System 1100", 
+      "fix": [
+        "6.1.14 (31-Dec-2016)"
+      ], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz92789", 
+      "product": "Cisco TelePresence System 1300", 
+      "fix": [
+        "6.1.14 (31-Dec-2016)"
+      ], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz92789", 
+      "product": "Cisco TelePresence System 3000 Series", 
+      "fix": [
+        "6.1.14 (31-Dec-2016)"
+      ], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz92789", 
+      "product": "Cisco TelePresence System 500-32", 
+      "fix": [
+        "6.1.14 (31-Dec-2016)"
+      ], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCuz92789", 
+      "product": "Cisco TelePresence System 500-37", 
+      "fix": [
+        "6.1.14 (31-Dec-2016)"
+      ], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCuz92709", 
       "product": "Cisco TelePresence System EX Series", 
       "fix": [
@@ -1391,9 +1506,17 @@
           "8.3.x"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Telepresence Integrator C Series"
       }
+    }, 
+    {
+      "bug_id": "CSCuz92789", 
+      "product": "Cisco TelePresence TX 9000 Series", 
+      "fix": [
+        "6.1.14 (31-Dec-2016)"
+      ], 
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCuz92711", 
@@ -1403,11 +1526,12 @@
       ], 
       "bug_data": {
         "affected_releases": [
-          "X7.x", 
-          "X8.x"
+          "X8.7.3"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "X8.8.1"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco TelePresence Video Communication Server (VCS)"
       }
     }, 
@@ -1423,9 +1547,15 @@
           "8.3.x"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Telepresence Integrator C Series"
       }
+    }, 
+    {
+      "bug_id": "CSCuz92721", 
+      "product": "Cisco Video Delivery System Recorder", 
+      "fix": [], 
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCuz92724", 
@@ -1438,7 +1568,8 @@
           "4.3(1)"
         ], 
         "fixed_releases": [
-          "3.3(1.132)"
+          "3.3(1.132)", 
+          "4.3(2.10)"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco Content Delivery Engine Series"
@@ -1471,6 +1602,21 @@
         "fixed_releases": [], 
         "status": "Terminated", 
         "product_name": "Cisco Videoscape Distribution Suite Transparent Caching"
+      }
+    }, 
+    {
+      "bug_id": "CSCuz92719", 
+      "product": "Cloud Object Store (COS)", 
+      "fix": [
+        "Affected systems will be updated (30-Jul-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "3.7(0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Content Delivery Engine Series"
       }
     }, 
     {
@@ -1544,7 +1690,9 @@
     {
       "bug_id": "CSCuz92630", 
       "product": "Cisco Cloud Email Security", 
-      "fix": [], 
+      "fix": [
+        "Affected systems will be updated July 2016"
+      ], 
       "bug_data": {
         "affected_releases": [
           "3.5.0-054"
@@ -1564,14 +1712,7 @@
       "bug_id": "CSCuz92763", 
       "product": "Cisco Cloud Web Security", 
       "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "5.1(0)"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Cloud Web Security"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCuz92625", 
@@ -1582,7 +1723,7 @@
           "2.100"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Terminated", 
         "product_name": "Cisco Web Collaboration Option"
       }
     }, 
@@ -1605,7 +1746,7 @@
       "bug_id": "CSCuz92621", 
       "product": "Cisco Network Device Security Assessment Service", 
       "fix": [
-        "TBD Based on Red Hat"
+        "TBD. Based on Red Hat"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1626,7 +1767,7 @@
       "bug_id": "CSCuz92624", 
       "product": "Cisco Proactive Network Operations Center", 
       "fix": [
-        "No fix available yet. Pending Red Hat."
+        "No fix available yet. Pending Red Hat"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1684,7 +1825,7 @@
           "1.16(1.0)IT1"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Terminated", 
         "product_name": "Smart Care Service"
       }
     }, 
@@ -1711,7 +1852,9 @@
         "affected_releases": [
           "V3.4.2.8"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "BV3.5.12.21"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Universal Small Cell 3000 Series"
       }
@@ -1726,7 +1869,9 @@
         "affected_releases": [
           "V3.4.2.8"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "BV3.5.12.21"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Universal Small Cell 3000 Series"
       }
@@ -1735,20 +1880,13 @@
       "bug_id": "CSCuz92639", 
       "product": "Cisco WebEx Messenger Service", 
       "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "EP1"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco WebEx Connect IM"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCuz92798", 
       "product": "Cisco WebEx Node", 
       "fix": [
-        "No fix is expected from Red Hat"
+        "No fix is expected from Red Hat."
       ], 
       "bug_data": {
         "affected_releases": [
