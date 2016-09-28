@@ -1,0 +1,710 @@
+{
+  "version": "1.0", 
+  "products": [
+    {
+      "bug_id": "CSCvb48548", 
+      "product": "Cisco WebEx Meetings Server Release 1.x", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.7"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco WebEx Meetings Server"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48548", 
+      "product": "Cisco WebEx Meetings Server Release 2.x", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.7"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco WebEx Meetings Server"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48543", 
+      "product": "Cisco WebEx Node for MCS", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "eureka-3.12.9.8"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco WebEx Meeting Center"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48552", 
+      "product": "Cisco WebEx Business Suite", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "T31R2"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco WebEx Meetings"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48633", 
+      "product": "Cisco Visual Quality Experience Server", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "3.11(4)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Content Delivery Engine Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48633", 
+      "product": "Cisco Visual Quality Experience Tools Server", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "3.11(4)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Content Delivery Engine Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48643", 
+      "product": "Cisco Wide Area Application Services (WAAS)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "6.3(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Wide Area Application Services (WAAS) Appliances"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48539", 
+      "product": "Cisco Content Security Appliance Update Servers", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvb48536", 
+      "product": "Cisco FireSIGHT System Software", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "5.4.0", 
+          "5.4.1", 
+          "6.0.0", 
+          "6.0.1", 
+          "6.1.0"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Firepower Management Center"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48662", 
+      "product": "Cisco Secure Access Control System (ACS)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "5.8(0.32)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Secure Access Control Server Solution Engine"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48589", 
+      "product": "Cisco Prime Access Registrar", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "7.1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Access Registrar"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48693", 
+      "product": "Cisco Prime Collaboration Deployment", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "12.0(0.99000.9)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Communications Manager (CallManager)"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48619", 
+      "product": "Cisco Prime License Manager", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "12.0(0.98000.3)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Communications Licensing"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48587", 
+      "product": "Cisco Prime Network Registrar", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "8.3(4)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Network Registrar"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48602", 
+      "product": "Cisco Prime Network Services Controller", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "3.4"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Virtual Network Management Center"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48621", 
+      "product": "Cisco Show and Share", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "5.3", 
+          "5.3.10", 
+          "5.3.11", 
+          "5.3.12", 
+          "5.5", 
+          "5.6", 
+          "5.6.1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Digital Media Manager"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48559", 
+      "product": "Cisco Connected Grid Routers - Running Cisco CG-OS Software", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "7.3(0)ZN(0.99)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco 1000 Series Connected Grid Routers"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48684", 
+      "product": "Cisco Connected Grid Routers", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "15.8(9)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco 1000 Series Connected Grid Routers"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48723", 
+      "product": "Cisco IP 7800 Series Phones", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.5(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco IP Phone 7800 Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48656", 
+      "product": "Cisco SPA112 2-Port Phone Adapter", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "1.4.1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Small Business Voice Gateways and ATAs"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48656", 
+      "product": "Cisco SPA122 Analog Telephone Adapter (ATA) with Router", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "1.4.1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Small Business Voice Gateways and ATAs"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48656", 
+      "product": "Cisco SPA232D Multi-Line DECT Analog Telephone Adapter (ATA)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "1.4.1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Small Business Voice Gateways and ATAs"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48701", 
+      "product": "Cisco Unified Communications Manager IM &amp; Presence Service (formerly CUPS)<br />", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "12.0(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Communications Manager IM & Presence Service"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48691", 
+      "product": "Cisco Unified Communications Manager Session Management Edition", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "12.0(0.99000.9)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Communications Manager (CallManager)"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48691", 
+      "product": "Cisco Unified Communications Manager", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "12.0(0.99000.9)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Communications Manager (CallManager)"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48716", 
+      "product": "Cisco Unified IP 8831 Conference Phone", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "10.3(1)SR3"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified IP Phone 6900 Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48715", 
+      "product": "Cisco Unified IP 8945 Phone", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "9.4(2)SR3"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified IP Phone 6900 Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48702", 
+      "product": "Cisco Unified IP 8961 Phone", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "9.4(2)SR3"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified IP Phones 9900 Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48702", 
+      "product": "Cisco Unified IP 9951 Phone", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "9.4(2)SR3"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified IP Phones 9900 Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48702", 
+      "product": "Cisco Unified IP 9971 Phone", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "9.4(2)SR3"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified IP Phones 9900 Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48580", 
+      "product": "Cisco DCM Series D9900 Digital Content Manager", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "all_versions"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Digital Content Manager (DCM) Software"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48625", 
+      "product": "Cisco Expressway Series", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "X8.8.2"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco TelePresence Video Communication Server (VCS)"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48611", 
+      "product": "Cisco TelePresence ISDN Gateway 3241", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.2(1.111)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco TelePresence ISDN Gateway"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48611", 
+      "product": "Cisco TelePresence ISDN Gateway MSE 8321", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.2(1.111)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco TelePresence ISDN Gateway"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48613", 
+      "product": "Cisco TelePresence MCU 4200 Series, 4500 Series, 5300 Series, MSE 8420, and MSE 8510", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "4.5(1.85)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco TelePresence MCU 4500 Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48622", 
+      "product": "Cisco TelePresence MX Series", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "RoomOS-2016-09-08"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Telepresence Integrator C Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48622", 
+      "product": "Cisco TelePresence Profile Series", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "RoomOS-2016-09-08"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Telepresence Integrator C Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48622", 
+      "product": "Cisco TelePresence SX Series", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "RoomOS-2016-09-08"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Telepresence Integrator C Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48622", 
+      "product": "Cisco TelePresence System EX Series", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "RoomOS-2016-09-08"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Telepresence Integrator C Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48625", 
+      "product": "Cisco TelePresence Video Communication Server (VCS)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "X8.8.2"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco TelePresence Video Communication Server (VCS)"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48622", 
+      "product": "Cisco Telepresence Integrator C Series", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "RoomOS-2016-09-08"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Telepresence Integrator C Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48651", 
+      "product": "Cisco Video Surveillance 3000 Series IP Cameras", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.0(0.175)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Video Surveillance 6000 Series IP Cameras"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48652", 
+      "product": "Cisco Video Surveillance 3000 Series IP Cameras", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.0(0.175)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Video Surveillance 6000 Series IP Cameras"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48649", 
+      "product": "Cisco Video Surveillance 4000 Series High-Definition IP Cameras", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.0(0.0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Video Surveillance 4000 Series IP Cameras"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48650", 
+      "product": "Cisco Video Surveillance 4300E and 4500E High-Definition IP Cameras", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "3.0(0.0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Video Surveillance 4000 Series IP Cameras"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48651", 
+      "product": "Cisco Video Surveillance 6000 Series IP Cameras", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.0(0.175)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Video Surveillance 6000 Series IP Cameras"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48652", 
+      "product": "Cisco Video Surveillance 6000 Series IP Cameras", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.0(0.175)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Video Surveillance 6000 Series IP Cameras"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48651", 
+      "product": "Cisco Video Surveillance 7000 Series IP Cameras", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.0(0.175)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Video Surveillance 6000 Series IP Cameras"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48652", 
+      "product": "Cisco Video Surveillance 7000 Series IP Cameras", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.0(0.175)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Video Surveillance 6000 Series IP Cameras"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48651", 
+      "product": "Cisco Video Surveillance PTZ IP Cameras", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.0(0.175)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Video Surveillance 6000 Series IP Cameras"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48652", 
+      "product": "Cisco Video Surveillance PTZ IP Cameras", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.0(0.175)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Video Surveillance 6000 Series IP Cameras"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48611", 
+      "product": "Tandberg Codian ISDN Gateway 3210, 3220, and 3240", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.2(1.111)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco TelePresence ISDN Gateway"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48611", 
+      "product": "Tandberg Codian MSE 8320", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.2(1.111)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco TelePresence ISDN Gateway"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48556", 
+      "product": "Cisco WebEx Meeting Center", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "WebEx11-V1.3-SP24"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco WebEx Meetings"
+      }
+    }
+  ]
+}
