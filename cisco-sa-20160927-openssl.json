@@ -1,5 +1,5 @@
 {
-  "version": "1.4", 
+  "version": "1.5", 
   "products": [
     {
       "bug_id": "CSCvb48556", 
@@ -45,7 +45,9 @@
     {
       "bug_id": "CSCvb48548", 
       "product": "Cisco WebEx Meetings Server Release 1.x", 
-      "fix": [], 
+      "fix": [
+        "2.6.1.3xx (12-Oct-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "2.7"
@@ -58,7 +60,9 @@
     {
       "bug_id": "CSCvb48548", 
       "product": "Cisco WebEx Meetings Server Release 2.x", 
-      "fix": [], 
+      "fix": [
+        "2.6.1.3xx (12-Oct-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "2.7"
@@ -234,6 +238,19 @@
       }
     }, 
     {
+      "bug_id": "CSCvb48708", 
+      "product": "Cisco Jabber for Windows", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.7(0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Jabber for Windows"
+      }
+    }, 
+    {
       "bug_id": "CSCvb48552", 
       "product": "Cisco WebEx Business Suite", 
       "fix": [], 
@@ -307,7 +324,9 @@
     {
       "bug_id": "CSCvb48545", 
       "product": "Cisco WebEx Meetings for BlackBerry", 
-      "fix": [], 
+      "fix": [
+        "Users need to Update BB OS"
+      ], 
       "bug_data": null
     }, 
     {
@@ -530,7 +549,9 @@
     {
       "bug_id": "CSCvb48667", 
       "product": "Cisco Intrusion Prevention System (IPS) Solutions", 
-      "fix": [], 
+      "fix": [
+        "No Fix Is Expected"
+      ], 
       "bug_data": {
         "affected_releases": [
           "7.1(11)SP", 
@@ -562,7 +583,7 @@
       "bug_id": "CSCvb48638", 
       "product": "Cisco NAC Guest Server", 
       "fix": [
-        "No fix is expected"
+        "No fix is expected."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -615,7 +636,10 @@
     {
       "bug_id": "CSCvb48609", 
       "product": "Cisco Digital Media Manager", 
-      "fix": [], 
+      "fix": [
+        "5.3.6_RB3 (29-Oct-2016)", 
+        "5.4.1_RB4 (29-Oct-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "5.3.6(RB1)"
@@ -639,6 +663,12 @@
         "status": "Terminated", 
         "product_name": "Cisco Mobile Wireless Transport Manager"
       }
+    }, 
+    {
+      "bug_id": "CSCvb48586", 
+      "product": "Cisco Multicast Manager", 
+      "fix": [], 
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCvb48596", 
@@ -700,6 +730,21 @@
       }
     }, 
     {
+      "bug_id": "CSCvb48599", 
+      "product": "Cisco Prime Collaboration Assurance", 
+      "fix": [
+        "PCA 11.6 (Nov-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "11.6"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Prime Collaboration"
+      }
+    }, 
+    {
       "bug_id": "CSCvb48693", 
       "product": "Cisco Prime Collaboration Deployment", 
       "fix": [], 
@@ -724,7 +769,7 @@
           "11.5(0)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Prime Collaboration"
       }
     }, 
@@ -756,6 +801,21 @@
       }
     }, 
     {
+      "bug_id": "CSCvb48594", 
+      "product": "Cisco Prime Infrastructure Plug and Play Standalone Gateway", 
+      "fix": [
+        "no fix is planned"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "2.0(0.0.97)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Network Level Service"
+      }
+    }, 
+    {
       "bug_id": "CSCvb48595", 
       "product": "Cisco Prime Infrastructure", 
       "fix": [], 
@@ -778,7 +838,7 @@
           "12.0(0.98000.3)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Terminated", 
         "product_name": "Cisco Unified Communications Licensing"
       }
     }, 
@@ -866,27 +926,8 @@
           "4.8(0)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Security Manager"
-      }
-    }, 
-    {
-      "bug_id": "CSCvb48621", 
-      "product": "Cisco Show and Share", 
-      "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "5.3", 
-          "5.3.10", 
-          "5.3.11", 
-          "5.3.12", 
-          "5.5", 
-          "5.6", 
-          "5.6.1"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Digital Media Manager"
       }
     }, 
     {
@@ -908,6 +949,19 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco UCS Central Software"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb50784", 
+      "product": "Cisco Unified Intelligence Center", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.5(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Intelligence Center"
       }
     }, 
     {
@@ -953,7 +1007,9 @@
     {
       "bug_id": "CSCvb48671", 
       "product": "Cisco 910 Industrial Router", 
-      "fix": [], 
+      "fix": [
+        "1.2.1RB4 (Available)"
+      ], 
       "bug_data": null
     }, 
     {
@@ -990,7 +1046,9 @@
     {
       "bug_id": "CSCvb48684", 
       "product": "Cisco Connected Grid Routers", 
-      "fix": [], 
+      "fix": [
+        "15.008.009 (26-Oct-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "15.8(9)"
@@ -1018,6 +1076,21 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco IOS"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48567", 
+      "product": "Cisco MDS 9000 Series Multilayer Switches", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "7.0(3)I5(0.187)", 
+          "7.2(3.9)", 
+          "7.3(0)DX(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Nexus 7000 Series Switches"
       }
     }, 
     {
@@ -1167,7 +1240,9 @@
     {
       "bug_id": "CSCvb48647", 
       "product": "Cisco ONS 15454 Series Multiservice Provisioning Platforms", 
-      "fix": [], 
+      "fix": [
+        "10.7 (31-Jan-2017)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "10.50", 
@@ -1182,7 +1257,9 @@
     {
       "bug_id": "CSCvb48685", 
       "product": "Cisco Service Control Operating System", 
-      "fix": [], 
+      "fix": [
+        "Affected versions will be updated (15-Jan-2017)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "12.4(5.2)"
@@ -1191,6 +1268,14 @@
         "status": "Open", 
         "product_name": "Cisco SCE 8000 Series Service Control Engine"
       }
+    }, 
+    {
+      "bug_id": "CSCvb48520", 
+      "product": "Cisco Common Services Platform Collector", 
+      "fix": [
+        "CASP 1.11 (Dec-2016)"
+      ], 
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCvb48644", 
@@ -1294,6 +1379,19 @@
       }
     }, 
     {
+      "bug_id": "CSCvb48700", 
+      "product": "Cisco Emergency Responder", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "12.0(0.98000.12)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Emergency Responder"
+      }
+    }, 
+    {
       "bug_id": "CSCvb48703", 
       "product": "Cisco Hosted Collaboration Mediation Fulfillment", 
       "fix": [], 
@@ -1302,7 +1400,7 @@
           "11.5(1)"
         ], 
         "fixed_releases": [], 
-        "status": "Other", 
+        "status": "Open", 
         "product_name": "Cisco Hosted Collaboration Solution (HCS)"
       }
     }, 
@@ -1454,6 +1552,17 @@
       "bug_data": null
     }, 
     {
+      "bug_id": "CSCvb48697", 
+      "product": "Cisco UC Integration for Microsoft Lync", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco UC Integration(TM) for Microsoft Lync"
+      }
+    }, 
+    {
       "bug_id": "CSCvb48696", 
       "product": "Cisco Unified Communications Domain Manager", 
       "fix": [], 
@@ -1469,7 +1578,9 @@
     {
       "bug_id": "CSCvb48701", 
       "product": "Cisco Unified Communications Manager IM &amp; Presence Service (formerly CUPS)", 
-      "fix": [], 
+      "fix": [
+        "Affected versions will be updated (20-Oct-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "12.0(1)"
@@ -1482,7 +1593,9 @@
     {
       "bug_id": "CSCvb48691", 
       "product": "Cisco Unified Communications Manager Session Management Edition", 
-      "fix": [], 
+      "fix": [
+        "Affected versions will be updated (20-Oct-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "12.0(0.99000.9)"
@@ -1495,7 +1608,9 @@
     {
       "bug_id": "CSCvb48691", 
       "product": "Cisco Unified Communications Manager", 
-      "fix": [], 
+      "fix": [
+        "Affected versions will be updated (20-Oct-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "12.0(0.99000.9)"
@@ -1769,7 +1884,9 @@
     {
       "bug_id": "CSCvb48672", 
       "product": "Cisco Edge 300 Digital Media Player", 
-      "fix": [], 
+      "fix": [
+        "1.6RB5 (26-Oct-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "1.6RB4(4)"
@@ -1831,7 +1948,7 @@
       "bug_id": "CSCvb48615", 
       "product": "Cisco MXE 3500 Series Media Experience Engines", 
       "fix": [
-        "Affected versions will be fixed 7-Oct-2016"
+        "Affected versions will be fixed (7-Oct-2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1853,6 +1970,25 @@
       "bug_data": null
     }, 
     {
+      "bug_id": "CSCvb48621", 
+      "product": "Cisco Show and Share", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "5.3", 
+          "5.3.10", 
+          "5.3.11", 
+          "5.3.12", 
+          "5.5", 
+          "5.6", 
+          "5.6.1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco Digital Media Manager"
+      }
+    }, 
+    {
       "bug_id": "CSCvb48607", 
       "product": "Cisco TelePresence Conductor", 
       "fix": [], 
@@ -1869,7 +2005,7 @@
       "bug_id": "CSCvb48623", 
       "product": "Cisco TelePresence Content Server", 
       "fix": [
-        "Affected versions will be updated 17-Oct-2016"
+        "Affected versions will be updated (17-Oct-2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -2188,8 +2324,10 @@
         "affected_releases": [
           "4.3(2)"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "4.3(2.23)"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco Content Delivery Engine Series"
       }
     }, 
@@ -2434,6 +2572,19 @@
       }
     }, 
     {
+      "bug_id": "CSCvb48668", 
+      "product": "Cisco Cloud Web Security", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "5.1(0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Cloud Web Security"
+      }
+    }, 
+    {
       "bug_id": "CSCvb48682", 
       "product": "Cisco Network Performance Analysis", 
       "fix": [], 
@@ -2453,6 +2604,21 @@
       }
     }, 
     {
+      "bug_id": "CSCvb48531", 
+      "product": "Cisco Registered Envelope Service", 
+      "fix": [
+        "Affected services have been updated."
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "5.0.0-160"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Email Encryption"
+      }
+    }, 
+    {
       "bug_id": "CSCvb48730", 
       "product": "Cisco Services Provisioning Platform", 
       "fix": [
@@ -2463,7 +2629,9 @@
     {
       "bug_id": "CSCvb48676", 
       "product": "Cisco Universal Small Cell 5000 Series - Running Release 3.4.2.x", 
-      "fix": [], 
+      "fix": [
+        "3.5.12.23 (31-Jan-2017)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "BV3.5.12.18"
@@ -2476,7 +2644,9 @@
     {
       "bug_id": "CSCvb48676", 
       "product": "Cisco Universal Small Cell 7000 Series - Running Release 3.4.2.x", 
-      "fix": [], 
+      "fix": [
+        "3.5.12.23 (31-Jan-2017)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "BV3.5.12.18"
