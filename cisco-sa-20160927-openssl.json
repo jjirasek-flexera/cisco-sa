@@ -1,5 +1,5 @@
 {
-  "version": "1.6", 
+  "version": "1.7", 
   "products": [
     {
       "bug_id": "CSCvb48556", 
@@ -38,7 +38,7 @@
           "8.6(2.10)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Unified MeetingPlace"
       }
     }, 
@@ -75,7 +75,9 @@
     {
       "bug_id": "CSCvb48543", 
       "product": "Cisco WebEx Node for MCS", 
-      "fix": [], 
+      "fix": [
+        "Affected versions will be updated (25-Oct-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "eureka-3.12.9.8"
@@ -236,6 +238,19 @@
       }
     }, 
     {
+      "bug_id": "CSCvb48725", 
+      "product": "Cisco Jabber for Android", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.8(0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Unified Mobile Communicator"
+      }
+    }, 
+    {
       "bug_id": "CSCvb48290", 
       "product": "Cisco Jabber for Mac", 
       "fix": [
@@ -334,7 +349,9 @@
     {
       "bug_id": "CSCvb48544", 
       "product": "Cisco WebEx Meetings for Android", 
-      "fix": [], 
+      "fix": [
+        "Affected versions will be updated (31-Oct-2016)"
+      ], 
       "bug_data": null
     }, 
     {
@@ -476,9 +493,10 @@
           "6.3(1)"
         ], 
         "fixed_releases": [
-          "6.3(0.74)"
+          "6.3(0.74)", 
+          "6.3(0.78)"
         ], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Wide Area Application Services (WAAS) Appliances"
       }
     }, 
@@ -547,7 +565,9 @@
     {
       "bug_id": "CSCvb48537", 
       "product": "Cisco Content Security Management Appliance (SMA)", 
-      "fix": [], 
+      "fix": [
+        "6.1.140 (30-Nov-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "10.5.0-FCS"
@@ -658,7 +678,9 @@
     {
       "bug_id": "CSCvb48542", 
       "product": "Cisco Web Security Appliance (WSA)", 
-      "fix": [], 
+      "fix": [
+        "Affected versions will be updated (30-Nov-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "WSA10.5.0-FCS-000"
@@ -708,6 +730,19 @@
         "fixed_releases": [], 
         "status": "Terminated", 
         "product_name": "Cisco Digital Media Manager"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48524", 
+      "product": "Cisco Management Appliance", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "SM3.0"
+        ], 
+        "fixed_releases": [], 
+        "status": "Other", 
+        "product_name": "Network Level Service"
       }
     }, 
     {
@@ -927,7 +962,7 @@
           "3.4"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Virtual Network Management Center"
       }
     }, 
@@ -1242,12 +1277,17 @@
       "fix": [], 
       "bug_data": {
         "affected_releases": [
-          "7.1(4)N1(1)", 
-          "7.3(0)N1(1)"
+          "7.0(3)I5(0.187)", 
+          "7.2(3.9)", 
+          "7.3(0)DX(1)", 
+          "7.3(1)DX(0.5)"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Nexus 5000 Series Switches"
+        "fixed_releases": [
+          "7.0(3)I5(0.221)", 
+          "7.0(3)I5(1)"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco Nexus 7000 Series Switches"
       }
     }, 
     {
@@ -1359,6 +1399,37 @@
         "status": "Open", 
         "product_name": "Cisco SCE 8000 Series Service Control Engine"
       }
+    }, 
+    {
+      "bug_id": "CSCvb48646", 
+      "product": "Cisco onePK All-in-One Virtual Machine", 
+      "fix": [
+        "Customers are advised to keep the software in their virtual machine installations up to date using the software upgrade utilities provided by the operating system."
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "1.0(1)", 
+          "1.1(0)", 
+          "1.2(0)", 
+          "1.2(1)", 
+          "1.3(0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco Support Tools"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48660", 
+      "product": "Cisco 500 Series Stackable (Sx500) Managed Switches", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvb48659", 
+      "product": "Cisco Small Business 300 Series (Sx300) Managed Switches", 
+      "fix": [], 
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCvb48520", 
@@ -1981,6 +2052,26 @@
         "fixed_releases": [], 
         "status": "Terminated", 
         "product_name": "Cisco Digital Media Manager"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48630", 
+      "product": "Cisco Cloud Object Storage", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "3.8(2)"
+        ], 
+        "fixed_releases": [
+          "ccdms-04.5(0.59)", 
+          "ccdss-04.5(0.59)", 
+          "cde-04.5(0.59)", 
+          "cos-03.9(0.39)", 
+          "cos-03.9(101.28)", 
+          "cos-03.9(104.9)"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco Content Delivery Engine Series"
       }
     }, 
     {
@@ -2748,6 +2839,21 @@
       "product": "Cisco Partner Support Service 1.x", 
       "fix": [], 
       "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvb48523", 
+      "product": "Cisco Proactive Network Operations Center", 
+      "fix": [
+        "No Fix is Expected"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "SM3.0"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Network Level Service"
+      }
     }, 
     {
       "bug_id": "CSCvb48531", 
