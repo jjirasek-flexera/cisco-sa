@@ -1,5 +1,5 @@
 {
-  "version": "1.1", 
+  "version": "1.2", 
   "products": [
     {
       "bug_id": "CSCvb85516", 
@@ -96,7 +96,20 @@
       "fix": [
         "12.1 (23-Feb-2017)"
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "10.5(1)", 
+          "10.6", 
+          "11.0", 
+          "11.1", 
+          "11.2", 
+          "11.5(0)", 
+          "11.6"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco Prime Collaboration"
+      }
     }, 
     {
       "bug_id": "CSCvb85528", 
@@ -112,6 +125,47 @@
       }
     }, 
     {
+      "bug_id": "CSCvb85598", 
+      "product": "Cisco Prime License Manager", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "12.0(0.99999.2)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco Unified Communications Licensing"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb85583", 
+      "product": "Cisco Videoscape Distribution Suite Service Manager", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "3.2", 
+          "3.3", 
+          "3.4"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Videoscape Distribution Suite Service Manager"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb85529", 
+      "product": "Cisco Application Policy Infrastructure Controller (APIC)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.2(0.166b)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Application Policy Infrastructure Controller (APIC)"
+      }
+    }, 
+    {
       "bug_id": "CSCvb85526", 
       "product": "Cisco Connected Grid Routers - Running Cisco CG-OS Software", 
       "fix": [
@@ -124,6 +178,32 @@
         "fixed_releases": [], 
         "status": "Terminated", 
         "product_name": "Cisco 1000 Series Connected Grid Routers"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb85531", 
+      "product": "Cisco Nexus 9000 Series Fabric Switches - ACI mode", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "12.1(1h)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco LAN Switch Software"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb85692", 
+      "product": "Cisco Service Control Operating System", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "12.4(5.2)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco SCE 8000 Series Service Control Engine"
       }
     }, 
     {
@@ -190,6 +270,19 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco Small Business Voice Gateways and ATAs"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb85609", 
+      "product": "Cisco IP Interoperability and Collaboration System (IPICS)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "5.0(2)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco IPICS Server Software"
       }
     }, 
     {
@@ -337,6 +430,25 @@
       }
     }, 
     {
+      "bug_id": "CSCvb85547", 
+      "product": "Cisco DCM Series D990x Digital Content Manager", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "all_versions"
+        ], 
+        "fixed_releases": [
+          "17.10.19", 
+          "18.0.11", 
+          "18.10.11", 
+          "19.0.3", 
+          "19.10.0"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco Digital Content Manager (DCM) Software"
+      }
+    }, 
+    {
       "bug_id": "CSCvb85669", 
       "product": "Cisco Edge 300 Digital Media Player", 
       "fix": [
@@ -394,7 +506,7 @@
           "3.5.1"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco MXE 3000 Series (Media Experience Engines)"
       }
     }, 
@@ -411,6 +523,58 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco TelePresence Video Communication Server (VCS)"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb85610", 
+      "product": "Cisco VDS Recorder", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "999.999"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Videoscape Distribution Suite for Television"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb85610", 
+      "product": "Cisco VDS-TV Caching Nodes", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "999.999"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Videoscape Distribution Suite for Television"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb85610", 
+      "product": "Cisco VDS-TV Streamer", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "999.999"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Videoscape Distribution Suite for Television"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb85610", 
+      "product": "Cisco VDS-TV Vault", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "999.999"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Videoscape Distribution Suite for Television"
       }
     }, 
     {
@@ -449,6 +613,12 @@
     {
       "bug_id": "CSCvb85490", 
       "product": "Cisco Prime Network Change and Configuration Management", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvb89698", 
+      "product": "Cisco Smart Net Total Care - OnPrem", 
       "fix": [], 
       "bug_data": null
     }
