@@ -1,5 +1,5 @@
 {
-  "version": "1.3", 
+  "version": "1.4", 
   "products": [
     {
       "bug_id": "CSCvb85516", 
@@ -68,7 +68,8 @@
           "3.11(5)"
         ], 
         "fixed_releases": [
-          "3.11(6.1)"
+          "3.11(6.1)", 
+          "3.11(6.2)"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco Content Delivery Engine Series"
@@ -83,7 +84,8 @@
           "3.11(5)"
         ], 
         "fixed_releases": [
-          "3.11(6.1)"
+          "3.11(6.1)", 
+          "3.11(6.2)"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco Content Delivery Engine Series"
@@ -510,14 +512,7 @@
       "fix": [
         "X8.9 (5-Dec-2016)"
       ], 
-      "bug_data": {
-        "affected_releases": [
-          "X8.8.3"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco TelePresence Video Communication Server (VCS)"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCvb85595", 
@@ -541,14 +536,7 @@
       "fix": [
         "X8.9 (5-Dec-2016)"
       ], 
-      "bug_data": {
-        "affected_releases": [
-          "X8.8.3"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco TelePresence Video Communication Server (VCS)"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCvb85610", 
@@ -558,8 +546,12 @@
         "affected_releases": [
           "999.999"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "ccdms-04.5(0.17)", 
+          "ccdss-04.5(0.17)", 
+          "cde-04.5(0.17)"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco Videoscape Distribution Suite for Television"
       }
     }, 
@@ -571,8 +563,12 @@
         "affected_releases": [
           "999.999"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "ccdms-04.5(0.17)", 
+          "ccdss-04.5(0.17)", 
+          "cde-04.5(0.17)"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco Videoscape Distribution Suite for Television"
       }
     }, 
@@ -584,8 +580,12 @@
         "affected_releases": [
           "999.999"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "ccdms-04.5(0.17)", 
+          "ccdss-04.5(0.17)", 
+          "cde-04.5(0.17)"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco Videoscape Distribution Suite for Television"
       }
     }, 
@@ -597,8 +597,12 @@
         "affected_releases": [
           "999.999"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "ccdms-04.5(0.17)", 
+          "ccdss-04.5(0.17)", 
+          "cde-04.5(0.17)"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco Videoscape Distribution Suite for Television"
       }
     }, 
