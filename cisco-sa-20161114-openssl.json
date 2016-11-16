@@ -1,0 +1,519 @@
+{
+  "version": "1.1", 
+  "products": [
+    {
+      "bug_id": "CSCvc08554", 
+      "product": "Cisco WebEx Meetings Server Release 1.x", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.7"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco WebEx Meetings Server"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc08554", 
+      "product": "Cisco WebEx Meetings Server Release 2.x", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.7"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco WebEx Meetings Server"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc08544", 
+      "product": "Cisco WebEx Node for MCS", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvc08715", 
+      "product": "Cisco Agent for OpenFlow", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvc08720", 
+      "product": "Cisco AnyConnect Secure Mobility Client for Android", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvc08721", 
+      "product": "Cisco AnyConnect Secure Mobility Client for Android", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvc08722", 
+      "product": "Cisco AnyConnect Secure Mobility Client for Desktop Platforms", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvc08720", 
+      "product": "Cisco AnyConnect Secure Mobility Client for Linux", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvc08720", 
+      "product": "Cisco AnyConnect Secure Mobility Client for Mac OS X", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvc08720", 
+      "product": "Cisco AnyConnect Secure Mobility Client for Windows", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvc08720", 
+      "product": "Cisco AnyConnect Secure Mobility Client for iOS", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvc08786", 
+      "product": "Cisco Jabber Client Framework (JCF) Components", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.7(0)", 
+          "11.8(0)", 
+          "12.0(0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Jabber for Windows"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc08781", 
+      "product": "Cisco Jabber Software Development Kit", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.7(0)", 
+          "11.8(0)", 
+          "12.0(0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Jabber Software Development Kit"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc08820", 
+      "product": "Cisco Jabber for Android", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvc08559", 
+      "product": "Cisco WebEx Meetings Server - Multimedia Platform (MMP)", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvc08555", 
+      "product": "Cisco WebEx Meetings Server - SSL gateway", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.7"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco WebEx Meetings Server"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc08546", 
+      "product": "Cisco WebEx Meetings for Android", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "Android-9.7"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco WebEx Meeting Center"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc08663", 
+      "product": "Cisco 1000 Series Connected Grid Routers", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvc08678", 
+      "product": "Cisco ASA Next-Generation Firewall Services", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "r211"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Firepower 9000 Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc08539", 
+      "product": "Cisco FireSIGHT System Software", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvc08619", 
+      "product": "Cisco NetFlow Generation Appliance", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "1.1(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco NetFlow Generation 3000 Series Appliances"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc08614", 
+      "product": "Cisco Network Analysis Module", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "6.2(1b)", 
+          "6.2(2)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Prime Network Analysis Module Software"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc08612", 
+      "product": "Cisco Prime IP Express", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvc08607", 
+      "product": "Cisco Prime Network Registrar", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvc08499", 
+      "product": "Cisco ASR 5000 Series", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvc08565", 
+      "product": "Cisco Connected Grid Routers - Running Cisco CG-OS Software", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "7.3(0)ZN(0.99)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco 1000 Series Connected Grid Routers"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc08744", 
+      "product": "Cisco Connected Grid Routers", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "15.6(1.6)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco 1000 Series Connected Grid Routers"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc08742", 
+      "product": "Cisco IOS and Cisco IOS XE Software", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "Everest-16.5.1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco IOS"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc08571", 
+      "product": "Cisco Nexus 9000 Series Fabric Switches - ACI mode", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvc08689", 
+      "product": "Cisco ONS 15454 Series Multiservice Provisioning Platforms", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "10.52", 
+          "10.524", 
+          "10.526", 
+          "10.60", 
+          "10.61"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco ONS 15454 Series Multiservice Provisioning Platforms"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc08530", 
+      "product": "Cisco Computer Telephony Integration Object Server (CTIOS)", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvc08756", 
+      "product": "Cisco Unified Communications Manager Session Management Edition", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvc08756", 
+      "product": "Cisco Unified Communications Manager", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvc08530", 
+      "product": "Cisco Unified Contact Center Enterprise", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvc08770", 
+      "product": "Cisco Unified IP 8961 Phone", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvc08770", 
+      "product": "Cisco Unified IP 9951 Phone", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvc08770", 
+      "product": "Cisco Unified IP 9971 Phone", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvc08530", 
+      "product": "Cisco Unified Intelligent Contact Management Enterprise", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvc08826", 
+      "product": "Cisco Virtualization Experience Media Edition", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.7(0)", 
+          "11.8(0)", 
+          "12.0(0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Virtualization Experience Media Edition"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc08726", 
+      "product": "Cisco Edge 300 Digital Media Player", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "1.6RB4(4)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Edge 300 Series Digital Media Player"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc08648", 
+      "product": "Cisco TelePresence MX Series", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "9.0.x"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Telepresence Integrator C Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc08648", 
+      "product": "Cisco TelePresence Profile Series", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "9.0.x"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Telepresence Integrator C Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc08648", 
+      "product": "Cisco TelePresence SX Series", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "9.0.x"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Telepresence Integrator C Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc08651", 
+      "product": "Cisco TelePresence Server 7010 and MSE 8710", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "4.2(3.75)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco TelePresence Server"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc08651", 
+      "product": "Cisco TelePresence Server on Multiparty Media 310 and 320", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "4.2(3.75)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco TelePresence Server"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc08651", 
+      "product": "Cisco TelePresence Server on Multiparty Media 820", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "4.2(3.75)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco TelePresence Server"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc08651", 
+      "product": "Cisco TelePresence Server on Virtual Machine", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "4.2(3.75)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco TelePresence Server"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc08648", 
+      "product": "Cisco TelePresence System EX Series", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "9.0.x"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Telepresence Integrator C Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc08648", 
+      "product": "Cisco Telepresence Integrator C Series", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "9.0.x"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Telepresence Integrator C Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc08697", 
+      "product": "Cisco Video Surveillance Media Server", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "7.7", 
+          "7.8", 
+          "7.9(0.99)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Video Surveillance Manager"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc08657", 
+      "product": "Cisco Videoscape Control Suite", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "4.0"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Conductor"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc08556", 
+      "product": "Cisco WebEx Messenger Service", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "7.22.0"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco WebEx Connect IM"
+      }
+    }
+  ]
+}
