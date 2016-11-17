@@ -1,5 +1,5 @@
 {
-  "version": "1.1", 
+  "version": "1.2", 
   "products": [
     {
       "bug_id": "CSCvc08554", 
@@ -82,21 +82,6 @@
       "bug_data": null
     }, 
     {
-      "bug_id": "CSCvc08786", 
-      "product": "Cisco Jabber Client Framework (JCF) Components", 
-      "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "11.7(0)", 
-          "11.8(0)", 
-          "12.0(0)"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Jabber for Windows"
-      }
-    }, 
-    {
       "bug_id": "CSCvc08781", 
       "product": "Cisco Jabber Software Development Kit", 
       "fix": [], 
@@ -116,6 +101,21 @@
       "product": "Cisco Jabber for Android", 
       "fix": [], 
       "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvc08779", 
+      "product": "Cisco Jabber for Mac", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.7(0)", 
+          "11.8(0)", 
+          "12.0(0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Jabber for Mac"
+      }
     }, 
     {
       "bug_id": "CSCvc08559", 
@@ -145,9 +145,15 @@
           "Android-9.7"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Other", 
         "product_name": "Cisco WebEx Meeting Center"
       }
+    }, 
+    {
+      "bug_id": "CSCvc08552", 
+      "product": "Cisco WebEx Meetings for Windows Phone 8", 
+      "fix": [], 
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCvc08663", 
@@ -157,7 +163,7 @@
     }, 
     {
       "bug_id": "CSCvc08678", 
-      "product": "Cisco ASA Next-Generation Firewall Services", 
+      "product": "Cisco Cisco Firepower9300", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
@@ -228,20 +234,7 @@
           "7.3(0)ZN(0.99)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco 1000 Series Connected Grid Routers"
-      }
-    }, 
-    {
-      "bug_id": "CSCvc08744", 
-      "product": "Cisco Connected Grid Routers", 
-      "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "15.6(1.6)"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Terminated", 
         "product_name": "Cisco 1000 Series Connected Grid Routers"
       }
     }, 
@@ -282,7 +275,7 @@
       }
     }, 
     {
-      "bug_id": "CSCvc08530", 
+      "bug_id": "CSCvc08529", 
       "product": "Cisco Computer Telephony Integration Object Server (CTIOS)", 
       "fix": [], 
       "bug_data": null
@@ -300,7 +293,7 @@
       "bug_data": null
     }, 
     {
-      "bug_id": "CSCvc08530", 
+      "bug_id": "CSCvc08529", 
       "product": "Cisco Unified Contact Center Enterprise", 
       "fix": [], 
       "bug_data": null
@@ -324,7 +317,7 @@
       "bug_data": null
     }, 
     {
-      "bug_id": "CSCvc08530", 
+      "bug_id": "CSCvc08529", 
       "product": "Cisco Unified Intelligent Contact Management Enterprise", 
       "fix": [], 
       "bug_data": null
@@ -355,6 +348,19 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco Edge 300 Series Digital Media Player"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc08629", 
+      "product": "Cisco TelePresence Conductor", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "XC4.3"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco TelePresence Conductor"
       }
     }, 
     {
