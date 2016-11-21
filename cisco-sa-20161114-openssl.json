@@ -1,5 +1,5 @@
 {
-  "version": "1.3", 
+  "version": "1.4", 
   "products": [
     {
       "bug_id": "CSCvc08554", 
@@ -76,6 +76,12 @@
       }
     }, 
     {
+      "bug_id": "CSCvc08557", 
+      "product": "Cisco WebEx Business Suite", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCvc08559", 
       "product": "Cisco WebEx Meetings Server - Multimedia Platform (MMP)", 
       "fix": [], 
@@ -101,6 +107,25 @@
       "bug_data": null
     }, 
     {
+      "bug_id": "CSCvc08680", 
+      "product": "Cisco Wide Area Application Services (WAAS)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "6.2(3)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Wide Area Application Services (WAAS) Appliances"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc08670", 
+      "product": "Cisco Adaptive Security Appliance (ASA)", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCvc08678", 
       "product": "Cisco Cisco Firepower9300", 
       "fix": [], 
@@ -112,6 +137,12 @@
         "status": "Open", 
         "product_name": "Cisco Firepower 9000 Series"
       }
+    }, 
+    {
+      "bug_id": "CSCvc08542", 
+      "product": "Cisco Content Security Appliance Update Servers", 
+      "fix": [], 
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCvc08539", 
@@ -178,6 +209,12 @@
       "bug_data": null
     }, 
     {
+      "bug_id": "CSCvc08570", 
+      "product": "Cisco Application Policy Infrastructure Controller (APIC)", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCvc08565", 
       "product": "Cisco Connected Grid Routers - Running Cisco CG-OS Software", 
       "fix": [], 
@@ -189,6 +226,12 @@
         "status": "Terminated", 
         "product_name": "Cisco 1000 Series Connected Grid Routers"
       }
+    }, 
+    {
+      "bug_id": "CSCvc08628", 
+      "product": "Cisco IOS XR Software", 
+      "fix": [], 
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCvc08742", 
@@ -233,6 +276,133 @@
       "bug_data": null
     }, 
     {
+      "bug_id": "CSCvc08749", 
+      "product": "Cisco Unified Attendant Console Advanced", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "10.0(1)", 
+          "10.5", 
+          "10.5(2)", 
+          "10.6(1)", 
+          "11.0(1)", 
+          "8.6", 
+          "9.0", 
+          "9.1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Unified Attendant Consoles"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc08749", 
+      "product": "Cisco Unified Attendant Console Business Edition", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "10.0(1)", 
+          "10.5", 
+          "10.5(2)", 
+          "10.6(1)", 
+          "11.0(1)", 
+          "8.6", 
+          "9.0", 
+          "9.1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Unified Attendant Consoles"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc08749", 
+      "product": "Cisco Unified Attendant Console Department Edition", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "10.0(1)", 
+          "10.5", 
+          "10.5(2)", 
+          "10.6(1)", 
+          "11.0(1)", 
+          "8.6", 
+          "9.0", 
+          "9.1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Unified Attendant Consoles"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc08749", 
+      "product": "Cisco Unified Attendant Console Enterprise Edition", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "10.0(1)", 
+          "10.5", 
+          "10.5(2)", 
+          "10.6(1)", 
+          "11.0(1)", 
+          "8.6", 
+          "9.0", 
+          "9.1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Unified Attendant Consoles"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc08749", 
+      "product": "Cisco Unified Attendant Console Premium Edition", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "10.0(1)", 
+          "10.5", 
+          "10.5(2)", 
+          "10.6(1)", 
+          "11.0(1)", 
+          "8.6", 
+          "9.0", 
+          "9.1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Unified Attendant Consoles"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc08750", 
+      "product": "Cisco Unified Attendant Console Standard", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "10.0", 
+          "10.0(1)", 
+          "10.5", 
+          "10.5(2)", 
+          "10.6(0)", 
+          "10.6(1)", 
+          "10.6(2)", 
+          "11.0(1)", 
+          "11.0(2)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Unified Attendant Consoles"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc08769", 
+      "product": "Cisco Unified Communications Manager IM &amp; Presence Service (formerly CUPS)", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCvc08756", 
       "product": "Cisco Unified Communications Manager Session Management Edition", 
       "fix": [], 
@@ -247,6 +417,12 @@
     {
       "bug_id": "CSCvc08529", 
       "product": "Cisco Unified Contact Center Enterprise", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvc08794", 
+      "product": "Cisco Unified IP 8831 Conference Phone", 
       "fix": [], 
       "bug_data": null
     }, 
@@ -271,6 +447,12 @@
     {
       "bug_id": "CSCvc08529", 
       "product": "Cisco Unified Intelligent Contact Management Enterprise", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvc08759", 
+      "product": "Cisco Unity Connection", 
       "fix": [], 
       "bug_data": null
     }, 
