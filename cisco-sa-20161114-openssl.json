@@ -1,5 +1,5 @@
 {
-  "version": "1.4", 
+  "version": "1.7", 
   "products": [
     {
       "bug_id": "CSCvc08554", 
@@ -28,15 +28,11 @@
       }
     }, 
     {
-      "bug_id": "CSCvc08544", 
-      "product": "Cisco WebEx Node for MCS", 
-      "fix": [], 
-      "bug_data": null
-    }, 
-    {
       "bug_id": "CSCvc08715", 
       "product": "Cisco Agent for OpenFlow", 
-      "fix": [], 
+      "fix": [
+        "No fix is expected"
+      ], 
       "bug_data": null
     }, 
     {
@@ -57,8 +53,18 @@
     {
       "bug_id": "CSCvc08820", 
       "product": "Cisco Jabber for Android", 
-      "fix": [], 
-      "bug_data": null
+      "fix": [
+        "No fix is expected"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "11.7(1)", 
+          "11.8(0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco Unified Mobile Communicator"
+      }
     }, 
     {
       "bug_id": "CSCvc08779", 
@@ -78,13 +84,17 @@
     {
       "bug_id": "CSCvc08557", 
       "product": "Cisco WebEx Business Suite", 
-      "fix": [], 
+      "fix": [
+        "No fix is expected"
+      ], 
       "bug_data": null
     }, 
     {
       "bug_id": "CSCvc08559", 
       "product": "Cisco WebEx Meetings Server - Multimedia Platform (MMP)", 
-      "fix": [], 
+      "fix": [
+        "No fix is expected"
+      ], 
       "bug_data": null
     }, 
     {
@@ -103,13 +113,17 @@
     {
       "bug_id": "CSCvc08663", 
       "product": "Cisco 1000 Series Connected Grid Routers", 
-      "fix": [], 
+      "fix": [
+        "15.6.3 (11-DEC-2016)"
+      ], 
       "bug_data": null
     }, 
     {
       "bug_id": "CSCvc08680", 
       "product": "Cisco Wide Area Application Services (WAAS)", 
-      "fix": [], 
+      "fix": [
+        "6.4.1 (17-APR-2017)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "6.2(3)"
@@ -120,23 +134,10 @@
       }
     }, 
     {
-      "bug_id": "CSCvc08670", 
-      "product": "Cisco Adaptive Security Appliance (ASA)", 
-      "fix": [], 
-      "bug_data": null
-    }, 
-    {
       "bug_id": "CSCvc08678", 
       "product": "Cisco Cisco Firepower9300", 
       "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "r211"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Firepower 9000 Series"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCvc08542", 
@@ -147,7 +148,9 @@
     {
       "bug_id": "CSCvc08539", 
       "product": "Cisco FireSIGHT System Software", 
-      "fix": [], 
+      "fix": [
+        "No fix is expected"
+      ], 
       "bug_data": null
     }, 
     {
@@ -180,33 +183,35 @@
     {
       "bug_id": "CSCvc08612", 
       "product": "Cisco Prime IP Express", 
-      "fix": [], 
+      "fix": [
+        "No fix is expected"
+      ], 
       "bug_data": null
     }, 
     {
       "bug_id": "CSCvc08607", 
       "product": "Cisco Prime Network Registrar", 
-      "fix": [], 
+      "fix": [
+        "No fix is expected"
+      ], 
       "bug_data": null
     }, 
     {
       "bug_id": "CSCvc08623", 
       "product": "Cisco Security Manager", 
-      "fix": [], 
+      "fix": [
+        "4.11 (20-JAN-2017)", 
+        "4.12 (30-DEC-2016)", 
+        "4.13 (24-FEB-2017)"
+      ], 
       "bug_data": {
         "affected_releases": [
-          "4.13(0.83)"
+          "4.12(0.238)"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco Security Manager"
       }
-    }, 
-    {
-      "bug_id": "CSCvc08499", 
-      "product": "Cisco ASR 5000 Series", 
-      "fix": [], 
-      "bug_data": null
     }, 
     {
       "bug_id": "CSCvc08570", 
@@ -217,7 +222,9 @@
     {
       "bug_id": "CSCvc08565", 
       "product": "Cisco Connected Grid Routers - Running Cisco CG-OS Software", 
-      "fix": [], 
+      "fix": [
+        "15.6.3 (11-DEC-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "7.3(0)ZN(0.99)"
@@ -234,19 +241,6 @@
       "bug_data": null
     }, 
     {
-      "bug_id": "CSCvc08742", 
-      "product": "Cisco IOS and Cisco IOS XE Software", 
-      "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "Everest-16.5.1"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco IOS"
-      }
-    }, 
-    {
       "bug_id": "CSCvc08571", 
       "product": "Cisco Nexus 9000 Series Fabric Switches - ACI mode", 
       "fix": [], 
@@ -255,7 +249,9 @@
     {
       "bug_id": "CSCvc08689", 
       "product": "Cisco ONS 15454 Series Multiservice Provisioning Platforms", 
-      "fix": [], 
+      "fix": [
+        "10.62 (APR-2017)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "10.52", 
@@ -270,10 +266,32 @@
       }
     }, 
     {
+      "bug_id": "CSCvc08567", 
+      "product": "Cisco UCS Director", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "6.0(0.0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco UCS Director"
+      }
+    }, 
+    {
       "bug_id": "CSCvc08529", 
       "product": "Cisco Computer Telephony Integration Object Server (CTIOS)", 
-      "fix": [], 
-      "bug_data": null
+      "fix": [
+        "No fix is expected"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "11.6(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco Unified Contact Center Enterprise"
+      }
     }, 
     {
       "bug_id": "CSCvc08749", 
@@ -399,32 +417,25 @@
     {
       "bug_id": "CSCvc08769", 
       "product": "Cisco Unified Communications Manager IM &amp; Presence Service (formerly CUPS)", 
-      "fix": [], 
-      "bug_data": null
-    }, 
-    {
-      "bug_id": "CSCvc08756", 
-      "product": "Cisco Unified Communications Manager Session Management Edition", 
-      "fix": [], 
-      "bug_data": null
-    }, 
-    {
-      "bug_id": "CSCvc08756", 
-      "product": "Cisco Unified Communications Manager", 
-      "fix": [], 
+      "fix": [
+        "No fix is expected"
+      ], 
       "bug_data": null
     }, 
     {
       "bug_id": "CSCvc08529", 
       "product": "Cisco Unified Contact Center Enterprise", 
-      "fix": [], 
-      "bug_data": null
-    }, 
-    {
-      "bug_id": "CSCvc08794", 
-      "product": "Cisco Unified IP 8831 Conference Phone", 
-      "fix": [], 
-      "bug_data": null
+      "fix": [
+        "No fix is expected"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "11.6(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco Unified Contact Center Enterprise"
+      }
     }, 
     {
       "bug_id": "CSCvc08770", 
@@ -447,14 +458,58 @@
     {
       "bug_id": "CSCvc08529", 
       "product": "Cisco Unified Intelligent Contact Management Enterprise", 
+      "fix": [
+        "No fix is expected"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "11.6(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco Unified Contact Center Enterprise"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc08828", 
+      "product": "Cisco Unified Workforce Optimization - Quality Management Solution", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "11.5(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco Unified Workforce Optimization"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc08830", 
+      "product": "Cisco Unified Workforce Optimization", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.5(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco Unified Workforce Optimization"
+      }
     }, 
     {
       "bug_id": "CSCvc08759", 
       "product": "Cisco Unity Connection", 
-      "fix": [], 
-      "bug_data": null
+      "fix": [
+        "No fix is expected"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "12.0"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco Unity Connection"
+      }
     }, 
     {
       "bug_id": "CSCvc08826", 
@@ -474,7 +529,9 @@
     {
       "bug_id": "CSCvc08726", 
       "product": "Cisco Edge 300 Digital Media Player", 
-      "fix": [], 
+      "fix": [
+        "1.6RB6 (11-DEC-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "1.6RB4(4)"
@@ -501,40 +558,19 @@
       "bug_id": "CSCvc08648", 
       "product": "Cisco TelePresence MX Series", 
       "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "9.0.x"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Telepresence Integrator C Series"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCvc08648", 
       "product": "Cisco TelePresence Profile Series", 
       "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "9.0.x"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Telepresence Integrator C Series"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCvc08648", 
       "product": "Cisco TelePresence SX Series", 
       "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "9.0.x"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Telepresence Integrator C Series"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCvc08651", 
@@ -592,27 +628,13 @@
       "bug_id": "CSCvc08648", 
       "product": "Cisco TelePresence System EX Series", 
       "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "9.0.x"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Telepresence Integrator C Series"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCvc08648", 
       "product": "Cisco Telepresence Integrator C Series", 
       "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "9.0.x"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Telepresence Integrator C Series"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCvc08697", 
