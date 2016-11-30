@@ -1,0 +1,616 @@
+{
+  "version": "1.1", 
+  "products": [
+    {
+      "bug_id": "CSCvc23456", 
+      "product": "Cisco WebEx Node for MCS", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.0"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco WebEx Meeting Center"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc23580", 
+      "product": "Cisco Jabber Guest", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.0(0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Jabber Guest"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc23530", 
+      "product": "Cisco Application and Content Networking System (ACNS)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "5.5(41)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Enterprise CDN Software"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc23525", 
+      "product": "Cisco Visual Quality Experience Server", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "3.11(6)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Content Delivery Engine Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc23525", 
+      "product": "Cisco Visual Quality Experience Tools Server", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "3.11(6)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Content Delivery Engine Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc23536", 
+      "product": "Cisco Wide Area Application Services (WAAS)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "6.3(1)"
+        ], 
+        "fixed_releases": [
+          "6.3(0.118)"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco Wide Area Application Services (WAAS) Appliances"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc23452", 
+      "product": "Cisco Content Security Appliance Update Servers", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvc23475", 
+      "product": "Cisco Virtual Security Gateway for Microsoft Hyper-V", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "5.2(1)SV3(2.5)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Nexus 1000V Switch for VMware vSphere"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc23458", 
+      "product": "Cisco Application Networking Manager", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvc23464", 
+      "product": "Cisco Prime Data Center Network Manager", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "10.1(1.51)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Data Center Network Manager"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc23485", 
+      "product": "Cisco Prime Infrastructure Plug and Play Standalone Gateway", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Network Level Service"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc23513", 
+      "product": "Cisco Prime Service Catalog Virtual Appliance", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.1.1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Prime Service Catalog"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc23477", 
+      "product": "Cisco UCS Central Software", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "1.5(1a)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco UCS Central Software"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc23447", 
+      "product": "Cisco Unified Communications Deployment Tools", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvc23465", 
+      "product": "Cisco Application Policy Infrastructure Controller (APIC)", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvc23460", 
+      "product": "Cisco Connected Grid Routers", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "7.3(0)ZN(0.99)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco 1000 Series Connected Grid Routers"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc23468", 
+      "product": "Cisco MDS 9000 Series Multilayer Switches", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "8.0(0.7)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Nexus 7000 Series Switches"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc23471", 
+      "product": "Cisco Nexus 1000V Series Switches", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "5.2(1)SV3(2.5)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Nexus 1000V Switch for VMware vSphere"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc23468", 
+      "product": "Cisco Nexus 3000 Series Switches", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "8.0(0.7)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Nexus 7000 Series Switches"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc23468", 
+      "product": "Cisco Nexus 5000 Series Switches", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "8.0(0.7)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Nexus 7000 Series Switches"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc23468", 
+      "product": "Cisco Nexus 6000 Series Switches", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "8.0(0.7)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Nexus 7000 Series Switches"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc23468", 
+      "product": "Cisco Nexus 7000 Series Switches", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "8.0(0.7)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Nexus 7000 Series Switches"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc23468", 
+      "product": "Cisco Nexus 9000 Series Switches", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "8.0(0.7)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Nexus 7000 Series Switches"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc23570", 
+      "product": "Cisco Service Control Operating System", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "12.4(5.2)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco SCE 8000 Series Service Control Engine"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc23558", 
+      "product": "Cisco DPH150 Series MicroCells", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "10.0"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco 3G Femtocell"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc23463", 
+      "product": "Cisco UCS Director", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "6.0(0.0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco UCS Director"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc23478", 
+      "product": "Cisco UCS Standalone C-Series Rack Server - Integrated Management Controller", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.0(13e)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Computing System"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc23561", 
+      "product": "Cisco 3G Femtocell  Wireless", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "SR10_MR2"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco 3G Femtocell"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc23575", 
+      "product": "Cisco Emergency Responder", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "12.0(0.98000.17)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Emergency Responder"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc23578", 
+      "product": "Cisco Hosted Collaboration Mediation Fulfillment", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "10.6(3)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Hosted Collaboration Solution (HCS)"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc23579", 
+      "product": "Cisco Paging Server (InformaCast)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.5(2)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Paging Server"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc23579", 
+      "product": "Cisco Paging Server", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.5(2)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Paging Server"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc23572", 
+      "product": "Cisco Unified Communications Manager Session Management Edition", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "12.0(0.99000.9)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Communications Manager (CallManager)"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc23572", 
+      "product": "Cisco Unified Communications Manager", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "12.0(0.99000.9)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Communications Manager (CallManager)"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc23437", 
+      "product": "Cisco Unified SIP Proxy Software", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "9.1(4)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified SIP Proxy Software"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc23435", 
+      "product": "Cisco Unity Express", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "8.6(12)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unity Express"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc23519", 
+      "product": "Cisco Cloud Object Storage", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "3.9(106)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Content Delivery Engine Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc23481", 
+      "product": "Cisco DCM Series D990x Digital Content Manager", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "19.0.0"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Digital Content Manager (DCM) Software"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc23507", 
+      "product": "Cisco Digital Media Manager", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "5.5", 
+          "5.6", 
+          "5.6.1", 
+          "5.6.2"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Digital Media Manager"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc23555", 
+      "product": "Cisco Edge 300 Digital Media Player", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "1.6RB4(3)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Edge 300 Series Digital Media Player"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc23556", 
+      "product": "Cisco Edge 340 Digital Media Player", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "1.2RB(1)", 
+          "1.2RB1(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco E340 Series Digital Media Player"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc23503", 
+      "product": "Cisco Enterprise Content Delivery System (ECDS)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.6"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Content Delivery Engine Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc23512", 
+      "product": "Cisco Expressway Series", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "X8.9RC1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco TelePresence Video Communication Server (VCS)"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc23512", 
+      "product": "Cisco TelePresence Video Communication Server (VCS)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "X8.9RC1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco TelePresence Video Communication Server (VCS)"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc23524", 
+      "product": "Cisco Video Distribution Suite for Internet Streaming (VDS-IS/CDS-IS)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "3.3(1)", 
+          "4.3(2)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Content Delivery Engine Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc23522", 
+      "product": "Cisco Videoscape Distribution Suite Video Recording", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvc23444", 
+      "product": "Cisco Prime Network Change and Configuration Management", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvc23445", 
+      "product": "Cisco Proactive Network Operations Center", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvc23532", 
+      "product": "Cisco Smart Care", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "1.16(4.0)IT1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Smart Care Service"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc23562", 
+      "product": "Cisco Universal Small Cell 5000 Series - Running Release 3.4.2.x", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvc23562", 
+      "product": "Cisco Universal Small Cell 7000 Series - Running Release 3.4.2.x", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvc23454", 
+      "product": "Cisco WebEx Messenger Service", 
+      "fix": [], 
+      "bug_data": null
+    }
+  ]
+}
