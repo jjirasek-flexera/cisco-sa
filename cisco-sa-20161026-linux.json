@@ -1,5 +1,5 @@
 {
-  "version": "1.4", 
+  "version": "1.5", 
   "products": [
     {
       "bug_id": "CSCvb85516", 
@@ -11,6 +11,9 @@
       ], 
       "bug_data": {
         "affected_releases": [
+          "2.0MR9", 
+          "2.5MR6", 
+          "2.6", 
           "2.7"
         ], 
         "fixed_releases": [], 
@@ -28,6 +31,9 @@
       ], 
       "bug_data": {
         "affected_releases": [
+          "2.0MR9", 
+          "2.5MR6", 
+          "2.6", 
           "2.7"
         ], 
         "fixed_releases": [], 
@@ -62,7 +68,9 @@
     {
       "bug_id": "CSCvb85616", 
       "product": "Cisco Visual Quality Experience Server", 
-      "fix": [], 
+      "fix": [
+        "Affected versions have been updated"
+      ], 
       "bug_data": {
         "affected_releases": [
           "3.11(5)"
@@ -78,7 +86,9 @@
     {
       "bug_id": "CSCvb85616", 
       "product": "Cisco Visual Quality Experience Tools Server", 
-      "fix": [], 
+      "fix": [
+        "Affected versions have been updated"
+      ], 
       "bug_data": {
         "affected_releases": [
           "3.11(5)"
@@ -92,10 +102,24 @@
       }
     }, 
     {
+      "bug_id": "CSCvb96355", 
+      "product": "Cisco Policy Suite", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.1.0", 
+          "12.0.0"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Policy Suite for Mobile"
+      }
+    }, 
+    {
       "bug_id": "CSCvb85559", 
       "product": "Cisco Prime Access Registrar", 
       "fix": [
-        "7.2.1 (Dec. 2016)"
+        "7.2.1 (Dec 2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -137,8 +161,12 @@
         "affected_releases": [
           "10.1(1)S5"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "10.1(1.44)S0", 
+          "10.1(1.45)S0", 
+          "10.1(1.47)S0"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco Data Center Network Manager"
       }
     }, 
@@ -151,7 +179,7 @@
           "11.1.1"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Prime Service Catalog"
       }
     }, 
@@ -168,7 +196,7 @@
           "3.4"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Videoscape Distribution Suite Service Manager"
       }
     }, 
@@ -182,7 +210,9 @@
         "affected_releases": [
           "2.2(0.166b)"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "2.2(0.206a)"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Application Policy Infrastructure Controller (APIC)"
       }
@@ -203,6 +233,19 @@
       }
     }, 
     {
+      "bug_id": "CSCvb94748", 
+      "product": "Cisco MITG RHEL OS", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "15.0"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco ASR 5000 Series"
+      }
+    }, 
+    {
       "bug_id": "CSCvb85531", 
       "product": "Cisco Nexus 9000 Series Fabric Switches - ACI mode", 
       "fix": [], 
@@ -210,8 +253,10 @@
         "affected_releases": [
           "12.1(1h)"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "12.2(0.93)"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco LAN Switch Software"
       }
     }, 
@@ -234,7 +279,7 @@
       "bug_id": "CSCvb85633", 
       "product": "Cisco onePK All-in-One Virtual Machine", 
       "fix": [
-        "No fix is expected. Use Update Manager Tool in Ubuntu to keep software up to date."
+        "No fix is expected, use the Update Manager Tool in Ubuntu to keep the software up to date"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -253,7 +298,7 @@
       "bug_id": "CSCvb85487", 
       "product": "Cisco Common Services Platform Collector", 
       "fix": [
-        "Fix is currently available."
+        "Fix is currently available"
       ], 
       "bug_data": null
     }, 
@@ -283,7 +328,7 @@
           "9.4(2)SR3"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Terminated", 
         "product_name": "Cisco Unified IP Phone 6900 Series"
       }
     }, 
@@ -486,7 +531,7 @@
           "1.6RB4(4)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Edge 300 Series Digital Media Player"
       }
     }, 
@@ -502,7 +547,7 @@
           "1.2RB(1.1)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco E340 Series Digital Media Player"
       }
     }, 
@@ -541,7 +586,9 @@
     {
       "bug_id": "CSCvb85610", 
       "product": "Cisco VDS Recorder", 
-      "fix": [], 
+      "fix": [
+        "4.6.0 (31-Mar-2017)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "999.999"
@@ -558,7 +605,9 @@
     {
       "bug_id": "CSCvb85610", 
       "product": "Cisco VDS-TV Caching Nodes", 
-      "fix": [], 
+      "fix": [
+        "4.6.0 (31-Mar-2017)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "999.999"
@@ -575,7 +624,9 @@
     {
       "bug_id": "CSCvb85610", 
       "product": "Cisco VDS-TV Streamer", 
-      "fix": [], 
+      "fix": [
+        "4.6.0 (31-Mar-2017)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "999.999"
@@ -592,7 +643,9 @@
     {
       "bug_id": "CSCvb85610", 
       "product": "Cisco VDS-TV Vault", 
-      "fix": [], 
+      "fix": [
+        "4.6.0 (31-Mar-2017)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "999.999"
@@ -620,8 +673,21 @@
           "7.9"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Video Surveillance Manager"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb85679", 
+      "product": "Cisco Videoscape Distribution Suite Transparent Caching", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "5.7.3"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco Videoscape Distribution Suite Transparent Caching"
       }
     }, 
     {
@@ -640,6 +706,21 @@
       }
     }, 
     {
+      "bug_id": "CSCvb85564", 
+      "product": "Cisco Mobility Services Engine", 
+      "fix": [
+        "8.0.150.0 (31-Dec-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "8.0(140.0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Mobility Services Engine"
+      }
+    }, 
+    {
       "bug_id": "CSCvb85490", 
       "product": "Cisco Prime Network Change and Configuration Management", 
       "fix": [], 
@@ -647,7 +728,7 @@
     }, 
     {
       "bug_id": "CSCvb89698", 
-      "product": "Cisco Smart Net Total Care - OnPrem", 
+      "product": "Cisco Smart Net Total Care - On-Premises", 
       "fix": [
         "1.1.1 (14-Nov-2016)"
       ], 
