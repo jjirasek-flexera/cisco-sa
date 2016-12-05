@@ -1,10 +1,12 @@
 {
-  "version": "1.7", 
+  "version": "1.8", 
   "products": [
     {
       "bug_id": "CSCvc08554", 
       "product": "Cisco WebEx Meetings Server Release 1.x", 
-      "fix": [], 
+      "fix": [
+        "No fix is expected"
+      ], 
       "bug_data": {
         "affected_releases": [
           "2.7"
@@ -17,7 +19,9 @@
     {
       "bug_id": "CSCvc08554", 
       "product": "Cisco WebEx Meetings Server Release 2.x", 
-      "fix": [], 
+      "fix": [
+        "No fix is expected"
+      ], 
       "bug_data": {
         "affected_releases": [
           "2.7"
@@ -38,7 +42,9 @@
     {
       "bug_id": "CSCvc08781", 
       "product": "Cisco Jabber Software Development Kit", 
-      "fix": [], 
+      "fix": [
+        "No fixes available"
+      ], 
       "bug_data": {
         "affected_releases": [
           "11.7(0)", 
@@ -69,7 +75,9 @@
     {
       "bug_id": "CSCvc08779", 
       "product": "Cisco Jabber for Mac", 
-      "fix": [], 
+      "fix": [
+        "No fixes available"
+      ], 
       "bug_data": {
         "affected_releases": [
           "11.7(0)", 
@@ -100,7 +108,9 @@
     {
       "bug_id": "CSCvc08555", 
       "product": "Cisco WebEx Meetings Server - SSL gateway", 
-      "fix": [], 
+      "fix": [
+        "No fix is expected"
+      ], 
       "bug_data": {
         "affected_releases": [
           "2.7"
@@ -142,7 +152,9 @@
     {
       "bug_id": "CSCvc08542", 
       "product": "Cisco Content Security Appliance Update Servers", 
-      "fix": [], 
+      "fix": [
+        "No fixes available"
+      ], 
       "bug_data": null
     }, 
     {
@@ -156,7 +168,9 @@
     {
       "bug_id": "CSCvc08619", 
       "product": "Cisco NetFlow Generation Appliance", 
-      "fix": [], 
+      "fix": [
+        "No fixes available"
+      ], 
       "bug_data": {
         "affected_releases": [
           "1.1(1)"
@@ -217,7 +231,14 @@
       "bug_id": "CSCvc08570", 
       "product": "Cisco Application Policy Infrastructure Controller (APIC)", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "2.0(2l)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco Application Policy Infrastructure Controller (APIC)"
+      }
     }, 
     {
       "bug_id": "CSCvc08565", 
@@ -237,14 +258,25 @@
     {
       "bug_id": "CSCvc08628", 
       "product": "Cisco IOS XR Software", 
-      "fix": [], 
+      "fix": [
+        "No fix is expected"
+      ], 
       "bug_data": null
     }, 
     {
       "bug_id": "CSCvc08571", 
       "product": "Cisco Nexus 9000 Series Fabric Switches - ACI mode", 
-      "fix": [], 
-      "bug_data": null
+      "fix": [
+        "No fix is expected"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "12.0(2k)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco LAN Switch Software"
+      }
     }, 
     {
       "bug_id": "CSCvc08689", 
@@ -268,7 +300,10 @@
     {
       "bug_id": "CSCvc08567", 
       "product": "Cisco UCS Director", 
-      "fix": [], 
+      "fix": [
+        "6.1 (14-DEC-2016)", 
+        "6.5 (17-MAR-2017)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "6.0(0.0)"
@@ -296,7 +331,9 @@
     {
       "bug_id": "CSCvc08749", 
       "product": "Cisco Unified Attendant Console Advanced", 
-      "fix": [], 
+      "fix": [
+        "Affected systems have been updated"
+      ], 
       "bug_data": {
         "affected_releases": [
           "10.0(1)", 
@@ -316,7 +353,9 @@
     {
       "bug_id": "CSCvc08749", 
       "product": "Cisco Unified Attendant Console Business Edition", 
-      "fix": [], 
+      "fix": [
+        "Affected systems have been updated"
+      ], 
       "bug_data": {
         "affected_releases": [
           "10.0(1)", 
@@ -336,7 +375,9 @@
     {
       "bug_id": "CSCvc08749", 
       "product": "Cisco Unified Attendant Console Department Edition", 
-      "fix": [], 
+      "fix": [
+        "Affected systems have been updated"
+      ], 
       "bug_data": {
         "affected_releases": [
           "10.0(1)", 
@@ -356,7 +397,9 @@
     {
       "bug_id": "CSCvc08749", 
       "product": "Cisco Unified Attendant Console Enterprise Edition", 
-      "fix": [], 
+      "fix": [
+        "Affected systems have been updated"
+      ], 
       "bug_data": {
         "affected_releases": [
           "10.0(1)", 
@@ -376,7 +419,9 @@
     {
       "bug_id": "CSCvc08749", 
       "product": "Cisco Unified Attendant Console Premium Edition", 
-      "fix": [], 
+      "fix": [
+        "Affected systems have been updated"
+      ], 
       "bug_data": {
         "affected_releases": [
           "10.0(1)", 
@@ -396,7 +441,9 @@
     {
       "bug_id": "CSCvc08750", 
       "product": "Cisco Unified Attendant Console Standard", 
-      "fix": [], 
+      "fix": [
+        "12.0(1) (AUG-2017)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "10.0", 
@@ -473,7 +520,9 @@
     {
       "bug_id": "CSCvc08828", 
       "product": "Cisco Unified Workforce Optimization - Quality Management Solution", 
-      "fix": [], 
+      "fix": [
+        "No fix is expected"
+      ], 
       "bug_data": {
         "affected_releases": [
           "11.5(1)"
@@ -486,7 +535,9 @@
     {
       "bug_id": "CSCvc08830", 
       "product": "Cisco Unified Workforce Optimization", 
-      "fix": [], 
+      "fix": [
+        "No fix is expected"
+      ], 
       "bug_data": {
         "affected_releases": [
           "11.5(1)"
@@ -514,7 +565,9 @@
     {
       "bug_id": "CSCvc08826", 
       "product": "Cisco Virtualization Experience Media Edition", 
-      "fix": [], 
+      "fix": [
+        "No fixes available"
+      ], 
       "bug_data": {
         "affected_releases": [
           "11.7(0)", 
@@ -544,7 +597,9 @@
     {
       "bug_id": "CSCvc08629", 
       "product": "Cisco TelePresence Conductor", 
-      "fix": [], 
+      "fix": [
+        "3.4.1 (DEC-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "XC4.3"
@@ -557,89 +612,84 @@
     {
       "bug_id": "CSCvc08648", 
       "product": "Cisco TelePresence MX Series", 
-      "fix": [], 
-      "bug_data": null
+      "fix": [
+        "No fix is expected"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "9.0.x"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco Telepresence Integrator C Series"
+      }
     }, 
     {
       "bug_id": "CSCvc08648", 
       "product": "Cisco TelePresence Profile Series", 
-      "fix": [], 
-      "bug_data": null
+      "fix": [
+        "No fix is expected"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "9.0.x"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco Telepresence Integrator C Series"
+      }
     }, 
     {
       "bug_id": "CSCvc08648", 
       "product": "Cisco TelePresence SX Series", 
-      "fix": [], 
-      "bug_data": null
-    }, 
-    {
-      "bug_id": "CSCvc08651", 
-      "product": "Cisco TelePresence Server 7010 and MSE 8710", 
-      "fix": [], 
+      "fix": [
+        "No fix is expected"
+      ], 
       "bug_data": {
         "affected_releases": [
-          "4.2(3.75)"
+          "9.0.x"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco TelePresence Server"
-      }
-    }, 
-    {
-      "bug_id": "CSCvc08651", 
-      "product": "Cisco TelePresence Server on Multiparty Media 310 and 320", 
-      "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "4.2(3.75)"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco TelePresence Server"
-      }
-    }, 
-    {
-      "bug_id": "CSCvc08651", 
-      "product": "Cisco TelePresence Server on Multiparty Media 820", 
-      "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "4.2(3.75)"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco TelePresence Server"
-      }
-    }, 
-    {
-      "bug_id": "CSCvc08651", 
-      "product": "Cisco TelePresence Server on Virtual Machine", 
-      "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "4.2(3.75)"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco TelePresence Server"
+        "status": "Terminated", 
+        "product_name": "Cisco Telepresence Integrator C Series"
       }
     }, 
     {
       "bug_id": "CSCvc08648", 
       "product": "Cisco TelePresence System EX Series", 
-      "fix": [], 
-      "bug_data": null
+      "fix": [
+        "No fix is expected"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "9.0.x"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco Telepresence Integrator C Series"
+      }
     }, 
     {
       "bug_id": "CSCvc08648", 
       "product": "Cisco Telepresence Integrator C Series", 
-      "fix": [], 
-      "bug_data": null
+      "fix": [
+        "No fix is expected"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "9.0.x"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco Telepresence Integrator C Series"
+      }
     }, 
     {
       "bug_id": "CSCvc08697", 
       "product": "Cisco Video Surveillance Media Server", 
-      "fix": [], 
+      "fix": [
+        "No fixes available"
+      ], 
       "bug_data": {
         "affected_releases": [
           "7.7", 
@@ -667,7 +717,9 @@
     {
       "bug_id": "CSCvc08556", 
       "product": "Cisco WebEx Messenger Service", 
-      "fix": [], 
+      "fix": [
+        "No fixes available"
+      ], 
       "bug_data": {
         "affected_releases": [
           "7.22.0"
