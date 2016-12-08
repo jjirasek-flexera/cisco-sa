@@ -1,5 +1,5 @@
 {
-  "version": "1.5", 
+  "version": "1.6", 
   "products": [
     {
       "bug_id": "CSCvb85516", 
@@ -69,7 +69,7 @@
       "bug_id": "CSCvb85616", 
       "product": "Cisco Visual Quality Experience Server", 
       "fix": [
-        "Affected versions have been updated"
+        "Affected versions have been updated."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -87,7 +87,7 @@
       "bug_id": "CSCvb85616", 
       "product": "Cisco Visual Quality Experience Tools Server", 
       "fix": [
-        "Affected versions have been updated"
+        "Affected versions have been updated."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -119,16 +119,9 @@
       "bug_id": "CSCvb85559", 
       "product": "Cisco Prime Access Registrar", 
       "fix": [
-        "7.2.1 (Dec 2016)"
+        "7.2.1 (Dec. 2016)"
       ], 
-      "bug_data": {
-        "affected_releases": [
-          "7.2"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Access Registrar"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCvb85571", 
@@ -279,7 +272,7 @@
       "bug_id": "CSCvb85633", 
       "product": "Cisco onePK All-in-One Virtual Machine", 
       "fix": [
-        "No fix is expected, use the Update Manager Tool in Ubuntu to keep the software up to date"
+        "No fix is expected. Use Update Manager Tool in Ubuntu to keep software up to date."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -298,7 +291,7 @@
       "bug_id": "CSCvb85487", 
       "product": "Cisco Common Services Platform Collector", 
       "fix": [
-        "Fix is currently available"
+        "Fix is currently available."
       ], 
       "bug_data": null
     }, 
@@ -728,7 +721,7 @@
     }, 
     {
       "bug_id": "CSCvb89698", 
-      "product": "Cisco Smart Net Total Care - On-Premises", 
+      "product": "Cisco Smart Net Total Care - OnPrem", 
       "fix": [
         "1.1.1 (14-Nov-2016)"
       ], 
