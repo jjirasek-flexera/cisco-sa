@@ -1,10 +1,12 @@
 {
-  "version": "1.2", 
+  "version": "1.3", 
   "products": [
     {
       "bug_id": "CSCvc32449", 
       "product": "Cisco SocialMiner", 
-      "fix": [], 
+      "fix": [
+        "11.6.1 (15-Jun-2017)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "11.5(1)"
@@ -59,7 +61,8 @@
       "bug_id": "CSCvc23530", 
       "product": "Cisco Application and Content Networking System (ACNS)", 
       "fix": [
-        "No further releases planned, contact Cisco TAC for upgrade information"
+        "No further releases planned", 
+        "contact TAC for upgrade instructions."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -121,12 +124,25 @@
       "bug_id": "CSCvc23451", 
       "product": "Cisco FireSIGHT System Software", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "5.4.0", 
+          "5.4.1", 
+          "6.0.0", 
+          "6.0.1", 
+          "6.1.0"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Firepower Management Center"
+      }
     }, 
     {
       "bug_id": "CSCvc23545", 
       "product": "Cisco Identity Services Engine (ISE)", 
-      "fix": [], 
+      "fix": [
+        "2.2 (21-Dec-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "2.1(0.474)", 
@@ -135,6 +151,20 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco Identity Services Engine (ISE) 3300 Series Appliances"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc23550", 
+      "product": "Cisco Secure Access Control System (ACS)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "5.7(0.15)", 
+          "5.8(0.32)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Secure Access Control Server Solution Engine"
       }
     }, 
     {
@@ -155,8 +185,17 @@
     {
       "bug_id": "CSCvc23458", 
       "product": "Cisco Application Networking Manager", 
-      "fix": [], 
-      "bug_data": null
+      "fix": [
+        "No fixed release planned."
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "5.2(0.1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco Application Networking Manager"
+      }
     }, 
     {
       "bug_id": "CSCvc23493", 
@@ -185,15 +224,25 @@
       }
     }, 
     {
-      "bug_id": "CSCvc23490", 
-      "product": "Cisco Prime Collaboration Assurance", 
+      "bug_id": "CSCvc45288", 
+      "product": "Cisco Policy Suite", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "11.0.0", 
+          "11.1.0"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Policy Suite for Mobile"
+      }
     }, 
     {
       "bug_id": "CSCvc23489", 
       "product": "Cisco Prime Collaboration Provisioning", 
-      "fix": [], 
+      "fix": [
+        "12.1 (23-Feb-2017)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "11.6"
@@ -220,7 +269,8 @@
       "bug_id": "CSCvc23485", 
       "product": "Cisco Prime Infrastructure Plug and Play Standalone Gateway", 
       "fix": [
-        "No further releases planned, contact Cisco TAC for upgrade information"
+        "No further releases planned", 
+        "contact TAC for upgrade information."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -230,6 +280,25 @@
         "status": "Terminated", 
         "product_name": "Network Level Service"
       }
+    }, 
+    {
+      "bug_id": "CSCvc23487", 
+      "product": "Cisco Prime Infrastructure", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "3.1(200)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Network Level Service"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc23482", 
+      "product": "Cisco Prime LAN Management Solution - Solaris", 
+      "fix": [], 
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCvc23506", 
@@ -242,19 +311,6 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco Unified Communications Licensing"
-      }
-    }, 
-    {
-      "bug_id": "CSCvc23483", 
-      "product": "Cisco Prime Network Registrar Virtual Appliance", 
-      "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "9.0"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Network Registrar"
       }
     }, 
     {
@@ -295,45 +351,72 @@
       "bug_id": "CSCvc32447", 
       "product": "Cisco Unified Intelligence Center", 
       "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvc23491", 
+      "product": "Cisco Virtual Topology System (formerly Cisco Virtual Systems Operations Center)", 
+      "fix": [], 
       "bug_data": {
         "affected_releases": [
-          "11.5(1)"
+          "2.3(0)", 
+          "2.4(0)", 
+          "2.4(1)", 
+          "2.4(2)"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
-        "product_name": "Cisco Unified Intelligence Center"
+        "product_name": "Cisco Virtual Topology System"
       }
     }, 
     {
       "bug_id": "CSCvc23465", 
       "product": "Cisco Application Policy Infrastructure Controller (APIC)", 
-      "fix": [], 
-      "bug_data": null
+      "fix": [
+        "2.2(2) (30-Apr-2017)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "2.2(0.243a)"
+        ], 
+        "fixed_releases": [
+          "2.2(1.46a)", 
+          "2.2(1.47a)", 
+          "2.2(1.48)"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco Application Policy Infrastructure Controller (APIC)"
+      }
     }, 
     {
       "bug_id": "CSCvc23527", 
       "product": "Cisco Connected Grid Routers", 
-      "fix": [], 
+      "fix": [
+        "15.6(3)M2 (23-Jan-2017)"
+      ], 
       "bug_data": null
     }, 
     {
-      "bug_id": "CSCvc23496", 
-      "product": "Cisco IOS XR Software for Cisco Network Convergence System 6000 Series Routers", 
+      "bug_id": "CSCvc23494", 
+      "product": "Cisco IOS XR Software", 
       "fix": [], 
-      "bug_data": null
-    }, 
-    {
-      "bug_id": "CSCvc23496", 
-      "product": "Cisco IOS XR Software for Network Convergence System 4000 Series Routers", 
-      "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "6.2.0.BASE"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco Carrier Routing System"
+      }
     }, 
     {
       "bug_id": "CSCvc23569", 
       "product": "Cisco IOS and Cisco IOS XE Software", 
       "fix": [], 
       "bug_data": {
-        "affected_releases": [], 
+        "affected_releases": [
+          "15.2(4)M"
+        ], 
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco IOS"
@@ -345,10 +428,15 @@
       "fix": [], 
       "bug_data": {
         "affected_releases": [
+          "6.2(19)", 
+          "7.0(3)I5(2)", 
           "8.0(0.7)"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "7.0(3)I5(1.109)", 
+          "7.0(3)I5(2)"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco Nexus 7000 Series Switches"
       }
     }, 
@@ -373,10 +461,15 @@
       "fix": [], 
       "bug_data": {
         "affected_releases": [
+          "6.2(19)", 
+          "7.0(3)I5(2)", 
           "8.0(0.7)"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "7.0(3)I5(1.109)", 
+          "7.0(3)I5(2)"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco Nexus 7000 Series Switches"
       }
     }, 
@@ -384,7 +477,14 @@
       "bug_id": "CSCvc23472", 
       "product": "Cisco Nexus 3000 Series Switches", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "6.0(2)U8(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Nexus 3000 Series Switches"
+      }
     }, 
     {
       "bug_id": "CSCvc23468", 
@@ -392,10 +492,15 @@
       "fix": [], 
       "bug_data": {
         "affected_releases": [
+          "6.2(19)", 
+          "7.0(3)I5(2)", 
           "8.0(0.7)"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "7.0(3)I5(1.109)", 
+          "7.0(3)I5(2)"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco Nexus 7000 Series Switches"
       }
     }, 
@@ -405,10 +510,15 @@
       "fix": [], 
       "bug_data": {
         "affected_releases": [
+          "6.2(19)", 
+          "7.0(3)I5(2)", 
           "8.0(0.7)"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "7.0(3)I5(1.109)", 
+          "7.0(3)I5(2)"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco Nexus 7000 Series Switches"
       }
     }, 
@@ -418,10 +528,15 @@
       "fix": [], 
       "bug_data": {
         "affected_releases": [
+          "6.2(19)", 
+          "7.0(3)I5(2)", 
           "8.0(0.7)"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "7.0(3)I5(1.109)", 
+          "7.0(3)I5(2)"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco Nexus 7000 Series Switches"
       }
     }, 
@@ -431,10 +546,15 @@
       "fix": [], 
       "bug_data": {
         "affected_releases": [
+          "6.2(19)", 
+          "7.0(3)I5(2)", 
           "8.0(0.7)"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "7.0(3)I5(1.109)", 
+          "7.0(3)I5(2)"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco Nexus 7000 Series Switches"
       }
     }, 
@@ -442,14 +562,7 @@
       "bug_id": "CSCvc23570", 
       "product": "Cisco Service Control Operating System", 
       "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "12.4(5.2)"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco SCE 8000 Series Service Control Engine"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCvc23471", 
@@ -469,13 +582,17 @@
     {
       "bug_id": "CSCvc23558", 
       "product": "Cisco DPH150 Series MicroCells", 
-      "fix": [], 
+      "fix": [
+        "SR10 MR2 (Available)", 
+        "5.2 (Available)", 
+        "5.2 HF1 (Available)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "10.0"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco 3G Femtocell"
       }
     }, 
@@ -488,7 +605,9 @@
     {
       "bug_id": "CSCvc23476", 
       "product": "Cisco UCS 6200 Series Fabric Interconnects", 
-      "fix": [], 
+      "fix": [
+        "3.1.3 (27-Mar-2017)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "3.1(2c)A"
@@ -514,7 +633,9 @@
     {
       "bug_id": "CSCvc23476", 
       "product": "Cisco UCS Manager", 
-      "fix": [], 
+      "fix": [
+        "3.1.3 (27-Mar-2017)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "3.1(2c)A"
@@ -533,14 +654,18 @@
           "2.0(13e)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Computing System"
       }
     }, 
     {
       "bug_id": "CSCvc23561", 
       "product": "Cisco 3G Femtocell  Wireless", 
-      "fix": [], 
+      "fix": [
+        "SR10 MR2 (Available)", 
+        "5.2 (Available)", 
+        "5.2 HF1 (Available)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "SR10_MR2"
@@ -553,7 +678,9 @@
     {
       "bug_id": "CSCvc23575", 
       "product": "Cisco Emergency Responder", 
-      "fix": [], 
+      "fix": [
+        "12.0 (August 2017)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "12.0(0.98000.17)"
@@ -594,7 +721,9 @@
     {
       "bug_id": "CSCvc23517", 
       "product": "Cisco IP Interoperability and Collaboration System (IPICS)", 
-      "fix": [], 
+      "fix": [
+        "5.0(2) (15-Apr-2017)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "4.10(2)"
@@ -607,14 +736,16 @@
     {
       "bug_id": "CSCvc23565", 
       "product": "Cisco Management Heartbeat Server", 
-      "fix": [], 
+      "fix": [
+        "5.2 HF1 (31-Mar-2017)", 
+        "SR10 MR2 (31-Mar-2017)"
+      ], 
       "bug_data": {
         "affected_releases": [
-          "5.2.0", 
-          "SR10.0.0"
+          "5.2.0"
         ], 
         "fixed_releases": [], 
-        "status": "Fixed", 
+        "status": "Open", 
         "product_name": "Cisco Universal Small Cell RAN Management System"
       }
     }, 
@@ -677,15 +808,32 @@
       }
     }, 
     {
+      "bug_id": "CSCvc22942", 
+      "product": "Cisco Unified Communications Domain Manager 10.x", 
+      "fix": [
+        "No fixed release planned."
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "11.5(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco Hosted Collaboration Solution (HCS)"
+      }
+    }, 
+    {
       "bug_id": "CSCvc23585", 
-      "product": "Cisco Unified Communications Domain Manager", 
-      "fix": [], 
+      "product": "Cisco Unified Communications Domain Manager 8.x", 
+      "fix": [
+        "No fixed release planned."
+      ], 
       "bug_data": {
         "affected_releases": [
           "8.1(9)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Terminated", 
         "product_name": "Cisco Hosted Collaboration Solution (HCS)"
       }
     }, 
@@ -695,11 +843,11 @@
       "fix": [], 
       "bug_data": {
         "affected_releases": [
-          "12.0(1)"
+          "12.0(0.99000.9)"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
-        "product_name": "Cisco Unified Communications Manager IM & Presence Service"
+        "product_name": "Cisco Unified Communications Manager (CallManager)"
       }
     }, 
     {
@@ -798,7 +946,9 @@
     {
       "bug_id": "CSCvc23554", 
       "product": "Cisco 910 Industrial Router", 
-      "fix": [], 
+      "fix": [
+        "1.2.1RB4 (Available)"
+      ], 
       "bug_data": null
     }, 
     {
@@ -833,18 +983,19 @@
       }
     }, 
     {
-      "bug_id": "CSCvc23507", 
+      "bug_id": "CSCvc23502", 
       "product": "Cisco Digital Media Manager", 
-      "fix": [], 
+      "fix": [
+        "No fixes planned", 
+        "contact Cisco TAC for upgrade information."
+      ], 
       "bug_data": {
         "affected_releases": [
-          "5.5", 
-          "5.6", 
-          "5.6.1", 
-          "5.6.2"
+          "5.3.6", 
+          "5.4.1"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Terminated", 
         "product_name": "Cisco Digital Media Manager"
       }
     }, 
@@ -904,8 +1055,10 @@
         "affected_releases": [
           "X8.9RC1"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "X8.9.1"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco TelePresence Video Communication Server (VCS)"
       }
     }, 
@@ -920,6 +1073,22 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco MXE 3000 Series (Media Experience Engines)"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc23508", 
+      "product": "Cisco Show and Share", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "5.5", 
+          "5.6", 
+          "5.6.1", 
+          "5.6.2"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco Digital Media Manager"
       }
     }, 
     {
@@ -938,7 +1107,9 @@
     {
       "bug_id": "CSCvc23504", 
       "product": "Cisco TelePresence ISDN Link", 
-      "fix": [], 
+      "fix": [
+        "1.1.7 (June 2017)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "1.1.5"
@@ -1010,8 +1181,10 @@
         "affected_releases": [
           "X8.9RC1"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "X8.9.1"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco TelePresence Video Communication Server (VCS)"
       }
     }, 
@@ -1040,14 +1213,16 @@
           "4.3(2)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Content Delivery Engine Series"
       }
     }, 
     {
       "bug_id": "CSCvc23543", 
       "product": "Cisco Video Surveillance Media Server", 
-      "fix": [], 
+      "fix": [
+        "7.10 (30-Mar-2017)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "7.7", 
@@ -1062,7 +1237,27 @@
       "bug_id": "CSCvc23522", 
       "product": "Cisco Videoscape Distribution Suite Video Recording", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "4.1(3)ES1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Content Delivery Engine Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc28961", 
+      "product": "Cisco Mobility Services Engine", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "80.0(130.0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Mobility Services Engine"
+      }
     }, 
     {
       "bug_id": "CSCvc23548", 
@@ -1117,6 +1312,24 @@
       }
     }, 
     {
+      "bug_id": "CSCvc23499", 
+      "product": "Cisco Cloud Services", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvc23567", 
+      "product": "Cisco Network Health Framework", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvc23568", 
+      "product": "Cisco Network Performance Analysis", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCvc23444", 
       "product": "Cisco Prime Network Change and Configuration Management", 
       "fix": [], 
@@ -1126,9 +1339,17 @@
       "bug_id": "CSCvc23445", 
       "product": "Cisco Proactive Network Operations Center", 
       "fix": [
-        "No fixes planned, contact Cisco TAC for upgrade information"
+        "No fixes planned", 
+        "contact Cisco TAC for upgrade information."
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "SM3.0"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Network Level Service"
+      }
     }, 
     {
       "bug_id": "CSCvc23448", 
@@ -1155,7 +1376,8 @@
       "bug_id": "CSCvc23532", 
       "product": "Cisco Smart Care", 
       "fix": [
-        "No further releases planned, contact Cisco TAC for upgrade information"
+        "No further releases planned", 
+        "contact TAC for upgrade instructions."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1182,7 +1404,9 @@
     {
       "bug_id": "CSCvc23562", 
       "product": "Cisco Universal Small Cell 5000 Series - Running Release 3.4.2.x", 
-      "fix": [], 
+      "fix": [
+        "3.5.12.23 (31-Jan-2017)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "BV3.5.12.21"
@@ -1195,7 +1419,9 @@
     {
       "bug_id": "CSCvc23562", 
       "product": "Cisco Universal Small Cell 7000 Series - Running Release 3.4.2.x", 
-      "fix": [], 
+      "fix": [
+        "3.5.12.23 (31-Jan-2017)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "BV3.5.12.21"
