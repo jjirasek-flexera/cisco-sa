@@ -1,5 +1,5 @@
 {
-  "version": "1.8", 
+  "version": "1.9", 
   "products": [
     {
       "bug_id": "CSCvc08554", 
@@ -144,12 +144,6 @@
       }
     }, 
     {
-      "bug_id": "CSCvc08678", 
-      "product": "Cisco Cisco Firepower9300", 
-      "fix": [], 
-      "bug_data": null
-    }, 
-    {
       "bug_id": "CSCvc08542", 
       "product": "Cisco Content Security Appliance Update Servers", 
       "fix": [
@@ -166,33 +160,35 @@
       "bug_data": null
     }, 
     {
+      "bug_id": "CSCvc08700", 
+      "product": "Cisco Identity Services Engine (ISE)", 
+      "fix": [
+        "No fixes available."
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "2.2(0.199)", 
+          "2.2(0.381)", 
+          "2.2(0.401)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Identity Services Engine (ISE) 3300 Series Appliances"
+      }
+    }, 
+    {
       "bug_id": "CSCvc08619", 
       "product": "Cisco NetFlow Generation Appliance", 
       "fix": [
         "No fixes available"
       ], 
-      "bug_data": {
-        "affected_releases": [
-          "1.1(1)"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco NetFlow Generation 3000 Series Appliances"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCvc08614", 
       "product": "Cisco Network Analysis Module", 
       "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "6.2(1b)", 
-          "6.2(2)"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Prime Network Analysis Module Software"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCvc08612", 
@@ -267,7 +263,7 @@
       "bug_id": "CSCvc08571", 
       "product": "Cisco Nexus 9000 Series Fabric Switches - ACI mode", 
       "fix": [
-        "No fix is expected"
+        "No fix is expected."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -329,10 +325,25 @@
       }
     }, 
     {
+      "bug_id": "CSCvc10784", 
+      "product": "Cisco UC Integration for Microsoft Lync", 
+      "fix": [
+        "No fixes available"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "11.6(0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco UC Integration(TM) for Microsoft Lync"
+      }
+    }, 
+    {
       "bug_id": "CSCvc08749", 
       "product": "Cisco Unified Attendant Console Advanced", 
       "fix": [
-        "Affected systems have been updated"
+        "Affected systems have been updated."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -354,7 +365,7 @@
       "bug_id": "CSCvc08749", 
       "product": "Cisco Unified Attendant Console Business Edition", 
       "fix": [
-        "Affected systems have been updated"
+        "Affected systems have been updated."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -376,7 +387,7 @@
       "bug_id": "CSCvc08749", 
       "product": "Cisco Unified Attendant Console Department Edition", 
       "fix": [
-        "Affected systems have been updated"
+        "Affected systems have been updated."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -398,7 +409,7 @@
       "bug_id": "CSCvc08749", 
       "product": "Cisco Unified Attendant Console Enterprise Edition", 
       "fix": [
-        "Affected systems have been updated"
+        "Affected systems have been updated."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -420,7 +431,7 @@
       "bug_id": "CSCvc08749", 
       "product": "Cisco Unified Attendant Console Premium Edition", 
       "fix": [
-        "Affected systems have been updated"
+        "Affected systems have been updated."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -590,7 +601,7 @@
           "1.6RB4(4)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Edge 300 Series Digital Media Player"
       }
     }, 
@@ -704,15 +715,16 @@
     {
       "bug_id": "CSCvc08657", 
       "product": "Cisco Videoscape Control Suite", 
+      "fix": [
+        "No fixes available."
+      ], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvc08627", 
+      "product": "Cisco Wireless LAN Controller", 
       "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "4.0"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Conductor"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCvc08556", 
@@ -725,7 +737,7 @@
           "7.22.0"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco WebEx Connect IM"
       }
     }
