@@ -1,5 +1,5 @@
 {
-  "version": "1.16", 
+  "version": "1.17", 
   "products": [
     {
       "bug_id": "CSCuy74702", 
@@ -75,18 +75,7 @@
       "fix": [
         "Affected systems have been updated."
       ], 
-      "bug_data": {
-        "affected_releases": [
-          "T29", 
-          "T29EP1", 
-          "T30", 
-          "T31SP1", 
-          "T31SP2"
-        ], 
-        "fixed_releases": [], 
-        "status": "Fixed", 
-        "product_name": "Cisco WebEx Meetings"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCuy36549", 
@@ -131,7 +120,9 @@
         ], 
         "fixed_releases": [
           "3.10(5.31)", 
-          "3.11(1.11)"
+          "3.11(1.11)", 
+          "3.11(4.2)", 
+          "3.11(5.3)"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco Content Delivery Engine Series"
@@ -150,7 +141,9 @@
         ], 
         "fixed_releases": [
           "3.10(5.31)", 
-          "3.11(1.11)"
+          "3.11(1.11)", 
+          "3.11(4.2)", 
+          "3.11(5.3)"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco Content Delivery Engine Series"
@@ -176,7 +169,10 @@
         ], 
         "fixed_releases": [
           "5.3.0.8", 
-          "5.3.1.7"
+          "5.3.1.7", 
+          "5.4.0.7", 
+          "5.4.1.6", 
+          "6.1.0"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco Firepower Management Center"
@@ -202,7 +198,10 @@
         ], 
         "fixed_releases": [
           "5.3.0.8", 
-          "5.3.1.7"
+          "5.3.1.7", 
+          "5.4.0.7", 
+          "5.4.1.6", 
+          "6.1.0"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco Firepower Management Center"
@@ -242,7 +241,7 @@
           "1.5(3.0.3.6)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Terminated", 
         "product_name": "Cisco Physical Access Manager"
       }
     }, 
@@ -298,7 +297,7 @@
         ], 
         "fixed_releases": [], 
         "status": "Fixed", 
-        "product_name": "Cisco Policy Suite for Mobile"
+        "product_name": "Cisco Mobility Services Engine"
       }
     }, 
     {
@@ -328,7 +327,7 @@
         ], 
         "fixed_releases": [], 
         "status": "Fixed", 
-        "product_name": "Cisco Connected Streaming Analytics"
+        "product_name": "None"
       }
     }, 
     {
@@ -406,7 +405,9 @@
         "affected_releases": [
           "11.5.0.98000-183"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "10.5(2.12010.2)"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Unified Communications Licensing"
       }
@@ -426,7 +427,8 @@
         "fixed_releases": [
           "8.1(3.4)", 
           "8.2(4)", 
-          "8.3(4)"
+          "8.3(4)", 
+          "9.0"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco Network Registrar"
@@ -442,7 +444,9 @@
         "affected_releases": [
           "8.1(3)"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "8.3"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Prime Network Registrar"
       }
@@ -459,7 +463,7 @@
           "9.8(0.4)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Prime Optical"
       }
     }, 
@@ -474,7 +478,7 @@
           "11.1.1"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Terminated", 
         "product_name": "Cisco Prime Service Catalog"
       }
     }, 
@@ -522,8 +526,17 @@
           "19.0.0", 
           "19.3.3", 
           "19.3.v0", 
+          "19.3.v6", 
+          "19.4.0", 
           "20.0.0", 
-          "20.1.0"
+          "20.0.v0", 
+          "20.1.0", 
+          "20.1.a0", 
+          "20.1.v0", 
+          "20.2.v0", 
+          "21.0.0", 
+          "21.0.v0", 
+          "21.1.0"
         ], 
         "fixed_releases": [
           "18.3.6", 
@@ -540,8 +553,12 @@
           "19.3.3.63601", 
           "19.3.V0.63260", 
           "19.3.VS0.63262", 
+          "19.3.a0.65615", 
           "19.3.v0", 
           "19.3.v0.63724", 
+          "19.3.v6", 
+          "19.3.v6.65552", 
+          "19.4.0", 
           "19.4.0.64251", 
           "19.4.A0.63268", 
           "19.4.A0.63480", 
@@ -560,6 +577,7 @@
           "20.0.V0.63476", 
           "20.0.VG0.63323", 
           "20.0.VG0.63508", 
+          "20.0.v0", 
           "20.0.v0.64175", 
           "20.0.vg0.63522", 
           "20.1.0", 
@@ -574,17 +592,35 @@
           "20.1.V0.64231", 
           "20.1.VA0.64194", 
           "20.1.VB0.64210", 
+          "20.1.a0", 
           "20.1.a0.64023", 
+          "20.1.v0", 
+          "20.1.v0.64607", 
           "20.2.A0.63265", 
           "20.2.A0.63327", 
           "20.2.A0.63349", 
           "20.2.A0.63491", 
           "20.2.A0.63681", 
+          "20.2.v0", 
+          "20.2.v0.65063", 
+          "21.0.0", 
+          "21.0.0.65256", 
           "21.0.M0.63272", 
           "21.0.M0.63331", 
           "21.0.M0.63342", 
           "21.0.M0.63506", 
           "21.0.M0.63695", 
+          "21.0.VC0.64648", 
+          "21.0.v0", 
+          "21.0.v0.65831", 
+          "21.0.vb0.65887", 
+          "21.1.0", 
+          "21.1.0.66030", 
+          "21.1.M0.65639", 
+          "21.1.PP0.65733", 
+          "21.1.R0.65664", 
+          "21.1.b0.66164", 
+          "21.2.A0.65712", 
           "P2P_2.0", 
           "P2P_2.0.643"
         ], 
@@ -603,7 +639,8 @@
           "7.3(0)ZN(0.239)"
         ], 
         "fixed_releases": [
-          "15.6(2.10)T"
+          "15.6(2.10)T", 
+          "15.6(3)M"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco 1000 Series Connected Grid Routers"
@@ -629,7 +666,12 @@
           "15.2(3)E", 
           "15.2(4)E"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "15.2(2)E5", 
+          "15.2(3)E4", 
+          "15.2(4)E2", 
+          "15.2(5)E"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco IOS"
       }
@@ -644,7 +686,9 @@
         "affected_releases": [
           "7.3(0)IZN(0.9)"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "3.1(1)"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Intercloud Fabric"
       }
@@ -739,6 +783,8 @@
           "7.0(3)IDP3(1.131)"
         ], 
         "fixed_releases": [
+          "7.0(3)F1(1)", 
+          "7.0(3)F1(1.22)", 
           "7.0(3)I2(2b)", 
           "7.0(3)I2(3)", 
           "7.0(3)I3(2)", 
@@ -789,6 +835,8 @@
           "7.0(3)IDP3(1.131)"
         ], 
         "fixed_releases": [
+          "7.0(3)F1(1)", 
+          "7.0(3)F1(1.22)", 
           "7.0(3)I2(2b)", 
           "7.0(3)I2(3)", 
           "7.0(3)I3(2)", 
@@ -839,6 +887,8 @@
           "7.0(3)IDP3(1.131)"
         ], 
         "fixed_releases": [
+          "7.0(3)F1(1)", 
+          "7.0(3)F1(1.22)", 
           "7.0(3)I2(2b)", 
           "7.0(3)I2(3)", 
           "7.0(3)I3(2)", 
@@ -864,6 +914,8 @@
           "7.0(3)IDP3(1.131)"
         ], 
         "fixed_releases": [
+          "7.0(3)F1(1)", 
+          "7.0(3)F1(1.22)", 
           "7.0(3)I2(2b)", 
           "7.0(3)I2(3)", 
           "7.0(3)I3(2)", 
@@ -888,7 +940,7 @@
           "11.3(0.226)"
         ], 
         "status": "Fixed", 
-        "product_name": "Cisco Nexus 9000 Series Switches"
+        "product_name": "Cisco LAN Switch Software"
       }
     }, 
     {
@@ -906,6 +958,8 @@
           "7.0(3)IDP3(1.131)"
         ], 
         "fixed_releases": [
+          "7.0(3)F1(1)", 
+          "7.0(3)F1(1.22)", 
           "7.0(3)I2(2b)", 
           "7.0(3)I2(3)", 
           "7.0(3)I3(2)", 
@@ -937,10 +991,11 @@
           "2.0(0.222)", 
           "2.0(1.6)", 
           "2.1(0.26)", 
-          "2.2(0.39)"
+          "2.2(1.7)", 
+          "2.3(0.39)"
         ], 
         "status": "Fixed", 
-        "product_name": "Cisco Nexus 9000 Series Switches"
+        "product_name": "Cisco Application Policy Infrastructure Controller (APIC)"
       }
     }, 
     {
@@ -1001,7 +1056,7 @@
           "5.0(1.2c)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Terminated", 
         "product_name": "Cisco UCS Invicta Series Solid State Systems"
       }
     }, 
@@ -1087,7 +1142,9 @@
         "affected_releases": [
           "11.5(1)"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "10.5(2.24900.8)"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Unified Communications Manager IM & Presence Service"
       }
@@ -1119,7 +1176,9 @@
         "affected_releases": [
           "11.0(5)"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "11.5(1)"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Paging Server"
       }
@@ -1134,7 +1193,9 @@
         "affected_releases": [
           "11.0(5)"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "11.5(1)"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Paging Server"
       }
@@ -1187,6 +1248,7 @@
         ], 
         "fixed_releases": [
           "10.5(2.14062.1)", 
+          "10.5(2.14900.16)", 
           "11.0(1.22035.1)", 
           "11.0(1.22900.14)", 
           "11.0(1.22900.3)", 
@@ -1194,6 +1256,7 @@
           "11.5(0.98000.268)", 
           "11.5(0.98000.591)", 
           "11.5(0.98000.829)", 
+          "11.5(1.10000.4)", 
           "11.5(1.10000.6)"
         ], 
         "status": "Fixed", 
@@ -1211,6 +1274,7 @@
         ], 
         "fixed_releases": [
           "10.5(2.14062.1)", 
+          "10.5(2.14900.16)", 
           "11.0(1.22035.1)", 
           "11.0(1.22900.14)", 
           "11.0(1.22900.3)", 
@@ -1218,6 +1282,7 @@
           "11.5(0.98000.268)", 
           "11.5(0.98000.591)", 
           "11.5(0.98000.829)", 
+          "11.5(1.10000.4)", 
           "11.5(1.10000.6)"
         ], 
         "status": "Fixed", 
@@ -1239,7 +1304,7 @@
           "9.3(5)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Small Business IP Phones"
       }
     }, 
@@ -1269,9 +1334,9 @@
           "all_versions"
         ], 
         "fixed_releases": [
-          "18.10.0"
+          "19.0.0"
         ], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Digital Content Manager (DCM) Software"
       }
     }, 
@@ -1283,6 +1348,7 @@
       ], 
       "bug_data": {
         "affected_releases": [
+          "1.6", 
           "1.6RB4(2)"
         ], 
         "fixed_releases": [], 
@@ -1358,25 +1424,7 @@
       "fix": [
         "4.3 (March 2016)"
       ], 
-      "bug_data": {
-        "affected_releases": [
-          "3.1(1.82)", 
-          "3.1(1.96)", 
-          "3.1(1.98)", 
-          "4.0(1.57)", 
-          "4.0(2.8)", 
-          "4.1(1.79)", 
-          "4.1(1.85)", 
-          "4.1(2.29)", 
-          "4.1(2.33)", 
-          "4.2Release"
-        ], 
-        "fixed_releases": [
-          "4.3(1.13)"
-        ], 
-        "status": "Fixed", 
-        "product_name": "Cisco TelePresence Server"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCuy35268", 
@@ -1384,25 +1432,7 @@
       "fix": [
         "4.3 (March 2016)"
       ], 
-      "bug_data": {
-        "affected_releases": [
-          "3.1(1.82)", 
-          "3.1(1.96)", 
-          "3.1(1.98)", 
-          "4.0(1.57)", 
-          "4.0(2.8)", 
-          "4.1(1.79)", 
-          "4.1(1.85)", 
-          "4.1(2.29)", 
-          "4.1(2.33)", 
-          "4.2Release"
-        ], 
-        "fixed_releases": [
-          "4.3(1.13)"
-        ], 
-        "status": "Fixed", 
-        "product_name": "Cisco TelePresence Server"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCuy35268", 
@@ -1410,25 +1440,7 @@
       "fix": [
         "4.3 (March 2016)"
       ], 
-      "bug_data": {
-        "affected_releases": [
-          "3.1(1.82)", 
-          "3.1(1.96)", 
-          "3.1(1.98)", 
-          "4.0(1.57)", 
-          "4.0(2.8)", 
-          "4.1(1.79)", 
-          "4.1(1.85)", 
-          "4.1(2.29)", 
-          "4.1(2.33)", 
-          "4.2Release"
-        ], 
-        "fixed_releases": [
-          "4.3(1.13)"
-        ], 
-        "status": "Fixed", 
-        "product_name": "Cisco TelePresence Server"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCuy35269", 
@@ -1516,9 +1528,12 @@
         ], 
         "fixed_releases": [
           "ccdms-04.3(0.1)", 
+          "cos-03.11(0.1)", 
+          "cos-03.13(0.10)", 
           "cos-03.5(2.103)", 
           "cos-03.5(2.107)", 
-          "cos-03.7(0.206)"
+          "cos-03.7(0.206)", 
+          "cos-03.9(0.1)"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco Content Delivery Engine Series"
@@ -1551,12 +1566,8 @@
         "affected_releases": [
           "8.1(131.0)"
         ], 
-        "fixed_releases": [
-          "8.2(102.112)", 
-          "8.2(110.0)", 
-          "8.3(15.140)"
-        ], 
-        "status": "Fixed", 
+        "fixed_releases": [], 
+        "status": "Terminated", 
         "product_name": "Cisco 5500 Series Wireless Controllers"
       }
     }, 
@@ -1570,12 +1581,8 @@
         "affected_releases": [
           "8.1(131.0)"
         ], 
-        "fixed_releases": [
-          "8.2(102.112)", 
-          "8.2(110.0)", 
-          "8.3(15.140)"
-        ], 
-        "status": "Fixed", 
+        "fixed_releases": [], 
+        "status": "Terminated", 
         "product_name": "Cisco 5500 Series Wireless Controllers"
       }
     }, 
@@ -1589,12 +1596,8 @@
         "affected_releases": [
           "8.1(131.0)"
         ], 
-        "fixed_releases": [
-          "8.2(102.112)", 
-          "8.2(110.0)", 
-          "8.3(15.140)"
-        ], 
-        "status": "Fixed", 
+        "fixed_releases": [], 
+        "status": "Terminated", 
         "product_name": "Cisco 5500 Series Wireless Controllers"
       }
     }, 
@@ -1620,7 +1623,7 @@
           "5.2(0)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Cloud Web Security"
       }
     }, 
@@ -1658,7 +1661,7 @@
           "1.0_beta"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Terminated", 
         "product_name": "Cisco UCS Invicta Series Solid State Systems"
       }
     }, 
@@ -1674,7 +1677,7 @@
           "7.16.1"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco WebEx Connect IM"
       }
     }, 
