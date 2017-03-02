@@ -1,5 +1,5 @@
 {
-  "version": "2.0", 
+  "version": "2.1", 
   "products": [
     {
       "bug_id": "CSCvc94595", 
@@ -12,7 +12,9 @@
           "2.8", 
           "3.0"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "2.8"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco WebEx Meetings Server"
       }
@@ -28,7 +30,9 @@
           "2.8", 
           "3.0"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "2.8"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco WebEx Meetings Server"
       }
@@ -79,12 +83,12 @@
     {
       "bug_id": "CSCvc94597", 
       "product": "Cisco WebEx Business Suite", 
-      "fix": [], 
+      "fix": [
+        "NBR 3.6.0 (30-March-2017)"
+      ], 
       "bug_data": {
         "affected_releases": [
-          "T29", 
-          "T30", 
-          "T31"
+          "NBR3.5.0"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
@@ -123,6 +127,21 @@
       }
     }, 
     {
+      "bug_id": "CSCvc96092", 
+      "product": "Cisco WebEx Meetings Server - Multimedia Platform (MMP)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "T29", 
+          "T30", 
+          "T31"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco WebEx Meetings"
+      }
+    }, 
+    {
       "bug_id": "CSCvc94591", 
       "product": "Cisco Content Security Appliance Update Servers", 
       "fix": [
@@ -149,7 +168,8 @@
       "fix": [], 
       "bug_data": {
         "affected_releases": [
-          "ESALUCENE-000"
+          "10.0.1-000", 
+          "11.0.0-000"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
@@ -202,6 +222,19 @@
       }
     }, 
     {
+      "bug_id": "CSCvc96095", 
+      "product": "Cisco Application Policy Infrastructure Controller (APIC)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.2(1n)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Application Policy Infrastructure Controller (APIC)"
+      }
+    }, 
+    {
       "bug_id": "CSCvc94716", 
       "product": "Cisco MATE Collector", 
       "fix": [], 
@@ -243,7 +276,10 @@
     {
       "bug_id": "CSCvc94643", 
       "product": "Cisco NetFlow Generation Appliance", 
-      "fix": [], 
+      "fix": [
+        "1.1.1 (13-April-2017)", 
+        "1.1.1a (13-April-2017)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "1.1(1)", 
@@ -257,7 +293,10 @@
     {
       "bug_id": "CSCvc94637", 
       "product": "Cisco Network Analysis Module", 
-      "fix": [], 
+      "fix": [
+        "6.2.1 (13-April-2017)", 
+        "6.2.2 (13-April-2017)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "6.2(1)"
@@ -285,7 +324,9 @@
     {
       "bug_id": "CSCvc96099", 
       "product": "Cisco Prime Collaboration Assurance", 
-      "fix": [], 
+      "fix": [
+        "Fix Already Available in PCA 11.6"
+      ], 
       "bug_data": {
         "affected_releases": [
           "11.0", 
@@ -319,7 +360,9 @@
         "affected_releases": [
           "10.1(1.129)"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "10.1(1.158)S0"
+        ], 
         "status": "Open", 
         "product_name": "Cisco Data Center Network Manager"
       }
@@ -479,9 +522,16 @@
       "bug_id": "CSCvc94729", 
       "product": "Cisco IOS and Cisco IOS XE Software", 
       "fix": [
-        "16.6 (15-Feb-2017)"
+        "16.4"
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "16.5"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco IOS"
+      }
     }, 
     {
       "bug_id": "CSCvc94605", 
@@ -563,14 +613,7 @@
       "fix": [
         "7.3 (02-May-2017)"
       ], 
-      "bug_data": {
-        "affected_releases": [
-          "7.3(1)N1(0.6)"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Nexus 5000 Series Switches"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCvc94606", 
@@ -776,6 +819,76 @@
       }
     }, 
     {
+      "bug_id": "CSCvc94735", 
+      "product": "Cisco Unified Attendant Console Advanced", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.0(1)", 
+          "11.5(1.7)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Attendant Consoles"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc94735", 
+      "product": "Cisco Unified Attendant Console Business Edition", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.0(1)", 
+          "11.5(1.7)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Attendant Consoles"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc94735", 
+      "product": "Cisco Unified Attendant Console Department Edition", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.0(1)", 
+          "11.5(1.7)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Attendant Consoles"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc94735", 
+      "product": "Cisco Unified Attendant Console Enterprise Edition", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.0(1)", 
+          "11.5(1.7)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Attendant Consoles"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc94735", 
+      "product": "Cisco Unified Attendant Console Premium Edition", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.0(1)", 
+          "11.5(1.7)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Attendant Consoles"
+      }
+    }, 
+    {
       "bug_id": "CSCvc94750", 
       "product": "Cisco Unified Communications Manager IM &amp; Presence Service (formerly CUPS)", 
       "fix": [], 
@@ -812,6 +925,19 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco Unified Communications Manager (CallManager)"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc96113", 
+      "product": "Cisco Unified IP 7937 Phone", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "1.4(5)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco Unified IP Phone 6900 Series"
       }
     }, 
     {
@@ -887,7 +1013,7 @@
           "1.6RB(5)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Edge 300 Series Digital Media Player"
       }
     }, 
@@ -903,7 +1029,7 @@
           "1.2RB(1.1)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco E340 Series Digital Media Player"
       }
     }, 
@@ -913,7 +1039,14 @@
       "fix": [
         "X8.9.2 (31-Mar-2017)"
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "X8.10PreAlpha3"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco TelePresence Video Communication Server (VCS)"
+      }
     }, 
     {
       "bug_id": "CSCvc94650", 
@@ -981,7 +1114,14 @@
       "fix": [
         "X8.9.2 (31-Mar-2017)"
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "X8.10PreAlpha3"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco TelePresence Video Communication Server (VCS)"
+      }
     }, 
     {
       "bug_id": "CSCvc94665", 
@@ -1082,12 +1222,6 @@
       }
     }, 
     {
-      "bug_id": "CSCvc94708", 
-      "product": "Cisco Cloud Web Security", 
-      "fix": [], 
-      "bug_data": null
-    }, 
-    {
       "bug_id": "CSCvc94598", 
       "product": "Cisco WebEx Meeting Center", 
       "fix": [
@@ -1095,10 +1229,10 @@
       ], 
       "bug_data": {
         "affected_releases": [
-          "WebEx11-V1.3.27"
+          "WebEx11-V1.3.26.2"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco WebEx Meetings"
       }
     }
