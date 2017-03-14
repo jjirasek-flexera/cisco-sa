@@ -1,5 +1,5 @@
 {
-  "version": "2.1", 
+  "version": "2.2", 
   "products": [
     {
       "bug_id": "CSCvc94595", 
@@ -66,6 +66,12 @@
       }
     }, 
     {
+      "bug_id": "CSCvc94758", 
+      "product": "Cisco Jabber for Mac", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCvc94760", 
       "product": "Cisco Jabber for Windows", 
       "fix": [
@@ -129,7 +135,9 @@
     {
       "bug_id": "CSCvc96092", 
       "product": "Cisco WebEx Meetings Server - Multimedia Platform (MMP)", 
-      "fix": [], 
+      "fix": [
+        "6.0.325 (Available)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "T29", 
@@ -229,7 +237,9 @@
         "affected_releases": [
           "2.2(1n)"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "2.2(1.124)"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Application Policy Infrastructure Controller (APIC)"
       }
@@ -335,7 +345,7 @@
           "11.6"
         ], 
         "fixed_releases": [], 
-        "status": "Fixed", 
+        "status": "Open", 
         "product_name": "Cisco Prime Collaboration"
       }
     }, 
@@ -348,14 +358,16 @@
           "12.0(0.98000.225)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Communications Manager (CallManager)"
       }
     }, 
     {
       "bug_id": "CSCvc94601", 
       "product": "Cisco Prime Data Center Network Manager", 
-      "fix": [], 
+      "fix": [
+        "10.2.1 (21-April-17)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "10.1(1.129)"
@@ -363,7 +375,7 @@
         "fixed_releases": [
           "10.1(1.158)S0"
         ], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Data Center Network Manager"
       }
     }, 
@@ -396,7 +408,7 @@
           "MR4"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Network Level Service"
       }
     }, 
@@ -453,7 +465,7 @@
           "1.7(0.1703)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Prime Performance Manager"
       }
     }, 
@@ -522,7 +534,7 @@
       "bug_id": "CSCvc94729", 
       "product": "Cisco IOS and Cisco IOS XE Software", 
       "fix": [
-        "16.4"
+        "16.4 (Available)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -578,6 +590,28 @@
       }
     }, 
     {
+      "bug_id": "CSCvc94609", 
+      "product": "Cisco Nexus 3000 Series Switches", 
+      "fix": [
+        "6.0(2)U8 (15-Apr-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "6.0(2)U7(1)"
+        ], 
+        "fixed_releases": [
+          "6.0(2)A8(3.135)", 
+          "6.0(2)A8(4)", 
+          "6.0(2)AED1(0.444)", 
+          "6.0(2)AED1(1)", 
+          "6.0(2)UED1(0.444)", 
+          "6.0(2)UED1(1)"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco Nexus 3000 Series Switches"
+      }
+    }, 
+    {
       "bug_id": "CSCvc94709", 
       "product": "Cisco Nexus 4000 Series Blade Switches", 
       "fix": [
@@ -613,7 +647,14 @@
       "fix": [
         "7.3 (02-May-2017)"
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "7.3(1)N1(0.6)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco Nexus 5000 Series Switches"
+      }
     }, 
     {
       "bug_id": "CSCvc94606", 
@@ -728,7 +769,14 @@
       "fix": [
         "3.2.3 (14-April-2017)"
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "3.1(2.198)A"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Unified Computing System"
+      }
     }, 
     {
       "bug_id": "CSCvc94765", 
@@ -739,19 +787,6 @@
       "bug_data": null
     }, 
     {
-      "bug_id": "CSCvc94739", 
-      "product": "Cisco ATA 190 Series Analog Terminal Adaptors", 
-      "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "1.2(2)"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Small Business Voice Gateways and ATAs"
-      }
-    }, 
-    {
       "bug_id": "CSCvc94745", 
       "product": "Cisco Agent Desktop for Cisco Unified Contact Center Express", 
       "fix": [], 
@@ -760,7 +795,7 @@
           "10.6(1)SU2"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Terminated", 
         "product_name": "Cisco Unified Contact Center Express"
       }
     }, 
@@ -821,11 +856,20 @@
     {
       "bug_id": "CSCvc94735", 
       "product": "Cisco Unified Attendant Console Advanced", 
-      "fix": [], 
+      "fix": [
+        "11.0.2 (3-April-2017)"
+      ], 
       "bug_data": {
         "affected_releases": [
+          "10.0(1)", 
+          "10.5", 
+          "10.5(2)", 
+          "10.6(1)", 
           "11.0(1)", 
-          "11.5(1.7)"
+          "11.5(1.7)", 
+          "8.6", 
+          "9.0", 
+          "9.1"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
@@ -835,11 +879,20 @@
     {
       "bug_id": "CSCvc94735", 
       "product": "Cisco Unified Attendant Console Business Edition", 
-      "fix": [], 
+      "fix": [
+        "11.0.2 (3-April-2017)"
+      ], 
       "bug_data": {
         "affected_releases": [
+          "10.0(1)", 
+          "10.5", 
+          "10.5(2)", 
+          "10.6(1)", 
           "11.0(1)", 
-          "11.5(1.7)"
+          "11.5(1.7)", 
+          "8.6", 
+          "9.0", 
+          "9.1"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
@@ -849,11 +902,20 @@
     {
       "bug_id": "CSCvc94735", 
       "product": "Cisco Unified Attendant Console Department Edition", 
-      "fix": [], 
+      "fix": [
+        "11.0.2 (3-April-2017)"
+      ], 
       "bug_data": {
         "affected_releases": [
+          "10.0(1)", 
+          "10.5", 
+          "10.5(2)", 
+          "10.6(1)", 
           "11.0(1)", 
-          "11.5(1.7)"
+          "11.5(1.7)", 
+          "8.6", 
+          "9.0", 
+          "9.1"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
@@ -863,11 +925,20 @@
     {
       "bug_id": "CSCvc94735", 
       "product": "Cisco Unified Attendant Console Enterprise Edition", 
-      "fix": [], 
+      "fix": [
+        "11.0.2 (3-April-2017)"
+      ], 
       "bug_data": {
         "affected_releases": [
+          "10.0(1)", 
+          "10.5", 
+          "10.5(2)", 
+          "10.6(1)", 
           "11.0(1)", 
-          "11.5(1.7)"
+          "11.5(1.7)", 
+          "8.6", 
+          "9.0", 
+          "9.1"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
@@ -877,11 +948,20 @@
     {
       "bug_id": "CSCvc94735", 
       "product": "Cisco Unified Attendant Console Premium Edition", 
-      "fix": [], 
+      "fix": [
+        "11.0.2 (3-April-2017)"
+      ], 
       "bug_data": {
         "affected_releases": [
+          "10.0(1)", 
+          "10.5", 
+          "10.5(2)", 
+          "10.6(1)", 
           "11.0(1)", 
-          "11.5(1.7)"
+          "11.5(1.7)", 
+          "8.6", 
+          "9.0", 
+          "9.1"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
@@ -909,8 +989,13 @@
         "affected_releases": [
           "12.0(0.98000.509)"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "11.5(1.13900.4)", 
+          "12.0(0.98000.260)", 
+          "12.0(0.98000.583)", 
+          "12.0(0.98000.746)"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Communications Manager (CallManager)"
       }
     }, 
@@ -922,8 +1007,13 @@
         "affected_releases": [
           "12.0(0.98000.509)"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "11.5(1.13900.4)", 
+          "12.0(0.98000.260)", 
+          "12.0(0.98000.583)", 
+          "12.0(0.98000.746)"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Communications Manager (CallManager)"
       }
     }, 
@@ -953,6 +1043,19 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco Unified IP Phone 6900 Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCvc94773", 
+      "product": "Cisco Virtualization Experience Media Edition", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.8"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Virtualization Experience Media Edition"
       }
     }, 
     {
@@ -998,7 +1101,7 @@
           "3.11(104)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Content Delivery Engine Series"
       }
     }, 
@@ -1041,7 +1144,13 @@
       ], 
       "bug_data": {
         "affected_releases": [
-          "X8.10PreAlpha3"
+          "X8.7.x", 
+          "X8.8", 
+          "X8.8.1", 
+          "X8.8.2", 
+          "X8.8.3", 
+          "X8.9", 
+          "X8.9.1"
         ], 
         "fixed_releases": [], 
         "status": "Fixed", 
@@ -1062,6 +1171,7 @@
       "fix": [], 
       "bug_data": {
         "affected_releases": [
+          "7.3.x", 
           "8.3.0"
         ], 
         "fixed_releases": [], 
@@ -1075,6 +1185,7 @@
       "fix": [], 
       "bug_data": {
         "affected_releases": [
+          "7.3.x", 
           "8.3.0"
         ], 
         "fixed_releases": [], 
@@ -1088,6 +1199,7 @@
       "fix": [], 
       "bug_data": {
         "affected_releases": [
+          "7.3.x", 
           "8.3.0"
         ], 
         "fixed_releases": [], 
@@ -1101,6 +1213,7 @@
       "fix": [], 
       "bug_data": {
         "affected_releases": [
+          "7.3.x", 
           "8.3.0"
         ], 
         "fixed_releases": [], 
@@ -1116,7 +1229,13 @@
       ], 
       "bug_data": {
         "affected_releases": [
-          "X8.10PreAlpha3"
+          "X8.7.x", 
+          "X8.8", 
+          "X8.8.1", 
+          "X8.8.2", 
+          "X8.8.3", 
+          "X8.9", 
+          "X8.9.1"
         ], 
         "fixed_releases": [], 
         "status": "Fixed", 
@@ -1129,6 +1248,7 @@
       "fix": [], 
       "bug_data": {
         "affected_releases": [
+          "7.3.x", 
           "8.3.0"
         ], 
         "fixed_releases": [], 
@@ -1192,6 +1312,22 @@
       "bug_data": null
     }, 
     {
+      "bug_id": "CSCvc94636", 
+      "product": "Cisco Mobility Services Engine", 
+      "fix": [
+        "8.0 (15-Apr-2017)", 
+        "10.4 (31-May-2017)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "8.0(140.0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Mobility Services Engine"
+      }
+    }, 
+    {
       "bug_id": "CSCvc94648", 
       "product": "Cisco Wireless LAN Controller", 
       "fix": [
@@ -1201,7 +1337,9 @@
         "affected_releases": [
           "8.5(1.61)"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "8.5(1.87)"
+        ], 
         "status": "Open", 
         "product_name": "Cisco 5500 Series Wireless Controllers"
       }
