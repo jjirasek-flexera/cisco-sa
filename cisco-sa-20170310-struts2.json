@@ -1,6 +1,21 @@
 {
-  "version": "1.6", 
+  "version": "1.7", 
   "products": [
+    {
+      "bug_id": "CSCvd63318", 
+      "product": "Cisco SocialMiner", 
+      "fix": [
+        "11.5 SU1 (27-March-2017)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "11.5(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco SocialMiner"
+      }
+    }, 
     {
       "bug_id": "CSCvd49829", 
       "product": "Cisco Identity Services Engine (ISE)", 
@@ -24,21 +39,16 @@
     {
       "bug_id": "CSCvd51283", 
       "product": "Cisco Prime License Manager", 
-      "fix": [], 
-      "bug_data": null
-    }, 
-    {
-      "bug_id": "CSCvd51255", 
-      "product": "Cisco Prime Network Registrar IP Address Manager (IPAM)", 
-      "fix": [], 
+      "fix": [
+        "11.5(1)SU1a (Available now)"
+      ], 
       "bug_data": {
         "affected_releases": [
-          "8.3", 
-          "9.0"
+          "11.5(1.10000.5)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Prime Network Registrar"
+        "status": "Fixed", 
+        "product_name": "Cisco Unified Communications Licensing"
       }
     }, 
     {
@@ -68,6 +78,21 @@
       }
     }, 
     {
+      "bug_id": "CSCvd63325", 
+      "product": "Cisco Finesse", 
+      "fix": [
+        "11.5 ES1 (24-March-2017)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "11.5(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Finesse"
+      }
+    }, 
+    {
       "bug_id": "CSCvd51443", 
       "product": "Cisco Hosted Collaboration Mediation Fulfillment", 
       "fix": [], 
@@ -85,9 +110,9 @@
       "product": "Cisco Hosted Collaboration Solution for Contact Center", 
       "fix": [
         "10.5(3) Patch available", 
-        "11.0(2) (22-Mar-2017)", 
-        "11.5(1) (22-Mar-2017)", 
-        "10.0(2) (24-Mar-2017)"
+        "11.0(2) (22-March-2017)", 
+        "11.5(1) (22-March-2017)", 
+        "10.0(2) (24-March-2017)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -101,14 +126,15 @@
       }
     }, 
     {
-      "bug_id": "CSCvd58413", 
+      "bug_id": "CSCvd63328", 
       "product": "Cisco MediaSense", 
       "fix": [
-        "11.5 (27-March-2017)"
+        "11.5 (24-March-2017)"
       ], 
       "bug_data": {
         "affected_releases": [
-          "11.5(1)"
+          "11.5(1)", 
+          "11.5(1)ES2"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
@@ -125,7 +151,7 @@
       "bug_id": "CSCvd49842", 
       "product": "Cisco Unified Communications Manager IM &amp; Presence Service (formerly CUPS)", 
       "fix": [
-        "Patch available (23-Mar-2017)"
+        "Patch available (23-March-2017)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -146,9 +172,10 @@
       ], 
       "bug_data": {
         "affected_releases": [
-          "12.0(0.99999.2)"
+          "11.5(1.10000.6)"
         ], 
         "fixed_releases": [
+          "11.5(1.13900.9)", 
           "12.0(0.98000.271)", 
           "12.0(0.98000.611)", 
           "12.0(0.98000.782)"
@@ -165,9 +192,10 @@
       ], 
       "bug_data": {
         "affected_releases": [
-          "12.0(0.99999.2)"
+          "11.5(1.10000.6)"
         ], 
         "fixed_releases": [
+          "11.5(1.13900.9)", 
           "12.0(0.98000.271)", 
           "12.0(0.98000.611)", 
           "12.0(0.98000.782)"
@@ -181,9 +209,9 @@
       "product": "Cisco Unified Contact Center Enterprise", 
       "fix": [
         "10.5(3) (Available)", 
-        "11.0(2) (22-March-2017)", 
+        "11.0 (2) (22-March-2017)", 
         "11.5(1) (22-March-2017", 
-        "10.0(2) (24-Mar-2017)"
+        "10.0(2) (24-March-2017)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -208,13 +236,28 @@
       }
     }, 
     {
+      "bug_id": "CSCvd63322", 
+      "product": "Cisco Unified Contact Center Express", 
+      "fix": [
+        "11.5 SU1 (31-March-2017)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "11.5(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Contact Center Express"
+      }
+    }, 
+    {
       "bug_id": "CSCvd51210", 
       "product": "Cisco Unified Intelligent Contact Management Enterprise", 
       "fix": [
         "10.5(3) (Available)", 
-        "11.0(2) (22-March-2017)", 
+        "11.0 (2) (22-March-2017)", 
         "11.5(1) (22-March-2017", 
-        "10.0(2) (24-Mar-2017)"
+        "10.0(2) (24-March-2017)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -257,25 +300,44 @@
       "bug_id": "CSCvd49841", 
       "product": "Cisco Unity Connection", 
       "fix": [
-        "12.0 (27-Mar-2017)", 
-        "11.5 (10-Apr-2017)", 
-        "11.0 (10-Apr-2017)"
+        "12.0 (27-March-2017)", 
+        "11.5 (10-April-2017)", 
+        "11.0 (10-April-2017)"
       ], 
       "bug_data": {
         "affected_releases": [
           "11.5(1.999)", 
           "12.0"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "12.0(0.210)", 
+          "12.0(0.97000.194)"
+        ], 
         "status": "Open", 
         "product_name": "Cisco Unity Connection"
+      }
+    }, 
+    {
+      "bug_id": "CSCvd63333", 
+      "product": "Cisco Virtualized Voice Browser", 
+      "fix": [
+        "11.5 SU1 (27-March-2017)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "11.5(1)", 
+          "11.6(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Contact Center Enterprise"
       }
     }, 
     {
       "bug_id": "CSCvd49817", 
       "product": "Cisco Prime Service Catalog Appliance and Virtual Appliance", 
       "fix": [
-        "PSC 12.0 Patch 22 (14-Mar-2017)"
+        "PSC 12.0 Patch 22 (14-March-2017)"
       ], 
       "bug_data": {
         "affected_releases": [
