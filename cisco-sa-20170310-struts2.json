@@ -1,5 +1,5 @@
 {
-  "version": "1.8", 
+  "version": "1.9", 
   "products": [
     {
       "bug_id": "CSCvd63318", 
@@ -24,6 +24,8 @@
       ], 
       "bug_data": {
         "affected_releases": [
+          "1.2(0.899)", 
+          "1.2(1.198)", 
           "1.3(0.876)", 
           "1.4(0.253)", 
           "2.0(0.306)", 
@@ -40,7 +42,7 @@
       "bug_id": "CSCvd51283", 
       "product": "Cisco Prime License Manager", 
       "fix": [
-        "11.5(1)SU1a (Available)"
+        "11.5(1)SU1a (Available Now)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -60,20 +62,24 @@
           "11.5(1)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Intelligence Center"
       }
     }, 
     {
       "bug_id": "CSCvd51442", 
       "product": "Cisco Emergency Responder", 
-      "fix": [], 
+      "fix": [
+        "Patch for 11.5 (10-April-2017)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "12.0(0.98000.50)"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "12.0(0.98000.55)"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco Emergency Responder"
       }
     }, 
@@ -110,9 +116,9 @@
       "product": "Cisco Hosted Collaboration Solution for Contact Center", 
       "fix": [
         "10.5(3) Patch available", 
-        "11.0(2) (22-March-2017)", 
-        "11.5(1) (22-March-2017)", 
-        "10.0(2) (24-March-2017)"
+        "11.0(2) (22-Mar-2017)", 
+        "11.5(1) (22-Mar-2017)", 
+        "10.0(2) (24-Mar-2017)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -121,7 +127,7 @@
           "11.5(1)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Hosted Collaboration Solution for Contact Center"
       }
     }, 
@@ -151,7 +157,7 @@
       "bug_id": "CSCvd49842", 
       "product": "Cisco Unified Communications Manager IM &amp; Presence Service (formerly CUPS)", 
       "fix": [
-        "Patch available (23-March-2017)"
+        "Patch available (23-Mar-2017)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -235,7 +241,7 @@
         "10.5(3) (Available)", 
         "11.0 (2) (22-March-2017)", 
         "11.5(1) (22-March-2017", 
-        "10.0(2) (24-March-2017)"
+        "10.0(2) (24-Mar-2017)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -255,7 +261,7 @@
         "fixed_releases": [
           "10.5(3)SR0(5)"
         ], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Contact Center Enterprise"
       }
     }, 
@@ -281,7 +287,7 @@
         "10.5(3) (Available)", 
         "11.0 (2) (22-March-2017)", 
         "11.5(1) (22-March-2017", 
-        "10.0(2) (24-March-2017)"
+        "10.0(2) (24-Mar-2017)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -301,7 +307,7 @@
         "fixed_releases": [
           "10.5(3)SR0(5)"
         ], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Contact Center Enterprise"
       }
     }, 
@@ -311,22 +317,15 @@
       "fix": [
         "10.1 (June 2017)"
       ], 
-      "bug_data": {
-        "affected_releases": [
-          "10.0"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Unified SIP Proxy Software"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCvd49841", 
       "product": "Cisco Unity Connection", 
       "fix": [
-        "12.0 (27-March-2017)", 
-        "11.5 (10-April-2017)", 
-        "11.0 (10-April-2017)"
+        "12.0 (27-Mar-2017)", 
+        "11.5 (10-Apr-2017)", 
+        "11.0 (10-Apr-2017)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -334,8 +333,11 @@
           "12.0"
         ], 
         "fixed_releases": [
+          "11.5(1)ES23", 
           "12.0(0.210)", 
-          "12.0(0.97000.194)"
+          "12.0(0.216)", 
+          "12.0(0.97000.194)", 
+          "12.0(0.97000.201)"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco Unity Connection"
@@ -361,7 +363,7 @@
       "bug_id": "CSCvd49817", 
       "product": "Cisco Prime Service Catalog Appliance and Virtual Appliance", 
       "fix": [
-        "PSC 12.0 Patch 22 (14-March-2017)"
+        "PSC 12.0 Patch 22 (14-Mar-2017)"
       ], 
       "bug_data": {
         "affected_releases": [
