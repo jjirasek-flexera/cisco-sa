@@ -1,5 +1,5 @@
 {
-  "version": "2.4", 
+  "version": "2.5", 
   "products": [
     {
       "bug_id": "CSCvc98364", 
@@ -96,7 +96,10 @@
       ], 
       "bug_data": {
         "affected_releases": [
-          "11.8(0)"
+          "11.8(0)", 
+          "11.8(1)", 
+          "11.8(2)", 
+          "11.8(3)"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
@@ -251,7 +254,9 @@
     {
       "bug_id": "CSCvc96095", 
       "product": "Cisco Application Policy Infrastructure Controller (APIC)", 
-      "fix": [], 
+      "fix": [
+        "2.3  (June-2017)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "2.2(1n)"
@@ -364,7 +369,7 @@
           "11.6"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Terminated", 
         "product_name": "Cisco Prime Collaboration"
       }
     }, 
@@ -428,8 +433,7 @@
       "product": "Cisco Prime Infrastructure", 
       "fix": [
         "3.2: (31-March-2017)", 
-        "3.1.6 (31-March-2017\"", 
-        ")"
+        "3.1.6 (31-March-2017)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -496,7 +500,9 @@
         "affected_releases": [
           "1.7(0.1703)"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "1.7(0.1703)"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Prime Performance Manager"
       }
@@ -533,6 +539,7 @@
           "21.2.0"
         ], 
         "fixed_releases": [
+          "21.2.0.66846", 
           "21.2.J0.66700", 
           "21.2.M0.66699", 
           "21.3.A0.66703"
@@ -622,8 +629,12 @@
       "bug_id": "CSCvc94606", 
       "product": "Cisco MDS 9000 Series Multilayer Switches", 
       "fix": [
-        "6.2.21 No fix available yet", 
-        "8.2.1 (Sept. 2017) 7.0.3.I6 (Mar. 2017)"
+        "MDS: 6.2.21 No fix available yet", 
+        "N7K", 
+        "N5K", 
+        "MDS 8.2.1 (Sept. 2017)", 
+        "N3K", 
+        "N9K 7.0.3.I6 (Mar. 2017)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -654,7 +665,7 @@
       "bug_id": "CSCvc94609", 
       "product": "Cisco Nexus 3000 Series Switches", 
       "fix": [
-        "6.0(2)U8 (15-Apr-2017)"
+        "6.0(2)A8(4)  (15-Apr-2017)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -684,8 +695,12 @@
       "bug_id": "CSCvc94606", 
       "product": "Cisco Nexus 5000 Series Switches", 
       "fix": [
-        "6.2.21 No fix available yet", 
-        "8.2.1 (Sept. 2017) 7.0.3.I6 (Mar. 2017)"
+        "MDS: 6.2.21 No fix available yet", 
+        "N7K", 
+        "N5K", 
+        "MDS 8.2.1 (Sept. 2017)", 
+        "N3K", 
+        "N9K 7.0.3.I6 (Mar. 2017)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -723,8 +738,12 @@
       "bug_id": "CSCvc94606", 
       "product": "Cisco Nexus 6000 Series Switches", 
       "fix": [
-        "6.2.21 No fix available yet", 
-        "8.2.1 (Sept. 2017) 7.0.3.I6 (Mar. 2017)"
+        "MDS: 6.2.21 No fix available yet", 
+        "N7K", 
+        "N5K", 
+        "MDS 8.2.1 (Sept. 2017)", 
+        "N3K", 
+        "N9K 7.0.3.I6 (Mar. 2017)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -747,8 +766,12 @@
       "bug_id": "CSCvc94606", 
       "product": "Cisco Nexus 7000 Series Switches", 
       "fix": [
-        "6.2.21 No fix available yet", 
-        "8.2.1 (Sept. 2017) 7.0.3.I6 (Mar. 2017)"
+        "MDS: 6.2.21 No fix available yet", 
+        "N7K", 
+        "N5K", 
+        "MDS 8.2.1 (Sept. 2017)", 
+        "N3K", 
+        "N9K 7.0.3.I6 (Mar. 2017)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1134,6 +1157,21 @@
       }
     }, 
     {
+      "bug_id": "CSCvc96176", 
+      "product": "Cisco Unified Contact Center Express", 
+      "fix": [
+        "11.6(1) (30-April-2017)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "11.6(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Contact Center Express"
+      }
+    }, 
+    {
       "bug_id": "CSCvc96113", 
       "product": "Cisco Unified IP 7937 Phone", 
       "fix": [
@@ -1180,6 +1218,21 @@
       }
     }, 
     {
+      "bug_id": "CSCvc98374", 
+      "product": "Cisco Virtualized Voice Browser", 
+      "fix": [
+        "11.6.1 (10-May-2017)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "11.5(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Contact Center Enterprise"
+      }
+    }, 
+    {
       "bug_id": "CSCvc94651", 
       "product": "Cisco 4300 Series Digital Media Players", 
       "fix": [
@@ -1221,7 +1274,9 @@
         "affected_releases": [
           "3.11(104)"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "cos-03.13(0.141)"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Content Delivery Engine Series"
       }
@@ -1424,7 +1479,7 @@
           "7.8"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Video Surveillance Manager"
       }
     }, 
@@ -1478,9 +1533,10 @@
           "8.5(1.61)"
         ], 
         "fixed_releases": [
+          "8.3(114.44)", 
           "8.5(1.87)"
         ], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco 5500 Series Wireless Controllers"
       }
     }, 
