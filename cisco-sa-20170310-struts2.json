@@ -1,5 +1,5 @@
 {
-  "version": "1.9", 
+  "version": "1.10", 
   "products": [
     {
       "bug_id": "CSCvd63318", 
@@ -12,7 +12,7 @@
           "11.5(1)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco SocialMiner"
       }
     }, 
@@ -56,7 +56,9 @@
     {
       "bug_id": "CSCvd56191", 
       "product": "Cisco Unified Intelligence Center", 
-      "fix": [], 
+      "fix": [
+        "11.5(1) ES03 (30-March-2017)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "11.5(1)"
@@ -70,7 +72,7 @@
       "bug_id": "CSCvd51442", 
       "product": "Cisco Emergency Responder", 
       "fix": [
-        "Patch for 11.5 (10-April-2017)"
+        "Patch for 11.5 (19-April-2017)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -94,14 +96,16 @@
           "11.5(1)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Finesse"
       }
     }, 
     {
       "bug_id": "CSCvd51443", 
       "product": "Cisco Hosted Collaboration Mediation Fulfillment", 
-      "fix": [], 
+      "fix": [
+        "HCM-F 11.5.1 SU1 (7-April-2017)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "11.5(1)"
@@ -183,9 +187,12 @@
           "11.5(1.10000.6)"
         ], 
         "fixed_releases": [
+          "11.0(1.24069.1)", 
+          "11.0(1.24069.2)", 
           "11.5(1.13037.1)", 
           "11.5(1.13900.8)", 
           "11.5(1.13900.9)", 
+          "11.6(2.10000.1)", 
           "12.0(0.98000.271)", 
           "12.0(0.98000.611)", 
           "12.0(0.98000.782)"
@@ -205,9 +212,12 @@
           "11.5(1.10000.6)"
         ], 
         "fixed_releases": [
+          "11.0(1.24069.1)", 
+          "11.0(1.24069.2)", 
           "11.5(1.13037.1)", 
           "11.5(1.13900.8)", 
           "11.5(1.13900.9)", 
+          "11.6(2.10000.1)", 
           "12.0(0.98000.271)", 
           "12.0(0.98000.611)", 
           "12.0(0.98000.782)"
@@ -230,7 +240,7 @@
           "11.5(1)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Contact Center Enterprise"
       }
     }, 
@@ -275,8 +285,10 @@
         "affected_releases": [
           "11.5(1)"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "11.5(1.11001.34)"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Contact Center Express"
       }
     }, 
@@ -333,11 +345,16 @@
           "12.0"
         ], 
         "fixed_releases": [
+          "11.0(0)ES45", 
+          "11.0(1.24069.2)", 
           "11.5(1)ES23", 
+          "11.5(1.13039.1)", 
           "12.0(0.210)", 
           "12.0(0.216)", 
+          "12.0(0.219)", 
           "12.0(0.97000.194)", 
-          "12.0(0.97000.201)"
+          "12.0(0.97000.201)", 
+          "12.0(0.97000.208)"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco Unity Connection"
@@ -355,7 +372,7 @@
           "11.6(1)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Contact Center Enterprise"
       }
     }, 
