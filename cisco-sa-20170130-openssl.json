@@ -1,5 +1,5 @@
 {
-  "version": "2.5", 
+  "version": "2.6", 
   "products": [
     {
       "bug_id": "CSCvc98364", 
@@ -26,7 +26,8 @@
           "3.0"
         ], 
         "fixed_releases": [
-          "2.8"
+          "2.8", 
+          "2.8.1.12"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco WebEx Meetings Server"
@@ -44,7 +45,8 @@
           "3.0"
         ], 
         "fixed_releases": [
-          "2.8"
+          "2.8", 
+          "2.8.1.12"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco WebEx Meetings Server"
@@ -262,7 +264,8 @@
           "2.2(1n)"
         ], 
         "fixed_releases": [
-          "2.2(1.124)"
+          "2.2(1.124)", 
+          "2.2(2e)"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco Application Policy Infrastructure Controller (APIC)"
@@ -276,7 +279,9 @@
         "affected_releases": [
           "6.4.4"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "v6.4.6dev-14-g8a5d70d73da"
+        ], 
         "status": "Open", 
         "product_name": "Cisco WAN Automation Engine (WAE)"
       }
@@ -289,7 +294,9 @@
         "affected_releases": [
           "6.4.4"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "v6.4.6dev-14-g8a5d70d73da"
+        ], 
         "status": "Open", 
         "product_name": "Cisco WAN Automation Engine (WAE)"
       }
@@ -302,7 +309,9 @@
         "affected_releases": [
           "6.4.4"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "v6.4.6dev-14-g8a5d70d73da"
+        ], 
         "status": "Open", 
         "product_name": "Cisco WAN Automation Engine (WAE)"
       }
@@ -359,7 +368,7 @@
       "bug_id": "CSCvc96099", 
       "product": "Cisco Prime Collaboration Assurance", 
       "fix": [
-        "Fix Already Available in PCA 11.6"
+        "Fix already available in PCA 11.6"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -559,7 +568,8 @@
           "2.2(1n)"
         ], 
         "fixed_releases": [
-          "2.2(1.124)"
+          "2.2(1.124)", 
+          "2.2(2e)"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco Application Policy Infrastructure Controller (APIC)"
@@ -657,7 +667,7 @@
       "bug_id": "CSCvc94604", 
       "product": "Cisco Nexus 1000V InterCloud", 
       "fix": [
-        "No Fix Expected"
+        "No fix expected"
       ], 
       "bug_data": null
     }, 
@@ -881,7 +891,7 @@
       "bug_id": "CSCvc94765", 
       "product": "Cisco ATA 187 Analog Telephone Adaptor", 
       "fix": [
-        "No Fix Expected"
+        "No fix expected"
       ], 
       "bug_data": null
     }, 
@@ -889,7 +899,7 @@
       "bug_id": "CSCvc94745", 
       "product": "Cisco Agent Desktop for Cisco Unified Contact Center Express", 
       "fix": [
-        "EoSWM (16-July-2016) No Fix Expected"
+        "EoSWM (16-July-2016) No fix expected"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -904,7 +914,7 @@
       "bug_id": "CSCvc94581", 
       "product": "Cisco Agent Desktop", 
       "fix": [
-        "No Fix Expected"
+        "No fix expected"
       ], 
       "bug_data": null
     }, 
@@ -1175,7 +1185,7 @@
       "bug_id": "CSCvc96113", 
       "product": "Cisco Unified IP 7937 Phone", 
       "fix": [
-        "No Fix Expected"
+        "No fix expected"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1395,6 +1405,96 @@
       }
     }, 
     {
+      "bug_id": "CSCvc94733", 
+      "product": "Cisco TelePresence System 1000", 
+      "fix": [
+        "500-32 - CTS6.1.13(6) (10-April-2017)", 
+        "1300 - CTS6.1.13(6) (10-April-2017)", 
+        "TX1310 - CTS6.1.13(6) (10-April-2017)", 
+        "TX9000 Series - CTS6.1.13(6) (10-April-2017)", 
+        "500-37- CTS1.10.16(4) (10-April-2017)", 
+        "1000 - CTS1.10.16(4) (10-April-2017)", 
+        "1100 - CTS1.10.16(4) (10-April-2017)", 
+        "3000 Series - CTS1.10.16(4) (10-April-2017)"
+      ], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvc94733", 
+      "product": "Cisco TelePresence System 1100", 
+      "fix": [
+        "500-32 - CTS6.1.13(6) (10-April-2017)", 
+        "1300 - CTS6.1.13(6) (10-April-2017)", 
+        "TX1310 - CTS6.1.13(6) (10-April-2017)", 
+        "TX9000 Series - CTS6.1.13(6) (10-April-2017)", 
+        "500-37- CTS1.10.16(4) (10-April-2017)", 
+        "1000 - CTS1.10.16(4) (10-April-2017)", 
+        "1100 - CTS1.10.16(4) (10-April-2017)", 
+        "3000 Series - CTS1.10.16(4) (10-April-2017)"
+      ], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvc94733", 
+      "product": "Cisco TelePresence System 1300", 
+      "fix": [
+        "500-32 - CTS6.1.13(6) (10-April-2017)", 
+        "1300 - CTS6.1.13(6) (10-April-2017)", 
+        "TX1310 - CTS6.1.13(6) (10-April-2017)", 
+        "TX9000 Series - CTS6.1.13(6) (10-April-2017)", 
+        "500-37- CTS1.10.16(4) (10-April-2017)", 
+        "1000 - CTS1.10.16(4) (10-April-2017)", 
+        "1100 - CTS1.10.16(4) (10-April-2017)", 
+        "3000 Series - CTS1.10.16(4) (10-April-2017)"
+      ], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvc94733", 
+      "product": "Cisco TelePresence System 3000 Series", 
+      "fix": [
+        "500-32 - CTS6.1.13(6) (10-April-2017)", 
+        "1300 - CTS6.1.13(6) (10-April-2017)", 
+        "TX1310 - CTS6.1.13(6) (10-April-2017)", 
+        "TX9000 Series - CTS6.1.13(6) (10-April-2017)", 
+        "500-37- CTS1.10.16(4) (10-April-2017)", 
+        "1000 - CTS1.10.16(4) (10-April-2017)", 
+        "1100 - CTS1.10.16(4) (10-April-2017)", 
+        "3000 Series - CTS1.10.16(4) (10-April-2017)"
+      ], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvc94733", 
+      "product": "Cisco TelePresence System 500-32", 
+      "fix": [
+        "500-32 - CTS6.1.13(6) (10-April-2017)", 
+        "1300 - CTS6.1.13(6) (10-April-2017)", 
+        "TX1310 - CTS6.1.13(6) (10-April-2017)", 
+        "TX9000 Series - CTS6.1.13(6) (10-April-2017)", 
+        "500-37- CTS1.10.16(4) (10-April-2017)", 
+        "1000 - CTS1.10.16(4) (10-April-2017)", 
+        "1100 - CTS1.10.16(4) (10-April-2017)", 
+        "3000 Series - CTS1.10.16(4) (10-April-2017)"
+      ], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvc94733", 
+      "product": "Cisco TelePresence System 500-37", 
+      "fix": [
+        "500-32 - CTS6.1.13(6) (10-April-2017)", 
+        "1300 - CTS6.1.13(6) (10-April-2017)", 
+        "TX1310 - CTS6.1.13(6) (10-April-2017)", 
+        "TX9000 Series - CTS6.1.13(6) (10-April-2017)", 
+        "500-37- CTS1.10.16(4) (10-April-2017)", 
+        "1000 - CTS1.10.16(4) (10-April-2017)", 
+        "1100 - CTS1.10.16(4) (10-April-2017)", 
+        "3000 Series - CTS1.10.16(4) (10-April-2017)"
+      ], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCvc94665", 
       "product": "Cisco TelePresence System EX Series", 
       "fix": [
@@ -1410,6 +1510,36 @@
         "status": "Open", 
         "product_name": "Cisco Telepresence Integrator C Series"
       }
+    }, 
+    {
+      "bug_id": "CSCvc94733", 
+      "product": "Cisco TelePresence System TX1310", 
+      "fix": [
+        "500-32 - CTS6.1.13(6) (10-April-2017)", 
+        "1300 - CTS6.1.13(6) (10-April-2017)", 
+        "TX1310 - CTS6.1.13(6) (10-April-2017)", 
+        "TX9000 Series - CTS6.1.13(6) (10-April-2017)", 
+        "500-37- CTS1.10.16(4) (10-April-2017)", 
+        "1000 - CTS1.10.16(4) (10-April-2017)", 
+        "1100 - CTS1.10.16(4) (10-April-2017)", 
+        "3000 Series - CTS1.10.16(4) (10-April-2017)"
+      ], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvc94733", 
+      "product": "Cisco TelePresence TX9000 Series", 
+      "fix": [
+        "500-32 - CTS6.1.13(6) (10-April-2017)", 
+        "1300 - CTS6.1.13(6) (10-April-2017)", 
+        "TX1310 - CTS6.1.13(6) (10-April-2017)", 
+        "TX9000 Series - CTS6.1.13(6) (10-April-2017)", 
+        "500-37- CTS1.10.16(4) (10-April-2017)", 
+        "1000 - CTS1.10.16(4) (10-April-2017)", 
+        "1100 - CTS1.10.16(4) (10-April-2017)", 
+        "3000 Series - CTS1.10.16(4) (10-April-2017)"
+      ], 
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCvc94669", 
@@ -1556,6 +1686,14 @@
       }
     }, 
     {
+      "bug_id": "CSCvc94677", 
+      "product": "Cisco Smart Care", 
+      "fix": [
+        "No fix expected"
+      ], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCvc94598", 
       "product": "Cisco WebEx Meeting Center", 
       "fix": [
@@ -1569,6 +1707,12 @@
         "status": "Fixed", 
         "product_name": "Cisco WebEx Meetings"
       }
+    }, 
+    {
+      "bug_id": "CSCvd41263", 
+      "product": "ciscossl", 
+      "fix": [], 
+      "bug_data": null
     }
   ]
 }
