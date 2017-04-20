@@ -1,11 +1,11 @@
 {
-  "version": "1.10", 
+  "version": "1.11", 
   "products": [
     {
       "bug_id": "CSCvd63318", 
       "product": "Cisco SocialMiner", 
       "fix": [
-        "11.5 SU1 (7-April-2017)"
+        "11.5 SU1 (7-Apr-2017)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -20,7 +20,7 @@
       "bug_id": "CSCvd49829", 
       "product": "Cisco Identity Services Engine (ISE)", 
       "fix": [
-        "Patch available (24-March-2017)"
+        "Patch available (24-Mar-2017)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -42,7 +42,7 @@
       "bug_id": "CSCvd51283", 
       "product": "Cisco Prime License Manager", 
       "fix": [
-        "11.5(1)SU1a (Available Now)"
+        "11.5(1)SU1a (Available)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -57,7 +57,7 @@
       "bug_id": "CSCvd56191", 
       "product": "Cisco Unified Intelligence Center", 
       "fix": [
-        "11.5(1) ES03 (30-March-2017)"
+        "11.5(1) ES03 (30-Mar-2017)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -72,7 +72,7 @@
       "bug_id": "CSCvd51442", 
       "product": "Cisco Emergency Responder", 
       "fix": [
-        "Patch for 11.5 (19-April-2017)"
+        "Patch for 11.5 (19-Apr-2017)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -89,7 +89,7 @@
       "bug_id": "CSCvd63325", 
       "product": "Cisco Finesse", 
       "fix": [
-        "11.5 ES1 (7-April-2017)"
+        "11.5 ES2 (7-Apr-2017)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -104,7 +104,7 @@
       "bug_id": "CSCvd51443", 
       "product": "Cisco Hosted Collaboration Mediation Fulfillment", 
       "fix": [
-        "HCM-F 11.5.1 SU1 (7-April-2017)"
+        "HCM-F 11.5.1 SU1 (7-Apr-2017)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -139,7 +139,7 @@
       "bug_id": "CSCvd63328", 
       "product": "Cisco MediaSense", 
       "fix": [
-        "11.5 (7-April-2017)"
+        "11.5 (7-Apr-2017)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -155,7 +155,27 @@
       "bug_id": "CSCvd51212", 
       "product": "Cisco Packaged Contact Center Enterprise", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "10.0(1)", 
+          "10.0(2)", 
+          "10.5(1)", 
+          "10.5(2)", 
+          "10.5(3)", 
+          "10.5(3)ES", 
+          "11.0(2)", 
+          "11.0(2)ES", 
+          "11.5(1)", 
+          "11.5(1)ES", 
+          "11.6(1)", 
+          "9.0(4)ES"
+        ], 
+        "fixed_releases": [
+          "10.5(3)SR0(5)"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco Unified Contact Center Enterprise"
+      }
     }, 
     {
       "bug_id": "CSCvd49842", 
@@ -180,7 +200,7 @@
       "bug_id": "CSCvd49840", 
       "product": "Cisco Unified Communications Manager Session Management Edition", 
       "fix": [
-        "Patch available (31-March-2017)"
+        "Patch available (31-Mar-2017)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -205,7 +225,7 @@
       "bug_id": "CSCvd49840", 
       "product": "Cisco Unified Communications Manager", 
       "fix": [
-        "Patch available (31-March-2017)"
+        "Patch available (31-Mar-2017)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -231,8 +251,8 @@
       "product": "Cisco Unified Contact Center Enterprise - Live Data server", 
       "fix": [
         "10.5(3) (Available)", 
-        "11.0 (2) (7-April-2017)", 
-        "11.5(1)  (7-April-2017)", 
+        "11.0 (2) (7-Apr-2017)", 
+        "11.5(1)  (7-Apr-2017)", 
         "10.0(2) (Available)"
       ], 
       "bug_data": {
@@ -249,8 +269,8 @@
       "product": "Cisco Unified Contact Center Enterprise", 
       "fix": [
         "10.5(3) (Available)", 
-        "11.0 (2) (22-March-2017)", 
-        "11.5(1) (22-March-2017", 
+        "11.0 (2) (22-Mar-2017)", 
+        "11.5(1) (22-Mar-2017", 
         "10.0(2) (24-Mar-2017)"
       ], 
       "bug_data": {
@@ -279,7 +299,7 @@
       "bug_id": "CSCvd63322", 
       "product": "Cisco Unified Contact Center Express", 
       "fix": [
-        "11.5 SU1 (7-April-2017)"
+        "11.5 SU1 (7-Apr-2017)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -297,8 +317,8 @@
       "product": "Cisco Unified Intelligent Contact Management Enterprise", 
       "fix": [
         "10.5(3) (Available)", 
-        "11.0 (2) (22-March-2017)", 
-        "11.5(1) (22-March-2017", 
+        "11.0 (2) (22-Mar-2017)", 
+        "11.5(1) (22-Mar-2017", 
         "10.0(2) (24-Mar-2017)"
       ], 
       "bug_data": {
@@ -329,7 +349,14 @@
       "fix": [
         "10.1 (June 2017)"
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "10.0"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified SIP Proxy Software"
+      }
     }, 
     {
       "bug_id": "CSCvd49841", 
@@ -352,9 +379,11 @@
           "12.0(0.210)", 
           "12.0(0.216)", 
           "12.0(0.219)", 
+          "12.0(0.223)", 
           "12.0(0.97000.194)", 
           "12.0(0.97000.201)", 
-          "12.0(0.97000.208)"
+          "12.0(0.97000.208)", 
+          "12.0(0.97000.223)"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco Unity Connection"
@@ -364,7 +393,7 @@
       "bug_id": "CSCvd63333", 
       "product": "Cisco Virtualized Voice Browser", 
       "fix": [
-        "11.5 SU1 (7-April-2017)"
+        "11.5 SU1 (7-Apr-2017)"
       ], 
       "bug_data": {
         "affected_releases": [
