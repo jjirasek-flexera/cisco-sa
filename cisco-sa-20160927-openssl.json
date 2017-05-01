@@ -1,6 +1,27 @@
 {
-  "version": "1.14", 
+  "version": "1.15", 
   "products": [
+    {
+      "bug_id": "CSCvc32062", 
+      "product": "Cisco IOS XE Software - Web user interface only", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "16.3.2", 
+          "16.4"
+        ], 
+        "fixed_releases": [
+          "16.3(2.21)", 
+          "16.3.3", 
+          "16.4(1.4)", 
+          "16.5(0.164)", 
+          "16.6(0.1)", 
+          "Denali-16.3.3"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco IOS"
+      }
+    }, 
     {
       "bug_id": "CSCvb50787", 
       "product": "Cisco SocialMiner", 
@@ -50,7 +71,8 @@
           "2.5.1.6206", 
           "2.6.1.3100", 
           "2.7.1.1078", 
-          "2.8.1.12"
+          "2.8.1.12", 
+          "2.8.1.17"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco WebEx Meetings Server"
@@ -75,7 +97,8 @@
           "2.5.1.6206", 
           "2.6.1.3100", 
           "2.7.1.1078", 
-          "2.8.1.12"
+          "2.8.1.12", 
+          "2.8.1.17"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco WebEx Meetings Server"
@@ -103,7 +126,7 @@
       "bug_id": "CSCvb48661", 
       "product": "Cisco Agent for OpenFlow", 
       "fix": [
-        "No fix is expected"
+        "No Fix Expected"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -343,7 +366,8 @@
         ], 
         "fixed_releases": [
           "2.7.1.2048", 
-          "2.8.1.12"
+          "2.8.1.12", 
+          "2.8.1.17"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco WebEx Meetings Server"
@@ -353,7 +377,7 @@
       "bug_id": "CSCvb48554", 
       "product": "Cisco WebEx Meetings Server - Multimedia Platform (MMP)", 
       "fix": [
-        "Affected versions have been updated"
+        "Affected versions have been updated."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -378,13 +402,13 @@
       "bug_id": "CSCvb48545", 
       "product": "Cisco WebEx Meetings for BlackBerry", 
       "fix": [
-        "Users need to update the BlackBerry operating system"
+        "Users need to Update BlackBerry OS"
       ], 
       "bug_data": null
     }, 
     {
       "bug_id": "CSCvb48546", 
-      "product": "Cisco WebEx Meetings for Windows Phone&nbsp;8", 
+      "product": "Cisco WebEx Meetings for Windows Phone 8", 
       "fix": [
         "2.8 (11-Nov-2016)"
       ], 
@@ -401,7 +425,7 @@
       "bug_id": "CSCvb48557", 
       "product": "Cisco ACE 4710 Application Control Engine - Running Software Release A5", 
       "fix": [
-        "No fix is expected"
+        "No Fix Expected"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -421,7 +445,7 @@
       "bug_id": "CSCvb48557", 
       "product": "Cisco ACE30 Application Control Engine Module", 
       "fix": [
-        "No fix is expected"
+        "No Fix Expected"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -441,7 +465,7 @@
       "bug_id": "CSCvb48634", 
       "product": "Cisco Application and Content Networking System (ACNS)", 
       "fix": [
-        "No fix is expected"
+        "No Fix Expected"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -471,7 +495,7 @@
       "bug_id": "CSCvb48635", 
       "product": "Cisco NAC Appliance - Clean Access Manager", 
       "fix": [
-        "No fix is expected"
+        "No fix is expected."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -522,7 +546,7 @@
       "bug_id": "CSCvb48643", 
       "product": "Cisco Wide Area Application Services (WAAS)", 
       "fix": [
-        "All affected versions fixed (11-Sept-2016)"
+        "All Affected Versions fixed (11-Sept-2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -543,7 +567,7 @@
       "bug_id": "CSCvb48642", 
       "product": "Cisco ASA Next-Generation Firewall Services", 
       "fix": [
-        "2.1.2 (Dec 2016)"
+        "2.1.2 (Dec. 2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -572,6 +596,7 @@
       "fix": [], 
       "bug_data": {
         "affected_releases": [
+          "2.1(1)", 
           "2.2(1)", 
           "9.0", 
           "9.1(2)", 
@@ -620,7 +645,7 @@
       "bug_id": "CSCvb48636", 
       "product": "Cisco Clean Access Manager", 
       "fix": [
-        "No fix is expected"
+        "No fix is expected."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -664,7 +689,7 @@
       "bug_id": "CSCvb48533", 
       "product": "Cisco Email Security Appliance (ESA)", 
       "fix": [
-        "11.0 (1-May-2017)"
+        "10.0.1 (7-Dec-2016) 11.0 (1-May-2017)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -706,7 +731,7 @@
       "bug_id": "CSCvb48667", 
       "product": "Cisco Intrusion Prevention System (IPS) Solutions", 
       "fix": [
-        "No fix is expected"
+        "No Fix Is Expected"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -739,7 +764,7 @@
       "bug_id": "CSCvb48638", 
       "product": "Cisco NAC Guest Server", 
       "fix": [
-        "No fix is expected"
+        "No fix is expected."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -754,8 +779,7 @@
       "bug_id": "CSCvb48662", 
       "product": "Cisco Secure Access Control System (ACS)", 
       "fix": [
-        "5.8.0.32.7 (Jan 2017)", 
-        "5.8.0.32.8 (Jan 2017)"
+        "5.8.0.32.7 (Jan- 2017) 5.8.0.32.8 (Jan- 2017)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -778,8 +802,10 @@
         "affected_releases": [
           "WSA_Future-000"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "11.0.0-610"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco Web Security Appliance"
       }
     }, 
@@ -787,7 +813,7 @@
       "bug_id": "CSCvb48558", 
       "product": "Cisco Application Networking Manager", 
       "fix": [
-        "No fix is expected"
+        "No Fix Expected"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -802,7 +828,7 @@
       "bug_id": "CSCvb48563", 
       "product": "Cisco Application Policy Infrastructure Controller (APIC)", 
       "fix": [
-        "2.2(1)  (Jan 2017)"
+        "2.2(1)  (Jan-2017)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -871,7 +897,7 @@
       "bug_id": "CSCvb48600", 
       "product": "Cisco Mobile Wireless Transport Manager", 
       "fix": [
-        "No fix is expected"
+        "No Fix Expected"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -886,7 +912,7 @@
       "bug_id": "CSCvb48586", 
       "product": "Cisco Multicast Manager", 
       "fix": [
-        "No fix is expected"
+        "No Fix Expected"
       ], 
       "bug_data": null
     }, 
@@ -927,7 +953,9 @@
     {
       "bug_id": "CSCvc39197", 
       "product": "Cisco Policy Suite", 
-      "fix": [], 
+      "fix": [
+        "12.0 (3-Mar-2017)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "11.0.0", 
@@ -950,7 +978,7 @@
       "bug_id": "CSCvb48599", 
       "product": "Cisco Prime Collaboration Assurance", 
       "fix": [
-        "PCA 11.6 (Nov 2016)"
+        "PCA 11.6 (Nov-2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1026,7 +1054,7 @@
       "bug_id": "CSCvb48594", 
       "product": "Cisco Prime Infrastructure Plug and Play Standalone Gateway", 
       "fix": [
-        "No fix is expected"
+        "no fix is planned"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1041,20 +1069,23 @@
       "bug_id": "CSCvb48595", 
       "product": "Cisco Prime Infrastructure", 
       "fix": [
-        "3.2 (First quarter 2017)"
+        "3.2: (First quarter 2017)"
       ], 
       "bug_data": null
     }, 
     {
       "bug_id": "CSCvb48585", 
       "product": "Cisco Prime LAN Management Solution - Solaris", 
-      "fix": [], 
+      "fix": [
+        "4.2.5 (Available)", 
+        "MR5 (30-May-2017)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "4.2(5.3)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Terminated", 
         "product_name": "CiscoWorks Common Services Software"
       }
     }, 
@@ -1075,8 +1106,7 @@
       "bug_id": "CSCvb48587", 
       "product": "Cisco Prime Network Registrar", 
       "fix": [
-        "CPNR 8.3.5 (Jan 2017)", 
-        "CPNR 9.0 (Dec 2016)"
+        "CPNR 8.3.5 (Jan. 2017) CPNR 9.0 (Dec. 2016)"
       ], 
       "bug_data": null
     }, 
@@ -1152,7 +1182,7 @@
       "bug_id": "CSCvb48578", 
       "product": "Cisco UCS Central Software", 
       "fix": [
-        "Affected versions will be fixed March 2017"
+        "Affected versions will be fixed Mar 2017."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1180,7 +1210,7 @@
     }, 
     {
       "bug_id": null, 
-      "product": "StealthWatch FlowCollector NetFlow", 
+      "product": "Lancope Stealthwatch Endpoint Concentrator", 
       "fix": [
         "6.7.4 (Available)", 
         "6.8.3 (14-Nov-2016)", 
@@ -1193,7 +1223,7 @@
     }, 
     {
       "bug_id": null, 
-      "product": "StealthWatch FlowCollector sFlow", 
+      "product": "Lancope Stealthwatch FlowCollector NetFlow", 
       "fix": [
         "6.7.4 (Available)", 
         "6.8.3 (14-Nov-2016)", 
@@ -1206,7 +1236,7 @@
     }, 
     {
       "bug_id": null, 
-      "product": "StealthWatch FlowSensor", 
+      "product": "Lancope Stealthwatch FlowCollector sFlow", 
       "fix": [
         "6.7.4 (Available)", 
         "6.8.3 (14-Nov-2016)", 
@@ -1219,7 +1249,7 @@
     }, 
     {
       "bug_id": null, 
-      "product": "StealthWatch Management Console (SMC)", 
+      "product": "Lancope Stealthwatch FlowSensor", 
       "fix": [
         "6.7.4 (Available)", 
         "6.8.3 (14-Nov-2016)", 
@@ -1232,7 +1262,20 @@
     }, 
     {
       "bug_id": null, 
-      "product": "StealthWatch UDP Director (formerly Flow Replicator)", 
+      "product": "Lancope Stealthwatch SMC", 
+      "fix": [
+        "6.7.4 (Available)", 
+        "6.8.3 (14-Nov-2016)", 
+        "6.9.0 (Feb 2017)", 
+        "Patches:", 
+        "patch-common-LVA-ROLLUP001-6.7.x-6.7.4-03.swu (Available)", 
+        "patch-common-LVA-ROLLUP001-6.8.x-6.8.3-03.swu (Available)"
+      ], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": null, 
+      "product": "Lancope Stealthwatch UDP Director", 
       "fix": [
         "6.7.4 (Available)", 
         "6.8.3 (14-Nov-2016)", 
@@ -1325,12 +1368,6 @@
       }
     }, 
     {
-      "bug_id": "CSCvb61866", 
-      "product": "Cisco IOS XE Software - Web user interface only", 
-      "fix": [], 
-      "bug_data": null
-    }, 
-    {
       "bug_id": "CSCvb48604", 
       "product": "Cisco IOS XR Software", 
       "fix": [
@@ -1417,7 +1454,7 @@
       "product": "Cisco MDS 9000 Series Multilayer Switches", 
       "fix": [
         "5.2.8(i)  (Dec 2016)", 
-        "6.2.19 (Dec 2016)"
+        "6.2.19 (Dec. 2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1434,7 +1471,7 @@
       "product": "Cisco MDS 9000 Series Multilayer Switches", 
       "fix": [
         "5.2.8(i) (Dec. 2016)", 
-        "6.2.19 (Dec 2016)"
+        "6.2.19 (Dec. 2016)"
       ], 
       "bug_data": null
     }, 
@@ -1465,14 +1502,16 @@
         "fixed_releases": [
           "5.2(1)SV3(2.8)"
         ], 
-        "status": "Fixed", 
+        "status": "Open", 
         "product_name": "Cisco Nexus 1000V Switch for VMware vSphere"
       }
     }, 
     {
       "bug_id": "CSCvb48572", 
       "product": "Cisco Nexus 3000 Series Switches", 
-      "fix": [], 
+      "fix": [
+        "6.0(2)A8(3) (Available)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "6.0(2)A8(2)"
@@ -1511,8 +1550,8 @@
       "bug_id": "CSCvb48568", 
       "product": "Cisco Nexus 5000 Series Switches", 
       "fix": [
-        "5.2.8(i) (Dec 2016)", 
-        "6.2.19 (Dec 2016)"
+        "5.2.8(i) (Dec. 2016)", 
+        "6.2.19 (Dec. 2016)"
       ], 
       "bug_data": null
     }, 
@@ -1538,7 +1577,7 @@
       "product": "Cisco Nexus 6000 Series Switches", 
       "fix": [
         "5.2.8(i) (Dec. 2016)", 
-        "6.2.19 (Dec 2016)"
+        "6.2.19 (Dec. 2016)"
       ], 
       "bug_data": null
     }, 
@@ -1547,7 +1586,7 @@
       "product": "Cisco Nexus 7000 Series Switches", 
       "fix": [
         "5.2.8(i) (Dec. 2016)", 
-        "6.2.19 (Dec 2016)"
+        "6.2.19 (Dec. 2016)"
       ], 
       "bug_data": null
     }, 
@@ -1612,7 +1651,7 @@
       "bug_id": "CSCvb48646", 
       "product": "Cisco onePK All-in-One Virtual Machine", 
       "fix": [
-        "Customers are advised to keep the software in their virtual machine installations up to date by using the software upgrade utilities provided by the operating system"
+        "Customers are advised to keep the software in their virtual machine installations up to date using the software upgrade utilities provided by the operating system."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1637,7 +1676,7 @@
       "bug_id": "CSCvb48660", 
       "product": "Cisco 500 Series Stackable (Sx500) Managed Switches", 
       "fix": [
-        "No fix is expected"
+        "No Fix Expected"
       ], 
       "bug_data": null
     }, 
@@ -1645,7 +1684,7 @@
       "bug_id": "CSCvb48659", 
       "product": "Cisco Small Business 300 Series (Sx300) Managed Switches", 
       "fix": [
-        "No fix is expected"
+        "No Fix Expected"
       ], 
       "bug_data": null
     }, 
@@ -1653,7 +1692,7 @@
       "bug_id": "CSCvb48520", 
       "product": "Cisco Common Services Platform Collector", 
       "fix": [
-        "CASP 1.11 (Dec 2016)"
+        "CASP 1.11 (Dec-2016)"
       ], 
       "bug_data": null
     }, 
@@ -1667,7 +1706,9 @@
         "affected_releases": [
           "3.1(1a)A"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "3.1(3a)"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Unified Computing System"
       }
@@ -1676,13 +1717,15 @@
       "bug_id": "CSCvb48577", 
       "product": "Cisco UCS B-Series Blade Servers", 
       "fix": [
-        "3.1.3: To be determined"
+        "3.1.3: TBD"
       ], 
       "bug_data": {
         "affected_releases": [
           "3.1(2b)B"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "3.1(3a)"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Unified Computing System"
       }
@@ -1706,7 +1749,7 @@
       "bug_id": "CSCvb48645", 
       "product": "Cisco UCS Manager", 
       "fix": [
-        "Affected versions will be fixed (15-Dec-2016)"
+        "Effected Versions will be fixed (15-Dec-2016)"
       ], 
       "bug_data": null
     }, 
@@ -1885,7 +1928,7 @@
       "bug_id": "CSCvb48628", 
       "product": "Cisco IP Interoperability and Collaboration System (IPICS)", 
       "fix": [
-        "5.0.2 (14-Apr-2017)"
+        "5.0.2 (14-April-2017)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1931,7 +1974,7 @@
       "bug_id": "CSCvb48530", 
       "product": "Cisco Packaged Contact Center Enterprise", 
       "fix": [
-        "No fix is expected"
+        "No Fix Expected"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1955,7 +1998,7 @@
       "bug_id": "CSCvb48704", 
       "product": "Cisco Paging Server (InformaCast)", 
       "fix": [
-        "All affected versions will be fixed (Oct 2016)"
+        "All affected versions will be fixed (Oct-2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1972,7 +2015,7 @@
       "bug_id": "CSCvb48704", 
       "product": "Cisco Paging Server", 
       "fix": [
-        "All affected versions will be fixed (Oct 2016)"
+        "All affected versions will be fixed (Oct-2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -2013,7 +2056,7 @@
       "bug_id": "CSCvb48657", 
       "product": "Cisco SPA525G 5-Line IP Phone", 
       "fix": [
-        "No fix is expected"
+        "No Fix Expected"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -2028,7 +2071,7 @@
       "bug_id": "CSCvb48692", 
       "product": "Cisco TAPI Service Provider (TSP)", 
       "fix": [
-        "No fix is expected"
+        "No Fix Expected"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -2177,7 +2220,9 @@
     {
       "bug_id": "CSCvb48689", 
       "product": "Cisco Unified Attendant Console Standard", 
-      "fix": [], 
+      "fix": [
+        "11.0.2 patch (Available)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "10.0", 
@@ -2384,7 +2429,7 @@
       "bug_id": "CSCvb48724", 
       "product": "Cisco Unified IP 7900 Series Phones", 
       "fix": [
-        "No fix is expected"
+        "No fix is expected."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -2507,7 +2552,7 @@
       "bug_id": "CSCvb48516", 
       "product": "Cisco Unified SIP Proxy Software", 
       "fix": [
-        "10.0 (Mar 2017)"
+        "10.0 (Mar-2017)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -2773,7 +2818,7 @@
       "bug_id": "CSCvb48605", 
       "product": "Cisco Media Services Interface", 
       "fix": [
-        "No fix is expected"
+        "No fix is expected."
       ], 
       "bug_data": null
     }, 
@@ -2781,7 +2826,7 @@
       "bug_id": "CSCvb48621", 
       "product": "Cisco Show and Share", 
       "fix": [
-        "No fix is expected"
+        "No Fix Expected"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -2801,7 +2846,9 @@
     {
       "bug_id": "CSCvb48607", 
       "product": "Cisco TelePresence Conductor", 
-      "fix": [], 
+      "fix": [
+        "XC4.3.1 (29-Mach-2017)"
+      ], 
       "bug_data": null
     }, 
     {
@@ -2826,7 +2873,7 @@
       "bug_id": "CSCvb48611", 
       "product": "Cisco TelePresence ISDN Gateway 3241", 
       "fix": [
-        "1.0.1u (20-Jan-2017)"
+        "2.2(1.122)  (31-March-2017)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -2843,7 +2890,7 @@
       "bug_id": "CSCvb48611", 
       "product": "Cisco TelePresence ISDN Gateway MSE 8321", 
       "fix": [
-        "1.0.1u (20-Jan-2017)"
+        "2.2(1.122)  (31-March-2017)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -2892,8 +2939,7 @@
       "bug_id": "CSCvb51602", 
       "product": "Cisco TelePresence MX Series", 
       "fix": [
-        "TC7.3.7 (Fix available)", 
-        "CE8.2.2 (Oct 2016)"
+        "TC7.3.7 (Fix Available Now) CE8.2.2 (Oct.2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -2912,8 +2958,7 @@
       "bug_id": "CSCvb51602", 
       "product": "Cisco TelePresence Profile Series", 
       "fix": [
-        "TC7.3.7 (Fix available)", 
-        "CE8.2.2 (Oct 2016)"
+        "TC7.3.7 (Fix Available Now) CE8.2.2 (Oct.2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -2932,8 +2977,7 @@
       "bug_id": "CSCvb51602", 
       "product": "Cisco TelePresence SX Series", 
       "fix": [
-        "TC7.3.7 (Fix available)", 
-        "CE8.2.2 (Oct 2016)"
+        "TC7.3.7 (Fix Available Now) CE8.2.2 (Oct.2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -3087,8 +3131,7 @@
       "bug_id": "CSCvb51602", 
       "product": "Cisco TelePresence System EX Series", 
       "fix": [
-        "TC7.3.7 (Fix available)", 
-        "CE8.2.2 (Oct 2016)"
+        "TC7.3.7 (Fix Available Now) CE8.2.2 (Oct.2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -3140,8 +3183,7 @@
       "bug_id": "CSCvb51602", 
       "product": "Cisco Telepresence Integrator C Series", 
       "fix": [
-        "TC7.3.7 (Fix available)", 
-        "CE8.2.2 (Oct 2016)"
+        "TC7.3.7 (Fix Available Now) CE8.2.2 (Oct.2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -3160,7 +3202,7 @@
       "bug_id": "CSCvb48631", 
       "product": "Cisco Video Distribution Suite for Internet Streaming (VDS-IS/CDS-IS)", 
       "fix": [
-        "4.003(002)  (Oct 2016)"
+        "4.003(002)  (Oct. 2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -3367,7 +3409,7 @@
       "bug_id": "CSCvb48677", 
       "product": "Cisco Videoscape AnyRes Live", 
       "fix": [
-        "CAL 9.7.2 (Oct 2016)"
+        "CAL 9.7.2 (Oct. 2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -3397,7 +3439,7 @@
       "bug_id": "CSCvb48611", 
       "product": "Tandberg Codian ISDN Gateway 3210, 3220, and 3240", 
       "fix": [
-        "1.0.1u (20-Jan-2017)"
+        "2.2(1.122)  (31-March-2017)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -3414,7 +3456,7 @@
       "bug_id": "CSCvb48611", 
       "product": "Tandberg Codian MSE 8320", 
       "fix": [
-        "1.0.1u (20-Jan-2017)"
+        "2.2(1.122)  (31-March-2017)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -3428,11 +3470,458 @@
       }
     }, 
     {
+      "bug_id": "CSCvd82146", 
+      "product": "Cisco 5760 Wireless LAN Controller", 
+      "fix": [
+        "No Fix is Expected"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "10.2(160.0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco 5700 Series Wireless LAN Controllers"
+      }
+    }, 
+    {
       "bug_id": "CSCvb48583", 
-      "product": "Cisco Aironet 2700 Series Access Points", 
+      "product": "Cisco Aironet 1040 Series", 
       "fix": [
         "16.4 (20-Oct-2016)", 
-        "16.3 (20-Oct-2016)", 
+        "16.3 (20-OCt-2016)", 
+        "16.2 (25-Oct-2016)", 
+        "16.1 (25-Oct-2016)", 
+        "15.5(3) (25-Oct-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "16.4"
+        ], 
+        "fixed_releases": [
+          "15.4(1)IC1.35", 
+          "16.3(1.83)", 
+          "16.3(3.10)", 
+          "16.3.3", 
+          "16.4(1.4)", 
+          "16.5(0.76)", 
+          "Denali-16.3.3"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco IOS"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48583", 
+      "product": "Cisco Aironet 1130 AG Series", 
+      "fix": [
+        "16.4 (20-Oct-2016)", 
+        "16.3 (20-OCt-2016)", 
+        "16.2 (25-Oct-2016)", 
+        "16.1 (25-Oct-2016)", 
+        "15.5(3) (25-Oct-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "16.4"
+        ], 
+        "fixed_releases": [
+          "15.4(1)IC1.35", 
+          "16.3(1.83)", 
+          "16.3(3.10)", 
+          "16.3.3", 
+          "16.4(1.4)", 
+          "16.5(0.76)", 
+          "Denali-16.3.3"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco IOS"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48583", 
+      "product": "Cisco Aironet 1140 Series", 
+      "fix": [
+        "16.4 (20-Oct-2016)", 
+        "16.3 (20-OCt-2016)", 
+        "16.2 (25-Oct-2016)", 
+        "16.1 (25-Oct-2016)", 
+        "15.5(3) (25-Oct-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "16.4"
+        ], 
+        "fixed_releases": [
+          "15.4(1)IC1.35", 
+          "16.3(1.83)", 
+          "16.3(3.10)", 
+          "16.3.3", 
+          "16.4(1.4)", 
+          "16.5(0.76)", 
+          "Denali-16.3.3"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco IOS"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48583", 
+      "product": "Cisco Aironet 1200 Series", 
+      "fix": [
+        "16.4 (20-Oct-2016)", 
+        "16.3 (20-OCt-2016)", 
+        "16.2 (25-Oct-2016)", 
+        "16.1 (25-Oct-2016)", 
+        "15.5(3) (25-Oct-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "16.4"
+        ], 
+        "fixed_releases": [
+          "15.4(1)IC1.35", 
+          "16.3(1.83)", 
+          "16.3(3.10)", 
+          "16.3.3", 
+          "16.4(1.4)", 
+          "16.5(0.76)", 
+          "Denali-16.3.3"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco IOS"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48583", 
+      "product": "Cisco Aironet 1530 Series", 
+      "fix": [
+        "16.4 (20-Oct-2016)", 
+        "16.3 (20-OCt-2016)", 
+        "16.2 (25-Oct-2016)", 
+        "16.1 (25-Oct-2016)", 
+        "15.5(3) (25-Oct-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "16.4"
+        ], 
+        "fixed_releases": [
+          "15.4(1)IC1.35", 
+          "16.3(1.83)", 
+          "16.3(3.10)", 
+          "16.3.3", 
+          "16.4(1.4)", 
+          "16.5(0.76)", 
+          "Denali-16.3.3"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco IOS"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48583", 
+      "product": "Cisco Aironet 1550 Series", 
+      "fix": [
+        "16.4 (20-Oct-2016)", 
+        "16.3 (20-OCt-2016)", 
+        "16.2 (25-Oct-2016)", 
+        "16.1 (25-Oct-2016)", 
+        "15.5(3) (25-Oct-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "16.4"
+        ], 
+        "fixed_releases": [
+          "15.4(1)IC1.35", 
+          "16.3(1.83)", 
+          "16.3(3.10)", 
+          "16.3.3", 
+          "16.4(1.4)", 
+          "16.5(0.76)", 
+          "Denali-16.3.3"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco IOS"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48583", 
+      "product": "Cisco Aironet 1570 Series", 
+      "fix": [
+        "16.4 (20-Oct-2016)", 
+        "16.3 (20-OCt-2016)", 
+        "16.2 (25-Oct-2016)", 
+        "16.1 (25-Oct-2016)", 
+        "15.5(3) (25-Oct-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "16.4"
+        ], 
+        "fixed_releases": [
+          "15.4(1)IC1.35", 
+          "16.3(1.83)", 
+          "16.3(3.10)", 
+          "16.3.3", 
+          "16.4(1.4)", 
+          "16.5(0.76)", 
+          "Denali-16.3.3"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco IOS"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48583", 
+      "product": "Cisco Aironet 1600 Series", 
+      "fix": [
+        "16.4 (20-Oct-2016)", 
+        "16.3 (20-OCt-2016)", 
+        "16.2 (25-Oct-2016)", 
+        "16.1 (25-Oct-2016)", 
+        "15.5(3) (25-Oct-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "16.4"
+        ], 
+        "fixed_releases": [
+          "15.4(1)IC1.35", 
+          "16.3(1.83)", 
+          "16.3(3.10)", 
+          "16.3.3", 
+          "16.4(1.4)", 
+          "16.5(0.76)", 
+          "Denali-16.3.3"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco IOS"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48583", 
+      "product": "Cisco Aironet 1700 Series", 
+      "fix": [
+        "16.4 (20-Oct-2016)", 
+        "16.3 (20-OCt-2016)", 
+        "16.2 (25-Oct-2016)", 
+        "16.1 (25-Oct-2016)", 
+        "15.5(3) (25-Oct-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "16.4"
+        ], 
+        "fixed_releases": [
+          "15.4(1)IC1.35", 
+          "16.3(1.83)", 
+          "16.3(3.10)", 
+          "16.3.3", 
+          "16.4(1.4)", 
+          "16.5(0.76)", 
+          "Denali-16.3.3"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco IOS"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48583", 
+      "product": "Cisco Aironet 2600 Series", 
+      "fix": [
+        "16.4 (20-Oct-2016)", 
+        "16.3 (20-OCt-2016)", 
+        "16.2 (25-Oct-2016)", 
+        "16.1 (25-Oct-2016)", 
+        "15.5(3) (25-Oct-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "16.4"
+        ], 
+        "fixed_releases": [
+          "15.4(1)IC1.35", 
+          "16.3(1.83)", 
+          "16.3(3.10)", 
+          "16.3.3", 
+          "16.4(1.4)", 
+          "16.5(0.76)", 
+          "Denali-16.3.3"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco IOS"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48583", 
+      "product": "Cisco Aironet 2700 Series", 
+      "fix": [
+        "16.4 (20-Oct-2016)", 
+        "16.3 (20-OCt-2016)", 
+        "16.2 (25-Oct-2016)", 
+        "16.1 (25-Oct-2016)", 
+        "15.5(3) (25-Oct-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "16.4"
+        ], 
+        "fixed_releases": [
+          "15.4(1)IC1.35", 
+          "16.3(1.83)", 
+          "16.3(3.10)", 
+          "16.3.3", 
+          "16.4(1.4)", 
+          "16.5(0.76)", 
+          "Denali-16.3.3"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco IOS"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48583", 
+      "product": "Cisco Aironet 3500 Series", 
+      "fix": [
+        "16.4 (20-Oct-2016)", 
+        "16.3 (20-OCt-2016)", 
+        "16.2 (25-Oct-2016)", 
+        "16.1 (25-Oct-2016)", 
+        "15.5(3) (25-Oct-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "16.4"
+        ], 
+        "fixed_releases": [
+          "15.4(1)IC1.35", 
+          "16.3(1.83)", 
+          "16.3(3.10)", 
+          "16.3.3", 
+          "16.4(1.4)", 
+          "16.5(0.76)", 
+          "Denali-16.3.3"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco IOS"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48583", 
+      "product": "Cisco Aironet 3600 Series", 
+      "fix": [
+        "16.4 (20-Oct-2016)", 
+        "16.3 (20-OCt-2016)", 
+        "16.2 (25-Oct-2016)", 
+        "16.1 (25-Oct-2016)", 
+        "15.5(3) (25-Oct-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "16.4"
+        ], 
+        "fixed_releases": [
+          "15.4(1)IC1.35", 
+          "16.3(1.83)", 
+          "16.3(3.10)", 
+          "16.3.3", 
+          "16.4(1.4)", 
+          "16.5(0.76)", 
+          "Denali-16.3.3"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco IOS"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48583", 
+      "product": "Cisco Aironet 3700 Series", 
+      "fix": [
+        "16.4 (20-Oct-2016)", 
+        "16.3 (20-OCt-2016)", 
+        "16.2 (25-Oct-2016)", 
+        "16.1 (25-Oct-2016)", 
+        "15.5(3) (25-Oct-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "16.4"
+        ], 
+        "fixed_releases": [
+          "15.4(1)IC1.35", 
+          "16.3(1.83)", 
+          "16.3(3.10)", 
+          "16.3.3", 
+          "16.4(1.4)", 
+          "16.5(0.76)", 
+          "Denali-16.3.3"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco IOS"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48583", 
+      "product": "Cisco Aironet 700 Series", 
+      "fix": [
+        "16.4 (20-Oct-2016)", 
+        "16.3 (20-OCt-2016)", 
+        "16.2 (25-Oct-2016)", 
+        "16.1 (25-Oct-2016)", 
+        "15.5(3) (25-Oct-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "16.4"
+        ], 
+        "fixed_releases": [
+          "15.4(1)IC1.35", 
+          "16.3(1.83)", 
+          "16.3(3.10)", 
+          "16.3.3", 
+          "16.4(1.4)", 
+          "16.5(0.76)", 
+          "Denali-16.3.3"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco IOS"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48583", 
+      "product": "Cisco Aironet 700W Series", 
+      "fix": [
+        "16.4 (20-Oct-2016)", 
+        "16.3 (20-OCt-2016)", 
+        "16.2 (25-Oct-2016)", 
+        "16.1 (25-Oct-2016)", 
+        "15.5(3) (25-Oct-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "16.4"
+        ], 
+        "fixed_releases": [
+          "15.4(1)IC1.35", 
+          "16.3(1.83)", 
+          "16.3(3.10)", 
+          "16.3.3", 
+          "16.4(1.4)", 
+          "16.5(0.76)", 
+          "Denali-16.3.3"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco IOS"
+      }
+    }, 
+    {
+      "bug_id": "CSCvb48583", 
+      "product": "Cisco Industrial Wireless 3700 Series", 
+      "fix": [
+        "16.4 (20-Oct-2016)", 
+        "16.3 (20-OCt-2016)", 
         "16.2 (25-Oct-2016)", 
         "16.1 (25-Oct-2016)", 
         "15.5(3) (25-Oct-2016)"
@@ -3457,7 +3946,9 @@
     {
       "bug_id": "CSCvb48592", 
       "product": "Cisco Mobility Services Engine", 
-      "fix": [], 
+      "fix": [
+        "8.0.150.0  (31-Dec-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "8.0(140.0)"
@@ -3471,8 +3962,8 @@
       "bug_id": "CSCvb48603", 
       "product": "Cisco Wireless LAN Controller", 
       "fix": [
-        "8.4 (Feb 2017)", 
-        "8.3 (Feb 2017)"
+        "8.4 (Feb. 2017)", 
+        "8.3 (Feb. 2017)"
       ], 
       "bug_data": null
     }, 
@@ -3501,7 +3992,7 @@
       "bug_id": "CSCvb48641", 
       "product": "Cisco Partner Support Service 1.x", 
       "fix": [
-        "No fix is expected"
+        "No Fix Expected"
       ], 
       "bug_data": null
     }, 
@@ -3509,7 +4000,7 @@
       "bug_id": "CSCvb48523", 
       "product": "Cisco Proactive Network Operations Center", 
       "fix": [
-        "No fix is expected"
+        "No Fix is Expected"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -3524,7 +4015,7 @@
       "bug_id": "CSCvb48531", 
       "product": "Cisco Registered Envelope Service", 
       "fix": [
-        "Affected services have been updated"
+        "Affected services have been updated."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -3547,7 +4038,7 @@
       "bug_id": "CSCvb48639", 
       "product": "Cisco Smart Care", 
       "fix": [
-        "No fix is expected"
+        "No Fix Expected"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -3637,7 +4128,7 @@
       "bug_id": "CSCvb48556", 
       "product": "Cisco WebEx Meeting Center", 
       "fix": [
-        "WebEx11 v1.3.26 (31-Dec-2016)"
+        "WebEx11 v1.3.26 31-Dec-2016"
       ], 
       "bug_data": null
     }, 
@@ -3645,7 +4136,7 @@
       "bug_id": "CSCvb48551", 
       "product": "Cisco WebEx Messenger Service", 
       "fix": [
-        "Affected versions have been updated"
+        "Affected versions have been updated."
       ], 
       "bug_data": {
         "affected_releases": [
