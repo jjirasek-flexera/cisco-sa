@@ -1,0 +1,33 @@
+{
+  "version": "1.0", 
+  "products": [
+    {
+      "bug_id": "CSCve61674", 
+      "product": "Cisco Network Analysis Module", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "6.2(1b)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Prime Network Analysis Module Software"
+      }
+    }, 
+    {
+      "bug_id": "CSCve61680", 
+      "product": "Cisco Video Surveillance Media Server", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "7.7", 
+          "7.8", 
+          "7.9"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Video Surveillance Manager"
+      }
+    }
+  ]
+}
