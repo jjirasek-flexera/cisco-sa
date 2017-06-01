@@ -1,5 +1,5 @@
 {
-  "version": "1.6", 
+  "version": "1.7", 
   "products": [
     {
       "bug_id": "CSCvb85516", 
@@ -16,7 +16,12 @@
           "2.6", 
           "2.7"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "2.5.1.6206", 
+          "2.7.1.2048", 
+          "2.8.1.12", 
+          "2.8.1.17"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco WebEx Meetings Server"
       }
@@ -36,7 +41,12 @@
           "2.6", 
           "2.7"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "2.5.1.6206", 
+          "2.7.1.2048", 
+          "2.8.1.12", 
+          "2.8.1.17"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco WebEx Meetings Server"
       }
@@ -112,7 +122,7 @@
         ], 
         "fixed_releases": [], 
         "status": "Fixed", 
-        "product_name": "Cisco Policy Suite for Mobile"
+        "product_name": "Cisco Mobility Services Engine"
       }
     }, 
     {
@@ -157,7 +167,8 @@
         "fixed_releases": [
           "10.1(1.44)S0", 
           "10.1(1.45)S0", 
-          "10.1(1.47)S0"
+          "10.1(1.47)S0", 
+          "10.1(2)S2"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco Data Center Network Manager"
@@ -171,7 +182,9 @@
         "affected_releases": [
           "11.1.1"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "11.1.1_VA_OS_Patch"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Prime Service Catalog"
       }
@@ -204,7 +217,10 @@
           "2.2(0.166b)"
         ], 
         "fixed_releases": [
-          "2.2(0.206a)"
+          "2.1(1.1)", 
+          "2.1(2e)", 
+          "2.2(0.206a)", 
+          "2.2(1k)"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco Application Policy Infrastructure Controller (APIC)"
@@ -234,7 +250,7 @@
           "15.0"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco ASR 5000 Series"
       }
     }, 
@@ -247,25 +263,13 @@
           "12.1(1h)"
         ], 
         "fixed_releases": [
-          "12.2(0.93)"
+          "12.1(1.54)", 
+          "12.2(0.93)", 
+          "12.2(1.66)", 
+          "12.3(0.37)"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco LAN Switch Software"
-      }
-    }, 
-    {
-      "bug_id": "CSCvb85692", 
-      "product": "Cisco Service Control Operating System", 
-      "fix": [
-        "5.002 (23-Jan-2017)"
-      ], 
-      "bug_data": {
-        "affected_releases": [
-          "12.4(5.2)"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco SCE 8000 Series Service Control Engine"
       }
     }, 
     {
@@ -305,8 +309,10 @@
         "affected_releases": [
           "5.5(0.0)"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "6.0(1.0)"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco UCS Director"
       }
     }, 
@@ -337,7 +343,7 @@
         ], 
         "fixed_releases": [], 
         "status": "Open", 
-        "product_name": "Cisco Small Business Voice Gateways and ATAs"
+        "product_name": "Cisco IP Phone 7800 Series"
       }
     }, 
     {
@@ -364,7 +370,7 @@
           "5.0(2)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco IPICS Server Software"
       }
     }, 
@@ -487,8 +493,19 @@
         "affected_releases": [
           "3.9(106)"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "cos-03.11(0.61)", 
+          "cos-03.11(103.51)", 
+          "cos-03.11(104.53)", 
+          "cos-03.13(0.10)", 
+          "cos-03.13(1088.11)", 
+          "cos-03.13(1088.6)", 
+          "cos-03.13(1147.17)", 
+          "cos-03.13(740.18)", 
+          "cos-03.13(802.4)", 
+          "cos-03.13(973.2)"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco Content Delivery Engine Series"
       }
     }, 
@@ -506,8 +523,7 @@
           "17.10.19", 
           "18.0.11", 
           "18.10.11", 
-          "19.0.3", 
-          "19.10.0"
+          "19.0.3"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco Digital Content Manager (DCM) Software"
@@ -523,7 +539,9 @@
         "affected_releases": [
           "1.6RB4(4)"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "1.6RB(5)"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Edge 300 Series Digital Media Player"
       }
@@ -539,7 +557,9 @@
           "1.2RB(1)", 
           "1.2RB(1.1)"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "1.2RB1(5)"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco E340 Series Digital Media Player"
       }
@@ -587,8 +607,11 @@
           "999.999"
         ], 
         "fixed_releases": [
+          "ccdms-04.3(101.10)", 
           "ccdms-04.5(0.17)", 
+          "ccdss-04.3(101.10)", 
           "ccdss-04.5(0.17)", 
+          "cde-04.3(101.10)", 
           "cde-04.5(0.17)"
         ], 
         "status": "Fixed", 
@@ -606,8 +629,11 @@
           "999.999"
         ], 
         "fixed_releases": [
+          "ccdms-04.3(101.10)", 
           "ccdms-04.5(0.17)", 
+          "ccdss-04.3(101.10)", 
           "ccdss-04.5(0.17)", 
+          "cde-04.3(101.10)", 
           "cde-04.5(0.17)"
         ], 
         "status": "Fixed", 
@@ -625,8 +651,11 @@
           "999.999"
         ], 
         "fixed_releases": [
+          "ccdms-04.3(101.10)", 
           "ccdms-04.5(0.17)", 
+          "ccdss-04.3(101.10)", 
           "ccdss-04.5(0.17)", 
+          "cde-04.3(101.10)", 
           "cde-04.5(0.17)"
         ], 
         "status": "Fixed", 
@@ -644,8 +673,11 @@
           "999.999"
         ], 
         "fixed_releases": [
+          "ccdms-04.3(101.10)", 
           "ccdms-04.5(0.17)", 
+          "ccdss-04.3(101.10)", 
           "ccdss-04.5(0.17)", 
+          "cde-04.3(101.10)", 
           "cde-04.5(0.17)"
         ], 
         "status": "Fixed", 
@@ -694,7 +726,7 @@
           "4.1(5)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Terminated", 
         "product_name": "Cisco Content Delivery Engine Series"
       }
     }, 
@@ -709,7 +741,7 @@
           "8.0(140.0)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Mobility Services Engine"
       }
     }, 
@@ -729,7 +761,9 @@
         "affected_releases": [
           "1.1(0)"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "1.2"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Network Optimization Service"
       }
