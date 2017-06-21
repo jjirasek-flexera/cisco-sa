@@ -1,5 +1,5 @@
 {
-  "version": "2.7", 
+  "version": "2.8", 
   "products": [
     {
       "bug_id": "CSCvc98364", 
@@ -10,7 +10,7 @@
           "11.5(1)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco SocialMiner"
       }
     }, 
@@ -64,7 +64,9 @@
         "affected_releases": [
           "11.0(0)"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "11.0(1)"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Jabber Guest"
       }
@@ -171,7 +173,10 @@
           "T30", 
           "T31"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "T31", 
+          "T31R2"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco WebEx Meetings"
       }
@@ -242,7 +247,7 @@
           "2.2(0.470)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Identity Services Engine (ISE) 3300 Series Appliances"
       }
     }, 
@@ -342,7 +347,7 @@
           "1.1(1a)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Terminated", 
         "product_name": "Cisco NetFlow Generation 3000 Series Appliances"
       }
     }, 
@@ -358,7 +363,7 @@
           "6.2(1)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Terminated", 
         "product_name": "Cisco Prime Network Analysis Module Software"
       }
     }, 
@@ -373,7 +378,7 @@
           "7.2(1)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Access Registrar"
       }
     }, 
@@ -405,12 +410,14 @@
           "12.0(0.98000.509)"
         ], 
         "fixed_releases": [
+          "0.0(0.11111.3)", 
           "11.5(1.13900.4)", 
           "11.5(1.13900.6)", 
           "11.6(2.10000.1)", 
           "12.0(0.98000.260)", 
           "12.0(0.98000.583)", 
           "12.0(0.98000.746)", 
+          "CCM.11.5(1.13048.1)", 
           "CUC.12.0(0.97000.184)"
         ], 
         "status": "Fixed", 
@@ -445,7 +452,9 @@
           "8.3(4)", 
           "9.0"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "8.3(5)"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Network Registrar"
       }
@@ -494,7 +503,9 @@
           "8.3(4)", 
           "9.0"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "8.3(5)"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Network Registrar"
       }
@@ -509,7 +520,9 @@
         "affected_releases": [
           "10.6(1)"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "10.6(1)"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Prime Optical"
       }
@@ -548,7 +561,7 @@
           "11.5(1)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Intelligence Center"
       }
     }, 
@@ -609,8 +622,26 @@
     {
       "bug_id": "CSCvc94649", 
       "product": "Cisco IOS XR Software", 
-      "fix": [], 
-      "bug_data": null
+      "fix": [
+        "6.3.1"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "4.3.0.BASE", 
+          "4.4.0.BASE", 
+          "5.0.0.BASE", 
+          "5.1.0.BASE", 
+          "5.2.0.BASE", 
+          "5.3.0.BASE", 
+          "5.4.0.BASE", 
+          "6.0.0.BASE", 
+          "6.1.0.BASE", 
+          "6.2.0.BASE"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Carrier Routing System"
+      }
     }, 
     {
       "bug_id": "CSCvc94729", 
@@ -645,6 +676,7 @@
           "8.0(1)"
         ], 
         "fixed_releases": [
+          "7.0(3)F2(0.90)", 
           "7.0(3)I4(6.25)", 
           "7.0(3)I4(7)", 
           "7.0(3)I6(0.117)"
@@ -675,6 +707,7 @@
           "8.0(1)"
         ], 
         "fixed_releases": [
+          "7.0(3)F2(0.90)", 
           "7.0(3)I4(6.25)", 
           "7.0(3)I4(7)", 
           "7.0(3)I6(0.117)"
@@ -743,6 +776,7 @@
           "8.0(1)"
         ], 
         "fixed_releases": [
+          "7.0(3)F2(0.90)", 
           "7.0(3)I4(6.25)", 
           "7.0(3)I4(7)", 
           "7.0(3)I6(0.117)"
@@ -788,6 +822,7 @@
           "8.0(1)"
         ], 
         "fixed_releases": [
+          "7.0(3)F2(0.90)", 
           "7.0(3)I4(6.25)", 
           "7.0(3)I4(7)", 
           "7.0(3)I6(0.117)"
@@ -818,6 +853,7 @@
           "8.0(1)"
         ], 
         "fixed_releases": [
+          "7.0(3)F2(0.90)", 
           "7.0(3)I4(6.25)", 
           "7.0(3)I4(7)", 
           "7.0(3)I6(0.117)"
@@ -912,7 +948,9 @@
         "affected_releases": [
           "3.1(2.198)A"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "3.1(3a)"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Unified Computing System"
       }
@@ -974,7 +1012,7 @@
           "11.5(1)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Finesse"
       }
     }, 
@@ -999,14 +1037,7 @@
       "fix": [
         "12.0 (31-Aug-2017)"
       ], 
-      "bug_data": {
-        "affected_releases": [
-          "11.7(1)"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco IP Phone 7800 Series"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCvc94767", 
@@ -1014,14 +1045,7 @@
       "fix": [
         "12.0 (12-DEC-2017)"
       ], 
-      "bug_data": {
-        "affected_releases": [
-          "11.7(1)"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco IP Phone 8800 Series"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCvc98372", 
@@ -1034,7 +1058,7 @@
           "11.5(1)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco MediaSense"
       }
     }, 
@@ -1057,7 +1081,7 @@
           "9.1"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Attendant Consoles"
       }
     }, 
@@ -1080,7 +1104,7 @@
           "9.1"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Attendant Consoles"
       }
     }, 
@@ -1103,7 +1127,7 @@
           "9.1"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Attendant Consoles"
       }
     }, 
@@ -1126,7 +1150,7 @@
           "9.1"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Attendant Consoles"
       }
     }, 
@@ -1149,7 +1173,7 @@
           "9.1"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Attendant Consoles"
       }
     }, 
@@ -1162,6 +1186,7 @@
           "12.0(1)"
         ], 
         "fixed_releases": [
+          "11.5(1.13900.28)", 
           "12.0(0.98000.816)", 
           "12.0(0.98000.818)"
         ], 
@@ -1179,12 +1204,14 @@
           "12.0(0.98000.509)"
         ], 
         "fixed_releases": [
+          "0.0(0.11111.3)", 
           "11.5(1.13900.4)", 
           "11.5(1.13900.6)", 
           "11.6(2.10000.1)", 
           "12.0(0.98000.260)", 
           "12.0(0.98000.583)", 
           "12.0(0.98000.746)", 
+          "CCM.11.5(1.13048.1)", 
           "CUC.12.0(0.97000.184)"
         ], 
         "status": "Fixed", 
@@ -1201,12 +1228,14 @@
           "12.0(0.98000.509)"
         ], 
         "fixed_releases": [
+          "0.0(0.11111.3)", 
           "11.5(1.13900.4)", 
           "11.5(1.13900.6)", 
           "11.6(2.10000.1)", 
           "12.0(0.98000.260)", 
           "12.0(0.98000.583)", 
           "12.0(0.98000.746)", 
+          "CCM.11.5(1.13048.1)", 
           "CUC.12.0(0.97000.184)"
         ], 
         "status": "Fixed", 
@@ -1254,7 +1283,7 @@
           "9.4(2)SR3"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Terminated", 
         "product_name": "Cisco Unified IP Phone 6900 Series"
       }
     }, 
@@ -1304,7 +1333,7 @@
           "11.5(1)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Contact Center Enterprise"
       }
     }, 
@@ -1383,7 +1412,9 @@
           "1.2RB(1)", 
           "1.2RB(1.1)"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "1.2RB(3)"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco E340 Series Digital Media Player"
       }
@@ -1432,7 +1463,7 @@
           "8.3.0"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Telepresence Integrator C Series"
       }
     }, 
@@ -1449,7 +1480,7 @@
           "8.3.0"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Telepresence Integrator C Series"
       }
     }, 
@@ -1466,7 +1497,7 @@
           "8.3.0"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Telepresence Integrator C Series"
       }
     }, 
@@ -1573,7 +1604,7 @@
           "8.3.0"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Telepresence Integrator C Series"
       }
     }, 
@@ -1643,7 +1674,7 @@
           "8.3.0"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Telepresence Integrator C Series"
       }
     }, 
@@ -1682,7 +1713,9 @@
         "affected_releases": [
           "9.7.3"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "CAL9.7"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco AS Series Media Processor Software"
       }
@@ -1722,7 +1755,10 @@
           "8.5(1.61)"
         ], 
         "fixed_releases": [
+          "8.0(141.33)", 
+          "8.2(154.28)", 
           "8.3(114.44)", 
+          "8.3(121.0)", 
           "8.5(1.87)"
         ], 
         "status": "Fixed", 
