@@ -1,5 +1,5 @@
 {
-  "version": "2.8", 
+  "version": "2.9", 
   "products": [
     {
       "bug_id": "CSCvc98364", 
@@ -453,7 +453,8 @@
           "9.0"
         ], 
         "fixed_releases": [
-          "8.3(5)"
+          "8.3(5)", 
+          "9.1"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco Network Registrar"
@@ -504,7 +505,8 @@
           "9.0"
         ], 
         "fixed_releases": [
-          "8.3(5)"
+          "8.3(5)", 
+          "9.1"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco Network Registrar"
@@ -679,7 +681,9 @@
           "7.0(3)F2(0.90)", 
           "7.0(3)I4(6.25)", 
           "7.0(3)I4(7)", 
-          "7.0(3)I6(0.117)"
+          "7.0(3)I6(0.117)", 
+          "7.0(3)IBB6(0)", 
+          "7.0(3)IBB6(0.3)"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco Nexus 7000 Series Switches"
@@ -710,7 +714,9 @@
           "7.0(3)F2(0.90)", 
           "7.0(3)I4(6.25)", 
           "7.0(3)I4(7)", 
-          "7.0(3)I6(0.117)"
+          "7.0(3)I6(0.117)", 
+          "7.0(3)IBB6(0)", 
+          "7.0(3)IBB6(0.3)"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco Nexus 7000 Series Switches"
@@ -722,7 +728,12 @@
       "fix": [
         "No Fix Expected"
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco Intercloud Fabric"
+      }
     }, 
     {
       "bug_id": "CSCvc94609", 
@@ -779,7 +790,9 @@
           "7.0(3)F2(0.90)", 
           "7.0(3)I4(6.25)", 
           "7.0(3)I4(7)", 
-          "7.0(3)I6(0.117)"
+          "7.0(3)I6(0.117)", 
+          "7.0(3)IBB6(0)", 
+          "7.0(3)IBB6(0.3)"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco Nexus 7000 Series Switches"
@@ -825,7 +838,9 @@
           "7.0(3)F2(0.90)", 
           "7.0(3)I4(6.25)", 
           "7.0(3)I4(7)", 
-          "7.0(3)I6(0.117)"
+          "7.0(3)I6(0.117)", 
+          "7.0(3)IBB6(0)", 
+          "7.0(3)IBB6(0.3)"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco Nexus 7000 Series Switches"
@@ -856,7 +871,9 @@
           "7.0(3)F2(0.90)", 
           "7.0(3)I4(6.25)", 
           "7.0(3)I4(7)", 
-          "7.0(3)I6(0.117)"
+          "7.0(3)I6(0.117)", 
+          "7.0(3)IBB6(0)", 
+          "7.0(3)IBB6(0.3)"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco Nexus 7000 Series Switches"
@@ -984,7 +1001,12 @@
       "fix": [
         "No Fix Expected"
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco Agent Desktop"
+      }
     }, 
     {
       "bug_id": "CSCvc94749", 
@@ -1396,7 +1418,9 @@
         "affected_releases": [
           "1.6RB(5)"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "1.6RB5(3)"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Edge 300 Series Digital Media Player"
       }
@@ -1462,7 +1486,11 @@
           "7.3.x", 
           "8.3.0"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "7.3.10", 
+          "8.3.2", 
+          "9.1.1"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Telepresence Integrator C Series"
       }
@@ -1479,7 +1507,11 @@
           "7.3.x", 
           "8.3.0"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "7.3.10", 
+          "8.3.2", 
+          "9.1.1"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Telepresence Integrator C Series"
       }
@@ -1496,7 +1528,11 @@
           "7.3.x", 
           "8.3.0"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "7.3.10", 
+          "8.3.2", 
+          "9.1.1"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Telepresence Integrator C Series"
       }
@@ -1514,7 +1550,12 @@
         "1100 - CTS1.10.16(4) (10-April-2017)", 
         "3000 Series - CTS1.10.16(4) (10-April-2017)"
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco TelePresence TX9000 Series"
+      }
     }, 
     {
       "bug_id": "CSCvc94733", 
@@ -1529,7 +1570,12 @@
         "1100 - CTS1.10.16(4) (10-April-2017)", 
         "3000 Series - CTS1.10.16(4) (10-April-2017)"
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco TelePresence TX9000 Series"
+      }
     }, 
     {
       "bug_id": "CSCvc94733", 
@@ -1544,7 +1590,12 @@
         "1100 - CTS1.10.16(4) (10-April-2017)", 
         "3000 Series - CTS1.10.16(4) (10-April-2017)"
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco TelePresence TX9000 Series"
+      }
     }, 
     {
       "bug_id": "CSCvc94733", 
@@ -1559,7 +1610,12 @@
         "1100 - CTS1.10.16(4) (10-April-2017)", 
         "3000 Series - CTS1.10.16(4) (10-April-2017)"
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco TelePresence TX9000 Series"
+      }
     }, 
     {
       "bug_id": "CSCvc94733", 
@@ -1574,7 +1630,12 @@
         "1100 - CTS1.10.16(4) (10-April-2017)", 
         "3000 Series - CTS1.10.16(4) (10-April-2017)"
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco TelePresence TX9000 Series"
+      }
     }, 
     {
       "bug_id": "CSCvc94733", 
@@ -1589,7 +1650,12 @@
         "1100 - CTS1.10.16(4) (10-April-2017)", 
         "3000 Series - CTS1.10.16(4) (10-April-2017)"
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco TelePresence TX9000 Series"
+      }
     }, 
     {
       "bug_id": "CSCvc94665", 
@@ -1603,7 +1669,11 @@
           "7.3.x", 
           "8.3.0"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "7.3.10", 
+          "8.3.2", 
+          "9.1.1"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Telepresence Integrator C Series"
       }
@@ -1621,7 +1691,12 @@
         "1100 - CTS1.10.16(4) (10-April-2017)", 
         "3000 Series - CTS1.10.16(4) (10-April-2017)"
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco TelePresence TX9000 Series"
+      }
     }, 
     {
       "bug_id": "CSCvc94733", 
@@ -1636,7 +1711,12 @@
         "1100 - CTS1.10.16(4) (10-April-2017)", 
         "3000 Series - CTS1.10.16(4) (10-April-2017)"
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco TelePresence TX9000 Series"
+      }
     }, 
     {
       "bug_id": "CSCvc94669", 
@@ -1673,7 +1753,11 @@
           "7.3.x", 
           "8.3.0"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "7.3.10", 
+          "8.3.2", 
+          "9.1.1"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Telepresence Integrator C Series"
       }
@@ -1731,10 +1815,7 @@
     {
       "bug_id": "CSCvc94636", 
       "product": "Cisco Mobility Services Engine", 
-      "fix": [
-        "8.0 (15-Apr-2017)", 
-        "10.4 (31-May-2017)"
-      ], 
+      "fix": [], 
       "bug_data": {
         "affected_releases": [
           "8.0(140.0)"
@@ -1776,7 +1857,7 @@
           "7.0"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Terminated", 
         "product_name": "Applications for Cisco Unified Application Environment"
       }
     }, 
@@ -1786,7 +1867,12 @@
       "fix": [
         "No Fix Expected"
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Smart Care Service"
+      }
     }, 
     {
       "bug_id": "CSCvc94598", 
