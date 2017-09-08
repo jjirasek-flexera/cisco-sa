@@ -1,0 +1,18 @@
+{
+  "version": "1.0", 
+  "products": [
+    {
+      "bug_id": "CSCvf86138", 
+      "product": "Cisco Emergency Responder", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "12.5(0.98000.3)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Emergency Responder"
+      }
+    }
+  ]
+}
