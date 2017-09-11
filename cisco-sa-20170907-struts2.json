@@ -1,18 +1,69 @@
 {
-  "version": "1.0", 
+  "version": "1.1", 
   "products": [
     {
-      "bug_id": "CSCvf86138", 
-      "product": "Cisco Emergency Responder", 
+      "bug_id": "CSCvf86117", 
+      "product": "Cisco Digital Media Manager", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
-          "12.5(0.98000.3)"
+          "5.4.(1)RB2"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco Digital Media Manager"
+      }
+    }, 
+    {
+      "bug_id": "CSCvf86119", 
+      "product": "Cisco MXE 3500 Series Media Experience Engines*", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "3.5"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
-        "product_name": "Cisco Emergency Responder"
+        "product_name": "Cisco MXE 3000 Series (Media Experience Engines)"
       }
+    }, 
+    {
+      "bug_id": "CSCvf86098", 
+      "product": "Cisco Unified Contact Center Enterprise*", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "10.5(1)", 
+          "11.0(1)", 
+          "11.5(1)", 
+          "11.6(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Contact Center Enterprise"
+      }
+    }, 
+    {
+      "bug_id": "CSCvf86098", 
+      "product": "Cisco Unified Intelligent Contact Management Enterprise*", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "10.5(1)", 
+          "11.0(1)", 
+          "11.5(1)", 
+          "11.6(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Contact Center Enterprise"
+      }
+    }, 
+    {
+      "bug_id": "CSCvf86134", 
+      "product": "Cisco Network Performance Analysis*", 
+      "fix": [], 
+      "bug_data": null
     }
   ]
 }
