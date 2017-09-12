@@ -1,10 +1,12 @@
 {
-  "version": "1.1", 
+  "version": "1.3", 
   "products": [
     {
       "bug_id": "CSCvf86117", 
       "product": "Cisco Digital Media Manager", 
-      "fix": [], 
+      "fix": [
+        "No Fix Expected (EoSWM) (19-Aug-2016)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "5.4.(1)RB2"
@@ -16,8 +18,10 @@
     }, 
     {
       "bug_id": "CSCvf86119", 
-      "product": "Cisco MXE 3500 Series Media Experience Engines*", 
-      "fix": [], 
+      "product": "Cisco MXE 3500 Series Media Experience Engines (*)", 
+      "fix": [
+        "Fix Pending"
+      ], 
       "bug_data": {
         "affected_releases": [
           "3.5"
@@ -28,9 +32,29 @@
       }
     }, 
     {
+      "bug_id": "CSCvf86143", 
+      "product": "Cisco Hosted Collaboration Solution for Contact Center (*)", 
+      "fix": [
+        "Fix Pending"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "10.5(1)", 
+          "11.0(1)", 
+          "11.5(1)", 
+          "11.6(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Hosted Collaboration Solution for Contact Center"
+      }
+    }, 
+    {
       "bug_id": "CSCvf86098", 
-      "product": "Cisco Unified Contact Center Enterprise*", 
-      "fix": [], 
+      "product": "Cisco Unified Contact Center Enterprise (*)", 
+      "fix": [
+        "Fix Pending"
+      ], 
       "bug_data": {
         "affected_releases": [
           "10.5(1)", 
@@ -45,8 +69,10 @@
     }, 
     {
       "bug_id": "CSCvf86098", 
-      "product": "Cisco Unified Intelligent Contact Management Enterprise*", 
-      "fix": [], 
+      "product": "Cisco Unified Intelligent Contact Management Enterprise (*)", 
+      "fix": [
+        "Fix Pending"
+      ], 
       "bug_data": {
         "affected_releases": [
           "10.5(1)", 
@@ -61,7 +87,7 @@
     }, 
     {
       "bug_id": "CSCvf86134", 
-      "product": "Cisco Network Performance Analysis*", 
+      "product": "Cisco Network Performance Analysis (*)", 
       "fix": [], 
       "bug_data": null
     }
