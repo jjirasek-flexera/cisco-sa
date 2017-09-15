@@ -1,5 +1,5 @@
 {
-  "version": "1.4", 
+  "version": "1.5", 
   "products": [
     {
       "bug_id": "CSCvf86117", 
@@ -60,7 +60,8 @@
           "10.5(1)", 
           "11.0(1)", 
           "11.5(1)", 
-          "11.6(1)"
+          "11.6(1)", 
+          "9.0(4)"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
@@ -78,7 +79,8 @@
           "10.5(1)", 
           "11.0(1)", 
           "11.5(1)", 
-          "11.6(1)"
+          "11.6(1)", 
+          "9.0(4)"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
@@ -86,10 +88,25 @@
       }
     }, 
     {
+      "bug_id": "CSCvf86124", 
+      "product": "Cisco Video Distribution Suite for Internet Streaming (VDS-IS) (*)", 
+      "fix": [
+        "Fix Pending"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "4.3(2)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Content Delivery Engine Series"
+      }
+    }, 
+    {
       "bug_id": "CSCvf86134", 
       "product": "Cisco Network Performance Analysis (*)", 
       "fix": [
-        "Fix Pending"
+        "Product Updated with Struts 2.3.34 (12-Sept-2017)"
       ], 
       "bug_data": null
     }
