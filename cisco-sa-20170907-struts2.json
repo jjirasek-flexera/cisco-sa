@@ -1,5 +1,5 @@
 {
-  "version": "1.6", 
+  "version": "1.7", 
   "products": [
     {
       "bug_id": "CSCvf86117", 
@@ -20,7 +20,7 @@
       "bug_id": "CSCvf86119", 
       "product": "Cisco MXE 3500 Series Media Experience Engines (*)", 
       "fix": [
-        "Fix Pending"
+        "No Fix Expected (EoSWM) (2-Jan-2017)"
       ], 
       "bug_data": {
         "affected_releases": [
