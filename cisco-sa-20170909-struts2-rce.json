@@ -1,0 +1,42 @@
+{
+  "version": "1.5", 
+  "products": [
+    {
+      "bug_id": "CSCvf89977", 
+      "product": "Cisco Digital Media Manager", 
+      "fix": [
+        "No Fix Expected (EoSWM) (19-Aug-2016)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "5.4(1)RB3", 
+          "5.4.(1)RB2"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco Digital Media Manager"
+      }
+    }, 
+    {
+      "bug_id": "CSCvf89979", 
+      "product": "Cisco MXE 3500 Series Media Experience Engines", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "3.5.2"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco MXE 3000 Series (Media Experience Engines)"
+      }
+    }, 
+    {
+      "bug_id": "CSCvf89992", 
+      "product": "Cisco Network Performance Analysis", 
+      "fix": [
+        "Product Updated with Struts 2.3.34 (12-Sept-2017)"
+      ], 
+      "bug_data": null
+    }
+  ]
+}
