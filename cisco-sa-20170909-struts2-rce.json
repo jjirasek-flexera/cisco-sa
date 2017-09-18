@@ -1,5 +1,5 @@
 {
-  "version": "1.5", 
+  "version": "1.6", 
   "products": [
     {
       "bug_id": "CSCvf89977", 
@@ -20,7 +20,9 @@
     {
       "bug_id": "CSCvf89979", 
       "product": "Cisco MXE 3500 Series Media Experience Engines", 
-      "fix": [], 
+      "fix": [
+        "No Fix Expected (EoSWM) (2-Jan-2017)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "3.5.2"
@@ -28,6 +30,21 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco MXE 3000 Series (Media Experience Engines)"
+      }
+    }, 
+    {
+      "bug_id": "CSCvf89984", 
+      "product": "Cisco Video Distribution Suite for Internet Streaming (VDS-IS)", 
+      "fix": [
+        "Fix Pending"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "4.3(2)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Content Delivery Engine Series"
       }
     }, 
     {
