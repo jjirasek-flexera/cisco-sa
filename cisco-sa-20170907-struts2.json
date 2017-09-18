@@ -1,5 +1,5 @@
 {
-  "version": "1.5", 
+  "version": "1.6", 
   "products": [
     {
       "bug_id": "CSCvf86117", 
@@ -63,7 +63,9 @@
           "11.6(1)", 
           "9.0(4)"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "10.5(3)SR0(24)"
+        ], 
         "status": "Open", 
         "product_name": "Cisco Unified Contact Center Enterprise"
       }
@@ -82,7 +84,9 @@
           "11.6(1)", 
           "9.0(4)"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "10.5(3)SR0(24)"
+        ], 
         "status": "Open", 
         "product_name": "Cisco Unified Contact Center Enterprise"
       }
