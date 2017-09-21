@@ -1,5 +1,5 @@
 {
-  "version": "1.7", 
+  "version": "1.8", 
   "products": [
     {
       "bug_id": "CSCvf86117", 
@@ -24,10 +24,11 @@
       ], 
       "bug_data": {
         "affected_releases": [
-          "3.5"
+          "3.5", 
+          "3.5.2"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Terminated", 
         "product_name": "Cisco MXE 3000 Series (Media Experience Engines)"
       }
     }, 
@@ -66,7 +67,7 @@
         "fixed_releases": [
           "10.5(3)SR0(24)"
         ], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Contact Center Enterprise"
       }
     }, 
@@ -87,7 +88,7 @@
         "fixed_releases": [
           "10.5(3)SR0(24)"
         ], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Contact Center Enterprise"
       }
     }, 
@@ -102,7 +103,7 @@
           "4.3(2)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Content Delivery Engine Series"
       }
     }, 
