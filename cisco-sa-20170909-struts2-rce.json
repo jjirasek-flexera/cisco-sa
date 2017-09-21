@@ -1,5 +1,5 @@
 {
-  "version": "1.6", 
+  "version": "1.7", 
   "products": [
     {
       "bug_id": "CSCvf89977", 
@@ -25,10 +25,11 @@
       ], 
       "bug_data": {
         "affected_releases": [
+          "3.5", 
           "3.5.2"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Terminated", 
         "product_name": "Cisco MXE 3000 Series (Media Experience Engines)"
       }
     }, 
@@ -43,7 +44,7 @@
           "4.3(2)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Content Delivery Engine Series"
       }
     }, 
