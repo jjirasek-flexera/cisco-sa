@@ -1,5 +1,5 @@
 {
-  "version": "1.8", 
+  "version": "1.9", 
   "products": [
     {
       "bug_id": "CSCvf86117", 
@@ -35,48 +35,7 @@
     {
       "bug_id": "CSCvf86143", 
       "product": "Cisco Hosted Collaboration Solution for Contact Center (*)", 
-      "fix": [
-        "Fix Pending"
-      ], 
-      "bug_data": {
-        "affected_releases": [
-          "10.5(1)", 
-          "11.0(1)", 
-          "11.5(1)", 
-          "11.6(1)"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Hosted Collaboration Solution for Contact Center"
-      }
-    }, 
-    {
-      "bug_id": "CSCvf86098", 
-      "product": "Cisco Unified Contact Center Enterprise (*)", 
-      "fix": [
-        "Fix Pending"
-      ], 
-      "bug_data": {
-        "affected_releases": [
-          "10.5(1)", 
-          "11.0(1)", 
-          "11.5(1)", 
-          "11.6(1)", 
-          "9.0(4)"
-        ], 
-        "fixed_releases": [
-          "10.5(3)SR0(24)"
-        ], 
-        "status": "Fixed", 
-        "product_name": "Cisco Unified Contact Center Enterprise"
-      }
-    }, 
-    {
-      "bug_id": "CSCvf86098", 
-      "product": "Cisco Unified Intelligent Contact Management Enterprise (*)", 
-      "fix": [
-        "Fix Pending"
-      ], 
+      "fix": [], 
       "bug_data": {
         "affected_releases": [
           "10.5(1)", 
@@ -102,7 +61,9 @@
         "affected_releases": [
           "4.3(2)"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "4.3(3.11)"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Content Delivery Engine Series"
       }
