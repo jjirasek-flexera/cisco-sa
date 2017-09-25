@@ -1,5 +1,5 @@
 {
-  "version": "1.7", 
+  "version": "1.8", 
   "products": [
     {
       "bug_id": "CSCvf89977", 
@@ -43,7 +43,9 @@
         "affected_releases": [
           "4.3(2)"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "4.3(3.11)"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Content Delivery Engine Series"
       }
