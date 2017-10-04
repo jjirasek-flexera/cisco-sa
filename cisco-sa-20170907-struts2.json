@@ -1,11 +1,11 @@
 {
-  "version": "1.10", 
+  "version": "1.11", 
   "products": [
     {
       "bug_id": "CSCvf86117", 
       "product": "Cisco Digital Media Manager", 
       "fix": [
-        "No Fix Expected (EoSWM) (19-Aug-2016)"
+        "No fix expected (EoSWM) (19-Aug-2016)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -20,7 +20,7 @@
       "bug_id": "CSCvf86119", 
       "product": "Cisco MXE 3500 Series Media Experience Engines (*)", 
       "fix": [
-        "No Fix Expected (EoSWM) (2-Jan-2017)"
+        "No fix expected (EoSWM) (2-Jan-2017)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -54,7 +54,7 @@
       "bug_id": "CSCvf86124", 
       "product": "Cisco Video Distribution Suite for Internet Streaming (VDS-IS) (*)", 
       "fix": [
-        "Fix Pending"
+        "Product updated with Struts 2.3.34 (29-Sept-2017)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -71,7 +71,7 @@
       "bug_id": "CSCvf86134", 
       "product": "Cisco Network Performance Analysis (*)", 
       "fix": [
-        "Product Updated with Struts 2.3.34 (12-Sept-2017)"
+        "Product updated with Struts 2.3.34 (12-Sept-2017)"
       ], 
       "bug_data": null
     }
