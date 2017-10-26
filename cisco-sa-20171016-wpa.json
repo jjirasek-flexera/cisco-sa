@@ -1,1603 +1,1866 @@
 {
-  "version": "2.1",
+  "version": "2.2", 
   "products": [
     {
-      "product": "Cisco AnyConnect Secure Mobility Client - Network Access Manager",
-      "bug_id": "CSCvg35287",
+      "bug_id": "CSCvg35287", 
+      "product": "Cisco AnyConnect Secure Mobility Client - Network Access Manager", 
       "fix": [
-        "4.5.x (27-Oct-2017)"
-      ],
+        "v4.5.02036; available now"
+      ], 
       "bug_data": {
-        "product_name": "Cisco AnyConnect Secure Mobility Client",
         "affected_releases": [
           "4.5(2033)"
-        ],
-        "fixed_releases": [],
-        "status": "Fixed"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco AnyConnect Secure Mobility Client"
       }
-    },
+    }, 
     {
-      "product": "Cisco DX Series IP Phones (DX70 and DX80) when running Collaboration Endpoint (CE) software",
-      "bug_id": "CSCvf71761",
+      "bug_id": "CSCvf96827", 
+      "product": "Cisco Small Business RV130W Wireless-N Multifunction VPN Router", 
       "fix": [
-        "9.2.1 (10-Nov-2017)",
+        "No fix information available at this time."
+      ], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvf71761", 
+      "product": "Cisco DX Series IP Phones (DX70 and DX80) when running Collaboration Endpoint (CE) software", 
+      "fix": [
+        "9.2.1 (10-Nov-2017)", 
         "8.3.4 (31-Oct-2017)"
-      ],
+      ], 
       "bug_data": {
-        "product_name": "Cisco Telepresence Integrator C Series",
         "affected_releases": [
-          "8.3.x",
-          "9.0.x",
+          "8.3.x", 
+          "9.0.x", 
           "9.1.x"
-        ],
-        "fixed_releases": [],
-        "status": "Open"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Telepresence Integrator C Series"
       }
-    },
+    }, 
     {
-      "product": "Cisco IP Phone 8861",
-      "bug_id": "CSCvf71751",
+      "bug_id": "CSCvf71751", 
+      "product": "Cisco IP Phone 8861", 
       "fix": [
-        "12.0.1SR1 (23-Oct-2017)"
-      ],
+        "12.0.1SR1; available now"
+      ], 
       "bug_data": {
-        "product_name": "Cisco IP Phone 8800 Series",
         "affected_releases": [
-          "12.1(1)",
+          "12.1(1)", 
           "9.4(2)TT1.2"
-        ],
+        ], 
         "fixed_releases": [
-          "12.0(1)SDL59",
-          "12.0(1)SR1.1",
+          "12.0(1)SDL59", 
+          "12.0(1)SR1.1", 
           "12.1(1)MN184"
-        ],
-        "status": "Fixed"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco IP Phone 8800 Series"
       }
-    },
+    }, 
     {
-      "product": "Cisco IP Phone 8865",
-      "bug_id": "CSCvf71751",
+      "bug_id": "CSCvf71751", 
+      "product": "Cisco IP Phone 8865", 
       "fix": [
-        "12.0.1SR1 (23-Oct-2017)"
-      ],
+        "12.0.1SR1; available now"
+      ], 
       "bug_data": {
-        "product_name": "Cisco IP Phone 8800 Series",
         "affected_releases": [
-          "12.1(1)",
+          "12.1(1)", 
           "9.4(2)TT1.2"
-        ],
+        ], 
         "fixed_releases": [
-          "12.0(1)SDL59",
-          "12.0(1)SR1.1",
+          "12.0(1)SDL59", 
+          "12.0(1)SR1.1", 
           "12.1(1)MN184"
-        ],
-        "status": "Fixed"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco IP Phone 8800 Series"
       }
-    },
+    }, 
     {
-      "product": "Cisco IP Phone 8865",
-      "bug_id": "CSCvf71754",
+      "bug_id": "CSCvf71761", 
+      "product": "Cisco Spark Room Series", 
       "fix": [
-        "12.0.1SR1 (23-Oct-2017)"
-      ],
-      "bug_data": {
-        "product_name": "Cisco IP Phone 8800 Series",
-        "affected_releases": [
-          "12.1(1)",
-          "9.4(2)TT1.2"
-        ],
-        "fixed_releases": [
-          "12.0(1)SDL59",
-          "12.0(1)SR1.1",
-          "12.1(1)MN184"
-        ],
-        "status": "Fixed"
-      }
-    },
-    {
-      "product": "Cisco Spark Room Series",
-      "bug_id": "CSCvf71761",
-      "fix": [
-        "9.2.1 (10-Nov-2017)",
+        "9.2.1 (10-Nov-2017)", 
         "8.3.4 (31-Oct-2017)"
-      ],
+      ], 
       "bug_data": {
-        "product_name": "Cisco Telepresence Integrator C Series",
         "affected_releases": [
-          "8.3.x",
-          "9.0.x",
+          "8.3.x", 
+          "9.0.x", 
           "9.1.x"
-        ],
-        "fixed_releases": [],
-        "status": "Open"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Telepresence Integrator C Series"
       }
-    },
+    }, 
     {
-      "product": "Cisco Wireless IP Phone 8821",
-      "bug_id": "CSCvf71749",
+      "bug_id": "CSCvf71749", 
+      "product": "Cisco Wireless IP Phone 8821", 
       "fix": [
-        "11.0(3)SR5 - available 16-Oct-2017"
-      ],
+        "11.0(3)SR5; available now"
+      ], 
       "bug_data": {
-        "product_name": "Cisco IP Phone 8800 Series",
         "affected_releases": [
           "unknown"
-        ],
+        ], 
         "fixed_releases": [
-          "11.0(3)ES9.3",
-          "11.0(3)SR5.1",
+          "11.0(3)ES9.3", 
+          "11.0(3)SR5.1", 
           "11.0(3.163)"
-        ],
-        "status": "Fixed"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco IP Phone 8800 Series"
       }
-    },
+    }, 
     {
-      "product": "Cisco 1100 Series Integrated Services Routers",
-      "bug_id": "CSCvg42682",
+      "bug_id": "CSCvg42682", 
+      "product": "Cisco 1100 Series Integrated Services Routers", 
       "fix": [
         "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
-      ],
+      ], 
       "bug_data": {
-        "product_name": "Cisco Aironet 3700 Series",
         "affected_releases": [
-          "8.3(130.0)",
+          "8.3(130.0)", 
           "8.3(131.0)"
-        ],
+        ], 
         "fixed_releases": [
-          "8.2(160.5)",
-          "8.2(167.1)",
-          "8.3(132.1)",
-          "8.3(134.17)",
-          "8.3(134.18)",
-          "8.5(107.71)",
+          "15.3(3)JA12", 
+          "15.3(3)JAA12", 
+          "15.3(3)JC9", 
+          "15.3(3)JCA9", 
+          "15.3(3)JD9", 
+          "15.3(3)JDA9", 
+          "15.3(3)JF1", 
+          "8.2(160.5)", 
+          "8.2(167.1)", 
+          "8.3(132.1)", 
+          "8.3(134.17)", 
+          "8.3(134.18)", 
+          "8.5(107.71)", 
           "8.6(1.141)"
-        ],
-        "status": "Fixed"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco Aironet 3700 Series"
       }
-    },
+    }, 
     {
-      "product": "Cisco 812 Series Integrated Services Routers",
-      "bug_id": "CSCvg42682",
+      "bug_id": "CSCvg42682", 
+      "product": "Cisco 812 Series Integrated Services Routers", 
       "fix": [
         "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
-      ],
+      ], 
       "bug_data": {
-        "product_name": "Cisco Aironet 3700 Series",
         "affected_releases": [
-          "8.3(130.0)",
+          "8.3(130.0)", 
           "8.3(131.0)"
-        ],
+        ], 
         "fixed_releases": [
-          "8.2(160.5)",
-          "8.2(167.1)",
-          "8.3(132.1)",
-          "8.3(134.17)",
-          "8.3(134.18)",
-          "8.5(107.71)",
+          "15.3(3)JA12", 
+          "15.3(3)JAA12", 
+          "15.3(3)JC9", 
+          "15.3(3)JCA9", 
+          "15.3(3)JD9", 
+          "15.3(3)JDA9", 
+          "15.3(3)JF1", 
+          "8.2(160.5)", 
+          "8.2(167.1)", 
+          "8.3(132.1)", 
+          "8.3(134.17)", 
+          "8.3(134.18)", 
+          "8.5(107.71)", 
           "8.6(1.141)"
-        ],
-        "status": "Fixed"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco Aironet 3700 Series"
       }
-    },
+    }, 
     {
-      "product": "Cisco 819 Series Integrated Services Routers",
-      "bug_id": "CSCvg42682",
+      "bug_id": "CSCvg42682", 
+      "product": "Cisco 819 Series Integrated Services Routers", 
       "fix": [
         "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
-      ],
+      ], 
       "bug_data": {
-        "product_name": "Cisco Aironet 3700 Series",
         "affected_releases": [
-          "8.3(130.0)",
+          "8.3(130.0)", 
           "8.3(131.0)"
-        ],
+        ], 
         "fixed_releases": [
-          "8.2(160.5)",
-          "8.2(167.1)",
-          "8.3(132.1)",
-          "8.3(134.17)",
-          "8.3(134.18)",
-          "8.5(107.71)",
+          "15.3(3)JA12", 
+          "15.3(3)JAA12", 
+          "15.3(3)JC9", 
+          "15.3(3)JCA9", 
+          "15.3(3)JD9", 
+          "15.3(3)JDA9", 
+          "15.3(3)JF1", 
+          "8.2(160.5)", 
+          "8.2(167.1)", 
+          "8.3(132.1)", 
+          "8.3(134.17)", 
+          "8.3(134.18)", 
+          "8.5(107.71)", 
           "8.6(1.141)"
-        ],
-        "status": "Fixed"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco Aironet 3700 Series"
       }
-    },
+    }, 
     {
-      "product": "Cisco 829 Industrial Integrated Services Routers",
-      "bug_id": "CSCvg42682",
+      "bug_id": "CSCvg42682", 
+      "product": "Cisco 829 Industrial Integrated Services Routers", 
       "fix": [
         "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
-      ],
+      ], 
       "bug_data": {
-        "product_name": "Cisco Aironet 3700 Series",
         "affected_releases": [
-          "8.3(130.0)",
+          "8.3(130.0)", 
           "8.3(131.0)"
-        ],
+        ], 
         "fixed_releases": [
-          "8.2(160.5)",
-          "8.2(167.1)",
-          "8.3(132.1)",
-          "8.3(134.17)",
-          "8.3(134.18)",
-          "8.5(107.71)",
+          "15.3(3)JA12", 
+          "15.3(3)JAA12", 
+          "15.3(3)JC9", 
+          "15.3(3)JCA9", 
+          "15.3(3)JD9", 
+          "15.3(3)JDA9", 
+          "15.3(3)JF1", 
+          "8.2(160.5)", 
+          "8.2(167.1)", 
+          "8.3(132.1)", 
+          "8.3(134.17)", 
+          "8.3(134.18)", 
+          "8.5(107.71)", 
           "8.6(1.141)"
-        ],
-        "status": "Fixed"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco Aironet 3700 Series"
       }
-    },
+    }, 
     {
-      "product": "Cisco 860 Series Integrated Services Routers",
-      "bug_id": "CSCvg42682",
+      "bug_id": "CSCvg42682", 
+      "product": "Cisco 860 Series Integrated Services Routers", 
       "fix": [
         "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
-      ],
+      ], 
       "bug_data": {
-        "product_name": "Cisco Aironet 3700 Series",
         "affected_releases": [
-          "8.3(130.0)",
+          "8.3(130.0)", 
           "8.3(131.0)"
-        ],
+        ], 
         "fixed_releases": [
-          "8.2(160.5)",
-          "8.2(167.1)",
-          "8.3(132.1)",
-          "8.3(134.17)",
-          "8.3(134.18)",
-          "8.5(107.71)",
+          "15.3(3)JA12", 
+          "15.3(3)JAA12", 
+          "15.3(3)JC9", 
+          "15.3(3)JCA9", 
+          "15.3(3)JD9", 
+          "15.3(3)JDA9", 
+          "15.3(3)JF1", 
+          "8.2(160.5)", 
+          "8.2(167.1)", 
+          "8.3(132.1)", 
+          "8.3(134.17)", 
+          "8.3(134.18)", 
+          "8.5(107.71)", 
           "8.6(1.141)"
-        ],
-        "status": "Fixed"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco Aironet 3700 Series"
       }
-    },
+    }, 
     {
-      "product": "Cisco 880 Series Integrated Services Routers",
-      "bug_id": "CSCvg42682",
+      "bug_id": "CSCvg42682", 
+      "product": "Cisco 880 Series Integrated Services Routers", 
       "fix": [
         "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
-      ],
+      ], 
       "bug_data": {
-        "product_name": "Cisco Aironet 3700 Series",
         "affected_releases": [
-          "8.3(130.0)",
+          "8.3(130.0)", 
           "8.3(131.0)"
-        ],
+        ], 
         "fixed_releases": [
-          "8.2(160.5)",
-          "8.2(167.1)",
-          "8.3(132.1)",
-          "8.3(134.17)",
-          "8.3(134.18)",
-          "8.5(107.71)",
+          "15.3(3)JA12", 
+          "15.3(3)JAA12", 
+          "15.3(3)JC9", 
+          "15.3(3)JCA9", 
+          "15.3(3)JD9", 
+          "15.3(3)JDA9", 
+          "15.3(3)JF1", 
+          "8.2(160.5)", 
+          "8.2(167.1)", 
+          "8.3(132.1)", 
+          "8.3(134.17)", 
+          "8.3(134.18)", 
+          "8.5(107.71)", 
           "8.6(1.141)"
-        ],
-        "status": "Fixed"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco Aironet 3700 Series"
       }
-    },
+    }, 
     {
-      "product": "Cisco 890 Series Integrated Services Routers",
-      "bug_id": "CSCvg42682",
+      "bug_id": "CSCvg42682", 
+      "product": "Cisco 890 Series Integrated Services Routers", 
       "fix": [
         "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
-      ],
+      ], 
       "bug_data": {
-        "product_name": "Cisco Aironet 3700 Series",
         "affected_releases": [
-          "8.3(130.0)",
+          "8.3(130.0)", 
           "8.3(131.0)"
-        ],
+        ], 
         "fixed_releases": [
-          "8.2(160.5)",
-          "8.2(167.1)",
-          "8.3(132.1)",
-          "8.3(134.17)",
-          "8.3(134.18)",
-          "8.5(107.71)",
+          "15.3(3)JA12", 
+          "15.3(3)JAA12", 
+          "15.3(3)JC9", 
+          "15.3(3)JCA9", 
+          "15.3(3)JD9", 
+          "15.3(3)JDA9", 
+          "15.3(3)JF1", 
+          "8.2(160.5)", 
+          "8.2(167.1)", 
+          "8.3(132.1)", 
+          "8.3(134.17)", 
+          "8.3(134.18)", 
+          "8.5(107.71)", 
           "8.6(1.141)"
-        ],
-        "status": "Fixed"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco Aironet 3700 Series"
       }
-    },
+    }, 
     {
-      "product": "Cisco ASA 5506W-X w/ FirePOWER Services",
-      "bug_id": "CSCvg42682",
+      "bug_id": "CSCvf96821", 
+      "product": "Cisco AP541N Wireless Access Point", 
+      "fix": [
+        "No fix will be provided."
+      ], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvg42682", 
+      "product": "Cisco ASA 5506W-X w/ FirePOWER Services", 
       "fix": [
         "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
-      ],
+      ], 
       "bug_data": {
-        "product_name": "Cisco Aironet 3700 Series",
         "affected_releases": [
-          "8.3(130.0)",
+          "8.3(130.0)", 
           "8.3(131.0)"
-        ],
+        ], 
         "fixed_releases": [
-          "8.2(160.5)",
-          "8.2(167.1)",
-          "8.3(132.1)",
-          "8.3(134.17)",
-          "8.3(134.18)",
-          "8.5(107.71)",
+          "15.3(3)JA12", 
+          "15.3(3)JAA12", 
+          "15.3(3)JC9", 
+          "15.3(3)JCA9", 
+          "15.3(3)JD9", 
+          "15.3(3)JDA9", 
+          "15.3(3)JF1", 
+          "8.2(160.5)", 
+          "8.2(167.1)", 
+          "8.3(132.1)", 
+          "8.3(134.17)", 
+          "8.3(134.18)", 
+          "8.5(107.71)", 
           "8.6(1.141)"
-        ],
-        "status": "Fixed"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco Aironet 3700 Series"
       }
-    },
+    }, 
     {
-      "product": "Cisco Aironet 1040 Series Access Points running Cisco IOS Software",
-      "bug_id": "CSCvg42682",
+      "bug_id": "CSCvg42682", 
+      "product": "Cisco Aironet 1040 Series Access Points", 
       "fix": [
         "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
-      ],
+      ], 
       "bug_data": {
-        "product_name": "Cisco Aironet 3700 Series",
         "affected_releases": [
-          "8.3(130.0)",
+          "8.3(130.0)", 
           "8.3(131.0)"
-        ],
+        ], 
         "fixed_releases": [
-          "8.2(160.5)",
-          "8.2(167.1)",
-          "8.3(132.1)",
-          "8.3(134.17)",
-          "8.3(134.18)",
-          "8.5(107.71)",
+          "15.3(3)JA12", 
+          "15.3(3)JAA12", 
+          "15.3(3)JC9", 
+          "15.3(3)JCA9", 
+          "15.3(3)JD9", 
+          "15.3(3)JDA9", 
+          "15.3(3)JF1", 
+          "8.2(160.5)", 
+          "8.2(167.1)", 
+          "8.3(132.1)", 
+          "8.3(134.17)", 
+          "8.3(134.18)", 
+          "8.5(107.71)", 
           "8.6(1.141)"
-        ],
-        "status": "Fixed"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco Aironet 3700 Series"
       }
-    },
+    }, 
     {
-      "product": "Cisco Aironet 1140 Series Access Points running Cisco IOS Software",
-      "bug_id": "CSCvg42682",
+      "bug_id": "CSCvg42682", 
+      "product": "Cisco Aironet 1140 Series Access Points", 
       "fix": [
         "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
-      ],
+      ], 
       "bug_data": {
-        "product_name": "Cisco Aironet 3700 Series",
         "affected_releases": [
-          "8.3(130.0)",
+          "8.3(130.0)", 
           "8.3(131.0)"
-        ],
+        ], 
         "fixed_releases": [
-          "8.2(160.5)",
-          "8.2(167.1)",
-          "8.3(132.1)",
-          "8.3(134.17)",
-          "8.3(134.18)",
-          "8.5(107.71)",
+          "15.3(3)JA12", 
+          "15.3(3)JAA12", 
+          "15.3(3)JC9", 
+          "15.3(3)JCA9", 
+          "15.3(3)JD9", 
+          "15.3(3)JDA9", 
+          "15.3(3)JF1", 
+          "8.2(160.5)", 
+          "8.2(167.1)", 
+          "8.3(132.1)", 
+          "8.3(134.17)", 
+          "8.3(134.18)", 
+          "8.5(107.71)", 
           "8.6(1.141)"
-        ],
-        "status": "Fixed"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco Aironet 3700 Series"
       }
-    },
+    }, 
     {
-      "product": "Cisco Aironet 1250 Series Access Points running Cisco IOS Software",
-      "bug_id": "CSCvg42682",
+      "bug_id": "CSCvg42682", 
+      "product": "Cisco Aironet 1250 Series Access Points", 
       "fix": [
         "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
-      ],
+      ], 
       "bug_data": {
-        "product_name": "Cisco Aironet 3700 Series",
         "affected_releases": [
-          "8.3(130.0)",
+          "8.3(130.0)", 
           "8.3(131.0)"
-        ],
+        ], 
         "fixed_releases": [
-          "8.2(160.5)",
-          "8.2(167.1)",
-          "8.3(132.1)",
-          "8.3(134.17)",
-          "8.3(134.18)",
-          "8.5(107.71)",
+          "15.3(3)JA12", 
+          "15.3(3)JAA12", 
+          "15.3(3)JC9", 
+          "15.3(3)JCA9", 
+          "15.3(3)JD9", 
+          "15.3(3)JDA9", 
+          "15.3(3)JF1", 
+          "8.2(160.5)", 
+          "8.2(167.1)", 
+          "8.3(132.1)", 
+          "8.3(134.17)", 
+          "8.3(134.18)", 
+          "8.5(107.71)", 
           "8.6(1.141)"
-        ],
-        "status": "Fixed"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco Aironet 3700 Series"
       }
-    },
+    }, 
     {
-      "product": "Cisco Aironet 1260 Series Access Points running Cisco IOS Software",
-      "bug_id": "CSCvg42682",
+      "bug_id": "CSCvg42682", 
+      "product": "Cisco Aironet 1260 Series Access Points", 
       "fix": [
         "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
-      ],
+      ], 
       "bug_data": {
-        "product_name": "Cisco Aironet 3700 Series",
         "affected_releases": [
-          "8.3(130.0)",
+          "8.3(130.0)", 
           "8.3(131.0)"
-        ],
+        ], 
         "fixed_releases": [
-          "8.2(160.5)",
-          "8.2(167.1)",
-          "8.3(132.1)",
-          "8.3(134.17)",
-          "8.3(134.18)",
-          "8.5(107.71)",
+          "15.3(3)JA12", 
+          "15.3(3)JAA12", 
+          "15.3(3)JC9", 
+          "15.3(3)JCA9", 
+          "15.3(3)JD9", 
+          "15.3(3)JDA9", 
+          "15.3(3)JF1", 
+          "8.2(160.5)", 
+          "8.2(167.1)", 
+          "8.3(132.1)", 
+          "8.3(134.17)", 
+          "8.3(134.18)", 
+          "8.5(107.71)", 
           "8.6(1.141)"
-        ],
-        "status": "Fixed"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco Aironet 3700 Series"
       }
-    },
+    }, 
     {
-      "product": "Cisco Aironet 1520 Series running Cisco IOS Software",
-      "bug_id": "CSCvg42682",
+      "bug_id": "CSCvg42682", 
+      "product": "Cisco Aironet 1520 Series", 
       "fix": [
         "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
-      ],
+      ], 
       "bug_data": {
-        "product_name": "Cisco Aironet 3700 Series",
         "affected_releases": [
-          "8.3(130.0)",
+          "8.3(130.0)", 
           "8.3(131.0)"
-        ],
+        ], 
         "fixed_releases": [
-          "8.2(160.5)",
-          "8.2(167.1)",
-          "8.3(132.1)",
-          "8.3(134.17)",
-          "8.3(134.18)",
-          "8.5(107.71)",
+          "15.3(3)JA12", 
+          "15.3(3)JAA12", 
+          "15.3(3)JC9", 
+          "15.3(3)JCA9", 
+          "15.3(3)JD9", 
+          "15.3(3)JDA9", 
+          "15.3(3)JF1", 
+          "8.2(160.5)", 
+          "8.2(167.1)", 
+          "8.3(132.1)", 
+          "8.3(134.17)", 
+          "8.3(134.18)", 
+          "8.5(107.71)", 
           "8.6(1.141)"
-        ],
-        "status": "Fixed"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco Aironet 3700 Series"
       }
-    },
+    }, 
     {
-      "product": "Cisco Aironet 1530 Series running Cisco IOS Software",
-      "bug_id": "CSCvg42682",
+      "bug_id": "CSCvg42682", 
+      "product": "Cisco Aironet 1530 Series", 
       "fix": [
         "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
-      ],
+      ], 
       "bug_data": {
-        "product_name": "Cisco Aironet 3700 Series",
         "affected_releases": [
-          "8.3(130.0)",
+          "8.3(130.0)", 
           "8.3(131.0)"
-        ],
+        ], 
         "fixed_releases": [
-          "8.2(160.5)",
-          "8.2(167.1)",
-          "8.3(132.1)",
-          "8.3(134.17)",
-          "8.3(134.18)",
-          "8.5(107.71)",
+          "15.3(3)JA12", 
+          "15.3(3)JAA12", 
+          "15.3(3)JC9", 
+          "15.3(3)JCA9", 
+          "15.3(3)JD9", 
+          "15.3(3)JDA9", 
+          "15.3(3)JF1", 
+          "8.2(160.5)", 
+          "8.2(167.1)", 
+          "8.3(132.1)", 
+          "8.3(134.17)", 
+          "8.3(134.18)", 
+          "8.5(107.71)", 
           "8.6(1.141)"
-        ],
-        "status": "Fixed"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco Aironet 3700 Series"
       }
-    },
+    }, 
     {
-      "product": "Cisco Aironet 1540 Series Access Points",
-      "bug_id": "CSCvg10793",
+      "bug_id": "CSCvg10793", 
+      "product": "Cisco Aironet 1540 Series Access Points", 
       "fix": [
         "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
-      ],
+      ], 
       "bug_data": {
-        "product_name": "Cisco Aironet 1850 Series Access Points",
         "affected_releases": [
-          "8.2(161.0)",
-          "8.3(122.0)",
-          "8.3(130.0)",
-          "8.4(100.0)",
+          "8.2(161.0)", 
+          "8.3(122.0)", 
+          "8.3(130.0)", 
+          "8.4(100.0)", 
           "8.5(103.0)"
-        ],
+        ], 
         "fixed_releases": [
-          "8.2(160.5)",
-          "8.2(161.246)",
-          "8.2(163.6)",
-          "8.3(130.233)",
-          "8.3(130.6)",
-          "8.3(134.2)",
-          "8.5(103.232)",
-          "8.5(107.57)",
-          "8.6(1.127)",
+          "8.2(160.5)", 
+          "8.2(161.246)", 
+          "8.2(163.6)", 
+          "8.3(130.233)", 
+          "8.3(130.6)", 
+          "8.3(134.2)", 
+          "8.5(103.232)", 
+          "8.5(107.57)", 
+          "8.6(1.127)", 
           "8.7(1.41)"
-        ],
-        "status": "Fixed"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco Aironet 1850 Series Access Points"
       }
-    },
+    }, 
     {
-      "product": "Cisco Aironet 1550 Series running Cisco IOS Software",
-      "bug_id": "CSCvg42682",
+      "bug_id": "CSCvg42682", 
+      "product": "Cisco Aironet 1550 Series", 
       "fix": [
         "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
-      ],
+      ], 
       "bug_data": {
-        "product_name": "Cisco Aironet 3700 Series",
         "affected_releases": [
-          "8.3(130.0)",
+          "8.3(130.0)", 
           "8.3(131.0)"
-        ],
+        ], 
         "fixed_releases": [
-          "8.2(160.5)",
-          "8.2(167.1)",
-          "8.3(132.1)",
-          "8.3(134.17)",
-          "8.3(134.18)",
-          "8.5(107.71)",
+          "15.3(3)JA12", 
+          "15.3(3)JAA12", 
+          "15.3(3)JC9", 
+          "15.3(3)JCA9", 
+          "15.3(3)JD9", 
+          "15.3(3)JDA9", 
+          "15.3(3)JF1", 
+          "8.2(160.5)", 
+          "8.2(167.1)", 
+          "8.3(132.1)", 
+          "8.3(134.17)", 
+          "8.3(134.18)", 
+          "8.5(107.71)", 
           "8.6(1.141)"
-        ],
-        "status": "Fixed"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco Aironet 3700 Series"
       }
-    },
+    }, 
     {
-      "product": "Cisco Aironet 1560 Series Access Points",
-      "bug_id": "CSCvg10793",
+      "bug_id": "CSCvg10793", 
+      "product": "Cisco Aironet 1560 Series Access Points", 
       "fix": [
         "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
-      ],
+      ], 
       "bug_data": {
-        "product_name": "Cisco Aironet 1850 Series Access Points",
         "affected_releases": [
-          "8.2(161.0)",
-          "8.3(122.0)",
-          "8.3(130.0)",
-          "8.4(100.0)",
+          "8.2(161.0)", 
+          "8.3(122.0)", 
+          "8.3(130.0)", 
+          "8.4(100.0)", 
           "8.5(103.0)"
-        ],
+        ], 
         "fixed_releases": [
-          "8.2(160.5)",
-          "8.2(161.246)",
-          "8.2(163.6)",
-          "8.3(130.233)",
-          "8.3(130.6)",
-          "8.3(134.2)",
-          "8.5(103.232)",
-          "8.5(107.57)",
-          "8.6(1.127)",
+          "8.2(160.5)", 
+          "8.2(161.246)", 
+          "8.2(163.6)", 
+          "8.3(130.233)", 
+          "8.3(130.6)", 
+          "8.3(134.2)", 
+          "8.5(103.232)", 
+          "8.5(107.57)", 
+          "8.6(1.127)", 
           "8.7(1.41)"
-        ],
-        "status": "Fixed"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco Aironet 1850 Series Access Points"
       }
-    },
+    }, 
     {
-      "product": "Cisco Aironet 1570 Series running Cisco IOS Software",
-      "bug_id": "CSCvg42682",
+      "bug_id": "CSCvg42682", 
+      "product": "Cisco Aironet 1570 Series", 
       "fix": [
         "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
-      ],
+      ], 
       "bug_data": {
-        "product_name": "Cisco Aironet 3700 Series",
         "affected_releases": [
-          "8.3(130.0)",
+          "8.3(130.0)", 
           "8.3(131.0)"
-        ],
+        ], 
         "fixed_releases": [
-          "8.2(160.5)",
-          "8.2(167.1)",
-          "8.3(132.1)",
-          "8.3(134.17)",
-          "8.3(134.18)",
-          "8.5(107.71)",
+          "15.3(3)JA12", 
+          "15.3(3)JAA12", 
+          "15.3(3)JC9", 
+          "15.3(3)JCA9", 
+          "15.3(3)JD9", 
+          "15.3(3)JDA9", 
+          "15.3(3)JF1", 
+          "8.2(160.5)", 
+          "8.2(167.1)", 
+          "8.3(132.1)", 
+          "8.3(134.17)", 
+          "8.3(134.18)", 
+          "8.5(107.71)", 
           "8.6(1.141)"
-        ],
-        "status": "Fixed"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco Aironet 3700 Series"
       }
-    },
+    }, 
     {
-      "product": "Cisco Aironet 1600 Series running Cisco IOS Software",
-      "bug_id": "CSCvg42682",
+      "bug_id": "CSCvg42682", 
+      "product": "Cisco Aironet 1600 Series", 
       "fix": [
         "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
-      ],
+      ], 
       "bug_data": {
-        "product_name": "Cisco Aironet 3700 Series",
         "affected_releases": [
-          "8.3(130.0)",
+          "8.3(130.0)", 
           "8.3(131.0)"
-        ],
+        ], 
         "fixed_releases": [
-          "8.2(160.5)",
-          "8.2(167.1)",
-          "8.3(132.1)",
-          "8.3(134.17)",
-          "8.3(134.18)",
-          "8.5(107.71)",
+          "15.3(3)JA12", 
+          "15.3(3)JAA12", 
+          "15.3(3)JC9", 
+          "15.3(3)JCA9", 
+          "15.3(3)JD9", 
+          "15.3(3)JDA9", 
+          "15.3(3)JF1", 
+          "8.2(160.5)", 
+          "8.2(167.1)", 
+          "8.3(132.1)", 
+          "8.3(134.17)", 
+          "8.3(134.18)", 
+          "8.5(107.71)", 
           "8.6(1.141)"
-        ],
-        "status": "Fixed"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco Aironet 3700 Series"
       }
-    },
+    }, 
     {
-      "product": "Cisco Aironet 1700 Series running Cisco IOS Software",
-      "bug_id": "CSCvg42682",
+      "bug_id": "CSCvg42682", 
+      "product": "Cisco Aironet 1700 Series", 
       "fix": [
         "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
-      ],
+      ], 
       "bug_data": {
-        "product_name": "Cisco Aironet 3700 Series",
         "affected_releases": [
-          "8.3(130.0)",
+          "8.3(130.0)", 
           "8.3(131.0)"
-        ],
+        ], 
         "fixed_releases": [
-          "8.2(160.5)",
-          "8.2(167.1)",
-          "8.3(132.1)",
-          "8.3(134.17)",
-          "8.3(134.18)",
-          "8.5(107.71)",
+          "15.3(3)JA12", 
+          "15.3(3)JAA12", 
+          "15.3(3)JC9", 
+          "15.3(3)JCA9", 
+          "15.3(3)JD9", 
+          "15.3(3)JDA9", 
+          "15.3(3)JF1", 
+          "8.2(160.5)", 
+          "8.2(167.1)", 
+          "8.3(132.1)", 
+          "8.3(134.17)", 
+          "8.3(134.18)", 
+          "8.5(107.71)", 
           "8.6(1.141)"
-        ],
-        "status": "Fixed"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco Aironet 3700 Series"
       }
-    },
+    }, 
     {
-      "product": "Cisco Aironet 1810 Series OfficeExtend Access Points",
-      "bug_id": "CSCvg10793",
+      "bug_id": "CSCvg10793", 
+      "product": "Cisco Aironet 1810 Series OfficeExtend Access Points", 
       "fix": [
         "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
-      ],
+      ], 
       "bug_data": {
-        "product_name": "Cisco Aironet 1850 Series Access Points",
         "affected_releases": [
-          "8.2(161.0)",
-          "8.3(122.0)",
-          "8.3(130.0)",
-          "8.4(100.0)",
+          "8.2(161.0)", 
+          "8.3(122.0)", 
+          "8.3(130.0)", 
+          "8.4(100.0)", 
           "8.5(103.0)"
-        ],
+        ], 
         "fixed_releases": [
-          "8.2(160.5)",
-          "8.2(161.246)",
-          "8.2(163.6)",
-          "8.3(130.233)",
-          "8.3(130.6)",
-          "8.3(134.2)",
-          "8.5(103.232)",
-          "8.5(107.57)",
-          "8.6(1.127)",
+          "8.2(160.5)", 
+          "8.2(161.246)", 
+          "8.2(163.6)", 
+          "8.3(130.233)", 
+          "8.3(130.6)", 
+          "8.3(134.2)", 
+          "8.5(103.232)", 
+          "8.5(107.57)", 
+          "8.6(1.127)", 
           "8.7(1.41)"
-        ],
-        "status": "Fixed"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco Aironet 1850 Series Access Points"
       }
-    },
+    }, 
     {
-      "product": "Cisco Aironet 1810w Series Access Points",
-      "bug_id": "CSCvg10793",
+      "bug_id": "CSCvg10793", 
+      "product": "Cisco Aironet 1810w Series Access Points", 
       "fix": [
         "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
-      ],
+      ], 
       "bug_data": {
-        "product_name": "Cisco Aironet 1850 Series Access Points",
         "affected_releases": [
-          "8.2(161.0)",
-          "8.3(122.0)",
-          "8.3(130.0)",
-          "8.4(100.0)",
+          "8.2(161.0)", 
+          "8.3(122.0)", 
+          "8.3(130.0)", 
+          "8.4(100.0)", 
           "8.5(103.0)"
-        ],
+        ], 
         "fixed_releases": [
-          "8.2(160.5)",
-          "8.2(161.246)",
-          "8.2(163.6)",
-          "8.3(130.233)",
-          "8.3(130.6)",
-          "8.3(134.2)",
-          "8.5(103.232)",
-          "8.5(107.57)",
-          "8.6(1.127)",
+          "8.2(160.5)", 
+          "8.2(161.246)", 
+          "8.2(163.6)", 
+          "8.3(130.233)", 
+          "8.3(130.6)", 
+          "8.3(134.2)", 
+          "8.5(103.232)", 
+          "8.5(107.57)", 
+          "8.6(1.127)", 
           "8.7(1.41)"
-        ],
-        "status": "Fixed"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco Aironet 1850 Series Access Points"
       }
-    },
+    }, 
     {
-      "product": "Cisco Aironet 1815 Series Access Points",
-      "bug_id": "CSCvg10793",
+      "bug_id": "CSCvg10793", 
+      "product": "Cisco Aironet 1815 Series Access Points", 
       "fix": [
         "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
-      ],
+      ], 
       "bug_data": {
-        "product_name": "Cisco Aironet 1850 Series Access Points",
         "affected_releases": [
-          "8.2(161.0)",
-          "8.3(122.0)",
-          "8.3(130.0)",
-          "8.4(100.0)",
+          "8.2(161.0)", 
+          "8.3(122.0)", 
+          "8.3(130.0)", 
+          "8.4(100.0)", 
           "8.5(103.0)"
-        ],
+        ], 
         "fixed_releases": [
-          "8.2(160.5)",
-          "8.2(161.246)",
-          "8.2(163.6)",
-          "8.3(130.233)",
-          "8.3(130.6)",
-          "8.3(134.2)",
-          "8.5(103.232)",
-          "8.5(107.57)",
-          "8.6(1.127)",
+          "8.2(160.5)", 
+          "8.2(161.246)", 
+          "8.2(163.6)", 
+          "8.3(130.233)", 
+          "8.3(130.6)", 
+          "8.3(134.2)", 
+          "8.5(103.232)", 
+          "8.5(107.57)", 
+          "8.6(1.127)", 
           "8.7(1.41)"
-        ],
-        "status": "Fixed"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco Aironet 1850 Series Access Points"
       }
-    },
+    }, 
     {
-      "product": "Cisco Aironet 1830 Series Access Points",
-      "bug_id": "CSCvg10793",
+      "bug_id": "CSCvg10793", 
+      "product": "Cisco Aironet 1830 Series Access Points", 
       "fix": [
         "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
-      ],
+      ], 
       "bug_data": {
-        "product_name": "Cisco Aironet 1850 Series Access Points",
         "affected_releases": [
-          "8.2(161.0)",
-          "8.3(122.0)",
-          "8.3(130.0)",
-          "8.4(100.0)",
+          "8.2(161.0)", 
+          "8.3(122.0)", 
+          "8.3(130.0)", 
+          "8.4(100.0)", 
           "8.5(103.0)"
-        ],
+        ], 
         "fixed_releases": [
-          "8.2(160.5)",
-          "8.2(161.246)",
-          "8.2(163.6)",
-          "8.3(130.233)",
-          "8.3(130.6)",
-          "8.3(134.2)",
-          "8.5(103.232)",
-          "8.5(107.57)",
-          "8.6(1.127)",
+          "8.2(160.5)", 
+          "8.2(161.246)", 
+          "8.2(163.6)", 
+          "8.3(130.233)", 
+          "8.3(130.6)", 
+          "8.3(134.2)", 
+          "8.5(103.232)", 
+          "8.5(107.57)", 
+          "8.6(1.127)", 
           "8.7(1.41)"
-        ],
-        "status": "Fixed"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco Aironet 1850 Series Access Points"
       }
-    },
+    }, 
     {
-      "product": "Cisco Aironet 1850 Series Access Points",
-      "bug_id": "CSCvg10793",
+      "bug_id": "CSCvg10793", 
+      "product": "Cisco Aironet 1850 Series Access Points", 
       "fix": [
         "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
-      ],
+      ], 
       "bug_data": {
-        "product_name": "Cisco Aironet 1850 Series Access Points",
         "affected_releases": [
-          "8.2(161.0)",
-          "8.3(122.0)",
-          "8.3(130.0)",
-          "8.4(100.0)",
+          "8.2(161.0)", 
+          "8.3(122.0)", 
+          "8.3(130.0)", 
+          "8.4(100.0)", 
           "8.5(103.0)"
-        ],
+        ], 
         "fixed_releases": [
-          "8.2(160.5)",
-          "8.2(161.246)",
-          "8.2(163.6)",
-          "8.3(130.233)",
-          "8.3(130.6)",
-          "8.3(134.2)",
-          "8.5(103.232)",
-          "8.5(107.57)",
-          "8.6(1.127)",
+          "8.2(160.5)", 
+          "8.2(161.246)", 
+          "8.2(163.6)", 
+          "8.3(130.233)", 
+          "8.3(130.6)", 
+          "8.3(134.2)", 
+          "8.5(103.232)", 
+          "8.5(107.57)", 
+          "8.6(1.127)", 
           "8.7(1.41)"
-        ],
-        "status": "Fixed"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco Aironet 1850 Series Access Points"
       }
-    },
+    }, 
     {
-      "product": "Cisco Aironet 2600 Series running Cisco IOS Software",
-      "bug_id": "CSCvg42682",
+      "bug_id": "CSCvg42682", 
+      "product": "Cisco Aironet 2600 Series", 
       "fix": [
         "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
-      ],
+      ], 
       "bug_data": {
-        "product_name": "Cisco Aironet 3700 Series",
         "affected_releases": [
-          "8.3(130.0)",
+          "8.3(130.0)", 
           "8.3(131.0)"
-        ],
+        ], 
         "fixed_releases": [
-          "8.2(160.5)",
-          "8.2(167.1)",
-          "8.3(132.1)",
-          "8.3(134.17)",
-          "8.3(134.18)",
-          "8.5(107.71)",
+          "15.3(3)JA12", 
+          "15.3(3)JAA12", 
+          "15.3(3)JC9", 
+          "15.3(3)JCA9", 
+          "15.3(3)JD9", 
+          "15.3(3)JDA9", 
+          "15.3(3)JF1", 
+          "8.2(160.5)", 
+          "8.2(167.1)", 
+          "8.3(132.1)", 
+          "8.3(134.17)", 
+          "8.3(134.18)", 
+          "8.5(107.71)", 
           "8.6(1.141)"
-        ],
-        "status": "Fixed"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco Aironet 3700 Series"
       }
-    },
+    }, 
     {
-      "product": "Cisco Aironet 2700 Series running Cisco IOS Software",
-      "bug_id": "CSCvg42682",
+      "bug_id": "CSCvg42682", 
+      "product": "Cisco Aironet 2700 Series", 
       "fix": [
         "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
-      ],
+      ], 
       "bug_data": {
-        "product_name": "Cisco Aironet 3700 Series",
         "affected_releases": [
-          "8.3(130.0)",
+          "8.3(130.0)", 
           "8.3(131.0)"
-        ],
+        ], 
         "fixed_releases": [
-          "8.2(160.5)",
-          "8.2(167.1)",
-          "8.3(132.1)",
-          "8.3(134.17)",
-          "8.3(134.18)",
-          "8.5(107.71)",
+          "15.3(3)JA12", 
+          "15.3(3)JAA12", 
+          "15.3(3)JC9", 
+          "15.3(3)JCA9", 
+          "15.3(3)JD9", 
+          "15.3(3)JDA9", 
+          "15.3(3)JF1", 
+          "8.2(160.5)", 
+          "8.2(167.1)", 
+          "8.3(132.1)", 
+          "8.3(134.17)", 
+          "8.3(134.18)", 
+          "8.5(107.71)", 
           "8.6(1.141)"
-        ],
-        "status": "Fixed"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco Aironet 3700 Series"
       }
-    },
+    }, 
     {
-      "product": "Cisco Aironet 2800 Series Access Points",
-      "bug_id": "CSCvg10793",
+      "bug_id": "CSCvg10793", 
+      "product": "Cisco Aironet 2800 Series Access Points", 
       "fix": [
         "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
-      ],
+      ], 
       "bug_data": {
-        "product_name": "Cisco Aironet 1850 Series Access Points",
         "affected_releases": [
-          "8.2(161.0)",
-          "8.3(122.0)",
-          "8.3(130.0)",
-          "8.4(100.0)",
+          "8.2(161.0)", 
+          "8.3(122.0)", 
+          "8.3(130.0)", 
+          "8.4(100.0)", 
           "8.5(103.0)"
-        ],
+        ], 
         "fixed_releases": [
-          "8.2(160.5)",
-          "8.2(161.246)",
-          "8.2(163.6)",
-          "8.3(130.233)",
-          "8.3(130.6)",
-          "8.3(134.2)",
-          "8.5(103.232)",
-          "8.5(107.57)",
-          "8.6(1.127)",
+          "8.2(160.5)", 
+          "8.2(161.246)", 
+          "8.2(163.6)", 
+          "8.3(130.233)", 
+          "8.3(130.6)", 
+          "8.3(134.2)", 
+          "8.5(103.232)", 
+          "8.5(107.57)", 
+          "8.6(1.127)", 
           "8.7(1.41)"
-        ],
-        "status": "Fixed"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco Aironet 1850 Series Access Points"
       }
-    },
+    }, 
     {
-      "product": "Cisco Aironet 3500 Series running Cisco IOS Software",
-      "bug_id": "CSCvg42682",
+      "bug_id": "CSCvg42682", 
+      "product": "Cisco Aironet 3500 Series", 
       "fix": [
         "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
-      ],
+      ], 
       "bug_data": {
-        "product_name": "Cisco Aironet 3700 Series",
         "affected_releases": [
-          "8.3(130.0)",
+          "8.3(130.0)", 
           "8.3(131.0)"
-        ],
+        ], 
         "fixed_releases": [
-          "8.2(160.5)",
-          "8.2(167.1)",
-          "8.3(132.1)",
-          "8.3(134.17)",
-          "8.3(134.18)",
-          "8.5(107.71)",
+          "15.3(3)JA12", 
+          "15.3(3)JAA12", 
+          "15.3(3)JC9", 
+          "15.3(3)JCA9", 
+          "15.3(3)JD9", 
+          "15.3(3)JDA9", 
+          "15.3(3)JF1", 
+          "8.2(160.5)", 
+          "8.2(167.1)", 
+          "8.3(132.1)", 
+          "8.3(134.17)", 
+          "8.3(134.18)", 
+          "8.5(107.71)", 
           "8.6(1.141)"
-        ],
-        "status": "Fixed"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco Aironet 3700 Series"
       }
-    },
+    }, 
     {
-      "product": "Cisco Aironet 3600 Series running Cisco IOS Software",
-      "bug_id": "CSCvg42682",
+      "bug_id": "CSCvg42682", 
+      "product": "Cisco Aironet 3600 Series", 
       "fix": [
         "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
-      ],
+      ], 
       "bug_data": {
-        "product_name": "Cisco Aironet 3700 Series",
         "affected_releases": [
-          "8.3(130.0)",
+          "8.3(130.0)", 
           "8.3(131.0)"
-        ],
+        ], 
         "fixed_releases": [
-          "8.2(160.5)",
-          "8.2(167.1)",
-          "8.3(132.1)",
-          "8.3(134.17)",
-          "8.3(134.18)",
-          "8.5(107.71)",
+          "15.3(3)JA12", 
+          "15.3(3)JAA12", 
+          "15.3(3)JC9", 
+          "15.3(3)JCA9", 
+          "15.3(3)JD9", 
+          "15.3(3)JDA9", 
+          "15.3(3)JF1", 
+          "8.2(160.5)", 
+          "8.2(167.1)", 
+          "8.3(132.1)", 
+          "8.3(134.17)", 
+          "8.3(134.18)", 
+          "8.5(107.71)", 
           "8.6(1.141)"
-        ],
-        "status": "Fixed"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco Aironet 3700 Series"
       }
-    },
+    }, 
     {
-      "product": "Cisco Aironet 3700 Series running Cisco IOS Software",
-      "bug_id": "CSCvg42682",
+      "bug_id": "CSCvg42682", 
+      "product": "Cisco Aironet 3700 Series", 
       "fix": [
         "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
-      ],
+      ], 
       "bug_data": {
-        "product_name": "Cisco Aironet 3700 Series",
         "affected_releases": [
-          "8.3(130.0)",
+          "8.3(130.0)", 
           "8.3(131.0)"
-        ],
+        ], 
         "fixed_releases": [
-          "8.2(160.5)",
-          "8.2(167.1)",
-          "8.3(132.1)",
-          "8.3(134.17)",
-          "8.3(134.18)",
-          "8.5(107.71)",
+          "15.3(3)JA12", 
+          "15.3(3)JAA12", 
+          "15.3(3)JC9", 
+          "15.3(3)JCA9", 
+          "15.3(3)JD9", 
+          "15.3(3)JDA9", 
+          "15.3(3)JF1", 
+          "8.2(160.5)", 
+          "8.2(167.1)", 
+          "8.3(132.1)", 
+          "8.3(134.17)", 
+          "8.3(134.18)", 
+          "8.5(107.71)", 
           "8.6(1.141)"
-        ],
-        "status": "Fixed"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco Aironet 3700 Series"
       }
-    },
+    }, 
     {
-      "product": "Cisco Aironet 3800 Series Access Points",
-      "bug_id": "CSCvg10793",
+      "bug_id": "CSCvg10793", 
+      "product": "Cisco Aironet 3800 Series Access Points", 
       "fix": [
         "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
-      ],
+      ], 
       "bug_data": {
-        "product_name": "Cisco Aironet 1850 Series Access Points",
         "affected_releases": [
-          "8.2(161.0)",
-          "8.3(122.0)",
-          "8.3(130.0)",
-          "8.4(100.0)",
+          "8.2(161.0)", 
+          "8.3(122.0)", 
+          "8.3(130.0)", 
+          "8.4(100.0)", 
           "8.5(103.0)"
-        ],
+        ], 
         "fixed_releases": [
-          "8.2(160.5)",
-          "8.2(161.246)",
-          "8.2(163.6)",
-          "8.3(130.233)",
-          "8.3(130.6)",
-          "8.3(134.2)",
-          "8.5(103.232)",
-          "8.5(107.57)",
-          "8.6(1.127)",
+          "8.2(160.5)", 
+          "8.2(161.246)", 
+          "8.2(163.6)", 
+          "8.3(130.233)", 
+          "8.3(130.6)", 
+          "8.3(134.2)", 
+          "8.5(103.232)", 
+          "8.5(107.57)", 
+          "8.6(1.127)", 
           "8.7(1.41)"
-        ],
-        "status": "Fixed"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco Aironet 1850 Series Access Points"
       }
-    },
+    }, 
     {
-      "product": "Cisco Aironet 700 Series running Cisco IOS Software",
-      "bug_id": "CSCvg42682",
+      "bug_id": "CSCvg42682", 
+      "product": "Cisco Aironet 700 Series", 
       "fix": [
         "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
-      ],
+      ], 
       "bug_data": {
-        "product_name": "Cisco Aironet 3700 Series",
         "affected_releases": [
-          "8.3(130.0)",
+          "8.3(130.0)", 
           "8.3(131.0)"
-        ],
+        ], 
         "fixed_releases": [
-          "8.2(160.5)",
-          "8.2(167.1)",
-          "8.3(132.1)",
-          "8.3(134.17)",
-          "8.3(134.18)",
-          "8.5(107.71)",
+          "15.3(3)JA12", 
+          "15.3(3)JAA12", 
+          "15.3(3)JC9", 
+          "15.3(3)JCA9", 
+          "15.3(3)JD9", 
+          "15.3(3)JDA9", 
+          "15.3(3)JF1", 
+          "8.2(160.5)", 
+          "8.2(167.1)", 
+          "8.3(132.1)", 
+          "8.3(134.17)", 
+          "8.3(134.18)", 
+          "8.5(107.71)", 
           "8.6(1.141)"
-        ],
-        "status": "Fixed"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco Aironet 3700 Series"
       }
-    },
+    }, 
     {
-      "product": "Cisco Aironet AP801 Access Point running Cisco IOS Software",
-      "bug_id": "CSCvg42682",
+      "bug_id": "CSCvg42682", 
+      "product": "Cisco Aironet AP801 Access Point", 
       "fix": [
         "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
-      ],
+      ], 
       "bug_data": {
-        "product_name": "Cisco Aironet 3700 Series",
         "affected_releases": [
-          "8.3(130.0)",
+          "8.3(130.0)", 
           "8.3(131.0)"
-        ],
+        ], 
         "fixed_releases": [
-          "8.2(160.5)",
-          "8.2(167.1)",
-          "8.3(132.1)",
-          "8.3(134.17)",
-          "8.3(134.18)",
-          "8.5(107.71)",
+          "15.3(3)JA12", 
+          "15.3(3)JAA12", 
+          "15.3(3)JC9", 
+          "15.3(3)JCA9", 
+          "15.3(3)JD9", 
+          "15.3(3)JDA9", 
+          "15.3(3)JF1", 
+          "8.2(160.5)", 
+          "8.2(167.1)", 
+          "8.3(132.1)", 
+          "8.3(134.17)", 
+          "8.3(134.18)", 
+          "8.5(107.71)", 
           "8.6(1.141)"
-        ],
-        "status": "Fixed"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco Aironet 3700 Series"
       }
-    },
+    }, 
     {
-      "product": "Cisco Aironet AP802 Access Point running Cisco IOS Software",
-      "bug_id": "CSCvg42682",
+      "bug_id": "CSCvg42682", 
+      "product": "Cisco Aironet AP802 Access Point", 
       "fix": [
         "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
-      ],
+      ], 
       "bug_data": {
-        "product_name": "Cisco Aironet 3700 Series",
         "affected_releases": [
-          "8.3(130.0)",
+          "8.3(130.0)", 
           "8.3(131.0)"
-        ],
+        ], 
         "fixed_releases": [
-          "8.2(160.5)",
-          "8.2(167.1)",
-          "8.3(132.1)",
-          "8.3(134.17)",
-          "8.3(134.18)",
-          "8.5(107.71)",
+          "15.3(3)JA12", 
+          "15.3(3)JAA12", 
+          "15.3(3)JC9", 
+          "15.3(3)JCA9", 
+          "15.3(3)JD9", 
+          "15.3(3)JDA9", 
+          "15.3(3)JF1", 
+          "8.2(160.5)", 
+          "8.2(167.1)", 
+          "8.3(132.1)", 
+          "8.3(134.17)", 
+          "8.3(134.18)", 
+          "8.5(107.71)", 
           "8.6(1.141)"
-        ],
-        "status": "Fixed"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco Aironet 3700 Series"
       }
-    },
+    }, 
     {
-      "product": "Cisco Aironet AP803 Access Point running Cisco IOS Software",
-      "bug_id": "CSCvg42682",
+      "bug_id": "CSCvg42682", 
+      "product": "Cisco Aironet AP803 Access Point", 
       "fix": [
         "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
-      ],
+      ], 
       "bug_data": {
-        "product_name": "Cisco Aironet 3700 Series",
         "affected_releases": [
-          "8.3(130.0)",
+          "8.3(130.0)", 
           "8.3(131.0)"
-        ],
+        ], 
         "fixed_releases": [
-          "8.2(160.5)",
-          "8.2(167.1)",
-          "8.3(132.1)",
-          "8.3(134.17)",
-          "8.3(134.18)",
-          "8.5(107.71)",
+          "15.3(3)JA12", 
+          "15.3(3)JAA12", 
+          "15.3(3)JC9", 
+          "15.3(3)JCA9", 
+          "15.3(3)JD9", 
+          "15.3(3)JDA9", 
+          "15.3(3)JF1", 
+          "8.2(160.5)", 
+          "8.2(167.1)", 
+          "8.3(132.1)", 
+          "8.3(134.17)", 
+          "8.3(134.18)", 
+          "8.5(107.71)", 
           "8.6(1.141)"
-        ],
-        "status": "Fixed"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco Aironet 3700 Series"
       }
-    },
+    }, 
     {
-      "product": "Cisco Aironet Access Points running Cisco IOS Software",
-      "bug_id": "CSCvg42682",
+      "bug_id": "CSCvg42682", 
+      "product": "Cisco Aironet Access Points", 
       "fix": [
         "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
-      ],
+      ], 
       "bug_data": {
-        "product_name": "Cisco Aironet 3700 Series",
         "affected_releases": [
-          "8.3(130.0)",
+          "8.3(130.0)", 
           "8.3(131.0)"
-        ],
+        ], 
         "fixed_releases": [
-          "8.2(160.5)",
-          "8.2(167.1)",
-          "8.3(132.1)",
-          "8.3(134.17)",
-          "8.3(134.18)",
-          "8.5(107.71)",
+          "15.3(3)JA12", 
+          "15.3(3)JAA12", 
+          "15.3(3)JC9", 
+          "15.3(3)JCA9", 
+          "15.3(3)JD9", 
+          "15.3(3)JDA9", 
+          "15.3(3)JF1", 
+          "8.2(160.5)", 
+          "8.2(167.1)", 
+          "8.3(132.1)", 
+          "8.3(134.17)", 
+          "8.3(134.18)", 
+          "8.5(107.71)", 
           "8.6(1.141)"
-        ],
-        "status": "Fixed"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco Aironet 3700 Series"
       }
-    },
+    }, 
     {
-      "product": "Cisco Industrial Wireless 3700 Series running Cisco IOS Software",
-      "bug_id": "CSCvg42682",
+      "bug_id": "CSCvg42682", 
+      "product": "Cisco Industrial Wireless 3700 Series", 
       "fix": [
         "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
-      ],
+      ], 
       "bug_data": {
-        "product_name": "Cisco Aironet 3700 Series",
         "affected_releases": [
-          "8.3(130.0)",
+          "8.3(130.0)", 
           "8.3(131.0)"
-        ],
+        ], 
         "fixed_releases": [
-          "8.2(160.5)",
-          "8.2(167.1)",
-          "8.3(132.1)",
-          "8.3(134.17)",
-          "8.3(134.18)",
-          "8.5(107.71)",
+          "15.3(3)JA12", 
+          "15.3(3)JAA12", 
+          "15.3(3)JC9", 
+          "15.3(3)JCA9", 
+          "15.3(3)JD9", 
+          "15.3(3)JDA9", 
+          "15.3(3)JF1", 
+          "8.2(160.5)", 
+          "8.2(167.1)", 
+          "8.3(132.1)", 
+          "8.3(134.17)", 
+          "8.3(134.18)", 
+          "8.5(107.71)", 
           "8.6(1.141)"
-        ],
-        "status": "Fixed"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco Aironet 3700 Series"
       }
-    },
+    }, 
     {
-      "product": "Cisco Meraki MR11",
-      "bug_id": null,
+      "bug_id": null, 
+      "product": "Cisco Meraki MR11", 
       "fix": [
-        "MR20.x and previous releases: not affected",
-        "MR21.x: affected",
-        "no fixes will be made available",
-        "MR22.x: affected",
-        "no fixes will be made available",
-        "MR23.x: affected",
-        "no fixes will be made available",
-        "MR24 up to and including MR24.10: affected",
-        "first fixed in MR24.11",
-        "available 16-Oct-2017",
-        "MR25 up to and including MR25.6: affected",
-        "first fixed in MR25.7",
+        "MR20.x and previous releases: not affected", 
+        "MR21.x: affected", 
+        "no fixes will be made available", 
+        "MR22.x: affected", 
+        "no fixes will be made available", 
+        "MR23.x: affected", 
+        "no fixes will be made available", 
+        "MR24 up to and including MR24.10: affected", 
+        "first fixed in MR24.11", 
+        "available 16-Oct-2017", 
+        "MR25 up to and including MR25.6: affected", 
+        "first fixed in MR25.7", 
         "available 16-Oct-2017"
-      ],
+      ], 
       "bug_data": null
-    },
+    }, 
     {
-      "product": "Cisco Meraki MR12",
-      "bug_id": null,
+      "bug_id": null, 
+      "product": "Cisco Meraki MR12", 
       "fix": [
-        "MR20.x and previous releases: not affected",
-        "MR21.x: affected",
-        "no fixes will be made available",
-        "MR22.x: affected",
-        "no fixes will be made available",
-        "MR23.x: affected",
-        "no fixes will be made available",
-        "MR24 up to and including MR24.10: affected",
-        "first fixed in MR24.11",
-        "available 16-Oct-2017",
-        "MR25 up to and including MR25.6: affected",
-        "first fixed in MR25.7",
+        "MR20.x and previous releases: not affected", 
+        "MR21.x: affected", 
+        "no fixes will be made available", 
+        "MR22.x: affected", 
+        "no fixes will be made available", 
+        "MR23.x: affected", 
+        "no fixes will be made available", 
+        "MR24 up to and including MR24.10: affected", 
+        "first fixed in MR24.11", 
+        "available 16-Oct-2017", 
+        "MR25 up to and including MR25.6: affected", 
+        "first fixed in MR25.7", 
         "available 16-Oct-2017"
-      ],
+      ], 
       "bug_data": null
-    },
+    }, 
     {
-      "product": "Cisco Meraki MR14",
-      "bug_id": null,
+      "bug_id": null, 
+      "product": "Cisco Meraki MR14", 
       "fix": [
-        "MR20.x and previous releases: not affected",
-        "MR21.x: affected",
-        "no fixes will be made available",
-        "MR22.x: affected",
-        "no fixes will be made available",
-        "MR23.x: affected",
-        "no fixes will be made available",
-        "MR24 up to and including MR24.10: affected",
-        "first fixed in MR24.11",
-        "available 16-Oct-2017",
-        "MR25 up to and including MR25.6: affected",
-        "first fixed in MR25.7",
+        "MR20.x and previous releases: not affected", 
+        "MR21.x: affected", 
+        "no fixes will be made available", 
+        "MR22.x: affected", 
+        "no fixes will be made available", 
+        "MR23.x: affected", 
+        "no fixes will be made available", 
+        "MR24 up to and including MR24.10: affected", 
+        "first fixed in MR24.11", 
+        "available 16-Oct-2017", 
+        "MR25 up to and including MR25.6: affected", 
+        "first fixed in MR25.7", 
         "available 16-Oct-2017"
-      ],
+      ], 
       "bug_data": null
-    },
+    }, 
     {
-      "product": "Cisco Meraki MR16",
-      "bug_id": null,
+      "bug_id": null, 
+      "product": "Cisco Meraki MR16", 
       "fix": [
-        "MR20.x and previous releases: not affected",
-        "MR21.x: affected",
-        "no fixes will be made available",
-        "MR22.x: affected",
-        "no fixes will be made available",
-        "MR23.x: affected",
-        "no fixes will be made available",
-        "MR24 up to and including MR24.10: affected",
-        "first fixed in MR24.11",
-        "available 16-Oct-2017",
-        "MR25 up to and including MR25.6: affected",
-        "first fixed in MR25.7",
+        "MR20.x and previous releases: not affected", 
+        "MR21.x: affected", 
+        "no fixes will be made available", 
+        "MR22.x: affected", 
+        "no fixes will be made available", 
+        "MR23.x: affected", 
+        "no fixes will be made available", 
+        "MR24 up to and including MR24.10: affected", 
+        "first fixed in MR24.11", 
+        "available 16-Oct-2017", 
+        "MR25 up to and including MR25.6: affected", 
+        "first fixed in MR25.7", 
         "available 16-Oct-2017"
-      ],
+      ], 
       "bug_data": null
-    },
+    }, 
     {
-      "product": "Cisco Meraki MR18",
-      "bug_id": null,
+      "bug_id": null, 
+      "product": "Cisco Meraki MR18", 
       "fix": [
-        "MR20.x and previous releases: not affected",
-        "MR21.x: affected",
-        "no fixes will be made available",
-        "MR22.x: affected",
-        "no fixes will be made available",
-        "MR23.x: affected",
-        "no fixes will be made available",
-        "MR24 up to and including MR24.10: affected",
-        "first fixed in MR24.11",
-        "available 16-Oct-2017",
-        "MR25 up to and including MR25.6: affected",
-        "first fixed in MR25.7",
+        "MR20.x and previous releases: not affected", 
+        "MR21.x: affected", 
+        "no fixes will be made available", 
+        "MR22.x: affected", 
+        "no fixes will be made available", 
+        "MR23.x: affected", 
+        "no fixes will be made available", 
+        "MR24 up to and including MR24.10: affected", 
+        "first fixed in MR24.11", 
+        "available 16-Oct-2017", 
+        "MR25 up to and including MR25.6: affected", 
+        "first fixed in MR25.7", 
         "available 16-Oct-2017"
-      ],
+      ], 
       "bug_data": null
-    },
+    }, 
     {
-      "product": "Cisco Meraki MR24",
-      "bug_id": null,
+      "bug_id": null, 
+      "product": "Cisco Meraki MR24", 
       "fix": [
-        "MR20.x and previous releases: not affected",
-        "MR21.x: affected",
-        "no fixes will be made available",
-        "MR22.x: affected",
-        "no fixes will be made available",
-        "MR23.x: affected",
-        "no fixes will be made available",
-        "MR24 up to and including MR24.10: affected",
-        "first fixed in MR24.11",
-        "available 16-Oct-2017",
-        "MR25 up to and including MR25.6: affected",
-        "first fixed in MR25.7",
+        "MR20.x and previous releases: not affected", 
+        "MR21.x: affected", 
+        "no fixes will be made available", 
+        "MR22.x: affected", 
+        "no fixes will be made available", 
+        "MR23.x: affected", 
+        "no fixes will be made available", 
+        "MR24 up to and including MR24.10: affected", 
+        "first fixed in MR24.11", 
+        "available 16-Oct-2017", 
+        "MR25 up to and including MR25.6: affected", 
+        "first fixed in MR25.7", 
         "available 16-Oct-2017"
-      ],
+      ], 
       "bug_data": null
-    },
+    }, 
     {
-      "product": "Cisco Meraki MR26",
-      "bug_id": null,
+      "bug_id": null, 
+      "product": "Cisco Meraki MR26", 
       "fix": [
-        "MR20.x and previous releases: not affected",
-        "MR21.x: affected",
-        "no fixes will be made available",
-        "MR22.x: affected",
-        "no fixes will be made available",
-        "MR23.x: affected",
-        "no fixes will be made available",
-        "MR24 up to and including MR24.10: affected",
-        "first fixed in MR24.11",
-        "available 16-Oct-2017",
-        "MR25 up to and including MR25.6: affected",
-        "first fixed in MR25.7",
+        "MR20.x and previous releases: not affected", 
+        "MR21.x: affected", 
+        "no fixes will be made available", 
+        "MR22.x: affected", 
+        "no fixes will be made available", 
+        "MR23.x: affected", 
+        "no fixes will be made available", 
+        "MR24 up to and including MR24.10: affected", 
+        "first fixed in MR24.11", 
+        "available 16-Oct-2017", 
+        "MR25 up to and including MR25.6: affected", 
+        "first fixed in MR25.7", 
         "available 16-Oct-2017"
-      ],
+      ], 
       "bug_data": null
-    },
+    }, 
     {
-      "product": "Cisco Meraki MR30H",
-      "bug_id": null,
+      "bug_id": null, 
+      "product": "Cisco Meraki MR30H", 
       "fix": [
-        "MR20.x and previous releases: not affected",
-        "MR21.x: affected",
-        "no fixes will be made available",
-        "MR22.x: affected",
-        "no fixes will be made available",
-        "MR23.x: affected",
-        "no fixes will be made available",
-        "MR24.x: affected",
-        "no fixes will be made available",
-        "MR25 up to and including MR25.6: affected",
-        "first fixed in MR25.7",
+        "MR20.x and previous releases: not affected", 
+        "MR21.x: affected", 
+        "no fixes will be made available", 
+        "MR22.x: affected", 
+        "no fixes will be made available", 
+        "MR23.x: affected", 
+        "no fixes will be made available", 
+        "MR24.x: affected", 
+        "no fixes will be made available", 
+        "MR25 up to and including MR25.6: affected", 
+        "first fixed in MR25.7", 
         "available 16-Oct-2017"
-      ],
+      ], 
       "bug_data": null
-    },
+    }, 
     {
-      "product": "Cisco Meraki MR32",
-      "bug_id": null,
+      "bug_id": null, 
+      "product": "Cisco Meraki MR32", 
       "fix": [
-        "MR20.x and previous releases: not affected",
-        "MR21.x: affected",
-        "no fixes will be made available",
-        "MR22.x: affected",
-        "no fixes will be made available",
-        "MR23.x: affected",
-        "no fixes will be made available",
-        "MR24 up to and including MR24.10: affected",
-        "first fixed in MR24.11",
-        "available 16-Oct-2017",
-        "MR25 up to and including MR25.6: affected",
-        "first fixed in MR25.7",
+        "MR20.x and previous releases: not affected", 
+        "MR21.x: affected", 
+        "no fixes will be made available", 
+        "MR22.x: affected", 
+        "no fixes will be made available", 
+        "MR23.x: affected", 
+        "no fixes will be made available", 
+        "MR24 up to and including MR24.10: affected", 
+        "first fixed in MR24.11", 
+        "available 16-Oct-2017", 
+        "MR25 up to and including MR25.6: affected", 
+        "first fixed in MR25.7", 
         "available 16-Oct-2017"
-      ],
+      ], 
       "bug_data": null
-    },
+    }, 
     {
-      "product": "Cisco Meraki MR33",
-      "bug_id": null,
+      "bug_id": null, 
+      "product": "Cisco Meraki MR33", 
       "fix": [
-        "MR20.x and previous releases: not affected",
-        "MR21.x: affected",
-        "no fixes will be made available",
-        "MR22.x: affected",
-        "no fixes will be made available",
-        "MR23.x: affected",
-        "no fixes will be made available",
-        "MR24.x: affected",
-        "no fixes will be made available",
-        "MR25 up to and including MR25.6: affected",
-        "first fixed in MR25.7",
+        "MR20.x and previous releases: not affected", 
+        "MR21.x: affected", 
+        "no fixes will be made available", 
+        "MR22.x: affected", 
+        "no fixes will be made available", 
+        "MR23.x: affected", 
+        "no fixes will be made available", 
+        "MR24.x: affected", 
+        "no fixes will be made available", 
+        "MR25 up to and including MR25.6: affected", 
+        "first fixed in MR25.7", 
         "available 16-Oct-2017"
-      ],
+      ], 
       "bug_data": null
-    },
+    }, 
     {
-      "product": "Cisco Meraki MR34",
-      "bug_id": null,
+      "bug_id": null, 
+      "product": "Cisco Meraki MR34", 
       "fix": [
-        "MR20.x and previous releases: not affected",
-        "MR21.x: affected",
-        "no fixes will be made available",
-        "MR22.x: affected",
-        "no fixes will be made available",
-        "MR23.x: affected",
-        "no fixes will be made available",
-        "MR24 up to and including MR24.10: affected",
-        "first fixed in MR24.11",
-        "available 16-Oct-2017",
-        "MR25 up to and including MR25.6: affected",
-        "first fixed in MR25.7",
+        "MR20.x and previous releases: not affected", 
+        "MR21.x: affected", 
+        "no fixes will be made available", 
+        "MR22.x: affected", 
+        "no fixes will be made available", 
+        "MR23.x: affected", 
+        "no fixes will be made available", 
+        "MR24 up to and including MR24.10: affected", 
+        "first fixed in MR24.11", 
+        "available 16-Oct-2017", 
+        "MR25 up to and including MR25.6: affected", 
+        "first fixed in MR25.7", 
         "available 16-Oct-2017"
-      ],
+      ], 
       "bug_data": null
-    },
+    }, 
     {
-      "product": "Cisco Meraki MR42",
-      "bug_id": null,
+      "bug_id": null, 
+      "product": "Cisco Meraki MR42", 
       "fix": [
-        "MR20.x and previous releases: not affected",
-        "MR21.x: affected",
-        "no fixes will be made available",
-        "MR22.x: affected",
-        "no fixes will be made available",
-        "MR23.x: affected",
-        "no fixes will be made available",
-        "MR24 up to and including MR24.10: affected",
-        "first fixed in MR24.11",
-        "available 16-Oct-2017",
-        "MR25 up to and including MR25.6: affected",
-        "first fixed in MR25.7",
+        "MR20.x and previous releases: not affected", 
+        "MR21.x: affected", 
+        "no fixes will be made available", 
+        "MR22.x: affected", 
+        "no fixes will be made available", 
+        "MR23.x: affected", 
+        "no fixes will be made available", 
+        "MR24 up to and including MR24.10: affected", 
+        "first fixed in MR24.11", 
+        "available 16-Oct-2017", 
+        "MR25 up to and including MR25.6: affected", 
+        "first fixed in MR25.7", 
         "available 16-Oct-2017"
-      ],
+      ], 
       "bug_data": null
-    },
+    }, 
     {
-      "product": "Cisco Meraki MR52",
-      "bug_id": null,
+      "bug_id": null, 
+      "product": "Cisco Meraki MR52", 
       "fix": [
-        "MR20.x and previous releases: not affected",
-        "MR21.x: affected",
-        "no fixes will be made available",
-        "MR22.x: affected",
-        "no fixes will be made available",
-        "MR23.x: affected",
-        "no fixes will be made available",
-        "MR24 up to and including MR24.10: affected",
-        "first fixed in MR24.11",
-        "available 16-Oct-2017",
-        "MR25 up to and including MR25.6: affected",
-        "first fixed in MR25.7",
+        "MR20.x and previous releases: not affected", 
+        "MR21.x: affected", 
+        "no fixes will be made available", 
+        "MR22.x: affected", 
+        "no fixes will be made available", 
+        "MR23.x: affected", 
+        "no fixes will be made available", 
+        "MR24 up to and including MR24.10: affected", 
+        "first fixed in MR24.11", 
+        "available 16-Oct-2017", 
+        "MR25 up to and including MR25.6: affected", 
+        "first fixed in MR25.7", 
         "available 16-Oct-2017"
-      ],
+      ], 
       "bug_data": null
-    },
+    }, 
     {
-      "product": "Cisco Meraki MR53",
-      "bug_id": null,
+      "bug_id": null, 
+      "product": "Cisco Meraki MR53", 
       "fix": [
-        "MR20.x and previous releases: not affected",
-        "MR21.x: affected",
-        "no fixes will be made available",
-        "MR22.x: affected",
-        "no fixes will be made available",
-        "MR23.x: affected",
-        "no fixes will be made available",
-        "MR24 up to and including MR24.10: affected",
-        "first fixed in MR24.11",
-        "available 16-Oct-2017",
-        "MR25 up to and including MR25.6: affected",
-        "first fixed in MR25.7",
+        "MR20.x and previous releases: not affected", 
+        "MR21.x: affected", 
+        "no fixes will be made available", 
+        "MR22.x: affected", 
+        "no fixes will be made available", 
+        "MR23.x: affected", 
+        "no fixes will be made available", 
+        "MR24 up to and including MR24.10: affected", 
+        "first fixed in MR24.11", 
+        "available 16-Oct-2017", 
+        "MR25 up to and including MR25.6: affected", 
+        "first fixed in MR25.7", 
         "available 16-Oct-2017"
-      ],
+      ], 
       "bug_data": null
-    },
+    }, 
     {
-      "product": "Cisco Meraki MR58",
-      "bug_id": null,
+      "bug_id": null, 
+      "product": "Cisco Meraki MR58", 
       "fix": [
-        "MR20.x and previous releases: not affected",
-        "MR21.x: affected",
-        "no fixes will be made available",
-        "MR22.x: affected",
-        "no fixes will be made available",
-        "MR23.x: affected",
-        "no fixes will be made available",
-        "MR24 up to and including MR24.10: affected",
-        "first fixed in MR24.11",
-        "available 16-Oct-2017",
-        "MR25 up to and including MR25.6: affected",
-        "first fixed in MR25.7",
+        "MR20.x and previous releases: not affected", 
+        "MR21.x: affected", 
+        "no fixes will be made available", 
+        "MR22.x: affected", 
+        "no fixes will be made available", 
+        "MR23.x: affected", 
+        "no fixes will be made available", 
+        "MR24 up to and including MR24.10: affected", 
+        "first fixed in MR24.11", 
+        "available 16-Oct-2017", 
+        "MR25 up to and including MR25.6: affected", 
+        "first fixed in MR25.7", 
         "available 16-Oct-2017"
-      ],
+      ], 
       "bug_data": null
-    },
+    }, 
     {
-      "product": "Cisco Meraki MR62",
-      "bug_id": null,
+      "bug_id": null, 
+      "product": "Cisco Meraki MR62", 
       "fix": [
-        "MR20.x and previous releases: not affected",
-        "MR21.x: affected",
-        "no fixes will be made available",
-        "MR22.x: affected",
-        "no fixes will be made available",
-        "MR23.x: affected",
-        "no fixes will be made available",
-        "MR24 up to and including MR24.10: affected",
-        "first fixed in MR24.11",
-        "available 16-Oct-2017",
-        "MR25 up to and including MR25.6: affected",
-        "first fixed in MR25.7",
+        "MR20.x and previous releases: not affected", 
+        "MR21.x: affected", 
+        "no fixes will be made available", 
+        "MR22.x: affected", 
+        "no fixes will be made available", 
+        "MR23.x: affected", 
+        "no fixes will be made available", 
+        "MR24 up to and including MR24.10: affected", 
+        "first fixed in MR24.11", 
+        "available 16-Oct-2017", 
+        "MR25 up to and including MR25.6: affected", 
+        "first fixed in MR25.7", 
         "available 16-Oct-2017"
-      ],
+      ], 
       "bug_data": null
-    },
+    }, 
     {
-      "product": "Cisco Meraki MR66",
-      "bug_id": null,
+      "bug_id": null, 
+      "product": "Cisco Meraki MR66", 
       "fix": [
-        "MR20.x and previous releases: not affected",
-        "MR21.x: affected",
-        "no fixes will be made available",
-        "MR22.x: affected",
-        "no fixes will be made available",
-        "MR23.x: affected",
-        "no fixes will be made available",
-        "MR24 up to and including MR24.10: affected",
-        "first fixed in MR24.11",
-        "available 16-Oct-2017",
-        "MR25 up to and including MR25.6: affected",
-        "first fixed in MR25.7",
+        "MR20.x and previous releases: not affected", 
+        "MR21.x: affected", 
+        "no fixes will be made available", 
+        "MR22.x: affected", 
+        "no fixes will be made available", 
+        "MR23.x: affected", 
+        "no fixes will be made available", 
+        "MR24 up to and including MR24.10: affected", 
+        "first fixed in MR24.11", 
+        "available 16-Oct-2017", 
+        "MR25 up to and including MR25.6: affected", 
+        "first fixed in MR25.7", 
         "available 16-Oct-2017"
-      ],
+      ], 
       "bug_data": null
-    },
+    }, 
     {
-      "product": "Cisco Meraki MR72",
-      "bug_id": null,
+      "bug_id": null, 
+      "product": "Cisco Meraki MR72", 
       "fix": [
-        "MR20.x and previous releases: not affected",
-        "MR21.x: affected",
-        "no fixes will be made available",
-        "MR22.x: affected",
-        "no fixes will be made available",
-        "MR23.x: affected",
-        "no fixes will be made available",
-        "MR24 up to and including MR24.10: affected",
-        "first fixed in MR24.11",
-        "available 16-Oct-2017",
-        "MR25 up to and including MR25.6: affected",
-        "first fixed in MR25.7",
+        "MR20.x and previous releases: not affected", 
+        "MR21.x: affected", 
+        "no fixes will be made available", 
+        "MR22.x: affected", 
+        "no fixes will be made available", 
+        "MR23.x: affected", 
+        "no fixes will be made available", 
+        "MR24 up to and including MR24.10: affected", 
+        "first fixed in MR24.11", 
+        "available 16-Oct-2017", 
+        "MR25 up to and including MR25.6: affected", 
+        "first fixed in MR25.7", 
         "available 16-Oct-2017"
-      ],
+      ], 
       "bug_data": null
-    },
+    }, 
     {
-      "product": "Cisco Meraki MR74",
-      "bug_id": null,
+      "bug_id": null, 
+      "product": "Cisco Meraki MR74", 
       "fix": [
-        "MR20.x and previous releases: not affected",
-        "MR21.x: affected",
-        "no fixes will be made available",
-        "MR22.x: affected",
-        "no fixes will be made available",
-        "MR23.x: affected",
-        "no fixes will be made available",
-        "MR24.x: affected",
-        "no fixes will be made available",
-        "MR25 up to and including MR25.6: affected",
-        "first fixed in MR25.7",
+        "MR20.x and previous releases: not affected", 
+        "MR21.x: affected", 
+        "no fixes will be made available", 
+        "MR22.x: affected", 
+        "no fixes will be made available", 
+        "MR23.x: affected", 
+        "no fixes will be made available", 
+        "MR24.x: affected", 
+        "no fixes will be made available", 
+        "MR25 up to and including MR25.6: affected", 
+        "first fixed in MR25.7", 
         "available 16-Oct-2017"
-      ],
+      ], 
       "bug_data": null
-    },
+    }, 
     {
-      "product": "Cisco Meraki MR84",
-      "bug_id": null,
+      "bug_id": null, 
+      "product": "Cisco Meraki MR84", 
       "fix": [
-        "MR20.x and previous releases: not affected",
-        "MR21.x: affected",
-        "no fixes will be made available",
-        "MR22.x: affected",
-        "no fixes will be made available",
-        "MR23.x: affected",
-        "no fixes will be made available",
-        "MR24 up to and including MR24.10: affected",
-        "first fixed in MR24.11",
-        "available 16-Oct-2017",
-        "MR25 up to and including MR25.6: affected",
-        "first fixed in MR25.7",
+        "MR20.x and previous releases: not affected", 
+        "MR21.x: affected", 
+        "no fixes will be made available", 
+        "MR22.x: affected", 
+        "no fixes will be made available", 
+        "MR23.x: affected", 
+        "no fixes will be made available", 
+        "MR24 up to and including MR24.10: affected", 
+        "first fixed in MR24.11", 
+        "available 16-Oct-2017", 
+        "MR25 up to and including MR25.6: affected", 
+        "first fixed in MR25.7", 
         "available 16-Oct-2017"
-      ],
+      ], 
       "bug_data": null
-    },
+    }, 
     {
-      "product": "Cisco Mobility Express",
-      "bug_id": "CSCvg10793",
+      "bug_id": "CSCvg10793", 
+      "product": "Cisco Mobility Express", 
       "fix": [
         "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
-      ],
+      ], 
       "bug_data": {
-        "product_name": "Cisco Aironet 1850 Series Access Points",
         "affected_releases": [
-          "8.2(161.0)",
-          "8.3(122.0)",
-          "8.3(130.0)",
-          "8.4(100.0)",
+          "8.2(161.0)", 
+          "8.3(122.0)", 
+          "8.3(130.0)", 
+          "8.4(100.0)", 
           "8.5(103.0)"
-        ],
+        ], 
         "fixed_releases": [
-          "8.2(160.5)",
-          "8.2(161.246)",
-          "8.2(163.6)",
-          "8.3(130.233)",
-          "8.3(130.6)",
-          "8.3(134.2)",
-          "8.5(103.232)",
-          "8.5(107.57)",
-          "8.6(1.127)",
+          "8.2(160.5)", 
+          "8.2(161.246)", 
+          "8.2(163.6)", 
+          "8.3(130.233)", 
+          "8.3(130.6)", 
+          "8.3(134.2)", 
+          "8.5(103.232)", 
+          "8.5(107.57)", 
+          "8.6(1.127)", 
           "8.7(1.41)"
-        ],
-        "status": "Fixed"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco Aironet 1850 Series Access Points"
       }
-    },
+    }, 
     {
-      "product": "Cisco WAP121 Wireless-N Access Point with Single Point Setup",
-      "bug_id": "CSCvf96789",
+      "bug_id": "CSCvf96789", 
+      "product": "Cisco WAP121 Wireless-N Access Point with Single Point Setup", 
       "fix": [
-        "TBD"
-      ],
+        "No fix information available at this time."
+      ], 
       "bug_data": {
-        "product_name": "Cisco Small Business 300 Series Wireless Access Points",
         "affected_releases": [
           "Next_MR"
-        ],
-        "fixed_releases": [],
-        "status": "Open"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Small Business 300 Series Wireless Access Points"
       }
-    },
+    }, 
     {
-      "product": "Cisco WAP321 Wireless-N Access Point with Single Point Setup",
-      "bug_id": "CSCvf96789",
+      "bug_id": "CSCvf96792", 
+      "product": "Cisco WAP125 Wireless-AC Dual Band Desktop Access Point with PoE", 
       "fix": [
-        "TBD"
-      ],
+        "No fix information available at this time."
+      ], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvf96801", 
+      "product": "Cisco WAP131 Wireless-N Dual Radio Access Point with PoE", 
+      "fix": [
+        "No fix information available at this time."
+      ], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvf96803", 
+      "product": "Cisco WAP150 Wireless-AC/N Dual Radio Access Point with PoE", 
+      "fix": [
+        "No fix information available at this time."
+      ], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvf96789", 
+      "product": "Cisco WAP321 Wireless-N Access Point with Single Point Setup", 
+      "fix": [
+        "No fix information available at this time."
+      ], 
       "bug_data": {
-        "product_name": "Cisco Small Business 300 Series Wireless Access Points",
         "affected_releases": [
           "Next_MR"
-        ],
-        "fixed_releases": [],
-        "status": "Open"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Small Business 300 Series Wireless Access Points"
       }
-    },
+    }, 
     {
-      "product": "Cisco WAP371 Wireless-AC N Access Point with Single Point Setup",
-      "bug_id": "CSCvf96814",
+      "bug_id": "CSCvf96801", 
+      "product": "Cisco WAP351 Wireless-N Dual Radio Access Point with 5-Port Switch", 
       "fix": [
-        "TBD"
-      ],
+        "No fix information available at this time."
+      ], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvf96803", 
+      "product": "Cisco WAP361 Wireless-AC N Dual Radio Wall Plate Access Point with PoE", 
+      "fix": [
+        "No fix information available at this time."
+      ], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvf96814", 
+      "product": "Cisco WAP371 Wireless-AC N Access Point with Single Point Setup", 
+      "fix": [
+        "No fix information available at this time."
+      ], 
       "bug_data": {
-        "product_name": "Cisco Small Business 300 Series Wireless Access Points",
         "affected_releases": [
           "NextMR"
-        ],
-        "fixed_releases": [],
-        "status": "Open"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Small Business 300 Series Wireless Access Points"
       }
-    },
+    }, 
     {
-      "product": "Cisco WAP551 Wireless-N Single Radio Selectable Band Access Point",
-      "bug_id": "CSCvf96818",
+      "bug_id": "CSCvf96818", 
+      "product": "Cisco WAP551 Wireless-N Single Radio Selectable Band Access Point", 
       "fix": [
-        "TBD"
-      ],
+        "No fix information available at this time."
+      ], 
       "bug_data": {
-        "product_name": "Cisco Small Business 500 Series Wireless Access Points",
         "affected_releases": [
           "NextMR"
-        ],
-        "fixed_releases": [],
-        "status": "Open"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Small Business 500 Series Wireless Access Points"
       }
-    },
+    }, 
     {
-      "product": "Cisco WAP561 Wireless-N Dual Radio Selectable Band Access Point",
-      "bug_id": "CSCvf96818",
+      "bug_id": "CSCvf96818", 
+      "product": "Cisco WAP561 Wireless-N Dual Radio Selectable Band Access Point", 
       "fix": [
-        "TBD"
-      ],
+        "No fix information available at this time."
+      ], 
       "bug_data": {
-        "product_name": "Cisco Small Business 500 Series Wireless Access Points",
         "affected_releases": [
           "NextMR"
-        ],
-        "fixed_releases": [],
-        "status": "Open"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Small Business 500 Series Wireless Access Points"
       }
+    }, 
+    {
+      "bug_id": "CSCvf96820", 
+      "product": "Cisco WAP571 Wireless-AC N Premium Dual Radio Access Point with PoE", 
+      "fix": [
+        "No fix information available at this time."
+      ], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvf96820", 
+      "product": "Cisco WAP571E Wireless-AC N Premium Dual Radio Outdoor Access Point", 
+      "fix": [
+        "No fix information available at this time."
+      ], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvg07495", 
+      "product": "Cisco WAP581 Wireless-AC Dual Radio Wave 2 Access Point with 2.5GbE LAN", 
+      "fix": [
+        "No fix information available at this time."
+      ], 
+      "bug_data": null
     }
   ]
 }
