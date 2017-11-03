@@ -1,11 +1,11 @@
 {
-  "version": "2.2", 
+  "version": "2.3", 
   "products": [
     {
       "bug_id": "CSCvg35287", 
       "product": "Cisco AnyConnect Secure Mobility Client - Network Access Manager", 
       "fix": [
-        "v4.5.02036; available now"
+        "v4.5.02036: available now"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -17,11 +17,22 @@
       }
     }, 
     {
-      "bug_id": "CSCvf96827", 
-      "product": "Cisco Small Business RV130W Wireless-N Multifunction VPN Router", 
-      "fix": [
-        "No fix information available at this time."
-      ], 
+      "bug_id": "CSCvg03682", 
+      "product": "Cisco Small Business CVR100W Wireless-N VPN Router", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "v1.0.1.19"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Small Business RV Series Routers"
+      }
+    }, 
+    {
+      "bug_id": "CSCvf96844", 
+      "product": "Cisco Small Business RV315W Wireless-N VPN Router", 
+      "fix": [], 
       "bug_data": null
     }, 
     {
@@ -31,22 +42,14 @@
         "9.2.1 (10-Nov-2017)", 
         "8.3.4 (31-Oct-2017)"
       ], 
-      "bug_data": {
-        "affected_releases": [
-          "8.3.x", 
-          "9.0.x", 
-          "9.1.x"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Telepresence Integrator C Series"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCvf71751", 
       "product": "Cisco IP Phone 8861", 
       "fix": [
-        "12.0.1SR1; available now"
+        "12.0.1SR1", 
+        "available now"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -66,7 +69,8 @@
       "bug_id": "CSCvf71751", 
       "product": "Cisco IP Phone 8865", 
       "fix": [
-        "12.0.1SR1; available now"
+        "12.0.1SR1", 
+        "available now"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -89,22 +93,14 @@
         "9.2.1 (10-Nov-2017)", 
         "8.3.4 (31-Oct-2017)"
       ], 
-      "bug_data": {
-        "affected_releases": [
-          "8.3.x", 
-          "9.0.x", 
-          "9.1.x"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Telepresence Integrator C Series"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCvf71749", 
       "product": "Cisco Wireless IP Phone 8821", 
       "fix": [
-        "11.0(3)SR5; available now"
+        "11.0(3)SR5", 
+        "available now"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -123,7 +119,7 @@
       "bug_id": "CSCvg42682", 
       "product": "Cisco 1100 Series Integrated Services Routers", 
       "fix": [
-        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
+        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this advisory for fix availability depending on deployment scenario."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -133,11 +129,13 @@
         "fixed_releases": [
           "15.3(3)JA12", 
           "15.3(3)JAA12", 
+          "15.3(3)JC14", 
           "15.3(3)JC9", 
           "15.3(3)JCA9", 
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
           "8.3(132.1)", 
@@ -154,7 +152,7 @@
       "bug_id": "CSCvg42682", 
       "product": "Cisco 812 Series Integrated Services Routers", 
       "fix": [
-        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
+        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this advisory for fix availability depending on deployment scenario."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -164,11 +162,13 @@
         "fixed_releases": [
           "15.3(3)JA12", 
           "15.3(3)JAA12", 
+          "15.3(3)JC14", 
           "15.3(3)JC9", 
           "15.3(3)JCA9", 
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
           "8.3(132.1)", 
@@ -185,7 +185,7 @@
       "bug_id": "CSCvg42682", 
       "product": "Cisco 819 Series Integrated Services Routers", 
       "fix": [
-        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
+        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this advisory for fix availability depending on deployment scenario."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -195,11 +195,13 @@
         "fixed_releases": [
           "15.3(3)JA12", 
           "15.3(3)JAA12", 
+          "15.3(3)JC14", 
           "15.3(3)JC9", 
           "15.3(3)JCA9", 
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
           "8.3(132.1)", 
@@ -216,7 +218,7 @@
       "bug_id": "CSCvg42682", 
       "product": "Cisco 829 Industrial Integrated Services Routers", 
       "fix": [
-        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
+        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this advisory for fix availability depending on deployment scenario."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -226,11 +228,13 @@
         "fixed_releases": [
           "15.3(3)JA12", 
           "15.3(3)JAA12", 
+          "15.3(3)JC14", 
           "15.3(3)JC9", 
           "15.3(3)JCA9", 
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
           "8.3(132.1)", 
@@ -247,7 +251,7 @@
       "bug_id": "CSCvg42682", 
       "product": "Cisco 860 Series Integrated Services Routers", 
       "fix": [
-        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
+        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this advisory for fix availability depending on deployment scenario."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -257,11 +261,13 @@
         "fixed_releases": [
           "15.3(3)JA12", 
           "15.3(3)JAA12", 
+          "15.3(3)JC14", 
           "15.3(3)JC9", 
           "15.3(3)JCA9", 
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
           "8.3(132.1)", 
@@ -278,7 +284,7 @@
       "bug_id": "CSCvg42682", 
       "product": "Cisco 880 Series Integrated Services Routers", 
       "fix": [
-        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
+        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this advisory for fix availability depending on deployment scenario."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -288,11 +294,13 @@
         "fixed_releases": [
           "15.3(3)JA12", 
           "15.3(3)JAA12", 
+          "15.3(3)JC14", 
           "15.3(3)JC9", 
           "15.3(3)JCA9", 
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
           "8.3(132.1)", 
@@ -309,7 +317,7 @@
       "bug_id": "CSCvg42682", 
       "product": "Cisco 890 Series Integrated Services Routers", 
       "fix": [
-        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
+        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this advisory for fix availability depending on deployment scenario."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -319,11 +327,13 @@
         "fixed_releases": [
           "15.3(3)JA12", 
           "15.3(3)JAA12", 
+          "15.3(3)JC14", 
           "15.3(3)JC9", 
           "15.3(3)JCA9", 
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
           "8.3(132.1)", 
@@ -348,7 +358,7 @@
       "bug_id": "CSCvg42682", 
       "product": "Cisco ASA 5506W-X w/ FirePOWER Services", 
       "fix": [
-        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
+        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this advisory for fix availability depending on deployment scenario."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -358,11 +368,13 @@
         "fixed_releases": [
           "15.3(3)JA12", 
           "15.3(3)JAA12", 
+          "15.3(3)JC14", 
           "15.3(3)JC9", 
           "15.3(3)JCA9", 
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
           "8.3(132.1)", 
@@ -379,7 +391,7 @@
       "bug_id": "CSCvg42682", 
       "product": "Cisco Aironet 1040 Series Access Points", 
       "fix": [
-        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
+        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this advisory for fix availability depending on deployment scenario."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -389,11 +401,13 @@
         "fixed_releases": [
           "15.3(3)JA12", 
           "15.3(3)JAA12", 
+          "15.3(3)JC14", 
           "15.3(3)JC9", 
           "15.3(3)JCA9", 
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
           "8.3(132.1)", 
@@ -410,7 +424,7 @@
       "bug_id": "CSCvg42682", 
       "product": "Cisco Aironet 1140 Series Access Points", 
       "fix": [
-        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
+        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this advisory for fix availability depending on deployment scenario."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -420,11 +434,13 @@
         "fixed_releases": [
           "15.3(3)JA12", 
           "15.3(3)JAA12", 
+          "15.3(3)JC14", 
           "15.3(3)JC9", 
           "15.3(3)JCA9", 
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
           "8.3(132.1)", 
@@ -441,7 +457,7 @@
       "bug_id": "CSCvg42682", 
       "product": "Cisco Aironet 1250 Series Access Points", 
       "fix": [
-        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
+        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this advisory for fix availability depending on deployment scenario."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -451,11 +467,13 @@
         "fixed_releases": [
           "15.3(3)JA12", 
           "15.3(3)JAA12", 
+          "15.3(3)JC14", 
           "15.3(3)JC9", 
           "15.3(3)JCA9", 
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
           "8.3(132.1)", 
@@ -472,7 +490,7 @@
       "bug_id": "CSCvg42682", 
       "product": "Cisco Aironet 1260 Series Access Points", 
       "fix": [
-        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
+        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this advisory for fix availability depending on deployment scenario."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -482,11 +500,13 @@
         "fixed_releases": [
           "15.3(3)JA12", 
           "15.3(3)JAA12", 
+          "15.3(3)JC14", 
           "15.3(3)JC9", 
           "15.3(3)JCA9", 
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
           "8.3(132.1)", 
@@ -503,7 +523,7 @@
       "bug_id": "CSCvg42682", 
       "product": "Cisco Aironet 1520 Series", 
       "fix": [
-        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
+        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this advisory for fix availability depending on deployment scenario."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -513,11 +533,13 @@
         "fixed_releases": [
           "15.3(3)JA12", 
           "15.3(3)JAA12", 
+          "15.3(3)JC14", 
           "15.3(3)JC9", 
           "15.3(3)JCA9", 
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
           "8.3(132.1)", 
@@ -534,7 +556,7 @@
       "bug_id": "CSCvg42682", 
       "product": "Cisco Aironet 1530 Series", 
       "fix": [
-        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
+        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this advisory for fix availability depending on deployment scenario."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -544,11 +566,13 @@
         "fixed_releases": [
           "15.3(3)JA12", 
           "15.3(3)JAA12", 
+          "15.3(3)JC14", 
           "15.3(3)JC9", 
           "15.3(3)JCA9", 
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
           "8.3(132.1)", 
@@ -565,7 +589,7 @@
       "bug_id": "CSCvg10793", 
       "product": "Cisco Aironet 1540 Series Access Points", 
       "fix": [
-        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
+        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this advisory for fix availability depending on deployment scenario."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -595,7 +619,7 @@
       "bug_id": "CSCvg42682", 
       "product": "Cisco Aironet 1550 Series", 
       "fix": [
-        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
+        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this advisory for fix availability depending on deployment scenario."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -605,11 +629,13 @@
         "fixed_releases": [
           "15.3(3)JA12", 
           "15.3(3)JAA12", 
+          "15.3(3)JC14", 
           "15.3(3)JC9", 
           "15.3(3)JCA9", 
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
           "8.3(132.1)", 
@@ -626,7 +652,7 @@
       "bug_id": "CSCvg10793", 
       "product": "Cisco Aironet 1560 Series Access Points", 
       "fix": [
-        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
+        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this advisory for fix availability depending on deployment scenario."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -656,7 +682,7 @@
       "bug_id": "CSCvg42682", 
       "product": "Cisco Aironet 1570 Series", 
       "fix": [
-        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
+        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this advisory for fix availability depending on deployment scenario."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -666,11 +692,13 @@
         "fixed_releases": [
           "15.3(3)JA12", 
           "15.3(3)JAA12", 
+          "15.3(3)JC14", 
           "15.3(3)JC9", 
           "15.3(3)JCA9", 
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
           "8.3(132.1)", 
@@ -687,7 +715,7 @@
       "bug_id": "CSCvg42682", 
       "product": "Cisco Aironet 1600 Series", 
       "fix": [
-        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
+        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this advisory for fix availability depending on deployment scenario."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -697,11 +725,13 @@
         "fixed_releases": [
           "15.3(3)JA12", 
           "15.3(3)JAA12", 
+          "15.3(3)JC14", 
           "15.3(3)JC9", 
           "15.3(3)JCA9", 
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
           "8.3(132.1)", 
@@ -718,7 +748,7 @@
       "bug_id": "CSCvg42682", 
       "product": "Cisco Aironet 1700 Series", 
       "fix": [
-        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
+        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this advisory for fix availability depending on deployment scenario."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -728,11 +758,13 @@
         "fixed_releases": [
           "15.3(3)JA12", 
           "15.3(3)JAA12", 
+          "15.3(3)JC14", 
           "15.3(3)JC9", 
           "15.3(3)JCA9", 
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
           "8.3(132.1)", 
@@ -749,7 +781,7 @@
       "bug_id": "CSCvg10793", 
       "product": "Cisco Aironet 1810 Series OfficeExtend Access Points", 
       "fix": [
-        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
+        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this advisory for fix availability depending on deployment scenario."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -779,7 +811,7 @@
       "bug_id": "CSCvg10793", 
       "product": "Cisco Aironet 1810w Series Access Points", 
       "fix": [
-        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
+        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this advisory for fix availability depending on deployment scenario."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -809,7 +841,7 @@
       "bug_id": "CSCvg10793", 
       "product": "Cisco Aironet 1815 Series Access Points", 
       "fix": [
-        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
+        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this advisory for fix availability depending on deployment scenario."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -839,7 +871,7 @@
       "bug_id": "CSCvg10793", 
       "product": "Cisco Aironet 1830 Series Access Points", 
       "fix": [
-        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
+        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this advisory for fix availability depending on deployment scenario."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -869,7 +901,7 @@
       "bug_id": "CSCvg10793", 
       "product": "Cisco Aironet 1850 Series Access Points", 
       "fix": [
-        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
+        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this advisory for fix availability depending on deployment scenario."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -899,7 +931,7 @@
       "bug_id": "CSCvg42682", 
       "product": "Cisco Aironet 2600 Series", 
       "fix": [
-        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
+        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this advisory for fix availability depending on deployment scenario."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -909,11 +941,13 @@
         "fixed_releases": [
           "15.3(3)JA12", 
           "15.3(3)JAA12", 
+          "15.3(3)JC14", 
           "15.3(3)JC9", 
           "15.3(3)JCA9", 
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
           "8.3(132.1)", 
@@ -930,7 +964,7 @@
       "bug_id": "CSCvg42682", 
       "product": "Cisco Aironet 2700 Series", 
       "fix": [
-        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
+        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this advisory for fix availability depending on deployment scenario."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -940,11 +974,13 @@
         "fixed_releases": [
           "15.3(3)JA12", 
           "15.3(3)JAA12", 
+          "15.3(3)JC14", 
           "15.3(3)JC9", 
           "15.3(3)JCA9", 
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
           "8.3(132.1)", 
@@ -961,7 +997,7 @@
       "bug_id": "CSCvg10793", 
       "product": "Cisco Aironet 2800 Series Access Points", 
       "fix": [
-        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
+        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this advisory for fix availability depending on deployment scenario."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -991,7 +1027,7 @@
       "bug_id": "CSCvg42682", 
       "product": "Cisco Aironet 3500 Series", 
       "fix": [
-        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
+        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this advisory for fix availability depending on deployment scenario."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1001,11 +1037,13 @@
         "fixed_releases": [
           "15.3(3)JA12", 
           "15.3(3)JAA12", 
+          "15.3(3)JC14", 
           "15.3(3)JC9", 
           "15.3(3)JCA9", 
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
           "8.3(132.1)", 
@@ -1022,7 +1060,7 @@
       "bug_id": "CSCvg42682", 
       "product": "Cisco Aironet 3600 Series", 
       "fix": [
-        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
+        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this advisory for fix availability depending on deployment scenario."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1032,11 +1070,13 @@
         "fixed_releases": [
           "15.3(3)JA12", 
           "15.3(3)JAA12", 
+          "15.3(3)JC14", 
           "15.3(3)JC9", 
           "15.3(3)JCA9", 
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
           "8.3(132.1)", 
@@ -1053,7 +1093,7 @@
       "bug_id": "CSCvg42682", 
       "product": "Cisco Aironet 3700 Series", 
       "fix": [
-        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
+        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this advisory for fix availability depending on deployment scenario."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1063,11 +1103,13 @@
         "fixed_releases": [
           "15.3(3)JA12", 
           "15.3(3)JAA12", 
+          "15.3(3)JC14", 
           "15.3(3)JC9", 
           "15.3(3)JCA9", 
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
           "8.3(132.1)", 
@@ -1084,7 +1126,7 @@
       "bug_id": "CSCvg10793", 
       "product": "Cisco Aironet 3800 Series Access Points", 
       "fix": [
-        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
+        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this advisory for fix availability depending on deployment scenario."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1114,7 +1156,7 @@
       "bug_id": "CSCvg42682", 
       "product": "Cisco Aironet 700 Series", 
       "fix": [
-        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
+        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this advisory for fix availability depending on deployment scenario."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1124,11 +1166,13 @@
         "fixed_releases": [
           "15.3(3)JA12", 
           "15.3(3)JAA12", 
+          "15.3(3)JC14", 
           "15.3(3)JC9", 
           "15.3(3)JCA9", 
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
           "8.3(132.1)", 
@@ -1145,7 +1189,7 @@
       "bug_id": "CSCvg42682", 
       "product": "Cisco Aironet AP801 Access Point", 
       "fix": [
-        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
+        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this advisory for fix availability depending on deployment scenario."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1155,11 +1199,13 @@
         "fixed_releases": [
           "15.3(3)JA12", 
           "15.3(3)JAA12", 
+          "15.3(3)JC14", 
           "15.3(3)JC9", 
           "15.3(3)JCA9", 
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
           "8.3(132.1)", 
@@ -1176,7 +1222,7 @@
       "bug_id": "CSCvg42682", 
       "product": "Cisco Aironet AP802 Access Point", 
       "fix": [
-        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
+        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this advisory for fix availability depending on deployment scenario."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1186,11 +1232,13 @@
         "fixed_releases": [
           "15.3(3)JA12", 
           "15.3(3)JAA12", 
+          "15.3(3)JC14", 
           "15.3(3)JC9", 
           "15.3(3)JCA9", 
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
           "8.3(132.1)", 
@@ -1207,7 +1255,7 @@
       "bug_id": "CSCvg42682", 
       "product": "Cisco Aironet AP803 Access Point", 
       "fix": [
-        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
+        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this advisory for fix availability depending on deployment scenario."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1217,11 +1265,13 @@
         "fixed_releases": [
           "15.3(3)JA12", 
           "15.3(3)JAA12", 
+          "15.3(3)JC14", 
           "15.3(3)JC9", 
           "15.3(3)JCA9", 
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
           "8.3(132.1)", 
@@ -1238,7 +1288,7 @@
       "bug_id": "CSCvg42682", 
       "product": "Cisco Aironet Access Points", 
       "fix": [
-        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
+        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this advisory for fix availability depending on deployment scenario."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1248,11 +1298,13 @@
         "fixed_releases": [
           "15.3(3)JA12", 
           "15.3(3)JAA12", 
+          "15.3(3)JC14", 
           "15.3(3)JC9", 
           "15.3(3)JCA9", 
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
           "8.3(132.1)", 
@@ -1269,7 +1321,7 @@
       "bug_id": "CSCvg42682", 
       "product": "Cisco Industrial Wireless 3700 Series", 
       "fix": [
-        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
+        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this advisory for fix availability depending on deployment scenario."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1279,11 +1331,13 @@
         "fixed_releases": [
           "15.3(3)JA12", 
           "15.3(3)JAA12", 
+          "15.3(3)JC14", 
           "15.3(3)JC9", 
           "15.3(3)JCA9", 
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
           "8.3(132.1)", 
@@ -1697,7 +1751,7 @@
       "bug_id": "CSCvg10793", 
       "product": "Cisco Mobility Express", 
       "fix": [
-        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this\nadvisory for fix availability depending on deployment scenario."
+        "See the <a href=\"#fixed_software\">Fixed Software</a> section of this advisory for fix availability depending on deployment scenario."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1727,7 +1781,7 @@
       "bug_id": "CSCvf96789", 
       "product": "Cisco WAP121 Wireless-N Access Point with Single Point Setup", 
       "fix": [
-        "No fix information available at this time."
+        "Fix will be available (31-Dec-2017)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1760,13 +1814,20 @@
       "fix": [
         "No fix information available at this time."
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "v"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Small Business Wireless Access Points"
+      }
     }, 
     {
       "bug_id": "CSCvf96789", 
       "product": "Cisco WAP321 Wireless-N Access Point with Single Point Setup", 
       "fix": [
-        "No fix information available at this time."
+        "Fix will be available (31-Dec-2017)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1791,13 +1852,20 @@
       "fix": [
         "No fix information available at this time."
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "v"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Small Business Wireless Access Points"
+      }
     }, 
     {
       "bug_id": "CSCvf96814", 
       "product": "Cisco WAP371 Wireless-AC N Access Point with Single Point Setup", 
       "fix": [
-        "No fix information available at this time."
+        "Fix is expected (15-Nov-2017)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1812,7 +1880,7 @@
       "bug_id": "CSCvf96818", 
       "product": "Cisco WAP551 Wireless-N Single Radio Selectable Band Access Point", 
       "fix": [
-        "No fix information available at this time."
+        "Fix is expected (30-Nov-2017)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1827,7 +1895,7 @@
       "bug_id": "CSCvf96818", 
       "product": "Cisco WAP561 Wireless-N Dual Radio Selectable Band Access Point", 
       "fix": [
-        "No fix information available at this time."
+        "Fix is expected (30-Nov-2017)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1844,7 +1912,14 @@
       "fix": [
         "No fix information available at this time."
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "NextMR"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Small Business Wireless Access Points"
+      }
     }, 
     {
       "bug_id": "CSCvf96820", 
@@ -1852,7 +1927,14 @@
       "fix": [
         "No fix information available at this time."
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "NextMR"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Small Business Wireless Access Points"
+      }
     }, 
     {
       "bug_id": "CSCvg07495", 
