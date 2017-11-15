@@ -1,11 +1,11 @@
 {
-  "version": "2.3", 
+  "version": "2.4", 
   "products": [
     {
       "bug_id": "CSCvg35287", 
       "product": "Cisco AnyConnect Secure Mobility Client - Network Access Manager", 
       "fix": [
-        "v4.5.02036: available now"
+        "4.5.02036 and later"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -19,37 +19,81 @@
     {
       "bug_id": "CSCvg03682", 
       "product": "Cisco Small Business CVR100W Wireless-N VPN Router", 
-      "fix": [], 
+      "fix": [
+        "No fix information available at this time."
+      ], 
       "bug_data": {
         "affected_releases": [
           "v1.0.1.19"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Terminated", 
         "product_name": "Cisco Small Business RV Series Routers"
       }
     }, 
     {
       "bug_id": "CSCvf96844", 
       "product": "Cisco Small Business RV315W Wireless-N VPN Router", 
-      "fix": [], 
-      "bug_data": null
+      "fix": [
+        "No fix information available at this time."
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "v1.1.0"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco Small Business RV Series Routers"
+      }
+    }, 
+    {
+      "bug_id": "CSCvg36461", 
+      "product": "Cisco DX Series IP Phones (DX650, DX70 and DX80) running Android-based firmware.", 
+      "fix": [
+        "No fix information available at this time."
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "11.0(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco DX Series"
+      }
     }, 
     {
       "bug_id": "CSCvf71761", 
       "product": "Cisco DX Series IP Phones (DX70 and DX80) when running Collaboration Endpoint (CE) software", 
       "fix": [
-        "9.2.1 (10-Nov-2017)", 
-        "8.3.4 (31-Oct-2017)"
+        "8.3.4 and later", 
+        "9.2.1 and later"
       ], 
       "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvg38265", 
+      "product": "Cisco IP Phone 8861-3PCC", 
+      "fix": [
+        "11.0.1MSR1 for CP-8861-3PCC"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "11.0(1.1)"
+        ], 
+        "fixed_releases": [
+          "11.0(1)MPP481", 
+          "11.1(1)MPP625", 
+          "11.1(1)MPP693"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco IP Phone 8800 Series"
+      }
     }, 
     {
       "bug_id": "CSCvf71751", 
       "product": "Cisco IP Phone 8861", 
       "fix": [
-        "12.0.1SR1", 
-        "available now"
+        "12.0.1SR1 and later"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -69,8 +113,7 @@
       "bug_id": "CSCvf71751", 
       "product": "Cisco IP Phone 8865", 
       "fix": [
-        "12.0.1SR1", 
-        "available now"
+        "12.0.1SR1 and later"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -87,11 +130,26 @@
       }
     }, 
     {
+      "bug_id": "CSCvg37142", 
+      "product": "Cisco Spark Board", 
+      "fix": [
+        "No fix information available at this time."
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "TBD"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Conference Director Series"
+      }
+    }, 
+    {
       "bug_id": "CSCvf71761", 
       "product": "Cisco Spark Room Series", 
       "fix": [
-        "9.2.1 (10-Nov-2017)", 
-        "8.3.4 (31-Oct-2017)"
+        "8.3.4 and later", 
+        "9.2.1 and later"
       ], 
       "bug_data": null
     }, 
@@ -99,8 +157,7 @@
       "bug_id": "CSCvf71749", 
       "product": "Cisco Wireless IP Phone 8821", 
       "fix": [
-        "11.0(3)SR5", 
-        "available now"
+        "11.0(3)SR5 and later"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1355,18 +1412,11 @@
       "product": "Cisco Meraki MR11", 
       "fix": [
         "MR20.x and previous releases: not affected", 
-        "MR21.x: affected", 
-        "no fixes will be made available", 
-        "MR22.x: affected", 
-        "no fixes will be made available", 
-        "MR23.x: affected", 
-        "no fixes will be made available", 
-        "MR24 up to and including MR24.10: affected", 
-        "first fixed in MR24.11", 
-        "available 16-Oct-2017", 
-        "MR25 up to and including MR25.6: affected", 
-        "first fixed in MR25.7", 
-        "available 16-Oct-2017"
+        "MR21.x: affected - no fixes will be made available", 
+        "MR22.x: affected - no fixes will be made available", 
+        "MR23.x: affected - no fixes will be made available", 
+        "MR24 up to and including MR24.10: affected - first fixed in MR24.11", 
+        "MR25 up to and including MR25.6: affected - first fixed in MR25.7"
       ], 
       "bug_data": null
     }, 
@@ -1375,18 +1425,11 @@
       "product": "Cisco Meraki MR12", 
       "fix": [
         "MR20.x and previous releases: not affected", 
-        "MR21.x: affected", 
-        "no fixes will be made available", 
-        "MR22.x: affected", 
-        "no fixes will be made available", 
-        "MR23.x: affected", 
-        "no fixes will be made available", 
-        "MR24 up to and including MR24.10: affected", 
-        "first fixed in MR24.11", 
-        "available 16-Oct-2017", 
-        "MR25 up to and including MR25.6: affected", 
-        "first fixed in MR25.7", 
-        "available 16-Oct-2017"
+        "MR21.x: affected - no fixes will be made available", 
+        "MR22.x: affected - no fixes will be made available", 
+        "MR23.x: affected - no fixes will be made available", 
+        "MR24 up to and including MR24.10: affected - first fixed in MR24.11", 
+        "MR25 up to and including MR25.6: affected - first fixed in MR25.7"
       ], 
       "bug_data": null
     }, 
@@ -1395,18 +1438,11 @@
       "product": "Cisco Meraki MR14", 
       "fix": [
         "MR20.x and previous releases: not affected", 
-        "MR21.x: affected", 
-        "no fixes will be made available", 
-        "MR22.x: affected", 
-        "no fixes will be made available", 
-        "MR23.x: affected", 
-        "no fixes will be made available", 
-        "MR24 up to and including MR24.10: affected", 
-        "first fixed in MR24.11", 
-        "available 16-Oct-2017", 
-        "MR25 up to and including MR25.6: affected", 
-        "first fixed in MR25.7", 
-        "available 16-Oct-2017"
+        "MR21.x: affected - no fixes will be made available", 
+        "MR22.x: affected - no fixes will be made available", 
+        "MR23.x: affected - no fixes will be made available", 
+        "MR24 up to and including MR24.10: affected - first fixed in MR24.11", 
+        "MR25 up to and including MR25.6: affected - first fixed in MR25.7"
       ], 
       "bug_data": null
     }, 
@@ -1415,18 +1451,11 @@
       "product": "Cisco Meraki MR16", 
       "fix": [
         "MR20.x and previous releases: not affected", 
-        "MR21.x: affected", 
-        "no fixes will be made available", 
-        "MR22.x: affected", 
-        "no fixes will be made available", 
-        "MR23.x: affected", 
-        "no fixes will be made available", 
-        "MR24 up to and including MR24.10: affected", 
-        "first fixed in MR24.11", 
-        "available 16-Oct-2017", 
-        "MR25 up to and including MR25.6: affected", 
-        "first fixed in MR25.7", 
-        "available 16-Oct-2017"
+        "MR21.x: affected - no fixes will be made available", 
+        "MR22.x: affected - no fixes will be made available", 
+        "MR23.x: affected - no fixes will be made available", 
+        "MR24 up to and including MR24.10: affected - first fixed in MR24.11", 
+        "MR25 up to and including MR25.6: affected - first fixed in MR25.7"
       ], 
       "bug_data": null
     }, 
@@ -1435,18 +1464,11 @@
       "product": "Cisco Meraki MR18", 
       "fix": [
         "MR20.x and previous releases: not affected", 
-        "MR21.x: affected", 
-        "no fixes will be made available", 
-        "MR22.x: affected", 
-        "no fixes will be made available", 
-        "MR23.x: affected", 
-        "no fixes will be made available", 
-        "MR24 up to and including MR24.10: affected", 
-        "first fixed in MR24.11", 
-        "available 16-Oct-2017", 
-        "MR25 up to and including MR25.6: affected", 
-        "first fixed in MR25.7", 
-        "available 16-Oct-2017"
+        "MR21.x: affected - no fixes will be made available", 
+        "MR22.x: affected - no fixes will be made available", 
+        "MR23.x: affected - no fixes will be made available", 
+        "MR24 up to and including MR24.10: affected - first fixed in MR24.11", 
+        "MR25 up to and including MR25.6: affected - first fixed in MR25.7"
       ], 
       "bug_data": null
     }, 
@@ -1455,18 +1477,11 @@
       "product": "Cisco Meraki MR24", 
       "fix": [
         "MR20.x and previous releases: not affected", 
-        "MR21.x: affected", 
-        "no fixes will be made available", 
-        "MR22.x: affected", 
-        "no fixes will be made available", 
-        "MR23.x: affected", 
-        "no fixes will be made available", 
-        "MR24 up to and including MR24.10: affected", 
-        "first fixed in MR24.11", 
-        "available 16-Oct-2017", 
-        "MR25 up to and including MR25.6: affected", 
-        "first fixed in MR25.7", 
-        "available 16-Oct-2017"
+        "MR21.x: affected - no fixes will be made available", 
+        "MR22.x: affected - no fixes will be made available", 
+        "MR23.x: affected - no fixes will be made available", 
+        "MR24 up to and including MR24.10: affected - first fixed in MR24.11", 
+        "MR25 up to and including MR25.6: affected - first fixed in MR25.7"
       ], 
       "bug_data": null
     }, 
@@ -1475,18 +1490,11 @@
       "product": "Cisco Meraki MR26", 
       "fix": [
         "MR20.x and previous releases: not affected", 
-        "MR21.x: affected", 
-        "no fixes will be made available", 
-        "MR22.x: affected", 
-        "no fixes will be made available", 
-        "MR23.x: affected", 
-        "no fixes will be made available", 
-        "MR24 up to and including MR24.10: affected", 
-        "first fixed in MR24.11", 
-        "available 16-Oct-2017", 
-        "MR25 up to and including MR25.6: affected", 
-        "first fixed in MR25.7", 
-        "available 16-Oct-2017"
+        "MR21.x: affected - no fixes will be made available", 
+        "MR22.x: affected - no fixes will be made available", 
+        "MR23.x: affected - no fixes will be made available", 
+        "MR24 up to and including MR24.10: affected - first fixed in MR24.11", 
+        "MR25 up to and including MR25.6: affected - first fixed in MR25.7"
       ], 
       "bug_data": null
     }, 
@@ -1495,17 +1503,11 @@
       "product": "Cisco Meraki MR30H", 
       "fix": [
         "MR20.x and previous releases: not affected", 
-        "MR21.x: affected", 
-        "no fixes will be made available", 
-        "MR22.x: affected", 
-        "no fixes will be made available", 
-        "MR23.x: affected", 
-        "no fixes will be made available", 
-        "MR24.x: affected", 
-        "no fixes will be made available", 
-        "MR25 up to and including MR25.6: affected", 
-        "first fixed in MR25.7", 
-        "available 16-Oct-2017"
+        "MR21.x: affected - no fixes will be made available", 
+        "MR22.x: affected - no fixes will be made available", 
+        "MR23.x: affected - no fixes will be made available", 
+        "MR24.x: affected - no fixes will be made available", 
+        "MR25 up to and including MR25.6: affected - first fixed in MR25.7"
       ], 
       "bug_data": null
     }, 
@@ -1514,18 +1516,11 @@
       "product": "Cisco Meraki MR32", 
       "fix": [
         "MR20.x and previous releases: not affected", 
-        "MR21.x: affected", 
-        "no fixes will be made available", 
-        "MR22.x: affected", 
-        "no fixes will be made available", 
-        "MR23.x: affected", 
-        "no fixes will be made available", 
-        "MR24 up to and including MR24.10: affected", 
-        "first fixed in MR24.11", 
-        "available 16-Oct-2017", 
-        "MR25 up to and including MR25.6: affected", 
-        "first fixed in MR25.7", 
-        "available 16-Oct-2017"
+        "MR21.x: affected - no fixes will be made available", 
+        "MR22.x: affected - no fixes will be made available", 
+        "MR23.x: affected - no fixes will be made available", 
+        "MR24 up to and including MR24.10: affected - first fixed in MR24.11", 
+        "MR25 up to and including MR25.6: affected - first fixed in MR25.7"
       ], 
       "bug_data": null
     }, 
@@ -1534,17 +1529,11 @@
       "product": "Cisco Meraki MR33", 
       "fix": [
         "MR20.x and previous releases: not affected", 
-        "MR21.x: affected", 
-        "no fixes will be made available", 
-        "MR22.x: affected", 
-        "no fixes will be made available", 
-        "MR23.x: affected", 
-        "no fixes will be made available", 
-        "MR24.x: affected", 
-        "no fixes will be made available", 
-        "MR25 up to and including MR25.6: affected", 
-        "first fixed in MR25.7", 
-        "available 16-Oct-2017"
+        "MR21.x: affected - no fixes will be made available", 
+        "MR22.x: affected - no fixes will be made available", 
+        "MR23.x: affected - no fixes will be made available", 
+        "MR24.x: affected - no fixes will be made available", 
+        "MR25 up to and including MR25.6: affected - first fixed in MR25.7"
       ], 
       "bug_data": null
     }, 
@@ -1553,18 +1542,11 @@
       "product": "Cisco Meraki MR34", 
       "fix": [
         "MR20.x and previous releases: not affected", 
-        "MR21.x: affected", 
-        "no fixes will be made available", 
-        "MR22.x: affected", 
-        "no fixes will be made available", 
-        "MR23.x: affected", 
-        "no fixes will be made available", 
-        "MR24 up to and including MR24.10: affected", 
-        "first fixed in MR24.11", 
-        "available 16-Oct-2017", 
-        "MR25 up to and including MR25.6: affected", 
-        "first fixed in MR25.7", 
-        "available 16-Oct-2017"
+        "MR21.x: affected - no fixes will be made available", 
+        "MR22.x: affected - no fixes will be made available", 
+        "MR23.x: affected - no fixes will be made available", 
+        "MR24 up to and including MR24.10: affected - first fixed in MR24.11", 
+        "MR25 up to and including MR25.6: affected - first fixed in MR25.7"
       ], 
       "bug_data": null
     }, 
@@ -1573,18 +1555,11 @@
       "product": "Cisco Meraki MR42", 
       "fix": [
         "MR20.x and previous releases: not affected", 
-        "MR21.x: affected", 
-        "no fixes will be made available", 
-        "MR22.x: affected", 
-        "no fixes will be made available", 
-        "MR23.x: affected", 
-        "no fixes will be made available", 
-        "MR24 up to and including MR24.10: affected", 
-        "first fixed in MR24.11", 
-        "available 16-Oct-2017", 
-        "MR25 up to and including MR25.6: affected", 
-        "first fixed in MR25.7", 
-        "available 16-Oct-2017"
+        "MR21.x: affected - no fixes will be made available", 
+        "MR22.x: affected - no fixes will be made available", 
+        "MR23.x: affected - no fixes will be made available", 
+        "MR24 up to and including MR24.10: affected - first fixed in MR24.11", 
+        "MR25 up to and including MR25.6: affected - first fixed in MR25.7"
       ], 
       "bug_data": null
     }, 
@@ -1593,18 +1568,11 @@
       "product": "Cisco Meraki MR52", 
       "fix": [
         "MR20.x and previous releases: not affected", 
-        "MR21.x: affected", 
-        "no fixes will be made available", 
-        "MR22.x: affected", 
-        "no fixes will be made available", 
-        "MR23.x: affected", 
-        "no fixes will be made available", 
-        "MR24 up to and including MR24.10: affected", 
-        "first fixed in MR24.11", 
-        "available 16-Oct-2017", 
-        "MR25 up to and including MR25.6: affected", 
-        "first fixed in MR25.7", 
-        "available 16-Oct-2017"
+        "MR21.x: affected - no fixes will be made available", 
+        "MR22.x: affected - no fixes will be made available", 
+        "MR23.x: affected - no fixes will be made available", 
+        "MR24 up to and including MR24.10: affected - first fixed in MR24.11", 
+        "MR25 up to and including MR25.6: affected - first fixed in MR25.7"
       ], 
       "bug_data": null
     }, 
@@ -1613,18 +1581,11 @@
       "product": "Cisco Meraki MR53", 
       "fix": [
         "MR20.x and previous releases: not affected", 
-        "MR21.x: affected", 
-        "no fixes will be made available", 
-        "MR22.x: affected", 
-        "no fixes will be made available", 
-        "MR23.x: affected", 
-        "no fixes will be made available", 
-        "MR24 up to and including MR24.10: affected", 
-        "first fixed in MR24.11", 
-        "available 16-Oct-2017", 
-        "MR25 up to and including MR25.6: affected", 
-        "first fixed in MR25.7", 
-        "available 16-Oct-2017"
+        "MR21.x: affected - no fixes will be made available", 
+        "MR22.x: affected - no fixes will be made available", 
+        "MR23.x: affected - no fixes will be made available", 
+        "MR24 up to and including MR24.10: affected - first fixed in MR24.11", 
+        "MR25 up to and including MR25.6: affected - first fixed in MR25.7"
       ], 
       "bug_data": null
     }, 
@@ -1633,18 +1594,11 @@
       "product": "Cisco Meraki MR58", 
       "fix": [
         "MR20.x and previous releases: not affected", 
-        "MR21.x: affected", 
-        "no fixes will be made available", 
-        "MR22.x: affected", 
-        "no fixes will be made available", 
-        "MR23.x: affected", 
-        "no fixes will be made available", 
-        "MR24 up to and including MR24.10: affected", 
-        "first fixed in MR24.11", 
-        "available 16-Oct-2017", 
-        "MR25 up to and including MR25.6: affected", 
-        "first fixed in MR25.7", 
-        "available 16-Oct-2017"
+        "MR21.x: affected - no fixes will be made available", 
+        "MR22.x: affected - no fixes will be made available", 
+        "MR23.x: affected - no fixes will be made available", 
+        "MR24 up to and including MR24.10: affected - first fixed in MR24.11", 
+        "MR25 up to and including MR25.6: affected - first fixed in MR25.7"
       ], 
       "bug_data": null
     }, 
@@ -1653,18 +1607,11 @@
       "product": "Cisco Meraki MR62", 
       "fix": [
         "MR20.x and previous releases: not affected", 
-        "MR21.x: affected", 
-        "no fixes will be made available", 
-        "MR22.x: affected", 
-        "no fixes will be made available", 
-        "MR23.x: affected", 
-        "no fixes will be made available", 
-        "MR24 up to and including MR24.10: affected", 
-        "first fixed in MR24.11", 
-        "available 16-Oct-2017", 
-        "MR25 up to and including MR25.6: affected", 
-        "first fixed in MR25.7", 
-        "available 16-Oct-2017"
+        "MR21.x: affected - no fixes will be made available", 
+        "MR22.x: affected - no fixes will be made available", 
+        "MR23.x: affected - no fixes will be made available", 
+        "MR24 up to and including MR24.10: affected - first fixed in MR24.11", 
+        "MR25 up to and including MR25.6: affected - first fixed in MR25.7"
       ], 
       "bug_data": null
     }, 
@@ -1673,18 +1620,11 @@
       "product": "Cisco Meraki MR66", 
       "fix": [
         "MR20.x and previous releases: not affected", 
-        "MR21.x: affected", 
-        "no fixes will be made available", 
-        "MR22.x: affected", 
-        "no fixes will be made available", 
-        "MR23.x: affected", 
-        "no fixes will be made available", 
-        "MR24 up to and including MR24.10: affected", 
-        "first fixed in MR24.11", 
-        "available 16-Oct-2017", 
-        "MR25 up to and including MR25.6: affected", 
-        "first fixed in MR25.7", 
-        "available 16-Oct-2017"
+        "MR21.x: affected - no fixes will be made available", 
+        "MR22.x: affected - no fixes will be made available", 
+        "MR23.x: affected - no fixes will be made available", 
+        "MR24 up to and including MR24.10: affected - first fixed in MR24.11", 
+        "MR25 up to and including MR25.6: affected - first fixed in MR25.7"
       ], 
       "bug_data": null
     }, 
@@ -1693,18 +1633,11 @@
       "product": "Cisco Meraki MR72", 
       "fix": [
         "MR20.x and previous releases: not affected", 
-        "MR21.x: affected", 
-        "no fixes will be made available", 
-        "MR22.x: affected", 
-        "no fixes will be made available", 
-        "MR23.x: affected", 
-        "no fixes will be made available", 
-        "MR24 up to and including MR24.10: affected", 
-        "first fixed in MR24.11", 
-        "available 16-Oct-2017", 
-        "MR25 up to and including MR25.6: affected", 
-        "first fixed in MR25.7", 
-        "available 16-Oct-2017"
+        "MR21.x: affected - no fixes will be made available", 
+        "MR22.x: affected - no fixes will be made available", 
+        "MR23.x: affected - no fixes will be made available", 
+        "MR24 up to and including MR24.10: affected - first fixed in MR24.11", 
+        "MR25 up to and including MR25.6: affected - first fixed in MR25.7"
       ], 
       "bug_data": null
     }, 
@@ -1713,17 +1646,11 @@
       "product": "Cisco Meraki MR74", 
       "fix": [
         "MR20.x and previous releases: not affected", 
-        "MR21.x: affected", 
-        "no fixes will be made available", 
-        "MR22.x: affected", 
-        "no fixes will be made available", 
-        "MR23.x: affected", 
-        "no fixes will be made available", 
-        "MR24.x: affected", 
-        "no fixes will be made available", 
-        "MR25 up to and including MR25.6: affected", 
-        "first fixed in MR25.7", 
-        "available 16-Oct-2017"
+        "MR21.x: affected - no fixes will be made available", 
+        "MR22.x: affected - no fixes will be made available", 
+        "MR23.x: affected - no fixes will be made available", 
+        "MR24.x: affected - no fixes will be made available", 
+        "MR25 up to and including MR25.6: affected - first fixed in MR25.7"
       ], 
       "bug_data": null
     }, 
@@ -1732,18 +1659,11 @@
       "product": "Cisco Meraki MR84", 
       "fix": [
         "MR20.x and previous releases: not affected", 
-        "MR21.x: affected", 
-        "no fixes will be made available", 
-        "MR22.x: affected", 
-        "no fixes will be made available", 
-        "MR23.x: affected", 
-        "no fixes will be made available", 
-        "MR24 up to and including MR24.10: affected", 
-        "first fixed in MR24.11", 
-        "available 16-Oct-2017", 
-        "MR25 up to and including MR25.6: affected", 
-        "first fixed in MR25.7", 
-        "available 16-Oct-2017"
+        "MR21.x: affected - no fixes will be made available", 
+        "MR22.x: affected - no fixes will be made available", 
+        "MR23.x: affected - no fixes will be made available", 
+        "MR24 up to and including MR24.10: affected - first fixed in MR24.11", 
+        "MR25 up to and including MR25.6: affected - first fixed in MR25.7"
       ], 
       "bug_data": null
     }, 
@@ -1781,7 +1701,7 @@
       "bug_id": "CSCvf96789", 
       "product": "Cisco WAP121 Wireless-N Access Point with Single Point Setup", 
       "fix": [
-        "Fix will be available (31-Dec-2017)"
+        "Fix to be available on or about 31-Dec-2017"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1798,7 +1718,14 @@
       "fix": [
         "No fix information available at this time."
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "1.0.0.3"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Small Business Wireless Access Points"
+      }
     }, 
     {
       "bug_id": "CSCvf96801", 
@@ -1806,7 +1733,14 @@
       "fix": [
         "No fix information available at this time."
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "TBD"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Small Business Wireless Access Points"
+      }
     }, 
     {
       "bug_id": "CSCvf96803", 
@@ -1827,7 +1761,7 @@
       "bug_id": "CSCvf96789", 
       "product": "Cisco WAP321 Wireless-N Access Point with Single Point Setup", 
       "fix": [
-        "Fix will be available (31-Dec-2017)"
+        "Fix to be available on or about 31-Dec-2017"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1844,7 +1778,14 @@
       "fix": [
         "No fix information available at this time."
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "TBD"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Small Business Wireless Access Points"
+      }
     }, 
     {
       "bug_id": "CSCvf96803", 
@@ -1865,7 +1806,7 @@
       "bug_id": "CSCvf96814", 
       "product": "Cisco WAP371 Wireless-AC N Access Point with Single Point Setup", 
       "fix": [
-        "Fix is expected (15-Nov-2017)"
+        "Fix to be available on or about 15-Nov-2017"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1880,7 +1821,7 @@
       "bug_id": "CSCvf96818", 
       "product": "Cisco WAP551 Wireless-N Single Radio Selectable Band Access Point", 
       "fix": [
-        "Fix is expected (30-Nov-2017)"
+        "Fix to be available on or about 30-Nov-2017"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1895,7 +1836,7 @@
       "bug_id": "CSCvf96818", 
       "product": "Cisco WAP561 Wireless-N Dual Radio Selectable Band Access Point", 
       "fix": [
-        "Fix is expected (30-Nov-2017)"
+        "Fix to be available on or about 30-Nov-2017"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1942,7 +1883,14 @@
       "fix": [
         "No fix information available at this time."
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "1.0.0.6"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Small Business Wireless Access Points"
+      }
     }
   ]
 }
