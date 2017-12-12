@@ -1,0 +1,39 @@
+{
+  "version": "1.0", 
+  "products": [
+    {
+      "bug_id": "CSCvg74693", 
+      "product": "Cisco ACE 4710 Application Control Engine Appliance<br />", 
+      "fix": [
+        "No fix will be provided for this product. <sup>1</sup>"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "3.0(0)A5(2.0)", 
+          "3.0(0)A5(3.0)", 
+          "3.0(0)A5(3.5)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco ACE 4700 Series Application Control Engine Appliances"
+      }
+    }, 
+    {
+      "bug_id": "CSCvg74693", 
+      "product": "Cisco ACE30 Application Control Engine Module", 
+      "fix": [
+        "No fix will be provided for this product. <sup>2</sup>"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "3.0(0)A5(2.0)", 
+          "3.0(0)A5(3.0)", 
+          "3.0(0)A5(3.5)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco ACE 4700 Series Application Control Engine Appliances"
+      }
+    }
+  ]
+}
