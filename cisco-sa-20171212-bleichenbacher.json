@@ -1,5 +1,5 @@
 {
-  "version": "1.0", 
+  "version": "1.1", 
   "products": [
     {
       "bug_id": "CSCvg74693", 
@@ -33,6 +33,21 @@
         "fixed_releases": [], 
         "status": "Terminated", 
         "product_name": "Cisco ACE 4700 Series Application Control Engine Appliances"
+      }
+    }, 
+    {
+      "bug_id": "CSCvg97652", 
+      "product": "Cisco Adaptive Security Appliance (ASA) - ASA 5505, 5510, 5520, 5540, and 5550", 
+      "fix": [
+        "A fix is planned for 9.1.7.x and 9.2.4.x releases. ETA: TBD"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "9.1(7.16)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco ASA 5500-X Series Firewalls"
       }
     }
   ]
