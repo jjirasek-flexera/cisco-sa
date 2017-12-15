@@ -1,5 +1,5 @@
 {
-  "version": "2.7", 
+  "version": "2.8", 
   "products": [
     {
       "bug_id": "CSCvg35287", 
@@ -209,6 +209,7 @@
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "15.3(3)JG", 
           "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
@@ -243,6 +244,7 @@
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "15.3(3)JG", 
           "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
@@ -277,6 +279,7 @@
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "15.3(3)JG", 
           "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
@@ -311,6 +314,7 @@
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "15.3(3)JG", 
           "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
@@ -345,6 +349,7 @@
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "15.3(3)JG", 
           "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
@@ -379,6 +384,7 @@
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "15.3(3)JG", 
           "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
@@ -413,6 +419,7 @@
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "15.3(3)JG", 
           "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
@@ -433,7 +440,14 @@
       "fix": [
         "No fix will be provided for this product."
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "3.0"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco Small Business AP500 Series Wireless Access Points"
+      }
     }, 
     {
       "bug_id": "CSCvg42682", 
@@ -455,6 +469,7 @@
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "15.3(3)JG", 
           "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
@@ -489,6 +504,7 @@
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "15.3(3)JG", 
           "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
@@ -523,6 +539,7 @@
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "15.3(3)JG", 
           "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
@@ -557,6 +574,7 @@
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "15.3(3)JG", 
           "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
@@ -591,6 +609,7 @@
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "15.3(3)JG", 
           "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
@@ -625,6 +644,7 @@
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "15.3(3)JG", 
           "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
@@ -659,6 +679,7 @@
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "15.3(3)JG", 
           "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
@@ -723,6 +744,7 @@
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "15.3(3)JG", 
           "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
@@ -787,6 +809,7 @@
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "15.3(3)JG", 
           "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
@@ -821,6 +844,7 @@
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "15.3(3)JG", 
           "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
@@ -855,6 +879,7 @@
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "15.3(3)JG", 
           "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
@@ -1039,6 +1064,7 @@
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "15.3(3)JG", 
           "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
@@ -1073,6 +1099,7 @@
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "15.3(3)JG", 
           "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
@@ -1137,6 +1164,7 @@
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "15.3(3)JG", 
           "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
@@ -1171,6 +1199,7 @@
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "15.3(3)JG", 
           "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
@@ -1205,6 +1234,7 @@
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "15.3(3)JG", 
           "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
@@ -1269,6 +1299,7 @@
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "15.3(3)JG", 
           "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
@@ -1303,6 +1334,7 @@
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "15.3(3)JG", 
           "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
@@ -1337,6 +1369,7 @@
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "15.3(3)JG", 
           "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
@@ -1371,6 +1404,7 @@
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "15.3(3)JG", 
           "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
@@ -1405,6 +1439,7 @@
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "15.3(3)JG", 
           "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
@@ -1439,6 +1474,7 @@
           "15.3(3)JD9", 
           "15.3(3)JDA9", 
           "15.3(3)JF1", 
+          "15.3(3)JG", 
           "8.0(152.0)", 
           "8.2(160.5)", 
           "8.2(167.1)", 
@@ -1762,14 +1798,14 @@
       "bug_id": "CSCvf96792", 
       "product": "Cisco WAP125 Wireless-AC Dual Band Desktop Access Point with PoE", 
       "fix": [
-        "Fix will be available on or about 30-Nov-2017"
+        "v1.0.0.7"
       ], 
       "bug_data": {
         "affected_releases": [
           "1.0.0.3"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Small Business Wireless Access Points"
       }
     }, 
@@ -1777,14 +1813,14 @@
       "bug_id": "CSCvf96801", 
       "product": "Cisco WAP131 Wireless-N Dual Radio Access Point with PoE", 
       "fix": [
-        "Fix will be available on or about 8-Dec-2017"
+        "v1.0.2.15"
       ], 
       "bug_data": {
         "affected_releases": [
           "TBD"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Small Business Wireless Access Points"
       }
     }, 
@@ -1792,14 +1828,14 @@
       "bug_id": "CSCvf96803", 
       "product": "Cisco WAP150 Wireless-AC/N Dual Radio Access Point with PoE", 
       "fix": [
-        "Fix will be available on or about 8-Dec-2017"
+        "v1.1.0.9"
       ], 
       "bug_data": {
         "affected_releases": [
           "v"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Small Business Wireless Access Points"
       }
     }, 
@@ -1822,14 +1858,14 @@
       "bug_id": "CSCvf96801", 
       "product": "Cisco WAP351 Wireless-N Dual Radio Access Point with 5-Port Switch", 
       "fix": [
-        "Fix will be available on or about 8-Dec-2017"
+        "v1.0.2.15"
       ], 
       "bug_data": {
         "affected_releases": [
           "TBD"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Small Business Wireless Access Points"
       }
     }, 
@@ -1837,14 +1873,14 @@
       "bug_id": "CSCvf96803", 
       "product": "Cisco WAP361 Wireless-AC N Dual Radio Wall Plate Access Point with PoE", 
       "fix": [
-        "Fix will be available on or about 8-Dec-2017"
+        "v1.1.0.9"
       ], 
       "bug_data": {
         "affected_releases": [
           "v"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Small Business Wireless Access Points"
       }
     }, 
@@ -1852,7 +1888,7 @@
       "bug_id": "CSCvf96814", 
       "product": "Cisco WAP371 Wireless-AC N Access Point with Single Point Setup", 
       "fix": [
-        "Fix to be available on or about 1-Dec-2017"
+        "Fix to be available on or about 29-Dec-2017"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1867,14 +1903,14 @@
       "bug_id": "CSCvf96818", 
       "product": "Cisco WAP551 Wireless-N Single Radio Selectable Band Access Point", 
       "fix": [
-        "Fix to be available on or about 15-Dec-2017"
+        "v1.2.1.6"
       ], 
       "bug_data": {
         "affected_releases": [
           "NextMR"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Small Business 500 Series Wireless Access Points"
       }
     }, 
@@ -1882,14 +1918,14 @@
       "bug_id": "CSCvf96818", 
       "product": "Cisco WAP561 Wireless-N Dual Radio Selectable Band Access Point", 
       "fix": [
-        "Fix to be available on or about 15-Dec-2017"
+        "v1.2.1.6"
       ], 
       "bug_data": {
         "affected_releases": [
           "NextMR"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Small Business 500 Series Wireless Access Points"
       }
     }, 
@@ -1897,14 +1933,14 @@
       "bug_id": "CSCvf96820", 
       "product": "Cisco WAP571 Wireless-AC N Premium Dual Radio Access Point with PoE", 
       "fix": [
-        "Fix will be available on or about 23-Nov-2017"
+        "v1.0.1.11"
       ], 
       "bug_data": {
         "affected_releases": [
           "NextMR"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Small Business Wireless Access Points"
       }
     }, 
@@ -1912,14 +1948,14 @@
       "bug_id": "CSCvf96820", 
       "product": "Cisco WAP571E Wireless-AC N Premium Dual Radio Outdoor Access Point", 
       "fix": [
-        "Fix will be available on or about 23-Nov-2017"
+        "v1.0.1.11"
       ], 
       "bug_data": {
         "affected_releases": [
           "NextMR"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Small Business Wireless Access Points"
       }
     }, 
@@ -1927,14 +1963,14 @@
       "bug_id": "CSCvg07495", 
       "product": "Cisco WAP581 Wireless-AC Dual Radio Wave 2 Access Point with 2.5GbE LAN", 
       "fix": [
-        "Fix will be available on or about 30-Nov-2017"
+        "v1.0.0.7"
       ], 
       "bug_data": {
         "affected_releases": [
           "1.0.0.6"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Small Business Wireless Access Points"
       }
     }
