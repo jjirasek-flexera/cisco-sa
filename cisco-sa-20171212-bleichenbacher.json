@@ -1,5 +1,5 @@
 {
-  "version": "1.1", 
+  "version": "1.2", 
   "products": [
     {
       "bug_id": "CSCvg74693", 
@@ -45,7 +45,9 @@
         "affected_releases": [
           "9.1(7.16)"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "9.2(4.25)"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco ASA 5500-X Series Firewalls"
       }
