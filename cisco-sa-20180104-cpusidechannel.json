@@ -1,0 +1,187 @@
+{
+  "version": "1.2", 
+  "products": [
+    {
+      "bug_id": "CSCvh31418", 
+      "product": "Cisco 800 Industrial Integrated Services Routers", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "15.6(3.1n)M"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "None"
+      }
+    }, 
+    {
+      "bug_id": "CSCvh31576", 
+      "product": "Cisco UCS B-Series M2 Blade Servers", 
+      "fix": [
+        "Fix Pending"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "2.2(0.6)B"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Computing System"
+      }
+    }, 
+    {
+      "bug_id": "CSCvg97965", 
+      "product": "Cisco UCS B-Series M3 Blade Servers", 
+      "fix": [
+        "(18-Feb-2018)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "2.2(0.6)B"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Computing System"
+      }
+    }, 
+    {
+      "bug_id": "CSCvg97979", 
+      "product": "Cisco UCS B-Series M4 Blade Servers (except B260, B460)", 
+      "fix": [
+        "(18-Feb-2018)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "2.2(0.6)B"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Computing System"
+      }
+    }, 
+    {
+      "bug_id": "CSCvh31577", 
+      "product": "Cisco UCS B-Series M5 Blade Servers", 
+      "fix": [
+        "(18-Feb-2018)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "3.2(1d)", 
+          "3.2(1d)B", 
+          "3.2(1d)C"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Computing System"
+      }
+    }, 
+    {
+      "bug_id": "CSCvg98015", 
+      "product": "Cisco UCS B260 M4 Blade Server", 
+      "fix": [
+        "(18-Feb-2018)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "2.2(0.6)B"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Computing System"
+      }
+    }, 
+    {
+      "bug_id": "CSCvg98015", 
+      "product": "Cisco UCS B460 M4 Blade Server", 
+      "fix": [
+        "(18-Feb-2018)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "2.2(0.6)B"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Computing System"
+      }
+    }, 
+    {
+      "bug_id": "CSCvh31576", 
+      "product": "Cisco UCS C-Series M2 Rack Servers", 
+      "fix": [
+        "Fix Pending"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "2.2(0.6)B"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Computing System"
+      }
+    }, 
+    {
+      "bug_id": "CSCvg97965", 
+      "product": "Cisco UCS C-Series M3 Rack Servers", 
+      "fix": [
+        "(18-Feb-2018)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "2.2(0.6)B"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Computing System"
+      }
+    }, 
+    {
+      "bug_id": "CSCvg97979", 
+      "product": "Cisco UCS C-Series M4 Rack Servers (except C460)", 
+      "fix": [
+        "(18-Feb-2018)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "2.2(0.6)B"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Computing System"
+      }
+    }, 
+    {
+      "bug_id": "CSCvh31577", 
+      "product": "Cisco UCS C-Series M5 Rack Servers", 
+      "fix": [
+        "(18-Feb-2018)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "3.2(1d)", 
+          "3.2(1d)B", 
+          "3.2(1d)C"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Computing System"
+      }
+    }, 
+    {
+      "bug_id": "CSCvg98015", 
+      "product": "Cisco UCS C460 M4 Rack Server", 
+      "fix": [
+        "(18-Feb-2018)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "2.2(0.6)B"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Computing System"
+      }
+    }
+  ]
+}
