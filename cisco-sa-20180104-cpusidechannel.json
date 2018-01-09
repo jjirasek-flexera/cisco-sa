@@ -1,6 +1,19 @@
 {
-  "version": "1.2", 
+  "version": "1.3", 
   "products": [
+    {
+      "bug_id": "CSCvh32429", 
+      "product": "Cisco ASR 9000 XR 64-bit Series Routers", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "6.6.0.BASE"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Carrier Routing System"
+      }
+    }, 
     {
       "bug_id": "CSCvh31418", 
       "product": "Cisco 800 Industrial Integrated Services Routers", 
@@ -15,14 +28,68 @@
       }
     }, 
     {
+      "bug_id": "CSCvh32429", 
+      "product": "Cisco NCS 1000 Series Routers", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "6.6.0.BASE"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Carrier Routing System"
+      }
+    }, 
+    {
+      "bug_id": "CSCvh32429", 
+      "product": "Cisco NCS 5000 Series Routers", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "6.6.0.BASE"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Carrier Routing System"
+      }
+    }, 
+    {
+      "bug_id": "CSCvh32429", 
+      "product": "Cisco NCS 5500 Series Routers", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "6.6.0.BASE"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Carrier Routing System"
+      }
+    }, 
+    {
+      "bug_id": "CSCvh32429", 
+      "product": "Cisco XRv 9000 Series Routers", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "6.6.0.BASE"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Carrier Routing System"
+      }
+    }, 
+    {
       "bug_id": "CSCvh31576", 
       "product": "Cisco UCS B-Series M2 Blade Servers", 
       "fix": [
-        "Fix Pending"
+        "Fix pending"
       ], 
       "bug_data": {
         "affected_releases": [
-          "2.2(0.6)B"
+          "2.2(8i)B", 
+          "3.1(3e)B", 
+          "3.2(2d)"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
@@ -37,7 +104,9 @@
       ], 
       "bug_data": {
         "affected_releases": [
-          "2.2(0.6)B"
+          "2.2(8i)B", 
+          "3.1(3e)B", 
+          "3.2(2d)B"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
@@ -46,13 +115,15 @@
     }, 
     {
       "bug_id": "CSCvg97979", 
-      "product": "Cisco UCS B-Series M4 Blade Servers (except B260, B460)", 
+      "product": "Cisco UCS B-Series M4 Blade Servers (except B260 and B460)", 
       "fix": [
         "(18-Feb-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
-          "2.2(0.6)B"
+          "2.2(8i)B", 
+          "3.1(3e)B", 
+          "3.2(2d)B"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
@@ -67,9 +138,7 @@
       ], 
       "bug_data": {
         "affected_releases": [
-          "3.2(1d)", 
-          "3.2(1d)B", 
-          "3.2(1d)C"
+          "3.2(2d)B"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
@@ -84,7 +153,9 @@
       ], 
       "bug_data": {
         "affected_releases": [
-          "2.2(0.6)B"
+          "2.2(8i)B", 
+          "3.1(3e)B", 
+          "3.2(2d)B"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
@@ -99,7 +170,9 @@
       ], 
       "bug_data": {
         "affected_releases": [
-          "2.2(0.6)B"
+          "2.2(8i)B", 
+          "3.1(3e)B", 
+          "3.2(2d)B"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
@@ -110,11 +183,13 @@
       "bug_id": "CSCvh31576", 
       "product": "Cisco UCS C-Series M2 Rack Servers", 
       "fix": [
-        "Fix Pending"
+        "Fix pending"
       ], 
       "bug_data": {
         "affected_releases": [
-          "2.2(0.6)B"
+          "2.2(8i)B", 
+          "3.1(3e)B", 
+          "3.2(2d)"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
@@ -129,7 +204,9 @@
       ], 
       "bug_data": {
         "affected_releases": [
-          "2.2(0.6)B"
+          "2.2(8i)B", 
+          "3.1(3e)B", 
+          "3.2(2d)B"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
@@ -144,7 +221,9 @@
       ], 
       "bug_data": {
         "affected_releases": [
-          "2.2(0.6)B"
+          "2.2(8i)B", 
+          "3.1(3e)B", 
+          "3.2(2d)B"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
@@ -159,9 +238,7 @@
       ], 
       "bug_data": {
         "affected_releases": [
-          "3.2(1d)", 
-          "3.2(1d)B", 
-          "3.2(1d)C"
+          "3.2(2d)B"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
@@ -176,7 +253,9 @@
       ], 
       "bug_data": {
         "affected_releases": [
-          "2.2(0.6)B"
+          "2.2(8i)B", 
+          "3.1(3e)B", 
+          "3.2(2d)B"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
