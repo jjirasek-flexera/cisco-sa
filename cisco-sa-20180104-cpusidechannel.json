@@ -1,6 +1,21 @@
 {
-  "version": "1.3", 
+  "version": "1.4", 
   "products": [
+    {
+      "bug_id": "CSCvh49646", 
+      "product": "Cisco Wide Area Application Services (WAAS)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "4.1(1)", 
+          "4.4(7)", 
+          "5.5(7)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Wide Area Application Services (WAAS) Appliances"
+      }
+    }, 
     {
       "bug_id": "CSCvh32429", 
       "product": "Cisco ASR 9000 XR 64-bit Series Routers", 
@@ -24,7 +39,7 @@
         ], 
         "fixed_releases": [], 
         "status": "Open", 
-        "product_name": "None"
+        "product_name": "Cisco IOS"
       }
     }, 
     {
@@ -215,7 +230,7 @@
     }, 
     {
       "bug_id": "CSCvg97979", 
-      "product": "Cisco UCS C-Series M4 Rack Servers (except C460)", 
+      "product": "Cisco UCS C-Series M4 Rack Servers (except C460)<sup>1</sup>", 
       "fix": [
         "(18-Feb-2018)"
       ], 
@@ -232,7 +247,7 @@
     }, 
     {
       "bug_id": "CSCvh31577", 
-      "product": "Cisco UCS C-Series M5 Rack Servers", 
+      "product": "Cisco UCS C-Series M5 Rack Servers<sup>1</sup><br />", 
       "fix": [
         "(18-Feb-2018)"
       ], 
