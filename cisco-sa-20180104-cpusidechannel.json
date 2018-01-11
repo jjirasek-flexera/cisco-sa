@@ -1,6 +1,19 @@
 {
-  "version": "1.4", 
+  "version": "1.5", 
   "products": [
+    {
+      "bug_id": "CSCvh32644", 
+      "product": "Cisco Cloud Services Platform 2100", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.2(4)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Cloud Services Platform 2100"
+      }
+    }, 
     {
       "bug_id": "CSCvh49646", 
       "product": "Cisco Wide Area Application Services (WAAS)", 
@@ -17,6 +30,19 @@
       }
     }, 
     {
+      "bug_id": "CSCvh31418", 
+      "product": "Cisco 800 Industrial Integrated Services Routers", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "15.6(3.1n)M"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco IOS"
+      }
+    }, 
+    {
       "bug_id": "CSCvh32429", 
       "product": "Cisco ASR 9000 XR 64-bit Series Routers", 
       "fix": [], 
@@ -30,8 +56,8 @@
       }
     }, 
     {
-      "bug_id": "CSCvh31418", 
-      "product": "Cisco 800 Industrial Integrated Services Routers", 
+      "bug_id": "CSCvh32516", 
+      "product": "Cisco CGR 1000 Compute Module (IOx feature)", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
@@ -39,7 +65,7 @@
         ], 
         "fixed_releases": [], 
         "status": "Open", 
-        "product_name": "Cisco IOS"
+        "product_name": "Cisco 1000 Series Connected Grid Routers"
       }
     }, 
     {
@@ -82,6 +108,45 @@
       }
     }, 
     {
+      "bug_id": "CSCvh32393", 
+      "product": "Cisco Nexus 3000 Series Switches", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "6.0(2)A8(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Nexus 3000 Series Switches"
+      }
+    }, 
+    {
+      "bug_id": "CSCvh32394", 
+      "product": "Cisco Nexus 5000 Series Switches", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "7.3(2)N1(0.244)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Nexus 5000 Series Switches"
+      }
+    }, 
+    {
+      "bug_id": "CSCvh32391", 
+      "product": "Cisco Nexus 9000 Series Fabric Switches - ACI mode", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "3.0(1j)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco LAN Switch Software"
+      }
+    }, 
+    {
       "bug_id": "CSCvh32429", 
       "product": "Cisco XRv 9000 Series Routers", 
       "fix": [], 
@@ -95,6 +160,32 @@
       }
     }, 
     {
+      "bug_id": "CSCvh48274", 
+      "product": "Cisco Enterprise Network Compute System 5100 Series Servers", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "3.2(4)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco UCS E-Series Software"
+      }
+    }, 
+    {
+      "bug_id": "CSCvh48274", 
+      "product": "Cisco Enterprise Network Compute System 5400 Series Servers", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "3.2(4)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco UCS E-Series Software"
+      }
+    }, 
+    {
       "bug_id": "CSCvh31576", 
       "product": "Cisco UCS B-Series M2 Blade Servers", 
       "fix": [
@@ -102,9 +193,7 @@
       ], 
       "bug_data": {
         "affected_releases": [
-          "2.2(8i)B", 
-          "3.1(3e)B", 
-          "3.2(2d)"
+          "2.2(8g)B"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
@@ -132,7 +221,7 @@
       "bug_id": "CSCvg97979", 
       "product": "Cisco UCS B-Series M4 Blade Servers (except B260 and B460)", 
       "fix": [
-        "(18-Feb-2018)"
+        "(19-Jan-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -149,7 +238,7 @@
       "bug_id": "CSCvh31577", 
       "product": "Cisco UCS B-Series M5 Blade Servers", 
       "fix": [
-        "(18-Feb-2018)"
+        "(19-Jan-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -164,7 +253,7 @@
       "bug_id": "CSCvg98015", 
       "product": "Cisco UCS B260 M4 Blade Server", 
       "fix": [
-        "(18-Feb-2018)"
+        "(19-Jan-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -181,7 +270,7 @@
       "bug_id": "CSCvg98015", 
       "product": "Cisco UCS B460 M4 Blade Server", 
       "fix": [
-        "(18-Feb-2018)"
+        "(19-Jan-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -202,9 +291,7 @@
       ], 
       "bug_data": {
         "affected_releases": [
-          "2.2(8i)B", 
-          "3.1(3e)B", 
-          "3.2(2d)"
+          "2.2(8g)B"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
@@ -232,7 +319,7 @@
       "bug_id": "CSCvg97979", 
       "product": "Cisco UCS C-Series M4 Rack Servers (except C460)<sup>1</sup>", 
       "fix": [
-        "(18-Feb-2018)"
+        "(19-Jan-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -247,9 +334,9 @@
     }, 
     {
       "bug_id": "CSCvh31577", 
-      "product": "Cisco UCS C-Series M5 Rack Servers<sup>1</sup><br />", 
+      "product": "Cisco UCS C-Series M5 Rack Servers<sup>1</sup>", 
       "fix": [
-        "(18-Feb-2018)"
+        "(19-Jan-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -264,7 +351,7 @@
       "bug_id": "CSCvg98015", 
       "product": "Cisco UCS C460 M4 Rack Server", 
       "fix": [
-        "(18-Feb-2018)"
+        "(19-Jan-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -276,6 +363,48 @@
         "status": "Open", 
         "product_name": "Cisco Unified Computing System"
       }
+    }, 
+    {
+      "bug_id": "CSCvh48274", 
+      "product": "Cisco UCS E-Series M3 Servers", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "3.2(4)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco UCS E-Series Software"
+      }
+    }, 
+    {
+      "bug_id": "CSCvh48274", 
+      "product": "Cisco UCS E-Series M4 Servers", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "3.2(4)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco UCS E-Series Software"
+      }
+    }, 
+    {
+      "bug_id": null, 
+      "product": "Cisco Metacloud", 
+      "fix": [
+        "(2-Mar-2018)"
+      ], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": null, 
+      "product": "Cisco Threat Grid", 
+      "fix": [
+        "(28-Feb-2018)"
+      ], 
+      "bug_data": null
     }
   ]
 }
