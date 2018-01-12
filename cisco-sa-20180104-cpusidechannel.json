@@ -1,5 +1,5 @@
 {
-  "version": "1.5", 
+  "version": "1.6", 
   "products": [
     {
       "bug_id": "CSCvh32644", 
@@ -31,7 +31,7 @@
     }, 
     {
       "bug_id": "CSCvh31418", 
-      "product": "Cisco 800 Industrial Integrated Services Routers", 
+      "product": "Cisco 800 Industrial Integrated Services Routers (IOx feature)", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
@@ -66,6 +66,32 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco 1000 Series Connected Grid Routers"
+      }
+    }, 
+    {
+      "bug_id": "CSCvh44165", 
+      "product": "Cisco Catalyst 9400 Series Switches (IOx feature)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "16.7.1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Other", 
+        "product_name": "Cisco Catalyst 9400 Series Switches"
+      }
+    }, 
+    {
+      "bug_id": "CSCvh32594", 
+      "product": "Cisco Industrial Ethernet 4000 Series Switches (IOx feature)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "15.6(1.6)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Industrial Ethernet 2000 Series Switches"
       }
     }, 
     {
@@ -109,7 +135,7 @@
     }, 
     {
       "bug_id": "CSCvh32393", 
-      "product": "Cisco Nexus 3000 Series Switches", 
+      "product": "Cisco Nexus 3000 Series Switches (OAC feature)", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
@@ -122,7 +148,7 @@
     }, 
     {
       "bug_id": "CSCvh32394", 
-      "product": "Cisco Nexus 5000 Series Switches", 
+      "product": "Cisco Nexus 5000 Series Switches (OAC feature)", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
@@ -144,6 +170,17 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco LAN Switch Software"
+      }
+    }, 
+    {
+      "bug_id": "CSCvh32392", 
+      "product": "Cisco Nexus 9000 Series Switches - Standalone, NX-OS mode", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Nexus 9000 Series Switches"
       }
     }, 
     {
@@ -366,7 +403,7 @@
     }, 
     {
       "bug_id": "CSCvh48274", 
-      "product": "Cisco UCS E-Series M3 Servers", 
+      "product": "Cisco UCS E-Series M2 Servers", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
@@ -379,7 +416,7 @@
     }, 
     {
       "bug_id": "CSCvh48274", 
-      "product": "Cisco UCS E-Series M4 Servers", 
+      "product": "Cisco UCS E-Series M3 Servers", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
