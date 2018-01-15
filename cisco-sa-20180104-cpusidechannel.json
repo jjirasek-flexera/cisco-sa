@@ -1,5 +1,5 @@
 {
-  "version": "1.7", 
+  "version": "1.8", 
   "products": [
     {
       "bug_id": "CSCvh32644", 
@@ -234,7 +234,7 @@
     }, 
     {
       "bug_id": "CSCvh32393", 
-      "product": "Cisco Nexus 3000 Series Switches (OAC feature)", 
+      "product": "Cisco Nexus 3000 Series Switches", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
@@ -256,6 +256,32 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco Nexus 5000 Series Switches"
+      }
+    }, 
+    {
+      "bug_id": "CSCvh32390", 
+      "product": "Cisco Nexus 6000 Series Switches (OAC feature)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "8.2(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Nexus 7000 Series Switches"
+      }
+    }, 
+    {
+      "bug_id": "CSCvh32390", 
+      "product": "Cisco Nexus 7000 Series Switches (OAC feature)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "8.2(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Nexus 7000 Series Switches"
       }
     }, 
     {
@@ -314,7 +340,7 @@
       "bug_id": "CSCvh31576", 
       "product": "Cisco UCS B-Series M2 Blade Servers", 
       "fix": [
-        "Fix pending"
+        "(18-Feb-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -346,7 +372,7 @@
       "bug_id": "CSCvg97979", 
       "product": "Cisco UCS B-Series M4 Blade Servers (except B260 and B460)", 
       "fix": [
-        "(19-Jan-2018)"
+        "Fix pending"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -378,7 +404,7 @@
       "bug_id": "CSCvg98015", 
       "product": "Cisco UCS B260 M4 Blade Server", 
       "fix": [
-        "(19-Jan-2018)"
+        "Fix pending"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -395,7 +421,7 @@
       "bug_id": "CSCvg98015", 
       "product": "Cisco UCS B460 M4 Blade Server", 
       "fix": [
-        "(19-Jan-2018)"
+        "Fix pending"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -412,7 +438,7 @@
       "bug_id": "CSCvh31576", 
       "product": "Cisco UCS C-Series M2 Rack Servers", 
       "fix": [
-        "Fix pending"
+        "(18-Feb-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -444,7 +470,7 @@
       "bug_id": "CSCvg97979", 
       "product": "Cisco UCS C-Series M4 Rack Servers (except C460)<sup>1</sup>", 
       "fix": [
-        "(19-Jan-2018)"
+        "Fix pending"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -459,7 +485,7 @@
     }, 
     {
       "bug_id": "CSCvh31577", 
-      "product": "Cisco UCS C-Series M5 Rack Servers <sup>1</sup>", 
+      "product": "Cisco UCS C-Series M5 Rack Servers<sup>1</sup>", 
       "fix": [
         "(19-Jan-2018)"
       ], 
@@ -476,7 +502,7 @@
       "bug_id": "CSCvg98015", 
       "product": "Cisco UCS C460 M4 Rack Server", 
       "fix": [
-        "(19-Jan-2018)"
+        "Fix pending"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -513,6 +539,22 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco UCS E-Series Software"
+      }
+    }, 
+    {
+      "bug_id": "CSCvh55760", 
+      "product": "Cisco UCS M-Series Modular Servers", 
+      "fix": [
+        "No fix expected"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "2.5(1b)A", 
+          "3.1(1e)A"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco Unified Computing System"
       }
     }, 
     {
