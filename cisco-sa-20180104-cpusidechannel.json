@@ -1,5 +1,5 @@
 {
-  "version": "1.6", 
+  "version": "1.7", 
   "products": [
     {
       "bug_id": "CSCvh32644", 
@@ -30,12 +30,96 @@
       }
     }, 
     {
+      "bug_id": "CSCvh32416", 
+      "product": "Cisco 4000 Series Integrated Services Routers (IOS XE Open Service Containers)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "16.5.1", 
+          "16.7.1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco IOS"
+      }
+    }, 
+    {
       "bug_id": "CSCvh31418", 
       "product": "Cisco 800 Industrial Integrated Services Routers (IOx feature)", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
           "15.6(3.1n)M"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco IOS"
+      }
+    }, 
+    {
+      "bug_id": "CSCvh32416", 
+      "product": "Cisco ASR 1000 Series Aggregation Services Routers with RP2 or RP3 (IOS XE Open Service Containers)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "16.5.1", 
+          "16.7.1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco IOS"
+      }
+    }, 
+    {
+      "bug_id": "CSCvh32416", 
+      "product": "Cisco ASR 1001-HX Series Aggregation Services Routers (IOS XE Open Service Containers)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "16.5.1", 
+          "16.7.1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco IOS"
+      }
+    }, 
+    {
+      "bug_id": "CSCvh32416", 
+      "product": "Cisco ASR 1001-X Series Aggregation Services Routers (IOS XE Open Service Containers)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "16.5.1", 
+          "16.7.1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco IOS"
+      }
+    }, 
+    {
+      "bug_id": "CSCvh32416", 
+      "product": "Cisco ASR 1002-HX Series Aggregation Services Routers (IOS XE Open Service Containers)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "16.5.1", 
+          "16.7.1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco IOS"
+      }
+    }, 
+    {
+      "bug_id": "CSCvh32416", 
+      "product": "Cisco ASR 1002-X Series Aggregation Services Routers (IOS XE Open Service Containers)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "16.5.1", 
+          "16.7.1"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
@@ -74,11 +158,26 @@
       "fix": [], 
       "bug_data": {
         "affected_releases": [
+          "16.5.1", 
           "16.7.1"
         ], 
         "fixed_releases": [], 
-        "status": "Other", 
-        "product_name": "Cisco Catalyst 9400 Series Switches"
+        "status": "Open", 
+        "product_name": "Cisco IOS"
+      }
+    }, 
+    {
+      "bug_id": "CSCvh32416", 
+      "product": "Cisco Cloud Services Router 1000V Series (IOS XE Open Service Containers)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "16.5.1", 
+          "16.7.1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco IOS"
       }
     }, 
     {
@@ -160,24 +259,13 @@
       }
     }, 
     {
-      "bug_id": "CSCvh32391", 
-      "product": "Cisco Nexus 9000 Series Fabric Switches - ACI mode", 
-      "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "3.0(1j)"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco LAN Switch Software"
-      }
-    }, 
-    {
       "bug_id": "CSCvh32392", 
       "product": "Cisco Nexus 9000 Series Switches - Standalone, NX-OS mode", 
       "fix": [], 
       "bug_data": {
-        "affected_releases": [], 
+        "affected_releases": [
+          "7.0(3)I7(2)"
+        ], 
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco Nexus 9000 Series Switches"
@@ -371,7 +459,7 @@
     }, 
     {
       "bug_id": "CSCvh31577", 
-      "product": "Cisco UCS C-Series M5 Rack Servers<sup>1</sup>", 
+      "product": "Cisco UCS C-Series M5 Rack Servers <sup>1</sup>", 
       "fix": [
         "(19-Jan-2018)"
       ], 
