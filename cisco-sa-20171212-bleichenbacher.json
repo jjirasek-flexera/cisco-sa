@@ -1,11 +1,11 @@
 {
-  "version": "1.4", 
+  "version": "1.5", 
   "products": [
     {
       "bug_id": "CSCvh10981", 
       "product": "Cisco WebEx Business Suite (including Meeting Center, Training Center, Event Center, Support Center)", 
       "fix": [
-        "Remediation currently planned to be completed by January 15th, 2018."
+        "Remediation has been completed. (15-Jan-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -21,7 +21,7 @@
       "bug_id": "CSCvh10981", 
       "product": "Cisco WebEx Meetings", 
       "fix": [
-        "Remediation currently planned to be completed by January 15th, 2018."
+        "Remediation has been completed. (15-Jan-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -37,7 +37,7 @@
       "bug_id": "CSCvh25064", 
       "product": "Cisco WebEx Messenger", 
       "fix": [
-        "Remediation currently planned to be completed by January 15th, 2018."
+        "Remediation has been completed. (15-Jan-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
