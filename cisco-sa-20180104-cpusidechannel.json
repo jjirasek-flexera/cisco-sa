@@ -1,5 +1,5 @@
 {
-  "version": "1.8", 
+  "version": "1.9", 
   "products": [
     {
       "bug_id": "CSCvh32644", 
@@ -58,7 +58,7 @@
     }, 
     {
       "bug_id": "CSCvh32416", 
-      "product": "Cisco ASR 1000 Series Aggregation Services Routers with RP2 or RP3 (IOS XE Open Service Containers)", 
+      "product": "Cisco ASR 1000 Series Aggregation Services Router with RP2 or RP3 (IOS XE Open Service Containers)", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
@@ -251,7 +251,8 @@
       "fix": [], 
       "bug_data": {
         "affected_releases": [
-          "7.3(2)N1(0.244)"
+          "7.3(2)N1(0.244)", 
+          "7.3(2)N1(0.31)"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
@@ -370,7 +371,7 @@
     }, 
     {
       "bug_id": "CSCvg97979", 
-      "product": "Cisco UCS B-Series M4 Blade Servers (except B260 and B460)", 
+      "product": "Cisco UCS B-Series M4 Blade Servers (except B260, B460)", 
       "fix": [
         "Fix pending"
       ], 
@@ -389,14 +390,14 @@
       "bug_id": "CSCvh31577", 
       "product": "Cisco UCS B-Series M5 Blade Servers", 
       "fix": [
-        "(19-Jan-2018)"
+        "(16-Jan-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
           "3.2(2d)B"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Computing System"
       }
     }, 
@@ -468,7 +469,7 @@
     }, 
     {
       "bug_id": "CSCvg97979", 
-      "product": "Cisco UCS C-Series M4 Rack Servers (except C460)<sup>1</sup>", 
+      "product": "Cisco UCS C-Series M4 Rack Servers (except C460) <sup>1</sup>", 
       "fix": [
         "Fix pending"
       ], 
@@ -485,16 +486,16 @@
     }, 
     {
       "bug_id": "CSCvh31577", 
-      "product": "Cisco UCS C-Series M5 Rack Servers<sup>1</sup>", 
+      "product": "Cisco UCS C-Series M5 Rack Servers <sup>1</sup>", 
       "fix": [
-        "(19-Jan-2018)"
+        "(16-Jan-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
           "3.2(2d)B"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Computing System"
       }
     }, 
@@ -545,7 +546,7 @@
       "bug_id": "CSCvh55760", 
       "product": "Cisco UCS M-Series Modular Servers", 
       "fix": [
-        "No fix expected"
+        "No fix expected (EOL 2016)"
       ], 
       "bug_data": {
         "affected_releases": [
