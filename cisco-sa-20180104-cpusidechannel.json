@@ -1,5 +1,5 @@
 {
-  "version": "1.9", 
+  "version": "1.10", 
   "products": [
     {
       "bug_id": "CSCvh32644", 
@@ -233,8 +233,21 @@
       }
     }, 
     {
-      "bug_id": "CSCvh32393", 
+      "bug_id": "CSCvh32392", 
       "product": "Cisco Nexus 3000 Series Switches", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "7.0(3)I7(2)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Nexus 9000 Series Switches"
+      }
+    }, 
+    {
+      "bug_id": "CSCvh32393", 
+      "product": "Cisco Nexus 3500 Series Switches", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
@@ -345,7 +358,12 @@
       ], 
       "bug_data": {
         "affected_releases": [
-          "2.2(8g)B"
+          "2.2(1b)B", 
+          "2.2(1b)C", 
+          "2.2(8g)B", 
+          "3.1(1e)B", 
+          "3.1(1e)C", 
+          "3.2(1d)B"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
@@ -360,9 +378,12 @@
       ], 
       "bug_data": {
         "affected_releases": [
-          "2.2(8i)B", 
-          "3.1(3e)B", 
-          "3.2(2d)B"
+          "2.2(1b)B", 
+          "2.2(1b)C", 
+          "3.1(1e)B", 
+          "3.1(1e)C", 
+          "3.2(1d)B", 
+          "3.2(1d)C"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
@@ -377,9 +398,9 @@
       ], 
       "bug_data": {
         "affected_releases": [
-          "2.2(8i)B", 
-          "3.1(3e)B", 
-          "3.2(2d)B"
+          "2.2(3a)B", 
+          "3.1(1e)B", 
+          "3.2(1d)B"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
@@ -394,9 +415,13 @@
       ], 
       "bug_data": {
         "affected_releases": [
-          "3.2(2d)B"
+          "3.2(1d)B", 
+          "3.2(2b)B"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "3.1(2e)", 
+          "3.2(2e)"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Unified Computing System"
       }
@@ -409,9 +434,10 @@
       ], 
       "bug_data": {
         "affected_releases": [
-          "2.2(8i)B", 
-          "3.1(3e)B", 
-          "3.2(2d)B"
+          "3.1(1e)B", 
+          "3.1(1e)C", 
+          "3.2(1d)B", 
+          "3.2(1d)C"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
@@ -426,9 +452,10 @@
       ], 
       "bug_data": {
         "affected_releases": [
-          "2.2(8i)B", 
-          "3.1(3e)B", 
-          "3.2(2d)B"
+          "3.1(1e)B", 
+          "3.1(1e)C", 
+          "3.2(1d)B", 
+          "3.2(1d)C"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
@@ -443,7 +470,12 @@
       ], 
       "bug_data": {
         "affected_releases": [
-          "2.2(8g)B"
+          "2.2(1b)B", 
+          "2.2(1b)C", 
+          "2.2(8g)B", 
+          "3.1(1e)B", 
+          "3.1(1e)C", 
+          "3.2(1d)B"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
@@ -458,9 +490,12 @@
       ], 
       "bug_data": {
         "affected_releases": [
-          "2.2(8i)B", 
-          "3.1(3e)B", 
-          "3.2(2d)B"
+          "2.2(1b)B", 
+          "2.2(1b)C", 
+          "3.1(1e)B", 
+          "3.1(1e)C", 
+          "3.2(1d)B", 
+          "3.2(1d)C"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
@@ -475,9 +510,9 @@
       ], 
       "bug_data": {
         "affected_releases": [
-          "2.2(8i)B", 
-          "3.1(3e)B", 
-          "3.2(2d)B"
+          "2.2(3a)B", 
+          "3.1(1e)B", 
+          "3.2(1d)B"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
@@ -492,9 +527,13 @@
       ], 
       "bug_data": {
         "affected_releases": [
-          "3.2(2d)B"
+          "3.2(1d)B", 
+          "3.2(2b)B"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "3.1(2e)", 
+          "3.2(2e)"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Unified Computing System"
       }
@@ -507,9 +546,10 @@
       ], 
       "bug_data": {
         "affected_releases": [
-          "2.2(8i)B", 
-          "3.1(3e)B", 
-          "3.2(2d)B"
+          "3.1(1e)B", 
+          "3.1(1e)C", 
+          "3.2(1d)B", 
+          "3.2(1d)C"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
@@ -546,7 +586,7 @@
       "bug_id": "CSCvh55760", 
       "product": "Cisco UCS M-Series Modular Servers", 
       "fix": [
-        "No fix expected (EOL 2016)"
+        "No fix expected"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -559,7 +599,7 @@
       }
     }, 
     {
-      "bug_id": null, 
+      "bug_id": "CSCvh53992", 
       "product": "Cisco Metacloud", 
       "fix": [
         "(2-Mar-2018)"
