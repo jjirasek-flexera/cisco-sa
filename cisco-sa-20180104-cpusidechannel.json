@@ -1,5 +1,5 @@
 {
-  "version": "1.10", 
+  "version": "1.11", 
   "products": [
     {
       "bug_id": "CSCvh32644", 
@@ -28,6 +28,36 @@
         "status": "Open", 
         "product_name": "Cisco Wide Area Application Services (WAAS) Appliances"
       }
+    }, 
+    {
+      "bug_id": null, 
+      "product": "Cisco vBond Orchestrator", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": null, 
+      "product": "Cisco vEdge 5000", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": null, 
+      "product": "Cisco vEdge Cloud", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": null, 
+      "product": "Cisco vManage NMS", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": null, 
+      "product": "Cisco vSmart Controller", 
+      "fix": [], 
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCvh32416", 
@@ -154,7 +184,7 @@
     }, 
     {
       "bug_id": "CSCvh44165", 
-      "product": "Cisco Catalyst 9400 Series Switches (IOx feature)", 
+      "product": "Cisco Catalyst 9400 Series Switches (Open Service Container or IOx feature)", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
@@ -287,7 +317,7 @@
     }, 
     {
       "bug_id": "CSCvh32390", 
-      "product": "Cisco Nexus 7000 Series Switches (OAC feature)", 
+      "product": "Cisco Nexus 7000 Series Switches (OAC feature, Feature Bash)", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
@@ -354,7 +384,7 @@
       "bug_id": "CSCvh31576", 
       "product": "Cisco UCS B-Series M2 Blade Servers", 
       "fix": [
-        "(18-Feb-2018)"
+        "Fix pending"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -374,7 +404,7 @@
       "bug_id": "CSCvg97965", 
       "product": "Cisco UCS B-Series M3 Blade Servers", 
       "fix": [
-        "(18-Feb-2018)"
+        "Fix pending"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -466,7 +496,7 @@
       "bug_id": "CSCvh31576", 
       "product": "Cisco UCS C-Series M2 Rack Servers", 
       "fix": [
-        "(18-Feb-2018)"
+        "Fix pending"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -486,7 +516,7 @@
       "bug_id": "CSCvg97965", 
       "product": "Cisco UCS C-Series M3 Rack Servers", 
       "fix": [
-        "(18-Feb-2018)"
+        "Fix pending"
       ], 
       "bug_data": {
         "affected_releases": [
