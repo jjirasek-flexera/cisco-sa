@@ -1,5 +1,5 @@
 {
-  "version": "1.12", 
+  "version": "1.13", 
   "products": [
     {
       "bug_id": "CSCvh32644", 
@@ -12,6 +12,19 @@
         "fixed_releases": [], 
         "status": "Fixed", 
         "product_name": "Cisco Cloud Services Platform 2100"
+      }
+    }, 
+    {
+      "bug_id": "CSCvh49919", 
+      "product": "Cisco Network Functions Virtualization Infrastructure Software", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "NFVIS-3.6.2"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Enterprise NFV Infrastructure Software"
       }
     }, 
     {
@@ -58,6 +71,32 @@
       "product": "Cisco vSmart Controller", 
       "fix": [], 
       "bug_data": null
+    }, 
+    {
+      "bug_id": "CSCvh58549", 
+      "product": "Cisco Application Policy Infrastructure Controller (APIC)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "3.0(1k)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Application Policy Infrastructure Controller (APIC)"
+      }
+    }, 
+    {
+      "bug_id": "CSCvh58549", 
+      "product": "Cisco Virtual Application Policy Infrastructure Controller (APIC)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "3.0(1k)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Application Policy Infrastructure Controller (APIC)"
+      }
     }, 
     {
       "bug_id": "CSCvh32416", 
@@ -355,6 +394,18 @@
       }
     }, 
     {
+      "bug_id": null, 
+      "product": "Cisco C880 M4 Server", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
+      "bug_id": null, 
+      "product": "Cisco C880 M5 Server", 
+      "fix": [], 
+      "bug_data": null
+    }, 
+    {
       "bug_id": "CSCvh48274", 
       "product": "Cisco Enterprise Network Compute System 5100 Series Servers", 
       "fix": [], 
@@ -384,7 +435,7 @@
       "bug_id": "CSCvh31576", 
       "product": "Cisco UCS B-Series M2 Blade Servers", 
       "fix": [
-        "Fix pending"
+        "Fix Pending"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -404,7 +455,7 @@
       "bug_id": "CSCvg97965", 
       "product": "Cisco UCS B-Series M3 Blade Servers", 
       "fix": [
-        "Fix pending"
+        "Fix Pending"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -441,7 +492,7 @@
       "bug_id": "CSCvh31577", 
       "product": "Cisco UCS B-Series M5 Blade Servers", 
       "fix": [
-        "(16-Jan-2018)"
+        "Fix Pending"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -553,7 +604,7 @@
       "bug_id": "CSCvh31577", 
       "product": "Cisco UCS C-Series M5 Rack Servers <sup>1</sup>", 
       "fix": [
-        "(16-Jan-2018)"
+        "Fix Pending"
       ], 
       "bug_data": {
         "affected_releases": [
