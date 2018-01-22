@@ -1,5 +1,5 @@
 {
-  "version": "1.11", 
+  "version": "1.12", 
   "products": [
     {
       "bug_id": "CSCvh32644", 
@@ -496,7 +496,7 @@
       "bug_id": "CSCvh31576", 
       "product": "Cisco UCS C-Series M2 Rack Servers", 
       "fix": [
-        "Fix pending"
+        "Fix Pending"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -516,7 +516,7 @@
       "bug_id": "CSCvg97965", 
       "product": "Cisco UCS C-Series M3 Rack Servers", 
       "fix": [
-        "Fix pending"
+        "Fix Pending"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -627,6 +627,26 @@
         "status": "Terminated", 
         "product_name": "Cisco Unified Computing System"
       }
+    }, 
+    {
+      "bug_id": "CSCvh58132", 
+      "product": "Cisco Remote Expert Mobile", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.5(1)", 
+          "11.6(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Remote Expert Mobile"
+      }
+    }, 
+    {
+      "bug_id": "CSCvh58504", 
+      "product": "Cisco Wireless Gateway for LoRaWAN", 
+      "fix": [], 
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCvh53992", 
