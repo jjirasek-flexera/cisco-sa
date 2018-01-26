@@ -1,5 +1,5 @@
 {
-  "version": "1.14", 
+  "version": "1.15", 
   "products": [
     {
       "bug_id": "CSCvh32644", 
@@ -122,7 +122,9 @@
           "Denali-16.3.6", 
           "Everest-16.6.1"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "16.6(2.79)"
+        ], 
         "status": "Open", 
         "product_name": "Cisco IOS"
       }
@@ -151,7 +153,9 @@
           "Denali-16.3.6", 
           "Everest-16.6.1"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "16.6(2.79)"
+        ], 
         "status": "Open", 
         "product_name": "Cisco IOS"
       }
@@ -167,7 +171,9 @@
           "Denali-16.3.6", 
           "Everest-16.6.1"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "16.6(2.79)"
+        ], 
         "status": "Open", 
         "product_name": "Cisco IOS"
       }
@@ -183,7 +189,9 @@
           "Denali-16.3.6", 
           "Everest-16.6.1"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "16.6(2.79)"
+        ], 
         "status": "Open", 
         "product_name": "Cisco IOS"
       }
@@ -199,7 +207,9 @@
           "Denali-16.3.6", 
           "Everest-16.6.1"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "16.6(2.79)"
+        ], 
         "status": "Open", 
         "product_name": "Cisco IOS"
       }
@@ -215,7 +225,9 @@
           "Denali-16.3.6", 
           "Everest-16.6.1"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "16.6(2.79)"
+        ], 
         "status": "Open", 
         "product_name": "Cisco IOS"
       }
@@ -249,6 +261,24 @@
       }
     }, 
     {
+      "bug_id": "CSCvh44164", 
+      "product": "Cisco Catalyst 9300 Series Switches (Open Service Container or IOx feature)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "16.5.1", 
+          "16.7.1", 
+          "Denali-16.3.6", 
+          "Everest-16.6.1"
+        ], 
+        "fixed_releases": [
+          "16.6(2.79)"
+        ], 
+        "status": "Open", 
+        "product_name": "Cisco IOS"
+      }
+    }, 
+    {
       "bug_id": "CSCvh44165", 
       "product": "Cisco Catalyst 9400 Series Switches (Open Service Container or IOx feature)", 
       "fix": [], 
@@ -259,7 +289,27 @@
           "Denali-16.3.6", 
           "Everest-16.6.1"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "16.6(2.79)"
+        ], 
+        "status": "Open", 
+        "product_name": "Cisco IOS"
+      }
+    }, 
+    {
+      "bug_id": "CSCvh44166", 
+      "product": "Cisco Catalyst 9500 Series Switches (Open Service Container or IOx feature)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "16.5.1", 
+          "16.7.1", 
+          "Denali-16.3.6", 
+          "Everest-16.6.1"
+        ], 
+        "fixed_releases": [
+          "16.6(2.79)"
+        ], 
         "status": "Open", 
         "product_name": "Cisco IOS"
       }
@@ -275,7 +325,9 @@
           "Denali-16.3.6", 
           "Everest-16.6.1"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "16.6(2.79)"
+        ], 
         "status": "Open", 
         "product_name": "Cisco IOS"
       }
@@ -491,6 +543,19 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco UCS E-Series Software"
+      }
+    }, 
+    {
+      "bug_id": "CSCvh68612", 
+      "product": "Cisco HX VMWare Hypervisor", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.6(1b)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco HyperFlex HX-Series"
       }
     }, 
     {
