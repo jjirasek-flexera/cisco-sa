@@ -1,5 +1,5 @@
 {
-  "version": "1.15", 
+  "version": "1.16", 
   "products": [
     {
       "bug_id": "CSCvh32644", 
@@ -45,31 +45,41 @@
     {
       "bug_id": null, 
       "product": "Cisco vBond Orchestrator", 
-      "fix": [], 
+      "fix": [
+        "Fix Pending"
+      ], 
       "bug_data": null
     }, 
     {
       "bug_id": null, 
       "product": "Cisco vEdge 5000", 
-      "fix": [], 
+      "fix": [
+        "Fix Pending"
+      ], 
       "bug_data": null
     }, 
     {
       "bug_id": null, 
       "product": "Cisco vEdge Cloud", 
-      "fix": [], 
+      "fix": [
+        "Fix Pending"
+      ], 
       "bug_data": null
     }, 
     {
       "bug_id": null, 
       "product": "Cisco vManage NMS", 
-      "fix": [], 
+      "fix": [
+        "Fix Pending"
+      ], 
       "bug_data": null
     }, 
     {
       "bug_id": null, 
       "product": "Cisco vSmart Controller", 
-      "fix": [], 
+      "fix": [
+        "Fix Pending"
+      ], 
       "bug_data": null
     }, 
     {
@@ -123,9 +133,12 @@
           "Everest-16.6.1"
         ], 
         "fixed_releases": [
-          "16.6(2.79)"
+          "16.6(2.79)", 
+          "16.7(1.88)", 
+          "16.8(0.182)", 
+          "16.9(0.35)"
         ], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco IOS"
       }
     }, 
@@ -154,9 +167,12 @@
           "Everest-16.6.1"
         ], 
         "fixed_releases": [
-          "16.6(2.79)"
+          "16.6(2.79)", 
+          "16.7(1.88)", 
+          "16.8(0.182)", 
+          "16.9(0.35)"
         ], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco IOS"
       }
     }, 
@@ -172,9 +188,12 @@
           "Everest-16.6.1"
         ], 
         "fixed_releases": [
-          "16.6(2.79)"
+          "16.6(2.79)", 
+          "16.7(1.88)", 
+          "16.8(0.182)", 
+          "16.9(0.35)"
         ], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco IOS"
       }
     }, 
@@ -190,9 +209,12 @@
           "Everest-16.6.1"
         ], 
         "fixed_releases": [
-          "16.6(2.79)"
+          "16.6(2.79)", 
+          "16.7(1.88)", 
+          "16.8(0.182)", 
+          "16.9(0.35)"
         ], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco IOS"
       }
     }, 
@@ -208,9 +230,12 @@
           "Everest-16.6.1"
         ], 
         "fixed_releases": [
-          "16.6(2.79)"
+          "16.6(2.79)", 
+          "16.7(1.88)", 
+          "16.8(0.182)", 
+          "16.9(0.35)"
         ], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco IOS"
       }
     }, 
@@ -226,9 +251,12 @@
           "Everest-16.6.1"
         ], 
         "fixed_releases": [
-          "16.6(2.79)"
+          "16.6(2.79)", 
+          "16.7(1.88)", 
+          "16.8(0.182)", 
+          "16.9(0.35)"
         ], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco IOS"
       }
     }, 
@@ -272,9 +300,12 @@
           "Everest-16.6.1"
         ], 
         "fixed_releases": [
-          "16.6(2.79)"
+          "16.6(2.79)", 
+          "16.7(1.88)", 
+          "16.8(0.182)", 
+          "16.9(0.35)"
         ], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco IOS"
       }
     }, 
@@ -290,9 +321,12 @@
           "Everest-16.6.1"
         ], 
         "fixed_releases": [
-          "16.6(2.79)"
+          "16.6(2.79)", 
+          "16.7(1.88)", 
+          "16.8(0.182)", 
+          "16.9(0.35)"
         ], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco IOS"
       }
     }, 
@@ -308,9 +342,12 @@
           "Everest-16.6.1"
         ], 
         "fixed_releases": [
-          "16.6(2.79)"
+          "16.6(2.79)", 
+          "16.7(1.88)", 
+          "16.8(0.182)", 
+          "16.9(0.35)"
         ], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco IOS"
       }
     }, 
@@ -326,23 +363,13 @@
           "Everest-16.6.1"
         ], 
         "fixed_releases": [
-          "16.6(2.79)"
+          "16.6(2.79)", 
+          "16.7(1.88)", 
+          "16.8(0.182)", 
+          "16.9(0.35)"
         ], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco IOS"
-      }
-    }, 
-    {
-      "bug_id": "CSCvh32594", 
-      "product": "Cisco Industrial Ethernet 4000 Series Switches (IOx feature)", 
-      "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "15.6(1.6)"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Industrial Ethernet 2000 Series Switches"
       }
     }, 
     {
@@ -547,7 +574,7 @@
     }, 
     {
       "bug_id": "CSCvh68612", 
-      "product": "Cisco HX VMWare Hypervisor", 
+      "product": "Cisco HyperFlex with VMWare Hypervisor", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
