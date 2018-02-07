@@ -1,5 +1,5 @@
 {
-  "version": "1.17", 
+  "version": "1.18", 
   "products": [
     {
       "bug_id": "CSCvh32644", 
@@ -35,7 +35,7 @@
       "bug_id": "CSCvh49646", 
       "product": "Cisco Wide Area Application Services (WAAS)", 
       "fix": [
-        "Pending upstream supplier patches"
+        "Update to v6.x (Available now)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -98,7 +98,9 @@
         "affected_releases": [
           "3.0(1k)"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "3.2(0.85a)"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Application Policy Infrastructure Controller (APIC)"
       }
@@ -128,7 +130,9 @@
         "affected_releases": [
           "3.0(1k)"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "3.2(0.85a)"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Application Policy Infrastructure Controller (APIC)"
       }
@@ -618,7 +622,7 @@
       "bug_id": "CSCvh48274", 
       "product": "Cisco Enterprise Network Compute System 5100 Series Servers", 
       "fix": [
-        "Pending upstream supplier patches"
+        "Fix ETA (16-March-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -633,7 +637,7 @@
       "bug_id": "CSCvh48274", 
       "product": "Cisco Enterprise Network Compute System 5400 Series Servers", 
       "fix": [
-        "Pending upstream supplier patches"
+        "Fix ETA (16-March-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -683,7 +687,7 @@
       "bug_id": "CSCvg97965", 
       "product": "Cisco UCS B-Series M3 Blade Servers", 
       "fix": [
-        "Pending upstream supplier patches"
+        "Fix ETA (16-March-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -703,7 +707,7 @@
       "bug_id": "CSCvg97979", 
       "product": "Cisco UCS B-Series M4 Blade Servers (except B260, B460)", 
       "fix": [
-        "Pending upstream supplier patches"
+        "Fix ETA (16-March-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -720,7 +724,7 @@
       "bug_id": "CSCvh31577", 
       "product": "Cisco UCS B-Series M5 Blade Servers", 
       "fix": [
-        "Pending upstream supplier patches"
+        "Fix ETA (16-March-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -739,7 +743,7 @@
       "bug_id": "CSCvg98015", 
       "product": "Cisco UCS B260 M4 Blade Server", 
       "fix": [
-        "Pending upstream supplier patches"
+        "Fix ETA (16-March-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -757,7 +761,7 @@
       "bug_id": "CSCvg98015", 
       "product": "Cisco UCS B460 M4 Blade Server", 
       "fix": [
-        "Pending upstream supplier patches"
+        "Fix ETA (16-March-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -795,7 +799,7 @@
       "bug_id": "CSCvg97965", 
       "product": "Cisco UCS C-Series M3 Rack Servers", 
       "fix": [
-        "Pending upstream supplier patches"
+        "Fix ETA (16-March-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -815,7 +819,7 @@
       "bug_id": "CSCvg97979", 
       "product": "Cisco UCS C-Series M4 Rack Servers (except C460) <sup>1</sup>", 
       "fix": [
-        "Pending upstream supplier patches"
+        "Fix ETA (16-March-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -832,7 +836,7 @@
       "bug_id": "CSCvh31577", 
       "product": "Cisco UCS C-Series M5 Rack Servers <sup>1</sup>", 
       "fix": [
-        "Pending upstream supplier patches"
+        "Fix ETA (16-March-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -851,7 +855,7 @@
       "bug_id": "CSCvg98015", 
       "product": "Cisco UCS C460 M4 Rack Server", 
       "fix": [
-        "Pending upstream supplier patches"
+        "Fix ETA (16-March-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -869,7 +873,7 @@
       "bug_id": "CSCvh48274", 
       "product": "Cisco UCS E-Series M2 Servers", 
       "fix": [
-        "Pending upstream supplier patches"
+        "Fix ETA (16-March-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -884,7 +888,7 @@
       "bug_id": "CSCvh48274", 
       "product": "Cisco UCS E-Series M3 Servers", 
       "fix": [
-        "Pending upstream supplier patches"
+        "Fix ETA (16-March-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -915,7 +919,7 @@
       "bug_id": "CSCvg97979", 
       "product": "Cisco UCS S3260 M4 Storage Server", 
       "fix": [
-        "Pending upstream supplier patches"
+        "Fix ETA (16-March-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
