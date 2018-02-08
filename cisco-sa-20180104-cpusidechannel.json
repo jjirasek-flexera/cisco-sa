@@ -1,5 +1,5 @@
 {
-  "version": "1.18", 
+  "version": "1.19", 
   "products": [
     {
       "bug_id": "CSCvh32644", 
@@ -113,7 +113,8 @@
       ], 
       "bug_data": {
         "affected_releases": [
-          "2.1(3)"
+          "2.1(3)", 
+          "2.2"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
@@ -873,7 +874,7 @@
       "bug_id": "CSCvh48274", 
       "product": "Cisco UCS E-Series M2 Servers", 
       "fix": [
-        "Fix ETA (16-March-2018)"
+        "Pending upstream supplier patches"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -888,7 +889,7 @@
       "bug_id": "CSCvh48274", 
       "product": "Cisco UCS E-Series M3 Servers", 
       "fix": [
-        "Fix ETA (16-March-2018)"
+        "Pending upstream supplier patches"
       ], 
       "bug_data": {
         "affected_releases": [
