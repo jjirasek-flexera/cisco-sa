@@ -1,11 +1,11 @@
 {
-  "version": "1.19", 
+  "version": "1.20", 
   "products": [
     {
       "bug_id": "CSCvh32644", 
       "product": "Cisco Cloud Services Platform 2100", 
       "fix": [
-        "Pending upstream supplier patches"
+        "A fix is pending on upstream vendors."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -20,14 +20,14 @@
       "bug_id": "CSCvh49919", 
       "product": "Cisco Network Functions Virtualization Infrastructure Software", 
       "fix": [
-        "Pending upstream supplier patches"
+        "A fix is pending on upstream vendors."
       ], 
       "bug_data": {
         "affected_releases": [
           "NFVIS-3.6.2"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Enterprise NFV Infrastructure Software"
       }
     }, 
@@ -44,7 +44,7 @@
           "5.5(7)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Terminated", 
         "product_name": "Cisco Wide Area Application Services (WAAS) Appliances"
       }
     }, 
@@ -52,7 +52,7 @@
       "bug_id": null, 
       "product": "Cisco vBond Orchestrator", 
       "fix": [
-        "Pending upstream supplier patches"
+        "A fix is pending on upstream vendors."
       ], 
       "bug_data": null
     }, 
@@ -60,7 +60,7 @@
       "bug_id": null, 
       "product": "Cisco vEdge 5000", 
       "fix": [
-        "Pending upstream supplier patches"
+        "A fix is pending on upstream vendors."
       ], 
       "bug_data": null
     }, 
@@ -68,7 +68,7 @@
       "bug_id": null, 
       "product": "Cisco vEdge Cloud", 
       "fix": [
-        "Pending upstream supplier patches"
+        "A fix is pending on upstream vendors."
       ], 
       "bug_data": null
     }, 
@@ -76,7 +76,7 @@
       "bug_id": null, 
       "product": "Cisco vManage NMS", 
       "fix": [
-        "Pending upstream supplier patches"
+        "A fix is pending on upstream vendors."
       ], 
       "bug_data": null
     }, 
@@ -84,7 +84,7 @@
       "bug_id": null, 
       "product": "Cisco vSmart Controller", 
       "fix": [
-        "Pending upstream supplier patches"
+        "A fix is pending on upstream vendors."
       ], 
       "bug_data": null
     }, 
@@ -92,7 +92,7 @@
       "bug_id": "CSCvh58549", 
       "product": "Cisco Application Policy Infrastructure Controller (APIC)", 
       "fix": [
-        "Pending upstream supplier patches"
+        "A fix is pending on upstream vendors."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -109,7 +109,7 @@
       "bug_id": "CSCvh64005", 
       "product": "Cisco Evolved Programmable Network Manager", 
       "fix": [
-        "Pending upstream supplier patches"
+        "A fix is pending on upstream vendors."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -117,7 +117,7 @@
           "2.2"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Network Level Service"
       }
     }, 
@@ -125,7 +125,7 @@
       "bug_id": "CSCvh58549", 
       "product": "Cisco Virtual Application Policy Infrastructure Controller (APIC)", 
       "fix": [
-        "Pending upstream supplier patches"
+        "A fix is pending on upstream vendors."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -142,7 +142,7 @@
       "bug_id": "CSCvh32416", 
       "product": "Cisco 4000 Series Integrated Services Routers (IOS XE Open Service Containers)", 
       "fix": [
-        "Pending upstream supplier patches"
+        "A fix is pending on upstream vendors."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -165,7 +165,7 @@
       "bug_id": "CSCvh31418", 
       "product": "Cisco 800 Industrial Integrated Services Routers (IOx feature)", 
       "fix": [
-        "Pending upstream supplier patches"
+        "A fix is pending on upstream vendors."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -180,7 +180,7 @@
       "bug_id": "CSCvh32416", 
       "product": "Cisco ASR 1000 Series Aggregation Services Router with RP2 or RP3 (IOS XE Open Service Containers)", 
       "fix": [
-        "Pending upstream supplier patches"
+        "A fix is pending on upstream vendors."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -203,7 +203,7 @@
       "bug_id": "CSCvh32416", 
       "product": "Cisco ASR 1001-HX Series Aggregation Services Routers (IOS XE Open Service Containers)", 
       "fix": [
-        "Pending upstream supplier patches"
+        "A fix is pending on upstream vendors."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -226,7 +226,7 @@
       "bug_id": "CSCvh32416", 
       "product": "Cisco ASR 1001-X Series Aggregation Services Routers (IOS XE Open Service Containers)", 
       "fix": [
-        "Pending upstream supplier patches"
+        "A fix is pending on upstream vendors."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -249,7 +249,7 @@
       "bug_id": "CSCvh32416", 
       "product": "Cisco ASR 1002-HX Series Aggregation Services Routers (IOS XE Open Service Containers)", 
       "fix": [
-        "Pending upstream supplier patches"
+        "A fix is pending on upstream vendors."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -272,7 +272,7 @@
       "bug_id": "CSCvh32416", 
       "product": "Cisco ASR 1002-X Series Aggregation Services Routers (IOS XE Open Service Containers)", 
       "fix": [
-        "Pending upstream supplier patches"
+        "A fix is pending on upstream vendors."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -295,7 +295,7 @@
       "bug_id": "CSCvh32429", 
       "product": "Cisco ASR 9000 XR 64-bit Series Routers", 
       "fix": [
-        "Pending upstream supplier patches"
+        "A fix is pending on upstream vendors."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -312,7 +312,7 @@
       "bug_id": "CSCvh32516", 
       "product": "Cisco CGR 1000 Compute Module (IOx feature)", 
       "fix": [
-        "Pending upstream supplier patches"
+        "A fix is pending on upstream vendors."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -327,7 +327,7 @@
       "bug_id": "CSCvh44164", 
       "product": "Cisco Catalyst 9300 Series Switches (Open Service Container or IOx feature)", 
       "fix": [
-        "Pending upstream supplier patches"
+        "A fix is pending on upstream vendors."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -350,7 +350,7 @@
       "bug_id": "CSCvh44165", 
       "product": "Cisco Catalyst 9400 Series Switches (Open Service Container or IOx feature)", 
       "fix": [
-        "Pending upstream supplier patches"
+        "A fix is pending on upstream vendors."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -373,7 +373,7 @@
       "bug_id": "CSCvh44166", 
       "product": "Cisco Catalyst 9500 Series Switches (Open Service Container or IOx feature)", 
       "fix": [
-        "Pending upstream supplier patches"
+        "A fix is pending on upstream vendors."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -396,7 +396,7 @@
       "bug_id": "CSCvh32416", 
       "product": "Cisco Cloud Services Router 1000V Series (IOS XE Open Service Containers)", 
       "fix": [
-        "Pending upstream supplier patches"
+        "A fix is pending on upstream vendors."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -419,7 +419,7 @@
       "bug_id": "CSCvh32429", 
       "product": "Cisco NCS 1000 Series Routers", 
       "fix": [
-        "Pending upstream supplier patches"
+        "A fix is pending on upstream vendors."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -436,7 +436,7 @@
       "bug_id": "CSCvh32429", 
       "product": "Cisco NCS 5000 Series Routers", 
       "fix": [
-        "Pending upstream supplier patches"
+        "A fix is pending on upstream vendors."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -453,7 +453,7 @@
       "bug_id": "CSCvh32429", 
       "product": "Cisco NCS 5500 Series Routers", 
       "fix": [
-        "Pending upstream supplier patches"
+        "A fix is pending on upstream vendors."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -470,7 +470,7 @@
       "bug_id": "CSCvh32392", 
       "product": "Cisco Nexus 3000 Series Switches", 
       "fix": [
-        "Pending upstream supplier patches"
+        "A fix is pending on upstream vendors."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -485,14 +485,14 @@
       "bug_id": "CSCvh32393", 
       "product": "Cisco Nexus 3500 Series Switches", 
       "fix": [
-        "Pending upstream supplier patches"
+        "A fix is pending on upstream vendors."
       ], 
       "bug_data": {
         "affected_releases": [
           "6.0(2)A8(1)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Terminated", 
         "product_name": "Cisco Nexus 3000 Series Switches"
       }
     }, 
@@ -500,7 +500,7 @@
       "bug_id": "CSCvh32394", 
       "product": "Cisco Nexus 5000 Series Switches (OAC feature)", 
       "fix": [
-        "Pending upstream supplier patches"
+        "A fix is pending on upstream vendors."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -516,7 +516,7 @@
       "bug_id": "CSCvh32390", 
       "product": "Cisco Nexus 6000 Series Switches (OAC feature)", 
       "fix": [
-        "Pending upstream supplier patches"
+        "A fix is pending on upstream vendors."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -531,7 +531,7 @@
       "bug_id": "CSCvh32390", 
       "product": "Cisco Nexus 7000 Series Switches (OAC feature, Feature Bash)", 
       "fix": [
-        "Pending upstream supplier patches"
+        "A fix is pending on upstream vendors."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -546,7 +546,7 @@
       "bug_id": "CSCvh32392", 
       "product": "Cisco Nexus 9000 Series Switches - Standalone, NX-OS mode", 
       "fix": [
-        "Pending upstream supplier patches"
+        "A fix is pending on upstream vendors."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -561,7 +561,7 @@
       "bug_id": "CSCvh32429", 
       "product": "Cisco XRv 9000 Series Routers", 
       "fix": [
-        "Pending upstream supplier patches"
+        "A fix is pending on upstream vendors."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -578,7 +578,7 @@
       "bug_id": "CSCvh51582", 
       "product": "Cisco c800 Series Integrated Services Routers (IOx feature)", 
       "fix": [
-        "Pending upstream supplier patches"
+        "A fix is pending on upstream vendors."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -593,7 +593,7 @@
       "bug_id": "CSCvh66783", 
       "product": "Cisco C880 M4 Server", 
       "fix": [
-        "Pending upstream supplier patches"
+        "A fix is pending on upstream vendors."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -608,7 +608,7 @@
       "bug_id": "CSCvh66783", 
       "product": "Cisco C880 M5 Server", 
       "fix": [
-        "Pending upstream supplier patches"
+        "A fix is pending on upstream vendors."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -623,7 +623,7 @@
       "bug_id": "CSCvh48274", 
       "product": "Cisco Enterprise Network Compute System 5100 Series Servers", 
       "fix": [
-        "Fix ETA (16-March-2018)"
+        "A fix is pending on upstream vendors."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -638,7 +638,7 @@
       "bug_id": "CSCvh48274", 
       "product": "Cisco Enterprise Network Compute System 5400 Series Servers", 
       "fix": [
-        "Fix ETA (16-March-2018)"
+        "A fix is pending on upstream vendors."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -653,7 +653,7 @@
       "bug_id": "CSCvh68612", 
       "product": "Cisco HyperFlex with VMWare Hypervisor", 
       "fix": [
-        "Pending upstream supplier patches"
+        "A fix is pending on upstream vendors."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -668,27 +668,16 @@
       "bug_id": "CSCvh31576", 
       "product": "Cisco UCS B-Series M2 Blade Servers", 
       "fix": [
-        "Pending upstream supplier patches"
+        "A fix is pending on upstream vendors."
       ], 
-      "bug_data": {
-        "affected_releases": [
-          "2.2(1b)B", 
-          "2.2(1b)C", 
-          "2.2(8g)B", 
-          "3.1(1e)B", 
-          "3.1(1e)C", 
-          "3.2(1d)B"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Unified Computing System"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCvg97965", 
       "product": "Cisco UCS B-Series M3 Blade Servers", 
       "fix": [
-        "Fix ETA (16-March-2018)"
+        "Estimated availability", 
+        "(16-March-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -708,7 +697,8 @@
       "bug_id": "CSCvg97979", 
       "product": "Cisco UCS B-Series M4 Blade Servers (except B260, B460)", 
       "fix": [
-        "Fix ETA (16-March-2018)"
+        "Estimated availability", 
+        "(16-March-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -725,7 +715,8 @@
       "bug_id": "CSCvh31577", 
       "product": "Cisco UCS B-Series M5 Blade Servers", 
       "fix": [
-        "Fix ETA (16-March-2018)"
+        "Estimated availability", 
+        "(16-March-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -744,7 +735,8 @@
       "bug_id": "CSCvg98015", 
       "product": "Cisco UCS B260 M4 Blade Server", 
       "fix": [
-        "Fix ETA (16-March-2018)"
+        "Estimated availability", 
+        "(16-March-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -762,7 +754,8 @@
       "bug_id": "CSCvg98015", 
       "product": "Cisco UCS B460 M4 Blade Server", 
       "fix": [
-        "Fix ETA (16-March-2018)"
+        "Estimated availability", 
+        "(16-March-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -780,27 +773,16 @@
       "bug_id": "CSCvh31576", 
       "product": "Cisco UCS C-Series M2 Rack Servers", 
       "fix": [
-        "Pending upstream supplier patches"
+        "A fix is pending on upstream vendors."
       ], 
-      "bug_data": {
-        "affected_releases": [
-          "2.2(1b)B", 
-          "2.2(1b)C", 
-          "2.2(8g)B", 
-          "3.1(1e)B", 
-          "3.1(1e)C", 
-          "3.2(1d)B"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Unified Computing System"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCvg97965", 
       "product": "Cisco UCS C-Series M3 Rack Servers", 
       "fix": [
-        "Fix ETA (16-March-2018)"
+        "Estimated availability", 
+        "(16-March-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -820,7 +802,8 @@
       "bug_id": "CSCvg97979", 
       "product": "Cisco UCS C-Series M4 Rack Servers (except C460) <sup>1</sup>", 
       "fix": [
-        "Fix ETA (16-March-2018)"
+        "Estimated availability", 
+        "(16-March-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -837,7 +820,8 @@
       "bug_id": "CSCvh31577", 
       "product": "Cisco UCS C-Series M5 Rack Servers <sup>1</sup>", 
       "fix": [
-        "Fix ETA (16-March-2018)"
+        "Estimated availability", 
+        "(16-March-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -856,7 +840,8 @@
       "bug_id": "CSCvg98015", 
       "product": "Cisco UCS C460 M4 Rack Server", 
       "fix": [
-        "Fix ETA (16-March-2018)"
+        "Estimated availability", 
+        "(16-March-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -874,7 +859,7 @@
       "bug_id": "CSCvh48274", 
       "product": "Cisco UCS E-Series M2 Servers", 
       "fix": [
-        "Pending upstream supplier patches"
+        "A fix is pending on upstream vendors."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -889,7 +874,7 @@
       "bug_id": "CSCvh48274", 
       "product": "Cisco UCS E-Series M3 Servers", 
       "fix": [
-        "Pending upstream supplier patches"
+        "A fix is pending on upstream vendors."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -920,7 +905,8 @@
       "bug_id": "CSCvg97979", 
       "product": "Cisco UCS S3260 M4 Storage Server", 
       "fix": [
-        "Fix ETA (16-March-2018)"
+        "Estimated availability", 
+        "(16-March-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -937,14 +923,17 @@
       "bug_id": "CSCvh58132", 
       "product": "Cisco Remote Expert Mobile", 
       "fix": [
-        "Pending upstream supplier patches"
+        "11.6(1)ES3 11.5(1)ES8 (Available Now)"
       ], 
       "bug_data": {
         "affected_releases": [
           "11.5(1)", 
           "11.6(1)"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "11.5(1)ES8", 
+          "11.6(1)ES3"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Remote Expert Mobile"
       }
@@ -953,7 +942,7 @@
       "bug_id": "CSCvh58504", 
       "product": "Cisco Wireless Gateway for LoRaWAN", 
       "fix": [
-        "Pending upstream supplier patches"
+        "A fix is pending on upstream vendors."
       ], 
       "bug_data": null
     }, 
@@ -961,7 +950,9 @@
       "bug_id": "CSCvh53992", 
       "product": "Cisco Metacloud", 
       "fix": [
-        "(2-Mar-2018)"
+        "Meltdown &amp;", 
+        "Spectre variant 1 (v4.7) (28-Feb-18)", 
+        "Spectre variant 2 (April-18)"
       ], 
       "bug_data": null
     }, 
