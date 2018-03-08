@@ -1,5 +1,5 @@
 {
-  "version": "1.20", 
+  "version": "1.21", 
   "products": [
     {
       "bug_id": "CSCvh32644", 
@@ -676,8 +676,7 @@
       "bug_id": "CSCvg97965", 
       "product": "Cisco UCS B-Series M3 Blade Servers", 
       "fix": [
-        "Estimated availability", 
-        "(16-March-2018)"
+        "Estimated availability (23-Mar-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -697,8 +696,7 @@
       "bug_id": "CSCvg97979", 
       "product": "Cisco UCS B-Series M4 Blade Servers (except B260, B460)", 
       "fix": [
-        "Estimated availability", 
-        "(16-March-2018)"
+        "Estimated availability (23-Mar-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -715,8 +713,7 @@
       "bug_id": "CSCvh31577", 
       "product": "Cisco UCS B-Series M5 Blade Servers", 
       "fix": [
-        "Estimated availability", 
-        "(16-March-2018)"
+        "Estimated availability (23-Mar-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -735,8 +732,7 @@
       "bug_id": "CSCvg98015", 
       "product": "Cisco UCS B260 M4 Blade Server", 
       "fix": [
-        "Estimated availability", 
-        "(16-March-2018)"
+        "Estimated availability (23-Mar-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -754,8 +750,7 @@
       "bug_id": "CSCvg98015", 
       "product": "Cisco UCS B460 M4 Blade Server", 
       "fix": [
-        "Estimated availability", 
-        "(16-March-2018)"
+        "Estimated availability (23-Mar-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -781,8 +776,7 @@
       "bug_id": "CSCvg97965", 
       "product": "Cisco UCS C-Series M3 Rack Servers", 
       "fix": [
-        "Estimated availability", 
-        "(16-March-2018)"
+        "Estimated availability (23-Mar-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -802,8 +796,7 @@
       "bug_id": "CSCvg97979", 
       "product": "Cisco UCS C-Series M4 Rack Servers (except C460) <sup>1</sup>", 
       "fix": [
-        "Estimated availability", 
-        "(16-March-2018)"
+        "Estimated availability (23-Mar-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -820,8 +813,7 @@
       "bug_id": "CSCvh31577", 
       "product": "Cisco UCS C-Series M5 Rack Servers <sup>1</sup>", 
       "fix": [
-        "Estimated availability", 
-        "(16-March-2018)"
+        "Estimated availability (23-Mar-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -840,8 +832,7 @@
       "bug_id": "CSCvg98015", 
       "product": "Cisco UCS C460 M4 Rack Server", 
       "fix": [
-        "Estimated availability", 
-        "(16-March-2018)"
+        "Estimated availability (23-Mar-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -889,7 +880,7 @@
       "bug_id": "CSCvh55760", 
       "product": "Cisco UCS M-Series Modular Servers", 
       "fix": [
-        "No fix expected"
+        "No fix expected."
       ], 
       "bug_data": {
         "affected_releases": [
@@ -905,8 +896,7 @@
       "bug_id": "CSCvg97979", 
       "product": "Cisco UCS S3260 M4 Storage Server", 
       "fix": [
-        "Estimated availability", 
-        "(16-March-2018)"
+        "Estimated availability (23-Mar-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -952,7 +942,7 @@
       "fix": [
         "Meltdown &amp;", 
         "Spectre variant 1 (v4.7) (28-Feb-18)", 
-        "Spectre variant 2 (April-18)"
+        "Spectre variant 2 (Apr-18)"
       ], 
       "bug_data": null
     }, 
