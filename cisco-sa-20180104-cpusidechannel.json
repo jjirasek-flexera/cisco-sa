@@ -1,5 +1,5 @@
 {
-  "version": "1.26", 
+  "version": "1.27", 
   "products": [
     {
       "bug_id": "CSCvh32644", 
@@ -176,7 +176,7 @@
       "bug_id": "CSCvh32416", 
       "product": "Cisco 4000 Series Integrated Services Routers (IOS XE Open Service Containers)", 
       "fix": [
-        "16.3.7 (June 2018)"
+        "16.3.7 (June-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -385,81 +385,57 @@
       "bug_id": "CSCvh44164", 
       "product": "Cisco Catalyst 9300 Series Switches (Open Service Container or IOx feature)", 
       "fix": [
-        "A fix is pending on upstream vendors."
+        "16.6.3", 
+        "16.7.2", 
+        "16.8.1", 
+        "16.9.1", 
+        "(June 2018)"
       ], 
       "bug_data": {
         "affected_releases": [
-          "16.5.1", 
-          "16.7.1", 
-          "Denali-16.3.6", 
-          "Everest-16.6.1"
+          "16.7.1"
         ], 
-        "fixed_releases": [
-          "16.6(2.79)", 
-          "16.6.3", 
-          "16.7(1.88)", 
-          "16.8(0.182)", 
-          "16.8.1", 
-          "16.9(0.35)", 
-          "Everest-16.6.3", 
-          "Fuji-16.8.1"
-        ], 
-        "status": "Fixed", 
-        "product_name": "Cisco IOS"
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco Catalyst 9300 Series Switches"
       }
     }, 
     {
       "bug_id": "CSCvh44165", 
       "product": "Cisco Catalyst 9400 Series Switches (Open Service Container or IOx feature)", 
       "fix": [
-        "A fix is pending on upstream vendors."
+        "16.6.3", 
+        "16.7.2", 
+        "16.8.1", 
+        "16.9.1", 
+        "(June 2018)"
       ], 
       "bug_data": {
         "affected_releases": [
-          "16.5.1", 
-          "16.7.1", 
-          "Denali-16.3.6", 
-          "Everest-16.6.1"
+          "16.7.1"
         ], 
-        "fixed_releases": [
-          "16.6(2.79)", 
-          "16.6.3", 
-          "16.7(1.88)", 
-          "16.8(0.182)", 
-          "16.8.1", 
-          "16.9(0.35)", 
-          "Everest-16.6.3", 
-          "Fuji-16.8.1"
-        ], 
-        "status": "Fixed", 
-        "product_name": "Cisco IOS"
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco Catalyst 9400 Series Switches"
       }
     }, 
     {
       "bug_id": "CSCvh44166", 
       "product": "Cisco Catalyst 9500 Series Switches (Open Service Container or IOx feature)", 
       "fix": [
-        "A fix is pending on upstream vendors."
+        "16.6.3", 
+        "16.7.2", 
+        "16.8.1", 
+        "16.9.1", 
+        "(June 2018)"
       ], 
       "bug_data": {
         "affected_releases": [
-          "16.5.1", 
-          "16.7.1", 
-          "Denali-16.3.6", 
-          "Everest-16.6.1"
+          "16.7.1"
         ], 
-        "fixed_releases": [
-          "16.6(2.79)", 
-          "16.6.3", 
-          "16.7(1.88)", 
-          "16.8(0.182)", 
-          "16.8.1", 
-          "16.9(0.35)", 
-          "Everest-16.6.3", 
-          "Fuji-16.8.1"
-        ], 
-        "status": "Fixed", 
-        "product_name": "Cisco IOS"
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco Catalyst 9500 Series Switches"
       }
     }, 
     {
@@ -720,7 +696,7 @@
         "UCS Manager 3.1(3h) (May 2018)", 
         "UCS Manager 3.2(3b) (May 2018)", 
         "UCS C-Series M2 Rack Servers - UCS Manager 2.2(8j) (Apr 2018)", 
-        "IMC 1.4(3z08) (April 2018), 1.5(9e) (April 2018)"
+        "IMC 1.4(3z08) (Apr 2018), 1.5(9e) (Apr 2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -746,7 +722,7 @@
       "product": "Cisco UCS B-Series M3 Blade Servers", 
       "fix": [
         "UCS B-Series M3 Blade Servers", 
-        "3.2(3a)(Mar 2018)", 
+        "3.2(3a) (Mar 2018)", 
         "3.2(2f) (Mar 2018)", 
         "3.1(3f) (Mar 2018)", 
         "2.2(8j) (Apr 2018)", 
@@ -779,7 +755,7 @@
     }, 
     {
       "bug_id": "CSCvg97979", 
-      "product": "Cisco UCS B-Series M4 Blade Servers (except B260, B460)", 
+      "product": "Cisco UCS B-Series M4 Blade Servers (except B260 and B460)", 
       "fix": [
         "UCS B-Series M4 Blade Servers (except B260 and B460)", 
         "3.2(3a) (Mar 2018)", 
@@ -983,9 +959,9 @@
     }, 
     {
       "bug_id": "CSCvg97979", 
-      "product": "Cisco UCS C-Series M4 Rack Servers (except C460) <sup>1</sup>", 
+      "product": "Cisco UCS C-Series M4 Rack Servers (except C460)<sup>1</sup>", 
       "fix": [
-        "UCS B-Series M4 Blade Servers (except B260 andB460)", 
+        "UCS B-Series M4 Blade Servers (except B260 and B460)", 
         "3.2(3a) (Mar 2018)", 
         "3.2(2f) (Mar 2018)", 
         "3.1(3f) (Mar 2018)", 
@@ -1021,7 +997,7 @@
     }, 
     {
       "bug_id": "CSCvh31577", 
-      "product": "Cisco UCS C-Series M5 Rack Servers <sup>1</sup>", 
+      "product": "Cisco UCS C-Series M5 Rack Servers<sup>1</sup>", 
       "fix": [
         "UCS B-Series M5 Blade Servers", 
         "3.2(3a) (Mar 2018)", 
@@ -1059,7 +1035,7 @@
         "3.2(3a) (Mar 2018)", 
         "3.2(2f) (Mar 2018)", 
         "3.1(3f) (Mar 2018)", 
-        "2.2(8j) (April 2018)", 
+        "2.2(8j) (Apr 2018)", 
         "UCS C460 M4 Rack Servers", 
         "3.2(3a) (Mar 2018)", 
         "3.2(2f) (Mar 2018)", 
@@ -1144,7 +1120,7 @@
         "3.1(3f) (Mar 2018)", 
         "2.2(8j) (Apr 2018)", 
         "IMC 3.0(4a) (Mar 2018)", 
-        "IMC 2.0(10i) (April 2018)", 
+        "IMC 2.0(10i) (Apr 2018)", 
         "UCS S3260 M4 Storage Servers", 
         "3.2(3a) (Mar 2018)", 
         "3.2(2f) (Mar 2018)", 
