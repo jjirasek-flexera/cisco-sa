@@ -1,11 +1,11 @@
 {
-  "version": "1.28", 
+  "version": "1.29", 
   "products": [
     {
       "bug_id": "CSCvh32644", 
       "product": "Cisco Cloud Services Platform 2100", 
       "fix": [
-        "A fix is pending on upstream vendors."
+        "Consult the Cisco bug ID for details"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -22,7 +22,7 @@
       "bug_id": "CSCvh49919", 
       "product": "Cisco Network Functions Virtualization Infrastructure Software", 
       "fix": [
-        "A fix is pending on upstream vendors."
+        "Consult the Cisco bug ID for details"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -37,7 +37,7 @@
       "bug_id": "CSCvh32392", 
       "product": "Cisco Nexus 3000 Series Switches", 
       "fix": [
-        "A fix is pending on upstream vendors."
+        "Consult the Cisco bug ID for details"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -52,7 +52,7 @@
       "bug_id": "CSCvh32392", 
       "product": "Cisco Nexus 9000 Series Switches - Standalone, NX-OS mode", 
       "fix": [
-        "A fix is pending on upstream vendors."
+        "Consult the Cisco bug ID for details"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -67,7 +67,7 @@
       "bug_id": "CSCvh49646", 
       "product": "Cisco Wide Area Application Services (WAAS)", 
       "fix": [
-        "Update to v6.x (Available now)"
+        "Update to v6.x (Available)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -84,7 +84,7 @@
       "bug_id": null, 
       "product": "Cisco vBond Orchestrator", 
       "fix": [
-        "18.2 (Available Now)"
+        "18.2 (Available)"
       ], 
       "bug_data": null
     }, 
@@ -92,7 +92,7 @@
       "bug_id": null, 
       "product": "Cisco vEdge 5000", 
       "fix": [
-        "18.2 (Available Now)"
+        "18.2 (Available)"
       ], 
       "bug_data": null
     }, 
@@ -100,7 +100,7 @@
       "bug_id": null, 
       "product": "Cisco vEdge Cloud", 
       "fix": [
-        "18.2 (Available Now)"
+        "18.2 (Available)"
       ], 
       "bug_data": null
     }, 
@@ -108,7 +108,7 @@
       "bug_id": null, 
       "product": "Cisco vManage NMS", 
       "fix": [
-        "A fix is pending on upstream vendors."
+        "Consult the Cisco bug ID for details"
       ], 
       "bug_data": null
     }, 
@@ -116,7 +116,7 @@
       "bug_id": null, 
       "product": "Cisco vSmart Controller", 
       "fix": [
-        "18.2 (Available Now)"
+        "18.2 (Available)"
       ], 
       "bug_data": null
     }, 
@@ -124,7 +124,7 @@
       "bug_id": "CSCvh58549", 
       "product": "Cisco Application Policy Infrastructure Controller (APIC)", 
       "fix": [
-        "3.2(1l) (Available Now)"
+        "3.2(1l) (Available)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -142,7 +142,7 @@
       "bug_id": "CSCvh64005", 
       "product": "Cisco Evolved Programmable Network Manager", 
       "fix": [
-        "A fix is pending on upstream vendors."
+        "Consult the Cisco bug ID for details"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -158,7 +158,7 @@
       "bug_id": "CSCvh58549", 
       "product": "Cisco Virtual Application Policy Infrastructure Controller (APIC)", 
       "fix": [
-        "3.2(1l) (Available Now)"
+        "3.2(1l) (Available)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -174,7 +174,7 @@
     }, 
     {
       "bug_id": "CSCvh32416", 
-      "product": "Cisco 4000 Series Integrated Services Routers (IOS XE Open Service Containers)", 
+      "product": "Cisco 4000 Series Integrated Services Routers (IOS XE Open Service Containers) - Meltdown", 
       "fix": [
         "16.3.7 (June-2018)"
       ], 
@@ -194,6 +194,7 @@
           "16.8.1", 
           "16.9(0.35)", 
           "Everest-16.6.3", 
+          "Fuji-16.7.2", 
           "Fuji-16.8.1"
         ], 
         "status": "Fixed", 
@@ -201,10 +202,26 @@
       }
     }, 
     {
+      "bug_id": "CSCvj59152", 
+      "product": "Cisco 4000 Series Integrated Services Routers (IOS XE Open Service Containers) - Spectre v1, v2, v3", 
+      "fix": [
+        "A fix is pending on upstream vendors"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "None", 
+          "unknown"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco IOS"
+      }
+    }, 
+    {
       "bug_id": "CSCvh31418", 
       "product": "Cisco 800 Industrial Integrated Services Routers (IOx feature)", 
       "fix": [
-        "A fix is pending on upstream vendors."
+        "Consult the Cisco bug ID for details"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -217,7 +234,7 @@
     }, 
     {
       "bug_id": "CSCvh32416", 
-      "product": "Cisco ASR 1000 Series Aggregation Services Router with RP2 or RP3 (IOS XE Open Service Containers)", 
+      "product": "Cisco ASR 1000 Series Aggregation Services Router with RP2 or RP3 (IOS XE Open Service Containers) - Meltdown", 
       "fix": [
         "16.3.7 (June-2018)"
       ], 
@@ -237,6 +254,7 @@
           "16.8.1", 
           "16.9(0.35)", 
           "Everest-16.6.3", 
+          "Fuji-16.7.2", 
           "Fuji-16.8.1"
         ], 
         "status": "Fixed", 
@@ -244,8 +262,24 @@
       }
     }, 
     {
+      "bug_id": "CSCvj59152", 
+      "product": "Cisco ASR 1000 Series Aggregation Services Router with RP2 or RP3 (IOS XE Open Service Containers) - Spectre v1, v2, v3", 
+      "fix": [
+        "A fix is pending on upstream vendors"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "None", 
+          "unknown"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco IOS"
+      }
+    }, 
+    {
       "bug_id": "CSCvh32416", 
-      "product": "Cisco ASR 1001-HX Series Aggregation Services Routers (IOS XE Open Service Containers)", 
+      "product": "Cisco ASR 1001-HX Series Aggregation Services Routers (IOS XE Open Service Containers) - Meltdown", 
       "fix": [
         "16.3.7 (June-2018)"
       ], 
@@ -265,6 +299,7 @@
           "16.8.1", 
           "16.9(0.35)", 
           "Everest-16.6.3", 
+          "Fuji-16.7.2", 
           "Fuji-16.8.1"
         ], 
         "status": "Fixed", 
@@ -272,8 +307,24 @@
       }
     }, 
     {
+      "bug_id": "CSCvj59152", 
+      "product": "Cisco ASR 1001-HX Series Aggregation Services Routers (IOS XE Open Service Containers) - Spectre v1, v2, v3", 
+      "fix": [
+        "A fix is pending on upstream vendors"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "None", 
+          "unknown"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco IOS"
+      }
+    }, 
+    {
       "bug_id": "CSCvh32416", 
-      "product": "Cisco ASR 1001-X Series Aggregation Services Routers (IOS XE Open Service Containers)", 
+      "product": "Cisco ASR 1001-X Series Aggregation Services Routers (IOS XE Open Service Containers) - Meltdown", 
       "fix": [
         "16.3.7 (June-2018)"
       ], 
@@ -293,6 +344,7 @@
           "16.8.1", 
           "16.9(0.35)", 
           "Everest-16.6.3", 
+          "Fuji-16.7.2", 
           "Fuji-16.8.1"
         ], 
         "status": "Fixed", 
@@ -300,8 +352,24 @@
       }
     }, 
     {
+      "bug_id": "CSCvj59152", 
+      "product": "Cisco ASR 1001-X Series Aggregation Services Routers (IOS XE Open Service Containers) - Spectre v1, v2, v3", 
+      "fix": [
+        "A fix is pending on upstream vendors"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "None", 
+          "unknown"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco IOS"
+      }
+    }, 
+    {
       "bug_id": "CSCvh32416", 
-      "product": "Cisco ASR 1002-HX Series Aggregation Services Routers (IOS XE Open Service Containers)", 
+      "product": "Cisco ASR 1002-HX Series Aggregation Services Routers (IOS XE Open Service Containers) - Meltdown", 
       "fix": [
         "16.3.7 (June-2018)"
       ], 
@@ -321,6 +389,7 @@
           "16.8.1", 
           "16.9(0.35)", 
           "Everest-16.6.3", 
+          "Fuji-16.7.2", 
           "Fuji-16.8.1"
         ], 
         "status": "Fixed", 
@@ -328,8 +397,24 @@
       }
     }, 
     {
+      "bug_id": "CSCvj59152", 
+      "product": "Cisco ASR 1002-HX Series Aggregation Services Routers (IOS XE Open Service Containers) - Spectre v1, v2, v3", 
+      "fix": [
+        "A fix is pending on upstream vendors"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "None", 
+          "unknown"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco IOS"
+      }
+    }, 
+    {
       "bug_id": "CSCvh32416", 
-      "product": "Cisco ASR 1002-X Series Aggregation Services Routers (IOS XE Open Service Containers)", 
+      "product": "Cisco ASR 1002-X Series Aggregation Services Routers (IOS XE Open Service Containers) - Meltdown", 
       "fix": [
         "16.3.7 (June-2018)"
       ], 
@@ -349,9 +434,26 @@
           "16.8.1", 
           "16.9(0.35)", 
           "Everest-16.6.3", 
+          "Fuji-16.7.2", 
           "Fuji-16.8.1"
         ], 
         "status": "Fixed", 
+        "product_name": "Cisco IOS"
+      }
+    }, 
+    {
+      "bug_id": "CSCvj59152", 
+      "product": "Cisco ASR 1002-X Series Aggregation Services Routers (IOS XE Open Service Containers) - Spectre v1, v2, v3", 
+      "fix": [
+        "A fix is pending on upstream vendors"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "None", 
+          "unknown"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
         "product_name": "Cisco IOS"
       }
     }, 
@@ -359,7 +461,7 @@
       "bug_id": "CSCvh32429", 
       "product": "Cisco ASR 9000 XR 64-bit Series Routers", 
       "fix": [
-        "A fix is pending on upstream vendors."
+        "Consult the Cisco bug ID for details"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -376,7 +478,7 @@
       "bug_id": "CSCvh32516", 
       "product": "Cisco CGR 1000 Compute Module (IOx feature)", 
       "fix": [
-        "A fix is pending on upstream vendors."
+        "Consult the Cisco bug ID for details"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -446,7 +548,7 @@
     }, 
     {
       "bug_id": "CSCvh32416", 
-      "product": "Cisco Cloud Services Router 1000V Series (IOS XE Open Service Containers)", 
+      "product": "Cisco Cloud Services Router 1000V Series (IOS XE Open Service Containers) - Meltdown", 
       "fix": [
         "16.3.7 (June-2018)"
       ], 
@@ -466,6 +568,7 @@
           "16.8.1", 
           "16.9(0.35)", 
           "Everest-16.6.3", 
+          "Fuji-16.7.2", 
           "Fuji-16.8.1"
         ], 
         "status": "Fixed", 
@@ -473,10 +576,26 @@
       }
     }, 
     {
+      "bug_id": "CSCvj59152", 
+      "product": "Cisco Cloud Services Router 1000V Series (IOS XE Open Service Containers) - Spectre v1, v2, v3", 
+      "fix": [
+        "A fix is pending on upstream vendors"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "None", 
+          "unknown"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco IOS"
+      }
+    }, 
+    {
       "bug_id": "CSCvh32429", 
       "product": "Cisco NCS 1000 Series Routers", 
       "fix": [
-        "A fix is pending on upstream vendors."
+        "Consult the Cisco bug ID for details"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -493,7 +612,7 @@
       "bug_id": "CSCvh32429", 
       "product": "Cisco NCS 5000 Series Routers", 
       "fix": [
-        "A fix is pending on upstream vendors."
+        "Consult the Cisco bug ID for details"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -510,7 +629,7 @@
       "bug_id": "CSCvh32429", 
       "product": "Cisco NCS 5500 Series Routers", 
       "fix": [
-        "A fix is pending on upstream vendors."
+        "Consult the Cisco bug ID for details"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -527,7 +646,7 @@
       "bug_id": "CSCvh32393", 
       "product": "Cisco Nexus 3500 Series Switches", 
       "fix": [
-        "No fix expected."
+        "No fix expected"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -542,7 +661,7 @@
       "bug_id": "CSCvh32394", 
       "product": "Cisco Nexus 5000 Series Switches (OAC feature)", 
       "fix": [
-        "A fix is pending on upstream vendors."
+        "Consult the Cisco bug ID for details"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -558,7 +677,7 @@
       "bug_id": "CSCvh32390", 
       "product": "Cisco Nexus 6000 Series Switches (OAC feature)", 
       "fix": [
-        "A fix is pending on upstream vendors."
+        "Consult the Cisco bug ID for details"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -573,7 +692,7 @@
       "bug_id": "CSCvh32390", 
       "product": "Cisco Nexus 7000 Series Switches (OAC feature, Feature Bash)", 
       "fix": [
-        "A fix is pending on upstream vendors."
+        "Consult the Cisco bug ID for details"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -588,7 +707,7 @@
       "bug_id": "CSCvh32429", 
       "product": "Cisco XRv 9000 Series Routers", 
       "fix": [
-        "A fix is pending on upstream vendors."
+        "Consult the Cisco bug ID for details"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -605,7 +724,7 @@
       "bug_id": "CSCvh51582", 
       "product": "Cisco c800 Series Integrated Services Routers (IOx feature)", 
       "fix": [
-        "A fix is pending on upstream vendors."
+        "Consult the Cisco bug ID for details"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -620,7 +739,7 @@
       "bug_id": "CSCvh66783", 
       "product": "Cisco C880 M4 Server", 
       "fix": [
-        "A fix is pending on upstream vendors."
+        "Consult the Cisco bug ID for details"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -635,7 +754,7 @@
       "bug_id": "CSCvh66783", 
       "product": "Cisco C880 M5 Server", 
       "fix": [
-        "A fix is pending on upstream vendors."
+        "Consult the Cisco bug ID for details"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -650,7 +769,7 @@
       "bug_id": "CSCvh48274", 
       "product": "Cisco Enterprise Network Compute System 5100 Series Servers", 
       "fix": [
-        "A fix is pending on upstream vendors."
+        "Consult the Cisco bug ID for details"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -665,7 +784,7 @@
       "bug_id": "CSCvh48274", 
       "product": "Cisco Enterprise Network Compute System 5400 Series Servers", 
       "fix": [
-        "A fix is pending on upstream vendors."
+        "Consult the Cisco bug ID for details"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -683,7 +802,7 @@
         "HX 2.5.1d", 
         "HX 2.6.1d", 
         "HX 3.0.1a", 
-        "(Available Now)"
+        "(Available)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -699,11 +818,11 @@
       "bug_id": "CSCvh31576", 
       "product": "Cisco UCS B-Series M2 Blade Servers", 
       "fix": [
-        "UCS B-Series M2 Blade Servers - UCS Manager 2.2(8j) (April 2018)", 
-        "UCS Manager 3.1(3h) (May 2018)", 
-        "UCS Manager 3.2(3b) (May 2018)", 
-        "UCS C-Series M2 Rack Servers -UCS Manager 2.2(8j) (April 2018)", 
-        "IMC 1.4(3z08) (April 2018) / 1.5(9e) (April 2018)"
+        "UCS B-Series M2 Blade Servers - UCS Manager 2.2(8j) (Apr-2018)", 
+        "UCS Manager 3.1(3h) (May-2018)", 
+        "UCS Manager 3.2(3b) (May-2018)", 
+        "UCS C-Series M2 Rack Servers -UCS Manager 2.2(8j) (Apr-2018)", 
+        "IMC 1.4(3z08) (Apr-2018) / 1.5(9e) (Apr-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -729,17 +848,17 @@
       "product": "Cisco UCS B-Series M3 Blade Servers", 
       "fix": [
         "UCS B-Series M3 Blade Servers", 
-        "3.2(3a)(Mar 2018)", 
-        "3.2(2f) (Mar 2018)", 
-        "3.1(3f) (Mar 2018)", 
-        "2.2(8j) (April 2018)", 
+        "3.2(3a)(Mar-2018)", 
+        "3.2(2f) (Mar-2018)", 
+        "3.1(3f) (Mar-2018)", 
+        "2.2(8j) (Apr-2018)", 
         "UCS C-Series M3 Rack Servers", 
-        "3.2(3a) (Mar 2018)", 
-        "3.2(2f) (Mar 2018)", 
-        "3.1(3f) (Mar 2018)", 
-        "UCS Manager 2.2(8j) (April 2018)", 
-        "IMC 3.0(4a) (Mar 2018)", 
-        "IMC 2.0(9n) (April 2018)"
+        "3.2(3a) (Mar-2018)", 
+        "3.2(2f) (Mar-2018)", 
+        "3.1(3f) (Mar-2018)", 
+        "UCS Manager 2.2(8j) (Apr-2018)", 
+        "IMC 3.0(4a) (Mar-2018)", 
+        "IMC 2.0(9n) (Apr-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -766,22 +885,22 @@
       "fix": [
         "UCS B-Series M4 Blade Servers (except B260", 
         "B460)", 
-        "3.2(3a) (Mar 2018)", 
-        "3.2(2f) (Mar 2018)", 
-        "3.1(3f) (Mar 2018)", 
-        "2.2(8j) (April 2018)", 
+        "3.2(3a) (Mar-2018)", 
+        "3.2(2f) (Mar-2018)", 
+        "3.1(3f) (Mar-2018)", 
+        "2.2(8j) (Apr-2018)", 
         "UCS C-Series M4 Rack Servers (except C460)", 
-        "3.2(3a) (Mar 2018)", 
-        "3.2(2f) (Mar 2018)", 
-        "3.1(3f) (Mar 2018)", 
-        "2.2(8j) (April 2018)", 
-        "IMC 3.0(4a) (Mar 2018)", 
-        "IMC 2.0(10i) (April 2018)", 
+        "3.2(3a) (Mar-2018)", 
+        "3.2(2f) (Mar-2018)", 
+        "3.1(3f) (Mar-2018)", 
+        "2.2(8j) (Apr-2018)", 
+        "IMC 3.0(4a) (Mar-2018)", 
+        "IMC 2.0(10i) (Apr-2018)", 
         "UCS S3260 M4 Storage Servers", 
-        "3.2(3a) (Mar 2018)", 
-        "3.2(2f) (Mar 2018)", 
-        "3.1(3f) (Mar 2018)", 
-        "IMC 3.0(4a) (Mar 2018)"
+        "3.2(3a) (Mar-2018)", 
+        "3.2(2f) (Mar-2018)", 
+        "3.1(3f) (Mar-2018)", 
+        "IMC 3.0(4a) (Mar-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -804,12 +923,12 @@
       "product": "Cisco UCS B-Series M5 Blade Servers", 
       "fix": [
         "UCS B-Series M5 Blade Servers", 
-        "3.2(3a) (Mar 2018)", 
-        "3.2(2f) (Mar 2018)", 
+        "3.2(3a) (Mar-2018)", 
+        "3.2(2f) (Mar-2018)", 
         "UCS C-Series M5 Rack Servers", 
-        "3.2(3a) (Mar 2018)", 
-        "3.2(2f) (Mar 2018)", 
-        "IMC 3.1(3a) (Mar 2018)"
+        "3.2(3a) (Mar-2018)", 
+        "3.2(2f) (Mar-2018)", 
+        "IMC 3.1(3a) (Mar-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -831,20 +950,20 @@
       "product": "Cisco UCS B260 M4 Blade Server", 
       "fix": [
         "UCS B260 M4 Blade Servers", 
-        "3.2(3a) (Mar 2018)", 
-        "3.2(2f) (Mar 2018)", 
-        "3.1(3f) (Mar 2018)", 
-        "2.2(8j) (April 2018)", 
+        "3.2(3a) (Mar-2018)", 
+        "3.2(2f) (Mar-2018)", 
+        "3.1(3f) (Mar-2018)", 
+        "2.2(8j) (Apr-2018)", 
         "UCS B460 M4 Blade Servers", 
-        "3.2(3a) (Mar 2018)", 
-        "3.2(2f) (Mar 2018)", 
-        "3.1(3f) (Mar 2018)", 
-        "2.2(8j) (April 2018)", 
+        "3.2(3a) (Mar-2018)", 
+        "3.2(2f) (Mar-2018)", 
+        "3.1(3f) (Mar-2018)", 
+        "2.2(8j) (Apr-2018)", 
         "UCS C460 M4 Rack Servers", 
-        "3.2(3a) (Mar 2018)", 
-        "3.2(2f) (Mar 2018)", 
-        "3.1(3f) (Mar 2018)", 
-        "2.2(8j) (April 2018)"
+        "3.2(3a) (Mar-2018)", 
+        "3.2(2f) (Mar-2018)", 
+        "3.1(3f) (Mar-2018)", 
+        "2.2(8j) (Apr-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -868,20 +987,20 @@
       "product": "Cisco UCS B460 M4 Blade Server", 
       "fix": [
         "UCS B260 M4 Blade Servers", 
-        "3.2(3a) (Mar 2018)", 
-        "3.2(2f) (Mar 2018)", 
-        "3.1(3f) (Mar 2018)", 
-        "2.2(8j) (April 2018)", 
+        "3.2(3a) (Mar-2018)", 
+        "3.2(2f) (Mar-2018)", 
+        "3.1(3f) (Mar-2018)", 
+        "2.2(8j) (Apr-2018)", 
         "UCS B460 M4 Blade Servers", 
-        "3.2(3a) (Mar 2018)", 
-        "3.2(2f) (Mar 2018)", 
-        "3.1(3f) (Mar 2018)", 
-        "2.2(8j) (April 2018)", 
+        "3.2(3a) (Mar-2018)", 
+        "3.2(2f) (Mar-2018)", 
+        "3.1(3f) (Mar-2018)", 
+        "2.2(8j) (Apr-2018)", 
         "UCS C460 M4 Rack Servers", 
-        "3.2(3a) (Mar 2018)", 
-        "3.2(2f) (Mar 2018)", 
-        "3.1(3f) (Mar 2018)", 
-        "2.2(8j) (April 2018)"
+        "3.2(3a) (Mar-2018)", 
+        "3.2(2f) (Mar-2018)", 
+        "3.1(3f) (Mar-2018)", 
+        "2.2(8j) (Apr-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -904,11 +1023,11 @@
       "bug_id": "CSCvh31576", 
       "product": "Cisco UCS C-Series M2 Rack Servers", 
       "fix": [
-        "UCS B-Series M2 Blade Servers - UCS Manager 2.2(8j) (April 2018)", 
-        "UCS Manager 3.1(3h) (May 2018)", 
-        "UCS Manager 3.2(3b) (May 2018)", 
-        "UCS C-Series M2 Rack Servers -UCS Manager 2.2(8j) (April 2018)", 
-        "IMC 1.4(3z08) (April 2018) / 1.5(9e) (April 2018)"
+        "UCS B-Series M2 Blade Servers - UCS Manager 2.2(8j) (Apr-2018)", 
+        "UCS Manager 3.1(3h) (May-2018)", 
+        "UCS Manager 3.2(3b) (May-2018)", 
+        "UCS C-Series M2 Rack Servers -UCS Manager 2.2(8j) (Apr-2018)", 
+        "IMC 1.4(3z08) (Apr-2018) / 1.5(9e) (Apr-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -934,17 +1053,17 @@
       "product": "Cisco UCS C-Series M3 Rack Servers", 
       "fix": [
         "UCS B-Series M3 Blade Servers", 
-        "3.2(3a)(Mar 2018)", 
-        "3.2(2f) (Mar 2018)", 
-        "3.1(3f) (Mar 2018)", 
-        "2.2(8j) (April 2018)", 
+        "3.2(3a)(Mar-2018)", 
+        "3.2(2f) (Mar-2018)", 
+        "3.1(3f) (Mar-2018)", 
+        "2.2(8j) (Apr-2018)", 
         "UCS C-Series M3 Rack Servers", 
-        "3.2(3a) (Mar 2018)", 
-        "3.2(2f) (Mar 2018)", 
-        "3.1(3f) (Mar 2018)", 
-        "UCS Manager 2.2(8j) (April 2018)", 
-        "IMC 3.0(4a) (Mar 2018)", 
-        "IMC 2.0(9n) (April 2018)"
+        "3.2(3a) (Mar-2018)", 
+        "3.2(2f) (Mar-2018)", 
+        "3.1(3f) (Mar-2018)", 
+        "UCS Manager 2.2(8j) (Apr-2018)", 
+        "IMC 3.0(4a) (Mar-2018)", 
+        "IMC 2.0(9n) (Apr-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -971,22 +1090,22 @@
       "fix": [
         "UCS B-Series M4 Blade Servers (except B260", 
         "B460)", 
-        "3.2(3a) (Mar 2018)", 
-        "3.2(2f) (Mar 2018)", 
-        "3.1(3f) (Mar 2018)", 
-        "2.2(8j) (April 2018)", 
+        "3.2(3a) (Mar-2018)", 
+        "3.2(2f) (Mar-2018)", 
+        "3.1(3f) (Mar-2018)", 
+        "2.2(8j) (Apr-2018)", 
         "UCS C-Series M4 Rack Servers (except C460)", 
-        "3.2(3a) (Mar 2018)", 
-        "3.2(2f) (Mar 2018)", 
-        "3.1(3f) (Mar 2018)", 
-        "2.2(8j) (April 2018)", 
-        "IMC 3.0(4a) (Mar 2018)", 
-        "IMC 2.0(10i) (April 2018)", 
+        "3.2(3a) (Mar-2018)", 
+        "3.2(2f) (Mar-2018)", 
+        "3.1(3f) (Mar-2018)", 
+        "2.2(8j) (Apr-2018)", 
+        "IMC 3.0(4a) (Mar-2018)", 
+        "IMC 2.0(10i) (Apr-2018)", 
         "UCS S3260 M4 Storage Servers", 
-        "3.2(3a) (Mar 2018)", 
-        "3.2(2f) (Mar 2018)", 
-        "3.1(3f) (Mar 2018)", 
-        "IMC 3.0(4a) (Mar 2018)"
+        "3.2(3a) (Mar-2018)", 
+        "3.2(2f) (Mar-2018)", 
+        "3.1(3f) (Mar-2018)", 
+        "IMC 3.0(4a) (Mar-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1009,12 +1128,12 @@
       "product": "Cisco UCS C-Series M5 Rack Servers <sup>1</sup>", 
       "fix": [
         "UCS B-Series M5 Blade Servers", 
-        "3.2(3a) (Mar 2018)", 
-        "3.2(2f) (Mar 2018)", 
+        "3.2(3a) (Mar-2018)", 
+        "3.2(2f) (Mar-2018)", 
         "UCS C-Series M5 Rack Servers", 
-        "3.2(3a) (Mar 2018)", 
-        "3.2(2f) (Mar 2018)", 
-        "IMC 3.1(3a) (Mar 2018)"
+        "3.2(3a) (Mar-2018)", 
+        "3.2(2f) (Mar-2018)", 
+        "IMC 3.1(3a) (Mar-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1036,20 +1155,20 @@
       "product": "Cisco UCS C460 M4 Rack Server", 
       "fix": [
         "UCS B260 M4 Blade Servers", 
-        "3.2(3a) (Mar 2018)", 
-        "3.2(2f) (Mar 2018)", 
-        "3.1(3f) (Mar 2018)", 
-        "2.2(8j) (April 2018)", 
+        "3.2(3a) (Mar-2018)", 
+        "3.2(2f) (Mar-2018)", 
+        "3.1(3f) (Mar-2018)", 
+        "2.2(8j) (Apr-2018)", 
         "UCS B460 M4 Blade Servers", 
-        "3.2(3a) (Mar 2018)", 
-        "3.2(2f) (Mar 2018)", 
-        "3.1(3f) (Mar 2018)", 
-        "2.2(8j) (April 2018)", 
+        "3.2(3a) (Mar-2018)", 
+        "3.2(2f) (Mar-2018)", 
+        "3.1(3f) (Mar-2018)", 
+        "2.2(8j) (Apr-2018)", 
         "UCS C460 M4 Rack Servers", 
-        "3.2(3a) (Mar 2018)", 
-        "3.2(2f) (Mar 2018)", 
-        "3.1(3f) (Mar 2018)", 
-        "2.2(8j) (April 2018)"
+        "3.2(3a) (Mar-2018)", 
+        "3.2(2f) (Mar-2018)", 
+        "3.1(3f) (Mar-2018)", 
+        "2.2(8j) (Apr-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1072,7 +1191,7 @@
       "bug_id": "CSCvh48274", 
       "product": "Cisco UCS E-Series M2 Servers", 
       "fix": [
-        "A fix is pending on upstream vendors."
+        "Consult the Cisco bug ID for details"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1087,7 +1206,7 @@
       "bug_id": "CSCvh48274", 
       "product": "Cisco UCS E-Series M3 Servers", 
       "fix": [
-        "A fix is pending on upstream vendors."
+        "Consult the Cisco bug ID for details"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1102,7 +1221,7 @@
       "bug_id": "CSCvh55760", 
       "product": "Cisco UCS M-Series Modular Servers", 
       "fix": [
-        "No fix expected."
+        "No fix expected"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1120,22 +1239,22 @@
       "fix": [
         "UCS B-Series M4 Blade Servers (except B260", 
         "B460)", 
-        "3.2(3a) (Mar 2018)", 
-        "3.2(2f) (Mar 2018)", 
-        "3.1(3f) (Mar 2018)", 
-        "2.2(8j) (April 2018)", 
+        "3.2(3a) (Mar-2018)", 
+        "3.2(2f) (Mar-2018)", 
+        "3.1(3f) (Mar-2018)", 
+        "2.2(8j) (Apr-2018)", 
         "UCS C-Series M4 Rack Servers (except C460)", 
-        "3.2(3a) (Mar 2018)", 
-        "3.2(2f) (Mar 2018)", 
-        "3.1(3f) (Mar 2018)", 
-        "2.2(8j) (April 2018)", 
-        "IMC 3.0(4a) (Mar 2018)", 
-        "IMC 2.0(10i) (April 2018)", 
+        "3.2(3a) (Mar-2018)", 
+        "3.2(2f) (Mar-2018)", 
+        "3.1(3f) (Mar-2018)", 
+        "2.2(8j) (Apr-2018)", 
+        "IMC 3.0(4a) (Mar-2018)", 
+        "IMC 2.0(10i) (Apr-2018)", 
         "UCS S3260 M4 Storage Servers", 
-        "3.2(3a) (Mar 2018)", 
-        "3.2(2f) (Mar 2018)", 
-        "3.1(3f) (Mar 2018)", 
-        "IMC 3.0(4a) (Mar 2018)"
+        "3.2(3a) (Mar-2018)", 
+        "3.2(2f) (Mar-2018)", 
+        "3.1(3f) (Mar-2018)", 
+        "IMC 3.0(4a) (Mar-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1157,7 +1276,7 @@
       "bug_id": "CSCvh58132", 
       "product": "Cisco Remote Expert Mobile", 
       "fix": [
-        "11.6(1)ES3 11.5(1)ES8 (Available Now)"
+        "11.6(1)ES3 11.5(1)ES8 (Available)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1176,7 +1295,7 @@
       "bug_id": "CSCvh58504", 
       "product": "Cisco Wireless Gateway for LoRaWAN", 
       "fix": [
-        "A fix is pending on upstream vendors."
+        "Consult the Cisco bug ID for details"
       ], 
       "bug_data": null
     }, 
@@ -1184,8 +1303,8 @@
       "bug_id": "CSCvh53992", 
       "product": "Cisco Metacloud", 
       "fix": [
-        "Meltdown and Spectre variant 1 (v4.7) (Feb 2018)", 
-        "Spectre variant 2 (Apr 2018)"
+        "Meltdown and Spectre variant 1 (v4.7) (Feb-2018)", 
+        "Spectre variant 2 (Apr-2018)"
       ], 
       "bug_data": null
     }, 
