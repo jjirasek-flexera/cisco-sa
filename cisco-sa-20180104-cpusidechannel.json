@@ -1,5 +1,5 @@
 {
-  "version": "1.29", 
+  "version": "1.30", 
   "products": [
     {
       "bug_id": "CSCvh32644", 
@@ -769,7 +769,9 @@
       "bug_id": "CSCvh48274", 
       "product": "Cisco Enterprise Network Compute System 5100 Series Servers", 
       "fix": [
-        "Consult the Cisco bug ID for details"
+        "UCS E-Series M2 Servers - Single-wide: v1.5.0.7", 
+        "UCS E-Series M2 Servers - Double-wide: v2.5.0.5", 
+        "UCS E-Series M3 Servers - Consult the Cisco Bug ID for details"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -784,7 +786,9 @@
       "bug_id": "CSCvh48274", 
       "product": "Cisco Enterprise Network Compute System 5400 Series Servers", 
       "fix": [
-        "Consult the Cisco bug ID for details"
+        "UCS E-Series M2 Servers - Single-wide: v1.5.0.7", 
+        "UCS E-Series M2 Servers - Double-wide: v2.5.0.5", 
+        "UCS E-Series M3 Servers - Consult the Cisco Bug ID for details"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1191,7 +1195,9 @@
       "bug_id": "CSCvh48274", 
       "product": "Cisco UCS E-Series M2 Servers", 
       "fix": [
-        "Consult the Cisco bug ID for details"
+        "UCS E-Series M2 Servers - Single-wide: v1.5.0.7", 
+        "UCS E-Series M2 Servers - Double-wide: v2.5.0.5", 
+        "UCS E-Series M3 Servers - Consult the Cisco Bug ID for details"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -1206,7 +1212,9 @@
       "bug_id": "CSCvh48274", 
       "product": "Cisco UCS E-Series M3 Servers", 
       "fix": [
-        "Consult the Cisco bug ID for details"
+        "UCS E-Series M2 Servers - Single-wide: v1.5.0.7", 
+        "UCS E-Series M2 Servers - Double-wide: v2.5.0.5", 
+        "UCS E-Series M3 Servers - Consult the Cisco Bug ID for details"
       ], 
       "bug_data": {
         "affected_releases": [
