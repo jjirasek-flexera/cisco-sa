@@ -1,5 +1,5 @@
 {
-  "version": "1.30", 
+  "version": "1.31", 
   "products": [
     {
       "bug_id": "CSCvh32644", 
@@ -107,9 +107,7 @@
     {
       "bug_id": null, 
       "product": "Cisco vManage NMS", 
-      "fix": [
-        "Consult the Cisco bug ID for details"
-      ], 
+      "fix": [], 
       "bug_data": null
     }, 
     {
@@ -728,7 +726,8 @@
       ], 
       "bug_data": {
         "affected_releases": [
-          "15.7(3.1b)M"
+          "15.7(3.1b)M", 
+          "None"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
@@ -813,7 +812,10 @@
           "2.5(1d)", 
           "2.6(1b)"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "2.6(1d)", 
+          "3.0(1a)"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco HyperFlex HX-Series"
       }
@@ -979,8 +981,10 @@
         "fixed_releases": [
           "2.2(8j)", 
           "3.1(3f)", 
+          "3.1(3h)", 
           "3.2(2f)", 
-          "3.2(3a)"
+          "3.2(3a)", 
+          "3.2(3d)"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco Unified Computing System"
@@ -1016,8 +1020,10 @@
         "fixed_releases": [
           "2.2(8j)", 
           "3.1(3f)", 
+          "3.1(3h)", 
           "3.2(2f)", 
-          "3.2(3a)"
+          "3.2(3a)", 
+          "3.2(3d)"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco Unified Computing System"
@@ -1184,8 +1190,10 @@
         "fixed_releases": [
           "2.2(8j)", 
           "3.1(3f)", 
+          "3.1(3h)", 
           "3.2(2f)", 
-          "3.2(3a)"
+          "3.2(3a)", 
+          "3.2(3d)"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco Unified Computing System"
@@ -1320,7 +1328,7 @@
       "bug_id": null, 
       "product": "Cisco Threat Grid", 
       "fix": [
-        "(Feb-2018)"
+        "v2.4.3 (Available)"
       ], 
       "bug_data": null
     }
