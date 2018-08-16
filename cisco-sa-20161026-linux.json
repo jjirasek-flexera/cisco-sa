@@ -1,5 +1,5 @@
 {
-  "version": "1.7", 
+  "version": "1.8", 
   "products": [
     {
       "bug_id": "CSCvb85516", 
@@ -19,11 +19,12 @@
         "fixed_releases": [
           "2.5.1.6206", 
           "2.7.1.2048", 
+          "2.7.1.3047", 
           "2.8.1.12", 
           "2.8.1.17"
         ], 
         "status": "Fixed", 
-        "product_name": "Cisco WebEx Meetings Server"
+        "product_name": "Cisco Meeting Server"
       }
     }, 
     {
@@ -44,11 +45,12 @@
         "fixed_releases": [
           "2.5.1.6206", 
           "2.7.1.2048", 
+          "2.7.1.3047", 
           "2.8.1.12", 
           "2.8.1.17"
         ], 
         "status": "Fixed", 
-        "product_name": "Cisco WebEx Meetings Server"
+        "product_name": "Cisco Meeting Server"
       }
     }, 
     {
@@ -86,6 +88,8 @@
           "3.11(5)"
         ], 
         "fixed_releases": [
+          "3.11(10.2)", 
+          "3.11(12.3)", 
           "3.11(6.1)", 
           "3.11(6.2)"
         ], 
@@ -104,6 +108,8 @@
           "3.11(5)"
         ], 
         "fixed_releases": [
+          "3.11(10.2)", 
+          "3.11(12.3)", 
           "3.11(6.1)", 
           "3.11(6.2)"
         ], 
@@ -269,7 +275,7 @@
           "12.3(0.37)"
         ], 
         "status": "Fixed", 
-        "product_name": "Cisco LAN Switch Software"
+        "product_name": "Cisco Nexus 9000 Series Switches"
       }
     }, 
     {
@@ -297,7 +303,14 @@
       "fix": [
         "Fix is currently available."
       ], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "1.10"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Network Level Service"
+      }
     }, 
     {
       "bug_id": "CSCvb87054", 
@@ -305,16 +318,7 @@
       "fix": [
         "6.0.1 (23-Nov-2016)"
       ], 
-      "bug_data": {
-        "affected_releases": [
-          "5.5(0.0)"
-        ], 
-        "fixed_releases": [
-          "6.0(1.0)"
-        ], 
-        "status": "Fixed", 
-        "product_name": "Cisco UCS Director"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCvb85723", 
@@ -328,7 +332,7 @@
         ], 
         "fixed_releases": [], 
         "status": "Terminated", 
-        "product_name": "Cisco Unified IP Phone 6900 Series"
+        "product_name": "Cisco IP Phone 8800 Series"
       }
     }, 
     {
@@ -337,14 +341,7 @@
       "fix": [
         "1.3.0 (26-Oct-2017)"
       ], 
-      "bug_data": {
-        "affected_releases": [
-          "1.2(2)"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco IP Phone 7800 Series"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCvb85725", 
@@ -355,8 +352,8 @@
           "10.2(5)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco DX Series"
+        "status": "Terminated", 
+        "product_name": "Cisco Webex DX Series"
       }
     }, 
     {
@@ -385,7 +382,7 @@
           "11.5(2)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Paging Server"
       }
     }, 
@@ -400,53 +397,8 @@
           "11.5(2)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Paging Server"
-      }
-    }, 
-    {
-      "bug_id": "CSCvb85649", 
-      "product": "Cisco SPA112 2-Port Phone Adapter", 
-      "fix": [
-        "1.4.2 (26-Oct-2017)"
-      ], 
-      "bug_data": {
-        "affected_releases": [
-          "1.4.2"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Small Business Voice Gateways and ATAs"
-      }
-    }, 
-    {
-      "bug_id": "CSCvb85649", 
-      "product": "Cisco SPA122 Analog Telephone Adapter (ATA) with Router", 
-      "fix": [
-        "1.4.2 (26-Oct-2017)"
-      ], 
-      "bug_data": {
-        "affected_releases": [
-          "1.4.2"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Small Business Voice Gateways and ATAs"
-      }
-    }, 
-    {
-      "bug_id": "CSCvb85649", 
-      "product": "Cisco SPA232D Multi-Line DECT Analog Telephone Adapter (ATA)", 
-      "fix": [
-        "1.4.2 (26-Oct-2017)"
-      ], 
-      "bug_data": {
-        "affected_releases": [
-          "1.4.2"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Small Business Voice Gateways and ATAs"
       }
     }, 
     {
