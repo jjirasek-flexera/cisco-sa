@@ -1,5 +1,5 @@
 {
-  "version": "1.8", 
+  "version": "1.9", 
   "products": [
     {
       "bug_id": "CSCvb85516", 
@@ -317,29 +317,6 @@
       "product": "Cisco UCS Director", 
       "fix": [
         "6.0.1 (23-Nov-2016)"
-      ], 
-      "bug_data": null
-    }, 
-    {
-      "bug_id": "CSCvb85723", 
-      "product": "Cisco ATA 187 Analog Telephone Adaptor", 
-      "fix": [
-        "9.5.0 (31-Oct-2017)"
-      ], 
-      "bug_data": {
-        "affected_releases": [
-          "9.4(2)SR3"
-        ], 
-        "fixed_releases": [], 
-        "status": "Terminated", 
-        "product_name": "Cisco IP Phone 8800 Series"
-      }
-    }, 
-    {
-      "bug_id": "CSCvb85700", 
-      "product": "Cisco ATA 190 Series Analog Terminal Adaptors", 
-      "fix": [
-        "1.3.0 (26-Oct-2017)"
       ], 
       "bug_data": null
     }, 
