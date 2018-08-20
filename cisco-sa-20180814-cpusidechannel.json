@@ -1,0 +1,319 @@
+{
+  "version": "1.2", 
+  "products": [
+    {
+      "bug_id": "CSCvm02911", 
+      "product": "Cisco C880 M4 Server", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "1.4(5)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco C800 Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm02911", 
+      "product": "Cisco C880 M5 Server", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "1.4(5)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco C800 Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm02934", 
+      "product": "Cisco UCS B-Series M2 Blade Servers", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Computing System"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm03356", 
+      "product": "Cisco UCS B-Series M3 Blade Servers - Managed", 
+      "fix": [
+        "Cisco UCS B-Series M3 Blade Servers - Managed", 
+        "UCS Manager 2.2(8l) (Available)", 
+        "UCS Manager 3.1(3j) (Available)", 
+        "UCS Manager 3.2(3g) (Available)", 
+        "UCS C-Series M3 Rack Servers - Managed", 
+        "UCS Manager 3.2(3g) - (Available)", 
+        "UCS Manager 3.1(3j) - (Available)", 
+        "UCS Manager 2.2(8l) - (Available)", 
+        "Cisco IMC 3.0(4i) - (Available)", 
+        "Cisco IMC 2.0(9o) - (Available)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "3.2(1d)B", 
+          "3.2(1d)C"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Computing System"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm03351", 
+      "product": "Cisco UCS B-Series M4 Blade Servers (except B260, B460)", 
+      "fix": [
+        "Cisco UCS B-Series M4 Blade Servers (except B260", 
+        "B460)", 
+        "UCS Manager 3.2(3e) - (Available)", 
+        "UCS Manager 3.1(3j) - (Available)", 
+        "UCS Manager 2.2(8l) - (Available)", 
+        "Cisco UCS C-Series M4 Rack Servers - Managed (except C460) - UCS Manager 3.2(3e) - (Available)", 
+        "Cisco UCS S3260 M4 Storage Server - Managed - UCS Manager 3.2(3e) - (Available)", 
+        "Cisco UCS S3260 M4 Storage Server - Standalone - Cisco IMC 3.0(4e) - (Available)", 
+        "Cisco UCS S3260 M4 Storage Server - UCS Manager 3.1(3j) - (Available)", 
+        "Cisco UCS C-Series M4 Rack Servers", 
+        "Cisco IMC 3.0(4e) - (Available)", 
+        "Cisco IMC 2.0(10k) - (Available)", 
+        "Cisco UCS S3260 M4 Storage Server", 
+        "UCS Manager 3.2(3e) - (Available)", 
+        "UCS Manager 3.1(3j) - (Available)", 
+        "UCS Manager 2.2(8l) - (Available)", 
+        "Cisco UCS C-Series M4 Rack Servers - Managed (except C460) - UCS Manager 3.2(3e) - (Available)", 
+        "Cisco UCS S3260 M4 Storage Server - Managed - UCS Manager 3.2(3e) - (Available)", 
+        "Cisco UCS S3260 M4 Storage Server - Standalone - Cisco IMC 3.0(4e) - (Available)", 
+        "Cisco UCS S3260 M4 Storage"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "3.2(1d)B", 
+          "3.2(1d)C"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Computing System"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm03339", 
+      "product": "Cisco UCS B-Series M5 Blade Servers", 
+      "fix": [
+        "Cisco UCS B-Series M5 Blade Servers", 
+        "UCS Manager 3.2(3g) - (Available)", 
+        "Cisco UCS C-Series M5 Rack Servers -Standalone", 
+        "Cisco IMC 3.1(2i) - (Available)", 
+        "Cisco UCS C-Series M5 Rack Servers - Managed", 
+        "UCS Manager 3.2(3g) - (Available)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "3.2(1d)B", 
+          "3.2(1d)C"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Computing System"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm02934", 
+      "product": "Cisco UCS C-Series M2 Rack Servers", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Computing System"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm03356", 
+      "product": "Cisco UCS C-Series M3 Rack Servers - Managed", 
+      "fix": [
+        "Cisco UCS B-Series M3 Blade Servers - Managed", 
+        "UCS Manager 2.2(8l) (Available)", 
+        "UCS Manager 3.1(3j) (Available)", 
+        "UCS Manager 3.2(3g) (Available)", 
+        "UCS C-Series M3 Rack Servers - Managed", 
+        "UCS Manager 3.2(3g) - (Available)", 
+        "UCS Manager 3.1(3j) - (Available)", 
+        "UCS Manager 2.2(8l) - (Available)", 
+        "Cisco IMC 3.0(4i) - (Available)", 
+        "Cisco IMC 2.0(9o) - (Available)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "3.2(1d)B", 
+          "3.2(1d)C"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Computing System"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm03357", 
+      "product": "Cisco UCS C-Series M3 Rack Servers - Standalone", 
+      "fix": [
+        "UCS Manager 3.2(3g) - (Available)", 
+        "UCS Manager 3.1(3j) - (Available)", 
+        "UCS Manager 2.2(8l) - (Available)", 
+        "Cisco IMC 3.0(4i) - (Available)", 
+        "Cisco IMC 2.0(9o) - (Available)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "3.2(1d)B", 
+          "3.2(1d)C"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Computing System"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm03353", 
+      "product": "Cisco UCS C-Series M4 Rack Servers (except C460) - Standalone <sup>1</sup>", 
+      "fix": [
+        "Cisco IMC 3.0(4e) - (Available)", 
+        "Cisco IMC 2.0(10k) - (Available)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "3.2(1d)B", 
+          "3.2(1d)C"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Computing System"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm03351", 
+      "product": "Cisco UCS C-Series M4 Rack Servers (except C460) -Managed <sup>1</sup>", 
+      "fix": [
+        "Cisco UCS B-Series M4 Blade Servers (except B260", 
+        "B460)", 
+        "UCS Manager 3.2(3e) - (Available)", 
+        "UCS Manager 3.1(3j) - (Available)", 
+        "UCS Manager 2.2(8l) - (Available)", 
+        "Cisco UCS C-Series M4 Rack Servers - Managed (except C460) - UCS Manager 3.2(3e) - (Available)", 
+        "Cisco UCS S3260 M4 Storage Server - Managed - UCS Manager 3.2(3e) - (Available)", 
+        "Cisco UCS S3260 M4 Storage Server - Standalone - Cisco IMC 3.0(4e) - (Available)", 
+        "Cisco UCS S3260 M4 Storage Server - UCS Manager 3.1(3j) - (Available)", 
+        "Cisco UCS C-Series M4 Rack Servers", 
+        "Cisco IMC 3.0(4e) - (Available)", 
+        "Cisco IMC 2.0(10k) - (Available)", 
+        "Cisco UCS S3260 M4 Storage Server", 
+        "UCS Manager 3.2(3e) - (Available)", 
+        "UCS Manager 3.1(3j) - (Available)", 
+        "UCS Manager 2.2(8l) - (Available)", 
+        "Cisco UCS C-Series M4 Rack Servers - Managed (except C460) - UCS Manager 3.2(3e) - (Available)", 
+        "Cisco UCS S3260 M4 Storage Server - Managed - UCS Manager 3.2(3e) - (Available)", 
+        "Cisco UCS S3260 M4 Storage Server - Standalone - Cisco IMC 3.0(4e) - (Available)", 
+        "Cisco UCS S3260 M4 Storage"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "3.2(1d)B", 
+          "3.2(1d)C"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Computing System"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm03339", 
+      "product": "Cisco UCS C-Series M5 Rack Servers - Managed <sup>1</sup>", 
+      "fix": [
+        "Cisco UCS B-Series M5 Blade Servers", 
+        "UCS Manager 3.2(3g) - (Available)", 
+        "Cisco UCS C-Series M5 Rack Servers -Standalone", 
+        "Cisco IMC 3.1(2i) - (Available)", 
+        "Cisco UCS C-Series M5 Rack Servers - Managed", 
+        "UCS Manager 3.2(3g) - (Available)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "3.2(1d)B", 
+          "3.2(1d)C"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Computing System"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm03347", 
+      "product": "Cisco UCS C-Series M5 Rack Servers -Standalone <sup>1</sup>", 
+      "fix": [
+        "Cisco UCS B-Series M5 Blade Servers", 
+        "UCS Manager 3.2(3g) - (Available)", 
+        "Cisco UCS C-Series M5 Rack Servers -Standalone", 
+        "Cisco IMC 3.1(2i) - (Available)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "3.2(1d)B", 
+          "3.2(1d)C"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Computing System"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm02902", 
+      "product": "Cisco UCS E-Series Servers", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "1.0(0.0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco UCS E-Series Software"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm03351", 
+      "product": "Cisco UCS S3260 M4 Storage Server", 
+      "fix": [
+        "Cisco UCS B-Series M4 Blade Servers (except B260", 
+        "B460)", 
+        "UCS Manager 3.2(3e) - (Available)", 
+        "UCS Manager 3.1(3j) - (Available)", 
+        "UCS Manager 2.2(8l) - (Available)", 
+        "Cisco UCS C-Series M4 Rack Servers - Managed (except C460) - UCS Manager 3.2(3e) - (Available)", 
+        "Cisco UCS S3260 M4 Storage Server - Managed - UCS Manager 3.2(3e) - (Available)", 
+        "Cisco UCS S3260 M4 Storage Server - Standalone - Cisco IMC 3.0(4e) - (Available)", 
+        "Cisco UCS S3260 M4 Storage Server - UCS Manager 3.1(3j) - (Available)", 
+        "Cisco UCS C-Series M4 Rack Servers", 
+        "Cisco IMC 3.0(4e) - (Available)", 
+        "Cisco IMC 2.0(10k) - (Available)", 
+        "Cisco UCS S3260 M4 Storage Server", 
+        "UCS Manager 3.2(3e) - (Available)", 
+        "UCS Manager 3.1(3j) - (Available)", 
+        "UCS Manager 2.2(8l) - (Available)", 
+        "Cisco UCS C-Series M4 Rack Servers - Managed (except C460) - UCS Manager 3.2(3e) - (Available)", 
+        "Cisco UCS S3260 M4 Storage Server - Managed - UCS Manager 3.2(3e) - (Available)", 
+        "Cisco UCS S3260 M4 Storage Server - Standalone - Cisco IMC 3.0(4e) - (Available)", 
+        "Cisco UCS S3260 M4 Storage"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "3.2(1d)B", 
+          "3.2(1d)C"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Computing System"
+      }
+    }
+  ]
+}
