@@ -1,0 +1,49 @@
+{
+  "version": "1.1", 
+  "products": [
+    {
+      "bug_id": "CSCvm14052", 
+      "product": "Cisco Hosted Collaboration Solution for Contact Center", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Contact Center Enterprise"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm13986", 
+      "product": "Cisco Unified Contact Center Enterprise", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Contact Center Enterprise"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm13986", 
+      "product": "Cisco Unified Intelligent Contact Management Enterprise", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Contact Center Enterprise"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm13980", 
+      "product": "Cisco Unified SIP Proxy Software", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified SIP Proxy Software"
+      }
+    }
+  ]
+}
