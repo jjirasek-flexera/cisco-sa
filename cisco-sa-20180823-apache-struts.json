@@ -6,33 +6,28 @@
       "product": "Cisco Hosted Collaboration Solution for Contact Center", 
       "fix": [], 
       "bug_data": {
-        "affected_releases": [], 
+        "affected_releases": [
+          "10.5(1)", 
+          "11.0(1)", 
+          "11.5(1)", 
+          "11.6(1)"
+        ], 
         "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Unified Contact Center Enterprise"
+        "status": "Other", 
+        "product_name": "Cisco Hosted Collaboration Solution for Contact Center"
       }
     }, 
     {
       "bug_id": "CSCvm13986", 
       "product": "Cisco Unified Contact Center Enterprise", 
       "fix": [], 
-      "bug_data": {
-        "affected_releases": [], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Unified Contact Center Enterprise"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCvm13986", 
       "product": "Cisco Unified Intelligent Contact Management Enterprise", 
       "fix": [], 
-      "bug_data": {
-        "affected_releases": [], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Unified Contact Center Enterprise"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCvm13980", 
