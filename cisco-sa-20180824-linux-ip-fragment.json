@@ -1,5 +1,5 @@
 {
-  "version": "1.1", 
+  "version": "1.2", 
   "products": [
     {
       "bug_id": "CSCvm15463", 
@@ -12,6 +12,61 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco Tetration Analytics"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm15501", 
+      "product": "Cisco vEdge 100 Series Routers", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "None"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm15501", 
+      "product": "Cisco vEdge 1000 Series Routers", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "None"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm15501", 
+      "product": "Cisco vEdge 2000 Series Routers", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "None"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm15501", 
+      "product": "Cisco vEdge 5000 Series Routers", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "None"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm15501", 
+      "product": "Cisco vEdge Cloud Router Platform", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "None"
       }
     }, 
     {
@@ -48,9 +103,62 @@
       }
     }, 
     {
+      "bug_id": "CSCvm09119", 
+      "product": "Cisco Secure Access Control System (ACS)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "5.8(0.32.10)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Secure Access Control Server Solution Engine"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm15475", 
+      "product": "Cisco Elastic Service Controller (ESC)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "4.3"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Managed Services Accelerator"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm15477", 
+      "product": "Cisco Network Analysis Module", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Prime Network Analysis Module Software"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm15802", 
+      "product": "Cisco Policy Suite", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "18.2.0"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Mobility Services Engine"
+      }
+    }, 
+    {
       "bug_id": "CSCvm15480", 
       "product": "Cisco Prime Collaboration Assurance", 
-      "fix": [], 
+      "fix": [
+        "11.6 es19 (Oct-2018)", 
+        "12.1 sp2 (Oct-2018)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "12.1"
@@ -98,6 +206,50 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco Prime Infrastructure"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm15471", 
+      "product": "Cisco Prime Network Registrar Virtual Appliance", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "8.3(6)", 
+          "8.3(6.1)", 
+          "9.1", 
+          "9.1(1)", 
+          "9.1(1.1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Network Registrar"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm15492", 
+      "product": "Cisco Prime Service Catalog Virtual Appliance", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "12.0", 
+          "12.1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Prime Service Catalog"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm15454", 
+      "product": "Cisco Application Policy Infrastructure Controller (APIC)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "3.2(2l)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Application Policy Infrastructure Controller (APIC)"
       }
     }, 
     {
@@ -153,6 +305,19 @@
       }
     }, 
     {
+      "bug_id": "CSCvm18261", 
+      "product": "Cisco UCS B-Series Blade Servers - Integrated Management Controller", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "4.0(1a)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Computing System"
+      }
+    }, 
+    {
       "bug_id": "CSCvm15466", 
       "product": "Cisco UCS Standalone C-Series Rack Server - Integrated Management Controller", 
       "fix": [], 
@@ -192,6 +357,17 @@
       }
     }, 
     {
+      "bug_id": "CSCvm21280", 
+      "product": "Cisco IP Phone 8800 Series", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco IP Phone 8800 Series"
+      }
+    }, 
+    {
       "bug_id": "CSCvm15509", 
       "product": "Cisco Paging Server", 
       "fix": [], 
@@ -202,6 +378,34 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco Paging Server"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm15503", 
+      "product": "Cisco Unified Communications Manager Session Management Edition", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "12.5(0.98000.800)", 
+          "12.5(1)MN378"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Communications Manager (CallManager)"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm15503", 
+      "product": "Cisco Unified Communications Manager", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "12.5(0.98000.800)", 
+          "12.5(1)MN378"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Communications Manager (CallManager)"
       }
     }, 
     {
@@ -218,6 +422,37 @@
       }
     }, 
     {
+      "bug_id": "CSCvm15491", 
+      "product": "Cisco Expressway Series", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "X8.10", 
+          "X8.11", 
+          "X8.2", 
+          "X8.5", 
+          "X8.6", 
+          "X8.7", 
+          "X8.8", 
+          "X8.9"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco TelePresence Video Communication Server (VCS)"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm15483", 
+      "product": "Cisco Meeting Management", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Meeting Management"
+      }
+    }, 
+    {
       "bug_id": "CSCvm15486", 
       "product": "Cisco TelePresence Conductor", 
       "fix": [], 
@@ -228,6 +463,39 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco TelePresence Conductor"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm15490", 
+      "product": "Cisco TelePresence Server on Virtual Machine", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "unspecified"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco TelePresence Server"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm15491", 
+      "product": "Cisco TelePresence Video Communication Server (VCS)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "X8.10", 
+          "X8.11", 
+          "X8.2", 
+          "X8.5", 
+          "X8.6", 
+          "X8.7", 
+          "X8.8", 
+          "X8.9"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco TelePresence Video Communication Server (VCS)"
       }
     }, 
     {
