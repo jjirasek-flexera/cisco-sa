@@ -1,0 +1,299 @@
+{
+  "version": "1.1", 
+  "products": [
+    {
+      "bug_id": "CSCvm15463", 
+      "product": "Cisco Tetration Analytics", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.3(1.41)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Tetration Analytics"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm05464", 
+      "product": "Cisco Firepower Threat Defense (FTD) Software<br />", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.1(1)", 
+          "2.2(1)", 
+          "2.3(1)", 
+          "2.3(2)", 
+          "2.4(1)", 
+          "9.7(1)"
+        ], 
+        "fixed_releases": [
+          "96.4(0.23)"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco ASA 5500-X Series Firewalls"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm15495", 
+      "product": "Cisco Identity Services Engine (ISE)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.4(0.357)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Identity Services Engine (ISE) 3300 Series Appliances"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm15480", 
+      "product": "Cisco Prime Collaboration Assurance", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "12.1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Prime Collaboration"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm15504", 
+      "product": "Cisco Prime Collaboration Deployment", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "12.5(0.98000.1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Communications Manager (CallManager)"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm15479", 
+      "product": "Cisco Prime Collaboration Provisioning", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "12.6"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Prime Collaboration"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm15478", 
+      "product": "Cisco Prime Infrastructure", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "3.4(1)", 
+          "3.5(0.0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Prime Infrastructure"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm09121", 
+      "product": "Cisco IOS XE Software", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "Gibraltar-16.10.1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco IOS"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm15450", 
+      "product": "Cisco Network Assurance Engine", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.1(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Network Assurance Engine"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm09117", 
+      "product": "Cisco Nexus 3000 Series Switches", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "9.2(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Nexus 9000 Series Switches"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm09117", 
+      "product": "Cisco Nexus 9000 Series Switches - Standalone, NX-OS mode", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "9.2(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Nexus 9000 Series Switches"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm15466", 
+      "product": "Cisco UCS Standalone C-Series Rack Server - Integrated Management Controller", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "3.2(1d)C"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Computing System"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm15507", 
+      "product": "Cisco Emergency Responder", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "12.5(0.98000.188)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Emergency Responder"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm15510", 
+      "product": "Cisco IP Phone 7800 Series", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "12.1(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco IP Phone 7800 Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm15509", 
+      "product": "Cisco Paging Server", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "12.0(2)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Paging Server"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm15803", 
+      "product": "Cisco Unity Connection", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "12.5"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unity Connection"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm15486", 
+      "product": "Cisco TelePresence Conductor", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "unspecified"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco TelePresence Conductor"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm15494", 
+      "product": "Cisco Video Surveillance 8000 Series IP Cameras", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "V1.0(3.4)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Video Surveillance 8000 Series IP Cameras"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm15469", 
+      "product": "Cisco Aironet 1560 Series Access Points", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "8.9(1.124)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Aironet 1850 Series Access Points"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm15469", 
+      "product": "Cisco Aironet 1815 Series Access Points", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "8.9(1.124)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Aironet 1850 Series Access Points"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm15469", 
+      "product": "Cisco Aironet 2800 Series Access Points", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "8.9(1.124)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Aironet 1850 Series Access Points"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm15469", 
+      "product": "Cisco Aironet 3800 Series Access Points", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "8.9(1.124)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Aironet 1850 Series Access Points"
+      }
+    }
+  ]
+}
