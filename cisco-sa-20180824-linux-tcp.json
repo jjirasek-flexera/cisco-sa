@@ -1,0 +1,72 @@
+{
+  "version": "1.1", 
+  "products": [
+    {
+      "bug_id": "CSCvk74922", 
+      "product": "Cisco Expressway Series", 
+      "fix": [
+        "x12.0 (Nov-2018)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "X8.10", 
+          "X8.10.1", 
+          "X8.10.2", 
+          "X8.10.3", 
+          "X8.10.4", 
+          "X8.11"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco TelePresence Video Communication Server (VCS)"
+      }
+    }, 
+    {
+      "bug_id": "CSCvk69487", 
+      "product": "Cisco Meeting Management (CMM)", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "1.0", 
+          "1.0.1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Meeting Management"
+      }
+    }, 
+    {
+      "bug_id": "CSCvk75754", 
+      "product": "Cisco TelePresence Conductor", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "XC4.4"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco TelePresence Conductor"
+      }
+    }, 
+    {
+      "bug_id": "CSCvk74922", 
+      "product": "Cisco TelePresence Video Communication Server (VCS)", 
+      "fix": [
+        "x12.0 (Nov-2018)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "X8.10", 
+          "X8.10.1", 
+          "X8.10.2", 
+          "X8.10.3", 
+          "X8.10.4", 
+          "X8.11"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco TelePresence Video Communication Server (VCS)"
+      }
+    }
+  ]
+}
