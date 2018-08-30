@@ -1,11 +1,18 @@
 {
-  "version": "1.4", 
+  "version": "1.5", 
   "products": [
     {
       "bug_id": "CSCvm13989", 
-      "product": "Cisco Prime Service Catalog", 
+      "product": "Cisco Prime Service Catalog *", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "unspecified"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Webex Meetings Online"
+      }
     }, 
     {
       "bug_id": "CSCvm14030", 
@@ -29,7 +36,7 @@
     }, 
     {
       "bug_id": "CSCvm13984", 
-      "product": "Cisco Unified Intelligence Center", 
+      "product": "Cisco Unified Intelligence Center *", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
@@ -42,7 +49,7 @@
     }, 
     {
       "bug_id": "CSCvm14044", 
-      "product": "Cisco Emergency Responder", 
+      "product": "Cisco Emergency Responder *", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
@@ -56,7 +63,7 @@
     }, 
     {
       "bug_id": "CSCvm14052", 
-      "product": "Cisco Hosted Collaboration Solution for Contact Center", 
+      "product": "Cisco Hosted Collaboration Solution for Contact Center *", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
@@ -71,23 +78,8 @@
       }
     }, 
     {
-      "bug_id": "CSCvm14049", 
-      "product": "Cisco Unified Communications Manager IM &amp; Presence Service (formerly CUPS)", 
-      "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "11.0(1)", 
-          "11.5(1)", 
-          "12.0(1)"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Unified Communications Manager IM & Presence Service"
-      }
-    }, 
-    {
       "bug_id": "CSCvm14042", 
-      "product": "Cisco Unified Communications Manager", 
+      "product": "Cisco Unified Communications Manager *", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
@@ -103,20 +95,35 @@
       }
     }, 
     {
+      "bug_id": "CSCvm14049", 
+      "product": "Cisco Unified Communications Manager IM &amp; Presence Service (formerly CUPS) *", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.0(1)", 
+          "11.5(1)", 
+          "12.0(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Communications Manager IM & Presence Service"
+      }
+    }, 
+    {
       "bug_id": "CSCvm13986", 
-      "product": "Cisco Unified Contact Center Enterprise", 
+      "product": "Cisco Unified Contact Center Enterprise *", 
       "fix": [], 
       "bug_data": null
     }, 
     {
       "bug_id": "CSCvm13986", 
-      "product": "Cisco Unified Intelligent Contact Management Enterprise", 
+      "product": "Cisco Unified Intelligent Contact Management Enterprise *", 
       "fix": [], 
       "bug_data": null
     }, 
     {
       "bug_id": "CSCvm13980", 
-      "product": "Cisco Unified SIP Proxy Software", 
+      "product": "Cisco Unified SIP Proxy Software *", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [], 
@@ -127,7 +134,7 @@
     }, 
     {
       "bug_id": "CSCvm13979", 
-      "product": "Cisco Unified Survivable Remote Site Telephony Manager", 
+      "product": "Cisco Unified Survivable Remote Site Telephony Manager *", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
@@ -140,7 +147,7 @@
     }, 
     {
       "bug_id": "CSCvm14043", 
-      "product": "Cisco Unity Connection", 
+      "product": "Cisco Unity Connection *", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
@@ -155,8 +162,22 @@
       }
     }, 
     {
+      "bug_id": "CSCvm14056", 
+      "product": "Cisco Virtualized Voice Browser *", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.5(1)", 
+          "11.6(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Contact Center Enterprise"
+      }
+    }, 
+    {
       "bug_id": "CSCvm14027", 
-      "product": "Cisco Video Distribution Suite for Internet Streaming (VDS-IS)", 
+      "product": "Cisco Video Distribution Suite for Internet Streaming (VDS-IS) *", 
       "fix": [
         "2.3.35 (15-Sept-2018)"
       ], 
