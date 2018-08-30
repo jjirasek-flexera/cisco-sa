@@ -1,5 +1,5 @@
 {
-  "version": "1.2", 
+  "version": "1.3", 
   "products": [
     {
       "bug_id": "CSCvm15463", 
@@ -129,11 +129,27 @@
       }
     }, 
     {
+      "bug_id": "CSCvm18160", 
+      "product": "Cisco Evolved Programmable Network Manager", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.1(3)", 
+          "2.2"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Network Level Service"
+      }
+    }, 
+    {
       "bug_id": "CSCvm15477", 
       "product": "Cisco Network Analysis Module", 
       "fix": [], 
       "bug_data": {
-        "affected_releases": [], 
+        "affected_releases": [
+          "6.4(1)"
+        ], 
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco Prime Network Analysis Module Software"
@@ -266,6 +282,19 @@
       }
     }, 
     {
+      "bug_id": "CSCvm15459", 
+      "product": "Cisco MDS 9000 Series Multilayer Switches", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "8.3(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco MDS 9000 Series Multilayer Switches"
+      }
+    }, 
+    {
       "bug_id": "CSCvm15450", 
       "product": "Cisco Network Assurance Engine", 
       "fix": [], 
@@ -306,7 +335,7 @@
     }, 
     {
       "bug_id": "CSCvm18261", 
-      "product": "Cisco UCS B-Series Blade Servers - Integrated Management Controller", 
+      "product": "Cisco UCS B-Series M5 Blade Servers - Integrated Management Controller", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
@@ -319,7 +348,7 @@
     }, 
     {
       "bug_id": "CSCvm15466", 
-      "product": "Cisco UCS Standalone C-Series Rack Server - Integrated Management Controller", 
+      "product": "Cisco UCS Standalone C-Series M5 Rack Server - Integrated Management Controller", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
@@ -370,7 +399,9 @@
     {
       "bug_id": "CSCvm15509", 
       "product": "Cisco Paging Server", 
-      "fix": [], 
+      "fix": [
+        "12.5.1 (Nov-2018)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "12.0(2)"
@@ -378,6 +409,19 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco Paging Server"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm15505", 
+      "product": "Cisco Unified Communications Domain Manager", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.5(3)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Hosted Collaboration Solution (HCS)"
       }
     }, 
     {
@@ -561,6 +605,17 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco Aironet 1850 Series Access Points"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm15476", 
+      "product": "Cisco Mobility Services Engine", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Mobility Services Engine"
       }
     }
   ]
