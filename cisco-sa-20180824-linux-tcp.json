@@ -1,5 +1,5 @@
 {
-  "version": "1.1", 
+  "version": "1.2", 
   "products": [
     {
       "bug_id": "CSCvk74922", 
@@ -24,7 +24,9 @@
     {
       "bug_id": "CSCvk69487", 
       "product": "Cisco Meeting Management (CMM)", 
-      "fix": [], 
+      "fix": [
+        "1.1.0.27 (Sept-2018)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "1.0", 
