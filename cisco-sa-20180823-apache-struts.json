@@ -1,5 +1,5 @@
 {
-  "version": "1.5", 
+  "version": "1.6", 
   "products": [
     {
       "bug_id": "CSCvm13989", 
@@ -35,19 +35,6 @@
       }
     }, 
     {
-      "bug_id": "CSCvm13984", 
-      "product": "Cisco Unified Intelligence Center *", 
-      "fix": [], 
-      "bug_data": {
-        "affected_releases": [
-          "11.6(1)"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Unified Intelligence Center"
-      }
-    }, 
-    {
       "bug_id": "CSCvm14044", 
       "product": "Cisco Emergency Responder *", 
       "fix": [], 
@@ -75,6 +62,19 @@
         "fixed_releases": [], 
         "status": "Other", 
         "product_name": "Cisco Hosted Collaboration Solution for Contact Center"
+      }
+    }, 
+    {
+      "bug_id": "CSCvk78906", 
+      "product": "Cisco MediaSense *", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.6(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco MediaSense"
       }
     }, 
     {
@@ -116,6 +116,32 @@
       "bug_data": null
     }, 
     {
+      "bug_id": "CSCvm21744", 
+      "product": "Cisco Unified Contact Center Express *", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.0(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Unified Contact Center Express"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm13984", 
+      "product": "Cisco Unified Intelligence Center *", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.6(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Intelligence Center"
+      }
+    }, 
+    {
       "bug_id": "CSCvm13986", 
       "product": "Cisco Unified Intelligent Contact Management Enterprise *", 
       "fix": [], 
@@ -126,7 +152,10 @@
       "product": "Cisco Unified SIP Proxy Software *", 
       "fix": [], 
       "bug_data": {
-        "affected_releases": [], 
+        "affected_releases": [
+          "9.1(56)", 
+          "9.1(7)"
+        ], 
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco Unified SIP Proxy Software"
@@ -152,6 +181,7 @@
       "bug_data": {
         "affected_releases": [
           "11.0", 
+          "11.5", 
           "11.5(1)ES59", 
           "12.0", 
           "12.5"
