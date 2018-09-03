@@ -1,6 +1,19 @@
 {
-  "version": "1.4", 
+  "version": "1.5", 
   "products": [
+    {
+      "bug_id": "CSCvm02914", 
+      "product": "Cisco Cloud Services Platform 2100", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "2.3(0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Cloud Services Platform 2100"
+      }
+    }, 
     {
       "bug_id": "CSCvm02977", 
       "product": "Cisco 4000 Series Integrated Services Routers (IOS XE Open Service Containers)", 
@@ -190,16 +203,39 @@
       "product": "Cisco Enterprise NFV Infrastructure Software (NFVIS)", 
       "fix": [], 
       "bug_data": {
-        "affected_releases": [], 
+        "affected_releases": [
+          "NFVIS-3.10.1"
+        ], 
+        "fixed_releases": [], 
+        "status": "Other", 
+        "product_name": "Cisco Enterprise NFV Infrastructure Software"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm02920", 
+      "product": "Cisco HyperFlex System", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "3.5(1a)"
+        ], 
         "fixed_releases": [], 
         "status": "Open", 
-        "product_name": "Cisco Enterprise NFV Infrastructure Software"
+        "product_name": "Cisco HyperFlex HX-Series"
       }
     }, 
     {
       "bug_id": "CSCvm02934", 
       "product": "Cisco UCS B-Series M2 Blade Servers", 
-      "fix": [], 
+      "fix": [
+        "Cisco UCS B-Series M2 Blade Servers - Managed", 
+        "UCS Manager 2.2(8l) - (Available)", 
+        "UCS Manager 3.2(3g) - (Available)", 
+        "Cisco UCS C-Series M2 Rack Servers - Managed", 
+        "UCS Manager 2.2(8l) - (Available)", 
+        "Cisco IMC 1.4(3z09)(Available)", 
+        "Cisco IMC 1.5(9f)(Available)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "2.2(1b)B", 
@@ -325,7 +361,15 @@
     {
       "bug_id": "CSCvm02934", 
       "product": "Cisco UCS C-Series M2 Rack Servers", 
-      "fix": [], 
+      "fix": [
+        "Cisco UCS B-Series M2 Blade Servers - Managed", 
+        "UCS Manager 2.2(8l) - (Available)", 
+        "UCS Manager 3.2(3g) - (Available)", 
+        "Cisco UCS C-Series M2 Rack Servers - Managed", 
+        "UCS Manager 2.2(8l) - (Available)", 
+        "Cisco IMC 1.4(3z09)(Available)", 
+        "Cisco IMC 1.5(9f)(Available)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "2.2(1b)B", 
