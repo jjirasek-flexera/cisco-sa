@@ -1,5 +1,5 @@
 {
-  "version": "1.6", 
+  "version": "1.7", 
   "products": [
     {
       "bug_id": "CSCvm13989", 
@@ -49,19 +49,37 @@
       }
     }, 
     {
+      "bug_id": "CSCvk78905", 
+      "product": "Cisco Finesse *", 
+      "fix": [
+        "Patch file available 7-Sept-2018."
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "11.5(1)", 
+          "11.6(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Finesse"
+      }
+    }, 
+    {
       "bug_id": "CSCvm14052", 
       "product": "Cisco Hosted Collaboration Solution for Contact Center *", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
           "10.5(1)", 
+          "10.5(3)", 
           "11.0(1)", 
+          "11.0(3)", 
           "11.5(1)", 
           "11.6(1)"
         ], 
         "fixed_releases": [], 
-        "status": "Other", 
-        "product_name": "Cisco Hosted Collaboration Solution for Contact Center"
+        "status": "Open", 
+        "product_name": "Cisco Unified Contact Center Enterprise"
       }
     }, 
     {
@@ -85,12 +103,18 @@
         "affected_releases": [
           "11.0(1.10000.10)", 
           "11.5(1.10000.6)", 
-          "12.0(1.10000.10)"
+          "12.0(1.10000.10)", 
+          "12.5(0.98000.981)"
         ], 
         "fixed_releases": [
-          "CCM.12.5(0.98100.2)"
+          "CCM.12.0(1.22900.11)", 
+          "CCM.12.5(0.98000.980)", 
+          "CCM.12.5(0.98100.2)", 
+          "CUP.11.5(1.16000.3)", 
+          "CUP.12.5(0.98000.1096)", 
+          "UCMAP.12.5(0.98000.370)"
         ], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Communications Manager (CallManager)"
       }
     }, 
@@ -113,6 +137,26 @@
       "bug_id": "CSCvm13986", 
       "product": "Cisco Unified Contact Center Enterprise *", 
       "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "10.5(1)", 
+          "10.5(3)", 
+          "11.0(1)", 
+          "11.0(3)", 
+          "11.5(1)", 
+          "11.6(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Contact Center Enterprise"
+      }
+    }, 
+    {
+      "bug_id": "CSCvk78902", 
+      "product": "Cisco Unified Contact Center Enterprise - Live Data server *", 
+      "fix": [
+        "Patch file available 7-Sept-2018"
+      ], 
       "bug_data": null
     }, 
     {
@@ -121,7 +165,8 @@
       "fix": [], 
       "bug_data": {
         "affected_releases": [
-          "11.0(1)"
+          "11.0(1)", 
+          "11.6(1)"
         ], 
         "fixed_releases": [], 
         "status": "Fixed", 
@@ -145,7 +190,19 @@
       "bug_id": "CSCvm13986", 
       "product": "Cisco Unified Intelligent Contact Management Enterprise *", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "10.5(1)", 
+          "10.5(3)", 
+          "11.0(1)", 
+          "11.0(3)", 
+          "11.5(1)", 
+          "11.6(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Contact Center Enterprise"
+      }
     }, 
     {
       "bug_id": "CSCvm13980", 
@@ -201,7 +258,7 @@
           "11.6(1)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Contact Center Enterprise"
       }
     }, 
