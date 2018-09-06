@@ -1,5 +1,5 @@
 {
-  "version": "1.4", 
+  "version": "1.5", 
   "products": [
     {
       "bug_id": "CSCvk78929", 
@@ -113,8 +113,25 @@
       }
     }, 
     {
+      "bug_id": "CSCvm10968", 
+      "product": "Cisco Firepower Management Center", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "5.4.0", 
+          "6.0.0", 
+          "6.1.0", 
+          "6.2.0", 
+          "6.3.0"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Firepower Management Center"
+      }
+    }, 
+    {
       "bug_id": "CSCvm05464", 
-      "product": "Cisco Firepower Threat Defense (FTD) Software<br />", 
+      "product": "Cisco Firepower Threat Defense (FTD) Software", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
@@ -144,7 +161,7 @@
         ], 
         "fixed_releases": [], 
         "status": "Open", 
-        "product_name": "Cisco Identity Services Engine (ISE) 3300 Series Appliances"
+        "product_name": "Cisco Identity Services Engine"
       }
     }, 
     {
@@ -158,6 +175,21 @@
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco Secure Access Control Server Solution Engine"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm15448", 
+      "product": "Cisco Threat Grid Appliance", 
+      "fix": [
+        "2.5 (Sept-2018)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "phoebe-11-0-1(Mirage-hermes-HP2)-401"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Threat Grid - Cloud"
       }
     }, 
     {
@@ -332,6 +364,42 @@
       }
     }, 
     {
+      "bug_id": "CSCvm21613", 
+      "product": "Cisco Virtual Topology System - Virtual Topology Controller (VTC) VM", 
+      "fix": [
+        "2.6.2 (Sept-2018)"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "1.0", 
+          "1.5", 
+          "1.5(1)", 
+          "1.5(2)", 
+          "2.0(0)", 
+          "2.0(1)", 
+          "2.0(2)", 
+          "2.1(1)", 
+          "2.1(2)", 
+          "2.1(3)", 
+          "2.1(5)", 
+          "2.2", 
+          "2.3(0)", 
+          "2.3(1)", 
+          "2.4(0)", 
+          "2.4(1)", 
+          "2.4(2)", 
+          "2.5(0)", 
+          "2.5(1)", 
+          "2.5(2)", 
+          "2.6(0)", 
+          "2.6(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco Virtual Topology System"
+      }
+    }, 
+    {
       "bug_id": "CSCvm15456", 
       "product": "Cisco ACI Virtual Edge", 
       "fix": [], 
@@ -353,7 +421,7 @@
           "3.2(2l)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Application Policy Infrastructure Controller (APIC)"
       }
     }, 
@@ -361,12 +429,24 @@
       "bug_id": "CSCvm15474", 
       "product": "Cisco DNA Center", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "DNAC1.2"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Application Policy Infrastructure Controller Enterprise Module (APIC-EM)"
+      }
     }, 
     {
       "bug_id": "CSCvm09121", 
       "product": "Cisco IOS XE Software", 
-      "fix": [], 
+      "fix": [
+        "16.10.1 (Oct -2018)", 
+        "16.9.2 (Oct -2018)", 
+        "16.6.5 (Feb-2019)", 
+        "16.3.8 (Jan-2019)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "Gibraltar-16.10.1"
@@ -380,7 +460,14 @@
       "bug_id": "CSCvm15498", 
       "product": "Cisco IOx Fog Director", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "FD-1.5.0"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco IOS"
+      }
     }, 
     {
       "bug_id": "CSCvm15459", 
@@ -439,7 +526,9 @@
       "product": "Cisco Enterprise NFV Infrastructure Software (NFVIS)", 
       "fix": [], 
       "bug_data": {
-        "affected_releases": [], 
+        "affected_releases": [
+          "NFVIS-3.9.1"
+        ], 
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco Enterprise NFV Infrastructure Software"
@@ -905,8 +994,10 @@
         "affected_releases": [
           "8.9(1.124)"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "8.9(1.132)"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco 5500 Series Wireless Controllers"
       }
     }
