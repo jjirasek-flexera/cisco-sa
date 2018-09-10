@@ -1,5 +1,5 @@
 {
-  "version": "1.5", 
+  "version": "1.6", 
   "products": [
     {
       "bug_id": "CSCvk78929", 
@@ -132,7 +132,9 @@
     {
       "bug_id": "CSCvm05464", 
       "product": "Cisco Firepower Threat Defense (FTD) Software", 
-      "fix": [], 
+      "fix": [
+        "<span style=\"color: #1f497d;\">6.2.3-99</span> (FTD Virtual for the Microsoft Azure Cloud - Available)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "2.1(1)", 
@@ -149,6 +151,21 @@
         ], 
         "status": "Fixed", 
         "product_name": "Cisco ASA 5500-X Series Firewalls"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm21278", 
+      "product": "Cisco Firepower eXtensible Operating System (FXOS) Software", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "r251"
+        ], 
+        "fixed_releases": [
+          "92.5(1.167)"
+        ], 
+        "status": "Fixed", 
+        "product_name": "Cisco Firepower 9000 Series"
       }
     }, 
     {
@@ -185,7 +202,7 @@
       ], 
       "bug_data": {
         "affected_releases": [
-          "phoebe-11-0-1(Mirage-hermes-HP2)-401"
+          "NA"
         ], 
         "fixed_releases": [], 
         "status": "Open", 
@@ -216,6 +233,21 @@
         "fixed_releases": [], 
         "status": "Fixed", 
         "product_name": "Cisco Managed Services Accelerator"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm15467", 
+      "product": "Cisco Enterprise Service Automation", 
+      "fix": [
+        "No Fix Expected - EoL"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "1.0"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Network Level Service"
       }
     }, 
     {
@@ -400,6 +432,21 @@
       }
     }, 
     {
+      "bug_id": "CSCvm21614", 
+      "product": "Cisco Virtual Topology System - Virtual Topology Forwarder (VTF) VM", 
+      "fix": [
+        "Consult the Cisco bug ID for details"
+      ], 
+      "bug_data": {
+        "affected_releases": [
+          "2.6(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Terminated", 
+        "product_name": "Cisco Virtual Topology System"
+      }
+    }, 
+    {
       "bug_id": "CSCvm15456", 
       "product": "Cisco ACI Virtual Edge", 
       "fix": [], 
@@ -408,7 +455,7 @@
           "1.2(0.99)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Application Policy Infrastructure Controller (APIC)"
       }
     }, 
@@ -535,6 +582,19 @@
       }
     }, 
     {
+      "bug_id": "CSCvm15800", 
+      "product": "Cisco HyperFlex System", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "3.0(1c)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Fixed", 
+        "product_name": "Cisco HyperFlex HX-Series"
+      }
+    }, 
+    {
       "bug_id": "CSCvm18261", 
       "product": "Cisco UCS B-Series M5 Blade Servers - Integrated Management Controller", 
       "fix": [], 
@@ -580,6 +640,19 @@
       }
     }, 
     {
+      "bug_id": "CSCvm24442", 
+      "product": "Cisco IP Phone 7800 Series with Multiplatform Firmware", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.2(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco IP Phone 7800 Series"
+      }
+    }, 
+    {
       "bug_id": "CSCvm15510", 
       "product": "Cisco IP Phone 7800 Series", 
       "fix": [], 
@@ -590,6 +663,32 @@
         "fixed_releases": [], 
         "status": "Fixed", 
         "product_name": "Cisco IP Phone 7800 Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm24440", 
+      "product": "Cisco IP Phone 7832 with Multiplatform Firmware", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.2(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco IP Phone 7800 Series"
+      }
+    }, 
+    {
+      "bug_id": "CSCvm24436", 
+      "product": "Cisco IP Phone 8800 Series with Multiplatform Firmware", 
+      "fix": [], 
+      "bug_data": {
+        "affected_releases": [
+          "11.2(1)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco IP Phone 8800 Series with Multiplatform Firmware"
       }
     }, 
     {
@@ -808,7 +907,10 @@
       "product": "Cisco TelePresence Integrator C Series", 
       "fix": [], 
       "bug_data": {
-        "affected_releases": [], 
+        "affected_releases": [
+          "7.3.x", 
+          "9.4.x"
+        ], 
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco Telepresence Integrator C Series"
@@ -819,7 +921,10 @@
       "product": "Cisco TelePresence MX Series", 
       "fix": [], 
       "bug_data": {
-        "affected_releases": [], 
+        "affected_releases": [
+          "7.3.x", 
+          "9.4.x"
+        ], 
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco Telepresence Integrator C Series"
@@ -830,7 +935,10 @@
       "product": "Cisco TelePresence Profile Series", 
       "fix": [], 
       "bug_data": {
-        "affected_releases": [], 
+        "affected_releases": [
+          "7.3.x", 
+          "9.4.x"
+        ], 
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco Telepresence Integrator C Series"
@@ -841,7 +949,10 @@
       "product": "Cisco TelePresence SX80 Codec", 
       "fix": [], 
       "bug_data": {
-        "affected_releases": [], 
+        "affected_releases": [
+          "7.3.x", 
+          "9.4.x"
+        ], 
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco Telepresence Integrator C Series"
@@ -865,7 +976,10 @@
       "product": "Cisco TelePresence System EX Series", 
       "fix": [], 
       "bug_data": {
-        "affected_releases": [], 
+        "affected_releases": [
+          "7.3.x", 
+          "9.4.x"
+        ], 
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco Telepresence Integrator C Series"
@@ -909,7 +1023,10 @@
       "product": "Cisco Webex Room Kit", 
       "fix": [], 
       "bug_data": {
-        "affected_releases": [], 
+        "affected_releases": [
+          "7.3.x", 
+          "9.4.x"
+        ], 
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco Telepresence Integrator C Series"
@@ -924,6 +1041,8 @@
           "8.9(1.124)"
         ], 
         "fixed_releases": [
+          "8.5(137.58)", 
+          "8.8(114.2)", 
           "8.9(1.127)"
         ], 
         "status": "Fixed", 
@@ -939,6 +1058,8 @@
           "8.9(1.124)"
         ], 
         "fixed_releases": [
+          "8.5(137.58)", 
+          "8.8(114.2)", 
           "8.9(1.127)"
         ], 
         "status": "Fixed", 
@@ -954,6 +1075,8 @@
           "8.9(1.124)"
         ], 
         "fixed_releases": [
+          "8.5(137.58)", 
+          "8.8(114.2)", 
           "8.9(1.127)"
         ], 
         "status": "Fixed", 
@@ -969,6 +1092,8 @@
           "8.9(1.124)"
         ], 
         "fixed_releases": [
+          "8.5(137.58)", 
+          "8.8(114.2)", 
           "8.9(1.127)"
         ], 
         "status": "Fixed", 
