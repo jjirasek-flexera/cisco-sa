@@ -1,9 +1,9 @@
 {
-  "version": "1.10", 
+  "version": "1.11", 
   "products": [
     {
       "bug_id": "CSCvk78903", 
-      "product": "Cisco SocialMiner  *", 
+      "product": "Cisco SocialMiner *", 
       "fix": [
         "Patch available 11-Sept-2018"
       ], 
@@ -18,7 +18,7 @@
     }, 
     {
       "bug_id": "CSCvm13989", 
-      "product": "Cisco Prime Service Catalog  *", 
+      "product": "Cisco Prime Service Catalog *", 
       "fix": [], 
       "bug_data": {
         "affected_releases": [
@@ -43,16 +43,19 @@
           "2.1(0.474)", 
           "2.2(0.470)", 
           "2.3(0.298)", 
+          "2.3(0.904)", 
           "2.4(0.357)"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "2.4(0.903)"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Identity Services Engine"
       }
     }, 
     {
       "bug_id": "CSCvm14044", 
-      "product": "Cisco Emergency Responder  *", 
+      "product": "Cisco Emergency Responder *", 
       "fix": [
         "1151es (14-Sep-2018)", 
         "Standalone COP (21-Sep-2018)"
@@ -62,14 +65,16 @@
           "11.5(1.10000.4)", 
           "12.0(1.20000.4)"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "CER.12.0(1.40000.4)"
+        ], 
         "status": "Open", 
         "product_name": "Cisco Emergency Responder"
       }
     }, 
     {
       "bug_id": "CSCvk78905", 
-      "product": "Cisco Finesse  *", 
+      "product": "Cisco Finesse *", 
       "fix": [
         "Patch file available 7-Sept-2018."
       ], 
@@ -85,8 +90,10 @@
     }, 
     {
       "bug_id": "CSCvm14052", 
-      "product": "Cisco Hosted Collaboration Solution for Contact Center  *", 
-      "fix": [], 
+      "product": "Cisco Hosted Collaboration Solution for Contact Center *", 
+      "fix": [
+        "Patch file available 12-Sep-2018"
+      ], 
       "bug_data": {
         "affected_releases": [
           "10.5(1)", 
@@ -104,8 +111,10 @@
     }, 
     {
       "bug_id": "CSCvk78906", 
-      "product": "Cisco MediaSense  *", 
-      "fix": [], 
+      "product": "Cisco MediaSense *", 
+      "fix": [
+        "Patch file available 12-Sep-2018"
+      ], 
       "bug_data": {
         "affected_releases": [
           "11.6(1)"
@@ -117,7 +126,7 @@
     }, 
     {
       "bug_id": "CSCvm14042", 
-      "product": "Cisco Unified Communications Manager  *", 
+      "product": "Cisco Unified Communications Manager *", 
       "fix": [
         "1151es and 1201es (14-Sep-2018)", 
         "Standalone COP (20-Sep-2018)"
@@ -149,7 +158,7 @@
     }, 
     {
       "bug_id": "CSCvm14049", 
-      "product": "Cisco Unified Communications Manager IM &amp; Presence Service (formerly CUPS)  *", 
+      "product": "Cisco Unified Communications Manager IM &amp; Presence Service (formerly CUPS) *", 
       "fix": [
         "1151es and 1201es (14-Sep-2018)", 
         "Standalone COP (20-Sep-2018)"
@@ -167,8 +176,10 @@
     }, 
     {
       "bug_id": "CSCvm13986", 
-      "product": "Cisco Unified Contact Center Enterprise  *", 
-      "fix": [], 
+      "product": "Cisco Unified Contact Center Enterprise *", 
+      "fix": [
+        "Patch file available 12-Sept-2018"
+      ], 
       "bug_data": {
         "affected_releases": [
           "10.5(1)", 
@@ -186,7 +197,7 @@
     }, 
     {
       "bug_id": "CSCvk78902", 
-      "product": "Cisco Unified Contact Center Enterprise - Live Data server  *", 
+      "product": "Cisco Unified Contact Center Enterprise - Live Data server *", 
       "fix": [
         "Patch file available 7-Sept-2018"
       ], 
@@ -201,8 +212,10 @@
     }, 
     {
       "bug_id": "CSCvm21744", 
-      "product": "Cisco Unified Contact Center Express  *", 
-      "fix": [], 
+      "product": "Cisco Unified Contact Center Express *", 
+      "fix": [
+        "Patch file available 12-Sep-2018"
+      ], 
       "bug_data": {
         "affected_releases": [
           "11.5(1)", 
@@ -215,21 +228,25 @@
     }, 
     {
       "bug_id": "CSCvm13984", 
-      "product": "Cisco Unified Intelligence Center  *", 
-      "fix": [], 
+      "product": "Cisco Unified Intelligence Center *", 
+      "fix": [
+        "Patch file available 12-Sep-2018"
+      ], 
       "bug_data": {
         "affected_releases": [
           "11.6(1)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Intelligence Center"
       }
     }, 
     {
       "bug_id": "CSCvm13986", 
-      "product": "Cisco Unified Intelligent Contact Management Enterprise  *", 
-      "fix": [], 
+      "product": "Cisco Unified Intelligent Contact Management Enterprise *", 
+      "fix": [
+        "Patch file available 12-Sept-2018"
+      ], 
       "bug_data": {
         "affected_releases": [
           "10.5(1)", 
@@ -247,7 +264,7 @@
     }, 
     {
       "bug_id": "CSCvm13980", 
-      "product": "Cisco Unified SIP Proxy Software  *", 
+      "product": "Cisco Unified SIP Proxy Software *", 
       "fix": [
         "918es (28-Sep-2018)"
       ], 
@@ -263,8 +280,10 @@
     }, 
     {
       "bug_id": "CSCvm13979", 
-      "product": "Cisco Unified Survivable Remote Site Telephony Manager  *", 
-      "fix": [], 
+      "product": "Cisco Unified Survivable Remote Site Telephony Manager *", 
+      "fix": [
+        "Patch file available 12-Sep-2018"
+      ], 
       "bug_data": {
         "affected_releases": [
           "9.0(2)"
@@ -276,7 +295,7 @@
     }, 
     {
       "bug_id": "CSCvm14043", 
-      "product": "Cisco Unity Connection  *", 
+      "product": "Cisco Unity Connection *", 
       "fix": [
         "1151es and 1201su  (18-Sep-2018)", 
         "Standalone COP (21-Sep-2018)"
@@ -296,8 +315,10 @@
     }, 
     {
       "bug_id": "CSCvm14056", 
-      "product": "Cisco Virtualized Voice Browser  *", 
-      "fix": [], 
+      "product": "Cisco Virtualized Voice Browser *", 
+      "fix": [
+        "Patch file available 12-Sep-2018"
+      ], 
       "bug_data": {
         "affected_releases": [
           "11.5(1)", 
@@ -310,7 +331,7 @@
     }, 
     {
       "bug_id": "CSCvm14027", 
-      "product": "Cisco Video Distribution Suite for Internet Streaming (VDS-IS)  *", 
+      "product": "Cisco Video Distribution Suite for Internet Streaming (VDS-IS) *", 
       "fix": [
         "2.3.35 (15-Sept-2018)"
       ], 
