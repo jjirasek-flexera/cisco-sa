@@ -1,5 +1,5 @@
 {
-  "version": "1.11", 
+  "version": "1.12", 
   "products": [
     {
       "bug_id": "CSCvk78903", 
@@ -57,7 +57,7 @@
       "bug_id": "CSCvm14044", 
       "product": "Cisco Emergency Responder *", 
       "fix": [
-        "1151es (14-Sep-2018)", 
+        "1151es (21-Sep-2018)", 
         "Standalone COP (21-Sep-2018)"
       ], 
       "bug_data": {
@@ -105,7 +105,7 @@
           "12.0(1)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Contact Center Enterprise"
       }
     }, 
@@ -160,19 +160,10 @@
       "bug_id": "CSCvm14049", 
       "product": "Cisco Unified Communications Manager IM &amp; Presence Service (formerly CUPS) *", 
       "fix": [
-        "1151es and 1201es (14-Sep-2018)", 
+        "1151es and 1201es (21-Sep-2018)", 
         "Standalone COP (20-Sep-2018)"
       ], 
-      "bug_data": {
-        "affected_releases": [
-          "11.0(1)", 
-          "11.5(1)", 
-          "12.0(1)"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco Unified Communications Manager IM & Presence Service"
-      }
+      "bug_data": null
     }, 
     {
       "bug_id": "CSCvm13986", 
@@ -191,7 +182,7 @@
           "12.0(1)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Contact Center Enterprise"
       }
     }, 
@@ -206,7 +197,7 @@
           "11.6(1)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Contact Center Enterprise"
       }
     }, 
@@ -258,7 +249,7 @@
           "12.0(1)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Unified Contact Center Enterprise"
       }
     }, 
@@ -308,8 +299,17 @@
           "12.0", 
           "12.5"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "11.5(1)ES61", 
+          "12.0(1)ES19", 
+          "12.0(1.59)", 
+          "12.5(0.267)", 
+          "CCM.11.5(1.16086.2)", 
+          "CUC.12.0(1.22013.2)", 
+          "CUC.12.0(1.22900.14)", 
+          "CUC.12.5(0.97000.363)"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco Unity Connection"
       }
     }, 
