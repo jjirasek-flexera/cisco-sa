@@ -1,11 +1,148 @@
-ΩÍÏäâıÍöËvÁ-≤öËvÁ-
-+°8ky´FÆ'@¶ôbjw3ñÓÇ'BH+‰Îﬁ<È¯±€ìú∑m5Òª†u´Z¶∫πÀgjgÇä«(Nﬁj—´â–•¢ÁZ}˜úµÁkzWö±Î¯±y⁄ﬁïÊ¨zÀ-j€¨:óß¶∫πÀBä«(–z{^≠ª†â–í
-˘∑„ü5~,[∫Zµ™k°€ú∂v¶x(¨rÄ)¶Xújÿ®ú˙%âÃàù˙⁄≤⁄Ór€´x*'∂∫%ïÍƒû◊´¶∏¨x ∫WÄ<ÄÑ1ßﬂyÀ^v∑•y´∞3@]üãù≠È^j«¨≤÷≠∫√©zzk°€ú¥(¨rÉ^∑
-+ê,∫∂ßq·'Ç)ﬁnË"t$Çæm¯ÔMüãÓÅ÷≠jöËvÁ-ù©û
-+†◊≠¬ä‰À.≠©‹xI‡äwö}˜úµÁkzWö±Î6◊Vüãù≠È^j«¨≤÷≠∫√©zzk°€ú¥(¨rÖûmÏG…∫‚t6≠i'ú∫∏≠»⁄yª†â–í
-˘∏˜éz~,[∫Zµ™k°€ú∂v¶x(¨rÄ®ù˜´zw*ﬁr⁄+IÍ‚z∆ü}Á-y⁄ﬁïÊ¨zÀß≤óúâ¯ûu¯±y⁄ﬁïÊ¨zÀ-j€¨:óß¶∫πÀBä«(YÊﬁ≈XùzÉ≤huÊÓÇ'BH+Ê„Õz›¯±nËj÷©ÆánrŸ⁄ô‡¢± ¢YZnä⁄∂*'1Á≠äx¢â¨ƒBñãùi˜ﬁr◊ù≠È^j«¨◊G‚≈ÁkzWö±Î,µ´n∞Í^ûöËvÁ-
-+†Li≠Î,¡¨íz∏û±ª†â–í
-˘;„›∂~,q◊m¢˝¥◊∆ÓÅ÷≠jöËvÁ-ù©û
-+°7•x˙ﬁ±È‹yXùzÄ®ökßâ∆≠äâ“zªﬁ≠Píi˜ﬁr◊ù≠È^j«¨_Õt_Õt’5”e¸◊M◊Û]8_Õu~,^v∑•y´≤ÀZ∂Î•ÈÈÆánr–¢± yÎbûù®ôÈÌnË"t$ÇæNΩ„Œﬂãu”n“zõv”_∫Zµ™k°€ú∂v¶x(¨rÉzÿßÄ∆ßj¶z{Z}˜úµÁkzWö±Î5”]5∫{)y»üâÁ_ãù≠È^j«¨≤÷≠∫¡b≈ÁiÆánr–¢± zWè≠Îù«Ç¢wnr⁄+nË"t$ÇæN˘Ôûã7‡ƒM¢˝¥◊∆ÓÅ÷≠jöËvÁ-ù©û
-+°7•x˙ﬁ±È‹x*'vÁ-¢∂ü}Á-y⁄ﬁïÊ¨z≈¬„u¬„}Wçˆ\.7›p∏ﬂá‚≈ÁkzWö±Î,µ´n∞Í^ûöËvÁ-
-+°7•x˙ﬁ±È‹yXùzÄ®ökßâ∆≠äâ“zªﬁ≠PínË"t$ÇæN¯˜müãu€Chøm5Òª†u´Z¶∫πÀgjgÇä«(MÈ^>∑¨zwV'^†*&öÈ‚q´b¢tûÆ˜´T$ö}˜úµÁkzWö±ÎÛ]Û]5_ÕtŸ5”u¸◊NÛ]_ãù≠È^j«¨≤÷≠∫√©z
+{
+  "version": "1.6",
+  "products": [
+    {
+      "product": "Cisco Threat Grid Appliance M5",
+      "bug_id": "CSCvk69486",
+      "fix": [
+        "2.5 (Oct-2018)"
+      ],
+      "bug_data": {
+        "product_name": "Cisco Threat Grid - Cloud",
+        "affected_releases": [
+          "NA"
+        ],
+        "fixed_releases": [],
+        "status": "Open"
+      }
+    },
+    {
+      "product": "Cisco DNA Center",
+      "bug_id": "CSCvm34581",
+      "fix": [],
+      "bug_data": {
+        "product_name": "Cisco Application Policy Infrastructure Controller Enterprise Module (APIC-EM)",
+        "affected_releases": [
+          "DNAC1.2"
+        ],
+        "fixed_releases": [],
+        "status": "Open"
+      }
+    },
+    {
+      "product": "Cisco Network Assurance Engine",
+      "bug_id": "CSCvm34702",
+      "fix": [],
+      "bug_data": {
+        "product_name": "Cisco Network Assurance Engine",
+        "affected_releases": [
+          "2.1(1a)"
+        ],
+        "fixed_releases": [],
+        "status": "Open"
+      }
+    },
+    {
+      "product": "Cisco Webex Hybrid Data Security Node",
+      "bug_id": "CSCvm49456",
+      "fix": [],
+      "bug_data": {
+        "product_name": "Cisco Conference Director Series",
+        "affected_releases": [
+          "unspecified"
+        ],
+        "fixed_releases": [],
+        "status": "Open"
+      }
+    },
+    {
+      "product": "Cisco Webex Video Mesh Node",
+      "bug_id": "CSCvm48163",
+      "fix": [],
+      "bug_data": {
+        "product_name": "Cisco Collaboration Meeting Rooms (CMR) Cloud",
+        "affected_releases": [
+          "1.0"
+        ],
+        "fixed_releases": [],
+        "status": "Open"
+      }
+    },
+    {
+      "product": "Cisco Expressway Series",
+      "bug_id": "CSCvk74922",
+      "fix": [
+        "x12.0 (Nov-2018)"
+      ],
+      "bug_data": {
+        "product_name": "Cisco TelePresence Video Communication Server (VCS)",
+        "affected_releases": [
+          "X8.10",
+          "X8.10.1",
+          "X8.10.2",
+          "X8.10.3",
+          "X8.10.4",
+          "X8.11"
+        ],
+        "fixed_releases": [],
+        "status": "Open"
+      }
+    },
+    {
+      "product": "Cisco Meeting Management",
+      "bug_id": "CSCvk69487",
+      "fix": [
+        "1.1.0.27 (Sept-2018)"
+      ],
+      "bug_data": {
+        "product_name": "Cisco Meeting Management",
+        "affected_releases": [
+          "1.0",
+          "1.0.1",
+          "unspecified"
+        ],
+        "fixed_releases": [],
+        "status": "Fixed"
+      }
+    },
+    {
+      "product": "Cisco TelePresence Conductor",
+      "bug_id": "CSCvk75754",
+      "fix": [
+        "4.3.4 MR (Nov-2018)"
+      ],
+      "bug_data": {
+        "product_name": "Cisco TelePresence Conductor",
+        "affected_releases": [
+          "XC4.3",
+          "XC4.3.1",
+          "XC4.3.2",
+          "XC4.3.3",
+          "XC4.3.4"
+        ],
+        "fixed_releases": [],
+        "status": "Open"
+      }
+    },
+    {
+      "product": "Cisco TelePresence Video Communication Server (VCS)",
+      "bug_id": "CSCvk74922",
+      "fix": [
+        "x12.0 (Nov-2018)"
+      ],
+      "bug_data": {
+        "product_name": "Cisco TelePresence Video Communication Server (VCS)",
+        "affected_releases": [
+          "X8.10",
+          "X8.10.1",
+          "X8.10.2",
+          "X8.10.3",
+          "X8.10.4",
+          "X8.11"
+        ],
+        "fixed_releases": [],
+        "status": "Open"
+      }
+    }
+  ]
+}
