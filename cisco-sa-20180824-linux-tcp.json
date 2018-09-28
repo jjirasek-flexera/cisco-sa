@@ -1,80 +1,1 @@
-{
-  "version": "1.3", 
-  "products": [
-    {
-      "bug_id": "CSCvk74922", 
-      "product": "Cisco Expressway Series", 
-      "fix": [
-        "x12.0 (Nov-2018)"
-      ], 
-      "bug_data": {
-        "affected_releases": [
-          "X8.10", 
-          "X8.10.1", 
-          "X8.10.2", 
-          "X8.10.3", 
-          "X8.10.4", 
-          "X8.11"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco TelePresence Video Communication Server (VCS)"
-      }
-    }, 
-    {
-      "bug_id": "CSCvk69487", 
-      "product": "Cisco Meeting Management", 
-      "fix": [
-        "1.1.0.27 (Sept-2018)"
-      ], 
-      "bug_data": {
-        "affected_releases": [
-          "1.0", 
-          "1.0.1"
-        ], 
-        "fixed_releases": [], 
-        "status": "Fixed", 
-        "product_name": "Cisco Meeting Management"
-      }
-    }, 
-    {
-      "bug_id": "CSCvk75754", 
-      "product": "Cisco TelePresence Conductor", 
-      "fix": [
-        "4.3.4 MR (Nov-2018)"
-      ], 
-      "bug_data": {
-        "affected_releases": [
-          "XC4.3", 
-          "XC4.3.1", 
-          "XC4.3.2", 
-          "XC4.3.3", 
-          "XC4.3.4"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco TelePresence Conductor"
-      }
-    }, 
-    {
-      "bug_id": "CSCvk74922", 
-      "product": "Cisco TelePresence Video Communication Server (VCS)", 
-      "fix": [
-        "x12.0 (Nov-2018)"
-      ], 
-      "bug_data": {
-        "affected_releases": [
-          "X8.10", 
-          "X8.10.1", 
-          "X8.10.2", 
-          "X8.10.3", 
-          "X8.10.4", 
-          "X8.11"
-        ], 
-        "fixed_releases": [], 
-        "status": "Open", 
-        "product_name": "Cisco TelePresence Video Communication Server (VCS)"
-      }
-    }
-  ]
-}
+mì(€€‰Ù•ÉÍ¥½¸ˆè€ˆÄ¸Øˆ°(€€‰ÁÉ½‘ÕÑÌˆèl(€€€ì(€€€€€€‰ÁÉ½‘ÕÐˆè€‰¥Í¼Q¡É•…ÐÉ¥ÁÁ±¥…¹”4Ôˆ°(€€€€€€‰‰Õ}¥ˆè€‰MÙ¬ØäÐàØˆ°(€€€€€€‰™¥àˆèl(€€€€€€€€ˆÈ¸Ô€¡=Ð´ÈÀÄà¤ˆ(€€€€€t°(€€€€€€‰‰Õ}‘…Ñ„ˆèì(€€€€€€€€‰ÁÉ½‘ÕÑ}¹…µ”ˆè€‰¥Í¼Q¡É•…ÐÉ¥€´±½Õˆ°(€€€€€€€€‰…™™•Ñ•‘}É•±•…Í•Ìˆèl(€€€€€€€€€€‰9ˆ(€€€€€€€t°(€€€€€€€€‰™¥á•‘}É•±•…Í•Ìˆèmt°(€€€€€€€€‰ÍÑ…ÑÕÌˆè€‰=Á•¸ˆ(€€€€€ô(€€€ô°(€€€ì(€€€€€€‰ÁÉ½‘ÕÐˆè€‰¥Í¼9•¹Ñ•Èˆ°(€€€€€€‰‰Õ}¥ˆè€‰MÙ´ÌÐÔàÄˆ°(€€€€€€‰™¥àˆèmt°(€€€€€€‰‰Õ}‘…Ñ„ˆèì(€€€€€€€€‰ÁÉ½‘ÕÑ}¹…µ”ˆè€‰¥Í¼ÁÁ±¥…Ñ¥½¸A½±¥ä%¹™É…ÍÑÉÕÑÕÉ”½¹ÑÉ½±±•È¹Ñ•ÉÁÉ¥Í”5½‘Õ±”€¡A%µ4¤ˆ°(€€€€€€€€‰…™™•Ñ•‘}É•±•…Í•Ìˆèl(€€€€€€€€€€‰9Ä¸Èˆ(€€€€€€€t°(€€€€€€€€‰™¥á•‘}É•±•…Í•Ìˆèmt°(€€€€€€€€‰ÍÑ…ÑÕÌˆè€‰=Á•¸ˆ(€€€€€ô(€€€ô°(€€€ì(€€€€€€‰ÁÉ½‘ÕÐˆè€‰¥Í¼9•ÑÝ½É¬ÍÍÕÉ…¹”¹¥¹”ˆ°(€€€€€€‰‰Õ}¥ˆè€‰MÙ´ÌÐÜÀÈˆ°(€€€€€€‰™¥àˆèmt°(€€€€€€‰‰Õ}‘…Ñ„ˆèì(€€€€€€€€‰ÁÉ½‘ÕÑ}¹…µ”ˆè€‰¥Í¼9•ÑÝ½É¬ÍÍÕÉ…¹”¹¥¹”ˆ°(€€€€€€€€‰…™™•Ñ•‘}É•±•…Í•Ìˆèl(€€€€€€€€€€ˆÈ¸Ä Å„¤ˆ(€€€€€€€t°(€€€€€€€€‰™¥á•‘}É•±•…Í•Ìˆèmt°(€€€€€€€€‰ÍÑ…ÑÕÌˆè€‰=Á•¸ˆ(€€€€€ô(€€€ô°(€€€ì(€€€€€€‰ÁÉ½‘ÕÐˆè€‰¥Í¼]•‰•à!å‰É¥…Ñ„M•ÕÉ¥Ñä9½‘”ˆ°(€€€€€€‰‰Õ}¥ˆè€‰MÙ´ÐäÐÔØˆ°(€€€€€€‰™¥àˆèmt°(€€€€€€‰‰Õ}‘…Ñ„ˆèì(€€€€€€€€‰ÁÉ½‘ÕÑ}¹…µ”ˆè€‰¥Í¼½¹™•É•¹”¥É•Ñ½ÈM•É¥•Ìˆ°(€€€€€€€€‰…™™•Ñ•‘}É•±•…Í•Ìˆèl(€€€€€€€€€€‰Õ¹ÍÁ•¥™¥•ˆ(€€€€€€€t°(€€€€€€€€‰™¥á•‘}É•±•…Í•Ìˆèmt°(€€€€€€€€‰ÍÑ…ÑÕÌˆè€‰=Á•¸ˆ(€€€€€ô(€€€ô°(€€€ì(€€€€€€‰ÁÉ½‘ÕÐˆè€‰¥Í¼]•‰•àY¥‘•¼5•Í 9½‘”ˆ°(€€€€€€‰‰Õ}¥ˆè€‰MÙ´ÐàÄØÌˆ°(€€€€€€‰™¥àˆèmt°(€€€€€€‰‰Õ}‘…Ñ„ˆèì(€€€€€€€€‰ÁÉ½‘ÕÑ}¹…µ”ˆè€‰¥Í¼½±±…‰½É…Ñ¥½¸5••Ñ¥¹œI½½µÌ€¡5H¤±½Õˆ°(€€€€€€€€‰…™™•Ñ•‘}É•±•…Í•Ìˆèl(€€€€€€€€€€ˆÄ¸Àˆ(€€€€€€€t°(€€€€€€€€‰™¥á•‘}É•±•…Í•Ìˆèmt°(€€€€€€€€‰ÍÑ…ÑÕÌˆè€‰=Á•¸ˆ(€€€€€ô(€€€ô°(€€€ì(€€€€€€‰ÁÉ½‘ÕÐˆè€‰¥Í¼áÁÉ•ÍÍÝ…äM•É¥•Ìˆ°(€€€€€€‰‰Õ}¥ˆè€‰MÙ¬ÜÐäÈÈˆ°(€€€€€€‰™¥àˆèl(€€€€€€€€‰àÄÈ¸À€¡9½Ø´ÈÀÄà¤ˆ(€€€€€t°(€€€€€€‰‰Õ}‘…Ñ„ˆèì(€€€€€€€€‰ÁÉ½‘ÕÑ}¹…µ”ˆè€‰¥Í¼Q•±•AÉ•Í•¹”Y¥‘•¼½µµÕ¹¥…Ñ¥½¸M•ÉÙ•È€¡YL¤ˆ°(€€€€€€€€‰…™™•Ñ•‘}É•±•…Í•Ìˆèl(€€€€€€€€€€‰`à¸ÄÀˆ°(€€€€€€€€€€‰`à¸ÄÀ¸Äˆ°(€€€€€€€€€€‰`à¸ÄÀ¸Èˆ°(€€€€€€€€€€‰`à¸ÄÀ¸Ìˆ°(€€€€€€€€€€‰`à¸ÄÀ¸Ðˆ°(€€€€€€€€€€‰`à¸ÄÄˆ(€€€€€€€t°(€€€€€€€€‰™¥á•‘}É•±•…Í•Ìˆèmt°(€€€€€€€€‰ÍÑ…ÑÕÌˆè€‰=Á•¸ˆ(€€€€€ô(€€€ô°(€€€ì(€€€€€€‰ÁÉ½‘ÕÐˆè€‰¥Í¼5••Ñ¥¹œ5…¹…•µ•¹Ðˆ°(€€€€€€‰‰Õ}¥ˆè€‰MÙ¬ØäÐàÜˆ°(€€€€€€‰™¥àˆèl(€€€€€€€€ˆÄ¸Ä¸À¸ÈÜ€¡M•ÁÐ´ÈÀÄà¤ˆ(€€€€€t°(€€€€€€‰‰Õ}‘…Ñ„ˆèì(€€€€€€€€‰ÁÉ½‘ÕÑ}¹…µ”ˆè€‰¥Í¼5••Ñ¥¹œ5…¹…•µ•¹Ðˆ°(€€€€€€€€‰…™™•Ñ•‘}É•±•…Í•Ìˆèl(€€€€€€€€€€ˆÄ¸Àˆ°(€€€€€€€€€€ˆÄ¸À¸Äˆ°(€€€€€€€€€€‰Õ¹ÍÁ•¥™¥•ˆ(€€€€€€€t°(€€€€€€€€‰™¥á•‘}É•±•…Í•Ìˆèmt°(€€€€€€€€‰ÍÑ…ÑÕÌˆè€‰¥á•ˆ(€€€€€ô(€€€ô°(€€€ì(€€€€€€‰ÁÉ½‘ÕÐˆè€‰¥Í¼Q•±•AÉ•Í•¹”½¹‘ÕÑ½Èˆ°(€€€€€€‰‰Õ}¥ˆè€‰MÙ¬ÜÔÜÔÐˆ°(€€€€€€‰™¥àˆèl(€€€€€€€€ˆÐ¸Ì¸Ð5H€¡9½Ø´ÈÀÄà¤ˆ(€€€€€t°(€€€€€€‰‰Õ}‘…Ñ„ˆèì(€€€€€€€€‰ÁÉ½‘ÕÑ}¹…µ”ˆè€‰¥Í¼Q•±•AÉ•Í•¹”½¹‘ÕÑ½Èˆ°(€€€€€€€€‰…™™•Ñ•‘}É•±•…Í•Ìˆèl(€€€€€€€€€€‰aÐ¸Ìˆ°(€€€€€€€€€€‰aÐ¸Ì¸Äˆ°(€€€€€€€€€€‰aÐ¸Ì¸Èˆ°(€€€€€€€€€€‰aÐ¸Ì¸Ìˆ°(€€€€€€€€€€‰aÐ¸Ì¸Ðˆ(€€€€€€€t°(€€€€€€€€‰™¥á•‘}É•±•…Í•Ìˆèmt°(€€€€€€€€‰ÍÑ…ÑÕÌˆè€‰=Á•¸ˆ(€€€€€ô(€€€ô°(€€€ì(€€€€€€‰ÁÉ½‘ÕÐˆè€‰¥Í¼Q•±•AÉ•Í•¹”Y¥‘•¼½µµÕ¹¥…Ñ¥½¸M•ÉÙ•È€¡YL¤ˆ°(€€€€€€‰‰Õ}¥ˆè€‰MÙ¬ÜÐäÈÈˆ°(€€€€€€‰™¥àˆèl(€€€€€€€€‰àÄÈ¸À€¡9½Ø´ÈÀÄà¤ˆ(€€€€€t°(€€€€€€‰‰Õ}‘…Ñ„ˆèì(€€€€€€€€‰ÁÉ½‘ÕÑ}¹…µ”ˆè€‰¥Í¼Q•±•AÉ•Í•¹”Y¥‘•¼½µµÕ¹¥…Ñ¥½¸M•ÉÙ•È€¡YL¤ˆ°(€€€€€€€€‰…™™•Ñ•‘}É•±•…Í•Ìˆèl(€€€€€€€€€€‰`à¸ÄÀˆ°(€€€€€€€€€€‰`à¸ÄÀ¸Äˆ°(€€€€€€€€€€‰`à¸ÄÀ¸Èˆ°(€€€€€€€€€€‰`à¸ÄÀ¸Ìˆ°(€€€€€€€€€€‰`à¸ÄÀ¸Ðˆ°(€€€€€€€€€€‰`à¸ÄÄˆ(€€€€€€€t°(€€€€€€€€‰™¥á•‘}É•±•…Í•Ìˆèmt°(€€€€€€€€‰ÍÑ…ÑÕÌˆè€‰=Á•¸ˆ(€€€€€ô(€€€ô(€t)
