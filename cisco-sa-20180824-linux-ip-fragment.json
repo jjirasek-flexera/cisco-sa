@@ -1,5 +1,5 @@
 {
-  "version": "1.12", 
+  "version": "1.13", 
   "products": [
     {
       "bug_id": "CSCvk78929", 
@@ -18,7 +18,14 @@
       "bug_id": "CSCvm15451", 
       "product": "Cisco Cloud Services Platform 2100", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "2.3(0)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Cloud Services Platform 2100"
+      }
     }, 
     {
       "bug_id": "CSCvm15463", 
@@ -185,6 +192,7 @@
           "2.2(2.106)", 
           "2.3(1.115)", 
           "2.3(1.300)", 
+          "2.4(1.98)", 
           "9.6(4.16)", 
           "96.4(0.23)"
         ], 
@@ -203,6 +211,7 @@
           "r251"
         ], 
         "fixed_releases": [
+          "2.3(1.105)", 
           "2.4(1.71)", 
           "92.5(1.167)"
         ], 
@@ -296,7 +305,7 @@
           "2.8"
         ], 
         "fixed_releases": [], 
-        "status": "Fixed", 
+        "status": "Open", 
         "product_name": "Network Level Service"
       }
     }, 
@@ -347,14 +356,18 @@
     {
       "bug_id": "CSCvm15488", 
       "product": "Cisco Meeting Server", 
-      "fix": [], 
+      "fix": [
+        "2.5 (Dec-2018)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "2.2", 
           "2.3", 
           "2.4"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "2.3.TBD"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco Meeting Server"
       }
@@ -362,13 +375,15 @@
     {
       "bug_id": "CSCvm15477", 
       "product": "Cisco Network Analysis Module", 
-      "fix": [], 
+      "fix": [
+        "6.4(2) (Jan-2019)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "6.4(1)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Prime Network Analysis Module Software"
       }
     }, 
@@ -417,13 +432,15 @@
     {
       "bug_id": "CSCvm15479", 
       "product": "Cisco Prime Collaboration Provisioning", 
-      "fix": [], 
+      "fix": [
+        "12.6 (Nov-2018)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "12.6"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Prime Collaboration"
       }
     }, 
@@ -590,9 +607,12 @@
       ], 
       "bug_data": {
         "affected_releases": [
+          "16.4", 
           "16.6.1", 
           "16.6.2", 
           "16.6.4", 
+          "16.7.1", 
+          "16.8.2", 
           "Denali-16.3.1", 
           "Denali-16.3.2", 
           "Denali-16.3.3", 
@@ -602,6 +622,7 @@
           "Denali-16.3.7", 
           "Everest-16.5.1", 
           "Everest-16.6.1", 
+          "Fuji-16.8.1", 
           "Fuji-16.9.1"
         ], 
         "fixed_releases": [], 
@@ -696,7 +717,8 @@
           "13.2(3.172)", 
           "13.2(3.173)", 
           "14.0(0.121)", 
-          "14.0(0.122)"
+          "14.0(0.122)", 
+          "14.0(1c)"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco Nexus 9000 Series Switches"
@@ -733,12 +755,16 @@
     {
       "bug_id": "CSCvm15800", 
       "product": "Cisco HyperFlex System", 
-      "fix": [], 
+      "fix": [
+        "3.5(1a) (Oct-2018)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "3.0(1c)"
         ], 
-        "fixed_releases": [], 
+        "fixed_releases": [
+          "3.5(1a)"
+        ], 
         "status": "Fixed", 
         "product_name": "Cisco HyperFlex HX-Series"
       }
@@ -791,14 +817,16 @@
           "11.6(1)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Finesse"
       }
     }, 
     {
       "bug_id": "CSCvm24442", 
       "product": "Cisco IP Phone 7800 Series with Multiplatform Firmware", 
-      "fix": [], 
+      "fix": [
+        "11.2.3 (Jan-2019)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "11.2(1)"
@@ -826,7 +854,9 @@
     {
       "bug_id": "CSCvm24440", 
       "product": "Cisco IP Phone 7832 with Multiplatform Firmware", 
-      "fix": [], 
+      "fix": [
+        "11.2.3 (Jan-2019)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "11.2(1)"
@@ -839,7 +869,9 @@
     {
       "bug_id": "CSCvm24436", 
       "product": "Cisco IP Phone 8800 Series with Multiplatform Firmware", 
-      "fix": [], 
+      "fix": [
+        "11.2.3 (Jan-2019)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "11.2(1)"
@@ -911,7 +943,9 @@
     {
       "bug_id": "CSCvm15508", 
       "product": "Cisco Unified Communications Manager IM &amp; Presence Service (formerly CUPS)", 
-      "fix": [], 
+      "fix": [
+        "12.5(1) (Oct-2018)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "12.5"
@@ -932,8 +966,10 @@
         ], 
         "fixed_releases": [
           "CCM.12.5(0.98000.1070)", 
+          "CCM.12.5(0.99835.6)", 
           "CUC.12.5(0.97000.396)", 
           "CUP.12.5(0.98000.1180)", 
+          "CUP.12.5(0.99835.6)", 
           "UCMAP.12.5(0.98000.399)"
         ], 
         "status": "Fixed", 
@@ -951,8 +987,10 @@
         ], 
         "fixed_releases": [
           "CCM.12.5(0.98000.1070)", 
+          "CCM.12.5(0.99835.6)", 
           "CUC.12.5(0.97000.396)", 
           "CUP.12.5(0.98000.1180)", 
+          "CUP.12.5(0.99835.6)", 
           "UCMAP.12.5(0.98000.399)"
         ], 
         "status": "Fixed", 
@@ -1007,8 +1045,12 @@
         "affected_releases": [
           "12.5"
         ], 
-        "fixed_releases": [], 
-        "status": "Open", 
+        "fixed_releases": [
+          "12.5(0.305)", 
+          "12.5(1.3)", 
+          "CUC.12.5(0.97000.413)"
+        ], 
+        "status": "Fixed", 
         "product_name": "Cisco Unity Connection"
       }
     }, 
@@ -1203,10 +1245,10 @@
       "fix": [], 
       "bug_data": {
         "affected_releases": [
-          "4.4(1.24)"
+          "unspecified"
         ], 
         "fixed_releases": [], 
-        "status": "Fixed", 
+        "status": "Open", 
         "product_name": "Cisco TelePresence Server"
       }
     }, 
@@ -1384,7 +1426,9 @@
     {
       "bug_id": "CSCvm15476", 
       "product": "Cisco Mobility Services Engine", 
-      "fix": [], 
+      "fix": [
+        "CMX 10.6 (Jan-2019)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "10.6"
