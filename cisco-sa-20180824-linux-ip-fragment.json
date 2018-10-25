@@ -1,5 +1,5 @@
 {
-  "version": "1.13", 
+  "version": "1.14", 
   "products": [
     {
       "bug_id": "CSCvk78929", 
@@ -125,7 +125,9 @@
       "product": "Cisco AMP Virtual Private Cloud Appliance", 
       "fix": [], 
       "bug_data": {
-        "affected_releases": [], 
+        "affected_releases": [
+          "n/a"
+        ], 
         "fixed_releases": [], 
         "status": "Open", 
         "product_name": "Cisco AMP for Endpoints"
@@ -175,6 +177,9 @@
       "bug_id": "CSCvm05464", 
       "product": "Cisco Firepower Threat Defense (FTD) Software", 
       "fix": [
+        "6.2.3.6 (Oct-2018)", 
+        "6.2.2.5 (Nov-2018)", 
+        "6.2.0.7 (Dec-2018)", 
         "6.2.3-99 (FTD Virtual for the Microsoft Azure Cloud - Available)"
       ], 
       "bug_data": {
@@ -212,10 +217,12 @@
         ], 
         "fixed_releases": [
           "2.3(1.105)", 
+          "2.3(1.108)", 
+          "2.4(1.202)", 
           "2.4(1.71)", 
           "92.5(1.167)"
         ], 
-        "status": "Fixed", 
+        "status": "Open", 
         "product_name": "Cisco Firepower 9000 Series"
       }
     }, 
@@ -239,7 +246,9 @@
     {
       "bug_id": "CSCvm09119", 
       "product": "Cisco Secure Access Control System (ACS)", 
-      "fix": [], 
+      "fix": [
+        "No fix expected - End of life"
+      ], 
       "bug_data": {
         "affected_releases": [
           "5.8(0.32.10)"
@@ -298,7 +307,8 @@
       "bug_id": "CSCvm59990", 
       "product": "Cisco Common Services Platform Collector", 
       "fix": [
-        "CSPC 2.8 (Oct-2018)"
+        "CSPC 2.8.0.1 (Nov-2018)", 
+        "CSPC 2.7.4.4 (Nov-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -349,7 +359,7 @@
           "2.2"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Network Level Service"
       }
     }, 
@@ -396,7 +406,7 @@
           "18.2.0"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Policy Suite for Mobile"
       }
     }, 
@@ -568,8 +578,8 @@
       "bug_id": "CSCvm15454", 
       "product": "Cisco Application Policy Infrastructure Controller (APIC)", 
       "fix": [
-        "4.0 (Dec-2018)", 
-        "3.3 (Dec-2018)"
+        "4.0 (Oct-2018)", 
+        "3.2.4 (Nov-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
@@ -667,7 +677,7 @@
           "2.1(1)"
         ], 
         "fixed_releases": [], 
-        "status": "Open", 
+        "status": "Fixed", 
         "product_name": "Cisco Network Assurance Engine"
       }
     }, 
@@ -707,7 +717,10 @@
     {
       "bug_id": "CSCvm15457", 
       "product": "Cisco Nexus 9000 Series Fabric Switches - ACI mode", 
-      "fix": [], 
+      "fix": [
+        "14.0 (Oct-2018)", 
+        "13.2.4 (Nov-2018)"
+      ], 
       "bug_data": {
         "affected_releases": [
           "12.2(1n)", 
@@ -718,7 +731,8 @@
           "13.2(3.173)", 
           "14.0(0.121)", 
           "14.0(0.122)", 
-          "14.0(1c)"
+          "14.0(1c)", 
+          "14.1(0.84)"
         ], 
         "status": "Fixed", 
         "product_name": "Cisco Nexus 9000 Series Switches"
@@ -773,7 +787,14 @@
       "bug_id": "CSCvm18261", 
       "product": "Cisco UCS B-Series M5 Blade Servers - Integrated Management Controller", 
       "fix": [], 
-      "bug_data": null
+      "bug_data": {
+        "affected_releases": [
+          "4.0(1a)"
+        ], 
+        "fixed_releases": [], 
+        "status": "Open", 
+        "product_name": "Cisco Unified Computing System"
+      }
     }, 
     {
       "bug_id": "CSCvm15466", 
@@ -944,7 +965,7 @@
       "bug_id": "CSCvm15508", 
       "product": "Cisco Unified Communications Manager IM &amp; Presence Service (formerly CUPS)", 
       "fix": [
-        "12.5(1) (Oct-2018)"
+        "12.5(1) (Nov-2018)"
       ], 
       "bug_data": {
         "affected_releases": [
