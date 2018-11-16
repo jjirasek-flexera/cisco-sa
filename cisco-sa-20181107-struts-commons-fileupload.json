@@ -1,5 +1,5 @@
 {
-  "version": "1.5",
+  "version": "1.6",
   "products": [
     {
       "product": "Cisco SocialMiner",
@@ -112,7 +112,9 @@
     {
       "product": "Cisco Prime License Manager",
       "bug_id": "CSCvn18924",
-      "fix": [],
+      "fix": [
+        "10.5.2 (Dec 2018)\n11.5.1 (Dec 2018)"
+      ],
       "bug_data": {
         "product_name": "Cisco Unified Communications Licensing",
         "affected_releases": [
@@ -131,6 +133,21 @@
         "product_name": "Cisco Prime Service Catalog",
         "affected_releases": [
           "12.1"
+        ],
+        "fixed_releases": [],
+        "status": "Fixed"
+      }
+    },
+    {
+      "product": "Cisco IOx Fog Director",
+      "bug_id": "CSCvn19758",
+      "fix": [
+        "1.8 (Feb 2019)"
+      ],
+      "bug_data": {
+        "product_name": "Cisco IOS",
+        "affected_releases": [
+          "FD-1.8.0"
         ],
         "fixed_releases": [],
         "status": "Fixed"
@@ -328,7 +345,9 @@
           "11.5",
           "12.0"
         ],
-        "fixed_releases": [],
+        "fixed_releases": [
+          "12.5(1.9)"
+        ],
         "status": "Open"
       }
     },
