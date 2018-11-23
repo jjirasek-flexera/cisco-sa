@@ -1,11 +1,11 @@
 {
-  "version": "1.6",
+  "version": "1.11",
   "products": [
     {
       "product": "Cisco SocialMiner",
       "bug_id": "CSCvn22343",
       "fix": [
-        "Patch file available for 11.5/11.6 in Nov 2018\n12.0 (Jan 2019)"
+        "Patch file available for 11.5/11.6 in Dec 2018\n12.0.1 (Jan 2019)"
       ],
       "bug_data": {
         "product_name": "Cisco SocialMiner",
@@ -20,11 +20,12 @@
       "product": "Cisco Webex Meetings Server",
       "bug_id": "CSCvn18895",
       "fix": [
-        "3.0MR2 Security Patch 2 (Dec 2018)"
+        "2.8MR3 Security Patch 1 (Dec 2018)\n3.0MR2 Security Patch 2 (Dec 2018)"
       ],
       "bug_data": {
         "product_name": "Cisco Webex Meetings Server",
         "affected_releases": [
+          "2.8",
           "3.0"
         ],
         "fixed_releases": [],
@@ -48,7 +49,7 @@
       "product": "Cisco Identity Services Engine (ISE)",
       "bug_id": "CSCvn17524",
       "fix": [
-        "2.2 Patch 12 (Nov 2018)\n2.4 Patch 5 (Nov 2018)\n2.5 (Dec 2018)"
+        "Hot patch available for 2.3 Patch 5\n2.2 Patch 12 (Nov 2018)\n2.3 Patch 6 (Feb 2019)\n2.4 Patch 5 (Nov 2018)\n2.5 (Dec 2018)"
       ],
       "bug_data": {
         "product_name": "Cisco Identity Services Engine",
@@ -66,7 +67,7 @@
       "product": "Cisco Secure Access Control System (ACS)",
       "bug_id": "CSCvn18934",
       "fix": [
-        "No fix planned"
+        "No fix planned 1"
       ],
       "bug_data": {
         "product_name": "Cisco Secure Access Control Server Solution Engine",
@@ -96,14 +97,12 @@
       "product": "Cisco Prime Infrastructure",
       "bug_id": "CSCvn18917",
       "fix": [
-        "3.5 (Dec 2018)"
+        "3.3.1 Update 03 (Jan 2019)\n3.4.1 Update 02 (Jan 2019)\n3.5 (Dec 2018)"
       ],
       "bug_data": {
         "product_name": "Cisco Prime Infrastructure",
         "affected_releases": [
-          "3.2(3.0)",
-          "3.4(0.0)",
-          "3.5(0.0)"
+          "3.4(0.0)"
         ],
         "fixed_releases": [],
         "status": "Fixed"
@@ -121,14 +120,50 @@
           "10.5(2)",
           "11.5.1"
         ],
-        "fixed_releases": [],
+        "fixed_releases": [
+          "ELM.10.5(2.13001.5)",
+          "ELM.11.5(1.16001.4)",
+          "ELM.11.5(1.16001.5)"
+        ],
         "status": "Open"
+      }
+    },
+    {
+      "product": "Cisco Prime Network Registrar IP Address Manager (IPAM)",
+      "bug_id": "CSCvn18913",
+      "fix": [
+        "No fix planned"
+      ],
+      "bug_data": {
+        "product_name": "Cisco Prime Network Registrar",
+        "affected_releases": [
+          "8.3"
+        ],
+        "fixed_releases": [],
+        "status": "Terminated"
+      }
+    },
+    {
+      "product": "Cisco Prime Network",
+      "bug_id": "CSCvn18910",
+      "fix": [
+        "5.2 (May 2019)"
+      ],
+      "bug_data": {
+        "product_name": "Cisco Prime Network",
+        "affected_releases": [
+          "5.2(0)"
+        ],
+        "fixed_releases": [],
+        "status": "Fixed"
       }
     },
     {
       "product": "Cisco Prime Service Catalog",
       "bug_id": "CSCvn22307",
-      "fix": [],
+      "fix": [
+        "12.1 v7 Patch (Dec 2018)"
+      ],
       "bug_data": {
         "product_name": "Cisco Prime Service Catalog",
         "affected_releases": [
@@ -154,6 +189,24 @@
       }
     },
     {
+      "product": "Cisco IoT Field Network Director (formerly Cisco Connected Grid Network Management System)",
+      "bug_id": "CSCvn20600",
+      "fix": [
+        "4.3.2 (Dec 2018)"
+      ],
+      "bug_data": {
+        "product_name": "Network Level Service",
+        "affected_releases": [
+          "4.4(0.36)"
+        ],
+        "fixed_releases": [
+          "4.3(2.2)",
+          "4.4(0.45)"
+        ],
+        "status": "Fixed"
+      }
+    },
+    {
       "product": "Cisco Emergency Responder",
       "bug_id": "CSCvn18956",
       "fix": [
@@ -172,14 +225,30 @@
       }
     },
     {
+      "product": "Cisco Enterprise Chat and Email",
+      "bug_id": "CSCvn18957",
+      "fix": [
+        "12.0.1 (Jan 2019)"
+      ],
+      "bug_data": {
+        "product_name": "Cisco Enterprise Chat and Email",
+        "affected_releases": [
+          "12.0(1)"
+        ],
+        "fixed_releases": [],
+        "status": "Fixed"
+      }
+    },
+    {
       "product": "Cisco Finesse",
       "bug_id": "CSCvn22344",
-      "fix": [],
+      "fix": [
+        "Patch file available for 11.6 in Dec 2018\n12.0.1 (Jan 2019)"
+      ],
       "bug_data": {
         "product_name": "Cisco Finesse",
         "affected_releases": [
-          "11.6(1)",
-          "12.0(1)"
+          "11.6(1)"
         ],
         "fixed_releases": [],
         "status": "Fixed"
@@ -207,15 +276,14 @@
       "product": "Cisco Hosted Collaboration Solution for Contact Center",
       "bug_id": "CSCvn18962",
       "fix": [
-        "12.0 (Jan 2019)"
+        "12.0.1 (Jan 2019)"
       ],
       "bug_data": {
         "product_name": "Cisco Hosted Collaboration Solution for Contact Center",
         "affected_releases": [
           "11.0(1)",
           "11.5(1)",
-          "11.6(1)",
-          "12.0(1)"
+          "11.6(1)"
         ],
         "fixed_releases": [],
         "status": "Fixed"
@@ -224,14 +292,16 @@
     {
       "product": "Cisco MediaSense",
       "bug_id": "CSCvn22346",
-      "fix": [],
+      "fix": [
+        "No fix planned"
+      ],
       "bug_data": {
         "product_name": "Cisco MediaSense",
         "affected_releases": [
           "11.5(1)"
         ],
         "fixed_releases": [],
-        "status": "Open"
+        "status": "Terminated"
       }
     },
     {
@@ -247,8 +317,12 @@
           "11.5(1)",
           "12.5(1)"
         ],
-        "fixed_releases": [],
-        "status": "Open"
+        "fixed_releases": [
+          "CUP.11.5(1.16900.16)",
+          "CUP.12.5(1.10000.6)",
+          "CUP.14.0(0.98000.90)"
+        ],
+        "status": "Fixed"
       }
     },
     {
@@ -264,7 +338,9 @@
           "11.5(1.10000.6)",
           "12.0(1.10000.10)"
         ],
-        "fixed_releases": [],
+        "fixed_releases": [
+          "CCM.10.5(2.18900.12)"
+        ],
         "status": "Open"
       }
     },
@@ -272,15 +348,14 @@
       "product": "Cisco Unified Contact Center Enterprise",
       "bug_id": "CSCvn18888",
       "fix": [
-        "12.0 (Jan 2019)"
+        "12.0.1 (Jan 2019)"
       ],
       "bug_data": {
         "product_name": "Cisco Unified Contact Center Enterprise",
         "affected_releases": [
           "11.0(3)",
           "11.5(1)",
-          "11.6(1)",
-          "12.0(1)"
+          "11.6(1)"
         ],
         "fixed_releases": [],
         "status": "Fixed"
@@ -290,7 +365,7 @@
       "product": "Cisco Unified Contact Center Express",
       "bug_id": "CSCvn18955",
       "fix": [
-        "Patch file available for 11.5/11.6 in Nov 2018\n12.0 (Jan 2019)"
+        "Patch file available for 11.5/11.6 in Dec 2018\n12.0.1 (Jan 2019)"
       ],
       "bug_data": {
         "product_name": "Cisco Unified Contact Center Express",
@@ -302,34 +377,65 @@
       }
     },
     {
-      "product": "Cisco Unified Intelligence Center",
-      "bug_id": "CSCvn18887",
-      "fix": [],
+      "product": "Cisco Unified E-Mail Interaction Manager",
+      "bug_id": "CSCvn18958",
+      "fix": [
+        "No fix planned"
+      ],
       "bug_data": {
-        "product_name": "Cisco Unified Intelligence Center",
+        "product_name": "Cisco Unified E-Mail Interaction Manager",
         "affected_releases": [
-          "11.6(1)"
+          "11.5(1)"
         ],
         "fixed_releases": [],
         "status": "Open"
       }
     },
     {
+      "product": "Cisco Unified Intelligence Center",
+      "bug_id": "CSCvn18887",
+      "fix": [
+        "Patch file available for 11.5/11.6 in Dec 2018\n12.0.1 (Jan 2019)"
+      ],
+      "bug_data": {
+        "product_name": "Cisco Unified Intelligence Center",
+        "affected_releases": [
+          "11.6(1)"
+        ],
+        "fixed_releases": [],
+        "status": "Fixed"
+      }
+    },
+    {
       "product": "Cisco Unified Intelligent Contact Management Enterprise",
       "bug_id": "CSCvn18888",
       "fix": [
-        "12.0 (Jan 2019)"
+        "12.0.1 (Jan 2019)"
       ],
       "bug_data": {
         "product_name": "Cisco Unified Contact Center Enterprise",
         "affected_releases": [
           "11.0(3)",
           "11.5(1)",
-          "11.6(1)",
-          "12.0(1)"
+          "11.6(1)"
         ],
         "fixed_releases": [],
         "status": "Fixed"
+      }
+    },
+    {
+      "product": "Cisco Unified Web Interaction Manager",
+      "bug_id": "CSCvn18958",
+      "fix": [
+        "No fix planned"
+      ],
+      "bug_data": {
+        "product_name": "Cisco Unified E-Mail Interaction Manager",
+        "affected_releases": [
+          "11.5(1)"
+        ],
+        "fixed_releases": [],
+        "status": "Open"
       }
     },
     {
@@ -346,7 +452,11 @@
           "12.0"
         ],
         "fixed_releases": [
-          "12.5(1.9)"
+          "12.5(0.307)",
+          "12.5(1.12)",
+          "12.5(1.9)",
+          "CUC.12.5(0.97100.6)",
+          "CUC.12.5(1.10000.7)"
         ],
         "status": "Open"
       }
@@ -354,11 +464,13 @@
     {
       "product": "Cisco Virtualized Voice Browser",
       "bug_id": "CSCvn18963",
-      "fix": [],
+      "fix": [
+        "Patch file available for 11.5/11.6 in Dec 2018\n12.0.1 (Jan 2019)"
+      ],
       "bug_data": {
         "product_name": "Cisco Unified Contact Center Enterprise",
         "affected_releases": [
-          "12.0(1)"
+          "11.6(1)"
         ],
         "fixed_releases": [],
         "status": "Fixed"
@@ -372,6 +484,19 @@
         "product_name": "Cisco Content Delivery Engine Series",
         "affected_releases": [
           "4.4(2)"
+        ],
+        "fixed_releases": [],
+        "status": "Open"
+      }
+    },
+    {
+      "product": "Cisco Mobility Services Engine",
+      "bug_id": "CSCvn22305",
+      "fix": [],
+      "bug_data": {
+        "product_name": "Cisco Mobility Services Engine",
+        "affected_releases": [
+          "8.0(150)"
         ],
         "fixed_releases": [],
         "status": "Open"
@@ -393,9 +518,37 @@
       }
     },
     {
+      "product": "Cisco Prime Network Change and Configuration Management",
+      "bug_id": "CSCvn19865",
+      "fix": [
+        "3.6.1 (Dec 2018)\n3.7 (Mar 2019)"
+      ],
+      "bug_data": {
+        "product_name": "Cisco Network Configuration and Change Management",
+        "affected_releases": [
+          "3.6"
+        ],
+        "fixed_releases": [],
+        "status": "Fixed"
+      }
+    },
+    {
+      "product": "Cisco Smart Connected Spaces",
+      "bug_id": "CSCvn22310",
+      "fix": [],
+      "bug_data": {
+        "product_name": "Cisco Smart+Connected Spaces",
+        "affected_releases": [],
+        "fixed_releases": [],
+        "status": "Open"
+      }
+    },
+    {
       "product": "Cisco Smart Net Total Care - Contracts Information System Process Controller",
       "bug_id": "CSCvn18884",
-      "fix": [],
+      "fix": [
+        "4.3.6 (Dec 2018)"
+      ],
       "bug_data": {
         "product_name": "Network Level Service",
         "affected_releases": [
@@ -406,9 +559,11 @@
       }
     },
     {
-      "product": "Cisco Webex Event Center",
+      "product": "Cisco Webex Centers - Meeting Center, Training Center, Event Center, Support Center",
       "bug_id": "CSCvn24113",
-      "fix": [],
+      "fix": [
+        "T33.7.2 (Dec 2018)"
+      ],
       "bug_data": {
         "product_name": "Cisco Webex Meetings Online",
         "affected_releases": [
@@ -421,7 +576,9 @@
     {
       "product": "Cisco Webex Meetings",
       "bug_id": "CSCvn18908",
-      "fix": [],
+      "fix": [
+        "Cisco will update affected systems in Dec 2019"
+      ],
       "bug_data": {
         "product_name": "Cisco Webex Meetings Online",
         "affected_releases": [
